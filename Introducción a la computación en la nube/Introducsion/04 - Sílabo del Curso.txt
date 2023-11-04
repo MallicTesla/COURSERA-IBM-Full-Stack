@@ -1,0 +1,173 @@
+Introducción a la Informática en la Nube
+
+MÓDULO 1: Resumen de la Informática en la Nube
+Introducción y Objetivos de Aprendizaje
+
+ LECCIÓN 1: Introducción a la Informática en la Nube
+
+      Video: Definición y características esenciales de la informática en la nube
+
+      Video: Definición y Características Esenciales de la Informática en la Nube - Visión General de un Experto
+
+      Video: Breve historia y evolución de la nube
+
+      Video: Consideraciones clave para la informática en la nube
+
+      Video: Proveedores de servicios en la nube clave y sus servicios
+
+      Lectura: Resumen de la Lección
+
+ LECCIÓN 2: Caso de negocio para la Informática en la Nube
+
+      Video: Adopción de la nube: Ya no es una elección
+
+      Video: Puntos de Vista de Expertos: Beneficios y Casos de Uso de la Adopción de la Nube
+
+      Video: Adopción de la nube: Algunos estudios de caso
+
+      Lectura: Resumen de la Lección
+
+ LECCIÓN 3: Tecnologías Emergentes aceleradas por la nube
+
+      Video: Internet de las Cosas en la nube
+
+      Video: Inteligencia Artificial en la nube
+
+      Video: Blockchain y Analítica en la nube
+
+      Lectura: Resumen de la Lección
+
+      Evaluación Práctica
+
+      Evaluación Graduada
+
+MÓDULO 2: Modelos de Computación en la Nube
+Introducción y Objetivos de Aprendizaje
+
+ LECCIÓN 1: Modelos de Servicio
+
+      Video: Resumen de los modelos de servicio en la nube
+
+      Video: Infraestructura como Servicio
+
+      Video: Plataforma como Servicio
+
+      Video: Software como Servicio
+
+      Lectura: Resumen y Aspectos Destacados
+
+ LECCIÓN 2: Modelos de Despliegue
+
+      Video: Nube Pública
+
+      Video: Nube Privada
+
+      Video: Nube Híbrida
+
+      Lectura: Resumen de la Lección
+
+      Laboratorio Práctico: Crear una cuenta en la nube
+
+      Evaluación Práctica
+
+      Evaluación Graduada
+
+MÓDULO 3: Componentes de la Informática en la Nube
+Introducción y Objetivos de Aprendizaje
+
+ LECCIÓN 1: Infraestructura en la Nube
+
+      Video: Resumen de la infraestructura en la nube
+
+      Video: Virtualización y Explicación de Máquinas Virtuales
+
+      Video: Tipos de Máquinas Virtuales
+
+      Video: Servidores Bare Metal
+
+      Video: Redes Seguras en la Nube
+
+      Video: Contenedores
+
+      Lectura: Resumen de la Lección
+
+
+ LECCIÓN 2: Almacenamiento en la Nube y Redes de Distribución de Contenidos
+
+      Video: Conceptos básicos del almacenamiento en la nube
+
+      Video: Almacenamiento de Archivos
+
+      Video: Almacenamiento de Bloques
+
+      Video: Descripción General del Almacenamiento de Objetos
+
+      Video: Almacenamiento de Objetos - Niveles y API
+
+      Video: Redes de Distribución de Contenidos
+
+      Lectura: Resumen y Aspectos Destacados
+
+      Evaluación Práctica
+
+      Evaluación Graduada
+
+
+MÓDULO 4: Tendencias y Prácticas Emergentes
+Introducción y Objetivos de Aprendizaje
+
+ LECCIÓN 1: Multinube Híbrida, Microservicios y Computación sin Servidor
+
+      Video: Multinube Híbrida
+
+      Video: Microservicios
+
+      Video: Computación sin Servidor
+
+      Lectura: Resumen de la Lección
+
+ LECCIÓN 2: Aplicaciones Nativas de la Nube, DevOps y Modernización de Aplicaciones
+
+      Video: Aplicaciones Nativas de la Nube
+
+      Video: DevOps en la nube
+
+      Video: Modernización de Aplicaciones
+
+      Lectura: Resumen de la Lección
+
+      Evaluación Práctica
+
+      Evaluación Graduada
+
+
+MÓDULO 5: Seguridad en la Nube y Monitoreo, Estudios de Casos y Empleos
+Introducción y Objetivos de Aprendizaje
+
+ LECCIÓN 1: Seguridad en la Nube y Monitoreo de la Nube
+
+      Video: ¿Qué es la seguridad en la nube - Parte 1
+
+      Video: ¿Qué es la seguridad en la nube - Parte 2
+
+      Video: Gestión de Identidad y Acceso
+
+      Video: Cifrado en la Nube
+
+      Video: Monitoreo de la nube - Conceptos básicos y beneficios
+
+      Lectura: Resumen de la Lección
+
+ LECCIÓN 2: Estudios de Casos y Roles de Trabajo
+
+      Video: Estudios de casos en diferentes sectores industriales
+
+      Video: Oportunidades de carrera y roles de trabajo en la informática en la nube
+
+      Lectura: Resumen de la Lección
+
+      Evaluación Práctica
+
+      Evaluación Graduada
+
+      Tarea Final: Laboratorios Prácticos: Diseñar una solución basada en la nube

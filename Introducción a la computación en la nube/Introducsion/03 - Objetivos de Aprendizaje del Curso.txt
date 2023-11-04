@@ -1,0 +1,32 @@
+Objetivos de Aprendizaje del Curso
+Introducción a la Informática en la Nube - Objetivos de Aprendizaje del Curso:
+
+Al completar este curso, podrás:
+
+Definir la informática en la nube y explicar sus características esenciales, evolución y el caso de negocio para la adopción de la nube
+
+Explicar cómo algunas de las tecnologías emergentes, como Internet de las Cosas, Inteligencia Artificial, Blockchain y Analítica, son respaldadas por la nube
+
+Describir las características clave, los beneficios y los casos de uso de diferentes tipos de modelos de servicios y despliegue en la nube
+
+Explicar los conceptos y componentes de la infraestructura en la nube, como máquinas virtuales, servidores bare metal, redes en la nube y tecnologías basadas en contenedores
+
+Describir las características, beneficios y casos de uso de diferentes tipos de almacenamiento en la nube
+
+Explicar cómo funcionan las Redes de Distribución de Contenidos
+
+Describir las características, casos de uso y beneficios de las tendencias emergentes en la nube, como la Multinube Híbrida, Microservicios y la Computación sin Servidor
+
+Explicar los conceptos clave, principios de desarrollo, casos de uso y beneficios de las aplicaciones nativas de la nube
+
+Describir cómo las prácticas de DevOps ayudan a abordar algunas de las complejidades planteadas por la nube
+
+Explicar cómo las organizaciones pueden modernizar sus aplicaciones
+
+Explicar los conceptos clave y los componentes de la seguridad en la nube, incluida la Gestión de Identidad y Acceso, y el Cifrado en la Nube
+
+Enumerar los roles de trabajo y las oportunidades de carrera disponibles en la informática en la nube
+
+(Opcional) Crear una cuenta en IBM Cloud
+
+(Opcional) Crear una instancia de almacenamiento de objetos en IBM Cloud y agregar elementos a tu almacenamiento.

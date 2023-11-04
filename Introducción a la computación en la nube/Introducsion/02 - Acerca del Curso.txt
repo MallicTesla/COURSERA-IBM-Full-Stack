@@ -1,0 +1,21 @@
+Visión General del Curso
+
+Este curso te introduce en los conceptos fundamentales de la informática en la nube.
+Adquirirás los conocimientos básicos necesarios para comprender la informática en la nube desde una perspectiva empresarial y para convertirte en un profesional de la nube.
+
+Aprenderás sobre la definición y características esenciales de la informática en la nube, su historia, tendencias emergentes y el caso de negocio de la informática en la nube.
+
+También conocerás los diversos modelos de servicios y despliegue de la nube, así como los componentes clave de una arquitectura en la nube.
+Te presentamos a algunos de los destacados proveedores de servicios de nuestro tiempo, los servicios que ofrecen, algunos estudios de caso de informática en la nube en
+    diferentes sectores industriales y las oportunidades laborales en el ámbito de la informática en la nube.
+Durante este curso, crearás una cuenta en IBM Cloud y configurarás una instancia de almacenamiento de objetos para guardar archivos en la nube.
+
+¿Para quiénes está destinado este curso?
+Cualquier persona que desee aprender sobre la Informática en la Nube, ya sea para comprender qué es la nube (por ejemplo, ejecutivos de alto nivel, gerentes,
+    vendedores, estudiantes, etc.) o para iniciar una carrera como Profesional de la Nube (por ejemplo, desarrolladores, arquitectos de sistemas/en la nube, líderes técnicos,
+    ingenieros de datos, ingenieros de seguridad, consultores, vendedores técnicos, etc.).
+
+Requisitos previos
+Conocimientos básicos de informática.
+
+No se requiere conocimiento previo de Informática en la Nube ni de Programación Informática.

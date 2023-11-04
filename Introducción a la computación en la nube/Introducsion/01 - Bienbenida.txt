@@ -1,0 +1,40 @@
+Computación diseñada para brindarle las habilidades fundamentales que necesita para ser un profesional de la nube.
+
+Hoy en día, la nube representa un mercado enorme que sigue creciendo a una escala de enorme potencia computacional que alguna vez se mostró un.
+
+La prerrogativa de las grandes empresas está ahora al alcance de la mano incluso de las más pequeñas empresas e individuos desarrolladores
+    gracias a la nube además la nube hace que toda esta potencia computacional sea muy asequible con economía de pago por uso si nos fijamos
+    en algunas de las principales tecnologías emergentes de nuestros tiempos, como la inteligencia artificial, el Internet de las cosas todas
+    estas tecnologías funcionan con cantidades masivas de datos y necesitan un enorme espacio de almacenamiento y computación Potencia para
+    hacer que la nube sea posiblemente la única plataforma viable para estas tecnologías este curso está diseñado para todos, no importa si
+    tiene experiencia en tecnologías de la nube si es un informático que busca mejorar sus habilidades o explorar este dominio un recién
+    graduado que busca hacer una carrera en tecnologías de la nube o un responsable de la toma de decisiones de TI, este curso lo equipará
+    con lo que necesita empezar, este curso le presentará los Conceptos básicos de la computación en la nube en los siguientes módulos módulo
+    1 descripción general de módulo de computación en nube módulo 2 modelos de computación en nube módulo 3 componentes de la nube módulo de
+    computación 4 Tendencias y prácticas emergentes y módulo 5 Seguridad en la nube supervisión, casos prácticos, trabajos y evaluación final
+    en este En el primer módulo, aprenderá sobre las características esenciales de la historia y evolución, consideraciones clave y proveedores
+    de servicios de computación en la nube.
+
+También explorará algunos estudios de casos y tecnologías emergentes como Internet de las cosas, inteligencia artificial y cadena de bloques
+    asociados a la nube computación, el segundo módulo ofrecerá una descripción general de los tres módulos de servicios en la nube infraestructura
+    como plataforma de servicios como un servicio y software como servicio. Además, aprenderá sobre los modelos de desarrollo de nube pública
+    Comunidad privada e híbrida en el tercer módulo aprenderá sobre los componentes de la infraestructura de la nube como máquinas virtuales
+    servidores y contenedores completos también obtendrá información sobre los tipos de almacenamiento en la nube, como archivos bloques y objetos.
+Además, aprenderá sobre las redes de entrega de contenido en el cuarto módulo, analizará las tendencias emergentes de la computación en nube,
+    como la computación en nube híbrida los microservicios y la computación sin servidor también explorará las aplicaciones nativas de la nube
+    DevOps en la nube. y la modernización de aplicaciones.
+
+En el quinto módulo, aprenderá sobre Seguridad en la nube y cómo administrar el acceso y la identidad. Además de aprenderá sobre el
+    cifrado y la supervisión en la nube el módulo también cubrirá algunos casos de estudios en diferentes sectores del sector y obtendrá una
+    visión del trabajo oportunidades disponibles en la nube informática.
+
+En el último módulo podrás poner a prueba sus conocimientos sobre lo aprendido en el curso con un cuestionario final, también hay un proyecto
+    de honores en el que puedes aplicar tus habilidades y conocimientos en este Laboratorio práctico.
+
+Implementará una aplicación en la nube antes de crear una imagen de contenedor de Docker, cargarla en un registro de IBM Cloud container y
+    desplegarla mediante un registro de tecnología sin servidor llamado IBM code motor no se requieren conocimientos de programación.
+Estamos muy contentos de tenerlo con nosotros como usted comienza su viaje a la computación en la nube.
+
+Si tiene algún problema con alguno de los materiales del curso, no dude en contacta con nosotros en el foro de discusión.
+
+Buena suerte y empecemos gracias.
