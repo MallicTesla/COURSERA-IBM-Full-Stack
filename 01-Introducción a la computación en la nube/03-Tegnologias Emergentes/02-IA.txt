@@ -1,0 +1,43 @@
+Darle sentido a los interminables flujos de datos es donde entra en juego la inteligencia artificial o IA.
+
+Muchas de las aplicaciones en las que aplicamos la IA hoy en día simplemente no habrían sido posibles sin la computación escalable bajo demanda que ofrece la nube.
+
+Existe una relación tripartita entre la IA, el IoT y la nube. Del mismo modo que la IA consume los datos producidos por los dispositivos de IoT, el comportamiento de los
+    dispositivos de IoT puede determinarse en función de las respuestas de la IA.
+
+Por ejemplo, los asistentes inteligentes. Un tipo común de dispositivo de IoT sigue aprendiendo sobre las preferencias del usuario a medida que aumenta su uso.
+
+Por ejemplo, las canciones que les gustan, la temperatura de su hogar, las comidas preferidas y, con el tiempo, anticipan sus acciones en función del historial del usuario.
+
+Lo que vemos es una relación simbiótica entre el IoT, la IA y la nube.
+
+El IoT proporciona los datos, la IA potencia la información y estas dos tecnologías emergentes aprovechan la escalabilidad de la nube y la potencia de procesamiento para ofrecer
+    valor tanto a las personas como a las empresas.
+
+Veamos cómo la Asociación de Tenis de los Estados Unidos (USTA) utiliza la IA en la nube para ofrecer experiencias digitales únicas a millones de aficionados de todo el mundo.
+
+Durante dos semanas, al final de cada verano, los aficionados al tenis de todo el mundo se centran en la ciudad de Nueva York y en el US Open.
+
+Cientos de miles presenciales y millones más online. Pero donde uno ve el tenis, IBM ve los datos, las puntuaciones en las estadísticas, las imágenes, los sonidos.
+
+IBM integra y analiza los datos que salen de la cancha y ofrece experiencias digitales únicas a más de 10 millones de aficionados al tenis de todo el mundo, y lo hacemos todo
+    en la nube de IBM. La nube de IBM es la base digital del US Open.
+
+Se escala rápidamente para adaptarse a un aumento del 5 000% en el tráfico web y ofrece una experiencia uniforme a nuestros seguidores de todo el mundo.
+
+Con Watson en IBM Cloud, podemos atraer a los fans de formas únicas, año tras año. Slam Tracker analiza más de 26 millones de puntos de datos históricos. Ofrece a los fanáticos
+    una visión profunda de los partidos destacados y pueden ver cómo cambia el ritmo de un partido en tiempo real.
+
+AI Highlights utiliza Watson para procesar miles de horas de vídeo del US Open. Puede oír los aplausos de la multitud, puede ver a un jugador celebrando y sabe lo que hace que
+    un buen tenis sea lo más destacado.
+
+Este año vamos a poner el poder de los mejores momentos de la IA en manos de jugadores y entrenadores estadounidenses. Watson está analizando el vídeo de los partidos para que
+    los entrenadores puedan encontrar rápidamente las imágenes que necesitan para guiar el desarrollo de sus jugadores.
+
+Si necesitas saber dónde aparcar, encontrar una buena hamburguesa o hacerte con la última equipación del US Open, puedes encontrar las respuestas con la función de información
+    para los huéspedes de la aplicación del US Open y de la web móvil con Watson.
+
+Trabajamos con IBM porque nos mantienen a la vanguardia de la experiencia de los fanáticos. Nos ayudan a adoptar las últimas tecnologías, como la nube y la IA, y dan vida a los
+    datos de una manera accesible y atractiva para nuestros seguidores.
+
+En el siguiente vídeo, veremos cómo la cadena de bloques y la analítica en la nube están afectando a las empresas.

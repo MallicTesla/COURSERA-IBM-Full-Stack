@@ -1,0 +1,103 @@
+Glosario del Módulo 1: Descripción general de la computación en la nube
+
+AI
+
+Inteligencia artificial
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Blockchain
+
+Una red inmutable que permite a los miembros ver solo aquellas transacciones que son relevantes para ellos
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Amplio acceso a la red
+
+Se puede acceder a los recursos de computación en la nube a través de la red.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Computación en la nube
+
+Un modelo para permitir un acceso conveniente a la red bajo demanda a un conjunto compartido de recursos informáticos configurables que se pueden
+    aprovisionar y liberar rápidamente con un mínimo esfuerzo de gestión o interacción con el proveedor de servicios.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+PCG
+
+Plataforma en la nube de Google
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Hipervisor
+
+Una pequeña capa de software que permite que múltiples sistemas operativos se ejecuten uno al lado del otro, compartiendo los mismos recursos informáticos
+    físicos.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+IDC
+
+Corporación Internacional de Datos
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+IoT
+
+Internet de las Cosas
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Servicio medido
+
+Sólo pagas por lo que usas o reservas sobre la marcha
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+NIST
+
+Instituto Nacional de Estándares y Tecnología
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+PaaS
+
+Plataforma como servicio
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Pago por uso
+
+Los usuarios pueden solicitar recursos en la nube de un conjunto más grande de recursos disponibles y pagarlos por uso.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+POP
+
+Protocolo de la Oficina postal
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Elasticidad rápida
+
+Puede aumentar o disminuir los recursos según su demanda debido a la propiedad elástica de la nube.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+SaaS
+
+Software como servicio
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Modelo de utilidad de facturación
+
+Se le cobra después del uso y al final del período predefinido
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+VM
+
+Máquina virtual

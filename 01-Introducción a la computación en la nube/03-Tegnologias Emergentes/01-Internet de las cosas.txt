@@ -1,0 +1,38 @@
+En esta nueva era, tecnologías como el Internet de las cosas, los macrodatos, la inteligencia artificial y la cadena de bloques están alterando los modelos de negocio y las
+    industrias existentes, al tiempo que crean oportunidades sin precedentes para que las empresas se diferencien y creen valor para sus clientes.
+
+La potencia, la escala, la naturaleza dinámica y la economía de los recursos de la nube hacen que la computación en nube sea un factor clave para la adopción y la evolución de
+    estas tecnologías emergentes.
+En este vídeo, veremos cómo el Internet de las cosas, o IoT, impulsado por la nube, está marcando una gran diferencia para las empresas de hoy en día.
+
+El Internet de las cosas, o IoT, es una red gigante de cosas y personas conectadas que ha cambiado gran parte de la forma en que vivimos nuestra vida diaria, desde la forma en
+    que conducimos hasta la forma en que hacemos compras, el control de nuestra salud personal e incluso la forma en que obtenemos energía para nuestros hogares.
+
+Los dispositivos y sensores inteligentes rastrean y recopilan datos de forma continua.
+
+Por ejemplo, un edificio inteligente podría tener miles de sensores que midan todo tipo de datos relacionados con estímulos térmicos, ópticos, estructurales y ambientales.
+
+Se está generando una cantidad de datos sin precedentes, lo que supone una enorme carga para Internet.
+Ahí es donde entra en juego la nube, al conectar al usuario del dispositivo IoT a la nube, ya sea para registrar el dispositivo, identificarlo, almacenar datos o acceder a los
+    datos empresariales.
+
+Los datos recopilados a través de los dispositivos de IoT se almacenan y procesan en la nube, dado que los dispositivos de IoT pueden estar en movimiento, la nube sirve como
+    punto de recopilación más cercano, lo que minimiza la latencia a la hora de informar sobre los puntos de datos y proporciona una respuesta a la aplicación de IoT.
+
+Así pues, desde las plataformas de IoT que se ejecutan íntegramente en la nube hasta las interfaces que utilizan los clientes para interactuar con estos dispositivos, pasando
+    por las plataformas analíticas internas, la computación en nube apoya y posibilita el IoT.
+
+Los proveedores de servicios en la nube también ofrecen servicios de IoT especializados diseñados para ayudar a acelerar el desarrollo de soluciones de IoT.
+
+Veamos un caso práctico que demuestra el uso del IoT en la nube para combatir la caza furtiva de rinocerontes en peligro de extinción en Welgevonden, haciendo que la caza
+    furtiva sea predecible.
+Los rinocerontes se han convertido en una de las principales especies que está en peligro de extinción debido a la caza furtiva en toda África. Pero ahora, especialmente en
+    Sudáfrica.
+    Hasta ahora, los cazadores furtivos han ido aumentando en número y se han militarizado cada vez más con las armas. Y, por supuesto, hemos tenido que hacer lo mismo.
+    Esto no es sostenible. La única manera de hacerlo mejor es incorporar tecnología y cosas que no tienen.
+    Esta especie en peligro de extinción está recibiendo ayuda de algunos amigos inesperados, la cebra y el antílope. Llevan sensores de IoT conectados a la nube de IBM. Cuando
+    los cazadores furtivos entran en la zona, los animales corren hacia ella, lo que alerta a los guardabosques, que pueden rastrear sus emociones y ayudar a detenerlas antes
+    de que les hagan daño.
+    Es una forma inteligente de ayudar a aumentar la población de rinocerontes y convertir a los cazadores furtivos en la especie en peligro de extinción.
+
+En el siguiente vídeo veremos cómo la inteligencia artificial en la nube está afectando a las empresas.

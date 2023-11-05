@@ -1,0 +1,61 @@
+La cadena de bloques es una tecnología abierta distribuida y segura que puede ayudar a acelerar los procesos, reducir los costos y generar transparencia y trazabilidad en las
+aplicaciones transaccionales.
+
+Es una red inmutable que permite a los miembros ver solo las transacciones que son relevantes para ellos.
+
+Cuanto más abierta, diversa y distribuida sea la red, mayor será la confianza y la transparencia en los datos y las transacciones.
+
+El ochenta y cinco por ciento de las empresas actuales dependen de múltiples nubes para satisfacer sus necesidades de TI.
+
+Más del 70 por ciento utiliza más de tres. Estas empresas necesitan poder mover aplicaciones y datos entre múltiples nubes de forma fácil y segura, lo que ha dado lugar a la
+    creciente demanda de crear y gestionar aplicaciones empresariales, como la cadena de bloques, para el entorno multinube. La cadena de bloques y la IA, al igual que la IoT
+    y la IA impulsadas por la nube, también tienen una relación tripartita.
+
+Mientras que la tecnología blockchain proporciona una fuente confiable y descentralizada de información, la IA potencia el análisis y la toma de decisiones a partir de los datos
+    recopilados, y la nube proporciona recursos informáticos distribuidos a nivel mundial, escalables y rentables para respaldar tanto las cantidades sin precedentes de datos
+    que se recopilan como la potencia de procesamiento necesaria para extraer información a partir de estos datos.
+
+La cadena de bloques sirve para hacer que la IA sea más comprensible al registrar los datos y las variables que intervienen en una decisión tomada en un algoritmo de IA, lo que
+    genera una mayor confianza y transparencia en las conclusiones y decisiones que toman estos algoritmos.
+
+Veamos cómo la cadena de bloques en la nube ayuda a los agricultores a reducir el desperdicio en momentos de retirada del mercado al fomentar la trazabilidad y la transparencia
+    en la cadena de suministro de alimentos.
+
+Para los agricultores de aquí, este es el trabajo de toda nuestra vida: el 60 por ciento de la lechuga del país se cultiva aquí mismo, en Salinas.
+
+Cuando se trata de cómo se ven las plantas, realmente me identifico con la forma en que se cría y se nutre a los seres humanos. Quiero asegurarme de que todo esté a salvo antes
+    de que salga del rancho. Pero cuando se retira del mercado, se desperdicia comida en perfecto estado.
+    Tienes que sacar todo el producto de tu estantería. No importa la edad, no importa de dónde venga, se necesitan recursos para cultivar esas cosas.
+
+Ahora, de hecho, estamos consumiendo nuestro futuro suministro de alimentos. Pero tenemos una forma de evitarlo. Tecnología blockchain en la nube de IBM. Podemos rastrear
+    nuestro producto en cuestión de segundos, lo que permite a los consumidores acceder instantáneamente al lugar de procedencia del producto en caso de que lo retiren del
+    mercado, por lo que no tenemos que sacar todos los alimentos de las estanterías.
+
+Tener ese acceso instantáneo te permite reducir el desperdicio. Hay mucha gente hambrienta en este mundo.
+
+«Una buena brecha». Quiero ser la generación que arregle eso.
+
+Las tecnologías de análisis en la nube aprovechan la flexibilidad , la escalabilidad y los recursos informáticos disponibles en la nube.
+
+Desde el seguimiento de las tendencias en las redes sociales para predecir eventos futuros, hasta el análisis de datos para crear modelos de aprendizaje automático que se puedan
+    implementar en aplicaciones cognitivas.
+
+La nube proporciona el entorno integrado necesario para aprovechar los datos a fin de mejorar continuamente y acelerar el crecimiento empresarial.
+
+Veamos cómo KONE ha invertido en tecnologías de nube e IoT para impulsar una solución de análisis de datos y mantenimiento predictivo para la infraestructura urbana que utilizan
+    más de mil millones de personas a diario.
+En KONE, fabricamos ascensores, escaleras mecánicas, pasarelas y puertas. Todos estos dispositivos son flujos de datos que estamos recopilando.
+Para procesar esas transmisiones, necesitamos una forma escalable de gestionar la cantidad de datos que ingresan.
+Ahí es donde Cloud Function encaja perfectamente. Gestionamos esos datos con una arquitectura basada en eventos.
+
+Usamos funciones para procesar esos datos y generar más eventos a partir de ellos, que luego son utilizados y consumidos por las aplicaciones y por nuestros clientes en general.
+En nuestra plataforma de análisis, analizamos el conjunto de datos y generamos valor predictivo, en el sentido de que podemos predecir la tasa de averías de nuestros equipos en
+    un porcentaje determinado que esté a punto de producirse en el futuro, lo que nos permite realizar un mantenimiento predictivo.
+
+Este es todo el concepto en el que se basan nuestros servicios conectados las 24 horas del día, los 7 días de la semana, que es una promesa a nuestros clientes de que el equipo
+    está conectado a la nube y que lo estamos monitoreando.
+
+Ahí es donde generamos el valor real para nuestros clientes desde esta perspectiva. Por el momento, utilizamos casi todos los aspectos de IBM Cloud.
+
+Usamos el almacenamiento de la nube, usamos Cloud Functions, usamos servicios de mensajería, usamos servicios de IoT. Hay varios servicios que ya se utilizan en la plataforma y
+    ese uso no hará más que aumentar a medida que crezca nuestra presencia digital en la industria.
