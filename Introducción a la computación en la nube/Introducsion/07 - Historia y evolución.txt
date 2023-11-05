@@ -1,0 +1,59 @@
+Bienvenido a la historia y la evolución de la computación en nube.
+
+La computación en nube es una evolución de la tecnología a lo largo del tiempo.
+
+El concepto de computación en nube se remonta a la década de 1950, cuando aparecieron ordenadores centrales a gran escala con una potencia de procesamiento de gran volumen.
+
+La práctica de compartir el tiempo (o agrupar recursos) evolucionó para hacer un uso eficiente de la potencia de cálculo de los mainframes.
+
+Al utilizar terminales tontos, cuyo único propósito era facilitar el acceso a los ordenadores centrales, varios usuarios podían acceder a la misma capa de almacenamiento de datos
+    y a la misma potencia de la CPU desde cualquier terminal.
+
+En la década de 1970, con el lanzamiento de un sistema operativo llamado máquina virtual (VM), se hizo posible que los mainframes tuvieran varios sistemas virtuales, o máquinas
+    virtuales, en un único nodo físico.
+
+El sistema operativo de la máquina virtual evolucionó a partir de la aplicación del acceso compartido a un mainframe en la década de 1950.
+
+Al permitir la existencia de varios entornos informáticos distintos en el mismo hardware físico.
+
+Cada máquina virtual alojaba sistemas operativos invitados que se comportaban como si tuvieran su propia memoria, CPU y discos duros, aunque se tratara de recursos compartidos.
+
+De este modo, la virtualización se convirtió en un motor tecnológico y en un importante catalizador de algunas de las evoluciones más importantes de las comunicaciones y la informática.
+
+Incluso hace 20 años, el hardware físico era bastante caro.
+
+Con Internet cada vez más accesible y la necesidad de hacer más viables los costos del hardware, los servidores se virtualizaron en entornos de alojamiento compartido,
+    servidores privados virtuales y servidores dedicados virtuales, utilizando la misma funcionalidad que ofrecía el sistema operativo de la máquina virtual.
+
+Así, por ejemplo, si una empresa necesitara un número «x» de sistemas físicos para ejecutar sus aplicaciones, podría dividir un nodo físico en varios sistemas virtuales.
+
+Un hipervisor es una capa de software pequeña que permite que varios sistemas operativos se ejecuten uno junto al otro y compartan los mismos recursos informáticos físicos.
+
+Un hipervisor también separa las máquinas virtuales de forma lógica, asignando cada parte de la potencia informática, la memoria y el almacenamiento subyacentes, lo que evita
+    que las máquinas virtuales interfieran entre sí.
+
+De este modo, si, por ejemplo, un sistema operativo sufre un fallo o se ve afectado su seguridad, los demás pueden seguir funcionando.
+
+A medida que las tecnologías y los hipervisores mejoraban y podían compartir y entregar recursos de forma fiable, algunas empresas decidieron poner los beneficios de la nube al
+    alcance de los usuarios.
+
+Estos usuarios no disponían de una gran cantidad de servidores físicos para crear su infraestructura de computación en la nube.
+
+Como los servidores ya estaban en línea, la creación de una nueva instancia era instantánea.
+
+Los usuarios ahora podían solicitar recursos en la nube a partir de un conjunto mayor de recursos disponibles y pagar por ellos en función del uso, lo que también se conoce como
+    pago por uso.
+
+Este modelo de computación de pago por uso o utilitario se convirtió en uno de los principales impulsores del lanzamiento de la computación en nube.
+
+El modelo de pago por uso permitía a las empresas e incluso a los desarrolladores individuales pagar por los recursos informáticos a medida que los utilizaban, al igual que las
+    unidades de electricidad.
+
+Esto les permitió cambiar de un modelo de gastos de capital a un modelo de gastos de capital más favorable al flujo de caja.
+
+Este modelo atraía a empresas de todos los tamaños, a las que tenían poco o ningún hardware, e incluso a las que tenían mucho hardware, ya que ahora, en lugar de realizar
+    importantes gastos de capital en hardware, podían pagar los recursos informáticos cuando los necesitaran.
+
+También les permitía escalar sus cargas de trabajo durante los picos de uso y reducirlas cuando el uso disminuía.
+
+Y esto dio lugar a la computación en nube moderna.

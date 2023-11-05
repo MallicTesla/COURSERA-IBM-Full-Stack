@@ -1,0 +1,49 @@
+El proceso de transformación de cada organización es único y, por lo tanto, la estrategia de adopción de la nube de cada organización también lo es para ella.
+
+La agilidad, la flexibilidad y la competitividad son factores clave para migrar a la nube, siempre que se haga sin provocar interrupciones en el negocio ni problemas
+    relacionados con la seguridad, el cumplimiento y el rendimiento.
+
+Veamos algunas consideraciones clave que las organizaciones pueden utilizar como guía a la hora de elaborar su estrategia de nube.
+
+La primera consideración es la infraestructura y las cargas de trabajo. El costo de construir y operar centros de datos puede llegar a ser astronómico.
+
+Por otro lado, los bajos costos iniciales y las características de pago por uso de la computación en nube pueden suponer un importante ahorro de costos.
+
+Además, un punto a tener en cuenta es que es posible que no todas las cargas de trabajo estén preparadas para la nube tal como están.
+
+La segunda consideración tiene que ver con el SaaS y las plataformas de desarrollo.
+
+Las organizaciones deben considerar si pagar por el acceso a las aplicaciones es una opción más viable que comprar software estándar y, posteriormente, invertir en actualizaciones.
+
+Las organizaciones también deben tener en cuenta la velocidad y la productividad, lo que significa para ellas poner en marcha una nueva aplicación en «x» horas en la nube ,
+    en lugar de un par de semanas o incluso meses en las plataformas tradicionales.
+
+Y la rentabilidad por hora y persona que obtienen al utilizar paneles de control en la nube , estadísticas en tiempo real y análisis activos.
+
+Veamos algunos de los beneficios de la adopción de la nube, clasificados en términos generales en flexibilidad , eficiencia y valor estratégico.
+
+La nube nos brinda flexibilidad.
+Los usuarios pueden reducir o ampliar los servicios para adaptarlos a sus necesidades, personalizar las aplicaciones y acceder a los servicios en la nube desde cualquier lugar
+    con una conexión a Internet.
+La infraestructura de nube se amplía según la demanda para soportar cargas de trabajo fluctuantes.
+Las organizaciones pueden determinar su nivel de control con opciones como servicio.
+Los usuarios pueden seleccionar entre un menú de herramientas y funciones prediseñadas para crear una solución que se adapte a sus necesidades específicas.
+Además, opciones como el cifrado y las claves de API ayudan a mantener los datos seguros.
+La nube también aporta una gran eficiencia.
+Los usuarios empresariales pueden lanzar las aplicaciones al mercado rápidamente sin preocuparse por los costes subyacentes de la infraestructura ni por su mantenimiento.
+Se puede acceder a las aplicaciones y los datos basados en la nube desde prácticamente cualquier dispositivo conectado a Internet.
+Los fallos de hardware no provocan la pérdida de datos debido a las copias de seguridad mantenidas en la red.
+La computación en nube utiliza recursos remotos, lo que ahorra a las organizaciones el costo de los servidores y otros equipos y paga en función del uso.
+Los servicios en la nube ofrecen a las empresas una ventaja competitiva al proporcionar las tecnologías más innovadoras disponibles y, al mismo tiempo, gestionar la infraestructura
+    subyacente, lo que permite a las organizaciones centrarse en sus prioridades.
+
+Si bien la nube brinda grandes oportunidades, también presenta desafíos para los líderes empresariales y los departamentos de TI.
+
+Algunos de estos riesgos percibidos incluyen: la seguridad de los datos, asociada a la pérdida o falta de disponibilidad de los datos que provoca la interrupción del negocio;
+    las cuestiones de gobierno y soberanía; las cuestiones legales, reglamentarias y de cumplimiento; la falta de estandarización en la forma en que las tecnologías en
+    constante evolución se integran e interoperan; la elección de los modelos de despliegue y servicio adecuados para satisfacer necesidades específicas; la asociación con los
+    proveedores de servicios en la nube adecuados; las preocupaciones relacionadas con la continuidad empresarial y la recuperación ante desastres.
+
+Las organizaciones ya no pueden pensar en la adopción de la nube como algo a tener en cuenta en el futuro.
+Con las estrategias, las tecnologías, los servicios y los proveedores de servicios de adopción de la nube adecuados, estos riesgos pueden mitigarse.
+En el siguiente vídeo, analizaremos algunos de los principales proveedores de servicios en la nube de nuestro tiempo y los servicios que ofrecen.

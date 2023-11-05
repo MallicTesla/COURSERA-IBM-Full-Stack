@@ -1,0 +1,45 @@
+Bienvenido a la descripción general de la computación en nube: definición y características esenciales: puntos de vista de expertos.
+
+En este vídeo escucharemos a varios profesionales nativos de la nube y del desarrollo de aplicaciones hablar sobre la definición de la computación en nube y sus atributos únicos. 
+    
+¿Cómo se define la computación en nube y cuáles son algunos de sus atributos? >> Como desarrollador nativo de la nube, la computación en la
+    nube básicamente se reduce a dos cosas para mí.
+En primer lugar, es a pedido y, en segundo lugar, es egoísta.
+Lo que eso significa es que, como desarrollador, debería poder iniciar sesión en un portal y obtener la cantidad exacta de servicios que necesito.
+No tengo que esperar a que los servicios de adquisición o infraestructura me asignen o aprovisionen algo.
+Y esto es válido para todo el conjunto, desde la infraestructura hasta la plataforma y la solución como servicio.
+
+Para mí, la computación en nube es la capacidad de implementar código o infraestructura en cualquier parte del mundo y a escala.
+Algunas de las características clave incluyen la distribución, la alta disponibilidad, la resiliencia y la escalabilidad.
+
+>> La computación en nube se refiere a la prestación de servicios informáticos que pueden incluir servidores, bases de datos, redes, análisis, etc., a través de Internet o
+    la nube.
+Los atributos clave de la computación en nube son el costo flexible, la escala global, la reducción del tiempo de despliegue de los recursos, el aumento de la productividad
+    y el rendimiento, y una mayor confiabilidad y seguridad.
+    
+>> Para mí, la computación en la nube significa una capacidad ilimitada de procesamiento, bases de datos y aprendizaje automático y la posibilidad de trabajar con ellos en un
+    instante.
+A diferencia de los centros de datos, en los que hay que ordenar todas esas cosas, configurarlas y gestionar su disponibilidad, en la computación en nube, el proveedor de la nube
+    gestiona la seguridad física del servicio por usted y lo único que tiene que hacer es gestionar todo lo que contiene.
+
+>> Yo resumiría la computación en nube como un conjunto de servicios basados en API para gestionar todos los aspectos de los recursos de redes informáticas para la informática
+    empresarial.
+Se podría pensar en ellos como recursos virtualizados definidos por software.
+Otras características clave son que los recursos son elásticos y pueden crecer o reducirse con la demanda, pensemos en el comercio electrónico en los días festivos de alta
+    demanda.
+Además, los costos de computación son dinámicos, por lo que, en lugar de gastar capital en hardware, hay gastos operativos en recursos de nube.
+
+>> Para mí, la computación en la nube no es un sí o un no, es realmente una escala.
+Y todo utiliza la computación en la nube, o casi todo lo hace hoy en día.
+La idea es que te pongas manos a la obra y utilices la computación en la nube como método de autenticación, utilices algún tipo de inicio de sesión social para que la gente
+    pueda iniciar sesión con su nombre de usuario de Facebook o Google, o puedes hacer que todo tu proyecto se aloje en una infraestructura basada en la nube.
+El punto es que ambos aprovechan realmente las tecnologías de la nube cada vez que se llega a ese vacío de la nube y se lleva la potencia de cálculo o algo más, el almacenamiento,
+    sin importar si se utiliza una tecnología de nube. Y creo que es muy importante entenderlo, ya que casi todo está en la nube hoy en día.
+
+>> Hay un chiste que dice que la computación en la nube consiste simplemente en usar el ordenador de otra persona a través de Internet, pero eso es muy cierto.
+Lo que realmente le brinda la computación en nube es un grado de disponibilidad, consistencia y escalabilidad que muy probablemente no podría lograr con sus propias máquinas.
+En el mejor de los casos, la computación en nube le permite abstraer la gestión de las cosas que probablemente no le interesen y centrarse en las que sí le importan.
+
+>> Con la computación de alto rendimiento en la nube, puede tener clústeres de ordenadores extremadamente rápidos al alcance de la mano y pagar por ellos solo cuando los
+    necesite.
+Además, gracias a la nube, las empresas más pequeñas pueden configurar clústeres de cómputo de alto rendimiento e innovar rápidamente.
