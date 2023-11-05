@@ -1,0 +1,18 @@
+
+Resumen de la Lección 2: Caso de Negocio para la Informática en la Nube
+En esta lección, has aprendido:
+
+La adopción de tecnologías en la nube permite a las empresas, grandes y pequeñas, ser ágiles, innovadoras y competitivas, y crear experiencias de cliente diferenciadas.
+
+Las organizaciones no se preguntan si deben trasladarse a la nube, sino más bien qué estrategia deben adoptar para hacerlo.
+
+Algunos estudios de casos que demuestran el impacto que las empresas han creado al adoptar la nube:
+
+American Airlines adoptando tecnologías en la nube para ofrecer valor rápidamente a sus clientes en toda su empresa
+
+UBank aprovechando los servicios de plataforma en la nube para dar más control a sus desarrolladores, eliminando así barreras a la innovación
+
+Bitly aprovechando la escalabilidad ofrecida por la infraestructura en la nube para una entrega de baja latencia a sus clientes empresariales dispersos geográficamente
+
+ActivTrades aprovechando la infraestructura, el almacenamiento, la red y las ofertas de seguridad en la nube para acelerar la ejecución y entrega de nuevas funciones en sus
+    sistemas de comercio en línea a sus clientes.

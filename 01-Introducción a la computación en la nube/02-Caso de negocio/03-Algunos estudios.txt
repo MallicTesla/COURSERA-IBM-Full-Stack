@@ -1,0 +1,56 @@
+En este video, veremos cómo algunas de las empresas líderes han transformado la forma en que trabajan para proporcionar un mejor servicio al cliente,
+    eliminar las barreras a la innovación, lograr la escala empresarial y acelerar el crecimiento, utilizando tecnologías en la nube.
+
+Aunque los casos prácticos que analizaremos están seleccionados desde IBM Cloud, historias similares con un impacto dramático en el negocio se pueden
+    encontrar en todo el espectro de empresas que utilizan otros proveedores de servicios en la nube también.
+
+MEJOR SERVICIO AL CLIENTE: En la industria aérea altamente competitiva, la experiencia del cliente es un punto importante de diferenciación,
+    y los canales digitales son cada vez más importantes.
+
+Para responder mejor a las necesidades de los clientes, American Airlines necesitaba una nueva plataforma de tecnología y un nuevo enfoque para el
+    desarrollo que le ayudara a ofrecer herramientas de autoservicio digital y valor al cliente más rápidamente en toda su empresa.
+
+La aerolínea reconoció la oportunidad de eliminar las restricciones de sus aplicaciones existentes orientadas al cliente basadas en código monolítico
+    en la arquitectura de microservicios basada en la nube en la nube.
+
+Los resultados: Desarrollo y lanzamiento más rápidos de nuevas aplicaciones.
+Mejora de la confiabilidad operativa, la productividad y los tiempos de respuesta del cliente final.
+Ahorro de costes al evitar los costes de actualización existentes mediante la migración a IBM Cloud.
+Eliminando barreras a la innovación: Como una organización lean con un límite autoimpuesto en la plantilla, uBank se destaca en encontrar formas
+    innovadoras de satisfacer las demandas.
+
+Continuamente desafiado a encontrar formas más eficientes de operar, el equipo de TI de uBank exploró un modelo de desarrollo en la nube de
+    Plataforma como Servicio (PaaS).
+Su necesidad era dar más control a sus desarrolladores, reducir la necesidad de recursos adicionales, acelerar la comercialización y eliminar barreras
+    para pasar de una idea a la producción.
+uBank lanzó nuevas iniciativas en un entorno IBM Cloud Platform, incluyendo un asistente virtual que incorpora la tecnología IBM Watson para apoyar la
+    aplicación de préstamo hipotecario en línea del banco.
+
+Los resultados: El tiempo de comercialización más rápido fue posible gracias a el marco de Cloud Platform que optimiza el desarrollo y empodera a los equipos de productos.
+Fomente una mayor innovación con recursos de desarrollo basados en la nube que sean rápidos, fáciles, y rentables de implementar. Operaciones más eficientes. DEMANDA PARA ESCALA
+    EMPRESARIAL: Desde su creación en 2008, Bitly ha viajado de una startup que ofrecía tecnología inteligente de acortamiento de enlaces adoptada por los usuarios para comprimir
+    largas URL para publicaciones en redes sociales, a un producto empresarial.
+
+Buscando una infraestructura de TI ágil y rentable para apoyar esta transición, Bitly comenzó la planificación para la migración a la nube.
+Su necesidad era tener un modelo basado en la nube con precios de pago por uso, la capacidad de escalar y reducir, una presencia más global y la capacidad de geodistribuir en
+    más POLICÍA. Y querían que fuera de bajo riesgo.
+Bitly migró a un entorno IBM Cloud, estableciendo una plataforma de alojamiento escalable para la entrega de baja latencia a clientes empresariales de todo el mundo.
+Los resultados: 25 mil millones de enlaces infundidos de datos migraron desde un sitio de alojamiento a una infraestructura Cloud con ubicaciones de centros de datos en todo el
+    mundo.
+Conjunto de datos de interacción de usuario de 1.000 millones almacenados y administrados en un entorno flexible y rentable de almacenamiento de objetos en la nube.
+Transformó las operaciones de TI para escalar el crecimiento, controlar los costos y centrar valiosos recursos en el desarrollo de nuevos productos.
+
+Acelerando el crecimiento: los operadores financieros exigen velocidad extrema y disponibilidad de los sistemas de trading.
+La rentabilidad depende de decisiones en fracción de segundo.
+Como broker en línea líder en divisas, materias primas, acciones, criptomonedas, índices y otros instrumentos financieros , ActivTrades permite a los inversores comprar y vender
+    en numerosos mercados financieros
+
+Los inversores necesitan acceso confiable a información precisa del mercado, combinada con la capacidad de moverse rápidamente para ejecutar operaciones.
+A medida que su base de clientes creció, ActivTrades quería reducir la latencia, acelerar la ejecución y optimizar la entrega de nuevas funciones.
+ActivTrades migró tres principales sistemas comerciales de la infraestructura local a IBM Cloud para soluciones VMware, respaldados por ofertas de almacenamiento de datos,
+    redes y seguridad en Nube de IBM.
+    Los resultados: Aumento del rendimiento hasta 3 veces, ayudando a los clientes a aprovechar oportunidades fugaces para obtener beneficios.
+
+La plataforma en la nube con alta disponibilidad protege las inversiones de los clientes.
+Horas, no días para activar nuevos recursos, para una respuesta más rápida a los requerimientos emergentes.
+En el siguiente video, veremos algunas de las tecnologías emergentes que están disponibles en la nube y las oportunidades que brindan a las empresas.

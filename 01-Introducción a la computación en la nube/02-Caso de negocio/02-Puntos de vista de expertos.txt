@@ -1,0 +1,56 @@
+Bienvenido a los beneficios de la adopción de la nube y casos de uso: puntos de vista de expertos.
+
+En este vídeo, escucharemos varias nubes los profesionales de las aplicaciones analizan la adopción de la nube.
+
+Según usted, ¿cuáles son algunas ¿Cuáles son las razones más convincentes para que las empresas adopten tecnologías en la nube?
+
+¿Una de las principales razones para crear una empresa adoptar tecnologías en la nube es la gran velocidad que le brinda para avanzar y mejore sus productos.
+    Por ejemplo, cada industria tiene sus propias necesidades y cada empresa tiene sus propias necesidades específicas, y muchas de estas necesidades ya están satisfechas
+    servicios y tecnologías disponibles en la nube.
+    Francamente, puedes pararte sobre los hombros de gigantes con tecnologías en la nube: no necesitas crear algoritmos de IA tú mismo, puede utilizar los servicios de IA.
+    No tiene que preocuparse por construir una máquina, conectarla a Internet: ya se le proporcionan.
+    Lo mejor de la nube es lo fácil y fácil que es lo rápido que es ponerse en marcha y disponer de cosas realmente especializadas sin necesidad necesitás esa especialización
+    para ti.
+
+Al usar la computación en la nube, las empresas solo pagan por los servicios que utilizan, lo que ayuda a reducir sus costos de infraestructura y operación.
+
+Las máquinas se pueden implementar y utilizar en cuestión de minutos.
+
+La infraestructura se puede escalar de forma elástica para satisfacer las crecientes necesidades empresariales.
+Ya que los servicios de computación en la nube funcionan según la variedad de los centros de datos seguros en todo el mundo, hay latencias de red reducidas para aplicaciones y
+    mayores economías de escala.
+
+La computación en la nube también realiza copias de seguridad de datos y los servicios de recuperación son menos costosos, además de proporcionar políticas para niveles más
+    altos de seguridad.
+
+Las tecnologías en la nube permiten a las empresas centrarse por completo en su modelo de negocio principal y permiten que la nube se encargue de otros componentes.
+Por ejemplo, si mi negocio no está relacionado con las bases de datos, no quiero preocuparme por administrar e implementar una base de datos.
+Yo puedo descargar eso a la nube.
+Y tengo la garantía de una alta disponibilidad y una base de datos distribuida para mi empresa, lo que nos permite a mí y a mis ingenieros centrarnos en qué realmente es importante
+    para mi aplicación y mis usuarios.
+
+Con cómputo de alto rendimiento en el en la nube, puede tener grupos de ordenadores extremadamente rápidos al alcance de la mano, y solo pague por ellos cuando los necesite.
+Y gracias a la nube, las empresas más pequeñas capaces de configurar clústeres de cómputo de alto rendimiento e innovar rápidamente.
+
+Para mí, la razón más convincente adoptar tecnologías en la nube es que normalmente solo se paga por lo que se utiliza.
+Quiero decir, hay una barrera de entrada muy baja, por lo que normalmente puedes empezar a probar algo con un plan de facturación por horas y sin costes iniciales.
+
+Otra razón convincente es aprovechar el alto nivel de servicio que la nube puede ofrecer.
+Así, por ejemplo, necesito acceso a las bases de datos.
+Quiero que sean rápidas y de alta disponibilidad, y que tengan copias de seguridad periódicas, pero no es así en el negocio de la gestión de bases de datos, y si tengo la opción
+    de contratar a otra persona para gestionarlo por mí, normalmente lo aceptaré.
+
+Y, por último, la presión a la hora de comercialización para construir nuevos productos.
+Estamos viendo que muchas o quizás la mayoría de las empresas emergentes utilizan plataformas en la nube para crear e implementar sus productos de forma rápida y con menos gastos.
+Una es que su negocio requiere un presencia global.
+Es muy probable que su empresa no pueda permitirse disponer de datos globales centros, así que ese es uno muy obvio.
+
+Otro es asunto tuyo requiere recursos elásticos. Piense en el comercio minorista y el comercio electrónico durante las fiestas con mucha demanda; piense en la venta de entradas
+    para eventos en directo o, quizás, en la inscripción anual de Recursos Humanos y Salud.
+    Básicamente, cualquier aplicación en la que la demanda es muy variable o puntiaguda.
+
+Otra interesante es análisis a gran escala o desarrollo de canalizaciones de datos y aprendizaje automático.
+Es posible que los recursos físicos locales sean demasiado pequeños, demasiado caros o subutilizados.
+
+Otra buena opción es la ciberseguridad.
+Creo tienes que evaluar si tu organización realmente puede abordar la ciberseguridad al mismo tiempo al mismo nivel que IBM u otros proveedores de servicios en la nube.

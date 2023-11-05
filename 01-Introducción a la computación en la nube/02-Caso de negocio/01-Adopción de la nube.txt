@@ -1,0 +1,38 @@
+La adopción de la nube ya no es cosa del futuro.
+
+Desde una sola persona hasta una empresa global multimillonaria, cualquiera puede acceder a la capacidad informática que necesita en la nube.
+
+El tiempo que transcurre entre la decisión y la valoración ya no es un proceso de años con un capital inicial elevado.
+
+La nube permite a las empresas experimentar, fracasar y aprender mucho más rápido que nunca, con una baja exposición al riesgo.
+
+Hoy en día, las empresas tienen más libertad para cambiar de rumbo que para vivir con las consecuencias de las costosas decisiones que se tomaron en el pasado.
+
+Según un estudio del IBM Institute for Business Value, más de las tres cuartas partes de las empresas actuales utilizan la computación en nube para expandirse a nuevos sectores.
+
+El 74% ha adoptado la nube para mejorar la experiencia del cliente y el 71% la utiliza para crear productos y servicios mejorados y, al mismo tiempo, reducir el tamaño de los
+    sistemas heredados y reducir los costes.
+
+Para seguir siendo competitivas, las empresas deben ser capaces de responder con rapidez a los cambios del mercado, utilizar la analítica para entender la experiencia del
+    cliente y aplicar esa información para adaptar sus productos y servicios en función de lo que vayan aprendiendo.
+
+Los ciclos de vida de los productos se han acortado y las barreras de entrada se han reducido.
+
+Los flujos de trabajo basados en la cognición, las tecnologías exponenciales aplicadas, como la IA, la automatización, la IoT y la cadena de bloques, las aplicaciones que
+    abarcan soluciones nuevas y heredadas y las infraestructuras multinube abiertas, híbridas y seguras, son los factores actuales que permiten el crecimiento, la agilidad y la innovación.
+
+La potencia, la escalabilidad, la flexibilidad y la economía de pago por uso de la nube la han convertido en la base fundamental de la transformación digital.
+
+La Corporación Internacional de Datos (IDC) prevé que, para 2025, la cantidad total de datos digitales creados en todo el mundo aumentará a 163 zettabytes
+    (donde un zettabyte equivale a un billón de gigabytes).
+
+Y el 30% de estos datos será información en tiempo real. Teniendo en cuenta las cantidades sin precedentes de datos que se producen a diario y la capacidad de tomar
+    decisiones basadas en los datos, algo crucial para cualquier empresa, la computación en nube se vuelve esencial para que las empresas tengan éxito, se mantengan y compitan
+    en los mercados actuales.
+
+Una estrategia de nube, más que una simple estrategia de TI, es el componente central de cualquier estrategia empresarial actual.
+
+Las empresas que aún no han integrado la nube en su estrategia empresarial, o no lo están haciendo actualmente, corren el riesgo de carecer de la velocidad, la agilidad,
+    la innovación y las capacidades de toma de decisiones necesarias para ser competitivas, así como de su capacidad para responder a la disrupción digital.
+
+En el siguiente vídeo, analizaremos algunos casos prácticos que demuestran el impacto que las empresas han creado al adoptar la nube.
