@@ -1,0 +1,19 @@
+Resumen de la Lección 1: Introducción a la Informática en la Nube
+
+En esta lección, has aprendido:
+
+La informática en la nube es la entrega de recursos informáticos bajo demanda a través de Internet en un modelo de pago por uso; los recursos se asignan y reasignan dinámicamente
+    entre múltiples usuarios y se escalan según las necesidades de los usuarios.
+
+Los orígenes de la informática en la nube se remontan a las mainframes de la década de 1950, con tecnologías de virtualización e hipervisores que sirvieron como catalizadores para
+    el surgimiento de la informática en la nube moderna.
+
+Las organizaciones deben considerar sus necesidades comerciales, viabilidad de inversión y capacidad de riesgo para crear una estrategia de adopción de la nube que brinde los
+    beneficios deseados sin causar interrupciones en los negocios y problemas de seguridad, cumplimiento o rendimiento.
+
+La adopción de la nube está creciendo más rápido de lo previsto.
+
+Impulsando esta ola tecnológica se encuentran los proveedores de servicios en la nube con una variedad de servicios que abarcan desde infraestructura, plataforma y servicios
+    de software.
+
+Algunos de los principales proveedores de la nube en nuestros tiempos incluyen AWS, Alibaba Cloud, Google, IBM y Microsoft Azure.

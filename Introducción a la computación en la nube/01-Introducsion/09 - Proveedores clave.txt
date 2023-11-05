@@ -1,0 +1,61 @@
+Veamos algunos números y predicciones que nos ayudan a ver la escala que se prevé que alcanzará la nube en los próximos años.
+
+Según las previsiones de Gartner Inc., en un futuro próximo, el gasto mundial en la nube pública aumentará un 20,7% hasta alcanzar un total de 591.800 millones de dólares, frente
+    a los 490,3 mil millones de dólares de años anteriores.
+
+El gasto mundial en escritorios como servicio alcanzará los 3.200 millones de dólares en 2023, a medida que las empresas abandonen las soluciones informáticas tradicionales para
+    clientes y opten por los servicios de escritorios virtuales basados en suscripciones.
+En los próximos años, las empresas gastarán más en servicios de nube pública que en soluciones de TI tradicionales.
+
+Lo que está claro es que la nube se está acelerando más rápido de lo previsto, la adopción es alta y los ingresos están aumentando vertiginosamente.
+
+La pregunta para las empresas hoy en día ya no es si necesitan adoptar la nube, sino cuál debería ser su estrategia de adopción de la nube para servir mejor a sus empresas y clientes.
+
+Los proveedores de servicios en la nube están a la altura de esta ola tecnológica y la impulsan con una amplia gama de servicios.
+
+Ahora hablaremos de algunos de los principales proveedores de servicios en la nube en orden alfabético.
+
+Alibaba Cloud, si bien es relativamente nuevo, es el mayor proveedor de servicios de computación en nube de China. Alibaba Cloud ofrece un conjunto completo de servicios globales
+    de computación en nube para impulsar no solo los negocios en línea de sus clientes, sino también el propio ecosistema de comercio electrónico del grupo Alibaba.
+    Ofrece una gran cantidad de productos y servicios, como computación, redes, almacenamiento, seguridad, monitoreo y administración. Comunicación, análisis, IoT,
+    desarrollo de aplicaciones, migración de datos, alojamiento web y más.
+
+Amazon Web Services, o AWS Cloud, fue uno de los primeros en introducirse en el mundo de la informática en la nube y ofrece una amplia gama de servicios de infraestructura y
+    plataforma a particulares, empresas y gobiernos con un sistema de pago por uso con cuotas.
+    Amazon Cloud ofrece una amplia gama de productos, servicios y soluciones que van desde informática, DevOps, datos y análisis.
+    IoT, aprendizaje automático, redes, entrega de contenido, robótica, computación sin servidor y mucho más.
+
+Google Cloud Platform, o GCP, es un conjunto de servicios de computación en la nube que proporciona infraestructura, plataformas y entornos de computación sin servidor.
+    Google también usa GCP internamente para sus productos de usuario final, como la Búsqueda de Google y YouTube.
+    Google Cloud incluye G suite con productos para la comunicación, la productividad, la colaboración, el almacenamiento y mucho más.
+    El motor de aplicaciones de Google es una plataforma para desarrollar y alojar aplicaciones web en los centros de datos gestionados por Google, que asigna y desasigna
+    automáticamente los recursos para gestionar la demanda.
+
+IBM Cloud es una plataforma cloud completa que abarca entornos públicos, privados e híbridos, con productos y servicios que abarcan la informática, las redes, el almacenamiento,
+    la gestión, la seguridad, DevOps y las bases de datos.
+    Algunas de sus ofertas más destacadas incluyen sus servidores básicos, VMware, los paquetes de nube para la modernización de aplicaciones, la nube privada virtual y el
+    conjunto de tecnologías emergentes, como la IA, el IoT, la cadena de bloques, los datos y el análisis.
+    Con la adquisición de Red Hat, IBM también se posiciona como el principal proveedor de nube híbrida de nuestros tiempos.
+
+Microsoft Azure es una plataforma de nube flexible para crear, probar, implementar y gestionar aplicaciones y servicios a través de los centros de datos gestionados por Microsoft.
+    Con sus centros de datos repartidos en muchas regiones, Azure ofrece un alcance global con presencia local.
+    Proporciona servicios de software, plataforma e infraestructura compatibles con lenguajes, herramientas y marcos específicos de Microsoft y de terceros.
+
+Oracle Cloud es conocida principalmente por el SaaS y la base de datos como servicio, también conocida como Oracle Data Cloud.
+    La oferta de SaaS de Oracle incluye una amplia gama de aplicaciones, como ERP, SCM, HCM, marketing, ventas y CX, que se ejecutan en la nube.
+    Además, Oracle Data Cloud ofrece una de las mayores plataformas de gestión de datos basadas en la nube, que ayuda a los clientes a personalizar sus campañas de marketing online,
+    offline y móvil para un público objetivo.
+    Oracle Cloud también proporciona algunos servicios de infraestructura y plataforma en la nube.
+
+Salesforce se especializa en su oferta de software como servicio, que se centra en la gestión de las relaciones con los clientes, lo que ayuda a las empresas a conectarse mejor
+    con sus clientes, socios y clientes potenciales.
+    Salesforce ofrece varios servicios en la nube, como Sales Cloud, Service Cloud y Marketing Cloud, que ayudan a los clientes a realizar un seguimiento de los análisis en
+    tiempo real.
+    Los clientes atienden sus quejas y las atienden, e incluso las escuchan a través de las plataformas sociales para remitirlas automáticamente a los agentes correspondientes
+    para que las resuelvan.
+
+SAP es conocida por sus aplicaciones y software empresariales, como ERP, CRM, RRHH y Finanzas, que funcionan en la nube.
+    También existe una plataforma en la nube de SAP para crear y ampliar las aplicaciones empresariales a los pacientes con ciclos de innovación rápidos en un entorno de cloud
+    computing seguro gestionado por SAP.
+
+En el siguiente vídeo, analizaremos el modelo de negocio de la computación en nube.
