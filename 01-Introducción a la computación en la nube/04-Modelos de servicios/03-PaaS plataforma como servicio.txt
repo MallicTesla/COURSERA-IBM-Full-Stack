@@ -1,0 +1,83 @@
+La plataforma como servicio, comúnmente denominada P-a-a-S o simplemente PaaS, es un modelo de computación en la nube que proporciona a los clientes una plataforma completa para
+    desarrollar, implementar, administrar y ejecutar aplicaciones creadas por ellos o adquiridas de un tercero.
+
+El proveedor de PaaS lo aloja todo: servidores, redes, almacenamiento, sistema operativo, tiempos de ejecución de aplicaciones, API, middleware, bases de datos y otras
+    herramientas en su centro de datos.
+
+El proveedor también asume la responsabilidad de la instalación, la configuración y el funcionamiento de la infraestructura de la aplicación, por lo que el usuario es el único
+    responsable del código de la aplicación y de su mantenimiento.
+
+Los clientes pagan por este servicio en función del uso y compran los recursos a pedido.
+Con la IaaS, el proveedor de la nube ofrece acceso a recursos informáticos sin procesar, como servidores, almacenamiento y redes, mientras que el usuario es responsable de la
+    plataforma y el software de la aplicación.
+
+Con P-a-S o PaaS, el proveedor de servicios en la nube entrega y administra toda la infraestructura de la plataforma, separando a los usuarios de los detalles más básicos del
+entorno.
+
+Veamos algunas características esenciales de la plataforma como servicio o PaaS.
+Las nubes PaaS se distinguen por el alto nivel de abstracción que proporcionan a los usuarios, ya que eliminan la complejidad de implementar aplicaciones, configurar la
+    infraestructura y aprovisionar y configurar tecnologías de apoyo, como los balanceadores de carga y las bases de datos.
+
+Las nubes PaaS proporcionan servicios y API que ayudan a simplificar la tarea de los desarrolladores a la hora de ofrecer aplicaciones en la nube de alta disponibilidad y
+    escalables de forma elástica.
+
+Estos servicios suelen incluir una variedad de capacidades, como las API para la distribución, el almacenamiento en caché, la creación de colas y la mensajería, el
+    almacenamiento de archivos y datos, la gestión de la carga de trabajo, la identidad de los usuarios y el análisis, lo que elimina la necesidad de integrar componentes
+    dispares.
+
+El entorno de ejecución de PaaS ejecuta el código del usuario final de acuerdo con las políticas establecidas por el propietario de la aplicación y el proveedor de la nube.
+Muchas de las ofertas de PaaS proporcionan a los desarrolladores mecanismos de despliegue rápido o mecanismos de inserción y ejecución para desplegar y ejecutar aplicaciones.
+
+Las ofertas de PaaS admiten una gama de capacidades de infraestructura de aplicaciones o middleware, como servidores de aplicaciones, sistemas de administración de bases de
+    datos, servidores de análisis empresarial, servicios de backend móviles, servicios de integración, sistemas de gestión de procesos empresariales , motores de reglas y
+    sistemas complejos de procesamiento de eventos.
+
+Esta infraestructura de aplicaciones ayuda a los desarrolladores a reducir la cantidad de código que debe escribirse y, al mismo tiempo, amplía las capacidades funcionales de la
+    aplicación.
+
+El caso de uso más importante de la PaaS es estratégico: crear, probar, implementar, mejorar y escalar las aplicaciones de forma rápida y rentable.
+
+Veamos otros casos de uso de PaaS.
+Desarrollo y gestión de API.
+Las organizaciones utilizan la PaaS para desarrollar, ejecutar, gestionar y proteger las API y los microservicios, que son componentes y servicios poco acoplados y que se pueden
+    implementar de forma independiente.
+
+Internet de las cosas o IoT: las nubes PaaS admiten una amplia gama de entornos de aplicaciones, lenguajes de programación y herramientas que se utilizan para las implementaciones
+    de IoT.
+
+Análisis empresarial o inteligencia: las herramientas PaaS permiten a las organizaciones analizar sus datos para encontrar información empresarial que permita tomar decisiones y
+    predicciones empresariales más informadas.
+
+Gestión de procesos empresariales (BPM).
+Las organizaciones utilizan la nube PaaS para acceder a la plataforma BPM que se ofrece como un servicio.
+
+Gestión de datos maestros (MDM): las organizaciones están aprovechando la nube PaaS para proporcionar un punto de referencia único para los datos empresariales críticos, como la
+    información sobre las transacciones de los clientes y los datos analíticos para respaldar la toma de decisiones.
+
+Veamos algunas de las ventajas de usar PaaS.
+
+La escalabilidad, que es posible gracias a la rápida asignación y desasignación de recursos con el modelo de pago por uso que ofrece la PaaS. Las API, los servicios de soporte y
+    las capacidades de middleware que ofrecen las nubes PaaS ayudan a los desarrolladores a centrar sus esfuerzos en el desarrollo y las pruebas de las aplicaciones, lo que
+    reduce el tiempo de comercialización de sus productos y servicios.
+    Las capacidades de middleware también reducen la cantidad de código que debe escribirse y, al mismo tiempo, amplían las capacidades funcionales de la aplicación.
+
+Mayor agilidad e innovación: porque el uso de plataformas PaaS permite experimentar con varios sistemas operativos, lenguajes y herramientas sin tener que invertir en estos
+    recursos.
+
+Puede evaluar y crear prototipos de ideas con una exposición al riesgo muy baja, lo que se traduce en una adopción más rápida, fácil y menos arriesgada de una gama más amplia de
+    recursos.
+
+Algunas de las principales ofertas de PaaS disponibles en el mercado hoy en día incluyen AWS Elastic Beanstalk, Cloud Foundry, IBM Cloud Paks, Windows Azure, Red Hat OpenShift,
+    Magento Commerce Cloud, force.com y Apache Stratos.
+
+Las nubes PaaS conllevan algunos riesgos, riesgos que todas las ofertas de nube conllevan en general, como las amenazas a la seguridad de la información y la dependencia de la
+    infraestructura del proveedor de servicios.
+
+Los servicios pueden verse afectados cuando la infraestructura de un proveedor de servicios sufre un tiempo de inactividad.
+Los clientes tampoco tienen ningún control directo sobre los cambios que pueden producirse cuando un proveedor modifica su estrategia, sus ofertas de servicios o sus herramientas.
+
+Sin embargo, los beneficios pueden superar con creces estos riesgos.
+
+La PaaS sigue experimentando un fuerte crecimiento y se prevé que se convierta en el modelo de entrega de plataformas predominante en el futuro.
+
+En el siguiente vídeo, analizaremos el software como modelo de servicio, sus características, beneficios y algunos casos de uso.

@@ -1,0 +1,58 @@
+El software como servicio, o «SaaS», es una oferta en la nube que proporciona a los usuarios acceso al software basado en la nube de un proveedor de servicios.
+
+Los proveedores de SaaS mantienen los servidores, las bases de datos y el código que constituyen una aplicación.
+También administran el acceso a la aplicación, incluidos la seguridad, la disponibilidad y el rendimiento.
+
+Las aplicaciones residen en una red de nube remota y los usuarios utilizan estas aplicaciones sin tener que mantener ni actualizar la infraestructura.
+
+Los principales procesos empresariales compatibles con el SaaS en la actualidad incluyen el correo electrónico y la colaboración a través de ofertas como Office 365 de Microsoft
+    y Gmail de Google, la gestión de las relaciones con los clientes mediante servicios como NetSuite CRM y Salesforce, la gestión de recursos humanos mediante servicios de
+    Workday y SAP SuccessFactors, la gestión financiera, la facturación y la colaboración, y muchos más.
+
+Según Forrester Research, el SaaS ha superado a las soluciones locales en categorías como la gestión del capital humano (HCM), la gestión de las relaciones con los clientes (CRM)
+    y la colaboración.
+
+Las soluciones que antes estaban disponibles con varias opciones de implementación diferentes ahora son exclusivas de SaaS.
+
+Veamos las características clave del software como servicio: las nubes SaaS tienen una arquitectura multiusuario.
+La infraestructura y el código se mantienen de forma centralizada y todos los usuarios pueden acceder a ellos.
+El SaaS facilita a los usuarios la administración de los privilegios, la supervisión del uso de los datos y la garantía de que todos vean la misma información al mismo tiempo.
+La seguridad, el cumplimiento y el mantenimiento forman parte de la oferta.
+
+En el SaaS, las personalizaciones suelen ser limitadas; sin embargo, algunas aplicaciones SaaS pueden permitir ciertos tipos de personalizaciones, como la marca; pueden modificar
+    los campos de datos y habilitar o deshabilitar funciones dentro del proceso empresarial.
+
+Estas personalizaciones se conservan mediante las actualizaciones.
+
+Los usuarios pagan por el uso de los servicios mediante un modelo de suscripción.
+El uso de los recursos se puede escalar fácilmente, según las necesidades del servicio.
+
+Principales ventajas de adoptar el SaaS: las empresas pueden adquirir soluciones directamente sin capital ni asistencia de TI iniciales , lo que reduce considerablemente el tiempo
+    que transcurre desde la decisión hasta la obtención de valor, de meses a días.
+
+El SaaS aumenta considerablemente la productividad y la eficiencia de la fuerza laboral.
+
+Los usuarios pueden acceder a las principales aplicaciones empresariales desde cualquier lugar; también pueden comprar e implementar aplicaciones en cuestión de minutos, lo que
+    reduce los obstáculos típicos a los que se enfrentan las empresas para probar los productos que podrían utilizar.
+
+Al utilizar las aplicaciones SaaS, los particulares y las pequeñas empresas pueden distribuir sus costes de software a lo largo del tiempo.
+
+Veamos algunos casos de uso del SaaS: las organizaciones están optando por el SaaS para satisfacer sus necesidades empresariales principales como parte de su transformación
+    estratégica para reducir la infraestructura de TI local y reducir los gastos de capital.
+
+Las organizaciones están aprovechando el SaaS para evitar la necesidad de realizar actualizaciones, mantenimiento y parches continuos, que tradicionalmente se realizaban con
+    recursos de TI internos; las aplicaciones se ejecutan de forma fiable con un mínimo de recursos, por ejemplo, los servidores de correo electrónico y las herramientas de
+    colaboración y productividad de la oficina.
+
+Las organizaciones optan cada vez más por las plataformas de comercio electrónico SaaS para gestionar sus sitios web, su marketing, sus ventas y sus operaciones.
+
+Con el SaaS, las organizaciones pueden aprovechar la resiliencia y la continuidad empresarial del proveedor de la nube.
+
+Las empresas ahora están desarrollando plataformas de integración de SaaS (o SIP) para crear aplicaciones SaaS adicionales, lo que hace que el SaaS pase de ser una funcionalidad
+    de software independiente a convertirse en una plataforma para aplicaciones de misión crítica.
+
+El SaaS también suscita algunas preocupaciones.
+Entre ellas, las principales son la propiedad y la seguridad de los datos.
+La seguridad es un aspecto importante a tener en cuenta a la hora de permitir que un tercero conserve datos esenciales para la empresa.
+Y el acceso a las aplicaciones depende de una buena conexión de red.
+Sin embargo, los beneficios superan con creces las preocupaciones, ya que el SaaS constituye el segmento más grande del mercado de la nube en la actualidad.

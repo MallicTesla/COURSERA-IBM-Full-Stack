@@ -1,0 +1,48 @@
+En este vídeo, analizaremos el modelo de infraestructura como servicio con más detalle.
+
+La infraestructura como servicio, también conocida como «IaaS» (o simplemente «ojos»), es una forma de computación en nube que ofrece a los consumidores recursos fundamentales
+de cómputo, red y almacenamiento a pedido, a través de Internet y mediante un sistema de pago por uso.
+
+El proveedor de la nube aloja los componentes de infraestructura que tradicionalmente se encuentran en un centro de datos local, así como en la capa de virtualización o hipervisor.
+
+En un entorno de nube de IaaS, los clientes pueden crear o aprovisionar máquinas virtuales (o VM) en la región y zona que elijan y que estén disponibles a través del proveedor de
+    la nube. Estas máquinas virtuales suelen venir preinstaladas según el sistema operativo que elija el cliente.
+Luego, los clientes pueden implementar middleware, instalar aplicaciones y ejecutar cargas de trabajo en estas máquinas virtuales.
+
+También pueden crear almacenamiento para sus cargas de trabajo y copias de seguridad.
+
+Los proveedores de servicios en la nube suelen ofrecer a los clientes la posibilidad de realizar un seguimiento y supervisar el rendimiento y el uso de sus servicios en la nube
+    y gestionar la recuperación ante desastres.
+
+Analicemos los componentes clave de la infraestructura de nube: centros de datos físicos: los proveedores de IaaS administran grandes centros de datos que contienen las máquinas
+    físicas necesarias para alimentar las distintas capas de abstracción que se encuentran sobre ellos.
+    En la mayoría de los modelos de IaaS, los usuarios finales no interactúan directamente con la infraestructura física, sino que la experimentan como un servicio que se les
+    proporciona.
+
+Computación: los proveedores de IaaS administran los hipervisores y los usuarios finales aprovisionan las instancias virtuales mediante programación con las cantidades deseadas de
+    recursos informáticos, de memoria y de almacenamiento.
+
+La computación en la nube suele incluir servicios de apoyo, como el escalado automático y el equilibrio de carga, que proporcionan escalabilidad y alto rendimiento.
+
+Red: los usuarios obtienen acceso a los recursos de red en la nube mediante la virtualización o mediante programación, mediante API.
+
+Almacenamiento: hay tres tipos de almacenamiento de datos en la nube: almacenamiento de objetos, archivos y bloques.
+    El almacenamiento de objetos es el modo de almacenamiento más común en la nube, dado que está muy distribuido y es resistente.
+    La IaaS admite una amplia gama de casos de uso. Aquí veremos algunos casos de uso típicos.
+
+Hoy en día, las organizaciones utilizan los servicios de infraestructura en la nube para permitir a sus equipos configurar entornos de prueba y desarrollo con mayor rapidez, lo
+    que ayuda a crear nuevas aplicaciones con mayor rapidez.
+
+Al abstraer los componentes de bajo nivel, la infraestructura de nube ayuda a los desarrolladores a centrarse más en la lógica empresarial que en la gestión de la infraestructura.
+La continuidad empresarial y la recuperación ante desastres requieren una cantidad significativa de inversiones en tecnología y personal.
+La IaaS ayuda a las organizaciones a reducir este costo y a hacer que las aplicaciones y los datos sean accesibles como de costumbre durante un desastre o una interrupción del
+    servicio. Las organizaciones utilizan la infraestructura de nube para implementar sus aplicaciones web con mayor rapidez y, además, amplían y reducen la infraestructura a
+    medida que la demanda fluctúa. Las organizaciones están aprovechando las capacidades informáticas de alto rendimiento de la infraestructura de nube para resolver problemas
+    complejos que implican millones de variables y cálculos, como las predicciones climáticas y meteorológicas y los modelos financieros.
+    La extracción de conjuntos de datos masivos para localizar patrones, tendencias y asociaciones valiosos requiere una enorme potencia de procesamiento.
+
+La infraestructura en la nube no solo proporciona la computación de alto rendimiento requerida, sino que también la hace económicamente viable. Si bien existe cierta
+    preocupación por la falta de transparencia en la configuración y la administración de la infraestructura de nube y por la dependencia de un tercero para la disponibilidad y
+    el rendimiento de la carga de trabajo, la infraestructura como servicio es el modelo de nube que más rápido está creciendo en la actualidad.
+
+En el siguiente vídeo, analizaremos el modelo de plataforma como servicio, sus características, beneficios y algunos casos de uso

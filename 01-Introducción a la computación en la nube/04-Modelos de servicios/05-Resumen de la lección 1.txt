@@ -1,0 +1,57 @@
+Resumen de la Lección 1: Modelos de Servicio
+
+En esta lección, has aprendido lo siguiente:
+
+Con IaaS, el proveedor de la nube gestiona los recursos físicos.
+
+Con PaaS, el proveedor gestiona la infraestructura de la plataforma.
+
+En el modelo SaaS, el proveedor aloja y gestiona las aplicaciones y los datos.
+
+Infrastructure-as-a-Service es una forma de informática en la nube que proporciona recursos informáticos, de red y almacenamiento fundamentales a
+    los consumidores bajo demanda, a través de la red, en un modelo de pago por uso.
+
+Los componentes clave de la infraestructura en la nube son:
+
+    Centros de datos físicos
+
+    Computación
+
+    Red
+
+    Almacenamiento
+
+Platform-as-a-Service es un modelo de informática en la nube que proporciona a los clientes una plataforma completa, incluyendo hardware, software e infraestructura.
+
+El alto nivel de abstracción, los servicios de soporte, los entornos de tiempo de ejecución, los mecanismos de implementación rápida y las capacidades de middleware distinguen
+    a las nubes PaaS.
+
+Las ventajas de PaaS son:
+
+    Escalabilidad
+
+    Tiempo más rápido para poner productos y servicios en el mercado.
+
+    Mayor agilidad e innovación
+
+Software-as-a-Service es una oferta en la nube que brinda a los usuarios acceso al software basado en la nube de un proveedor de servicios.
+
+Las características de SaaS son:
+
+    Arquitectura multinquilino
+
+    Seguridad, cumplimiento y mantenimiento
+
+    Personalización de aplicaciones
+
+    Modelo de suscripción
+
+    Escalabilidad
+
+Las ventajas de SaaS son:
+
+    Adquisición directa de soluciones
+
+    Mejora de la productividad y eficiencia de la fuerza laboral
+
+    Facilita la distribución de los costos del software.

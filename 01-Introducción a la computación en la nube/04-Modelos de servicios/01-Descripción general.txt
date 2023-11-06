@@ -1,0 +1,46 @@
+En nuestro vídeo introductorio sobre la nube, hablamos brevemente sobre los tres modelos de servicio disponibles en la nube: infraestructura como servicio, plataforma como
+    servicio y software como servicio.
+
+Antes de profundizar en los detalles de cada uno de estos modelos de servicio en los siguientes vídeos, comencemos con un breve resumen de estos modelos.
+
+>> Hola, soy Tessa Rhodes y soy diseñadora en IBM Cloud. Empecemos por lo básico, con IaaS. La IaaS es un conjunto de recursos de computación, redes y almacenamiento que un
+    proveedor ha virtualizado para que el usuario pueda acceder a ellos y configurarlos de la forma que desee.
+En diseño, tenemos el concepto de usuarios denominados personas, y la persona de IaaS es un administrador del sistema.O administrador de TI.
+
+Pasemos a lo más alto con el software como servicio, eso es lo más fácil.
+El software como servicio es simplemente software que no tiene que instalar en su máquina ni actualizarlo manualmente.
+Por lo tanto, el usuario del software como servicio puede ser cualquier persona.
+De hecho, si estás viendo esto en YouTube ahora mismo, significa que eres usuario del software como servicio.
+Por lo general, se cobra según un modelo de suscripción. en lugar de una cuota de licencia única.
+Y eso nos lleva a la plataforma como servicio.
+
+La PaaS aprovecha todos los recursos virtualizados de IaaS y, luego, los extrae, de modo que el usuario no tiene que preocuparse por administrar ninguno de esos recursos
+    virtualizados.
+
+Por lo general, el usuario de PaaS no es un administrador del sistema.
+Suele ser un desarrollador. En IBM llamamos a esta desarrolladora «Jane». Es el nombre de nuestra persona. Así pues, toda esta metáfora, la metáfora piramidal, pretende indicar
+    que, a medida que uno desciende, aumenta la complejidad en términos de conocimiento y administración de los recursos de infraestructura y aumenta la facilidad de uso.
+
+Otra metáfora que utilizo cuando hablo con los diseñadores de mi equipo sobre la PaaS es que tiene que ver con un automóvil.
+Así que, en esta metáfora, la IaaS es como arrendar un coche. Así que si alguna vez has arrendado un coche, es probable que hayas investigado mucho y te interesen las
+    especificaciones del coche y su rendimiento.
+    Te importa el color del coche, el tipo de coche que sea.
+    Tú eres el que conduce y lo pagas. También pagas la gasolina y los peajes o el mantenimiento.
+    Con la metáfora de Plataforma como servicio, es más como alquilar un coche.
+    Supongamos que está de vacaciones y acaba de salir del aeropuerto y va a recoger su coche de alquiler.
+    Realmente no te importa de qué color sea. La verdad es que ni siquiera te importan las especificaciones, pero sigues conduciendo y pagas la gasolina y los peajes que tengas
+    que pagar.
+El software como servicio vuelve a ser el más fácil. Es más como coger un taxi o un Uber.
+Así que con un taxi o un Uber, no te importa en absoluto qué tipo de coche sea, de qué color sea y, de hecho, ni siquiera eres tú quien conduce, ni paga la gasolina ni los
+    peajes, porque eso está incluido en el precio.
+
+>>Veamos qué significa en términos de computación en nube y sus tres modelos de servicio.
+Con la IaaS, el proveedor de la nube administra los recursos físicos, los centros de datos, la refrigeración, la alimentación, la red y la seguridad, así como los recursos
+    informáticos que incluyen servidores y almacenamiento.
+
+Con PaaS, el proveedor, además de los recursos informáticos, también administra la infraestructura de la plataforma, que incluye los sistemas operativos, las herramientas de
+    desarrollo, las bases de datos y los análisis empresariales.
+
+En el modelo SaaS, además de los recursos de infraestructura y plataforma, el proveedor también aloja y administra las aplicaciones y los datos.
+
+En el siguiente vídeo, analizaremos en detalle la infraestructura como servicio, sus características, beneficios y algunos casos de uso.
