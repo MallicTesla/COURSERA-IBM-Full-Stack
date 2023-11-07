@@ -1,0 +1,55 @@
+Puntos de vista de expertos: servicios de computación en la nube y modelos de implementación
+
+Bienvenido a los modelos de servicios de computación en la nube: puntos de vista de expertos.
+En este vídeo escucharemos a varios expertos en la nube hablar sobre la elección y la adopción de diferentes modelos de nube.
+
+¿Puede hablar sobre casos de uso o consideraciones para elegir el modelo de nube adecuado para su organización? Modele como en IaaS, SaaS o PASs; o público, privado o híbrido.
+Al elegir un modelo de nube para su organización, ¿quiere tener en cuenta en qué punto se encuentra su organización en la transición a la nube? Por lo tanto, si tienen un
+    contrato de arrendamiento del centro de datos que está a punto de expirar, es posible que no tengan tiempo de reescribir la aplicación para que sea nativa de la nube.
+Es posible que tengan tiempo de usar la aplicación exactamente como está en las máquinas virtuales del centro de datos y moverla a las máquinas virtuales de la nube.
+Esto se denomina infraestructura como servicio.
+Si dispone de más tiempo, podría plantearse la posibilidad de cambiar de plataforma, es decir, ponerla en una plataforma como servicio, como Containers, o en un servicio que
+    gestione el sistema operativo por usted, le aplique parches al sistema operativo y lo único que tendrá que hacer será instalar las dependencias adicionales usted mismo.
+
+O si quieres avanzar muy rápido y tienes un producto completamente nuevo que acabas de empezar a escribir, ¿por qué no empiezas con el enfoque más reciente, que son las
+    funciones como servicio? Utilice funciones sin servidor y podrá avanzar muy rápido, ya que no tendrá que gestionar ninguna infraestructura subyacente.
+
+El proveedor de la nube se encarga por usted de la seguridad del sistema operativo. Por lo general, mi respuesta es mantener los niveles más altos posibles para cumplir con los
+    requisitos de su empresa.
+Por lo tanto, las aplicaciones SaaS proporcionan valor empresarial con una inversión mínima o nula en recursos tecnológicos más allá de las suscripciones.
+Así que si eso funciona, estupendo.
+
+La plataforma como servicio, como he mencionado, permite a los desarrolladores centrarse en crear e implementar nuevas aplicaciones sin tener que preocuparse por los detalles de
+    la infraestructura de la nube.
+Y si es en muchos casos, eso le permitirá ahorrar dinero e inversiones y le permitirá centrarse en desarrollar sus productos con mayor rapidez a la hora de lanzarlos al mercado.
+
+Sin embargo, la infraestructura como servicio es la respuesta correcta cuando necesita un control específico de todos los recursos informáticos y de red para alcanzar sus
+    objetivos empresariales.
+
+Así que, en muchos casos, eso también tendrá sentido.
+Al elegir el modelo de nube adecuado, las organizaciones deben tener en cuenta cuáles son sus necesidades empresariales, el nivel de control que desean tener y el costo.
+Si su empresa necesita un software listo para usar, como correo electrónico, CRM, herramienta de gestión de eventos, etc., elija el software como servicio.
+
+Ofrecerá acceso desde cualquier lugar y dispositivo, actualizaciones de software automáticas, adopciones sencillas y de bajo coste.
+Necesitará un proveedor para administrar el software.
+
+Si necesita una plataforma para crear productos, elija la plataforma como servicio.
+Es la opción perfecta para las empresas de desarrollo de software, ya que permite a los desarrolladores reducir el tiempo de desarrollo, admite diferentes lenguajes de
+    programación, facilita la colaboración con los equipos y reduce los costes.
+
+Si su empresa simplemente necesita una máquina virtual, opte por la infraestructura como servicio. Los escenarios para utilizar la infraestructura como servicio pueden ser
+    alojar un sitio web, centros de datos virtuales o realizar análisis de datos.
+
+La infraestructura como servicio es más cara que el SaaS o la PaaS, y todas las cuestiones relacionadas con la administración de máquinas virtuales son responsabilidad de las
+    empresas.
+Sin embargo, es más confiable y seguro, ya que los datos se guardan en los centros de datos designados.
+A medida que pasa de los niveles de abstracción del software como servicio a la infraestructura como servicio, la desventaja es que usted mismo asume más responsabilidades de
+    administración, con la ventaja de tener más control sobre la configuración de sus recursos.
+Por lo general, solo acepto esa compensación cuando es necesario.
+
+Digamos que estoy creando un sitio web.
+Por lo general, elijo por defecto una opción de software como servicio, digamos WordPress.
+Pero entonces tal vez resulte que el sitio web que estoy creando es algo complicado y quiero que sea una aplicación de reacción.
+Podría alojar esa aplicación en una plataforma como servicio, pero supongamos que tengo el requisito de que mi aplicación se ejecute en un sistema operativo que no sea
+    compatible con la plataforma como servicio.
+En ese momento, tendré que aprovisionar algunas máquinas virtuales yo mismo y averiguar cómo ejecutarlas yo mismo.

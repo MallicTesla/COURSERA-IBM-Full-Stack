@@ -1,0 +1,64 @@
+El Instituto Nacional de Estándares y Tecnología define la nube privada como la infraestructura de nube aprovisionada para uso exclusivo de una sola organización compuesta por
+varios consumidores, como las unidades de negocios de la organización.
+
+Puede ser propiedad de la organización, de un tercero o de una combinación de ellos, y puede estar gestionada y gestionada por ella, y puede existir dentro o fuera de las
+    instalaciones.
+
+Las plataformas de nube privada se pueden implementar interna o externamente. Cuando la plataforma se aprovisiona a través de la infraestructura interna de una organización, se
+    ejecuta en las instalaciones y es propiedad de la organización, la cual la administra y opera.
+
+Cuando se aprovisiona a través de la infraestructura de un proveedor de servicios en la nube, es propiedad del proveedor de servicios, quien lo administra y opera.
+
+Esta oferta de nube privada externa que reside en la infraestructura de un proveedor de servicios en la nube se denomina nube privada virtual o VPC.
+
+Una VPC es una oferta de nube pública que permite a una organización establecer su propio entorno informático privado y seguro similar a una nube en una parte aislada lógicamente
+    de una nube pública compartida.
+
+Al usar una VPC, las organizaciones pueden aprovechar la escalabilidad dinámica, la alta disponibilidad y el menor costo de propiedad de una nube pública, al tiempo que disponen
+    de una infraestructura y seguridad adaptadas a las necesidades únicas de la organización.
+
+La mayoría de los proveedores de nube pública, como IBM y Amazon, ofrecen la nube privada virtual.
+
+Una nube privada es un entorno virtualizado diseñado para aprovechar los beneficios de una plataforma de nube pública sin las desventajas percibidas de una plataforma pública
+    compartida de gama abierta.
+
+Los usuarios de una nube privada, como los desarrolladores y las unidades de negocio de una organización, aún pueden aprovechar ventajas como las economías de escala, la escala
+    granular, la eficiencia operativa y el autoservicio de los usuarios, al tiempo que ejercen un control total sobre el acceso, la seguridad y el cumplimiento específicos de su
+    organización y empresa.
+
+La nube privada le proporciona, por una parte, la capacidad de aprovechar el valor de la computación en nube mediante sistemas que se administran directamente o que se percibe
+    que están bajo el control de la TI interna de la organización.
+
+En segundo lugar, la capacidad de utilizar mejor los recursos informáticos internos, como las inversiones actuales de la organización en hardware y software, reduciendo así los
+    costes.
+
+En tercer lugar, una mejor escalabilidad mediante la virtualización y la expansión de la nube. Es decir, aprovechar las instancias de la nube pública durante un período de tiempo,
+    pero volver a la nube privada cuando el aumento sea constante.
+
+En cuarto lugar, acceso controlado y mayores medidas de seguridad personalizadas según las necesidades organizativas específicas.
+
+En quinto lugar, la capacidad de expandir y aprovisionar cosas en un período de tiempo relativamente corto, lo que proporciona una mayor agilidad.
+
+Las organizaciones pueden optar por la nube privada por varios motivos, ya que sus aplicaciones ofrecen una ventaja competitiva única.
+
+Existen problemas de seguridad y normativos, o bien porque sus datos son muy sensibles y están sujetos a estrictas normas industriales o gubernamentales.
+
+Veamos algunos casos de uso habituales de una nube privada.
+    En primer lugar, una nube privada es una oportunidad para que las organizaciones modernicen y unifiquen sus aplicaciones internas y antiguas.
+    Trasladar estas aplicaciones de su hardware dedicado a la nube también les permite aprovechar la potencia de los recursos informáticos y los múltiples servicios disponibles en
+        la nube.
+
+    En segundo lugar, al utilizar la nube privada, las organizaciones integran los servicios de datos y aplicaciones de sus aplicaciones existentes con los servicios de nube
+        pública.
+    Esto les permite aprovechar la capacidad de cómputo de su nube privada para los trabajos más grandes y, al mismo tiempo, transferir los datos a una aplicación en una nube
+        privada para aprovechar los servicios de la nube pública.
+    Básicamente, abrir sus centros de datos para que funcionen con servicios en la nube.
+    
+    En tercer lugar, la portabilidad de las aplicaciones es una característica clave de las plataformas en la nube.
+    El uso de la nube privada brinda a las organizaciones la capacidad de crear aplicaciones en cualquier lugar y moverlas a cualquier lugar sin tener que comprometer la seguridad
+        y el cumplimiento en el proceso.
+    
+    En cuarto lugar, algunos de los principales motivos que pueden impedir que una organización se traslade a una nube pública son los problemas de seguridad y normativos y la
+        confidencialidad de los datos.
+    Una nube privada ofrece a estas organizaciones los beneficios de los recursos empresariales a pedido y, al mismo tiempo, ejercen un control total sobre los problemas críticos
+        de seguridad y cumplimiento desde el entorno de su nube dedicada

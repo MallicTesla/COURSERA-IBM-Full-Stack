@@ -1,0 +1,60 @@
+BPM
+Gestión de Procesos de Negocio
+
+Multinube compuesta
+Una variante de multinube híbrida que distribuye aplicaciones únicas entre múltiples proveedores, lo que le permite mover componentes de aplicaciones entre proveedores y
+    servicios de nube según sea necesario.
+
+CRM
+Gestión de relaciones con el cliente
+
+HCM 
+Gestión del capital humano
+
+Nube híbrida
+Un entorno informático que conecta la nube privada local de una organización y la nube pública de terceros en una infraestructura única y flexible para ejecutar las aplicaciones
+    y cargas de trabajo de la organización.
+
+Mononube híbrida
+Una nube híbrida con un solo proveedor de nube
+
+Multinube híbrida
+Una pila basada en estándares abiertos que se puede implementar en cualquier infraestructura de nube pública
+
+IaaS
+La infraestructura como servicio es una forma de computación en la nube que ofrece recursos informáticos, de red y de almacenamiento fundamentales a los consumidores bajo
+    demanda, a través de la red y mediante un sistema de pago por uso.
+
+IoT
+Internet de las Cosas
+
+DM
+Gestión de datos maestros
+
+PaaS
+La plataforma como servicio es un modelo de computación en la nube que proporciona a los clientes una plataforma completa (hardware, software e infraestructura) para desarrollar,
+    implementar, administrar y ejecutar aplicaciones creadas por ellos o adquiridas de un tercero.
+
+Pago por uso
+Los usuarios pueden solicitar recursos en la nube de un conjunto más grande de recursos disponibles y pagarlos por uso.
+
+Nube privada
+Infraestructura de nube aprovisionada para uso exclusivo de una única organización que comprende múltiples consumidores, como las unidades de negocio dentro de la organización.
+
+Nube pública
+Los usuarios obtienen acceso a servidores, almacenamiento, redes, seguridad y aplicaciones como servicios prestados por proveedores de servicios en la nube a través de Internet.
+
+SaaS
+El software como servicio es una oferta en la nube que proporciona a los usuarios acceso al software basado en la nube de un proveedor de servicios.
+
+SORBO
+Plataformas de integración SaaS
+
+costo total de propiedad
+Costo total de propiedad
+
+máquina virtual
+Máquina virtual
+
+VPC
+Nube privada virtual

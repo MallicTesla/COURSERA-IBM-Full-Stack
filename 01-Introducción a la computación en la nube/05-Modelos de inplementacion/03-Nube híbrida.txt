@@ -1,0 +1,117 @@
+La nube híbrida es un entorno informático que conecta la nube privada local de una organización y la nube pública de terceros en una única infraestructura flexible para ejecutar
+    las aplicaciones y cargas de trabajo de la organización.
+
+La combinación de recursos de nube pública y privada brinda a las organizaciones la flexibilidad de elegir la nube óptima para cada aplicación o carga de trabajo.
+
+Las cargas de trabajo se mueven libremente entre las dos nubes a medida que cambian las necesidades.
+
+Las organizaciones pueden optar por ejecutar las aplicaciones o cargas de trabajo confidenciales, altamente reguladas y de misión crítica con requisitos de rendimiento y
+    capacidad razonablemente constantes en una infraestructura de nube privada, al tiempo que despliegan las cargas de trabajo menos sensibles y más dinámicas en la nube pública.
+
+Con la integración y la coordinación adecuadas entre las nubes públicas y privadas, puede aprovechar ambas nubes para la misma carga de trabajo.
+Por ejemplo, puede aprovechar las instancias de la nube pública durante un período de tiempo, pero volver a la nube privada cuando se cumpla la búsqueda, lo que también se
+    conoce como explosión de nubes.
+
+Los principios clave de una nube híbrida son la interoperabilidad, la escalabilidad y la portabilidad.
+
+La nube híbrida es interoperable, lo que significa que los servicios de nube pública y privada pueden comprender las API, la configuración, los formatos de datos y las formas de
+    autenticación y autorización de los demás.
+
+Cuando hay un aumento en la demanda, una carga de trabajo que se ejecuta en la nube privada puede aprovechar la capacidad adicional de la nube pública y hacerla escalable.
+
+Una nube híbrida también es portátil. Como ya no está limitado a un proveedor específico, puede mover aplicaciones y datos no solo entre sistemas locales y en la nube, sino
+    también entre proveedores de servicios en la nube.
+
+La tecnología híbrida consiste en aprovechar lo mejor de ambos mundos.
+Existen dos tipos comunes de nubes híbridas: la nube mono híbrida y la nube múltiple híbrida.
+    La nube mono híbrida es una nube híbrida con un proveedor de nube, mientras que una nube múltiple híbrida es un conjunto abierto basado en estándares que se puede
+        implementar en cualquier infraestructura de nube pública.
+    La diferencia radica en la flexibilidad que la multinube híbrida ofrece a las organizaciones para trasladar las cargas de trabajo y los entornos de un proveedor a otro.
+
+    También existe una variante de multinube híbrida denominada multinube compuesta, que hace que esta flexibilidad sea aún más granular, ya que distribuye aplicaciones
+        individuales entre varios proveedores, lo que permite mover los componentes de las aplicaciones entre los distintos proveedores y servicios de nube según sea necesario.
+
+    La nube híbrida ofrece importantes ventajas en los ámbitos de la seguridad y el cumplimiento, la escalabilidad y la resiliencia, la optimización de los recursos y el ahorro
+        de costes.
+    Una nube híbrida permite a las organizaciones implementar cargas de trabajo sensibles o altamente reguladas en una nube privada y, al mismo tiempo, ejecutar las cargas de
+        trabajo menos sensibles en una nube pública.
+    
+    Con una nube híbrida, puede ampliarlas de forma rápida, económica e incluso automática mediante la infraestructura de la nube pública, todo ello sin afectar a las demás cargas
+        de trabajo que se ejecutan en su nube privada.
+
+Como no está limitado a un proveedor específico y tampoco tiene que tomar decisiones entre los distintos modelos de nube, puede hacer el uso más rentable de su presupuesto de
+    infraestructura.
+
+Puede mantener las cargas de trabajo donde sean más eficientes, desarrollar entornos mediante el sistema de pago por uso en la nube pública y adoptar rápidamente nuevas
+    herramientas a medida que las necesite.
+
+Sin embargo, las nubes híbridas son complejas y difíciles de implementar y mantener, ya que implican la sincronización, la redirección, la latencia, la seguridad, la
+    portabilidad, la interoperabilidad y la compatibilidad de las políticas, las aplicaciones y los datos, etc.
+
+Una organización típica tendrá una gama de aplicaciones y cargas de trabajo distribuidas en entornos de TI privados , públicos y tradicionales.
+Esto representa una gama de oportunidades de optimización mediante un enfoque de nube híbrida.
+
+Veamos algunos casos de uso de la nube híbrida cada vez más comunes.
+Integración de software como servicio.
+Mediante la integración híbrida, las organizaciones conectan las aplicaciones de software como servicio disponibles en la nube pública con sus aplicaciones actuales de nube
+    pública, nube privada y TI tradicionales para ofrecer nuevas soluciones.
+
+Integración de datos e IA.
+Hoy en día, las organizaciones están creando experiencias más enriquecedoras y personales al combinar nuevas fuentes de datos en la nube pública, como las meteorológicas, las
+    redes sociales, el Internet de las cosas , la CRM y el ERP, con las capacidades existentes de datos y análisis, aprendizaje automático e inteligencia artificial.
+
+Mejora de las aplicaciones antiguas.
+Un número cada vez mayor de organizaciones utilizan los servicios de nube pública para mejorar la experiencia de usuario de sus aplicaciones locales e implementarlas globalmente
+    en nuevos dispositivos, al tiempo que modernizan gradualmente sus sistemas empresariales principales.
+
+Migración a VMware.
+Cada vez son más las organizaciones que trasladan sus cargas de trabajo virtualizadas locales a una nube pública y las trasladan a una nube pública sin necesidad de convertirlas
+    ni modificarlas, a fin de reducir el espacio ocupado por sus centros de datos locales y posicionarse para escalar sin incurrir en gastos de capital adicionales.
+
+Aprovechar los servicios de nube pública.
+Al utilizar la nube privada, las organizaciones integran los servicios de datos y aplicaciones de sus aplicaciones existentes con los servicios de la nube pública.
+Esto les permite aprovechar su capacidad de cómputo en la nube privada para tareas de mayor envergadura y, al mismo tiempo, transferir los datos a una aplicación ubicada en una
+    nube privada para aprovechar los servicios de la nube pública.
+Básicamente, permiten que sus centros de datos funcionen con los servicios de la nube. 
+
+Hola a todos. Mi nombre es Sai Vennam y soy defensor de los desarrolladores en IBM. Hoy tengo el placer de presentar una serie de vídeos de tres partes sobre arquitecturas de
+    nube híbrida.
+La nube híbrida es un concepto que existe desde hace bastante tiempo, pero estamos descubriendo que se utiliza cada vez más para diseñar y modernizar aplicaciones existentes o
+    heredadas.
+Según una investigación, descubrimos que el 75% de las aplicaciones ajenas a la nube se trasladarán a la nube en los próximos tres años. Esto quiere decir que si aún no está
+    pensando en su estrategia de nube híbrida, es posible que se esté quedando atrás.
+
+Si quieres obtener más información sobre los conceptos básicos de la nube híbrida, consulta mi vídeo explicativo sobre la nube híbrida, en el que abordé los conceptos básicos de
+    todas las arquitecturas de nube híbrida.
+
+En esta serie de tres partes, quiero profundizar y abordar los conceptos clave que componen una arquitectura de nube híbrida. Para ello, vamos a empezar con la primera parte de
+    esta serie de vídeos, que va a ser Connect.
+La conectividad y la interoperabilidad son conceptos fundamentales de las arquitecturas de nube híbrida.
+
+Imagínese que tiene aplicaciones existentes que pueden estar ejecutándose de forma local y trabajando, quizás, con una nube privada, y también puede imaginarse que sacaría
+    provecho de la nube pública.
+Si tiene servicios que se ejecutan en todos estos entornos, necesitamos una forma de conectarlos entre sí de forma segura. Aprovechar las soluciones de código abierto que tenemos,
+    como los contenedores basados en Linux, Kubernetes e Istio, así como las herramientas de administración de múltiples clústeres, las colas de mensajes y los intermediarios,
+    la lista es interminable, pero hay muchas soluciones disponibles cuando se usan correctamente, lo que le ayuda a lograr la conectividad que necesita con las arquitecturas de
+    nube híbrida.
+
+En la segunda parte, queremos hablar sobre la modernización. Cambiaremos un poco de tema aquí.
+Imagínese que con las aplicaciones existentes que pueda tener, podría tener una aplicación monolítica que quisiera separar y trasladar a una nube pública, lo que podría permitirle
+    aprovechar mejor la ampliación de la oferta de entornos públicos.
+Se trata de un caso de uso muy sencillo y uno de muchos a la hora de modernizar sus aplicaciones.
+En la segunda parte, abordaré las estrategias para modernizar las aplicaciones heredadas, que son una parte fundamental de las arquitecturas de nube híbrida.
+
+En la tercera parte, queremos hablar sobre la seguridad.
+Nos damos cuenta de que cada año se habla de una violación de datos diferente y a nosotros nos enteramos de que se imponen a las empresas normas de privacidad cada vez más
+    estrictas.
+El hecho es que pasarse a la nube híbrida puede asustar a algunos, pero tenemos que idear soluciones que nos aseguren de que puedas aprovechar tus activos locales actuales, la
+    seguridad y la facilidad de uso de los que dispones y, al mismo tiempo, trasladar de forma segura algunos de tus activos a una nube pública o incluso privada.
+Esto le permite aprovechar cómodamente todos los recursos de los que dispone en la nube pública y, al mismo tiempo, mantener la seguridad que requieren sus arquitecturas.
+
+Creo que esta serie de tres partes le ayudará a abordar los tres problemas principales que pueden surgir al diseñar sus aplicaciones de nube híbrida.
+Como siempre, estamos pendientes de sus comentarios y opiniones, y si tiene algún otro tema que quiera que abordemos o algún otro vídeo sobre cómo abordarlo, díganoslo a
+    continuación.
+
+No dejéis de suscribiros y estar atentos a los próximos vídeos de esta serie.
+
+Si ya queréis empezar con la arquitectura de la nube híbrida, echad un vistazo a algunos de los enlaces que aparecen a continuación y a los vídeos que hemos preparado. Gracias.

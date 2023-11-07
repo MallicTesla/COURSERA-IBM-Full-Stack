@@ -1,0 +1,19 @@
+Resumen de la Lección 2: Modelos de Implementación
+En esta lección, has aprendido:
+
+Los modelos de implementación indican dónde reside la infraestructura, quién la posee y la gestiona, y cómo se ponen a disposición de los usuarios los recursos y servicios en la
+    nube.
+Hay cuatro modelos de implementación principales disponibles en la nube: público, privado, híbrido y de comunidad.
+
+En el modelo de nube pública, el proveedor de servicios posee, gestiona, suministra y mantiene la infraestructura física, como centros de datos, servidores, equipos de red y
+    almacenamiento, con los usuarios accediendo a recursos virtualizados de cómputo, redes y almacenamiento como servicios.
+
+En el modelo de nube privada, el proveedor provisiona la infraestructura en la nube para uso exclusivo de una sola organización.
+La infraestructura de nube privada puede estar en el interior de la organización y funcionar en las instalaciones o puede estar en una nube pública, como en el caso de las Redes
+    Privadas Virtuales (VPN), y ser propiedad, gestionada y operada por el proveedor de nube.
+
+En el modelo de nube híbrida, la nube privada en las instalaciones de una organización y una nube pública de terceros se conectan como una única infraestructura flexible que
+    aprovecha las características y beneficios de las nubes públicas y privadas.
+
+En el modelo de nube de comunidad, el proveedor provisiona la infraestructura en la nube para uso de una comunidad de organizaciones con preocupaciones compartidas.
+Una o varias de las organizaciones de la comunidad, un proveedor de terceros o ambos son responsables de la propiedad, gestión y operación de esta infraestructura.

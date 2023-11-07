@@ -1,0 +1,109 @@
+Nube comunitaria
+En esta lectura, aprenderá sobre la nube comunitaria y cómo se implementa con referencia a Google Cloud como ejemplo.
+
+¿Qué es una nube comunitaria?
+NIST SP 800-145 define una nube comunitaria como:
+
+“La infraestructura en la nube [that] se proporciona para uso exclusivo de una comunidad específica de consumidores de organizaciones que tienen inquietudes compartidas
+    (por ejemplo, misión, requisitos de seguridad, políticas y consideraciones de cumplimiento).
+    Puede ser propiedad de, administrada y operada por una o más organizaciones de la comunidad, un tercero o alguna combinación de ellos, y puede existir dentro o fuera de las
+    instalaciones”.
+
+
+¿Por qué la nube comunitaria?
+Las organizaciones utilizan el enfoque de nube comunitaria por los siguientes motivos:
+
+    Los miembros de la nube comunitaria trabajan bajo el mismo conjunto de controles de seguridad.
+
+    El enfoque proporciona a los miembros los mismos atributos como ciudadanía y controles de autorización, al tiempo que brinda acceso físico y/o lógico limitado a los recursos.
+
+    También admite la localización de datos y algunos requisitos de soberanía de datos basados ​​en la ubicación de los centros de datos de la nube comunitaria. 
+
+    El enfoque define un modelo de seguridad perimetral que abarca la nube comunitaria. 
+    
+
+Implementación de una nube comunitaria definida por software 
+Para establecer un perímetro de seguridad, la mayoría de las nubes comunitarias heredadas dependen de la separación física de otras nubes. Sin embargo, esta implementación no
+    pudo cumplir con los requisitos avanzados de seguridad, capacidad de administración o cumplimiento de la industria.
+
+En la arquitectura moderna, una nube comunitaria definida por software está diseñada para ofrecer los beneficios necesarios.
+Google Cloud es un enfoque definido por software que brinda garantías de seguridad y cumplimiento sin las estrictas limitaciones de infraestructura física de los enfoques
+heredados.
+Las nubes de la red de Google utilizan una combinación de tecnologías denominadas "nubes aseguradas" que pueden:
+
+    Defina comunidades en torno a proyectos comunes, requisitos y políticas de seguridad y cumplimiento.
+
+    Separe los proyectos comunitarios compartidos de otros proyectos.
+
+    Modifique las capacidades de los límites de una comunidad en función de cambios de configuración auditados y controlados por políticas.
+
+
+Comparación entre la nube comunitaria tradicional y la definida por software
+La nube comunitaria definida por software proporciona muchos beneficios a los usuarios en comparación con la implementación de la nube comunitaria tradicional.
+La siguiente tabla muestra la comparación entre las dos implementaciones según las características establecidas en la definición dada por NIST.
+
+
+fila Exclusividad de infraestructura -------- columna Definición NIST SP 800-145  
+    La infraestructura de la nube se proporciona para uso exclusivo de una comunidad específica de consumidores de organizaciones que tienen inquietudes compartidas.
+fila Exclusividad de infraestructura -------- columna Implementación de la comunidad de nube tradicional
+    Centros de datos separados con infraestructura separada
+fila Exclusividad de infraestructura -------- columna Nube comunitaria definida por software
+    Cada proyecto es efectivamente una nube privada con primitivas de infraestructura aisladas.
+
+fila Todos los usuarios sujetos a controles de seguridad comunes -------- columna Definición NIST SP 800-145  
+    (implícito)
+fila Todos los usuarios sujetos a controles de seguridad comunes -------- columna Implementación de la comunidad de nube tradicional
+    Se aplican los mismos controles de seguridad en la infraestructura exclusiva compartida por la comunidad.
+fila Todos los usuarios sujetos a controles de seguridad comunes -------- columna Nube comunitaria definida por software
+    Los controles de Assured Workloads están dirigidos a la comunidad y se aplican a través de términos de servicio.
+
+fila Personalidad y ciudadanía del personal de apoyo -------- columna Definición NIST SP 800-145  
+    Puede ser propiedad de, administrado y operado por una o más organizaciones de la comunidad, un tercero o alguna combinación de ellos. 
+fila Personalidad y ciudadanía del personal de apoyo -------- columna Implementación de la comunidad de nube tradicional
+    El personal debe estar ubicado físicamente en instalaciones dedicadas.
+fila Personalidad y ciudadanía del personal de apoyo -------- columna Nube comunitaria definida por software
+    El servicio de gestión de acceso restringe el soporte al personal con los atributos requeridos (personalidad, ciudadanía, lugar de trabajo y más)
+
+fila Localización de datos -------- columna Definición NIST SP 800-145  
+    y puede existir dentro o fuera de las instalaciones
+fila Localización de datos -------- columna Implementación de la comunidad de nube tradicional
+    Dispositivos de almacenamiento dedicados a la comunidad 
+fila Localización de datos -------- columna Nube comunitaria definida por software
+    Aplicado por software
+
+fila Parámetro de seguridad definido -------- columna Definición NIST SP 800-145  
+    (implícito)
+fila Parámetro de seguridad definido -------- columna Implementación de la comunidad de nube tradicional
+    La comunidad es el enclave. 
+fila Parámetro de seguridad definido -------- columna Nube comunitaria definida por software
+    Cada proyecto es su propio enclave
+
+
+El software definió la nube comunitaria como un nuevo tipo de “nube gubernamental”
+En Google Cloud Platform (GCP), un proyecto es una agrupación lógica y única de "primitivas de infraestructura".
+En este contexto, una primitiva de infraestructura es cualquier unidad atómica de capacidad en GCP: una máquina virtual (VM), un disco persistente (PD), un depósito de
+    almacenamiento y otros.
+Los proyectos son “recursos globales” a los que se les pueden asignar primitivas de infraestructura de cualquier región o zona.
+
+Cada proyecto es un proyecto individual separado de los proyectos de otros clientes.
+Los recursos de bajo nivel, como hipervisores, bloques en nuestro almacén de bloques distribuido que subyace a Google Cloud Storage (GCS) y otros componentes, están aislados con
+    abstracciones de recursos que imponen el aislamiento tanto lógica como criptográficamente. 
+
+Un modelo de implementación de nube privada se define en NIST SP 800-145 como:
+
+La infraestructura de la nube [que] se proporciona para uso exclusivo de una única organización que comprende múltiples consumidores (como unidades de negocio).
+Puede ser propiedad de la organización, un tercero o una combinación de ellos, administrarlo y operarlo, y puede existir dentro o fuera de las instalaciones.
+
+Cuando se crea un proyecto dentro de GCP, las primitivas de infraestructura asignadas a ese proyecto tienen como alcance únicamente ese proyecto.
+Esta determinación del alcance de las primitivas de infraestructura crea efectivamente un "enclave" por Proyecto.
+
+Cuando se les superponen las restricciones de Assured Workloads para la residencia de datos, los atributos del personal de soporte y los controles de seguridad comunes a esa
+    comunidad, estos enclaves de nube privada por proyecto se convierten en nubes comunitarias definidas por software.
+
+
+Beneficios de una nube comunitaria definida por software
+El enfoque que ha adoptado Google Cloud aporta múltiples beneficios, como el cumplimiento de los requisitos de seguridad y cumplimiento.
+Se accede más rápido al nuevo hardware, a los nuevos servicios y a las mejoras de los servicios existentes que en las nubes comunitarias tradicionales.
+El proceso mediante el cual se pueden incorporar y poner a disposición nuevas tecnologías en la nube también es más rápido.
+La eficiencia general mejora en este modelo debido a la escala de infraestructura disponible para la comunidad; esto puede traducirse en una mejor disponibilidad y rendimiento.
+Las mejoras de seguridad se pueden escalar e implementar más rápidamente.  

@@ -1,0 +1,75 @@
+En nuestro vídeo introductorio sobre la nube, mencionamos brevemente los cuatro modelos de implementación de la nube.
+
+En este vídeo, analizaremos el modelo de despliegue de la nube pública con más detalle.
+
+Los modelos de despliegue indican dónde reside la infraestructura, quién es su propietario y quién la administra, y cómo se ponen a disposición de los usuarios los recursos y
+    servicios de la nube.
+
+Los cuatro modelos de despliegue en la nube son: nube pública, nube privada, nube comunitaria y nube híbrida.
+En un modelo de nube pública, los usuarios tienen acceso a los servidores, el almacenamiento, la red, la seguridad y las aplicaciones como servicios proporcionados por los
+proveedores de servicios en la nube a través de Internet.
+
+Mediante las consolas web y las API, los usuarios pueden aprovisionar los recursos y servicios que necesitan.
+
+El proveedor de la nube es propietario, administra, aprovisiona y mantiene la infraestructura y la alquila a los clientes por un cargo de suscripción o una tarifa basada en
+el uso.
+
+Los usuarios no son dueños de los servidores en los que se ejecutan sus aplicaciones ni del almacenamiento que consumen sus datos, ni administran las operaciones de los
+servidores, ni siquiera determinan cómo se mantienen las plataformas.
+
+De la misma manera que consumimos y pagamos servicios como el agua, la electricidad o el gas en nuestra vida cotidiana, no somos propietarios de ninguno de estos recursos en
+la nube: llegamos a un acuerdo con el proveedor de servicios, utilizamos los recursos y pagamos por lo que utilizamos dentro de un período determinado.
+
+Las nubes públicas ofrecen importantes ahorros de costos en términos de costo total de propiedad (TCO), ya que el proveedor asume todos los gastos de capital, operativos y
+de mantenimiento de la infraestructura y las instalaciones en las que están alojadas.
+
+Hace que la escalabilidad sea tan fácil como solicitar más capacidad.
+
+Sin embargo, con una nube pública, el usuario no tiene ningún control sobre el entorno informático y está sujeto al rendimiento y la seguridad de la infraestructura del
+proveedor de la nube.
+
+En la actualidad, existen varios proveedores de nube pública en el mercado, como Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform y Alibaba Cloud.
+
+Si bien todos los proveedores incluyen un conjunto común de servicios básicos, como servidores, almacenamiento, redes , seguridad y bases de datos, también ofrecen una amplia
+gama de servicios especializados con diversas opciones de pago.
+
+Hablemos de algunas de las características de una nube pública: una nube pública es una arquitectura virtualizada de múltiples inquilinos que permite a los inquilinos o
+usuarios compartir recursos informáticos que residen fuera de sus firewalls.
+
+El conjunto de recursos del proveedor de la nube, que incluye infraestructura, plataformas y software, NO está dedicado al uso de un solo inquilino u organización
+
+Los recursos se distribuyen según sea necesario y se ofrecen a través de una variedad de modelos de suscripción y pago por uso.
+
+Las nubes públicas ofrecen beneficios importantes; analizaremos algunos de estos beneficios aquí: hay muchos recursos disponibles bajo demanda, lo que permite a las
+aplicaciones responder sin problemas a las fluctuaciones de la demanda.
+
+Teniendo en cuenta la gran cantidad de usuarios que comparten los recursos de la nube centralizada bajo demanda, la nube pública ofrece las economías de escala más importantes.
+
+La gran cantidad de recursos de servidor y red disponibles en la nube pública significa que una nube pública tiene una alta disponibilidad: si un componente físico falla, el
+servicio seguirá funcionando sin problemas en el resto de los componentes disponibles.
+
+También es importante tener en cuenta algunas preocupaciones de los usuarios con respecto a las nubes públicas, entre las que destaca el cumplimiento de la seguridad y la
+soberanía de los datos.
+
+Los problemas de seguridad, como las filtraciones de datos, la pérdida de datos, el secuestro de cuentas, la falta de diligencia debida y la vulnerabilidad de los sistemas y
+las aplicaciones, parecen ser algunos de los temores que los usuarios siguen teniendo en relación con la seguridad en la nube pública.
+
+Dado que los datos se almacenan en diferentes ubicaciones y se accede a ellos a través de las fronteras nacionales, también es cada vez más importante que las empresas
+cumplan con las normas de soberanía de datos que rigen el almacenamiento, la transferencia y la seguridad de los datos.
+
+La capacidad de un proveedor de servicios no solo para cumplir con las normas, sino también para interpretarlas, es una preocupación que comparten muchas empresas.
+
+Veamos algunos casos de uso comunes de la nube pública: las organizaciones optan cada vez más por acceder a aplicaciones y plataformas basadas en la nube para que sus equipos
+puedan centrarse en crear y probar aplicaciones y reducir el tiempo de comercialización de sus productos y servicios.
+
+Las empresas con necesidades fluctuantes de capacidad y recursos están optando por la nube pública.
+
+Las organizaciones utilizan los recursos de computación en la nube pública para crear infraestructuras secundarias para la recuperación ante desastres, la protección de datos
+y la continuidad empresarial.
+
+Cada vez más organizaciones utilizan los servicios de almacenamiento y administración de datos en la nube para mejorar la accesibilidad, facilitar la distribución y hacer
+copias de seguridad de sus datos.
+
+Los departamentos de TI están subcontratando la administración de plataformas y aplicaciones empresariales estandarizadas y menos críticas a proveedores de nube pública.
+
+En el siguiente vídeo, analizaremos el modelo de nube privada, sus características, beneficios y algunos casos de uso.
