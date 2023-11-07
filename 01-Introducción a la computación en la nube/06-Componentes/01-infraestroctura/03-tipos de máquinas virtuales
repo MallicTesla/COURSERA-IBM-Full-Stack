@@ -1,0 +1,63 @@
+Las máquinas virtuales o las máquinas virtuales también se conocen como servidores virtuales o instancias virtuales, o simplemente instancias , según el proveedor de la nube.
+
+Los diversos proveedores de nube hacen que las VM estén disponibles en una variedad de configuraciones y opciones de implementación para atender diferentes casos de uso.
+
+Al crear un servidor virtual en la nube, especifique la región y la zona o el centro de datos en el que desea que se aprovisione el servidor y el sistema operativo que desea.
+
+Puede elegir entre máquinas virtuales compartidas (es decir, un multiinquilino) o dedicadas (es decir, un solo inquilino).
+
+También puede elegir entre facturación por hora o mensual, y seleccionar opciones de almacenamiento y redes para el servidor virtual.
+
+Ahora veamos algunos tipos diferentes de máquinas virtuales que se pueden aprovisionar en la nube.
+
+Las VM compartidas o de nube pública son implementaciones administradas por proveedores y de múltiples inquilinos que se pueden aprovisionar según demanda con tamaños
+    predefinidos.
+Ser multiinquilino significa que el servidor físico subyacente está virtualizado y se comparte entre otros inquilinos o usuarios. Para satisfacer diferentes cargas de trabajo,
+    los proveedores de nube ofrecen tamaños y configuraciones predefinidas que van desde un único núcleo virtual y una pequeña cantidad de RAM hasta múltiples núcleos virtuales
+    y cantidades mucho mayores de RAM.
+Por ejemplo, puede haber configuraciones para cargas de trabajo de uso intensivo de computación, cargas de trabajo con uso intensivo de memoria o E/S de alto rendimiento.
+
+En lugar de elegir entre tamaños predefinidos, algunos proveedores también ofrecen configuraciones personalizadas que permiten a los usuarios definir el número de núcleos y RAM
+    y locales características de almacenamiento.
+
+Las VM públicas suelen tener un precio por hora (o en algunos casos incluso segundos) y las configuraciones comienzan tan bajo como centavos por hora.
+Algunos proveedores también le permiten obtener máquinas virtuales mensuales, lo que puede resultar en algunos ahorros de costos si sabe que ejecutará la máquina virtual durante
+    al menos un mes, pero si decide desconmisionar la máquina virtual en a mediados del mes, se le cobrará el mes completo.
+
+Las máquinas virtuales transitorias o puntuales aprovechan la capacidad no utilizada en un centro de datos en la nube.
+Los proveedores de nube ponen esta capacidad no utilizada a disposición de los usuarios a un costo mucho menor que máquinas virtuales normales de tamaños similares.
+
+Aunque las VM transitorias están disponibles con un gran descuento, el proveedor de la nube puede elegir para desaprovisionarlas en cualquier momento y recuperar los recursos
+    para aprovisionar máquinas virtuales de precio más alto.
+
+Dado que corre el riesgo de perder estas máquinas virtuales cuando disminuye la capacidad del centro de datos, estas máquinas virtuales son excelentes para cargas de trabajo que
+    no son de producción, como pruebas y desarrollo de aplicaciones.
+
+También son útiles para ejecutar cargas de trabajo sin estado, probar la escalabilidad o ejecutar cargas de trabajo de big data y computación de alto rendimiento (HPC) a bajo
+    costo.
+
+Las instancias reservadas del servidor virtual le permiten reservar capacidad y garantizar recursos para futuras implementaciones.
+Reserve la cantidad deseada de capacidad de servidor virtual, aprovisione instancias de esa capacidad cuando las necesite y elija un plazo, como 1 año o 3 años, para la
+    capacidad reservada.
+
+Se le garantiza esta capacidad dentro del centro de datos de su elección durante la vida de la duración del contrato.
+Al comprometerse a un plazo más largo, también puede reducir sus costos en comparación con las instancias por hora o mensuales.
+
+Esto puede ser útil cuando sabe que necesita al menos un cierto nivel de capacidad en la nube para una duración específica.
+
+Y si excede la capacidad reservada, siempre puede elegir complementar sus requisitos de uso y capacidad no planificados con máquinas virtuales por hora o mensuales.
+
+Sin embargo, tenga en cuenta que no todas las familias o configuraciones de VM predefinidas pueden estar disponibles como reservadas.
+
+Los hosts dedicados ofrecen aislamiento de un solo inquilino.
+Esto significa que sólo las máquinas virtuales se ejecutan en un host determinado para que puedan hacer uso exclusivo de la capacidad completa y los recursos del hardware
+    subyacente.
+
+Al aprovisionar un host dedicado, debe especificar el centro de datos y el POD en el que desea colocar el host.
+
+A continuación, asigne instancias, o máquinas virtuales, a un host específico.
+Esto permite el máximo control sobre la ubicación de la carga de trabajo.
+Los hosts dedicados se utilizan normalmente para cumplir los requisitos reglamentarios y de conformidad, o cumplen los términos de licencia específicos.
+La virtualización y las máquinas virtuales están en el centro de la informática en la nube y ofrecen muchas ventajas.
+
+En el siguiente video, vamos a discutir los servidores de metal desnudo, lo que son y lo que proporcionan.

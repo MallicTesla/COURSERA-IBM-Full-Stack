@@ -1,0 +1,54 @@
+Bienvenido a Components of Puntos de vista de los expertos en informática en la nube.
+
+En este vídeo escucharemos varios los profesionales de las aplicaciones en la nube analizan algunos de los factores que se tienen en cuenta a la hora de decidir entre los
+    recursos informáticos de la nube.
+Por ejemplo, un servidor básico frente a un servidor virtual frente a contenedores.
+
+>> Los servidores virtuales son básicamente ejecutar un sistema operativo diferente dentro de otro sistema operativo.
+Un ejemplo sería ejecutar Windows sobre Linux. Y como tal, contienen su propio sistema operativo completo.
+Así que las máquinas virtuales tienen un aspecto y actúan de forma muy parecida a los servidores físicos.
+Y como contienen todo el sistema operativo, suelen tener un tamaño de gigabytes, bastante grande.
+
+Las máquinas virtuales son mucho menos portátiles debido a su dependencia del sistema operativo, las versiones de la aplicación y de la biblioteca.
+Así que eso es una consideración con máquinas virtuales.
+
+>> A la hora de decidir entre contenedores, servidores virtuales y servidores básicos, casi estoy Para empezar, siempre me atrajeron los contenedores.
+Por su escalabilidad y su rentabilidad. Sin embargo, eso no significa siempre son la mejor opción.
+Por ejemplo, es posible que no puedas tolere que sus contenedores se ejecuten en la misma máquina virtual que los de otro cliente motivos de seguridad.
+Y en ese caso, puede decidir aprovisione su propio servidor virtual.
+O tal vez solo necesite constantemente el mejor rendimiento posible y no quiere tener que lidiar con el hipervisor impuestos o efectos de vecinos ruidosos.
+Y en ese caso, lo harás opta por el metal desnudo.
+
+>> Los contenedores se basan en un sistema basado en Linux imagen compartida que se puede compartir en todos los entornos, Desarrollo, control de calidad y producción.
+Y este es uno muy grande ventaja de los contenedores.
+También es posible girar suba los contenedores muy rápido, milisegundos en lugar de segundos, para máquinas virtuales.
+Son livianos, suelen tener un tamaño de megabytes, y las tecnologías clave aquí son Docker, Kubernetes y OpenShift para la organización de contenedores.
+Y algunos de sus atractivos usos Aquí hay casos en los que las cargas de trabajo se pueden dividir en las más pequeñas unidades reparables.
+Aquí podría pensar en los microservicios, por ejemplo, y esto es quizás una tecnología fundamental para lo que se conoce como arquitectura nativa de la nube.
+
+>> Si quieres tener algo que no cueste tanto y solo funcione cuando sea necesario, es perfecto caso de uso para funciones sin servidor.
+Porque en algunos proveedores de servicios en la nube, solo le cobran una cantidad muy baja como por el milisegundo de uso.
+Y funciones sin servidor te ayudan a no dedicar tiempo al trabajo, como parchear enciende el sistema operativo.
+Y si quieres ser independiente de la nube, es decir, quieres tener una configuración de nube híbrida, es decir, estar en una nube diferente proveedores al mismo tiempo,
+    entonces los contenedores pueden ser una muy buena opción porque Docker funciona igual en cualquier lugar.
+
+>> Así que, en los últimos años, he visto contenedores han recorrido un largo camino, especialmente en el ámbito empresarial, con Kubernetes y OpenShift y otras cosas.
+Francamente, los contenedores pueden ejecutar casi cualquier carga de trabajo tal vez quieras echarle un tiro.
+Hay algunas excepciones, a veces necesita una tarjeta de video especial y una máquina de metal desnudo, o necesita acceder configuraciones a nivel de núcleo y similares, algo
+    que no se puede hacer en un contenedor.
+Pero en su mayor parte, yo diría va a utilizar contenedores o servidores sin servidor a menos que tenga una necesidad específica de no hacerlo.
+
+>> Servidores de metal puro son básicamente un servidor de hardware dedicado de un solo inquilino.
+Este es nuestro enfoque de hardware tradicional.
+Ventajas: puede optimizar el servidor de acuerdo con las necesidades específicas de rendimiento, seguridad y confiabilidad.
+Sin embargo, las desventajas son: limita la escalabilidad bajo demanda: el hardware tiene una capacidad fija.
+Y precios mensuales fijos para servidores básicos.
+Casos de uso, hay casos de uso en los que los servidores de metal puro tienen sentido.
+Algunas de estas podrían ser cosas requiere un rendimiento muy alto.
+Piense en los juegos, o análisis en tiempo real o situaciones en las que la normativa o los requisitos de cumplimiento exigen un entorno informático dedicado.
+O aplicaciones que utilizan sistemas estables y recursos de cómputo continuos.
+
+>> Si necesita una velocidad extrema y mucha potencia de procesamiento, digamos que estás iterando un diseño para un avión supersónico y necesitas modelar cómo lo haría actúa
+    en un túnel de viento y tienes que hacerlo 500 veces.
+Son muchísimos datos que procesar. Y es lo que quieres usar al máximo máquinas potentes en un clúster y hacer que estén lo más cerca posible juntos como sea posible.
+Así que son máquinas de metal puro.

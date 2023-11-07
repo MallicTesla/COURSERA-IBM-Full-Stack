@@ -1,0 +1,58 @@
+Mi nombre es Kaleigh Bovey, soy del equipo de IBM Cloud y hoy vamos a hablar de la virtualización.
+
+Como sabe, la virtualización es una tecnología bastante antigua, pero sigue siendo muy relevante para desarrollar nuestra estrategia de computación en la nube en la actualidad.
+
+En primer lugar, ¿qué es la virtualización? En pocas palabras, la virtualización es el proceso de crear una versión virtual o basada en software de algo, ya sea informática,
+    almacenamiento, redes, servidores o aplicaciones, y lo que hace posible la virtualización es algo que se denomina hipervisor.
+
+Lo que es un hipervisor es simplemente una pieza de software que se ejecuta por encima del servidor físico o host.
+
+Y existen un par de tipos diferentes de hipervisores.
+Básicamente, lo que hacen es extraer los recursos del servidor físico y asignarlos a sus entornos virtuales.
+
+Existen dos tipos principales de hipervisores.
+Uno es el tipo 1. Muy fácil de recordar.
+Y 2, lo has adivinado, tipo 2.
+
+Empecemos con la diabetes tipo 1.
+    Un hipervisor de tipo 1 es un hipervisor que se instala directamente sobre el servidor físico.
+    También se denominan hipervisores «bare metal». 
+    Estos son los hipervisores que se utilizan con más frecuencia y son los más seguros , reducen la latencia y son los que más verás en el mercado.
+    Algunos ejemplos serían VMware, ESXi o Microsoft Hyper-V, o incluso el KVM de código abierto.
+
+El otro tipo de hipervisor es un hipervisor de tipo 2, que se encuentra aquí.
+    Y lo que los diferencia es que hay una capa de sistema operativo anfitrión que se encuentra entre el servidor físico y el hipervisor.
+    Así que, por esa naturaleza, también se denominan hospedados.
+    Son mucho menos frecuentes. Se utilizan principalmente para la virtualización de usuarios finales y es posible que vea algunos en el mercado que se denominan Oracle,
+        VirtualBox o VMware Workstation.
+    Una vez más, son mucho menos frecuentes.
+    Tienen una latencia más alta que un hipervisor de tipo 1. Por lo tanto, una vez que haya instalado el hipervisor, podrá crear entornos virtuales o máquinas virtuales o,
+        simplemente, máquinas virtuales.
+
+Así que vamos a crear algunos entornos. Entonces, ¿qué hace que una máquina virtual sea una máquina virtual? Una máquina virtual es simplemente una computadora basada en
+    software.
+Funcionan como un ordenador físico. Tienen un sistema operativo y aplicaciones, y son completamente independientes entre sí, pero se pueden ejecutar varios de ellos en un
+    hipervisor y el hipervisor administra los recursos que se asignan a estos entornos virtuales desde el servidor físico.
+Por lo tanto, dado que son independientes, puede ejecutar diferentes sistemas operativos en diferentes máquinas virtuales.
+Puede ejecutar Windows aquí, Linux aquí o UNIX aquí, por ejemplo.
+Como son independientes, también son extremadamente portátiles.
+Puede mover una máquina virtual de un hipervisor a otro en una máquina completamente diferente de forma casi instantánea, lo que le proporciona una gran flexibilidad y una gran
+    portabilidad dentro de su entorno.
+Si analizamos todo esto, este es el núcleo de la virtualización como proceso.
+
+Hablemos, pues, de un par de ventajas clave que queremos extraer de esto.
+    1) Ahorro de costes. Si piensa en esto y en el hecho de que puede ejecutar varios entornos virtuales desde una sola pieza de infraestructura, significa que puede reducir
+        drásticamente el espacio ocupado por su infraestructura física.
+    En esencia, se trata de la consolidación, y el hecho de que no tenga que mantener casi tantos servidores , utilizar tanta electricidad ni ahorrar en costes de mantenimiento
+        significa que, al final del día, ahorra en sus resultados.
+
+    2) Sería agilidad y rapidez. Como he dicho, poner en marcha una máquina virtual es relativamente fácil y rápido, mucho más sencillo que aprovisionar un entorno completamente
+        nuevo para los desarrolladores si dicen que quieren crear un entorno nuevo para que puedan ejecutar un escenario de prueba de desarrollo.
+    Sea lo que sea, la virtualización simplifica y agiliza el proceso
+
+    3) reduce el tiempo de inactividad. Supongamos que este host se apaga inesperadamente. El hecho de que pueda mover máquinas virtuales de un hipervisor a otro, en un servidor
+        físico diferente, significa que cuenta con un excelente plan de respaldo, ¿verdad? Por lo tanto, si este host deja de funcionar, simplemente puede mover sus máquinas
+        virtuales muy rápidamente a otro hipervisor en una máquina que esté funcionando.
+    La virtualización y las máquinas virtuales están en el centro de la computación en nube y ofrecen muchas ventajas.
+
+En el siguiente vídeo, analizaremos los tipos de máquinas virtuales.

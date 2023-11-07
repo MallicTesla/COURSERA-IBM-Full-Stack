@@ -1,0 +1,45 @@
+Un servidor básico es un servidor físico dedicado de un solo inquilino.
+
+En otras palabras, está dedicado a un solo cliente.
+De hecho, el proveedor de la nube toma el servidor físico y lo conecta a un rack en un centro de datos para los clientes.
+El proveedor de la nube administra el servidor según el sistema operativo o el sistema operativo, lo que significa que si algo falla con el hardware o la conexión al rack, lo
+    reparará o reemplazará y, a continuación, reiniciará el servidor.
+
+El cliente es responsable de administrar y gestionar todo lo demás del servidor.
+Los servidores completos vienen preconfigurados por el proveedor de la nube para adaptarse a los paquetes de carga de trabajo o pueden configurarse de forma personalizada según
+    las especificaciones del cliente.
+Esto incluye los procesadores, la RAM, los discos duros, los componentes especializados y el sistema operativo.
+
+Los clientes también pueden instalar su propio sistema operativo y algunos hipervisores que no están disponibles en el proveedor de la nube y, de este modo, crear sus propias
+    máquinas y granjas virtuales.
+Con los servidores completos, también puede añadir GPU, que están diseñadas para acelerar la computación científica, el análisis de datos y la reproducción de gráficos
+    virtualizados de calidad profesional.
+
+Como los servidores básicos son máquinas físicas, su aprovisionamiento lleva más tiempo que los servidores virtuales.
+El aprovisionamiento de las compilaciones preconfiguradas con hardware puro puede tardar entre 20 y 40 minutos, y las compilaciones personalizadas pueden tardar entre tres y
+    cuatro horas.
+Sin embargo, estos tiempos de aprovisionamiento pueden variar según el proveedor de la nube.
+
+Como los servidores básicos están dedicados para que los utilice un solo cliente en un momento dado, suelen ser más caros que las máquinas virtuales de tamaño similar.
+
+Tenga en cuenta también que, a diferencia de los servidores virtuales, no todos los proveedores de nube ofrecen servidores completos.
+
+Como los servidores básicos son totalmente personalizables, pueden hacer lo que el cliente desee en los entornos más exigentes.
+Los servidores bare metal son exclusivos y están diseñados para un uso prolongado de alto rendimiento en entornos aislados y altamente seguros.
+
+Los clientes tienen acceso y control totales sobre los servidores básicos porque no necesitan un hipervisor.
+Como no es necesario compartir el hardware de servidor subyacente con otros clientes, los servidores básicos satisfacen las exigentes necesidades de la computación de alto
+    rendimiento (HPC) y las aplicaciones con uso intensivo de datos que requieren retrasos mínimos relacionados con la latencia.
+Estos servidores también se destacan en aplicaciones de análisis de macrodatos y en soluciones con uso intensivo de la GPU.
+
+Algunos ejemplos de cargas de trabajo que satisfacen los servidores básicos son el ERP, el CRM, la IA, el aprendizaje profundo y la virtualización.
+Si utilizas aplicaciones que requieren un alto grado de control de seguridad o aplicaciones que normalmente ejecutas en un entorno local, un servidor integral es una buena
+    alternativa en la nube.
+
+Al comparar los servidores básicos con los servidores virtuales, algunas de las consideraciones más importantes se refieren a las necesidades del cliente.
+Los servidores estándar funcionan mejor para cargas de trabajo con un uso intensivo de CPU y E/S, destacan por su alto rendimiento y seguridad, cumplen estrictos requisitos de
+    conformidad y ofrecen total flexibilidad, control y transparencia, pero además conllevan una sobrecarga operativa y de gestión adicional.
+
+Mientras que los servidores virtuales se aprovisionan rápidamente, proporcionan un entorno elástico y escalable y su uso es económico.
+
+Sin embargo, dado que comparten el hardware subyacente con otros servidores virtuales, pueden tener un rendimiento y un rendimiento limitados.

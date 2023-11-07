@@ -1,0 +1,32 @@
+Resumen de la lección 1: Infraestructura de la nube
+En esta lección, has aprendido:
+
+La infraestructura de la nube consta de centros de datos, almacenamiento, componentes de red y recursos informáticos.
+
+La virtualización es el proceso de creación de una versión basada en software de recursos físicos, posible gracias a los hipervisores. 
+
+Se pueden aprovisionar algunos tipos diferentes de máquinas virtuales en la nube. Éstas incluyen:
+
+    Máquinas virtuales de nube pública o compartida que son implementaciones multiinquilino administradas por el proveedor que se pueden aprovisionar bajo demanda con tamaños
+    predefinidos.
+
+    VM transitorias o puntuales que aprovechan la capacidad no utilizada en un centro de datos en la nube
+
+    VM reservadas que le permiten reservar capacidad y garantizar recursos para futuras implementaciones 
+
+    Hosts dedicados que ofrecen aislamiento de un solo inquilino
+
+Los servidores bare metal son servidores físicos de un solo inquilino dedicados a un solo cliente.
+Los servidores bare metal satisfacen las exigentes necesidades de la informática de alto rendimiento (HPC) y las aplicaciones con uso intensivo de datos.
+Son ideales para aplicaciones que tienen un alto grado de seguridad o requisitos de cumplimiento.
+
+Las capacidades de red en la nube se entregan como un servicio y no en forma de dispositivos montados en bastidor.
+Los recursos de la nube, como las máquinas virtuales (o VSI), el almacenamiento, la conectividad de red y los equilibradores de carga, se implementan en subredes dentro de las
+    nubes privadas virtuales (VPC).
+El uso de subredes públicas y privadas permite a los usuarios implementar aplicaciones empresariales de varios niveles de forma segura.
+Los balanceadores de carga distribuyen el tráfico y permiten que las aplicaciones respondan.
+
+Los contenedores son unidades ejecutables de software en las que el código de la aplicación, sus bibliotecas y sus dependencias se empaquetan de forma común, de modo que se
+    pueda ejecutar en cualquier lugar, desde escritorios, TI tradicional hasta la nube.
+Los contenedores son más livianos y consumen menos recursos que las máquinas virtuales, lo que ayuda a optimizar el desarrollo y la implementación de aplicaciones nativas de la
+    nube.

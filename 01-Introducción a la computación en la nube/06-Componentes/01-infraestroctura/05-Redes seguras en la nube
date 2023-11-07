@@ -1,0 +1,46 @@
+A medida que los entornos en la nube se adoptan cada vez más y los datos digitales invitan a un rápido aumento de las amenazas de ciberseguridad, es crucial construir redes
+    seguras en la nube.
+
+Veamos cómo podemos crear una presencia segura en las redes en la nube.
+Como era de esperar, la idea de construir una red en la nube no es muy diferente a la de implementar una red en un centro de datos local.
+
+La principal diferencia radica en el hecho de que en la nube utilizamos instancias lógicas de elementos de red en lugar de dispositivos físicos.
+
+Por ejemplo, los controladores de interfaz de red o NIC estarían representados por vNIC en entornos de nube.
+
+En la nube, las funciones de red se ofrecen como un servicio y no en forma de dispositivos montados en un rack.
+
+Para crear una red en la nube, se empieza por definir el tamaño de la red o el rango de direcciones IP que establece los límites de la red en la nube.
+Las redes en la nube se despliegan en espacios de red que son segmentos de las redes separados de forma lógica mediante opciones como la virtual, la nube privada o la VPC, que a
+    su vez se pueden dividir en segmentos más pequeños denominados subredes.
+Las redes de nube segmentadas de forma lógica son una variante privada de la nube que ofrece a los clientes la seguridad de las nubes privadas y la escalabilidad de las nubes
+    públicas.
+
+Los recursos de la nube, como las máquinas virtuales o las instancias de servidores virtuales, las VSI, el almacenamiento, la conectividad de red y los balanceadores de carga,
+    se implementan en subredes.
+El uso de subredes permite a los usuarios implementar aplicaciones empresariales utilizando los mismos conceptos de varios niveles que se utilizan en los entornos locales.
+Las subredes también son el área principal en la que se implementa la seguridad en la nube.
+
+Cada subred está protegida por listas de control de acceso o ACL que funcionan como un firewall a nivel de subred.
+Dentro de la subred, se pueden crear grupos de seguridad que proporcionen seguridad a nivel de instancia, como los VSI.
+Una vez que haya creado una subred, es el momento de agregarle algunos VSI y almacenamiento para poder ejecutar sus aplicaciones.
+
+Supongamos que tiene una aplicación de tres niveles que requiere VSI de acceso a la web, VSI de nivel de aplicación y VSI de base de datos de backend.
+En este caso, colocaríamos los VSI orientados a la web en un grupo de seguridad, los VSI de aplicación en un segundo grupo de seguridad y los VSI de base de datos en un tercer
+    grupo de seguridad.
+No hace falta decir que las VSI orientadas a Internet necesitan acceso a Internet.
+Se agrega una instancia de puerta de enlace pública a la red para permitir a los usuarios acceder a la aplicación en el nivel de Internet.
+Si bien las pasarelas públicas son excelentes para el acceso de Internet a la nube, las empresas están interesadas en extender sus propios recursos locales a la nube
+    conectándolos de forma segura mediante redes privadas virtuales o VPN.
+
+Al crear muchas subredes e implementar varias cargas de trabajo, es necesario garantizar que las aplicaciones sigan siendo receptivas.
+Esto se logra con balanceadores de carga que garantizan la disponibilidad del ancho de banda para las diferentes aplicaciones.
+
+Las empresas con un entorno de nube híbrida consideran que utilizar conexiones dedicadas de alta velocidad entre las nubes y los recursos locales es una forma más segura y
+    eficiente que las soluciones de conectividad pública.
+
+Algunos proveedores de servicios en la nube ofrecen este tipo de conectividad, como IBM Cloud y su solución Direct Link, que permite extender los recursos locales a la nube
+    según sea necesario.
+
+La creación de una red en la nube implica crear un conjunto de estructuras lógicas que ofrezcan una funcionalidad de red similar a las redes de los centros de datos en las que
+    confían todos los profesionales de TI para proteger sus entornos y garantizar aplicaciones empresariales de alto rendimiento.

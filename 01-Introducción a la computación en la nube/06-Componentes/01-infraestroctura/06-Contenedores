@@ -1,0 +1,96 @@
+Los contenedores son una unidad ejecutable de software en la que se empaqueta el código de la aplicación, junto con con sus bibliotecas y dependencias, de manera común para que
+    pueda ejecutarse en cualquier lugar, ya sea en el escritorio, en TI tradicional o en la nube.
+
+Los contenedores son pequeños, rápidos y portátiles, y a diferencia de las máquinas virtuales, no necesitan para incluir un SO invitado en cada instancia y pueden, en su lugar,
+    simplemente aprovechar las características y los recursos del SO host.
+
+En el resto de este video, veremos cómo funciona realmente la tecnología basada en contenedores.
+Mi nombre es Sai Vennam y soy un promotor de desarrolladores con IBM.
+Hoy quiero hablar de la contenedorización
+Cada vez que menciono contenedores, la mayoría de las personas tienden a predeterminados a algo como Docker o incluso Kubernetes en estos días.
+Pero la tecnología de contenedores ha existido durante bastante tiempo.
+En realidad es en 2008 que el kernel de Linux introdujo grupos C, y grupos de control, que básicamente allanó el camino para todas las diferentes tecnologías de contenedores que
+    vemos hoy.
+Así que eso incluye Docker, pero también cosas como Cloud Foundry, así como Rocket y otros tiempos de ejecución de contenedores por ahí.
+
+Comencemos con un ejemplo, y diremos que yo era un desarrollador.
+He creado una aplicación node.js y quiero insertarla en producción.
+Tomaremos dos factores de forma diferentes para explicar las ventajas de la contenedorización.
+Digamos que primero hablaremos de máquinas virtuales, y luego hablaremos de contenedores.
+
+Lo primero es lo primero, vamos a introducir algunas de las cosas que tenemos aquí.
+Tenemos el hardware en sí, sólo una caja grande. Tenemos el invitado, o mejor dicho, el host, el sistema operativo, así como un hipervisor.
+Hypervisor es en realidad lo que nos permite hacer girar máquinas virtuales.
+Echemos un vistazo a este conjunto compartido de recursos con el SO host y el hipervisor.
+Podemos suponer que algunos de estos recursos ya han sido consumidos.
+A continuación, sigamos adelante y tomemos esta aplicación.js y empújala.
+Y para hacer eso, necesito una VM Linux, así que sigamos adelante y esbozemos esa VM Linux.
+En esta VM hay algunas cosas que tener en cuenta aquí.
+Tenemos otro sistema operativo, además del sistema operativo host, va a ser el SO invitado, así como algunos binarios y bibliotecas. 
+Esa es una de las cosas de las VM Linux, que aunque estamos trabajando con una aplicación realmente ligera , para crear esa VM Linux, tenemos que poner ese SO invitado allí,
+    en un conjunto de binarios y bibliotecas.
+Eso realmente lo hincha. De hecho, creo que el nodo más pequeño .js VM que he visto allí es 400 más mega bytes, mientras que el tiempo de ejecución de node.js y la aplicación en
+    sí serían menores de 15. Así que lo tenemos y vamos a seguir adelante y vamos a empujar esa aplicación.js en ella.
+Sólo haciendo eso solo, vamos a consumir un conjunto de recursos.
+A continuación, pensemos en escalar esto. Así que vamos a crear dos copias adicionales de la misma, y se dará cuenta de que a pesar de que es exactamente la misma aplicación,
+    tenemos que usar e implementar ese sistema operativo invitado separado y bibliotecas cada vez.
+Y así lo haremos tres veces. Y haciendo eso, esencialmente, podemos asumir que para este hardware en particular hemos consumido todos los recursos.
+Hay otra cosa que no he mencionado aquí, pero esta aplicación.js, la desarrollé en mi MacBook. Entonces, cuando lo empujé a producción para que funcione en la VM, y noté que
+    había algunos problemas e incompatibilidades.
+Este es el tipo de fundaciones es grande, dijo, ella dijo problema.
+Donde las cosas pueden estar funcionando en su máquina local, y funcionan muy bien, pero cuando intenta para empujarlo a la producción, las cosas comienzan a romperse.
+Y esto realmente se interpone en el camino de hacer DevOps ágiles, e integración y entrega continuas.
+
+Eso se resuelve cuando usas algo así como contenedores.
+Hay un proceso de tres pasos cuando se hace algo relacionado con el contenedor, y luego empujando, o creando, contenedores.
+Y casi siempre comienza con primero, algún tipo de manifiesto.
+Entonces algo que describe el contenedor en sí.
+En el mundo Docker, esto sería algo así como un archivo Docker.
+Y en Cloud Foundry, este sería un canal manifiesto.
+
+A continuación, lo que va a hacer es crear la imagen real en sí.
+Para la imagen, nuevamente, si está trabajando con algo como Docker, eso podría ser algo como una imagen de Docker.
+Si está trabajando con Rocket, sería una imagen de contenedor de ACI o aplicación.
+Así que, independientemente de las diferentes tecnologías de contenedorización, este proceso sigue siendo el mismo.
+
+Lo último con lo que terminas es un contenedor real en sí.
+Ya sabe, que contiene todos los tiempos de ejecución, bibliotecas y binarios necesarios para ejecutar una aplicación.
+Esa aplicación se ejecuta en una configuración muy similar a la del VMS, pero lo que tenemos en este lado es, de nuevo, un sistema operativo host.
+
+La diferencia aquí, en lugar de un hipervisor, vamos a tener algo así como un motor en tiempo de ejecución.
+Entonces, si estás usando Docker, este sería el motor Docker y, ya sabes, diferentes tecnologías de contenedorización tendrían un motor diferente.
+Sin embargo, es algo que ejecuta esos contenedores.
+Una vez más, tenemos este conjunto compartido de recursos, por lo que podemos asumir que solo eso consume algún conjunto de recursos.
+
+A continuación, pensemos en contenerizar esta tecnología. Hablamos del proceso de tres pasos.
+Creamos un archivo acoplador. Construimos la imagen. Lo empujamos a un registro, y tenemos nuestro contenedor y podemos comenzar a empujar esto como contenedores.
+Lo bueno es que estos van a ser mucho más ligeros. Así que implementando múltiples contenedores, ya que no tiene que preocuparse por un sistema operativo invitado esta vez ,
+    realmente solo tiene las bibliotecas, así como la aplicación en sí.
+Lo hemos escalado tres veces, y debido a que no tenemos que duplicar todas esas dependencias del sistema operativas y crear máquinas virtuales hinchadas, en realidad usaremos
+    menos recursos.
+Así que usa un color diferente aquí... y escalando eso tres veces, todavía nos queda una buena cantidad de recursos.
+
+A continuación, digamos que mi compañero de trabajo decide, hey, para esta aplicación.js, tomemos ventaja de un tercero, digamos una API cognitiva, para hacer algo como el
+    reconocimiento de imágenes.
+Digamos que tenemos nuestro servicio de terceros, y queremos acceder a eso usando tal vez una aplicación Python Así que ha creado ese servicio que actúa como API de terceros.
+Y con nuestra aplicación node.js, queremos acceder a esa aplicación Python, para luego acceder a ese servicio. Si queríamos hacer esto en VM, estoy realmente tentado a crear
+    básicamente una VM a partir de la aplicación.js y la aplicación Python.
+Porque esencialmente eso me permitiría seguir usando las VM que tengo.
+Pero eso no es realmente nativo de la nube, ¿verdad? Porque si quisiera escalar el .js, pero no la aplicación Python, no podría si se estuvieran ejecutando en la misma VM.
+Así que para hacerlo de una manera verdaderamente nativa en la nube, esencialmente tendría que liberar algunos de estos recursos.
+Básicamente, deshazte de una de estas máquinas virtuales y luego implemente la aplicación Python en su lugar.
+Y sabes, eso no es ideal. Pero con el enfoque basado en contenedores, lo que podemos hacer es simplemente decir, ya que somos modulares, podemos decir, vale, simplemente
+    implementar una copia de la aplicación Python.
+Así que vamos a seguir adelante y hacer eso. Aquí hay un color diferente. Y eso consume un poco más de recursos. Luego, con esos recursos restantes, lo bueno de la tecnología de
+    contenedores, que en realidad se comparte entre todos los procesos en ejecución.
+De hecho, otra ventaja si algunos de estos procesos de contenedor no están utilizando la CPU o la memoria, todos esos recursos compartidos se vuelven accesibles para los otros
+    contenedores que se ejecutan dentro de ese hardware.
+Así que con la tecnología basada en contenedores, realmente podemos aprovechar las arquitecturas basadas en la nube nativas.
+
+Hablamos de cosas como la portabilidad de los contenedores.
+Hablamos de cómo es más fácil reducirlos.
+Y luego, en general, con este tipo de proceso de tres pasos y la forma en que empujamos contenedores, permite para operaciones de desarrollo más ágiles e integración y entrega
+    continuas.
+Containers optimizan el desarrollo y la implementación de aplicaciones Cloud Native.
+
+En la siguiente lección, cubriremos el almacenamiento en la nube.
