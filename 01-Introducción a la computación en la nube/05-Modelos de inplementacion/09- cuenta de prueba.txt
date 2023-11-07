@@ -1,0 +1,28 @@
+Para facilitar el desarrollo de habilidades prácticas y permitirle completar algunas de las prácticas de laboratorio de este curso, le proporcionamos un código de función
+    especial que le permitirá crear una cuenta de prueba de IBM Cloud . 
+
+Este código de característica le permitirá crear una cuenta de prueba de IBM Cloud sin una tarjeta de crédito. 
+
+Marque la casilla y haga clic en el  botón "Abrir herramienta"  a continuación para obtener un código de característica único para activar su cuenta de prueba de IBM Cloud.
+
+También le proporcionamos instrucciones paso a paso sobre cómo crear una cuenta de IBM Cloud para su referencia.
+
+NOTA:  Si ya ha aplicado su código de característica de IBM Cloud en otro curso/laboratorio para crear una cuenta de IBM Cloud, omita este elemento, ya que el código solo se
+    puede usar una vez. 
+
+
+Precaución:
+Al registrarse para obtener una cuenta de IBM Cloud, o en una etapa posterior, es posible que se le solicite que ingrese una tarjeta de crédito. Tenga en cuenta que NO se
+    requiere acceso a servicios pagos o una tarjeta de crédito para completar ningún laboratorio/proyecto o tarea obligatoria en este curso.
+En cambio, aquellos inscritos en este curso tienen acceso a un Código de característica , que permite el acceso de prueba a IBM Cloud por un tiempo limitado. Por lo tanto, le
+    recomendamos encarecidamente que NO ingrese una tarjeta de crédito para completar los componentes requeridos del curso.
+Si aún así elige ingresar su Tarjeta de Crédito para utilizar los servicios de IBM Cloud, será responsable de pagar los cargos resultantes facturados a su tarjeta de crédito.
+El equipo del curso no asume ninguna responsabilidad por dichos cargos. 
+
+
+En caso de que tenga problemas al activar su cuenta con un Código de función, o su prueba haya finalizado y aún no haya completado el curso, comuníquese con el equipo de soporte
+    del curso a través de los foros de discusión del curso para obtener ayuda en lugar de agregar una tarjeta de crédito a su Cuenta de nube de IBM.
+
+Este curso utiliza una aplicación de terceros, [Optional] Obtain IBM Cloud Feature Code and Activate Trial Account, para mejorar tu experiencia de aprendizaje.
+
+La aplicación hará referencia a información básica, como tu nombre, correo electrónico e ID de Coursera.

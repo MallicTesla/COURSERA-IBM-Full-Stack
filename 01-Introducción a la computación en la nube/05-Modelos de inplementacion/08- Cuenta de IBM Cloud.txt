@@ -1,0 +1,8 @@
+Esta es una lección opcional y no es necesaria para completar el curso. En esta lección, primero:
+
+Obtendrás un código de función para habilitar la creación de una cuenta de prueba de IBM Cloud sin necesidad de una tarjeta de crédito.
+
+Crearás la cuenta de IBM Cloud.
+
+Se requiere la cuenta de IBM Cloud para una práctica de laboratorio opcional en un módulo posterior.
+En caso de que tenga algún problema con la creación de la cuenta, simplemente puede omitir esta lección y pasar al siguiente módulo.
