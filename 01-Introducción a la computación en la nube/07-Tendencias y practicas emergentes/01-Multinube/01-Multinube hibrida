@@ -1,0 +1,84 @@
+La nube híbrida, como explicamos en la lección anterior, es un entorno informático que conecta la nube privada local de una organización y la nube pública de terceros en una sola
+    infraestructura para ejecutar las aplicaciones de la organización.
+
+La multinube es una estrategia de adopción de la nube que abarca una combinación de modelos de nube de diferentes proveedores de servicios, públicos, privados y gestionados, en
+    todos los servicios de infraestructura, plataforma o software.
+
+Por ejemplo, una empresa puede consumir el correo electrónico como servicio de un proveedor, una aplicación de CRM de otro y la infraestructura de otro proveedor.
+Básicamente, una multinube híbrida implica que puede aprovechar los mejores modelos y servicios de nube de diferentes proveedores de servicios y hacer que sus aplicaciones y
+    cargas de trabajo funcionen sin problemas en varias nubes diferentes.
+
+En este vídeo, analizaremos algunos casos de uso por los que una empresa podría querer utilizar un enfoque multicloud híbrido.
+
+>> En este vídeo, quiero abordar algunos de esos casos de uso por los que una empresa puede querer utilizar una nube híbrida o multinube.
+Empecemos por el básico, el escalado de la nube.
+Ahora bien, la mayoría de nosotros probablemente estemos familiarizados con esto.
+Es una de las principales razones para adoptar la nube.
+Ahora supongamos que tenemos un servicio de entrega de flores que es capaz de llegar a un número determinado de usuarios.
+Tienen una infraestructura local y puede afectar a una cierta cantidad de usuarios.
+Así que visualice esto aquí. A lo largo de un año calendario, puede imaginarse que su carga tal vez aumente y disminuya y responda a días festivos específicos.
+Ahora, para alcanzar esos picos, podrían ampliar su arquitectura local, pero eso implica costes iniciales y costes de mantenimiento.
+Ahora, lo que van a hacer es aprovechar la nube, que les permite escalar en respuesta a esa carga, y luego desaprovisionar automáticamente los recursos cuando ya no los
+    necesiten.
+Ahora bien, este concepto es algo general para la computación en nube, no solo para la nube híbrida o multinube.
+
+Pero eso me lleva al siguiente tema, y aquí vamos a hablar de cómo se puede utilizar para crear una nube compuesta.
+Básicamente, se tratarán de aplicaciones distribuidas en varios entornos de nube.
+Así que volvamos al servicio de entrega de flores.
+Supongamos que tienen una arquitectura local que les permite ejecutar tres componentes principales de su aplicación.
+Supongamos que tienen la interfaz de usuario web, algunas API de facturación y un marco de recompensas.
+Ahora supongamos que este servicio tiene su sede en la UE y sus clientes europeos están satisfechos.
+Sin embargo, sus clientes norteamericanos o estadounidenses, específicamente en torno al Día de los Veteranos o el Día de Acción de Gracias, se están dando cuenta de que el
+    sistema se está estancando.
+Por eso, deciden aprovechar una arquitectura de nube híbrida o multinube componiendo su aplicación en varios entornos de nube.
+Por lo tanto, van a aprovechar las ventajas de los centros de datos estadounidenses y, básicamente, se han dado cuenta de que, si bien el marco de recompensas puede permanecer
+    fijo en su parte europea, quieren cambiar las capacidades de facturación y de interfaz de usuario.
+
+Por lo tanto, pasarán solo a esos dos a la plataforma en la nube de su elección en un centro de datos norteamericano o estadounidense.
+En cierto modo, esto les permite aumentar las porciones en respuesta a, por ejemplo, los feriados estadounidenses y, al mismo tiempo, mantener sus porciones de la UE escaladas
+    individualmente.
+Por lo tanto, en este ejemplo, el servicio de entrega de flores puede aprovechar la escalabilidad a nivel global mediante el uso de una arquitectura híbrida o multinube.
+
+A continuación, hablemos del sector de las aerolíneas o de los viajes.
+Así que primero podemos empezar con un ejemplo de modernización.
+
+Ahora bien, en el pasado, hemos visto que era difícil trabajar con los sistemas de reservas o que tenías que llamar por teléfono.
+Sin embargo, casi todas las compañías aéreas disponen ahora de una aplicación móvil.
+Así que la mayoría de las veces, y hemos descubierto que se trata, en general, no solo del sector de los viajes, sino que el 80% de todas las aplicaciones empresariales siguen
+    funcionando en las instalaciones.
+Y es probable que ese también sea el caso en este sector.
+
+En este ejemplo específico, supongamos que tienen un sistema de reservas que funciona de forma local, pero para crear nuevas experiencias para sus usuarios finales, supongamos
+    que han creado una aplicación móvil.
+Esa aplicación móvil, por supuesto, tiene un servidor móvil que, tal vez, se ejecute en una nube pública y que, a su vez, funcione con el servicio de reservas.
+Por lo tanto, una vez más, la aplicación móvil puede acceder al servidor móvil y eso, a su vez, funciona con las capacidades de reserva.
+Así que, en este caso, se han modernizado y es posible crear nuevas experiencias de usuario.
+
+Pero vayamos un paso más allá. Ahora bien, una fuente de gran insatisfacción para los usuarios es cada vez que sus vuelos se retrasan.
+Por lo tanto, cuando un vuelo se retrasa, es posible que tengan que volver a reservar vuelos nuevos.
+La solución es casi siempre la misma. El viajero quiere llegar a su destino de la forma más fácil posible.
+Por lo tanto, lo que han estado haciendo las compañías aéreas es aprovechar la nube para crear, quizás, una función de recomendación.
+Por lo tanto, les permite reservar nuevos vuelos tan pronto como se recomiende un retraso o tan pronto como se produzca un retraso.
+Además, se conectará a ese servicio de back-end móvil, lo que permitirá a los usuarios reservar vuelos a través de su teléfono en el momento en que se retrase un vuelo.
+
+Esto no solo mejora los resultados del sector de las aerolíneas, sino que también hace que los usuarios estén más satisfechos.
+
+Así que esa es una de las formas en que se ha llevado a cabo la modernización.
+
+A continuación, vayamos un paso más allá y hablemos de los datos y la IA.
+En lo que respecta a los datos y la IA, el sector de las aerolíneas ha estado aprovechando una gran cantidad de datos históricos.
+Así que, a lo largo de las décadas que lleva existiendo una empresa, supongamos que tiene datos históricos sobre cuándo se ha producido un mantenimiento no planificado en su
+    aerolínea.
+De hecho, el 30% de todos los retrasos en el sector de las aerolíneas se deben, en realidad, a un mantenimiento no planificado.
+De este modo, si aprovechan, por ejemplo, las capacidades del aprendizaje automático o la IA, podrían conectar todos los datos heredados que tienen, grandes volúmenes, y
+    conectarlos a las capacidades de aprendizaje automático e inteligencia artificial.
+Esto permite a las compañías aéreas aprovechar el análisis predictivo y obtener información antes de que se produzcan errores o antes de que se produzca un mantenimiento no
+    planificado.
+Una vez más, esto mejora sus resultados, lo que se traduce en usuarios más satisfechos y en un sector de las aerolíneas más eficiente.
+Ahora, hoy hemos hablado de cuatro casos de uso principales para plataformas híbridas y multinube.
+Por lo tanto, el escalado de la nube y la nube compuesta son parte del servicio de entrega de flores, además de modernizar los datos y la IA para el sector de las aerolíneas.
+
+>> Otra razón para adoptar una estrategia multicloud híbrida es evitar tener que depender de la plataforma cloud de un proveedor específico y disponer de la flexibilidad
+    necesaria para poder trasladar las cargas de trabajo de una plataforma cloud a otra en función de las necesidades.
+
+En el siguiente vídeo, entenderemos qué es una arquitectura de microservicios, sus características, beneficios y casos de uso.

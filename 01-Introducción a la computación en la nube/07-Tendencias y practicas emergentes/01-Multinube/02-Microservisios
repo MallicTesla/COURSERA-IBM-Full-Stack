@@ -1,0 +1,65 @@
+La arquitectura de microservicios es un enfoque en el que una sola aplicación se compone de muchos componentes o servicios más pequeños que se pueden implementar de forma
+    independiente y que se pueden acoplar de forma flexible.
+Estos servicios suelen tener su propia pila que se ejecuta en sus propios contenedores.
+Se comunican entre sí a través de una combinación de API, transmisión de eventos y agentes de mensajes.
+Para una empresa, lo que esto significa es que varios desarrolladores que trabajan de forma independiente pueden desarrollar y actualizar los componentes de la aplicación de
+    manera más eficiente.
+
+Los equipos pueden usar diferentes pilas y entornos de ejecución para distintos componentes.
+Los componentes que soportan una carga excesiva se pueden escalar de forma independiente, lo que reduce el desperdicio y los costes asociados a la necesidad de escalar
+    aplicaciones enteras.
+
+En este vídeo, veremos cómo los microservicios han influido en el desarrollo de aplicaciones y también analizaremos un caso de uso que ilustra los microservicios en acción.
+
+>> La forma en que los desarrolladores trabajan para crear aplicaciones está cambiando.
+En el pasado, el software se creaba como grandes aplicaciones monolíticas, en las que un equipo de desarrolladores tardaba meses en crear una gran aplicación basada en una base
+    de código común.
+Estos desarrolladores escribían cada parte de la aplicación de principio a fin.
+Ahora, tras décadas de desarrollo de software, ya existen enormes cantidades de código que los desarrolladores pueden utilizar como base de una aplicación, lo que significa que
+    ya no tienen que crear todas las líneas de código desde cero.
+Las plataformas de desarrollo en la nube proporcionan a los desarrolladores un ecosistema de código que se puede integrar de forma fácil y segura en las aplicaciones.
+Ahora, en lugar de crear una enorme aplicación en un solo equipo, los desarrolladores se dividen en pequeños equipos independientes en los que escriben cantidades más pequeñas
+    de código, denominados microservicios.
+
+Los microservicios dividen las aplicaciones de gran tamaño en sus funciones principales.
+Por ejemplo, búsquedas, recomendaciones, valoraciones de clientes o catálogos de productos.
+Cada uno se desarrolla de forma independiente, pero funcionan juntos en la plataforma de desarrollo en la nube para crear una aplicación funcional.
+
+Un contenedor es el método de distribución de cada microservicio, lo que significa que entrega el código a donde debe ir.
+Los contenedores son fáciles de usar, por lo que si un microservicio no funciona para una aplicación, los desarrolladores pueden seleccionarlo e instalar otro diferente sin
+    interrumpir el funcionamiento del resto de la aplicación.
+
+Echa un vistazo a los microservicios en acción con Ron: Ron es un aficionado al fútbol que utiliza un servicio multimedia en streaming en línea llamado Dream Game.
+Anoche, se perdió ver a su equipo jugar su crucial partido de semifinales.
+Por suerte, puede ver el partido de esta noche en Dream Game.
+Cuando inicia sesión, ve el contenido más popular entre todos los usuarios de Dream Game.
+Después de algunas búsquedas, encuentra la pareja que busca.
+Lo que realmente le gustaría es encontrar su juego con un solo clic. Afortunadamente, el equipo de desarrollo de Dream Game está utilizando microservicios para desarrollar una
+    mejor experiencia de usuario para espectadores como Ron.
+
+El primer microservicio es un catálogo de contenido que contiene los millones de juegos que ofrece Dream Game.
+El pequeño equipo de desarrolladores organiza cada contenido con metadatos que lo describen.
+Estos metadatos se incorporan a un segundo microservicio: la función de búsqueda, que garantiza que los resultados de búsqueda de Ron se capturen y se comparen con el catálogo
+    de Dream Game.
+
+El tercer microservicio, Recommendations, captura datos sobre el contenido más popular entre todos los usuarios de Dream Game.
+Esto es lo que genera la página de inicio que Ron vio cuando inició sesión por primera vez.
+Estos tres microservicios están todos en sus contenedores separados, listos para unirse a la aplicación.
+Pero antes de que puedan trabajar juntos, tienen que encontrarse el uno al otro. Para ello, utilizan algo llamado Service Discovery, que crea una hoja de ruta para que estos y
+    muchos otros microservicios se comuniquen.
+Cuando los microservicios se encuentran, se comunican mediante una interfaz de programación de aplicaciones o una API.
+Por lo tanto, cuando Ron busca su equipo de fútbol favorito, el microservicio de búsqueda comunica al catálogo de contenido (en una API) lo que Ron busca.
+Ahora volvamos al objetivo que tenemos entre manos: llevar a Ron a su partido de fútbol con un solo clic.
+El equipo de desarrollo que trabaja en el microservicio Recommendations está actualizando el código y añadiendo un algoritmo de análisis.
+Mediante la analítica, el microservicio Recommendations comparará el historial de visualización y las preferencias de Ron con el contenido popular entre otros usuarios,
+    incluidos los aficionados al fútbol y los espectadores de la región geográfica y demográfica de Ron.
+
+Como los desarrolladores no necesitaron crear el código desde cero, pueden implementar esta nueva funcionalidad en cuestión de días.
+Estas actualizaciones se realizan entre bastidores, ya que el resto de los contenedores de microservicios funcionan con normalidad.
+La próxima vez que Ron visite Dream Game, en lugar de ver solo el contenido más popular o más reciente, verá una lista de reproducción personalizada que irá perfeccionándose a
+    medida que el sistema aprenda más sobre sus hábitos y preferencias de visualización.
+
+El resultado: Ron encuentra enseguida el último juego de su equipo favorito.
+El enfoque de microservicio permite a los desarrolladores innovar rápidamente en las aplicaciones de forma paralela y permite a los usuarios como Ron centrarse en las cosas que
+    realmente les interesan.
+Y cuando esos intereses cambian y crecen más rápido cada día, los microservicios ayudan a las empresas a mantenerse al día y crecer con sus clientes.

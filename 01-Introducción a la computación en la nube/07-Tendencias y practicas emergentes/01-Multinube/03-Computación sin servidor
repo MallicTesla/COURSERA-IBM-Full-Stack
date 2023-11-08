@@ -1,0 +1,51 @@
+La informática sin servidor es un enfoque informático que transfiere la responsabilidad de las tareas comunes de administración de infraestructuras, como escalar, programar,
+    aplicar parches y aprovisionar pilas de aplicaciones, a los proveedores de nube, lo que permite a los desarrolladores concentrar su tiempo y esfuerzo en el código y la
+    lógica empresarial específicos de sus aplicaciones o procesos.
+
+La ausencia de servidores no significa que no haya servidores, solo que la administración de los servidores físicos o virtuales subyacentes recaiga en los usuarios.
+
+El entorno informático sin servidor asigna los recursos necesarios a las aplicaciones.
+Veamos algunos atributos clave que distinguen a la computación sin servidor de otros modelos de computación.
+El modelo sin servidor no requiere el aprovisionamiento de servidores, la instalación de pilas de aplicaciones y software ni la operación de la infraestructura por parte del
+    desarrollador.
+La informática sin servidor ejecuta el código solo bajo demanda y por solicitud, y se escala de forma transparente en función del número de solicitudes que se atienden.
+La tecnología sin servidor permite a los usuarios finales pagar únicamente por los recursos que se utilizan y nunca por la capacidad inactiva, a diferencia de los servidores
+    virtuales en la nube, en los que los usuarios finales pagan por las máquinas virtuales mientras estén en funcionamiento, incluso si están inactivas.
+De hecho, la ausencia de servidores aísla la infraestructura de los desarrolladores, ya que el código se ejecuta como funciones individuales, donde cada función se ejecuta
+    dentro de un contenedor sin estado.
+No se requiere ningún contexto de ejecución previo para atender una solicitud y, con cada nueva solicitud, se invoca una nueva instancia de la función.
+
+Veamos un escenario: por ejemplo, si tuvieras una plataforma sin servidor entre la interfaz de tu sitio web y la capa de almacenamiento que ejecutara funciones individuales, la
+    aplicación sin servidor podría traducir archivos de texto y almacenarlos en un servicio de almacenamiento basado en la nube.
+Al utilizar la interfaz de tu sitio web, envías archivos de texto a una aplicación sin servidor.
+La aplicación crea traducciones en diferentes idiomas y, a continuación, almacena estos archivos traducidos en un almacenamiento en la nube y te envía sus enlaces.
+Algunos de los principales servicios informáticos sin servidor actuales incluyen las funciones de IBM Cloud, que se basan en las funciones de Apache OpenWhisk, AWS Lambda y
+    Microsoft Azure.
+
+Es importante tener en cuenta que la tecnología sin servidor puede no ser la mejor opción para todas las aplicaciones o escenarios.
+Debe evaluar las características de la aplicación y asegurarse de que la aplicación esté alineada con los patrones de arquitectura sin servidor.
+
+Las aplicaciones que cumplen los requisitos para una arquitectura sin servidor incluyen algunas de las siguientes características: funciones sin estado de ejecución corta,
+    segundos o minutos, cargas de trabajo estacionales con picos y horas punta variables, datos volumétricos de producción que muestran un tiempo de inactividad excesivo,
+    procesamiento basado en eventos o procesamiento asíncrono de solicitudes para implementar casos de uso.
+Microservicios que se pueden crear como funciones sin estado.
+Las arquitecturas sin servidor son ideales para casos de uso relacionados con el procesamiento de datos y eventos, la IoT, los microservicios y los back-ends móviles.
+Gracias a su escalado automático e inherente, a su rápido aprovisionamiento y a un modelo de precios que no cambia durante el tiempo de inactividad, la compatibilidad con la
+    arquitectura de microservicios se ha convertido en uno de los casos de uso más comunes de la informática sin servidor en la actualidad.
+
+Serverless es ideal para trabajar con datos estructurados de texto, audio, imagen y vídeo para tareas como el enriquecimiento, la transformación, la validación y la limpieza de
+    datos, el procesamiento de PDF, la normalización del audio, la generación de miniaturas y la transcodificación de vídeo.
+
+Las tareas paralelas, como la búsqueda y el procesamiento de datos y el procesamiento del genoma, también son adecuadas para ejecutarse en un entorno de ejecución sin servidor.
+La tecnología Serverless también es ideal para trabajar con todo tipo de ingestas de flujos de datos, incluidos los flujos de datos empresariales, los datos de sensores de IoT,
+    los datos de registro y los datos del mercado financiero.
+
+Y, por último, veamos algunos desafíos que vale la pena considerar en relación con la tecnología sin servidor.
+Las cargas de trabajo sin servidor están diseñadas para ampliarse y reducirse en respuesta a la carga de trabajo.
+Sin embargo, en el caso de las cargas de trabajo caracterizadas por procesos de larga duración, administrar un entorno de servidor tradicional puede resultar más sencillo y
+    rentable.
+La arquitectura de las aplicaciones sin servidor puede depender del proveedor, por lo que existe la posibilidad de que dependa de ellos, especialmente en lo que respecta a las
+    capacidades de la plataforma, como la autenticación, el escalado, la supervisión o la gestión de la configuración.
+Como las arquitecturas sin servidor se escalan hacia arriba y hacia abajo en respuesta a la carga de trabajo, a veces también necesitan empezar desde cero para atender una nueva
+    solicitud.
+En el caso de algunas aplicaciones, este retraso no tiene un gran impacto, pero en el caso de aplicaciones financieras de baja latencia, este retraso no sería aceptable.

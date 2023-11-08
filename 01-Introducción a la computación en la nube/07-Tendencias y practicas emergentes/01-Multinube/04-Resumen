@@ -1,0 +1,11 @@
+En esta lección, has aprendido:
+
+La nube múltiple híbrida es una estrategia de adopción de la nube que hace posible que las nubes públicas, las nubes privadas y la TI local interoperen sin problemas mientras
+    aprovechan los mejores servicios basados ​en la nube de diferentes proveedores de nube pública.
+
+La arquitectura de microservicios es un enfoque en el que una aplicación se construye como una colección de componentes o servicios débilmente acoplados y desplegables de forma
+    independiente, lo que conduce a ciclos eficientes de desarrollo, mantenimiento y actualización.
+
+La informática sin servidor es un enfoque informático que descarga la responsabilidad de las tareas comunes de gestión de infraestructura para los tiempos de ejecución de
+    aplicaciones a los proveedores de la nube, lo que permite a los desarrolladores centrar su tiempo y esfuerzo en el desarrollo y las pruebas, y no tener que preocuparse por
+    el aprovisionamiento, el mantenimiento y la ampliación de los recursos informáticos.
