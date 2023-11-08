@@ -1,0 +1,69 @@
+En este vídeo, vamos a ver más de cerca los niveles de datos de almacenamiento de objetos y las API de almacenamiento de objetos
+
+Los buckets de almacenamiento de objetos también tienen niveles de almacenamiento, o clases, asociados a ellos, y estos niveles se basan en la frecuencia con la que se accede a
+    los datos.
+
+Un depósito de niveles estándar es donde se almacenan objetos a los que se accede con frecuencia Este nivel tiende a tener el costo más alto por gigabyte asociado con él.
+
+Un nivel de almacén o archivo es donde puede almacenar documentos a los que solo se accede a, tal vez solo una o dos veces al mes, o menos, y se ofrecerá a un costo de
+    almacenamiento más bajo.
+
+Mientras que también puede haber un nivel de bóveda en frío, donde almacenaría datos que son normalmente a los que se accede solo una o dos veces al año.
+
+Este almacenamiento a menudo cuesta sólo una fracción de un centavo estadounidense por gigabyte al mes.
+A menudo, también puede configurar reglas de archivado automático para sus datos, lo que significa que si no se accede a un objeto durante un período de tiempo, se moverá
+    automáticamente a un nivel de almacenamiento más barato.
+
+La regla utiliza algunos de los metadatos del objeto para determinar cuándo debe archivarse
+Tenga en cuenta que el almacenamiento de objetos no viene con las opciones de IOPS.
+
+El almacenamiento de objetos tiende a ser muy lento en comparación con el almacenamiento de archivos o bloques, donde las descargas suelen tardar segundos si no más en
+    completarse.
+
+En los casos en que los proveedores ofrecen depósitos de almacén en frío, la recuperación de datos de estos niveles a veces puede tardar horas porque el almacenamiento se
+    mantiene sin conexión.
+
+Si su aplicación necesita acceso rápido a los archivos, entonces el almacenamiento de objetos puede no ser una buena opción. Hemos mencionado que el almacenamiento de objetos
+    tiene un precio por gigabyte utilizado, pero también puede haber otros costos relacionados con la recuperación de los datos.
+Estos costos son igualmente bajos, pero los cargos de acceso pueden ser más altos para los datos que están en niveles de bóveda o bóveda fría, por lo que es importante
+    asegurarse de que los datos están en el nivel correcto en función de su frecuencia de acceso.
+
+El almacenamiento de objetos no necesita estar conectado a un nodo informático para que acceda a él, más bien acceda al almacenamiento de objetos a través de una interfaz de
+    programa de aplicación o API.
+
+La API más común para el almacenamiento de objetos se denomina S3 API, que es un estándar basado en el almacenamiento de objetos S3 ofrecido por AWS.
+
+Muchos proveedores ofrecen API a su almacenamiento de objetos, que es compatible con S3, lo cual es útil, porque significa que los desarrolladores pueden escribir código que es
+    capaz de acceder al almacenamiento de objetos de múltiples proveedores.
+
+La API en sí es una API RESTful basada en HTTP, o servicio web RESTful. La llamada API permite a las aplicaciones administrar almacenamiento de objetos y depósitos, así como
+    poner, cargar u obtener objetos de descarga desde y hacia ellos.
+
+Object Storage no es sólo para nuevas aplicaciones, sino que se puede utilizar para cumplir con los requisitos de las existentes.
+
+También se puede utilizar como una solución eficaz para backup y recuperación ante desastres como un reemplazo de soluciones basadas en cinta fuera del sitio, reduciendo el
+    tiempo de restauración de datos.
+
+Muchos paquetes de copia de seguridad ahora incluyen la capacidad de realizar copias de seguridad de datos en la nube mediante el almacenamiento de objetos.
+Object Storage es más eficiente que las soluciones de backup en cinta, que requieren cintas que deben cargarse físicamente en unidades de cinta, y quitarse de ellas y
+    trasladarse fuera del sitio para obtener redundancia geográfica.
+
+Por lo tanto, para resumir lo que hemos aprendido en esta lección, el almacenamiento de objetos tiene diferentes niveles con diferentes cargos para cada uno.
+Algunos se basan en la frecuencia a la que se accede a los objetos dentro.
+
+El almacenamiento de objetos tiene un precio por gigabyte de almacenamiento utilizado al mes más algunos cargos para la recuperación de datos.
+
+El almacenamiento de objetos es mucho más barato que el almacenamiento de archivos o bloques.
+
+Object Storage es muy lento en comparación con el almacenamiento de archivos y bloques.
+
+A menudo puede crear reglas que permiten el archivado automático de objetos en niveles más baratos cuando se accede a ellos con frecuencia.
+
+Object Storage se accede a través de una API.
+
+Muchos proveedores de almacenamiento de objetos tienen una API compatible con S3, lo que significa que los desarrolladores pueden crear código que funcionará contra soluciones
+    de almacenamiento de objetos de varios proveedores.
+
+Object Storage in the Cloud ofrece una solución eficaz de copia de seguridad y recuperación ante desastres
+
+En el siguiente video, vamos a cubrir Content Delivery Network, o CDN, que es impulsado por Object Storage.

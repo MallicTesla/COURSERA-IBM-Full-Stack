@@ -1,0 +1,82 @@
+Bienvenido a Cloud Storage: puntos de vista de expertos.
+
+En este vídeo escucharemos a varios profesionales de aplicaciones en la nube hablar sobre los factores que influyen en la elección del almacenamiento en la nube.
+
+¿Puede hablar sobre algunos de los factores que tiene en cuenta al decidir cuál es el almacenamiento en la nube más adecuado para sus necesidades?
+
+Cuando busco almacenamiento en la nube para mis proyectos, me fijo en tres aspectos principales.
+    En primer lugar, ¿cuánto me va a costar?
+    En segundo lugar, ¿cuál es la velocidadde entrada/salida de datos desde el almacenamiento?
+    Y en tercer lugar, ¿cuánto tiempo estará disponible para mí? De hecho, el almacenamiento puede ser bastante complicado.
+
+A menudo hay que utilizar diferentes tipos de almacenamiento.
+
+Pero la primera pregunta que debe hacerse es: ¿para qué se utiliza el almacenamiento? ¿Qué tan rápido debe ser? ¿Cuántas personas lo utilizan? ¿Con qué frecuencia? Es muy
+    importante tener en cuenta: «¿Cuánto va a costar?» -- y el coste, en realidad, puede ser complicado porque no solo depende de la cantidad de almacenamiento que utilices,
+    sino también de la frecuencia con la que accedes a él y de cuánto accedes a él.
+
+Por lo tanto, diría que entiendes realmente para qué necesitas usar este almacenamiento.
+Y luego, tenga en cuenta todas esas cosas diferentes en su respuesta.
+Y es de esperar que te ayude a encontrar el almacenamiento correcto (o varios) que necesitas para resolver tu problema.
+Los factores que hay que tener en cuenta a la hora de decidir cuáles son sus necesidades de almacenamiento en la nube incluyen el coste, el rendimiento, la seguridad y la
+    facilidad de uso operativa.
+
+Cuando se decide por el almacenamiento en la nube, normalmente se decide entre el almacenamiento de archivos, bloques y objetos.
+
+El almacenamiento de archivos tendrá la interfaz más familiar para la mayoría de las personas.
+Básicamente, es un sistema de archivos, como el que tiene en su computadora local.
+Soporta múltiples clientes que lo montan para un acceso simultáneo.
+Y esa ha sido normalmente la razón por la que lo he optado, en las ocasiones en que lo he hecho.
+
+El almacenamiento en bloque no admite el acceso simultáneo, pero tiene una latencia muy baja. Y, por lo general, es el almacenamiento preferido para aplicaciones con un
+    rendimiento intensivo, como las bases de datos.
+El almacenamiento de objetos, por otro lado, suele ser la opción preferida cuando se tienen datos grandes y no estructurados que no se modifican con mucha frecuencia.
+Por ejemplo: grandes conjuntos de datos, archivos de vídeo, copias de seguridad de bases de datos, ese tipo de cosas.
+El almacenamiento se puede caracterizar de varias maneras según el tipo de almacenamiento.
+
+Un tipo es el almacenamiento de objetos. Un segundo tipo es el almacenamiento en bloque o NAS, serían unidades de red, podría considerarlas unidades de red.
+Almacenamiento de archivos, como NFS, o almacenamiento de bases de datos: servicio SQL o NoSQL.
+Existen diferentes clases o categorías de almacenamiento que puede obtener en la computación en nube.
+
+Si estoy trabajando con una aplicación y quiero almacenar los datos de los usuarios finales o algún tipo de configuración, me quedo con el almacenamiento de objetos en la nube.
+Por lo tanto, el almacenamiento de objetos en la nube, aunque lento, me proporciona este espacio ilimitado, o depósitos, que puedo crear dentro del almacén de objetos de la nube.
+
+Si estoy buscando un almacenamiento un poco más rápido, donde la velocidad sea importante, por ejemplo, para una base de datos, entonces podría optar por un almacenamiento a
+    nivel de bloques. Por lo tanto, el almacenamiento funciona en redes de fibra.
+Por lo tanto, es un poco más rápido que trabajar sin conexión a Internet, como en el almacenamiento de objetos en la nube.
+
+Y luego está la tercera categoría, el almacenamiento de archivos.
+La desventaja del almacenamiento de archivos es que es un poco más lento que el almacenamiento en bloque.
+Sin embargo, dado que el almacenamiento de archivos está montado en un servidor determinado, puedo usarlo como un almacenamiento común para varias aplicaciones y varios
+    servidores, por mi parte.
+
+Con el almacenamiento de objetos, puede que consigas unos costes asequibles y bajos, pero puede que no consigas la latencia más baja.
+Porque con el almacenamiento de objetos, cada vez que actualizas una pequeña cantidad de un archivo , solo actualizas, digamos, una letra de un archivo, tienes que actualizar
+    todo el objeto.
+Así que pagas por toda esa actualización. Y además, también tienes que esperar a que se actualice todo el objeto.
+Mientras que si tiene almacenamiento de archivos, puede realizar inserciones en los datos.
+Y, por lo general, ese almacenamiento de archivos está conectado más estrechamente a su cómputo real.
+
+Y de esa forma se puede conseguir una latencia mucho menor. Y luego, otro tipo de almacenamiento es el almacenamiento en bloque.
+Y en la nube, puede elegir máquinas virtuales optimizadas para el almacenamiento en bloques que tengan una latencia extremadamente baja entre el almacenamiento en bloque y el
+    servidor.
+Por lo tanto, para una latencia extremadamente baja, esta puede ser una gran solución. 
+Algunas de las consideraciones a tener en cuenta son la seguridad y el cifrado.
+Es decir, lo ideal es que busques datos cifrados tanto en reposo como en movimiento.
+Algunos otros factores a tener en cuenta incluyen la frecuencia de acceso a los datos, desde muy activos con baja latencia hasta los menos frecuentes, los poco frecuentes o
+    poco frecuentes o el almacenamiento en frío o incluso el archivado para almacenamiento a largo plazo.
+Otro factor es el coste. Quiero decir, un acceso más frecuente y una latencia más baja generalmente van a resultar más caros.
+Esos servicios y requisitos empresariales permiten que los datos sean inmutables o estén protegidos de forma que no puedan modificarse ni eliminarse.
+
+Y otro es el ciclo de vida de los datos y la forma de automatizar las ya conocidas políticas para retener, mover, archivar o eliminar datos antiguos.
+
+Por otro lado, algún proveedor de servicios en la nube está creando ahora mismo una red de área de almacenamiento, para que pueda disponer de un montón de almacenamiento en
+    bloque como una sola red de área de almacenamiento a la que pueda acceder desde sus máquinas virtuales en la nube.
+
+Otra cosa a tener en cuenta es cuáles son las opciones de cifrado.
+Afortunadamente, la mayoría de las soluciones de almacenamiento en la nube en este momento tienen la capacidad de cifrar tu almacenamiento, pero debes asegurarte de que sea una
+    función.
+
+Y luego, otra opción es la red de entrega de contenido. Y en el caso de las redes de distribución de contenido, esta es una opción si se quiere almacenar el contenido multimedia,
+    por ejemplo, lo más cerca posible del usuario final, de forma que cuando cargue el sitio web y vea las imágenes, se cargue al instante, ya que el contenido multimedia se
+    reproduce en todas las áreas.

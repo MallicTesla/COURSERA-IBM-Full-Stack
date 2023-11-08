@@ -1,0 +1,71 @@
+En este vídeo, vamos a empezar a entender qué es el almacenamiento de objetos, cómo se almacenan los datos en el almacenamiento de objetos y en qué se diferencia de los tipos de
+almacenamiento más tradicionales, como el almacenamiento de archivos y bloques.
+
+Lo primero que hay que tener en cuenta sobre el almacenamiento de objetos es que no se conecta a un nodo de cómputo concreto para poder utilizarlo.
+En su lugar, aprovisiona una instancia de servicio de almacenamiento de objetos y usa una API o interfaz de programación de aplicaciones para cargar, descargar y administrar sus
+    datos.
+Esto significa que puede usar el almacenamiento de objetos directamente con cualquier cosa que pueda denominarse API y no necesita un nodo de cómputo subyacente.
+
+La segunda cosa a tener en cuenta sobre el almacenamiento de objetos es que es menos costoso que otras opciones de almacenamiento en la nube.
+Su coste por gigabyte suele ser de un par de centavos de dólar al mes y, en algunos casos, incluso menos, según el nivel de almacenamiento utilizado ( más adelante, en los
+    niveles de almacenamiento).
+
+La tercera cosa, y posiblemente la más importante, a tener en cuenta sobre el almacenamiento de objetos es que, en efecto, es infinito.
+Con el almacenamiento de archivos y bloques, usted especifica el tamaño del almacenamiento que desea en gigabytes o terabytes y, a continuación, paga una tarifa en función del
+    tamaño que haya aprovisionado.
+Con el almacenamiento de objetos, solo consume el almacenamiento que necesita y paga el coste por gigabyte por lo que utilice.
+Puedes seguir subiendo archivos y el almacenamiento nunca se agotará.
+
+¿Cuándo utilizarías el almacenamiento de objetos? Bueno, el almacenamiento de objetos es ideal para almacenar grandes cantidades de datos no estructurados.
+Por no estructurado, esto significa que los datos no se almacenan en ningún tipo de estructura jerárquica de carpetas o directorios.
+El almacenamiento de objetos utiliza cubos, y los objetos se almacenan dentro de estos cubos de forma estructuralmente plana.
+
+Un depósito es un poco como una carpeta, en el sentido de que puedes darles nombres significativos y, por supuesto, tener distintos cubos para distintos tipos de objetos.
+
+Pero no puedes colocar un balde dentro de otro balde.
+Cuando un objeto se coloca en un cubo, también contiene algunos metadatos.
+Datos sobre los datos que se le añaden, como el ID de un objeto.
+Estos metadatos ayudan a las aplicaciones a localizar el objeto y acceder a él, además de proporcionar información sobre la hora en que se almacenaron los datos o se accedió por
+    última vez.
+
+Al crear un depósito, no es necesario proporcionar ni definir ninguna información de tamaño.
+El depósito solo contendrá los datos que coloques en su interior.
+Además, el proveedor de servicios se asegura de que haya suficiente capacidad de almacenamiento disponible.
+Los depósitos pueden almacenar tan solo unos pocos bytes de datos , hasta varios petabytes, y puedes acumular la cantidad de datos almacenados tan lenta o rápidamente como
+    desees, además de volver a reducirlos.
+
+El proveedor de servicios también se ocupa de la resiliencia y de garantizar que la solución de almacenamiento de objetos tenga una alta disponibilidad.
+
+Algunos proveedores de servicios en la nube ofrecen distintos tipos de depósitos con distintos niveles de resiliencia.
+
+Por ejemplo, ofrecen depósitos que son resilientes, pero los datos solo se almacenan en un centro de datos.
+Esta es una buena opción cuando los datos deben residir en una ubicación geográfica determinada o en situaciones en las que la alta disponibilidad no supone un problema.
+De este modo, ofrecerán grupos de alta disponibilidad en todas las regiones en las que los datos se almacenen varias veces en diferentes centros de datos o zonas de la misma
+    región, o incluso en varias regiones.
+Estas opciones suelen ser más costosas, pero ofrecen el nivel más alto de resiliencia y disponibilidad para sus datos.
+El almacenamiento de objetos tiene una estructura de almacenamiento muy plana, que explicaremos en la siguiente lección.
+
+Estos datos pueden ser cualquier cosa, desde archivos de texto hasta archivos de audio y vídeo, desde datos de IoT hasta imágenes de máquinas virtuales, desde archivos de
+    respaldo hasta archivos de datos.
+Prácticamente cualquier dato que sea estático y en el que no se necesiten velocidades rápidas de lectura y escritura sería una buena opción para el almacenamiento de objetos.
+
+Sin embargo, el almacenamiento de objetos no sería adecuado para ejecutar sistemas operativos ni aplicaciones como bases de datos o cualquier otra cosa en la que el contenido de
+    los archivos cambie.
+
+Para resumir lo que hemos aprendido en esta lección, el almacenamiento de objetos se utiliza para almacenar archivos u objetos que son estáticos.
+Los datos que puede almacenar mediante el almacenamiento de objetos pueden ser cualquier cosa, desde archivos de texto hasta archivos de audio y vídeo, desde datos de IoT hasta
+    imágenes de máquinas virtuales, desde archivos de respaldo hasta archivos de datos.
+No puede ejecutar sistemas operativos u otras aplicaciones, como bases de datos, mediante el almacenamiento de objetos.
+Los objetos se almacenan en depósitos.
+
+Puede tener varios cubos, pero no puede colocarlos dentro de los cubos.
+
+No es necesario especificar un tamaño para un cubo.
+
+Puede utilizar tan poco o tanto espacio como necesite.
+
+Muchos proveedores ofrecen diferentes tipos de cubos con diferentes cargos para cada uno.
+
+Algunos se basan en la resiliencia y la disponibilidad, mientras que otros se basan en la frecuencia con la que se accede a los objetos que se encuentran en su interior.
+
+En el siguiente vídeo, analizaremos los niveles de datos de almacenamiento de objetos y las API de almacenamiento de objetos.

@@ -1,0 +1,23 @@
+Resumen de la lección 2: Almacenamiento en la nube y redes de entrega de contenido
+En esta lección, has aprendido:
+
+El almacenamiento en la nube está disponible en cuatro tipos principales: adjunto directo, almacenamiento de archivos, bloques y objetos.
+Estos tipos de almacenamiento se diferencian en cómo se puede acceder a ellos, la capacidad que ofrecen, cuánto cuestan, los tipos de datos que mejor se adaptan a almacenar y
+    su velocidad de lectura y escritura.
+
+El almacenamiento adjunto directo (o local) es almacenamiento que se presenta directamente a un servidor basado en la nube y se encuentra efectivamente dentro del chasis del
+    servidor host o dentro del mismo bastidor.
+
+El almacenamiento de archivos generalmente se presenta a los nodos informáticos como un sistema de archivos de red (NFS), lo que significa que el almacenamiento está conectado
+    a los nodos informáticos a través de una red Ethernet estándar.
+
+Block Storage se presenta para nodos informáticos que utilizan conexiones de fibra de alta velocidad, generalmente aprovisionadas en volúmenes, que se montan en un nodo
+    informático.  
+
+Se accede a Object Storage a través de una API y no necesita un nodo informático subyacente.
+
+Object Storage ofrece una capacidad infinita, ya que puede seguir agregando archivos y simplemente pagar por lo que usa.
+En comparación con otros tipos de almacenamiento, el almacenamiento de objetos es el más lento en términos de velocidades de lectura y escritura.
+
+Una red de entrega de contenido (CDN) es una red de servidores distribuidos que acelera la entrega de contenido de Internet al entregar copias almacenadas temporalmente o en
+    caché de sitios web o contenido multimedia a los usuarios según su ubicación geográfica.

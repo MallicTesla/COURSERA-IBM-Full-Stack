@@ -1,0 +1,92 @@
+En este vídeo, analizaremos el almacenamiento en bloques y su comparación con el almacenamiento de archivos en la nube.
+
+El almacenamiento en bloques divide los archivos en fragmentos (o bloques) de datos y almacena cada bloque por separado en una dirección única.
+Al igual que el almacenamiento con conexión directa y el almacenamiento de archivos, el almacenamiento en bloques también debe estar conectado a un nodo de cómputo antes de
+    poder utilizarlo para sus cargas de trabajo.
+El almacenamiento en bloques, al igual que el almacenamiento de archivos, se puede montar desde dispositivos de almacenamiento remoto, lo que lo hace extremadamente resistente
+    a los fallos y mantiene los datos mucho más seguros en ellos, gracias a los servicios de cifrado en tránsito y cifrado en reposo, disponibles en estos dispositivos.
+
+El almacenamiento en bloques se monta como un volumen para computar los nodos mediante una red dedicada de fibras, a través de la cual las señales se mueven a la velocidad de la
+    luz.
+
+Estas redes de fibra óptica son más caras de construir que las de Ethernet, que ofrecen almacenamiento de archivos, y esa es una de las razones por las que el almacenamiento en
+    bloque tiende a tener un precio más alto.
+
+Sin embargo, dado que el tráfico se mueve más rápido y con una velocidad uniforme, son perfectas para las cargas de trabajo que necesitan un almacenamiento de baja latencia para
+    funcionar de manera eficaz.
+
+En cuanto a las cargas de trabajo, es importante tener en cuenta que, a diferencia del almacenamiento de archivos, que se puede montar en 80 nodos de cómputo o más, el
+    almacenamiento en bloque normalmente se monta en un solo nodo de cómputo a la vez.
+Dado que estos discos funcionan a una alta velocidad constante, son perfectos para cargas de trabajo que necesitan un almacenamiento rápido y constante, como bases de datos y
+    servidores de correo.
+
+El almacenamiento en bloques no es adecuado para cargas de trabajo en las que es necesario compartir algún nivel de disco entre los nodos de procesamiento.
+En el caso del almacenamiento en bloques, al igual que en el de archivos, es necesario tener en cuenta la capacidad de IOPS del almacenamiento.
+
+La mayoría de los proveedores de servicios en la nube le permitirán especificar las características de las IOPS al aprovisionar el almacenamiento y, en algunos casos, ajustar
+    las IOPS del almacenamiento según sus necesidades, de modo que si los requisitos o el comportamiento de uso de una aplicación cambian, pueda ajustarlas en consecuencia.
+Por lo tanto, para resumir los puntos en común y las diferencias entre estos dos tipos de almacenamiento: el almacenamiento en bloque y el almacenamiento de archivos proviene de
+    dispositivos cuyo mantenimiento corre a cargo del proveedor de servicios.
+Ambos suelen tener una alta disponibilidad y son resistentes, y suelen incluir el cifrado de datos en reposo y en tránsito.
+
+El almacenamiento de archivos se conecta a un nodo de cómputo mediante una red Ethernet, por lo que a veces se denomina almacenamiento conectado a la red o almacenamiento NFS.
+El almacenamiento de archivos es muy fiable, pero la velocidad de la red de conexión puede variar en función de la carga.
+
+El almacenamiento en bloque se conecta a través de una red de fibra de alta velocidad, que es muy confiable y consistente.
+
+El almacenamiento de archivos se puede conectar a varios nodos de cómputo a la vez.
+
+El almacenamiento en bloques solo se puede conectar a un nodo a la vez.
+
+El almacenamiento de archivos es una buena opción cuando es necesario compartir archivos, cuando las cargas de trabajo no requieren una conectividad ultrarrápida con el
+    almacenamiento o cuando el costo es un factor importante.
+
+El almacenamiento en bloques es una buena opción si se trata de una aplicación que necesita un acceso rápido y uniforme al disco, como las bases de datos.
+
+Recuerde tener en cuenta los requisitos de IOPS de la aplicación al aprovisionar almacenamiento en bloques o en archivos.
+
+Hola chicos, mi nombre es Amy Blea. Soy parte del equipo de proveedores de IBM Cloud y hoy quiero hablarles sobre algunos tipos de almacenamiento tradicionales: el
+    almacenamiento de archivos y el almacenamiento en bloques.
+En cierto modo, le daré una visión general de lo que son y, a continuación, le daré algunos consejos sobre cómo decidir cuándo utilizar uno en lugar de otro.
+
+Entonces, comencemos con el almacenamiento en bloques.
+El almacenamiento en bloques es un almacenamiento en el que los datos se escriben en bloques sin procesar en el almacenamiento y los servidores que tiene acceden a ellos a
+    través de una red de área de almacenamiento.
+Por lo tanto, tiene todos sus servidores, que pueden estar en la misma red entre sí o en una red diferente, pero todos se conectan a través del almacenamiento, a través de esta
+    red de área de almacenamiento.
+
+Ahora bien, algunas de las ventajas de usar el almacenamiento en bloques es que el almacenamiento en bloque proporciona la latencia más baja posible para sus aplicaciones, y
+    también puede usarlo para aquellas aplicaciones que requieren un alto rendimiento o muchas IOPS.
+Otra cosa que encontrará con el almacenamiento en bloques es que, en general, es altamente redundante.
+La mayoría de los servicios de almacenamiento en bloques ofrecen una funcionalidad integrada que permite que los datos sean redundantes en todo el volumen, de forma que, si se
+    produce una caída del volumen o si desaparece un disco, se pueden recuperar los datos desde otro lugar sin que ello afecte a la aplicación.
+
+Ahora, el almacenamiento de archivos está conectado a su servicio de forma un poco diferente a como lo está el almacenamiento en bloque.
+Todo está conectado a la misma red, por lo que aquí tienes todos tus archivos o el recurso compartido de archivos.
+Estos son todos los archivos y cualquiera de los servidores de esa red puede acceder a todos ellos en la misma red.
+Por lo tanto, es almacenamiento conectado a la red.
+El almacenamiento de archivos es altamente escalable, por lo que puede tener varios recursos compartidos de archivos en su red y tener todos sus servidores conectados a la vez.
+Se puede acceder a él en varios tiempos de ejecución.
+Por lo tanto, en esta ilustración, tenemos un único recurso compartido de archivos al que varios servidores acceden a todos a la vez, y también puede realizar varias lecturas y
+    escrituras simultáneas en su recurso compartido de archivos al mismo tiempo sin tener que preocuparse de que se sobrescriban los datos.
+
+Entonces, ¿cómo puede saber cuándo es el momento adecuado para elegir el almacenamiento en bloque o el almacenamiento de archivos para su aplicación? Bueno, antes que nada,
+    debes pensar para qué lo estás usando.
+Por ejemplo, supongamos que tiene una configuración de VMware en la que tiene varios servidores virtuales con VMware y necesita volúmenes de arranque.
+Bueno, en ese caso, utilizaría almacenamiento en bloques.
+Si tiene cargas de trabajo, como bases de datos transaccionales o bases de datos relacionales, que requieren una latencia muy baja y un alto rendimiento, optaría por el
+    almacenamiento en bloques.
+
+Si tiene una combinación de datos estructurados y no estructurados, por ejemplo, un servidor de alojamiento web en el que tiene, ya sabe, archivos de texto y archivos multimedia,
+    entonces elegiría el almacenamiento de archivos.
+Y luego, si tiene un espacio de colaboración en el que necesita que varios usuarios accedan a él a la vez, trabajen juntos, lean y escriban todo al mismo tiempo, elegiría el
+    almacenamiento de archivos.
+
+Así que, como mencioné al principio, el almacenamiento en bloque y el almacenamiento de archivos son tipos de almacenamiento muy tradicionales.
+No son tan llamativos, brillantes y atractivos como algunos de los nuevos servicios de almacenamiento que se han introducido en el mercado, pero siguen siendo muy relevantes y
+    útiles para los distintos tipos de cargas de trabajo que se tienen, ya sea in situ o en la nube.
+
+Gracias por ver hoy conmigo este vídeo sobre las diferencias entre el almacenamiento de archivos y el almacenamiento en bloque.
+Si tienes alguna pregunta, comentario o idea para otros vídeos, escribe algo en los comentarios de abajo y, si quieres ver más vídeos como este en el futuro, suscríbete.
+
+En el siguiente vídeo, empezaremos a analizar el almacenamiento de objetos.

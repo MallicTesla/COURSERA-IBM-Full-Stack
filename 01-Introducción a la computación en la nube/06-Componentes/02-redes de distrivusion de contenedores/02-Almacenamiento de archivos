@@ -1,0 +1,48 @@
+En este vídeo, vamos a hablar sobre el almacenamiento de archivos con más detalle.
+Al igual que el almacenamiento con conexión directa, el almacenamiento de archivos debe estar conectado a un nodo de cómputo para poder acceder a él y almacenar datos en él.
+
+Sin embargo, el almacenamiento de archivos puede ser menos costoso, más resistente a las fallas e implicar menos administración y mantenimiento del disco por parte del usuario
+    en comparación con el almacenamiento con conexión directa.
+
+También puede aprovisionar cantidades mucho mayores de almacenamiento de archivos y presentarlo como un disco en un servidor.
+
+El almacenamiento de archivos se monta desde dispositivos de almacenamiento remoto.
+Es decir, los discos físicos están contenidos en una pieza de hardware independiente y especializada y, a continuación, se conectan al nodo de cómputo a través de la
+    infraestructura subyacente del centro de datos.
+Estos dispositivos de almacenamiento no solo son extremadamente resistentes a los fallos, sino que los datos están mucho más seguros en ellos, ya que estos dispositivos de
+    almacenamiento proporcionan servicios como el cifrado en tránsito.
+
+Todos estos dispositivos son gestionados por el proveedor de servicios.
+El almacenamiento de archivos se monta en los nodos de cómputo a través de una red Ethernet, el mismo tipo de red por la que puede recibir correos electrónicos o navegar por
+    Internet, aunque esta red Ethernet normalmente está dedicada a esta tarea.
+Esto significa que a veces puede denominarse «almacenamiento conectado a la red», «almacenamiento de archivos en red» o simplemente «NFS».
+
+Uno de los problemas de las redes Ethernet es que su velocidad puede variar : cuanto más cargada esté una red Ethernet, más probabilidades hay de que su velocidad o ancho de
+    banda se vean afectados.
+Por supuesto, los proveedores de servicios en la nube construyen sus redes de almacenamiento para gestionar volúmenes de tráfico muy altos, pero aun así, no se puede garantizar
+    una velocidad constante.
+Por lo tanto, el almacenamiento de archivos suele utilizarse para cargas de trabajo en las que no se requieren velocidades de red altas y constantes.
+
+En cuanto a las cargas de trabajo, el almacenamiento de archivos normalmente se puede montar en más de un nodo de cómputo a la vez, de forma que el disco o volumen montado tiene
+    el mismo aspecto que cualquier otra unidad del nodo de cómputo.
+
+La posibilidad de montar el almacenamiento de archivos en varios nodos de procesamiento a la vez lo convierte en una solución ideal cuando se requiere algún tipo de
+    almacenamiento común, por ejemplo, un recurso compartido de archivos departamental, una «zona de destino» para los archivos entrantes que una aplicación debe procesar o un
+    repositorio de archivos al que pueda acceder un servicio web.
+
+En estas aplicaciones, la posible variación en la velocidad de la red de conexión no es realmente un problema.
+Por supuesto, cuando el costo es un problema, puede utilizar el almacenamiento de archivos para otras aplicaciones, como bases de datos, pero la compensación es la velocidad.
+
+Al aprovisionar el almacenamiento de archivos, una consideración que debe tener en cuenta es la capacidad de IOPS del almacenamiento.
+Las IOPS son las siglas de Input/Output Operations Per Second y se refieren a la velocidad a la que los discos pueden escribir y leer datos (tenga en cuenta que esta no es la
+    velocidad de la red entre el almacenamiento y el nodo de cómputo). Cuanto mayor sea el valor de IOPS, mayor será la velocidad del disco subyacente. Por lo general, una IOPS
+    más alta también costará más.
+Es importante comprender las IOPS, ya que si el valor de las IOPS es demasiado bajo para la aplicación, el almacenamiento puede convertirse en un obstáculo y provocar que la
+    aplicación se ejecute lentamente.
+
+Como alternativa, si las IOPS son demasiado altas, es probable que pague más de lo necesario por el almacenamiento.
+Por ejemplo, un recurso compartido de archivos puede estar montado en 30 nodos de cómputo diferentes y una aplicación escribe y solicita datos desde ese recurso compartido 60
+    veces por minuto.
+Puede promediar una operación por segundo. Con este sencillo ejemplo, puede ver que cada aplicación tiene diferentes requisitos de IOPS.
+
+En el siguiente vídeo, hablaremos más sobre el almacenamiento en bloque, cómo se compara con el almacenamiento de archivos y cuándo se suele utilizar uno en lugar de otro.

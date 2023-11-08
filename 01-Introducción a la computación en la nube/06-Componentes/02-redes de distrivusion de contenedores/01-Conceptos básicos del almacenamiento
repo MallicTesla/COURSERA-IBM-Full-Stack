@@ -1,0 +1,68 @@
+El almacenamiento en la nube es el lugar donde se guardan los archivos de datos en la nube.
+Ciertos tipos de almacenamiento deben estar conectados a un nodo de cómputo antes de poder acceder al almacenamiento, mientras que a otros tipos de almacenamiento se puede
+    acceder directamente a través de la Internet pública o de una conexión de red privada dedicada.
+
+Los proveedores de nube alojan, protegen, administran y mantienen el almacenamiento en la nube y la infraestructura asociada para garantizar que tenga acceso a sus datos cuando
+    los necesite.
+
+Los servicios de almacenamiento en la nube le permiten ampliar su capacidad según sus necesidades, de modo que solo paga por lo que aprovisiona, normalmente «por gigabyte».
+El coste del almacenamiento variará según el tipo, pero en general, cuanto más rápida sea la velocidad de lectura/escritura del almacenamiento, mayor será el coste por gigabyte.
+
+El almacenamiento en la nube está disponible en cuatro tipos principales: conexión directa, almacenamiento de archivos, almacenamiento en bloque y almacenamiento de objetos.
+El almacenamiento con conexión directa, también denominado «almacenamiento local», es el almacenamiento que se presenta directamente en un servidor basado en la nube y que, de
+    hecho, se encuentra dentro del chasis del servidor anfitrión o dentro del mismo rack.
+Este almacenamiento es rápido y normalmente solo se utiliza para almacenar el sistema operativo de un servidor, aunque puede tener otros usos.
+
+Las dos razones principales por las que el almacenamiento con conexión directa no es tan adecuado para otros usos además de almacenar el sistema operativo es que suele ser
+    «efímero» ( lo que significa que solo dura el tiempo que dura en el recurso informático al que está conectado ), no se puede compartir con otros nodos y, si bien se pueden
+    utilizar técnicas RAID, no es tan resistente a los fallos como otros tipos de almacenamiento.
+
+El almacenamiento de archivos suele presentarse en los nodos de cómputo como «almacenamiento NFS».
+NFS son las siglas de Network File System y significa que el almacenamiento está conectado a nodos de cómputo a través de una red Ethernet estándar.
+El almacenamiento montado en NFS es común, pero tiende a ser más lento que el almacenamiento con conexión directa o el almacenamiento en bloque porque los datos viajan a través
+    de una red Ethernet.
+También suele ser más económico que el almacenamiento con conexión directa o en bloque.
+
+Una ventaja del almacenamiento de archivos es que se puede montar o utilizar en varios servidores a la vez.
+El almacenamiento basado en archivos es un enfoque simple y directo del almacenamiento de datos y funciona bien para organizar los datos en una estructura jerárquica de carpetas,
+    con la que están familiarizados los usuarios de computadoras de escritorio.
+
+El almacenamiento en bloques se presenta a los nodos de cómputo mediante conexiones de fibra de alta velocidad, lo que significa que las velocidades de lectura y escritura
+    suelen ser mucho más rápidas y fiables que las del almacenamiento de archivos, lo que hace que el almacenamiento en bloques sea adecuado para su uso con bases de datos y
+    otras aplicaciones en las que la velocidad del disco es importante.
+Por lo general, el almacenamiento en bloques se aprovisiona en «volúmenes», que luego se pueden montar en un nodo de cómputo que, de hecho, se considera otro disco duro.
+Por lo general, los volúmenes solo se pueden montar en un nodo de cómputo a la vez.
+
+Tanto en el almacenamiento en archivos como en el almacenamiento en bloque, es posible que también escuche el término «IOPS». Las IOPS son las siglas de
+    «operaciones de entrada/salida por segundo» y se refieren a la velocidad del almacenamiento o, dicho de otro modo, a la rapidez con la que se pueden leer o escribir datos
+    en el almacenamiento.
+
+Hablaremos de esto con un poco más de detalle en un vídeo posterior.
+
+La persistencia es un término que se utiliza al aprovisionar almacenamiento en archivos o bloques y se refiere a lo que ocurre con el almacenamiento una vez que finaliza el
+    nodo de cómputo al que está conectado.
+Si el almacenamiento está configurado como «persistente», no se eliminará junto con el nodo de procesamiento, lo que significa que tanto él como sus datos se conservarán y
+    estarán disponibles para montarse en otro nodo de procesamiento, aunque usted seguirá pagando por el almacenamiento.
+
+En algunos casos, también puedes configurar el almacenamiento para que se elimine automáticamente junto con el nodo de cómputo en el que esté montado; en este caso, como sabemos,
+    se convierte en almacenamiento efímero. Aquí también dejarás de pagar por el almacenamiento, pero perderás todos los datos a menos que se guarden copias de seguridad en
+    algún lugar.
+
+Hay varias formas de hacer copias de seguridad de los datos en la nube, pero una forma de hacer copias de seguridad tanto del almacenamiento en archivos como en bloque es tomar
+    una instantánea que sea la imagen del almacenamiento, en un instante determinado.
+Por lo general, las instantáneas se crean rápidamente (en realidad no escriben ningún dato, sino que crean metadatos), no requieren tiempo de inactividad y las instantáneas
+    posteriores solo registran los cambios en los datos.
+
+Son ideales para devolver el almacenamiento a la forma en que estaba en una instantánea concreta, aunque tenga en cuenta que no se pueden utilizar para recuperar archivos
+    individuales.
+
+El cuarto tipo de almacenamiento es el almacenamiento de objetos.
+Se trata de un tipo de almacenamiento diferente en la medida en que no está conectado a un nodo de cómputo, sino que se accede a él a través de una API.
+De todos los tipos de almacenamiento, el almacenamiento de objetos es, con diferencia, el más económico y también el más lento en términos de velocidad de lectura y escritura,
+    pero su tamaño es infinito para el usuario final.
+A diferencia del almacenamiento de archivos y bloques, en el que se aprovisiona una determinada capacidad de almacenamiento y se va llenando con el tiempo, con Object Storage
+    puedes seguir añadiendo archivos y nunca se llena, solo pagas por lo que utilizas.
+Esto convierte a Object Storage en un fantástico repositorio para todo tipo de datos no estructurados, grandes y pequeños, como documentos, vídeos, registros, copias de seguridad,
+    datos del IoT, archivos binarios de aplicaciones e imágenes de máquinas virtuales.
+
+En los siguientes vídeos, encontrarás información más detallada sobre los diferentes tipos de almacenamiento.

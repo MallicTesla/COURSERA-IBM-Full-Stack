@@ -1,0 +1,84 @@
+ACL - LCA 
+Listas de control de acceso
+
+AZ - EL
+Las zonas de disponibilidad son centros de datos distintos con sus propios recursos de energía, refrigeración y redes.
+Estas Zonas pueden tener nombres como DAL-09 o us-east-1.  
+
+Hipervisor básico
+Instalado directamente encima del servidor físico. Son más seguros, tienen menor latencia y suelen ser los que más se ven en el mercado.
+
+Almacenamiento en bloque
+Se presenta a los nodos de computación mediante conexiones de fibra de alta velocidad, lo que significa que las velocidades de lectura y escritura suelen ser mucho más rápidas y
+    confiables que con el almacenamiento de archivos.
+
+CDNs - CDN
+Content Delivery Networks es una red de servidores distribuidos que entrega copias almacenadas temporalmente o en caché del contenido del sitio web a los usuarios según la
+    ubicación geográfica del usuario.
+
+Región de la nube   
+Un área geográfica o ubicación donde se agrupa la infraestructura de un proveedor de nube y puede tener nombres como NA Sur o EE.UU. Este.
+
+Contenedores
+Son una unidad ejecutable de software en la que se empaqueta el código de la aplicación, junto con sus bibliotecas y dependencias, de manera común para que pueda ejecutarse en
+    cualquier lugar, ya sea en el escritorio, en la TI tradicional o en la nube.
+
+Centro de datos
+Una sala enorme o un almacén que contiene infraestructura en la nube.
+
+Anfitriones dedicados
+Ofrecer aislamiento para un solo inquilino
+
+Almacenamiento adjunto directo
+O el almacenamiento local es almacenamiento que se presenta directamente a un servidor basado en la nube y se encuentra efectivamente dentro del chasis del servidor host o
+    dentro del mismo bastidor.
+
+Almacenamiento de archivos
+Normalmente se presenta para calcular nodos como 'Almacenamiento NFS'.
+NFS significa Network File System y significa que el almacenamiento está conectado a nodos informáticos a través de una red Ethernet estándar.
+
+Hipervisor alojado
+Hay una capa de sistema operativo host entre el servidor físico y el hipervisor.
+Estos hipervisores se utilizan con menos frecuencia y se utilizan principalmente para la virtualización del "usuario final".
+
+HPC
+Computación de alto rendimiento
+
+Hipervisor
+Una pieza de software que se ejecuta sobre el servidor o host físico.
+
+IOPS
+Operaciones de entrada/salida por segundo y se refiere a la velocidad a la que los discos pueden escribir y leer datos.
+
+NFS
+Almacenamiento de archivos en red
+
+Almacenamiento de objetos
+El almacenamiento no está conectado a un nodo informático, sino que se accede a él a través de una API
+
+Servidor virtual reservado
+Las instancias le permiten reservar capacidad y garantizar recursos para futuras implementaciones.
+
+SDN
+Redes definidas por software
+
+VM de nube pública o compartida
+¿Son implementaciones multiinquilino administradas por el proveedor que se pueden aprovisionar bajo demanda con tamaños predefinidos?
+
+VM transitorias o puntuales
+Aproveche la capacidad no utilizada en un centro de datos en la nube
+
+Virtualización
+Proceso de creación de una versión virtual o basada en software de algo, ya sea computación, almacenamiento, redes, servidores o aplicaciones.
+
+VLAN
+Redes de área local virtuales
+
+VM - máquina virtual
+Las máquinas virtuales son computadoras basadas en software, basadas en tecnologías de virtualización.
+
+VPC
+Nube privada virtual
+
+vpn
+Redes Privadas Virtuales

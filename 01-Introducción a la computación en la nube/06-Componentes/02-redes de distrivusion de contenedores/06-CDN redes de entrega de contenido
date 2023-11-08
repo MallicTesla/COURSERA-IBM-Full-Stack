@@ -1,0 +1,50 @@
+Una red de entrega de contenido, o CDN, es una red de servidores distribuidos que entrega copias almacenadas temporalmente o en caché del contenido del sitio web a los usuarios,
+    en función de la ubicación geográfica del usuario.
+Una CDN almacena este contenido en ubicaciones distribuidas y reduce la distancia entre los visitantes del sitio web y el servidor del sitio web.
+
+En el resto del vídeo, aprenderemos más sobre las redes de entrega de contenido.
+
+Hola. Soy Ryan Sumner, arquitecto jefe de redes en IBM Cloud, y hoy voy a ayudarlo a responder: ¿qué es una red de entrega de contenido?
+En resumen, una red de entrega de contenido, o CDN, es un servicio que acelera la entrega de contenido de Internet.
+En otras palabras, el principal beneficio de una CDN es que hace que su sitio web sea más rápido.
+
+Antes de empezar a describirte cómo lo consigue y algunas de las otras ventajas, quiero hablarte primero de algunos de los desafíos a los que nos enfrentamos cuando tenemos
+    usuarios en todo el mundo, pero no tenemos servidores en todo el mundo, y la experiencia que esos usuarios tienen debido a esa dinámica.
+Por lo tanto, tengo un diagrama sencillo que muestra un servidor alojado en Dallas.
+Este es mi sitio web. Y además tengo usuarios en todo el mundo. Entonces, en Sidney puede que tenga cinco. En Londres tengo cinco. En Nueva York puede que tenga diez. EN Los
+    Ángeles, puede que tenga diez.
+Tengo 30 usuarios en todo el mundo que acceden a mi servidor y a mi sitio web en Dallas.
+
+Sigamos a un grupo de estos usuarios en su viaje. Echemos un vistazo a sus usuarios en Sídney. Hacen una solicitud al sitio web.
+Tienen que caminar 8.600 millas hasta Dallas y luego hacer una caminata de 8.600 millas de regreso.
+
+La cantidad de tiempo que tarda normalmente se mide y se mide en milisegundos, y solo ese viaje de ida y vuelta puede ser de unos 170 milisegundos.
+Para nuestros usuarios de Londres, eso podría ser alrededor de 100 milisegundos.
+Nuestros usuarios de la ciudad de Nueva York probablemente experimenten un tiempo de ida y vuelta de unos 40 milisegundos. Y en Los Ángeles, unos 30.
+Como puede ver, cuanto más lejos esté, más tardará en última instancia, más lento será el sitio web para usted.
+
+Aquí es donde entra en juego la CDN, y así es como logra realmente el aumento de velocidad, que consiste en reducir la distancia entre el usuario y el contenido, o el servidor
+    que proporciona el contenido.
+
+Lo que hace es colocar estos puntos finales de la red de entrega de contenido en tantos lugares del mundo como sea posible.
+Y en nuestro caso, vamos a suponer que tenemos uno en casi todos los lugares donde se encuentran nuestros usuarios.
+Ahora, cuando un usuario de Sídney, Londres, Nueva York o Los Ángeles intenta acceder a algún contenido, primero lo recupera el servicio de red de entrega de contenido y,
+    después, lo distribuye por todo el mundo.
+Así que tenemos una única solicitud dirigida al servidor de Dallas.
+
+Ahora se distribuye por todo el mundo, y nuestros usuarios de Londres ahora, en lugar de ir hasta Dallas, pueden recuperar ese contenido directamente desde su ubicación
+    geográfica más cercana, lo que reduce drásticamente el tiempo que se tarda en recuperar ese contenido.
+
+Como puede ver aquí, es muy básico cómo una CDN puede proporcionar los beneficios al usuario final al reducir el tiempo que se tarda en ofrecer el servicio.
+Pero lo que no se ve aquí, es un beneficio indirecto, es la reducción de la cantidad de tráfico que realmente llega al servidor de Dallas.
+Por lo tanto, el beneficio indirecto es que, de hecho, se reduce la carga o la cantidad de capacidad que se necesita en Dallas para atender a todos estos usuarios.
+
+Otro beneficio indirecto es que hay mucha menos validez y que pasan muchas menos cosas en Dallas, ya que todos estos usuarios tienen que hacer estos viajes.
+
+Y tampoco tengo que comunicarme con usuarios tan lejanos.
+Es posible que el entorno de Dallas también experimente un aumento en el tiempo de actividad.
+
+Y, por último, dado que los usuarios no se comunican realmente directamente con los servidores de Dallas, usted tiene la ventaja indirecta de aumentar la seguridad debido a la
+    oscuridad.
+
+Al final, es bastante básico entender cómo funciona una CDN para ofrecer un mejor beneficio al usuario final.
