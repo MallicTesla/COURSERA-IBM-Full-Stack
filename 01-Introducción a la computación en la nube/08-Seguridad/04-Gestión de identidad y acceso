@@ -1,0 +1,65 @@
+Según el informe de seguridad en la nube de Cybersecurity Insiders, la principal preocupación de seguridad en la nube de los profesionales de la ciberseguridad es la pérdida y
+    filtración de datos.
+El acceso no autorizado mediante el uso indebido de las credenciales de los empleados y los controles de acceso inadecuados es la principal vulnerabilidad percibida a la
+    seguridad en la nube, seguida de las interfaces y API inseguras.
+
+En este vídeo, veremos cómo la gestión de identidad y acceso, también conocida como control de acceso, funciona como primera línea de defensa, ya que permite autenticar y
+    autorizar a los usuarios y proporcionarles acceso específico a los recursos, servicios y aplicaciones de la nube.
+
+Una estrategia de seguridad integral debe abarcar las necesidades de seguridad de un público amplio, incluidos los usuarios de organizaciones, los usuarios de Internet y de las
+    redes sociales, las organizaciones de socios comerciales de terceros y los proveedores.
+
+Hay tres tipos principales de usuarios: usuarios administrativos, usuarios desarrolladores y usuarios de aplicaciones.
+
+Los usuarios administrativos incluyen a los administradores, operadores y gestores de plataformas en la nube : funciones que suelen crear, actualizar y eliminar instancias de
+    aplicaciones y servicios, y que también necesitan información sobre las actividades de los miembros de su equipo.
+Un atacante que utilice una cuenta administrativa puede robar datos de las instancias de servicio de bases de datos de producción, implementar aplicaciones maliciosas en el
+    dominio del cliente o incluso desfigurar o destruir las aplicaciones existentes.
+
+Los usuarios desarrolladores incluyen desarrolladores de aplicaciones en la nube , desarrolladores de plataformas y editores de aplicaciones.
+Los usuarios desarrolladores están autorizados a leer información confidencial y a crear, actualizar y eliminar aplicaciones.
+
+El tercer tipo de usuario es el usuario de la Aplicación.Estos son los usuarios de las aplicaciones alojadas en la nube.
+
+Analicemos los componentes clave de la gestión de identidades y accesos y cómo funcionan.
+La autenticación, o el servicio de identidad, permite que las aplicaciones desplegadas en la nube autentiquen a los usuarios a nivel de aplicación, en función de una variedad de
+    proveedores de identidad, como el directorio en la nube, los proveedores de identidades sociales, como Google, LinkedIn, Facebook y Twitter, el proveedor de identidad
+    alojado en la empresa y el proveedor de identidad alojado en la nube.
+A veces, las claves de API o los identificadores únicos se transfieren a una API para identificar a la aplicación o al usuario que realiza la llamada.
+La autenticación multifactorial se usa para combatir el robo de identidad al agregar una capa adicional de autenticación para los usuarios de la aplicación, como contraseñas o
+    pines de un solo uso, certificados, fichas y autenticación basada en el riesgo (como los cambios en la ubicación del usuario, su actividad anterior y sus preferencias).
+
+Los servicios de Cloud Directory se utilizan para gestionar de forma segura los perfiles de usuario y su política de credenciales y contraseñas asociadas dentro de un entorno de
+    nube.
+Un servicio de directorio dentro de una nube significa que las aplicaciones alojadas en la nube no necesitan usar su propio repositorio de usuarios.
+Los informes ayudan a proporcionar una visión del acceso a los recursos centrada en el usuario o una visión del acceso de los usuarios centrada en los recursos.
+Los informes suelen proporcionar información sobre qué usuarios tienen acceso a qué recursos, qué usuarios han cambiado sus derechos de acceso, qué acceso está siendo explotado
+    por cada usuario y en qué condiciones.
+
+La auditoría y el cumplimiento son un servicio fundamental dentro del marco de gestión de identidades y accesos, tanto para el proveedor de la nube como para el consumidor de la
+    nube. Los auditores utilizan estos procesos para validar los controles implementados en relación con las políticas de seguridad, el cumplimiento del sector y las políticas
+    de riesgo de una organización, y para informar sobre las desviaciones.
+La capacidad de gestión del acceso de los usuarios y los servicios permite a los propietarios de aplicaciones y servicios en la nube aprovisionar y desaprovisionar perfiles de
+    usuario de clientes, socios y proveedores con una interacción humana mínima.
+
+Esto agiliza el control de acceso en función del rol, la organización y las políticas de acceso definidas por el propietario. Las cuentas de usuario de los administradores y
+    desarrolladores dan acceso a información confidencial. Para mitigar los riesgos de que estas cuentas sean hackeadas, es necesario tener el máximo control sobre todo el ciclo
+    de vida de estos usuarios.
+
+Algunos de los controles que pueden ayudar a proteger estas cuentas confidenciales son: el aprovisionamiento de usuarios mediante la especificación de funciones en los recursos de
+    cada usuario; las políticas de contraseñas que controlan el uso de caracteres especiales, la longitud mínima de las contraseñas y otros ajustes similares; la autenticación
+    multifactorial, como las contraseñas de un solo uso basadas en el tiempo; y el desaprovisionamiento inmediato del acceso cuando los usuarios abandonan o cambian de función.
+
+Los proveedores de nube ofrecen servicios de acceso y administración de identidades, que normalmente incluyen la capacidad de crear grupos de acceso, agregar usuarios a los
+    grupos de acceso y administrar el acceso de los usuarios existentes.
+Un grupo de acceso es un grupo de usuarios e identificadores de servicio creado para que se pueda asignar el mismo acceso a todas las entidades del grupo con una o más políticas
+    de acceso.
+
+Las políticas de acceso definen cómo se concede permiso a los usuarios, los ID de servicio y los grupos de acceso de la cuenta para acceder a los recursos de la cuenta.
+Las políticas incluyen: un asunto, que puede ser un usuario, un identificador de servicio o un grupo de acceso; un objetivo, que es la oferta de recursos o servicios
+    aprovisionados a la que se quiere dar acceso; y un rol, que define las acciones permitidas en el objetivo de la política, es decir, el recurso al que se concede el acceso.
+
+Los grupos de acceso proporcionan un proceso de asignación de acceso más ágil en comparación con la asignación de acceso individual a cada usuario y ayudan a reducir la cantidad
+    de políticas en una cuenta.
+
+En este vídeo, aprendimos cómo funciona la gestión de identidades y accesos como primera línea de defensa para proteger la nube.

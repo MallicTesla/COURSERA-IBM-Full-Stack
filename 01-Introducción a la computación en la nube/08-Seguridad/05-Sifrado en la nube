@@ -1,0 +1,64 @@
+Dadas las preocupaciones en torno a la seguridad y la privacidad de los datos, especialmente en los entornos de nube pública, el cifrado desempeña un papel clave y, a menudo, se
+    lo denomina la última línea de defensa en un modelo de seguridad por capas.
+Esta protección no solo cifra los datos, sino que también proporciona un sólido control de acceso a los datos, administración de claves y administración de certificados.
+
+En este vídeo, analizaremos más de cerca el cifrado en la nube.
+El cifrado se define como codificar los datos de forma que sean ilegibles.
+
+Un sistema de cifrado consta de dos partes: el algoritmo de cifrado y la clave de descifrado.
+
+El algoritmo de cifrado define las reglas por las que se transformarán los datos para que sean ilegibles.
+Y la clave de descifrado define cómo se volverán a transformar los datos cifrados en datos legibles.
+El cifrado garantiza que solo los usuarios autorizados tengan acceso a los datos confidenciales y, cuando se accede a ellos o se intercepta sin autorización, los datos son
+    ilegibles y carecen de sentido.
+
+Los proveedores de servicios en la nube ofrecen varios servicios de cifrado en la nube, que pueden consistir en el cifrado limitado de los datos identificados como confidenciales
+    o en el cifrado de extremo a extremo de todos los datos subidos a la nube.
+
+Los datos se cifran al recibirlos las claves de cifrado se transmiten a los clientes para que descifren los datos cuando es necesario.
+Las claves deben gestionarse de forma segura. Si pierde las claves, no podrá leer sus datos.
+
+Los datos necesitan protección en tres estados: en reposo, en tránsito y cuando están en uso. El cifrado en reposo protege los datos mientras están almacenados físicamente en
+    una base de datos o en la capa de almacenamiento.
+
+Según los requisitos empresariales y de la aplicación, puede haber varias opciones para cifrar los datos en reposo, como el cifrado para el almacenamiento de bloques y archivos,
+    el cifrado integrado, el almacenamiento de objetos y los servicios de cifrado de bases de datos.
+
+El cifrado en tránsito protege los datos mientras se transmiten de un lugar a otro.
+El cifrado en tránsito incluye el cifrado de los datos antes de la transmisión, la autenticación de los puntos finales y el descifrado y la verificación de los datos a su
+    llegada.
+El protocolo Secure Sockets Layer o SSL y el Transport Layer Security (TLS) son protocolos de uso común para el cifrado en tránsito.
+No solo se utilizan para acceder a sitios web de forma segura, sino también para la transferencia de datos entre servidores y servicios dentro de la nube.
+
+El cifrado en uso protege los datos cuando se utilizan en la memoria para realizar cálculos.
+Permite realizar cálculos en texto cifrado sin necesidad de descifrar los datos.
+
+El cifrado del almacenamiento en la nube puede ser del lado del servidor o del lado del cliente.
+El cifrado del lado del servidor se produce después de que el almacenamiento en la nube reciba los datos, pero antes de que los datos se escriban en el disco y se almacenen.
+Para el cifrado del lado del servidor, puedes crear y administrar tus propias claves de cifrado , conocidas como claves de cifrado proporcionadas por el cliente, o puedes
+    generar y administrar tus claves de cifrado mediante los servicios de administración de claves que ofrece el proveedor de almacenamiento en la nube, conocidos como claves de
+    cifrado administradas por el cliente.
+El cifrado del lado del cliente se produce antes de que los datos se envíen al almacenamiento en la nube.
+De esta forma, los usuarios pueden utilizar claves y algoritmos de cifrado que el proveedor de la nube no puede ver, lo que hace prácticamente imposible que los proveedores de
+    la nube descifren los datos alojados.
+Dado que la mayoría de las empresas actuales operan en entornos multinube, es necesario implementar una estrategia de protección de datos única en las instalaciones empresariales,
+    híbridas y multinube.
+
+Algunos proveedores de servicios en la nube ofrecen servicios de cifrado de datos multinube con una variedad de funciones, como la gestión del acceso a los datos, la gestión
+    integrada de claves y un cifrado sofisticado, que se combinan para ofrecer la escalabilidad y la flexibilidad necesarias para ayudar a proteger las cargas de trabajo más
+    sensibles de la empresa, independientemente de dónde residan los datos.
+
+Con una consola de cifrado de datos multinube, puede definir y administrar las políticas de acceso, crear, rotar y administrar claves de cifrado y agregar registros de acceso.
+
+El cifrado no elimina el riesgo de seguridad de los datos, sino que lo separa de los propios datos al trasladar la seguridad a las claves de cifrado.
+Estas claves deben gestionarse y protegerse contra las amenazas para mantener los datos seguros.
+
+Los servicios de administración de claves que ofrecen algunos proveedores de servicios en la nube ayudan a gestionar el ciclo de vida de las claves de cifrado que se utilizan en
+    los servicios en la nube o en las aplicaciones creadas por los clientes. Permiten a los clientes cifrar los datos confidenciales en reposo y crear y gestionar fácilmente
+    todo el ciclo de vida de las claves criptográficas que se utilizan para cifrar los datos.
+Como las claves permanecen en poder del cliente, los datos están protegidos tanto de los proveedores de servicios en la nube como de otros usuarios.
+
+Algunas de las mejores prácticas para la administración de las claves de cifrado incluyen: almacenar las claves de cifrado por separado de los datos cifrados.
+Retirar las copias de seguridad de las claves fuera de las instalaciones y auditarlas periódicamente.
+
+Actualizar las claves periódicamente. Implementación de la autenticación multifactorial tanto para la clave maestra como para la de recuperación.

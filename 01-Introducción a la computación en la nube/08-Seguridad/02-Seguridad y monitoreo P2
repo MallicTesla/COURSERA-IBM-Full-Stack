@@ -1,0 +1,68 @@
+Bienvenido a Qué es la seguridad en la nube, parte 2.
+Las organizaciones están migrando su carga de trabajo a un entorno de nube híbrida, lo que aumenta la superficie de ataque de las amenazas.
+Esta expansión puede generar nuevos desafíos de cumplimiento y seguridad de los datos.
+Por lo tanto, necesita un programa de ciberseguridad sólido centrado en los datos para proteger sus datos.
+Además, necesita una visibilidad y una supervisión centralizadas para evitar el acceso no autorizado , la exposición o el robo de datos en todo el entorno de datos empresarial.
+
+Analicemos algunas capacidades de seguridad de datos que puede implementar para proteger sus datos. Para proteger los datos, puede mejorar la madurez de las personas, los
+    procesos y la tecnología.
+Identifique sus activos de datos más importantes, quién tiene acceso a ellos y cómo están protegidos.
+Puede evitar la pérdida de datos detectando, previniendo y haciendo cumplir las infracciones de las políticas para evitar la pérdida accidental de datos.
+
+Implemente la gobernanza de la seguridad de los datos mediante el establecimiento de procesos, métricas y el descubrimiento y la clasificación continuos de los datos en estado
+    estable.
+Además, es fundamental supervisar la seguridad de las bases de datos mediante la aplicación de políticas de protección de datos y cumplimiento en todos los entornos de nube
+    híbrida.
+Su próximo objetivo en un entorno de nube debería ser la gestión de los controles de acceso y la autenticación.
+Debe desarrollar estrategias de gestión de identidades y accesos (IAM) en la nube que proporcionen una arquitectura de confianza cero y protejan los riesgos de forma constante a
+    cualquier usuario y utilicen dicha arquitectura, además de autenticar constantemente a cualquier usuario en cualquier recurso.
+
+    Una organización debe tener en cuenta los siguientes puntos al crear la nube de IBM: modernícese a su propio ritmo y adaptándose a los requisitos de su negocio.
+Conserve sus inversiones y aplicaciones locales actuales y, al mismo tiempo, introduzca poco a poco la arquitectura de IAM en la nube adecuada para complementar o reemplazar su
+    marco. Establezca una implementación de confianza cero que proporcione un control de acceso centralizado, preserve la confidencialidad de los clientes, reduzca las amenazas
+    internas y proteja sus recursos remotos.
+El modelo y el plan Zero Trust utilizan un entorno que conecte de forma segura a los usuarios correctos con los datos correctos, en el momento adecuado y en las condiciones
+    adecuadas, y que, al mismo tiempo, proteja a su organización de las ciberamenazas.
+
+Habilite la escalabilidad de su IAM en la nube para millones de usuarios o transacciones sin una modificación importante de la infraestructura.
+
+Otro elemento de la seguridad en la nube es la seguridad de la red en la nube , que se refiere a las medidas de seguridad, la tecnología, las políticas, los controles y los
+    procesos que se utilizan para proteger los datos en las redes de nube públicas, privadas e híbridas.
+La ampliación de la red a un entorno de nube conlleva muchas implicaciones de seguridad.
+Para cumplir con los requisitos de seguridad de red modernos, las organizaciones deben implementar y administrar la seguridad de la red basada directamente en la nube.
+
+Los beneficios de la seguridad de la red en la nube son: Supervisión y administración de la seguridad centralizadas Fácil administración y actualización de políticas granulares
+    Detección en tiempo real y potente prevención contra intrusiones, DDoS y otros ataques basados en la web Configuración y administración automatizadas, que ayudan a eliminar
+    los errores de configuración y a mantener el control del tráfico Servicios de cifrado para proteger los datos en reposo y en tránsito Protección y administración centralizadas
+    de la identidad y el acceso Resumamos las mejores prácticas que puede seguir para la nube
+
+Hay algunos pasos fundamentales divididos en tres fases que puede seguir.
+La primera es identificar el estado y los riesgos de su uso de la nube.
+En segundo lugar, proteger su sistema en la nube y,
+En tercer lugar, responder a los ataques.
+
+La primera fase comprende: Identificar cómo se accede a sus datos Detectar el uso desconocido de la nube Comprobar las configuraciones de los servicios en la nube Monitorear
+    las señales de uso malicioso de los datos en la nube
+En la segunda fase, puede proteger su sistema en la nube mediante: Asignar políticas de protección Cifrar los datos confidenciales Formulación de políticas para el intercambio
+    de datos Restringir el intercambio de datos a dispositivos desconocidos Implementar una solución de protección y mitigación de bots Utilizar una solución antimalware
+    adecuada.
+La tercera fase ofrece las mejores prácticas para responder a ataques e intentos de ataque: agregue pasos adicionales de autenticación y verificación para escenarios de acceso
+    de alto riesgo Agregue nuevas políticas para nuevos servicios en la nube El Instituto Nacional de Estándares y Tecnología (NIST) ha elaborado una lista de mejores prácticas
+    y principios que establecen un marco de computación en nube seguro y sostenible.
+
+Estos principios son los cinco pilares del marco de ciberseguridad del NIST: identificar, proteger, detectar, responder y recuperar.
+
+Otra tecnología emergente de seguridad en la nube que respalda el marco de ciberseguridad es la gestión de la postura de seguridad en la nube (CSPM).
+
+Las soluciones CSPM están diseñadas para abordar un error común en muchos entornos de nube, a saber, los errores de configuración.
+
+El CPSM también aborda los problemas al ayudar a implementar los componentes principales de la seguridad en la nube.
+Incluyen la gestión de identidades y accesos (IAM), la gestión del cumplimiento normativo, la supervisión del tráfico, la respuesta a las amenazas, la mitigación de riesgos y la
+    gestión de activos digitales.
+El aumento colosal de la adopción de la nube en todo el cibermundo motivará a los ciberdelincuentes a atacar a las organizaciones en el entorno de la nube.
+Si bien las organizaciones están tomando las medidas de seguridad adecuadas, siguen siendo vulnerables a los ciberataques.
+
+La principal tendencia actual en materia de seguridad en la nube incluye estrategias multinube, como la red de ciberseguridad, los modelos de seguridad de confianza cero, los
+    entornos híbridos y multinube, las herramientas y aplicaciones nativas de la nube, el despliegue de DevSecOps, la protección de las fuerzas de trabajo remotas y la
+    inteligencia artificial y el aprendizaje automático para la detección de amenazas.
+La atención se centra en las normas de privacidad y protección de datos.

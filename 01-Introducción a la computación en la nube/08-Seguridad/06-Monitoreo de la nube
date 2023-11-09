@@ -1,0 +1,50 @@
+Las implementaciones basadas en la nube pueden ser complejas.
+Monitorear el rendimiento en toda una pila de aplicaciones y servicios puede llevar mucho tiempo y agotar los recursos internos.
+Aquí es donde entran en funcionamiento las soluciones de monitoreo en la nube.
+
+Las soluciones de monitoreo en la nube evalúan comportamientos de datos, aplicaciones e infraestructura para: rendimiento, asignación de recursos , disponibilidad de red,
+    cumplimiento de normas y riesgos y amenazas de seguridad.
+
+Cloud Monitoring no se trata solo de herramientas automatizadas; incluye las estrategias, prácticas, y procesos que deben estar en su lugar para analizar, rastrear y administrar
+    servicios y aplicaciones basados en la nube.
+También sirve para proporcionar información procesable que puede ayudar a mejorar la disponibilidad y la experiencia del usuario
+El monitoreo en la nube ayuda a: acelerar el diagnóstico y la resolución de incidentes de rendimiento
+Controle el costo de su infraestructura de monitoreo.
+Mitigue el impacto de situaciones anormales con notificaciones proactivas.
+Obtenga información crítica de Kubernetes y contenedores para la supervisión dinámica de microservicios.
+Solucionar problemas de aplicaciones e infraestructura.
+
+Las soluciones de monitoreo en la nube están diseñadas para dar a las organizaciones visibilidad y control sobre toda su infraestructura basada en la nube.
+Proporcionan: Datos en tiempo real con monitoreo las 24 horas del día de máquinas virtuales, servicios , bases de datos y aplicaciones.
+Visibilidad multicapa del comportamiento de acceso a aplicaciones, usuarios y archivos en todas las aplicaciones y servicios basados en la nube.
+Capacidades avanzadas de reporting y auditoría para garantizar que se cumplan las normas regulatorias
+
+Integraciones de supervisión de rendimiento a gran escala en entornos de nube híbrida y multicloud.
+
+Una forma de categorizar las soluciones de herramientas de supervisión en la nube es desglosarlas en Infrastructure, Database y Application Performance Monitoring.
+Las herramientas de monitoreo de infraestructura ayudan a identificar fallas de hardware menores y a gran escala y lagunas de seguridad para que los desarrolladores y
+    administradores puedan tomar medidas correctivas antes de que los problemas afecten a la experiencia del usuario.
+Las herramientas de monitoreo de bases de datos ayudan a realizar un seguimiento de procesos, consultas y disponibilidad de servicios para garantizar la precisión y confiabilidad
+    de los sistemas de administración de bases de datos.
+
+Application Performance Monitoring, o APM, mide la disponibilidad y el rendimiento de las aplicaciones, proporciona las herramientas necesarias para solucionar problemas en el
+    entorno de una aplicación.
+Las soluciones de APM ayudan a mejorar la experiencia del usuario, cumplir con los acuerdos de nivel de servicio de aplicaciones y usuarios (SLA), minimizar el tiempo de
+    inactividad y reducir los costos operativos generales.
+Para obtener el máximo beneficio de sus implementaciones basadas en la nube, puede seguir algunas prácticas recomendadas de supervisión en la nube estándar.
+
+Aproveche las soluciones de monitoreo de la experiencia del usuario final para capturar el rendimiento de una aplicación desde el punto de vista de sus usuarios finales.
+Estas soluciones supervisan los viajes de los usuarios para realizar un seguimiento de parámetros como el tiempo de respuesta de la aplicación y la frecuencia de uso en
+    condiciones variadas.
+Estas ideas le ayudarán a mejorar significativamente la experiencia del cliente.
+
+Considere mover todos los aspectos de su infraestructura, ya sea en nubes privadas, públicas o híbridas, bajo una única plataforma de monitoreo unificada.
+Esto puede ayudarle a administrar todos sus KPI en un solo lugar con visibilidad completa de la optimización de rendimiento
+
+Utilice herramientas de supervisión que le ayuden a realizar un seguimiento del uso y el costo de sus recursos en la nube y servicios.
+Aumente la automatización de monitoreo en la nube. Esto puede ayudarle a obtener eficiencias operativas significativas.
+
+Simule las interrupciones y los escenarios de infracción para evaluar qué tan bien capturan sus herramientas de monitoreo y alertas frente a fallas.
+El monitoreo en la nube debe ser una prioridad para las organizaciones que buscan aprovechar los beneficios de las tecnologías en la nube.
+
+Le ayudará a administrar y optimizar sus recursos en la nube para el costo y el rendimiento, y crear mejores experiencias de los clientes.

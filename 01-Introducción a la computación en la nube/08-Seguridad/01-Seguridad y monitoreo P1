@@ -1,0 +1,65 @@
+Bienvenido a Qué es la seguridad en la nube, parte 1.
+
+Hoy en día, las organizaciones se están moviendo hacia la transformación digital con la introducción de la computación en la nube.
+Están cambiando su infraestructura y incorporando herramientas y tecnologías basadas en la nube.
+Esta transición a entornos basados en la nube puede tener varias consecuencias adversas.
+Si las tecnologías basadas en la nube no lo son si se utilizan de forma segura, las organizaciones pueden estar sujetas a amenazas externas que pueden ser un peligro para la
+    seguridad de su empresa.
+Por lo tanto, para obtener el máximo beneficio las empresas que utilizan tecnologías de nube interconectadas requieren lo mejor procedimientos y tecnología de seguridad en la nube.
+
+Un entorno de computación en la nube ofrece diferentes modelos como servicio que permiten a las organizaciones descargar muchos tareas relacionadas con la TI que consumen mucho
+    tiempo. Algunos ejemplos son la infraestructura como servicio (IaaS), de plataforma como servicio (PaaS) y de software como servicio (SaaS).
+Sin embargo, al utilizar estos servicios , las organizaciones pueden encontrarse con muchos desafíos relacionados con la seguridad de los datos.
+
+Aunque es una nube de terceros los proveedores de informática siguen las mejores prácticas de seguridad y garantizan la la integridad de sus servidores, la gestión de los
+    activos de datos sigue siendo responsabilidad de la organización que hace uso de estos servicios.
+Con la evolución del entorno de computación en la nube, Las amenazas a la seguridad también se han vuelto más avanzadas.
+Estas amenazas se dirigen a la nube proveedores de informática debido a la falta de transparencia en los datos movimiento y acceso a través de la nube.
+Por lo tanto, las organizaciones deben cumplir con las normas y contar con las aprobaciones adecuadas a la hora de gestionar los datos de los clientes se almacenan en la nube.
+Un despliegue exitoso del la infraestructura en la nube depende de las contramedidas para proteger contra los ciberataques de hoy en día.
+
+Debe tener una seguridad en la nube adecuada soluciones en todos los entornos de nube, ya sean privados, públicos o híbridos para garantizar la continuidad y la seguridad del
+    negocio. Identificar la seguridad en la nube correcta la solución requiere varias consideraciones.
+
+Vamos a discutirlos. La primera es la falta de visibilidad en un entorno de nube pública.
+Es difícil hacer un seguimiento de quién accede a sus datos y de qué servicio en la nube es utilizándolo fuera de su organización.
+La segunda es la tenencia múltiple en un entorno de nube pública.
+Es posible que varias infraestructuras de clientes sean hospedado por el mismo proveedor de computación en la nube.
+Es posible que tus servicios se vean comprometidos por causas malintencionadas atacantes cuando atacan a otras empresas.
+
+Otro desafío es el acceso gestión y TI en la sombra. Puede que le resulte difícil restringir el acceso sin filtros a sus servicios desde cualquier dispositivo y geolocalización
+    en un entorno de nube.
+
+Por último, las configuraciones erróneas de los activos también son responsables de la violación de registros en un entorno de nube.
+Incluyen configuraciones de privacidad inapropiadas o conservar las contraseñas administrativas predeterminadas.
+
+A continuación, analicemos algunas de las evoluciones amenazas y riesgos en la computación en la nube.
+Las amenazas internas son causadas por la corriente o exempleados, socios comerciales , contratistas o cualquier persona que haya tenido acceso a sistemas o redes en el pasado.
+Pueden abusar en cualquier momento sus permisos de acceso.
+Esta categoría de amenazas es invisible para los usuarios externos sistemas de seguridad y, por lo tanto, son más peligrosos.
+
+Otro ataque frecuente a la computación en la nube el sistema es la denegación de servicio distribuida (DDoS). Un ataque DDoS tiene como objetivo el servidor en la empresa al
+    sobrecargarla con tráfico de varios sistemas sincronizados.
+El ataque funciona a través de Simple Network Protocolo de administración (SNMP) utilizado para módems, impresoras, conmutadores, enrutadores y servidores.
+
+La nube se enfrenta a otro factor crítico riesgo y ese es la violación de datos.
+Una infracción puede deberse a una fuga en la nube medidas de seguridad utilizadas por su organización.
+Los usuarios malintencionados pueden acceder a datos confidenciales y hacer un uso indebido de la información.
+
+Una infracción puede costarle a la organización una pérdida financiera y de reputación.
+
+Ahora entendamos las diferentes modelos de seguridad utilizados en la computación en la nube.
+Un modelo de responsabilidad compartida es un marco de seguridad en la nube en el que la organización cede determinada seguridad de TI responsabilidades con el proveedor de
+    computación en la nube.
+Cada parte, el proveedor de la nube y el usuario son responsables de los diferentes aspectos de la seguridad y trabajan juntos para la cobertura de seguridad completa.
+
+Existen diferentes tipos de compartimentos modelos de seguridad para IaaS, PaaS y SaaS. En IaaS, el proveedor busca después de la seguridad física de la infraestructura de sus
+    centros de datos.
+
+Los usuarios de IaaS son responsables de la seguridad del software, incluido el sistema operativo necesario para ejecutar sus aplicaciones y sus datos.
+
+En PaaS, el proveedor asegura la plataforma, incluidos el sistema operativo, las suscripciones de los usuarios y las credenciales de inicio de sesión, pero el usuario es
+    responsable de la seguridad de cualquier código o dato, u otro contenido: producido en la plataforma.
+
+Sin embargo, en SaaS, el proveedor es responsable para casi todos los aspectos de la seguridad, incluida la infraestructura subyacente, la aplicación de servicios, y los datos
+    que produce la aplicación. Los usuarios aún tienen algunas responsabilidades de seguridad como la protección de las credenciales de inicio de sesión.

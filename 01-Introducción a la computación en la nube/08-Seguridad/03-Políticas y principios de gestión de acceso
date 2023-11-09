@@ -1,0 +1,95 @@
+Políticas y principios de gestión de acceso
+Políticas
+Una política de seguridad en la nube se refiere a un conjunto de reglas y pautas que determinan cómo los usuarios deben acceder y proteger los recursos dentro de un entorno de
+    nube.
+Estas políticas proporcionan un marco para mantener la seguridad, garantizar el cumplimiento de las regulaciones de la industria y mitigar riesgos potenciales.
+
+
+El formato de una póliza normalmente incluye lo siguiente:
+
+    Un título que proporciona un nombre descriptivo o identificador de la póliza.
+
+    El alcance de la política, que define los recursos, sistemas o individuos específicos a los que se aplica la política.
+
+    El objetivo de la política, o sus metas y propósito.
+
+    Una declaración de política que enumera las reglas, procedimientos y restricciones de la política.
+
+    Los roles y responsabilidades de los individuos y grupos que hacen cumplir y se adhieren a la política.
+
+    Detalles de cumplimiento y ejecución o las medidas tomadas para monitorear y garantizar el cumplimiento de la política.
+
+    Una sección de revisión que describe con qué frecuencia revisar y actualizar la política para seguir siendo relevante y eficaz.
+
+
+Proveedor de servicios y políticas administradas por el cliente.
+Los proveedores de servicios en la nube (CSP) suelen tener políticas de seguridad que rigen la seguridad general de su infraestructura, centros de datos y servicios.
+Estas políticas garantizan un nivel básico de seguridad y protección de los datos de los clientes.
+Las políticas de los proveedores de servicios cubren varios aspectos, como la seguridad física, la seguridad de la red, el cifrado de datos, los controles de acceso y la
+    respuesta a incidentes.
+
+Además de las políticas del proveedor de servicios, los clientes pueden implementar sus propias políticas, también conocidas como políticas administradas por el cliente.
+Estas políticas permiten a los clientes adaptar las medidas de seguridad de acuerdo con sus requisitos, regulaciones de la industria y tolerancia al riesgo.
+Las políticas administradas por el cliente pueden incluir controles de seguridad adicionales, restricciones de acceso, medidas de protección de datos y marcos de cumplimiento.
+
+Al combinar políticas administradas por el proveedor de servicios y por el cliente, las organizaciones pueden establecer un marco de seguridad integral que se alinee con sus
+    necesidades únicas mientras se benefician de las medidas de seguridad subyacentes proporcionadas por el proveedor de servicios en la nube.
+
+Principio de privilegio mínimo
+El principio de privilegio mínimo es un concepto clave en el control de acceso que minimiza el riesgo de acceso no autorizado o uso indebido accidental de los recursos.
+Dicta que las organizaciones deben otorgar a los usuarios solo los permisos mínimos necesarios para realizar sus tareas.
+Al seguir el principio de privilegio mínimo, las organizaciones limitan el daño potencial causado por cuentas de usuario comprometidas.
+
+Nivel de acceso de usuario
+En un entorno de nube, los niveles de acceso de los usuarios varían según sus funciones y responsabilidades.
+Es posible que algunos usuarios solo necesiten acceso a la consola o a la interfaz gráfica de usuario (GUI) proporcionada por el proveedor de servicios en la nube para la
+    administración y configuración de recursos.
+Estos usuarios interactúan con la nube a través de la consola para realizar tareas como aprovisionamiento de recursos, monitoreo y administración.
+
+Por otro lado, los usuarios involucrados en el desarrollo de software pueden requerir acceso al entorno de desarrollo.
+Este entorno incluye herramientas, API y servicios necesarios para crear, probar e implementar aplicaciones en la nube.
+Estos usuarios interactúan con la infraestructura de la nube mediante API e interfaces de línea de comandos (CLI) en lugar de depender únicamente de la consola.
+
+Dependiendo de los requisitos de la organización, ciertos usuarios pueden tener acceso tanto a la consola como al entorno de desarrollo, lo que les permite realizar una gama más
+    amplia de tareas y responsabilidades.
+
+Gestión de identidades y accesos (IAM)
+La gestión de identidad y acceso (IAM) permite a las organizaciones gestionar y autenticar las identidades de los usuarios y el acceso a los recursos en un entorno de nube.
+Implica los procesos y políticas que garantizan que solo las personas autorizadas tengan privilegios de acceso a sistemas, aplicaciones y datos confidenciales.
+IAM simplifica la gestión de usuarios al centralizar los procesos de autorización, autenticación y aprovisionamiento de usuarios, lo que facilita la concesión o revocación de
+    derechos de acceso según sea necesario.
+Este proceso ayuda a las organizaciones a mejorar la seguridad, proteger la información confidencial, hacer cumplir las regulaciones y optimizar las tareas administrativas
+    relacionadas con el acceso de los usuarios.
+
+Política de contraseña estándar
+Una política de contraseñas estándar para los usuarios que inician sesión en la nube debe cumplir con las mejores prácticas para garantizar una seguridad sólida de las
+    contraseñas.
+Normalmente, una política de contraseñas incluye requisitos de complejidad de la contraseña, como una longitud mínima y una combinación de letras mayúsculas y minúsculas,
+    números y caracteres especiales.
+La política también puede definir intervalos de caducidad de contraseñas, después de los cuales los usuarios deben cambiar sus contraseñas.
+Además, aplicar un historial de contraseñas, que es una cantidad requerida de contraseñas únicas utilizadas antes de reutilizar una contraseña anterior, agrega una capa
+    adicional de protección contra la reutilización de contraseñas.
+Otras políticas de contraseñas pueden incluir el bloqueo de cuentas, la autenticación multifactor y la concientización y capacitación del usuario.
+Los requisitos específicos de una política de contraseñas dependerán de las necesidades, requisitos y evaluaciones de riesgos de la organización.
+
+Estándares de proveedores de identidad (SAML, OpenID)
+Los estándares de proveedores de identidad son protocolos y marcos que definen cómo los proveedores de identidad (IdP) y los proveedores de servicios (SP) intercambian de forma
+    segura información de identidad y autenticación.
+Estos estándares garantizan enfoques coherentes y estandarizados para la autenticación y la gestión del acceso.
+Dos estándares de proveedores de identidad ampliamente utilizados son:
+
+
+Lenguaje de marcado de afirmación de seguridad (SAML): SAML es un estándar basado en XML para intercambiar datos de autorización y autenticación entre IdP y SP.
+Permite el inicio de sesión único (SSO) seguro y la federación de identidades. SAML permite a los usuarios autenticarse una vez con su IdP y acceder a varios SP sin necesidad de
+    una autenticación por separado.
+Las aserciones SAML contienen información sobre la identidad y los atributos del usuario, en los que se basan los SP para otorgar acceso a sus recursos.
+
+OpenID Connect: OpenID Connect es un estándar moderno basado en el protocolo OAuth 2.0. Proporciona un marco para la autenticación y la federación de identidades.
+OpenID Connect permite a los usuarios autenticarse utilizando el proveedor OpenID elegido y obtener un token de identificación que contiene información sobre su identidad.
+Los proveedores de servicios pueden utilizar el token de identificación para autenticar a los usuarios y proporcionar acceso a sus recursos.
+
+
+Estos estándares de proveedores de identidad ofrecen soluciones seguras e interoperables para gestionar la autenticación y el control de acceso en diversos contextos, incluidos
+    entornos de nube, aplicaciones web y sistemas empresariales.
+Permiten a las organizaciones establecer relaciones de confianza entre proveedores de identidades y proveedores de servicios, simplificar las experiencias de autenticación de
+    usuarios y mejorar la seguridad centralizando la gestión de identidades.

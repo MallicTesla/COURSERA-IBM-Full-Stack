@@ -1,0 +1,31 @@
+Resumen de la lección: Monitoreo y seguridad en la nube
+En esta lección, has aprendido:
+
+La seguridad en la nube se refiere a las políticas, procedimientos tecnológicos, servicios y soluciones diseñados para proteger las aplicaciones y los datos empresariales en la
+    nube contra amenazas internas, violaciones de datos, problemas de cumplimiento y amenazas de seguridad organizadas. 
+
+La seguridad de la nube es una responsabilidad compartida entre el proveedor de la nube y la organización de usuarios. 
+
+La arquitectura de seguridad y los métodos para lograr una seguridad continua deben integrarse a lo largo del ciclo de vida de una aplicación para garantizar que la aplicación
+    se ejecute en una plataforma segura, que el código esté libre de vulnerabilidades y que se comprendan los riesgos operativos. 
+
+La gestión de identidad y acceso, también conocida como control de acceso, ayuda a autenticar y autorizar a los usuarios y proporciona acceso específico del usuario a los
+    recursos, servicios y aplicaciones de la nube.
+
+Como parte de sus servicios de administración de acceso e identidad, la mayoría de los proveedores de la nube ofrecen a los usuarios la capacidad de definir grupos de acceso y
+    crear políticas de acceso que definen permisos para los usuarios sobre los recursos de la cuenta.
+
+El cifrado en la nube, a menudo denominado la última línea de defensa, cifra los datos y proporciona un sólido control de acceso a los datos, gestión de claves y gestión de
+    certificados.
+
+Los datos necesitan cifrado en tres estados:
+
+Cifrado en reposo: proteger los datos mientras están almacenados
+
+Cifrado en tránsito: proteger los datos mientras se transmiten de un lugar a otro
+
+Cifrado en uso: proteger los datos cuando están en uso en la memoria
+
+Todos los sistemas conectados y servicios basados en la nube deben monitorearse para mantener la visibilidad de todos los intercambios de datos entre entornos de nube pública,
+    privada e híbrida.
+Esto garantiza que la nube proporcione una plataforma confiable para integrarse con los centros de datos de su empresa de forma segura.
