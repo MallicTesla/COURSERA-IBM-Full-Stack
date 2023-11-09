@@ -1,0 +1,100 @@
+Grupo de acceso
+Se crea un grupo de usuarios e ID de servicio para poder asignar el mismo acceso a todas las entidades del grupo con una o varias políticas de acceso
+
+Usuarios administrativos
+Crean, actualizan y eliminan instancias de aplicaciones y servicios, y necesitan conocer las actividades de los miembros de su equipo
+
+Claves API
+Identificadores únicos que se pasan a una API para identificar la aplicación o el usuario que realiza la llamada
+
+Supervisión del rendimiento de las aplicaciones (APM)
+Mide la disponibilidad y el rendimiento de las aplicaciones, proporcionando las herramientas necesarias para solucionar problemas en el entorno de una aplicación
+
+Usuarios de aplicaciones
+Usuarios de las aplicaciones alojadas en la nube
+
+Seguridad de aplicaciones
+Seguridad de las aplicaciones
+
+Auditoría y cumplimiento
+Un servicio crítico dentro del marco de identidad y acceso utilizado para validar los controles implementados frente a las políticas
+
+Autenticación
+También conocido como servicio de identidad, permite a las aplicaciones desplegadas en la nube autenticar a los usuarios a nivel de aplicación
+
+BIOK
+Traiga sus propias claves
+
+Cifrado del lado del cliente
+Se produce antes de que los datos se envíen al almacenamiento en la nube
+
+Servicios de directorio en la nube
+Se utilizan para gestionar de forma segura los perfiles de usuario y las credenciales asociadas dentro de un entorno de nube
+
+Cifrado en la nube
+También conocida como la última línea de defensa, cifra los datos y proporciona un sólido control de acceso a los datos, gestión de claves y gestión de certificados
+
+Soluciones de supervisión de la nube
+Evalúan el comportamiento de los datos, las aplicaciones y la infraestructura en cuanto a rendimiento, asignación de recursos, disponibilidad de la red, conformidad y riesgos
+    y amenazas para la seguridad
+
+Seguridad en la nube
+Políticas, procedimientos tecnológicos, servicios y soluciones diseñados para proteger las aplicaciones y los datos de la empresa en la nube contra amenazas internas,
+    violaciones de datos, problemas de cumplimiento y amenazas de seguridad organizadas
+
+Herramientas de supervisión de bases de datos
+Ayudan a realizar un seguimiento de los procesos, las consultas y la disponibilidad de los servicios para garantizar la precisión y fiabilidad de los sistemas de gestión de
+    bases de datos
+
+Clave de descifrado
+Define cómo se transformarán de nuevo los datos cifrados en datos legibles
+
+Usuarios desarrolladores
+Autorizados a leer información sensible y a crear, actualizar y eliminar aplicaciones
+
+Cifrado
+Codificación de los datos para hacerlos ilegibles
+
+Algoritmo de cifrado
+Define las reglas mediante las cuales se transformarán los datos para hacerlos ilegibles
+
+Cifrado en reposo
+Proteger los datos mientras están almacenados
+
+Cifrado en tránsito
+Protección de los datos mientras se transmiten de un lugar a otro
+
+Cifrado en uso
+Protección de los datos cuando están en uso en la memoria
+
+Gestión de identidades y accesos
+También conocida como control de acceso, ayuda a autenticar y autorizar a los usuarios y proporciona acceso específico de usuario a los recursos, servicios y aplicaciones de la
+    nube
+
+Herramientas de supervisión de la infraestructura
+Identifican fallos de hardware y brechas de seguridad menores y a gran escala para que los desarrolladores y administradores puedan tomar medidas correctivas antes de que los
+    problemas afecten a la experiencia del usuario
+
+Servicios de gestión de claves
+Ayudan a realizar la gestión del ciclo de vida de las claves de cifrado que se utilizan en los servicios en la nube o en las aplicaciones creadas por los clientes
+
+KYOK
+Conserve sus propias claves
+
+Autenticación multifactor
+Añade una capa adicional o autenticación para los usuarios de aplicaciones
+
+Informes
+Proporciona una visión centrada en el usuario del acceso a los recursos
+
+Cifrado del lado del servidor
+Se produce después de que el almacenamiento en la nube reciba sus datos, pero antes de que éstos se escriban en el disco y se almacenen
+
+SSL
+Capa de sockets seguros
+
+TLS
+Capa de seguridad de transporte
+
+Capacidad de gestión del acceso de usuarios y servicios
+Permite a los propietarios de aplicaciones y servicios en la nube aprovisionar y desprovisionar perfiles de usuario con una interacción humana mínima

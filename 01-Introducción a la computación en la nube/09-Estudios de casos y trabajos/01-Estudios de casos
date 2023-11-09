@@ -1,0 +1,78 @@
+En este vídeo, analizaremos algunos casos prácticos que demuestran el uso de la computación en nube en escenarios empresariales reales y el consiguiente impacto en estas
+    empresas y en los clientes a los que prestan servicios.
+
+    La misión de la empresa de meteorología es cartografiar la atmósfera de la Tierra y, en función de ello, generar la previsión hiperlocal más precisa que se pueda ofrecer a todos
+    nuestros consumidores y dispositivos, que se cuentan por millones en todo el mundo.
+El clima es impredecible y necesitamos poder girar hacia arriba y hacia abajo tan rápido como lo haga el clima.
+Nuestra carga diaria normal es de 30 millones de usuarios únicos.
+Cuando detectamos condiciones meteorológicas adversas que pueden superar los 100 millones en todos nuestros productos.
+Generamos pronósticos a pedido. Nuestro sistema de pronósticos bajo demanda es responsable de generar pronósticos con una resolución de un kilómetro cuadrado de la red.
+Entregamos pronósticos bajo demanda por valor de 250 000 millones por día.
+En la parte trasera está nuestra plataforma de API. Ese sistema funciona a una escala de aproximadamente 150 000 solicitudes por segundo.
+Si nuestros productos no funcionan y no funcionan rápido, la vida de las personas corre peligro. Imagine que un huracán se acerca a la costa este de los Estados Unidos.
+A medida que se acerca a la costa, el uso de mis datos meteorológicos aumenta enormemente. Puede subir de dos a cinco veces.
+Tardamos seis meses en migrar a IBM Kubernetes desde nuestro proveedor anterior.
+Lo que hemos observado son algunas eficiencias reales con DevOps. Ha reducido nuestro flujo de trabajo pendiente en aproximadamente un 80%.
+Con el último huracán, pudimos escalar con IBM Cloud de forma muy sencilla y sin problemas.
+
+El servicio comunitario de IBM nos permite escalar tan rápido como lo hacen las condiciones meteorológicas.
+Al migrar nuestra plataforma VEP a IBM Cloud Kubernetes Services, una de las mayores ventajas es que se trata de un servicio gestionado, lo que permite a nuestro equipo no tener
+    que cuidar nuestro sistema y dedicarse a otras tareas.
+
+Con la migración a IBM Cloud Kubernetes, hemos adquirido la capacidad de incorporar la seguridad automatizada. 
+sta función y componente eran muy manuales para nosotros en el pasado.
+El equipo de seguridad de IBM ahora nos notifica de forma proactiva cualquier vulnerabilidad de seguridad.
+Las herramientas y la inversión que ha realizado la empresa nos proporcionan capacidades que nunca habríamos tenido antes.
+Nos entusiasma mucho y brinda a nuestros desarrolladores e ingenieros la oportunidad de crear cosas nuevas que de otro modo no habrían podido hacer.
+El alcance global de IBM e IBM Cloud, junto con nuestra tecnología y nuestras capacidades de previsión, nos permiten ampliar nuestros productos y servicios para proteger a las
+    personas de todo el mundo.
+
+Estoy bastante anticipando la llegada puntual. En un escenario en el que se cancela un vuelo o se produce alguna otra operación fuera de lo previsto, hemos utilizado un sistema
+    que permite comprobar la disponibilidad de nuevos asientos y vuelos para esos clientes.
+Pero creo que muchas veces los clientes no sabían necesariamente que esa era la mejor opción para ellos.
+Lo que queríamos hacer era crear un sistema en el que pudieran ver opciones alternativas.
+El objetivo era facilitar a nuestros clientes una mejor experiencia sobre cómo llegar a su destino de forma automática en el canal que eligieran.
+En nuestro negocio, los huracanes, las tormentas y otros fenómenos naturales afectan a nuestros clientes de forma bastante regular.
+Lo que pasó y esta es una historia real. Llegaron los huracanes y todo el mundo dijo: «Esto es ridículo».
+Nuestros clientes se vieron afectados inmediatamente por los huracanes.
+¿Por qué mitigamos el riesgo de un despliegue tradicional cuando contamos con el poder de la nube? Este es exactamente el escenario en el que nuestros clientes necesitan esta
+    capacidad.
+Creo que las personas ahora se dan cuenta de que estas actividades e integración son mucho más fáciles cuando podemos utilizar la tecnología de la nube y, especialmente, los
+    microservicios, podemos dividir los problemas en problemas mucho más pequeños.
+Es mucho más fácil entenderlos y desarrollarlos.
+
+Esta es la tecnología que debemos adoptar ahora para estar a la altura de las expectativas de nuestros clientes.
+Lo que me encanta de mi trabajo en Cementos Pacasmayo es que me desafía todos los días.
+La tecnología se mueve con tanta agilidad que tengo que seguirle el ritmo. Lo que me encanta es que la empresa también esté avanzando por el mismo camino hacia sus
+    transformaciones digitales.
+
+Nuestros clientes exigen ahora un plazo de comercialización más rápido y también una cartera de productos más amplia que necesitamos para mantenernos al día y ofrecerles el
+    mejor servicio y los mejores productos que puedan conseguir en el menor tiempo posible.
+
+Implementamos SAP S/4HANA en IBM Cloud, ya que nos brinda una infraestructura rentable y, además, es bastante escalable.
+Cementos Pacasmayo está pasando de ser una empresa orientada a los productos a convertirse en una empresa impulsada por los servicios.
+El área de contabilidad ahora tiene una visión real en tiempo real de nuestros estados financieros que antes no tenía.
+También en nuestra área de suministro y cadena, especialmente en lo que respecta a las adquisiciones, ahora tienen un panel de control que les ayuda a tomar decisiones a tiempo.
+
+Me llamo Mukesh Sharma y soy el director sénior de TI de Welch Food. Welch comenzó como organización hace 150 años y rápidamente se convirtió en el sello nacional.
+Somos propiedad de los agricultores; es una cooperativa y valoramos el esfuerzo que nuestros agricultores invierten en ella.
+Eso es lo que nos motiva cada día a que nuestros agricultores hagan ejercicio en las granjas, y estamos trabajando aquí para asegurarnos de que la organización les devuelva el
+    mejor beneficio por cada dólar que gasten.
+La TI de Welch es el corazón del negocio. Todos los sistemas de fabricación, cualquier dato de fabricación que llegue a través de diferentes procesos de procesamiento, sistemas
+    ERP y lo que sea.
+Empezamos este viaje con la nube privada. Luego, al mismo tiempo, hemos iniciado el proceso de preguntarnos sobre cualquier nueva solicitud.
+¿Se puede ejecutar en la nube pública? El enfoque que hemos adoptado consiste en empezar a mover de forma lenta y constante estos sistemas que no son esenciales para la misión,
+    algo que otra persona puede hacer mejor.
+Déjalos correr al aire libre, deja que dediquen tiempo a ellos mientras nosotros dedicamos tiempo a nuestros valores fundamentales.
+
+Liquid Power es una empresa que vende productos que, al inyectarlos en oleoductos o gasoductos, cambian las características del flujo hasta tal punto que se pueden aumentar el
+    flujo de esos fluidos o, en segundo lugar, utilizar menos energía para empujar los fluidos por el oleoducto.
+Necesitábamos convertirnos en una empresa independiente bajo la dirección de Berkshire Hathaway.
+Sin experiencia alguna en el manejo de nuestra propia infraestructura para SAP, tuvimos que idear la mejor solución para que nuestra empresa funcionara como una empresa
+    independiente.
+Tuvimos que tomar muchas decisiones. ¿Vamos a la nube? ¿Permanecemos en las instalaciones? ¿Cómo creamos nuestra propia infraestructura y administración y cuál es la mejor
+    decisión para nosotros, no solo hoy y ahora, sino también en el futuro? Hablé con algunos directores de TI y profesionales de TI. Si tuvieras una hoja de papel en blanco,
+    ¿qué harías? ¿En la nube o en las instalaciones? Sin lugar a dudas, todos hablan de nube.
+Todo este proceso y la migración a la nube están dando lo que creemos que es una ventaja competitiva.
+Lo que realmente me encanta de tener IBM con SAP en la nube es que es escalable.
+Podemos hacerlo mucho más rápido y cambiar en un período de tiempo mucho más rápido de lo que lo haríamos de otra manera.
