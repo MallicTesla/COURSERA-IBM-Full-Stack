@@ -1,0 +1,45 @@
+API
+Interfaz de programación de aplicaciones
+
+Modernización de aplicaciones
+Ayuda a las organizaciones a acelerar su transformación digital, aprovechar nuevas tecnologías y servicios y ser más receptivos a las dinámicas cambiantes del mercado.
+
+Aplicación nativa en la nube
+Una aplicación desarrollada desde el principio para funcionar únicamente en el entorno de la nube, o una aplicación existente que ha sido refactorizada y reconfigurada con
+    principios nativos de la nube.
+
+Entrega continua
+Entregar a los clientes incrementos de software pequeños, bien diseñados y de alta calidad.
+
+Despliegue continuo
+Progresar con cada nueva compilación empaquetada a lo largo del ciclo de vida de implementación lo más rápido posible
+
+Integración continua
+Crear compilaciones empaquetadas de los cambios de código publicados como imágenes inmutables
+
+Monitoreo continuo
+Monitoreo con herramientas que ayudan a los desarrolladores a comprender el rendimiento y la disponibilidad de sus aplicaciones, incluso antes de implementarlas en producción.
+
+Tubería de entrega --- Delivery pipeline
+Una secuencia automatizada de pasos que involucra las etapas de Ideación, Codificación, Construcción, Implementación, Gestión y Mejora Continua.
+
+DevOps
+Enfoque colaborativo en el que los propietarios de empresas y los equipos de desarrollo, operaciones y control de calidad colaboran para entregar software continuamente.
+
+Multinube híbrida
+Una pila basada en estándares abiertos que se puede implementar en cualquier infraestructura de nube pública
+
+Microservicios
+Divida las aplicaciones grandes en sus funciones principales
+
+Arquitectura de microservicios
+Enfoque en el que una única aplicación se compone de muchos componentes o servicios más pequeños, débilmente acoplados y desplegables de forma independiente.
+
+Arquitectura monolítica
+Enfoque en el que una sola aplicación se construye a partir de una sola pieza de software.
+
+Sin servidor -------- Serverless
+Enfoque de la informática que descarga la responsabilidad de las tareas comunes de gestión de infraestructura.
+
+Descubrimiento de servicios -------------- Service discovery
+Crea una hoja de ruta para que los microservicios se comuniquen.

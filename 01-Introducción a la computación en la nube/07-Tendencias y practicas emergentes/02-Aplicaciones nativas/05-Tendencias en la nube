@@ -1,0 +1,63 @@
+Bienvenido a la computación en nube: tendencias y tecnologías emergentes: puntos de vista de expertos. en este vídeo, escucharemos a varios profesionales de aplicaciones en la
+    nube hablar sobre las tendencias y tecnologías de la computación en nube.
+
+>> Las tres principales tendencias que veo venir en los próximos dos años son las siguientes.
+La primera es la idea de una nube híbrida: tal y como IBM ha pronosticado, muchas empresas y clientes pasarán de un único proveedor de nube a varios proveedores de nube.
+Podrían ser varias nubes públicas o una nube pública y una nube privada local.
+
+En segundo lugar, veo que este gran auge de la computación perimetral se está haciendo cada vez más prominente en la computación en nube.
+Ahora bien, los términos pueden parecer muy diferentes entre sí e inconexos, pero en muchos sentidos la computación en nube irá al límite.
+Las cifras indican que, de manera abrumadora, habrá 75 000 millones de dispositivos que se conectarán a Internet de aquí a 2075.
+Y la computación perimetral, para poder comunicarse entre los dispositivos y volver al servidor, va a ser muy crucial.
+
+Y, por último, es el uso del aprendizaje automático y la inteligencia artificial para tomar decisiones por nosotros en el espacio de la computación en nube.
+
+Por lo tanto, estas son las tres tendencias principales que veo venir en los próximos dos años. >> Así pues, una de las tendencias emergentes de la computación en nube es la
+    informática sin servidores, y ese es el área de la computación en nube, en la que lo único que tiene que hacer es dotar a la nube de la lógica de su aplicación.
+Y eso significa que no necesita parchear ningún servidor, no necesita administrar la alta disponibilidad de su infraestructura ni tener varias zonas de disponibilidad.
+El proveedor de la nube se ocupa de todos esos problemas operativos por usted y lo único que tiene que hacer es darle el código para que lo ejecute cuando lo necesite.
+
+Por lo tanto, cada vez que se activa un evento, digamos que se trata de un asistente de voz, y cada vez que se habla con él, se activa una función en la nube.
+
+Eso es lo que es la tecnología sin servidor. Por eso, a los desarrolladores les encanta porque, con la tecnología sin servidor, no es necesario hacer todo el trabajo
+    indiferenciado, el trabajo que no hace que tu aplicación sea única.
+
+Puedes centrarte en la lógica que hace que tu aplicación sea única. >> Por lo que respecta a las tecnologías emergentes, una de las más importantes es la arquitectura nativa de
+    la nube. Y eso incluye la tendencia hacia los microservicios, que básicamente divide las aplicaciones monolíticas, lo que habrían sido aplicaciones antiguas monolíticas, en
+    microservicios granulares. Y esto ofrece una amplia gama de ventajas.
+
+Otra son los contenedores y los sistemas de organización de contenedores y, en particular, las tecnologías Docker y Kubernetes.
+Otro son los servicios sin servidor, en los que se puede generar código funcional con una latencia muy baja sin necesidad de gestionar ningún servidor virtual.
+
+Y el término arquitectura nativa de la nube realmente abarca una combinación de todas estas características, en términos de tendencias emergentes... >> Así que me gustaría
+    hablar de un par de tendencias que veo constantemente en la computación en nube en este momento.
+En primer lugar, tenemos la informática sin servidores, y esa es la idea de que no tienes que preocuparte de nada más que de escribir el código de tu aplicación.
+No necesita saber «¿va a implementar Kubernetes?» «¿Necesita saber las direcciones IP?» «¿Es Linux?» Nada. y realmente veo esto como el futuro porque no quieres tener que
+    preocuparte por la forma en que se implementa, por administrar la RAM, la CPU, todo eso; solo quieres crear código.
+Y cuanto más fácil sea hacer que el código se escriba, se despliegue y se ejecute correctamente, mejor, y es una ventaja para todos.
+>> Otra área que está surgiendo en la tecnología de nube es DevOps y, con DevOps, los desarrolladores están mucho más integrados con las operaciones.
+
+Así pues, tenemos una cartera de CICD en la que los desarrolladores pueden introducir su propio código y ponerlo en funcionamiento en los servidores o en las funciones sin
+    servidor.
+DevOps es un término que tiene muchas definiciones diferentes. Una definición que me ha gustado escuchar es que significa que los desarrolladores están hablando con las
+    operaciones y viceversa, que hay un diálogo en curso.
+Y no es solo lo que ocurría en el pasado, cuando los desarrolladores entregaban el código, sino que los desarrolladores se encargan realmente del mantenimiento del ciclo de vida
+    durante la fase de producción.
+>> En cuanto a las tendencias emergentes, estamos viendo servicios integrales en la nube para crear canalizaciones de datos, la ciencia de datos en general y los servicios de
+    inteligencia artificial.
+
+En concreto, estamos viendo servicios de IA de bajo nivel para crear soluciones de IA desde cero, junto con soluciones de IA de nivel superior previamente entrenadas para
+    aspectos como el reconocimiento de imágenes o las aplicaciones de voz, entre otros.
+
+Otra área en la que se están produciendo avances es la ciberseguridad. Es evidente que la ciberseguridad es algo que debemos tener en cuenta constantemente y que debemos mejorar
+    constantemente. Además, observamos un flujo constante de mejoras para proteger el perímetro de la red, los recursos de cómputo y los datos en la nube.
+>> Otra tendencia emergente en la computación en nube es la modernización de las aplicaciones.
+
+Por eso, ahora que los proveedores de servicios en la nube ofrecen todos estos increíbles servicios que hacen muchas cosas por usted, las empresas piensan: «Un segundo, el
+    proveedor de la nube está haciendo algunas funciones de nuestra aplicación mejor que nosotros». «Y en lugar de seguir manteniendo esa parte de nuestra aplicación nosotros
+    mismos, reescribamos la aplicación para aprovechar estos servicios nativos de la nube».
+
+Por ejemplo, ahora hay servicios que realizan la transcripción o el reconocimiento de imágenes.
+Y en lugar de tener el tuyo propio... servidores de inferencia y entrenamiento que usted administra y usa modelos de aprendizaje automático de código abierto que aloja, y
+    entrena esos modelos con los datos que les proporciona, ¡no haga nada de eso! Simplemente coloca las imágenes en un... servicio de reconocimiento de imágenes de un proveedor
+    de nube, y no estás gestionando ningún servicio, solo obtienes los datos.

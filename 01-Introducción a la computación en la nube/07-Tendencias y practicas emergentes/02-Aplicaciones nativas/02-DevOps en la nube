@@ -1,0 +1,60 @@
+Los equipos de desarrollo deben diseñar, desarrollar, entregar y ejecutar software de la manera más confiable y eficiente posible.
+Los equipos de operaciones deben identificar y resolver los problemas lo antes posible mediante la supervisión, la predicción de los fallos, la gestión del entorno y la solución
+    de los problemas.
+
+Al combinar el desarrollo y las operaciones con la capacidad de monitorear, analizar y optimizar los cuellos de botella, obtenemos DevOps.
+
+Un enfoque colaborativo en el que los propietarios de las empresas y los equipos de desarrollo, operaciones y control de calidad colaboran para ofrecer software de forma
+    continua.
+
+Un enfoque de DevOps aplica los principios de agilidad y racionalidad a todas las partes interesadas de una organización que desarrollan, operan o se benefician de los sistemas
+    de software de la empresa, incluidos los clientes, los proveedores y los socios.
+
+Al extender los principios de optimización a toda la cadena de suministro de software, las capacidades de DevOps mejoran la productividad al acelerar los ciclos de comentarios
+    de los clientes.
+
+Unificó las mediciones y la colaboración en toda la empresa y redujo los gastos generales, la duplicación y la reelaboración.
+Con el enfoque de DevOps, los desarrolladores pueden producir software en iteraciones cortas siguiendo un cronograma continuo de entrega de nuevas funciones y correcciones de
+    errores en ciclos rápidos.
+
+Además, las empresas pueden aprovechar las oportunidades del mercado y reducir el tiempo necesario para incluir los comentarios de los clientes en sus productos.
+El proceso de DevOps implica una entrega continua, que consiste en entregar a los clientes incrementos de software pequeños, bien diseñados y de alta calidad.
+
+Integración continua, mediante la creación de compilaciones empaquetadas de los cambios de código publicados como imágenes inmutables.
+El hecho de que sea inmutable implica que, cuando es necesario realizar modificaciones, se sustituye todo el componente por una versión mejorada.
+
+Implementación continua, que implica que cada nuevo paquete de compilación avance a lo largo del ciclo de vida de la implementación con la mayor rapidez posible.
+
+Supervisión continua con herramientas que ayudan a los desarrolladores a comprender el rendimiento y la disponibilidad de sus aplicaciones incluso antes de que se implementen en
+    producción.
+
+El proceso de entrega, que es una secuencia automatizada de pasos que incluye las etapas de ideación, codificación, creación, implementación, administración y mejora continua,
+    que se remonta a la fase de ideación del proceso de entrega.
+Si bien DevOps se puede aplicar a aplicaciones en cualquier lugar, existe un argumento especialmente convincente a favor de DevOps cuando se trata de aplicaciones listas para la
+    nube y nativas de la nube.
+
+Con su potencia de procesamiento casi ilimitada y los servicios de datos y aplicaciones disponibles, las plataformas de computación en nube conllevan sus propios riesgos y
+    desafíos.
+
+Las herramientas, las prácticas y los procesos de DevOps ayudan a abordar algunas de las complejidades y desafíos que plantea la nube y permiten ofrecer soluciones de forma
+    rápida y confiable.
+
+Veamos algunas de las capacidades principales que ofrece DevOps para que la creación y ejecución de aplicaciones en la nube sean mucho más fáciles de gestionar.
+Las mejores prácticas de DevOps permiten aprovisionar servidores mediante programación, crear middleware, instalar código de aplicación y automatizar por completo el proceso de
+    instalación de forma documentada, repetible, verificable y rastreable.
+Las implementaciones de aplicaciones suelen implicar una complejidad considerable.
+Las prácticas de integración y despliegue continuos de DevOps ayudan a crear un proceso de despliegue totalmente automatizado, lo cual es importante durante todo el ciclo de
+    vida del desarrollo de las aplicaciones.
+Las aplicaciones nativas de la nube forman un sistema distribuido complejo con múltiples partes móviles, componentes tecnológicos independientes y ciclos de lanzamiento rápidos.
+Los principios de DevOps son esenciales para definir la forma en que las personas trabajan juntas para crear , implementar y administrar aplicaciones con un enfoque nativo de la
+    nube.
+
+Con las mejores prácticas de DevOps de aprovisionamiento automatizado e implementación continua, los desarrolladores, los profesionales de calidad y otras partes interesadas
+    pueden realizar pruebas en entornos de prueba de bajo costo, similares a los de producción, que antes no estaban disponibles, lo que mejora tanto la productividad como la
+    calidad.
+
+Cuando los sistemas se ven comprometidos o tienen dificultades para recuperarse de un desastre natural, las mejores prácticas de DevOps permiten reconstruir estos sistemas de
+    forma rápida y fiable.
+
+DevOps proporciona un poderoso conjunto de principios, prácticas y herramientas para aprovechar todo el potencial de la computación nativa de la nube, así como para modernizar
+    las aplicaciones existentes a fin de aprovechar las ventajas de la nube.

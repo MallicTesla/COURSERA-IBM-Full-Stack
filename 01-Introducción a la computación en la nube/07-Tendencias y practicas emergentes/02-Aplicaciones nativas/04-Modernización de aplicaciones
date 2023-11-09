@@ -1,0 +1,71 @@
+Muchas organizaciones realizan enormes inversiones en las aplicaciones existentes, que suelen estar aisladas en sistemas heredados y son muy difíciles y costosas de actualizar y
+    mantener.
+La modernización de estas aplicaciones puede suponer grandes beneficios para estas organizaciones, como acelerar sus transformaciones digitales, permitirles aprovechar las
+    nuevas tecnologías y servicios y responder mejor a las necesidades de sus clientes y a las cambiantes dinámicas del mercado.
+
+La computación en nube es uno de los tres ingredientes principales de la modernización de las aplicaciones.
+En el resto de este vídeo veremos cómo y qué más implica la modernización de las aplicaciones.
+
+Hola, soy Eric Minick, de IBM Cloud, y quiero hablar sobre la modernización de las aplicaciones y las tres enormes transformaciones que se han producido de forma simultánea.
+Tenemos tres cosas en marcha, que están interrelacionadas y esto es lo que estamos viendo, este cambio en la forma en que gestionamos la arquitectura, la infraestructura y
+    nuestra forma de trabajar, es decir, en la forma en que entregamos.
+
+Y si retrocedemos un poco en el tiempo, veíamos aplicaciones que eran muy monolíticas, que se ejecutaban en servidores físicos y utilizábamos un desarrollo tipo cascada, donde
+    teníamos planes a largo plazo y decíamos que está bien, esta va a ser nuestra fase de planificación, fase de desarrollo, fase de pruebas, y podríamos planificar un año como
+    proyecto.
+Y eso es lo que realmente hemos dejado atrás. Por lo tanto, si observamos cómo funcionan la mayoría de las organizaciones hoy en día, desde el punto de vista arquitectónico,
+    tienen algún tipo de arquitectura distribuida.
+Suele estar relacionado con una arquitectura orientada a los servicios; las palabras que estaban de moda hace unos años, pero con algún tipo de arquitectura distribuida: tenemos
+    un montón de servicios web, se comunican entre sí, tenemos algunas bases de datos en el back-end y, luego, algunos front-ends que se encargan de todo eso.
+
+A nivel de infraestructura, se ejecutan en una especie de máquina virtual, ¿de acuerdo? Entonces, dijimos: probablemente podríamos hacer algo mejor que tener que pedir un nuevo
+    servidor cada vez que tengamos un nuevo servicio.
+Vamos a virtualizar todo esto y, de paso, necesitaremos un poco más de densidad.
+Y partiendo de una forma de trabajar, ya sabes, el desarrollo ágil, bastante normal, y luego tratar de averiguar un poco lo que ocurre después.
+Esto nos lleva a la situación en la que se encuentran muchos equipos hoy en día, pero no a dónde van realmente.
+Y si nos fijamos en la siguiente fase. Estamos dando un paso más a esta arquitectura orientada a los servicios y, de hecho, estamos reduciendo el tamaño de los servicios,
+    aprovechando la infraestructura más dinámica de la que disponemos.
+
+Y ahora los llamamos microservicios, ¿verdad? Microservicios. Así que tenemos una arquitectura de microservicios, compuesta por servicios muy pequeños y muy enfocados, que nos
+    alejamos de gran parte de la pesada comunicación basada en XML que vimos en SOA para adoptar una comunicación más basada en REST, cosas así.
+Pero con la misma idea, sigamos dividiéndonos en partes cada vez más pequeñas. Tenemos más independencia de lo que enviamos.
+Más rigor al decir que este servicio debe ser independiente de otro servicio, para que pueda cambiar estas cosas por sí solo.
+
+Por el lado de la infraestructura: la nube. La nube es muy popular. Y esta podría ser una nube pública, también podría ser una nube privada.
+Estoy pintando con un pincel muy ancho cuando digo nube. Y luego de una entrega, de una forma de trabajar: podríamos decir que DevOps es realmente clave.
+Y yo incluiría en esto enfoques como la ingeniería de confiabilidad de sitios o SRE. Más de las formas de trabajar que tenemos hoy en día.
+
+Eso sí que está bien e interesante. Pero, ¿qué tienen que ver estas cosas entre sí? Yo diría que lo que realmente estamos viendo es una modernización en la forma en que se
+    entregan las aplicaciones, en la forma en que se crean y en lo que son.
+Y si bien hoy en día podrías entrar en cualquier gran empresa, encontrarás a alguien que diga: «Estamos pasando por una transformación de la nube».
+A menudo encontrarás a alguien que diga: «Sí, estoy a cargo de liderar la transformación de DevOps».
+Entrarás en la arquitectura empresarial y te dirán: «Sí, estamos impulsando las arquitecturas de microservicios».
+
+Las personas piensan que están pasando por tres transformaciones distintas. Pero están realmente empatados. ¿Verdad? Si utilizo microservicios y tengo microservicios nuevos todo
+    el tiempo.
+Y para poner en marcha un nuevo microservicio, estoy aquí y tengo que pedir un nuevo servidor físico y, después, montarlo y apilarlo un par de meses después.
+No voy a obtener ningún beneficio por el tiempo de comercialización.
+Los beneficios de resiliencia que normalmente busco en los microservicios van a ser modestos, en el mejor de los casos. Los microservicios necesitan una infraestructura de nube.
+
+Si quiere decir que tengo un microservicio nuevo, permítame ponerlo en un contenedor y ejecutar ese contenedor ahora mismo y escalarlo de forma dinámica.
+Del mismo modo, a la nube le gusta mucho ejecutar microservicios. Las ventajas de poder escalar de forma dinámica son realmente interesantes cuando tienes muchas cosas pequeñas
+    de las que podrías necesitar algunas o muchas.
+
+No es tan interesante cuando tengo un monolito que ni siquiera está distribuido. ¿Cómo puedo escalar eso? ¿Tengo un servidor en la nube más grande? Y luego, todo esto se basa en
+    la idea de velocidad y resiliencia, y DevOps lo combina.
+
+Los desarrolladores que siempre han querido velocidad, los responsables de operaciones que siempre han querido esa resiliencia. Van a programar esa nube. ¿Verdad?
+La infraestructura programable que proporciona la nube necesita personal de operaciones que comprenda la resiliencia, pero que aporte algunas de esas habilidades de desarrollo.
+
+Y para aprovechar realmente estas nuevas infraestructuras, las nuevas arquitecturas, se necesitan estas nuevas formas de trabajar.
+Y también dirás: «Si esto me va a dar beneficios con el tiempo de salida al mercado, no puedo volver aquí y decir: 'Sí, tenemos un plan de proyecto de un año que simplemente
+    vamos a ejecutar'».
+Necesito ser más ágil y adaptarme a mi planificación y a mi capacidad de respuesta al negocio.
+Necesito conectar mejor mis aplicaciones para que puedan supervisarse más fácilmente y sean más resilientes.
+Tenemos que disponer de la aplicación de forma que sepa cuando uno de estos servicios está fallando y podamos activar otro.
+Así que, para mí, es realmente fascinante que uno entre en estas organizaciones en todas partes y que estén experimentando estas tres transformaciones diferentes.
+Pero siempre las hacen juntas. Y cuando no lo hacen, no funciona del todo. Así que estas tres transformaciones se están llevando a cabo a la vez.
+Y nos oirá hablar mucho sobre la modernización de las aplicaciones. ¿Lo ve escrito aquí arriba? Cuando pienso en la modernización de las aplicaciones, pienso que es simplemente
+    esto.
+Aquí está la transformación: pasar de este tipo de monolitos, o arquitecturas orientadas a los servicios, a los microservicios; adoptar la nube; modernizar nuestras formas de
+    trabajar hacia DevOps y SRE. Eso es AppMod. Es un momento muy emocionante. Y es genial cuando puedes perseguirlo de una manera holística.

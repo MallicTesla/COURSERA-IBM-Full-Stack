@@ -1,0 +1,73 @@
+En pocas palabras, una aplicación nativa de la nube es una aplicación desarrollada desde el principio para que funcione solo en el entorno de la nube, o una aplicación existente
+    que se ha refactorizado y reconfigurado con los principios nativos de la nube.
+
+Una aplicación nativa de la nube consiste en microservicios que funcionan juntos como un todo para formar una aplicación.
+
+Sin embargo, cada uno de ellos puede escalarse e iterarse de forma independiente mediante procesos de automatización y organización.
+Estos microservicios suelen estar empaquetados en contenedores, que son unidades de software ejecutables en las que se empaqueta el código de la aplicación junto con sus
+    bibliotecas y dependencias para que pueda ejecutarse desde cualquier lugar.
+
+La independencia permite la mejora frecuente e iterativa de las aplicaciones nativas de la nube, sin interrumpir la experiencia de los usuarios finales.
+
+Las aplicaciones nativas de la nube son, a diferencia de las aplicaciones tradicionales o monolíticas, que se crean a partir de una enorme pieza de software; son aplicaciones
+    que combinan estrechamente la interfaz de usuario, la capa de lógica empresarial y la capa de datos.
+
+Tomemos el ejemplo de cómo se puede utilizar una aplicación nativa de la nube en un sitio web de viajes.
+
+Cada tema que trata el sitio (vuelos, hoteles, coches, ofertas especiales) es su propio microservicio.
+Cada microservicio puede incorporar nuevas funciones independientemente de los demás microservicios.
+Las ofertas especiales y los descuentos también pueden ampliarse de forma independiente.
+Si bien el sitio de viajes se presenta a los clientes como un todo, cada microservicio sigue siendo independiente y se puede ampliar o actualizar según sea necesario sin afectar
+    a otros servicios.
+Ya sea para crear una nueva aplicación nativa de la nube ohpara modernizar una aplicación existente, los desarrolladores siguen un conjunto coherente de principios de
+    desarrollo: seguir el enfoque arquitectónico de los microservicios dividiendo las aplicaciones en microservicios de una sola función.
+
+Confíe en los contenedores para obtener la máxima flexibilidad, escalabilidad y portabilidad.
+Adopte métodos ágiles que aceleren el proceso de creación y mejora mediante actualizaciones rápidas e iterativas basadas en los comentarios de los usuarios.
+
+En este vídeo, analizaremos en detalle los conceptos clave de la nube nativa, sus ventajas y casos de uso.
+
+Hola. Soy Andrea Crawford y trabajo en IBM Cloud.
+Hoy vamos a hablar sobre las aplicaciones nativas de la nube.
+En el mundo del patrimonio, tenemos nuestras aplicaciones monolíticas y abultadas.
+Y en el nuevo mundo, nuestros microservicios están en la nube.
+
+Si observamos este diagrama, vemos que tenemos una infraestructura de nube.
+Esta es su infraestructura privada, pública y empresarial.
+
+Las aplicaciones nativas de la nube se aplican a situaciones de nube híbrida y multinube.
+También tenemos nuestra capa de programación y organización.
+Esta capa tiene que ver con los planos de control, como nuestro Kubernetes.
+
+También tenemos nuestra capa de aplicaciones y servicios de datos.
+Esta capa tiene como objetivo respaldar los servicios y poder integrar el código de nuestra aplicación con los servicios existentes que pueden estar disponibles en otras nubes
+    o incluso en las instalaciones.
+
+Tenemos los tiempos de ejecución de nuestras aplicaciones: son los que tradicionalmente o convencionalmente se denominaban middleware.
+Y aquí, bueno, ahí es donde tenemos nuestras aplicaciones nativas en la nube.
+Este es el punto ideal justo aquí arriba.
+Por lo tanto, el código de nuestra aplicación está diseñado, creado y entregado de forma muy diferente para las aplicaciones nativas de la nube que para las aplicaciones
+    convencionales, monolíticas y llenas de grumos de aquí.
+
+Hablemos un poco sobre por qué las aplicaciones nativas de la nube pueden aprovechar beneficios como: permitir la innovación, la agilidad empresarial y, lo que es más importante
+    desde el punto de vista tecnológico, la mercantilización de este conjunto de soluciones.
+Así pues, a medida que ha pasado el tiempo y las tecnologías han ido madurando y emergiendo, muchos de los servicios se están refactorizando en los niveles inferiores de esta
+    gama.
+Esto significa que los servicios principales están empezando a tener un centro de gravedad más bajo, lo que libera la innovación en este nivel.
+
+Entonces, ¿cuáles son nuestros casos de uso para crear una aplicación nativa en la nube? Todo lo que se encuentra en la nube debe tener un diseño y un enfoque de aplicación
+    nativos de la nube.
+Esto significa que el código de nuestra aplicación debe estar equipado con elementos como el registro estandarizado, los eventos estandarizados y poder hacer coincidir esos
+    registros y eventos con un catálogo estándar, que puedan utilizar varios microservicios y aplicaciones nativas de la nube.
+
+Lo último que queremos hacer es que nuestros equipos de desarrollo averigüen cuáles deberían ser sus mensajes de registro y de eventos.
+
+Estandaricemos eso, porque también queremos poder mercantilizarlo.
+También necesitamos contar con cosas como el rastreo distribuido.
+Cuando nos adentramos en el mundo de los microservicios, tenemos muchas partes móviles.
+Esto significa que tendremos que aprovechar los servicios fundamentales del sistema, como el equilibrio de carga, la detección de servicios y el enrutamiento.
+Estos son los tipos de cosas que se han convertido en productos básicos en esta capa, como Istio, y con la aparición de nuevos proyectos, como Knative.
+
+Por lo tanto, si tuviéramos que reconocer las ventajas de las aplicaciones nativas de la nube y resumirlo todo, nos centramos en la empresa y la ingeniería a gran escala.
+
+En el siguiente vídeo analizaremos DevOps.
