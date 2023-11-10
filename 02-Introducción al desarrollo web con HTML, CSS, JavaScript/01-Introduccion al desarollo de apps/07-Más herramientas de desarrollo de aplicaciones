@@ -1,0 +1,55 @@
+Bienvenido a Más Herramientas de Desarrollo de Aplicaciones.
+Veamos algunas herramientas que pueden ayudarte a construir y desplegar tu aplicación: CI/CD, Herramientas de compilación, Paquetes y Gestores de paquetes.
+
+CI/CD se refiere a las prácticas de integración continua y entrega continua o despliegue continuo. CI/CD es una mejor práctica para los equipos de DevOps que permite a los
+    desarrolladores entregar cambios frecuentes de manera confiable.
+Implementada a través de un servidor de automatización de compilación, la Integración Continua (CI) garantiza que todos los componentes de código funcionen juntos sin problemas.
+Un entorno de compilación de CI te permite integrar código recién desarrollado con frecuencia, al menos todos los días, si no cada hora, dependiendo de la rapidez con que cambia
+    el proyecto.
+La entrega continua (CD) comienza donde termina la CI. El proceso de CI crea automáticamente y prueba tu código, luego la CD despliega todos los cambios de código en una
+    compilación a un entorno de prueba o puesta en escena.
+
+Una herramienta de compilación transforma tu código fuente en los archivos binarios necesarios para la instalación.
+Las herramientas de compilación organizan tu código fuente, establecen banderas de compilación y gestionan las dependencias. Son más importantes en entornos en los que hay
+    muchos proyectos interconectados, con múltiples desarrolladores contribuyendo a cada proyecto.
+En estos entornos, puede ser muy difícil llevar un registro de los cambios realizados, en qué orden, qué dependencias existen y qué debe incorporarse en la próxima compilación,
+    por lo que la automatización es clave para mantener todo funcionando sin problemas.
+
+La automatización de la compilación puede automatizar una amplia variedad de tareas que los desarrolladores realizan en sus actividades diarias, como: Descargar dependencias.
+Compilar código fuente en código binario. Empaquetar ese código binario. Ejecutar pruebas. Y desplegar en sistemas de producción.
+
+Puedes iniciar una compilación desde la línea de comandos o desde un entorno de desarrollo integrado (IDE).
+Hay dos categorías de herramientas de compilación ampliamente utilizadas: Utilidades de automatización de compilación, que generan artefactos de compilación como ejecutables,
+    compilando y enlazando el código fuente. Servidores de automatización de compilación, que ejecutan utilidades de automatización de compilación de forma programada o
+    desencadenada.
+
+Algunos ejemplos de herramientas de compilación son: Webpack, un empaquetador de módulos para JavaScript. Babel, un compilador de JavaScript. Y Web Assembly, un formato de
+    instrucciones binarias que se ejecuta en tu navegador.
+
+Ahora que has desarrollado y probado tu aplicación, estás listo para desplegarla.
+Pero, ¿cómo sucede eso? La aplicación debe ser simple y sin problemas para que el usuario la instale, por lo que una técnica comúnmente utilizada es recopilar todos los archivos 
+    necesarios y agruparlos en un paquete.
+
+Los paquetes son archivos que contienen los archivos de la aplicación, instrucciones de instalación y cualquier metadato que elijas.
+También tienen su propio metadato, que incluye la descripción del paquete, la versión del paquete y cualquier dependencia, como otros paquetes que deben instalarse antes.
+
+Una vez que hayas empaquetado tu aplicación en un paquete, puedes utilizar un gestor de paquetes para distribuirla.
+Los gestores de paquetes se encargan de las tareas de búsqueda, instalación, mantenimiento o desinstalación de paquetes de software a solicitud del usuario.
+
+Los sistemas de gestión de paquetes: Se coordinan con archivadores de archivos para extraer archivos de paquetes. Verifican sumas de comprobación y certificados digitales para
+    garantizar la integridad y autenticidad del paquete. Localizan, descargan, instalan o actualizan software existente en un repositorio de software. Y gestionan dependencias
+    para asegurarse de que un paquete se instale con todas las dependencias que necesita.
+
+Algunos gestores de paquetes comúnmente utilizados para cada una de las principales plataformas se enumeran aquí: En Linux - Sistema de Gestión de Paquetes Debian (DPKG).
+Gestor de paquetes Red Hat (RPM). En Windows - Chocolatey. En Android - Gestor de paquetes. En MacOS - Homebrew y MacPorts.
+
+Cualquier biblioteca que se utilice o código de utilidad que se desarrolle como parte de la aplicación se gestiona con los gestores de paquetes de aplicaciones en la nube.
+
+Aquí tienes algunos ejemplos de gestores de paquetes para lenguajes populares:
+Para Node.js/Javascript - npm.
+Para Java - Gradle y Maven.
+Para Ruby - RubyGems.
+Para Python - Pip y Conda.
+
+En este video has aprendido acerca de algunas de las herramientas que utilizarás en tu carrera como desarrollador, incluyendo: CI/CD, Herramientas de compilación, Paquetes y
+    Gestores de paquetes.

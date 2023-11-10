@@ -1,0 +1,64 @@
+Los sitios web de Internet ofrecen muchos servicios diferentes, uno de los más populares son las compras en línea.
+Cuando exploras un sitio web de compras en línea, navegas por las páginas, eliges diferentes categorías de productos o comparas productos, estás interactuando con la interfaz de
+    un sitio web.
+Veamos cómo los desarrolladores de front-end desarrollan la interfaz de un sitio web.
+Para ello, necesitamos entender cómo se hace un sitio web.
+Para crear un sitio web, los desarrolladores web suelen utilizar el lenguaje de marcado de hipertexto (HTML), las hojas de estilos en cascada (CSS) y JavaScript.
+Estos lenguajes están diseñados para funcionar en conjunto. El HTML se utiliza para crear la estructura física de un sitio web.
+La estructura física contiene elementos como texto, enlaces, imágenes/vídeos, separadores de páginas y botones.
+El código HTML garantiza un formato adecuado de todos los elementos de texto e imagen para que los navegadores muestren la página de forma coherente.
+El desarrollador del backend codifica la estructura del sitio web.
+
+Un sitio web es como una casa que solo se ha construido.
+Del mismo modo que necesitamos diseñadores de interiores para añadir estilo a un espacio, necesitamos desarrolladores front-end para añadir el glamour y el atractivo necesarios
+    a un sitio web.
+Cuando pides productos en cualquier sitio web, te das cuenta de que las páginas tienen una fuente agradable, colores atractivos y son fáciles de navegar.
+Los desarrolladores utilizan CSS para crear sitios web elegantes.
+
+El CSS proporciona a los desarrolladores de front-end un método estándar para definir, aplicar y gestionar diferentes conjuntos de características de estilo para un sitio web y
+    cada uno de sus componentes.
+El CSS garantiza la uniformidad en el aspecto, el estilo, los colores, las fuentes, los diseños y las maquetaciones.
+Por lo tanto, el HTML se usa para crear la estructura y el CSS se usa para diseñarla y hacerla atractiva.
+El CSS también se utiliza para crear sitios web compatibles con varios navegadores, lo que significa que son compatibles con varios navegadores y múltiples dispositivos, como
+    PC, dispositivos móviles, iPads, etc.
+
+Los sitios web de compras en línea son intuitivos, interactivos y se cargan rápidamente.
+Aquí es donde entra en escena JavaScript.
+
+JavaScript es un lenguaje de programación orientado a objetos que se utiliza junto con HTML y CSS para añadir interactividad a un sitio web.
+Por ejemplo, se utiliza HTML para añadir un botón de inicio de sesión a una página y CSS para darle estilo a ese botón.
+
+A continuación, utiliza JavaScript para añadir la funcionalidad de inicio de sesión a ese botón.
+Un nuevo lenguaje de desarrollo front-end es Syntactically Awesome Style Sheets (SASS) llamado SAAS.
+Es una extensión de CSS que es compatible con todas las versiones de CSS.
+
+SASS le permite usar variables, reglas anidadas e importaciones en línea para mantener las cosas organizadas.
+SAAS le permite crear hojas de estilos de forma más rápida y sencilla.
+
+Otro lenguaje que se está utilizando ahora es Learner Style Sheets (LESS) o LESS.
+
+LESS mejora el CSS, añadiendo más estilos y funciones. Es retrocompatible con CSS. Less.js es una herramienta de JavaScript que convierte los estilos LESS en estilos CSS.
+Al utilizar todos estos lenguajes, los sitios web se diseñan de forma reactiva y responsiva.
+
+Los sitios web reactivos o adaptables muestran la versión del sitio web diseñada para un tamaño de pantalla específico.
+Por ejemplo, un sitio web puede proporcionar más información si se abre en un PC que si se abre en un dispositivo móvil.
+El diseño responsivo de un sitio web significa que cambiará automáticamente su tamaño al dispositivo desde el que se accede.
+Por ejemplo, si abres el sitio web de un producto en tu dispositivo móvil, se adaptará al pequeño tamaño de la pantalla y seguirá mostrándote todas las funciones.
+
+Un marco de JavaScript es un marco de aplicación escrito en JavaScript. Los programadores pueden manipular las diferentes funciones, utilizarlas donde sea necesario y crear
+    aplicaciones que respondan a los dispositivos.
+
+Algunos ejemplos de varios marcos que se utilizan son: Marco angular: un marco de código abierto y mantenido por Google.
+Los marcos angulares permiten a los sitios web renderizar las páginas HTML de forma rápida y eficiente.
+Tiene herramientas integradas para el enrutamiento y la validación de formularios.
+
+Facebook ha desarrollado y mantenido React.js. Es una biblioteca de JavaScript que crea y renderiza componentes para una página web. No es un conjunto completo de herramientas.
+Por ejemplo, el enrutamiento no forma parte de este marco y deberá añadirse mediante una herramienta de terceros.
+
+React.js solo ayuda a crear y colocar componentes en una página. La comunidad mantiene Vue.js y se centra principalmente en la capa de visualización, que incluye la interfaz de
+    usuario, los botones y los componentes visuales.
+Es flexible, escalable y se integra bien con otros marcos. Es muy adaptable. Puede ser una biblioteca o puede ser el marco.
+
+La tarea de un desarrollador front-end evoluciona continuamente. Las tecnologías se actualizan constantemente, por lo que los desarrolladores de front-end deben seguir
+    actualizando los sitios web que crean.
+Los sitios web que creen deberían funcionar en varios navegadores, múltiples sistemas operativos y múltiples dispositivos.

@@ -1,0 +1,55 @@
+Bienvenido a Insiders' Viewpoints: herramientas y tecnologías. En este vídeo, escucharemos a expertos hablar sobre sus herramientas y tecnologías favoritas para proyectos de
+    desarrollo web.
+
+Así que si eres un desarrollador front-end, si entiendes JavaScript, entonces retomar el back-end utilizando un framework, como Node.js, no es demasiado exagerado.
+De hecho, empezaste a crear, ya sabes, sitios web estáticos, y poco a poco aprendiste a incluir contenido dinámico usando JavaScript.
+Y luego tuve que usar Java o PHP para construir mis sistemas de back-end en el servidor.
+
+Para el desarrollo front-end, utilizas principalmente HTML, CSS y JavaScript. Si te centras mucho en el front-end, quizás quieras probar un ID creado para ese propósito
+    específico, como Brackets.
+Si quieres mantener las cosas más generales, te recomiendo VS. Código. En cualquier caso, recomiendo instalar extensiones IDE para formatear y borrar automáticamente el código.
+Al usar prettier y eslint, te ayudarán a detectar los problemas lo antes posible para el back-end.
+
+En el desarrollo, las herramientas son bastante más variadas, por lo que es difícil dar recomendaciones específicas. Pero si eliges node JS, podrás usar algunas de estas mismas
+    herramientas que mencioné para el desarrollo del front-end.
+De lo contrario, te recomiendo que consultes qué extensiones IDE están disponibles y qué linteros y formateadores automáticos están disponibles.
+
+JavaScript es un lenguaje muy potente. Te permite hacer prácticamente cualquier cosa que puedas imaginar, incluso pegarte un tiro en el pie si no tienes cuidado.
+Las prácticas que suelo seguir con JavaScript incluyen el alcance adecuado de las variables y funciones. Y escribir pruebas unitarias y de integración para mis funciones.
+
+React JS fue desarrollado en Facebook y fue muy popular.
+Angular es un marco operado por Google que permite el desarrollo de aplicaciones de una sola página.
+
+jQuery de SPA es posiblemente la biblioteca más popular y antigua que existe, creada por John Resig en 2006, y jQuery se usa con frecuencia tanto con Angular como con React.
+Backbone es una biblioteca de JavaScript ligera que es muy popular en términos de lenguajes y marcos de back-end.
+
+Node j.s es una plataforma de código abierto del lado del servidor basada en el motor JavaScript de Google Chrome. Utiliza una arquitectura asíncrona de un solo subproceso que
+    le permite atender una gran cantidad de conexiones simultáneas.
+
+Flask es un marco utilizado en Python que es popular entre los amantes de Python, y el marco de primavera basado en Java existe desde hace años y sigue siendo popular.
+
+Usamos el framework JavaScript React; es mejor que Angular en términos de velocidad y eficiencia.
+React es más fácil de aprender que otros marcos de JavaScript, lo que facilita su adopción en el equipo. También resuelve, también resuelve los problemas relacionados con los
+    problemas entre navegadores.
+Otra gran característica de React es el uso de JSX. JSX es útil cuando se trabaja con la interfaz de usuario dentro del código JavaScript. Ayuda a React a mostrar mensajes de
+    error y advertencia más útiles.
+
+Mi framework de JavaScript para front-end favorito sería React js. Me encanta todo el diseño y la arquitectura basados en componentes que hay que seguir cuando se crea una
+    aplicación basada en React JS. También me gusta la idea de, ya sabes, accesorios y estados para mantener tu estado, el de tu aplicación.
+
+Al usar Express js para el desarrollo de back-end, podemos escalar aplicaciones rápidamente. Podemos codificar fácilmente tanto el front-end como el back-end con la ayuda de
+    JavaScript utilizando Express js. Express js es compatible con el motor V8 de Google, con el que podrá obtener un mayor rendimiento sin demoras ni errores en el
+    procesamiento.
+
+También es compatible con las funciones de almacenamiento en caché, por lo que no tendrá que volver a ejecutar los códigos una y otra vez. Además, ayudará a que las páginas web
+    se carguen más rápido que nunca.
+
+Cuando trabajes con node j.s , te daré dos de mis paquetes favoritos que uso a diario. Lo primero es hacer solicitudes a los servicios web. Utilizo una biblioteca como axios,
+    que me ayuda a crear estas solicitudes con los encabezados correctos y también me proporciona funciones de devolución de llamadas o promete ser capaz de gestionar las
+    respuestas que se reciben.
+Mi segundo paquete sería cuando trabajo con bases de datos. Utilizo paquetes de NPM, lo más probable es que me dirija a una base de datos externa, independientemente de si se
+    trata de una base de datos relacional o de una base de datos NoSQL.
+Por eso, al escribir JavaScript, me gusta mucho aprovechar las funciones de ES6 porque pueden hacer que mi código se vea más limpio, más fácil de leer y, simplemente, más
+    hermoso, como las funciones de flecha o el operador punto.
+
+Por eso te animo a que, después de aprender JavaScript, te sumerjas un poco en ES6 y te diviertas con él.

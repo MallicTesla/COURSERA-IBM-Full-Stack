@@ -1,0 +1,63 @@
+Bienvenido a la importancia del desarrollo de back-end.
+Un desarrollador front-end crea sitios web y aplicaciones en la nube, utilizando HTML, CSS y JavaScript para crear lo que el usuario ve y con lo que interactúa en el software
+    cliente.
+
+Un desarrollador de back-end crea y administra todos los recursos necesarios para responder a las solicitudes que el usuario realiza a través del cliente.
+Las tareas del desarrollador de back-end se centran en permitir que la infraestructura de servidores, o back-end, procese las solicitudes, suministre datos y preste otros
+    servicios de forma segura.
+
+Los desarrolladores de front-end y back-end deben trabajar en estrecha colaboración. Cada uno debe comprender los requisitos de la solución y cómo interactuarán sus partes
+    respectivas antes de que pueda comenzar el proceso de desarrollo.
+A lo largo del ciclo de vida del sitio web o de la aplicación en la nube, los desarrolladores front-end y back-end colaboran para resolver los problemas y añadir
+    funcionalidades. ¿Cómo te afecta el trabajo de un desarrollador de back-end cuando navegas por Internet o utilizas una aplicación en la nube? Piénsalo así: cuando compras en
+    línea, ¿qué ocurre con los datos que introduces? ¿ Tu información de inicio de sesión, tus búsquedas de productos, tu información de pago? El back-end procesa todas estas
+    cosas, y los desarrolladores del back-end escriben y mantienen las partes de la aplicación que procesan las entradas.
+
+Pensemos en su experiencia al explorar un sitio de compras en línea y realizar una compra. Al buscar productos, la solicitud de búsqueda se envía a una aplicación web que, a
+    continuación, recupera los datos de una base de datos independiente y se los devuelve al cliente para que los muestre.
+Para facilitar esto, un desarrollador de back-end debe entender el lenguaje que utiliza la aplicación web, cómo consultar la base de datos para obtener los datos correctos y
+    cómo unirlos.
+
+Incluso una tarea sencilla como navegar por el sitio puede requerir las habilidades de un desarrollador de back-end. Muchos sitios tienen áreas restringidas que solo están
+    disponibles para los usuarios que tienen una cuenta y han iniciado sesión.
+La administración, la autenticación y la autorización de las cuentas de usuario también pueden ser responsabilidad del desarrollador de back-end. Una vez que hayas decidido lo
+    que quieres comprar, debes añadirlo a tu carrito y realizar el pago.
+El proceso de compra requiere que envíes información confidencial, como tu dirección y número de tarjeta de crédito, y el desarrollador principal debe asegurarse de que estos
+    datos se gestionen y almacenen de forma segura. Las interacciones iniciales con los clientes, ya sea para solicitar datos como una imagen, aceptar la entrada de un usuario
+    que rellene un formulario o proteger información confidencial, como el número de una tarjeta de crédito, requieren servicios diferentes de los del servidor back-end.
+Cada solicitud debe interactuar con el back-end de una manera diferente. Los desarrolladores de back-end utilizan las API, las rutas y los puntos finales para procesar las
+    solicitudes entrantes: una API es un código que funciona con datos y, por lo general, utiliza JSON o XML.
+
+Las API tienen reglas y estructuras establecidas. Una ruta es una ruta a un sitio web o página con la que interactúa el usuario. Por lo general, las rutas toman las entradas del
+    usuario y muestran los resultados en función de las entradas. Un punto final puede ser una API o simplemente una ruta.
+
+Cuando una solicitud del front-end llega al back-end, se enruta al servicio correcto. Si el backend tiene un punto final definido para la solicitud mediante el enrutamiento, se
+    atenderá a la solicitud y se responderá a ella. Si falta el punto final, el servidor devuelve un error 404. Los desarrolladores de back-end deben crear y mantener este
+    enrutamiento del lado del servidor.
+Junto con las API de back-end, las rutas permiten de manera efectiva que el cliente front-end se conecte a la toma correcta del back-end.
+Las API proporcionan un mecanismo para que las aplicaciones en la nube, las aplicaciones móviles y otros tipos de software accedan a los recursos desde el back-end.
+Para realizar todo este desarrollo de back-end, necesitarás estar familiarizado con al menos un lenguaje de back-end y sus marcos asociados.
+Entre los lenguajes más populares, en la actualidad se encuentra JavaScript, que se diseñó originalmente para ejecutarse en navegadores web, añadiendo interactividad adicional y
+    contenido dinámico a las páginas web.
+
+JavaScript también se utiliza en el back-end, con nuevas versiones que añaden funciones del lado del servidor. JavaScript tiene muchos marcos, pero dos de los más conocidos son
+    Node.js y Express.
+
+Python es otro lenguaje popular; es muy flexible y fácil de aprender. Python tiene una amplia funcionalidad: se puede usar para todo, desde crear páginas web hasta conectarse a
+    una base de datos y realizar análisis de datos. Dos marcos de Python muy conocidos son Django y Flask.
+
+Los desarrolladores de back-end suelen trabajar con datos y bases de datos, por lo que también te beneficiará aprender algo de SQL.
+Para ayudar a gestionar las solicitudes de las bases de datos, los desarrolladores de back-end pueden utilizar las herramientas de mapeo relacional de objetos (ORM) para
+    conectarse a la base de datos y recuperar los datos correctos.
+Si bien un ORM puede ocultar parte de la complejidad de las consultas en las bases de datos, es útil comprender los aspectos básicos de las bases de datos para poder solucionar
+    cualquier problema que pueda surgir.
+
+Las tareas diarias de un desarrollador de back-end se centran en la funcionalidad entre bastidores que mantiene los sitios web, las aplicaciones en la nube y las aplicaciones
+    móviles en funcionamiento.
+
+El desarrollo de back-end abarca una amplia gama de tecnologías, desde la gestión de las cuentas de usuario, la autenticación y la autorización hasta la garantía de que los
+    datos confidenciales se almacenen y transfieran de forma segura.
+
+Los desarrolladores de back-end también trabajan con bases de datos, recuperando, procesando y almacenando los datos según sea necesario.
+
+La vida de un desarrollador de back-end es variada, desafiante y cambia constantemente.

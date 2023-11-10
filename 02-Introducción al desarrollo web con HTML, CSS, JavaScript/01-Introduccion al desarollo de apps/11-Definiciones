@@ -1,0 +1,82 @@
+angularjs
+Un marco JavaScript de código abierto para aplicaciones web dinámicas
+
+Interfaz de programación de aplicaciones (API)
+Código que permite que dos programas de software se comuniquen entre sí.
+
+Construir automatización
+Le permite descargar dependencias, compilar código, empaquetar código binario, ejecutar pruebas e implementar en producción.
+
+Construir servidores de automatización
+Ejecute utilidades de automatización de compilación de forma programada o activada.
+
+Construir utilidades de automatización
+Genere ejecutables compilando y vinculando código.
+
+Integración continua/ **Implementación continua (CI/CD)**
+Un método para liberar código e integrarlo en código que ya se ha desarrollado para evitar que la aplicación se rompa durante todo el ciclo de vida de la aplicación.
+
+Django
+Un marco para el desarrollo web Python.
+
+Contenido dinámico
+Datos que se crean cada vez que se envía una solicitud a un servidor.
+
+Punto final --- Endpoint
+El punto en el que una API se conecta con el programa de software.
+
+Frameworks
+Proporcionar una forma estándar de crear una aplicación. Los Frameworks dictan la arquitectura y el flujo del programa.
+
+IDE
+“Entorno de desarrollo integrado” Ayuda a crear y gestionar código.
+
+Inversión de control
+Un flujo de trabajo predefinido en el que el desarrollador no tiene el control total del funcionamiento de la aplicación.
+
+Frameworks de JavaScript
+Un Frameworks de aplicación escrito en JavaScript para crear sitios responsivos.
+
+MENOS --- LESS
+Las "Hojas de estilo del estudiante" agregan más estilo y funciones a CSS.
+
+menos.js --- LESS.JS
+Una herramienta de JavaScript que convierte LESS estilos a CSS.
+
+Bibliotecas
+Colecciones de código reutilizables
+
+Dogmático --- Opinionated 
+Los marcos que tienen mucho control a veces se consideran "obstinados --- opinionated".
+
+Administradores de paquetes --- Package Managers
+Coordine con archivadores de archivos para extraer paquetes. Verificar sumas de cheques y certificados digitales. Localice, descargue e instale actualizaciones de software
+    existente desde un repositorio, así como administre dependencias.
+    Los administradores de paquetes comunes incluyen los siguientes: Debian Package Management System (DPMS), Red Hat Package Manager para Linux, Chocolatery para Windows,
+    Homebrew y MacPorts para MacOS.
+
+Paquetes
+Archiva archivos que incluyen archivos de aplicaciones, instrucciones de instalación y metadatos.
+
+React.js
+Un marco de JavaScript desarrollado por Facebook que ayuda a crear y colocar elementos en una página.
+
+Diseño de respuesta
+Técnica de diseño que cambia automáticamente el tamaño de una pantalla para adaptarla a un tamaño de pantalla específico.
+
+Ruta
+Permite que el cliente de front-end se conecte al socket correcto en el backend.
+    Son las rutas que toma el tráfico de red desde una instancia de máquina virtual (VM) hacia otros destinos.
+
+SASS
+Las “hojas de estilo sintácticamente impresionantes” son una extensión de CSS.
+
+Contenido estático
+Una visualización de datos que han sido previamente almacenados en un servidor.
+
+Control de versiones
+Le permite volver a versiones anteriores de código, resuelve conflictos entre los mismos archivos y divide y fusiona diferentes ramas de código.
+
+Vue.js
+Un marco de JavaScript basado en la comunidad centrado en la interfaz de usuario.
+Incluye componentes de la interfaz de usuario, como botones y otros elementos visuales, y es tanto una biblioteca como un marco.

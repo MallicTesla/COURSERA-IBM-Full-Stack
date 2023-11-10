@@ -1,0 +1,59 @@
+"Bienvenido a Introducción a las Herramientas de Desarrollo de Aplicaciones.
+Llevar tu aplicación en la nube desde la etapa de ideas hasta estar completamente escrita y desplegada es un proceso largo, pero hay muchas herramientas que te ayudarán en el
+    camino.
+El banco de trabajo de un desarrollador de aplicaciones en la nube incluye: Control de Versiones, Bibliotecas y Marcos.
+
+Cuando muchos desarrolladores trabajan en el mismo proyecto, saber en qué orden se realizaron los cambios, creando así una nueva versión del código fuente, se vuelve de suma
+    importancia. Los sistemas de control de versiones llevan un registro de qué cambios se realizaron, cuándo y por quién, y resuelven cualquier conflicto entre los cambios.
+
+Para desarrollar tu código, el control de versiones puede ser útil incluso si eres el único colaborador en un proyecto.
+Utilizado correctamente, te proporciona una forma de volver a una versión anterior de tu código si algo sale mal y te brinda información básica sobre cómo se desarrolló el
+    código con el tiempo.
+
+La funcionalidad de control de versiones generalmente está vinculada al sistema de almacenamiento que estás utilizando, por lo que se recomienda un repositorio de código,
+    incluso para principiantes.
+Git y GitHub son extremadamente populares para el almacenamiento y la gestión de código fuente.
+
+Git almacena archivos en repositorios donde puedes hacer un seguimiento de los cambios, dividir el código en diferentes ramas para un desarrollo más enfocado y luego fusionarlos
+    de nuevo en el cuerpo principal del código.
+
+Las bibliotecas son colecciones de código, como programas y subrutinas estándar, que puedes usar dentro de tu código.
+Por ejemplo, es posible que desees incluir una función de navegación, como un carrusel; una biblioteca de código puede proporcionarte el código necesario para eso, para que no
+    tengas que gastar tiempo y energía en crearlo desde cero.
+Poder reutilizar código de esta manera hace que el desarrollo de tu aplicación sea mucho más rápido y sencillo. Varias bibliotecas de código se pueden integrar en tu proyecto
+    existente. A medida que descubres la necesidad de una función o característica específica, puedes investigar una biblioteca adecuada.
+Tú decides cuándo llamar al método necesario según sea necesario.
+
+El control vuelve al flujo del programa una vez que se completa la subrutina. Cuando utilizas una biblioteca de código, estás en control. Las bibliotecas de código generalmente
+    se utilizan para resolver un problema específico o agregar un conjunto específico de características.
+De todos modos, hay muchas entre las que elegir, así que investiga.
+
+Aquí tienes algunos ejemplos de bibliotecas de código: jQuery es una biblioteca de JavaScript que simplifica la manipulación del Dom.
+El validador de correo electrónico es una pequeña biblioteca que verifica si una dirección de correo electrónico está construida correctamente y es válida.
+Apache Commons Proper es un repositorio de componentes reutilizables de Java.
+
+Los marcos proporcionan una forma estándar de construir y desplegar aplicaciones.
+Puedes pensar en un marco como un esqueleto al que puedes añadir tu propio código, proporcionando un andamio sobre el cual construir tus aplicaciones.
+El marco que planeas usar debe determinarse temprano en tu planificación de desarrollo y usarse desde el principio.
+
+Los nuevos marcos no pueden incorporarse en un proyecto existente. El marco que elijas dicta la arquitectura de tu programa y controla el flujo del programa.
+El marco determina cuándo se llamarán las subrutinas y los métodos.
+
+Cuando trabajas con un marco, debes seguir una estructura específica. El marco llama a tu código, en lugar de que tú llames al marco.
+Los marcos son menos flexibles que las bibliotecas, lo que te brinda menos control, pero proporcionan una buena estandarización y pueden ayudarte a crear un código eficiente.
+Para usar una analogía, si eres un carpintero construyendo una casa, el marco es la estructura a la que agregas ladrillos en el exterior, placas de yeso en el interior, y así
+    sucesivamente.
+El marco actúa como una guía sobre cómo se construye la casa. Aquí tienes algunos ejemplos de marcos: AngularJS es un marco basado en JavaScript para aplicaciones web dinámicas.
+Vue.js es un marco de JavaScript centrado en la interfaz de usuario.
+Django es un marco que utiliza Python para el desarrollo web.
+
+Los marcos definen el flujo de trabajo que debes seguir, a diferencia de las bibliotecas, que te permiten llamar a funciones según sea necesario.
+Al utilizar un marco, a veces puede sentirse como si tú, como desarrollador, no tuvieras un control completo sobre el proceso de desarrollo.
+Esta sensación de que el marco y su flujo de trabajo predefinido controlan el proceso de desarrollo se llama inversión de control.
+Los marcos que tienen mucho control se conocen como "opinionados": tienen opiniones sobre cómo debería usarse su flujo de trabajo y eliminan muchas de las decisiones que de lo
+    contrario tendrías que tomar sobre cómo se escribe el código, la ubicación de los archivos e incluso los nombres de los archivos.
+A menudo, los marcos incluyen sus propias bibliotecas, que llaman cuando es necesario.
+La inversión de control te permite crear aplicaciones estandarizadas y elimina gran parte del trabajo de configuración tediosa, para que puedas concentrarte en el código de tu
+    aplicación.
+
+En este video, has aprendido sobre algunas de las herramientas que utilizarás en tu carrera como desarrollador, incluyendo: Control de Versiones, Bibliotecas y Marcos."

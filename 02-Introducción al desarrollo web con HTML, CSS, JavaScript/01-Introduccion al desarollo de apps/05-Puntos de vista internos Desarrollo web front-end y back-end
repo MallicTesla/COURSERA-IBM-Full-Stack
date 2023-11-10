@@ -1,0 +1,50 @@
+Bienvenido a Insiders' Viewpoints: desarrollo web front-end y back-end En este video, escucharemos a varios profesionales del desarrollo web hablar sobre el desarrollo web
+    front-end y back-end.
+
+¿Puedes hablar sobre el desarrollo front-end y back-end y describir algunos de los lenguajes, IDE, herramientas y marcos que utilizas habitualmente para cada uno de ellos?
+
+El desarrollo front-end o la programación del lado del cliente es lo que ocurre en el navegador. Es todo lo que el usuario ve y con lo que interactúa.
+Algunos de los lenguajes que utilizamos para el desarrollo de front-end son HTML, CSS y JavaScript.
+
+Usamos marcos y bibliotecas como AngularJS, react y jQuery, Backbone js, etc.
+El desarrollo back-end o la programación del lado del servidor se realiza en el servidor y la base de datos.
+Facilita la experiencia del usuario front-end. Usamos lenguajes de back-end como Python, Java, Node js y JavaScript.
+Algunos de los marcos de back-end utilizados son Django, Rails, Spring, etc.
+
+Tradicionalmente, el término front-end significa trabajar en cosas que el usuario puede ver, que el usuario puede tocar y con las que tiene una interacción directa.
+
+Muy bien. Por lo tanto, este podría ser el diseño de su aplicación o su sitio web, la forma en que se colocan los diferentes botones.
+También podría ser la forma en que el usuario interactúa. Por lo tanto, hacer clic, por ejemplo, podría ser un caso de uso del desarrollo y diseño de una interfaz de usuario.
+
+La parte trasera, por otro lado, apoya la parte delantera, a la derecha. Por lo tanto, el back-end consiste en desarrollar servicios que permitan al usuario realizar esa
+    función, pero con los que el usuario no interactúe directamente.
+Así, por ejemplo, si estás creando una aplicación de venta minorista, la interfaz podría ser el carrito de compras y, al hacer clic en el pequeño botón, añadir algo al carrito
+    de compras. Y luego el back-end estaría procesándolo. Podría estar procesando tu tarjeta de crédito, facturando, enviando el producto al usuario final.
+Todos los servicios que lo permiten van al back-end.
+
+Nuestro equipo usa mucha mezcla de Ruby on Rails con algo de Vue.js. Algunos de nuestros proyectos más recientes los vamos a mudar a Elixir y Phoenix.
+También tenemos muchos servicios escritos en el nodo JS. Y algunos de ellos también usan TypeScript. También tenemos mucho código Python escrito con Django y Flask.
+
+Empecé con el desarrollo del front-end y rápidamente me dediqué al back-end, de forma que podía escribir todo el paquete.
+Además, rápidamente me interesé por la infraestructura subyacente. Empecé usando Atom. Y poco después, poco después de dedicarme más a la nube, quise tener más integraciones,
+    como el kit de herramientas de AWS y las herramientas terraform, los complementos y los linters de formación de nubes que me ayudaran a formatear mi código de forma
+    inteligente.
+Por lo tanto, el código VS es la herramienta que he estado usando para escribir mis plantillas de formación de nubes, plantillas de terraformas y scripts de Python en el pasado,
+    y ahora. 
+
+En cuanto a los diferentes marcos para el front-end, tradicionalmente me baso en HTML y CSS, obviamente, para crear y diseñar la aplicación front-end.
+También utilizo marcos como Bootstrap que facilitan un poco la creación de algunas de las estructuras de diseño más complicadas.
+
+Para el backend, la mayoría de las veces me centro en JavaScript o Python, uso Node JS y expreso JS de forma extensiva.
+También utilizo marcos de Python como Flask y Django cuando trabajo con... cuando creo servicios en el backend.
+
+Como soy un desarrollador nativo de la nube, también utilizo Cloud Functions, que es bastante la plataforma sin servidor de IBM Cloud.
+Por lo general, me dedico al desarrollo de back-end, pero me dedico mucho al front-end y toco algún código de front-end de vez en cuando.
+En ambos casos, utilizo el código VS para prácticamente todo mi desarrollo.
+
+Sin embargo, si estoy conectado a un servidor, puedo usar VI o nano para una experiencia de terminal. Para el desarrollo de mi interfaz, utilizo a menudo los mismos lenguajes,
+    como Ruby o JavaScript.
+Pero a veces hay un poco de derivación o tengo que aprender un lenguaje de plantillas específico.
+Y hay varios: Handlebars, Jinja, etc. Y sinceramente, lo busco en Google todo el tiempo.
+
+Y lo mismo ocurre con los marcos de front-end. Hay varios de ellos. Hay muchas cosas en ellas. Por lo general, aprenda lo básico y excave cuando necesite excavar.

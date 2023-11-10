@@ -1,0 +1,50 @@
+Hola, bienvenidos a Descripción general del desarrollo web y en la nube.
+Cuando estás empezando como desarrollador web, puede ser difícil determinar qué necesitas aprender y en qué orden debes aprenderlo.
+Un buen punto de partida es comprender cómo se crean y se le presentan sitios web conocidos.
+Repasemos los aspectos básicos de cómo interactúas con un sitio web.
+
+Abre un navegador de Internet; hay muchos disponibles: Google Chrome, Microsoft Edge, Mozilla Firefox y Apple Safari son algunos de los más populares. El navegador tiene una
+    barra de direcciones en la que se introduce una URL, como www.IBM.com.
+A continuación, el navegador contacta con el servidor con el nombre y solicita la información que conforma el sitio web.
+A continuación, el servidor envía una respuesta que contiene los datos que el cliente necesita para mostrar el sitio web.
+Para la mayoría de los sitios web, el servidor devuelve: HTML, que define la estructura de la página, pero no tiene un aspecto muy atractivo , CSS, que añade estilo y estilo a
+    la página, y JavaScript, que añade interactividad y contenido dinámico.
+
+El contenido que muestran los sitios web puede contener elementos previamente almacenados en el servidor (denominados «estáticos») o que se generan cada vez que el cliente los
+    solicita (denominados «dinámicos»).
+
+Los elementos dinámicos pueden incluir información procedente de otros sistemas y aplicaciones, como las bases de datos.
+La mayoría de los sitios web contienen elementos estáticos y dinámicos para ofrecer la mejor experiencia de usuario.
+Las aplicaciones en la nube son similares a los sitios web en el sentido de que solicitan contenido que devuelve un servidor.
+Las aplicaciones en la nube están diseñadas para funcionar sin problemas con una infraestructura de back-end basada en la nube, el almacenamiento y el procesamiento de datos
+    basados en la nube y otros servicios en la nube, lo que las hace muy escalables y resistentes.
+
+El entorno para crear sitios web y aplicaciones en la nube se divide en dos áreas principales: front-end y back-end.
+
+El front-end se ocupa de todo lo que ocurre en el lado del cliente, es decir, de todo lo que el usuario puede ver e interactuar con él.
+Puedes optar por especializarte en la codificación de front-end, utilizando HTML, CSS, JavaScript y marcos, bibliotecas y herramientas relacionados.
+
+El back-end se ocupa de todo lo que ocurre en el servidor antes de que el código y los datos se envíen al cliente.
+La codificación interna suele gestionar la lógica y la funcionalidad que hacen que el sitio web o la aplicación funcionen, así como los procesos de autenticación que protegen
+    los datos.
+Los desarrolladores de back-end también pueden trabajar con bases de datos relacionales o NoSQL, e incluso colaborar con los administradores de bases de datos en proyectos más
+    grandes.
+
+Los desarrolladores de Full-Stack tienen habilidades, conocimientos y experiencia tanto en entornos front-end como back-end. Sea cual sea la forma en que elija especializarse,
+    necesitará las herramientas adecuadas que le ayuden a trabajar.
+
+La primera herramienta que la mayoría de los desarrolladores añaden a sus recursos es un editor de código. Los desarrolladores también necesitan herramientas para integrar,
+    compilar y depurar código.
+Los entornos de desarrollo integrados (IDE) incorporan algunas de estas capacidades adicionales, además de la edición de código, y facilitan la creación y la administración del
+    código.
+Los buenos IDE admiten varios idiomas y se integran con herramientas de administración y almacenamiento como Git y GitHub.
+
+Otras funciones útiles son las extensiones y los temas personalizados que se adaptan a tu estilo y entorno de trabajo.
+Entre los ejemplos de editores de código e IDE se incluyen Sublime Text, Atom, Vim, VS Code, Visual Studio, Eclipse y NetBeans.
+
+En este breve resumen, aprendiste sobre: La comunicación básica entre el cliente y los servidores.
+Cómo se crean y muestran los sitios web.
+El desarrollo de front-end tiene que ver con lo que sucede en el lado del cliente.
+El desarrollo de back-end tiene que ver con lo que sucede en el servidor.
+El desarrollo integral incluye tanto el desarrollo de front-end como el de back-end.
+Los IDE le ayudarán a crear y administrar su código.
