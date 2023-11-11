@@ -1,0 +1,36 @@
+Bienvenido a Introducción al HTML. Después de ver este vídeo, podrá explicar qué es el lenguaje de marcado de hipertexto (HTML) y HTML5, y enumerar los objetivos de HTML5.
+
+La especificación HTML básica incluye esta información básica.
+HTML son las siglas de Hypertext Markup Language, que puede considerarse «el lenguaje de Internet».
+Es un lenguaje de marcado que se diseñó originalmente para compartir documentos científicos. Las adaptaciones al HTML a lo largo de los años lo han hecho adecuado para describir
+    otros tipos de documentos que se pueden mostrar como páginas web en Internet.
+
+Los elementos HTML son los componentes básicos de una página HTML. A los contenidos que forman la página se les asignan etiquetas como «párrafo», «lista» y «tabla».
+Se representan mediante etiquetas. Los navegadores no muestran las etiquetas, sino que las utilizan para representar el contenido.
+El HTML ha estado en continua evolución desde que fue introducido en Internet a principios de la década de 1990 por el CERN (la Organización Europea para la Investigación
+    Nuclear) y el Grupo de Trabajo sobre Ingeniería de Internet (IETF).
+
+A lo largo de los años, el World Wide Web Consortium (W3C) ha hecho una serie de recomendaciones sobre los estándares HTML. Continuamente se añadían nuevas funciones y las
+    especificaciones cambiaban con el tiempo.
+
+Inicialmente, el Grupo de Trabajo sobre Tecnología de Aplicaciones de Hipertexto en la Web (WHATWG) elaboró las recomendaciones de forma independiente.
+
+Luego, en 2007, el W3C formó un grupo de trabajo encargado de trabajar con el WHATWG en el desarrollo de la especificación HTML5.
+
+El W3C publicó la especificación bajo los derechos de autor del W3C, mientras que una versión con una licencia menos restrictiva se mantuvo en el sitio WHATWG.
+Desde 2007, los grupos W3C y WHATWG trabajaron juntos en el desarrollo del estándar HTML5.
+
+La especificación HTML5, tal como fue redactada por el W3C, incluye los siguientes objetivos: La especificación HTML5 define un lenguaje único llamado HTML5 que se puede
+    escribir en sintaxis HTML o XML.
+
+La especificación HTML5 define un modelo de procesamiento que puede interoperar con implementaciones HTML anteriores. HTML5 mejora el marcado de los documentos.
+HTML5 incluye el marcado y las API para expresiones idiomáticas, como el almacenamiento web y el contenido de vídeo y audio.
+
+Cuando se habla de la creación de páginas web, los desarrolladores pueden utilizar los términos HTML y HTML5 indistintamente. En general, el término HTML implica HTML5.
+Usa el término HTML5 completo si necesitas diferenciar entre versiones, por ejemplo, cuando hables de características nuevas en HTML5. En este curso, HTML hace referencia a
+    HTML5, a menos que se especifique lo contrario.
+
+En este vídeo, aprendió: HTML son las siglas de HyperText Markup Language, un lenguaje de marcado que permite que los documentos se muestren como páginas web en Internet.
+
+Las etiquetas representan los elementos de una página HTML, como párrafos, listas y tablas. HTML5, la versión más reciente, admite páginas escritas en sintaxis HTML o XML, la
+    interoperación con versiones HTML anteriores y el marcado y las API para el almacenamiento web y el contenido de audio y vídeo.

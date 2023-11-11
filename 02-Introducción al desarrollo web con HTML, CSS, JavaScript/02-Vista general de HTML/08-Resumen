@@ -1,0 +1,23 @@
+En este módulo ha aprendido que
+
+HTML proporciona la estructura básica y el contenido de una página web mediante etiquetas.
+
+Las etiquetas representan los elementos de una página HTML.
+
+El árbol DOM de HTML describe cómo se estructura una página web.
+
+HTML utiliza API para mejorar la experiencia del usuario, proporcionando funciones para animación avanzada, audio y vídeo.
+
+El scripting proporciona una experiencia de usuario más interactiva al navegar por las páginas web.
+
+Se recomienda no depender de las secuencias de comandos, ya que pueden desactivarse.
+
+Las cajas de arena HTML5 ayudan a gestionar los iframe mashups.
+
+Las tablas de compatibilidad con navegadores HTML5 describen qué navegadores son compatibles con qué características HTML5.
+
+JavaScript se utiliza para comprobar si un elemento es compatible con un navegador.
+
+CSS proporciona un estilo y un diseño coherentes en todo el sitio web.
+
+Existen dos tipos de CSS para diseñar sitios web: fluido y fijo.

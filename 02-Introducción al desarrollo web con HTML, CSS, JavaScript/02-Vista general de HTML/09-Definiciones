@@ -1,0 +1,24 @@
+Árbol DOM
+El “Modelo de objetos de documento” es la representación de datos de los objetos que componen la estructura y el contenido de un documento en la web.
+
+XML
+Un “lenguaje de marcado extensible” Diseñado para almacenar y transportar datos, permitiendo a los usuarios definir sus propios lenguajes de marcado, principalmente para mostrar
+    documentos en la web.
+
+HTML
+Un “lenguaje de marcado de hipertexto extensible” similar al HTML pero con reglas de formato más estrictas.
+
+API de almacenamiento web
+API que permiten el almacenamiento de datos en un navegador.
+
+
+<table>
+    <tr>
+        <td>Fecha</td>
+        <td>Lenguaje</td>
+    </tr>
+    <tr>
+        <th>2014</th>
+        <th>HTML5</th>
+    </tr>
+        <th>CSS3</th <tr> <th>1999</th> <th>CSS3</th> </tr> <th>1995</th> <th>JavaScript</th> </tr> </table> 

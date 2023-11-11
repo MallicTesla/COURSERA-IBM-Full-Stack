@@ -1,0 +1,42 @@
+¡Hola y bienvenidos a HTML Management and Support! Tras ver este vídeo, podrá enumerar algunos métodos y propiedades de la API de documentos HTML, describir cómo se habilita la
+    creación de scripts en los navegadores y describir la compatibilidad de los navegadores con las funciones de HTML5.
+
+Por lo tanto, examinemos algunos de los temas clave de la especificación HTML5.
+La sintaxis que define es compatible con los documentos HTML4 y XHTML1.
+
+HTML5 se define de tal forma que es compatible con las versiones anteriores en cuanto a la forma en que los navegadores gestionan el contenido desplegado.
+Separa los requisitos de conformidad para los agentes de usuario y los autores. En otras palabras, la forma en que los navegadores tratan el código HTML5 y la forma en que los
+    autores de las páginas tratan el código HTML5 es diferente.
+
+En el caso de los agentes de usuario, HTML5 se define de forma que sea compatible con los elementos y atributos de las especificaciones anteriores.
+
+En el caso de los autores, se han eliminado varios elementos y atributos para simplificar el lenguaje.
+
+HTML5 incluye algunos elementos e interfaces de programación de aplicaciones que ayudan a crear aplicaciones web.
+
+Los ejemplos incluyen elementos de vídeo y audio y una API que admite la creación de aplicaciones fuera de línea. ¿Qué crees que hace que el HTML sea adecuado para crear
+    aplicaciones web? Hay varias razones posibles: la variedad de dispositivos que tienen navegadores integrados que admiten las funciones de HTML5.
+
+    El número de API que mejoran la experiencia del usuario, como los elementos avanzados de animación, dibujos, audio y vídeo.
+
+El uso eficiente de HTML y CSS, al tiempo que reduce el número de imágenes, puede acelerar los tiempos de carga al renderizar las páginas web. Las optimizaciones de los motores
+    de búsqueda pueden utilizar palabras clave que se toman de los atributos HTML para mejorar la visibilidad de un sitio web cuando se muestran los resultados de la búsqueda.
+
+Las metaetiquetas que se muestran se utilizan para proporcionar información a los motores de búsqueda.
+
+Estos son algunos ejemplos de elementos de HTML5.
+Los nuevos elementos estructurales forman parte de la especificación HTML5. Estos elementos de marcado ayudan a definir de forma lógica la estructura de la página.
+Las nuevas API, como el lienzo, el audio y el vídeo, ayudan con los gráficos y el contenido incrustado.
+Se agregaron nuevos atributos a los atributos del elemento de entrada.
+Los ejemplos incluyen los tipos de correo electrónico, fecha y hora y número. 
+El navegador valida automáticamente el campo de entrada de acuerdo con el atributo de entrada, sin necesidad de scripts de validación personalizados.
+
+Al utilizar las API de almacenamiento web, puede almacenar datos en el navegador.
+La función web workers se puede utilizar para un procesamiento no interactivo.
+Los trabajadores web proporcionan una forma de ejecutar tareas que requieren un procesamiento intensivo sin bloquear las interacciones del usuario con la página actual.
+
+En este vídeo, aprendiste sobre los temas HTML5, que ofrecen: una sintaxis compatible con HTML4 y XHTML1, y API nuevas y perfeccionadas para elementos de vídeo y audio,
+    aplicaciones web sin conexión y funciones de arrastrar y soltar.
+
+Acerca de las aplicaciones web HTML5, que incluyen: indexación de búsquedas mejorada con metaetiquetas, mejores tiempos de carga de las páginas, experiencia de usuario mejorada,
+    y elementos HTML5, que permiten definir y administrar la estructura y el contenido de las páginas web.

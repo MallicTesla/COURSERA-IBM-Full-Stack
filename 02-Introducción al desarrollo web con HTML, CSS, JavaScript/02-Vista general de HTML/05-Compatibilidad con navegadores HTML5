@@ -1,0 +1,41 @@
+<!-- Bienvenido al soporte para navegadores HTML5. Después de ver este vídeo, podrá explicar cómo los navegadores admiten las funciones de HTML5, enumerar qué navegadores
+admiten qué funciones de HTML5 y definir la tabla de compatibilidad de los navegadores.
+
+No todos los navegadores son totalmente compatibles con todas las funciones que se describen en las especificaciones de HTML5 y CSS3.
+Por ejemplo, las versiones anteriores de los navegadores no admiten determinadas funciones.
+Los desarrolladores de distintos navegadores añaden continuamente compatibilidad con las funciones de HTML5 a sus nuevas versiones de navegadores.
+
+Para obtener una compatibilidad más completa con las funciones de HTML5, considere la posibilidad de utilizar Google Chrome. Las tablas de soporte muestran qué funciones son
+    compatibles con cada navegador y pueden ser una herramienta útil a la hora de desarrollar páginas web.
+
+Por ejemplo, caniuse.com tiene excelentes tablas de soporte para HTML5, CSS3, etc. Estos son los resultados de mostrar el elemento input type='date' en diferentes navegadores.
+El navegador Google Chrome muestra un calendario para introducir los datos.
+El navegador Microsoft Edge muestra cajas giratorias para introducir los datos. Observa la diferencia en los formatos de fecha (aaaa-mm-dd y mm/dd/aaaa).
+El navegador Firefox muestra el campo de fecha como un campo de texto. Esto podría plantear varios problemas relacionados con el formato de entrada y la validación.
+    En este ejemplo se muestra una tabla de soporte para el elemento input type='date'. Los números representan la versión del navegador.
+    El color determina el nivel de soporte. Verde: soporte completo. Oliva: Soporte parcial. Rojo: Sin soporte.
+
+Los navegadores Edge, Chrome y Opera están en verde, lo que significa que admiten el elemento input type='date'.
+Los navegadores Internet Explorer y Safari están en rojo, lo que significa que no admiten el elemento input type='date'.
+
+Los niveles de soporte cambian a medida que los desarrolladores de navegadores añaden nuevas funciones, así que compruébalo con frecuencia para comprobar si las funciones que
+    necesitas son compatibles.
+
+También puedes usar JavaScript para comprobar si un determinado elemento de HTML5 es compatible con un navegador. En primer lugar, cree un elemento DOM escribiendo
+    document.createElement () e incluya el tipo de elemento como argumento de parámetro.
+Como resultado, se crea el objeto DOM. Si el navegador no admite ese elemento, el objeto DOM que se crea tiene un conjunto de propiedades comunes, pero nada específico para ese
+    elemento.
+
+A continuación, comprueba si hay una propiedad o un método conocidos en el objeto DOM que has creado. Si esa propiedad o método no existe, el navegador aún no es totalmente
+    compatible con el elemento DOM (o la etiqueta HTML5) que se ha creado.
+Los navegadores que no admiten el elemento pueden volver a un comportamiento alternativo o predeterminado, como mostrar el campo como un campo de texto normal.
+
+A continuación, se muestra un ejemplo del uso de JavaScript para comprobar si un navegador admite un elemento HTML5 determinado. Este código se utiliza para comprobar si el
+    navegador admite el elemento input type='date'/
+
+En el ejemplo, se crea dinámicamente el objeto DOM para el elemento de entrada y, a continuación, se establece el atributo type en el valor de «date». « Si el navegador no
+    admite la entrada type=date, el campo se muestra en el navegador como un campo de texto normal.
+
+En este vídeo, descubrirá que no todos los navegadores son totalmente compatibles con todas las funciones que se describen en las especificaciones de HTML5 y CSS3, caniuse.com
+    tiene buenas tablas de soporte que muestran qué funciones son compatibles con cada navegador, y puede utilizar JavaScript para comprobar si un determinado elemento de HTML5
+    es compatible con un navegador. -->

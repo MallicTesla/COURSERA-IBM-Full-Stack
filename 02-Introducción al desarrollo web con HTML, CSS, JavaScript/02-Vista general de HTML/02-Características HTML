@@ -1,0 +1,49 @@
+Hola y bienvenidos a HTML Features. Tras ver este vídeo, podrás enumerar algunas de las características de HTML5, describir el modelo de objetos del documento o árbol DOM y
+    explicar cuándo utilizarías XML y cuándo utilizarías HTML.
+
+Entonces, ¿cuáles son algunas de las características de HTML5? Proporciona los medios para clasificar las páginas web en diferentes secciones e incluye herramientas para una
+    gestión eficaz de los datos, el dibujo, el vídeo y el audio. Facilita el desarrollo de aplicaciones multinavegador para la web y dispositivos portátiles.
+Permite una mayor flexibilidad, lo que permite el desarrollo de sitios web interesantes e interactivos. Ayuda a crear una experiencia de usuario más atractiva.
+Las páginas diseñadas con HTML5 pueden proporcionar una experiencia similar a la de las aplicaciones de escritorio. Permite un desarrollo mejorado y multiplataforma al combinar
+    la capacidad de una interfaz de programación de aplicaciones (API).
+
+Al usar HTML5, los desarrolladores pueden crear una experiencia de aplicación moderna que sea uniforme en todas las plataformas y dispositivos.
+Este es un ejemplo de un documento que se ajusta a la sintaxis de HTML5. Los documentos que tienen el tipo de medio texto o html se analizan mediante reglas HTML.
+Si un documento se transmite con un tipo de contenido HTML, como texto o HTML, los navegadores web lo procesan como documento HTML. En este ejemplo se utilizan los siguientes
+    elementos: The! DOCTYPE es una etiqueta de declaración que representa el tipo de documento.
+    ¡El! La declaración DOCTYPE no es una etiqueta HTML; es una instrucción para el navegador web sobre la versión de HTML en la que está escrita la página.
+    Si bien esta declaración no es obligatoria, debe figurar en la primera línea del código HTML si el desarrollador decide incluirla.
+    La etiqueta html es el elemento raíz de este árbol. Contiene todos los demás elementos HTML, excepto el! etiqueta doctype.
+Este ejemplo contiene dos elementos: cabeza y cuerpo. La etiqueta principal contiene una etiqueta de título, que en el ejemplo contiene el texto «Página de muestra».
+El elemento principal puede contener las siguientes etiquetas: título, guiones, estilo, enlaces a las hojas de estilo, metainformación, información de soporte del navegador y
+    otras funciones de inicialización.
+
+Por último, la etiqueta principal contiene todo el contenido que se muestra en la página web. Los agentes de usuario HTML, comúnmente conocidos como navegadores, analizan el
+    marcado y lo convierten en un árbol DOM (Document Object Model).
+
+Un árbol DOM es una representación en memoria de un documento. Los árboles DOM contienen varios tipos de nodos, que incluyen un nodo DOCTYPE, elementos como encabezados y
+    párrafos, nodos de texto y nodos de comentarios.
+
+Este es un ejemplo de un documento que se ajusta a la sintaxis XML de HTML5. Los documentos en lenguaje de marcado extensible (XML) tienen un aspecto similar al de los
+    documentos HTML, excepto que tienen una etiqueta XML en la primera línea. Además, en el caso de los documentos XML, el tipo de contenido debe especificarse como un tipo de
+    soporte XML, como aplicación o xml. Cuando un documento se transmite con un tipo de contenido XML, un navegador web lo trata como un documento XML y un procesador XML
+    analiza el documento.
+
+¿Cómo se decide si usar HTML o XHTML para desarrollar páginas web? Cuál de las dos opciones que elija está relacionada con la forma en que piensa utilizar la aplicación.
+Por ejemplo, ¿utiliza XSLT (Extensible Style Sheet Language Transformations) para crear otros documentos y recursos a partir de sus páginas web? Las personas están igualmente
+    divididas sobre si usar XHTML o HTML.
+
+Tanto HTML como XHTML utilizan la misma semántica o etiquetas. Sin embargo, todas las etiquetas XHTML deben estar en minúsculas, mientras que las mayúsculas y minúsculas
+    utilizadas no importan en HTML. Además, el XHTML debe estar bien formado. Cada elemento debe tener una etiqueta final. Todos los atributos deben tener un valor y todos los
+    valores de los atributos deben estar entre comillas dobles o simples.
+
+Si un analizador XML encuentra una situación en la que la sintaxis no está bien formada, detiene el procesamiento. En HTML, las mayúsculas y minúsculas, las comillas no
+    coincidentes y los elementos no terminados ni contenidos están permitidos y son habituales.
+
+En este sentido, la sintaxis HTML es menos rigurosa que la sintaxis XHTML.
+
+En este vídeo, aprendió que HTML5 incluye funciones para categorizar secciones de páginas web y administrar herramientas de datos, vídeo y audio.
+Le permite desarrollar una única aplicación multinavegador para la web y los dispositivos portátiles. y le ayuda a crear una experiencia de usuario más atractiva.
+
+El árbol DOM es una representación en memoria de un documento. Los árboles del DOM contienen nodos, que definen el tipo de documento y su estructura, como encabezados y párrafos,
+    nodos de texto y nodos de comentarios.

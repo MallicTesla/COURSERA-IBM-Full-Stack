@@ -1,0 +1,72 @@
+<!-- Bienvenido a HTML Scripting. Tras ver este vídeo, podrá definir las secuencias de comandos, explicar cómo los navegadores las habilitan e identificar los descriptores de acceso
+    al árbol DOM.
+
+El uso de secuencias de comandos en un sitio web, normalmente mediante JavaScript, se puede realizar directamente en el código HTML, dentro de la etiqueta `script`, o en un
+    archivo independiente denominado en el código HTML.
+La creación de scripts proporciona una experiencia de usuario más interactiva al navegar por sitios web.
+Se puede utilizar para diversas tareas, como la validación de formularios, el cambio dinámico del contenido de un sitio web y la manipulación de imágenes.
+
+Como las secuencias de comandos se pueden desactivar, se recomienda utilizar secuencias de comandos pero no confiar en ellas. Las secuencias de comandos están habilitadas para
+    el contexto del navegador cuando se cumplen las condiciones que se muestran en la diapositiva.
+
+El navegador en uso admite la creación de secuencias de comandos y el usuario tiene habilitadas las secuencias de comandos. HTML5 también define un tipo de medio aislado que
+    especifica un conjunto adicional de restricciones de contenido y se puede utilizar para alojar contenido que no sea de confianza.
+
+Este contexto de navegación aislado puede configurarse a nivel de página o especificarse como un atributo para los objetos incrustados.
+Al ejecutar una página que contiene un objeto incrustado sin el atributo sandbox, se otorgan al objeto incrustado los mismos permisos que al resto de la página.
+Esto da permiso implícito a un proveedor externo para ejecutar scripts con los mismos permisos que usted tiene para esa página, lo cual es una forma de permitir que aparezcan
+    anuncios en su aplicación sin darse cuenta.
+Por lo tanto, para evitar conceder permisos implícitos a los objetos incrustados, utilice el atributo sandbox en cualquier etiqueta que contenga un objeto incrustado.
+
+Cada documento HTML que se carga en una página del navegador se convierte en un objeto Document. El objeto Document proporciona acceso a todos los elementos HTML de una página y
+    se puede acceder a él desde un script.
+
+Los descriptores de acceso del árbol DOM son API de documentos HTML que proporcionan acceso a todos los elementos HTML de una página. La propiedad a la que se accede lleva el
+    prefijo del documento de Word.
+
+Por ejemplo, document.head devuelve el primer elemento principal secundario del elemento html, si lo hay; de lo contrario, es nulo. La función document.images devuelve una
+    colección HTML de los elementos de imagen del documento.
+
+La función document.scripts devuelve una colección HTML de los elementos del script del documento.
+
+Estos son algunos de los métodos más comunes del árbol DOM HTML: la función document.getElementById ('id') tiene un parámetro obligatorio que es el identificador del elemento al
+    que se quiere acceder.
+El identificador se especifica como un atributo en uno de los elementos que está codificado en otra parte de la página.
+La función document.getElementsByTagName ('tag') tiene un parámetro obligatorio que es el nombre de etiqueta del elemento al que se quiere acceder.
+
+Esta función devuelve una lista de nodos de todos los elementos cuya etiqueta coincide con el parámetro requerido. Se trata de un fragmento de HTML con código JavaScript que
+    utiliza la API del documento. Cuando se hace clic en Enviar dentro de la página que se está ejecutando en un navegador web, se inicia la función TextChecker.
+El archivo document.getElementById ('textField1') recupera el contenido de lo que se escribió en el campo de entrada que tiene el identificador de textField1 y lo coloca en una
+    variable.
+A continuación, la lógica de JavaScript comprueba si se ha escrito algún dato en el campo y se muestra un cuadro de diálogo de alerta con el resultado.
+
+Más adelante, en el ejercicio 1, se utilizará una función similar. Este es el resultado de ejecutar el código de la página anterior que utiliza la API del documento.
+
+El usuario escribe «Prueba» en el campo de entrada y hace clic en Enviar. El resultado se muestra en un cuadro de diálogo de alerta en la misma página.
+
+En este vídeo, aprendió que las secuencias de comandos se utilizan para proporcionar una experiencia de usuario más interactiva al navegar por sitios web.
+Como las secuencias de comandos se pueden desactivar, se recomienda utilizar secuencias de comandos pero no confiar en ellas. La creación de scripts está habilitada cuando se
+    cumplen determinadas condiciones del navegador.
+Los entornos limitados de HTML5 permiten gestionar combinaciones de iframes, es decir, páginas web que extraen contenido de más de un sitio.
+Los documentos HTML cargados en una página del navegador se convierten en objetos Document, a los que puede acceder mediante scripts. -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de Secuencias de Comandos HTML</title>
+    <!-- Se puede incluir el código de secuencias de comandos directamente en el archivo HTML -->
+    <script>
+        // Aquí se colocaría el código JavaScript
+        function saludar() {
+            alert('¡Hola! Esto es una demostración de secuencias de comandos en HTML.');
+        }
+    </script>
+</head>
+<body>
+    <!-- Se pueden llamar a las funciones definidas en las secuencias de comandos -->
+    <button onclick="saludar()">Saludar</button>
+</body>
+</html>

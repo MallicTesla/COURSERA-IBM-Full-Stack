@@ -1,0 +1,26 @@
+Bienvenido a Insiders' Viewpoints: Trabajando con HTML y CSS. En este vídeo, escucharemos a varios profesionales hablar sobre su experiencia trabajando con el lenguaje de marcado
+    de hipertexto (HTML) y las hojas de estilos en cascada (CSS).
+
+Uno de los principales desafíos que se presentan cuando se escribe en CSS, y cuando se acaba de empezar, es que puede resultar difícil introducir un elemento a la perfección en
+    un espacio, ya sea en toda la página o dentro de una caja, puede resultar difícil centrar las cosas con precisión y puede ser que esté un poco desviado.
+Y para eso, fue muy útil aprender Flexbox. Así que te animo a que lo intentes, lo comprendas y te sientas cómodo con Flexbox.
+
+Al trabajar con HTML y CSS, a veces el principal desafío es encontrar los errores o fallos en el código. Es importante validar el código con frecuencia. Puedes utilizar un
+    servicio de validación online de HTML y CSS para asegurarte de que el código tiene el formato correcto y que no faltan paréntesis, nombres de propiedades incorrectos, etc.
+
+Para descubrir cualquier error de CSS, también puedes utilizar las herramientas de desarrollo del navegador. Otro desafío es probar el código en diferentes navegadores.
+Algunos de los navegadores antiguos no admiten las funciones HTML modernas.
+
+Una vez que haya decidido las tecnologías que va a utilizar, es una buena idea investigar los navegadores que admiten estas funciones. También deberías añadir mecanismos de
+    respaldo a tu código HTML para los navegadores que no admitan las nuevas funciones.
+Por ejemplo, si utilizas vídeo HTML5, puedes añadir un enlace para descargar el vídeo como opción alternativa para los navegadores que no sean compatibles con el reproductor de
+    vídeo HTML5.
+
+Mi respuesta se centrará en el CSS, ya que es mucho más complejo que el HTML. En mi opinión, es impensable abordar el CSS multiplataforma sin utilizar un framework.
+Por lo tanto, el desafío es cómo elegir su framework y aquí hay algunas ideas.
+
+Bootstrap es uno de los más populares, tiene potentes capacidades para varios navegadores. Hay Fundación. Tiene una curva de aprendizaje significativa.
+
+Existe el framework materializado de Google, que tiene un conjunto de funciones optimizadas que muchos desarrolladores valoran.
+
+También está el kit de interfaz de usuario, que es el más popular en el desarrollo de iOS.
