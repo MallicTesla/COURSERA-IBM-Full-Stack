@@ -1,0 +1,44 @@
+"Bienvenido a las etiquetas y elementos estructurales de HTML5. Después de ver este vídeo, podrá: Listar los elementos específicos de HTML5.
+Describa la sección, el artículo, el encabezado, el pie de página, la figura y el subtítulo de los elementos estructurales de HTML5.
+Explica la diferencia entre elementos de navegación y agrupamiento.
+Hay muchos elementos específicos de HTML5. La tabla muestra algunos de ellos. Observe que las etiquetas de los elementos HTML5 tienen nombres intuitivos, como audio, que se
+    utiliza para incrustar contenido sonoro, y canvas, que se utiliza para contenido gráfico.
+No todas estas etiquetas de elementos están incluidas en este vídeo, así que dedique un momento a leer la tabla. En esta tabla se muestran más elementos de HTML5.
+La última etiqueta de la tabla es la etiqueta de comentarios.
+
+Los comentarios en HTML pueden ayudar al desarrollador a explicar lo que hace el código. Los navegadores no muestran estos comentarios, a menos que el usuario vea el código
+    fuente. En un diseño basado en divisiones, cada parte de una página a la que desee dar un formato diferente se divide en su propia división. Piense en las divisiones
+    naturales en las que puede dividir la página que se muestra aquí. Estas divisiones pueden incluir el título de la página, un encabezado con pestañas seleccionables, un área
+    para la imagen y más bloques para el texto y las imágenes en miniatura.
+La etiqueta div no se introdujo en HTML5, pero es un buen punto de partida para diseñar una página o un documento.
+
+A continuación, puede utilizar otros elementos estructurales específicos de HTML5 dentro de la etiqueta div.
+La mayoría de los elementos HTML tienen un significado semántico. En otras palabras, el elemento describe la función o el tipo de datos que contiene. Por ejemplo, un elemento p
+    es un párrafo que normalmente contiene texto. Por el contrario, la <div>etiqueta no tiene un significado semántico innato aparte de la agrupación lógica del contenido.
+Puedes usar estos elementos específicos para marcar tu sitio web, en lugar de usar los elementos genéricos div o span.
+
+Un artículo define un bloque de código que se puede distinguir del resto de la página. Una sección define una separación lógica en el documento, como los capítulos numerados de
+    un manual en línea.
+Un elemento de cabecera se utiliza para agrupar las cabeceras de una página.
+El pie de página define el área en la parte inferior de la página.
+Este ejemplo de código muestra algunos de los elementos estructurales de HTML5.
+En este caso, el elemento del artículo se utiliza para crear un reportaje de noticias en línea. El artículo incluye un encabezado. Dentro del artículo, la página está marcada en
+    secciones que tienen sus propios encabezados. La página también incluye un elemento de pie de página. La etiqueta lateral se usa para proporcionar información adicional
+    relacionada con la discusión principal.
+La etiqueta lateral te permite extraer y mostrar más contenido o acceder a recursos adicionales sin restar importancia a la discusión principal.
+La etiqueta de figura define un elemento autónomo al que se hace referencia en el contenido principal.
+El elemento de figura se puede utilizar para incrustar gráficos, imágenes o secciones de código.
+La etiqueta figcaption define el título del contenido del elemento de figura. Los sitios web suelen tener secciones dedicadas a los enlaces de navegación que conducen a estos
+    sitios o para moverse entre las páginas de una sola aplicación.
+
+En la sintaxis HTML5, estos enlaces de navegación se colocan dentro de una etiqueta de navegación. La etiqueta de navegación es una etiqueta práctica para agrupar los enlaces de
+    navegación en una página web.
+
+En este vídeo, aprendiste: Las etiquetas proporcionan control dentro de un documento HTML5. Algunas etiquetas proporcionan elementos estructurales: la etiqueta div separa las
+    áreas de un documento en divisiones, lo que permite aplicar diferentes estilos a diferentes partes del documento. Los elementos dedicados, como el artículo, la sección, el
+    encabezado y el pie de página, son más específicos que el elemento div genérico. Las etiquetas side, figure y figcaption permiten agrupar contenido. Y las etiquetas de
+    navegación te permiten agrupar enlaces de navegación."
+
+
+mas etiquetas
+https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstQ0QwMTAxRU4tU2tpbGxzTmV0d29yay9SZWFkaW5ncy9Nb2R1bGUlMjAzL2NvbW1vbl9odG1sX3RhZ3NfYW5kX3N0cnVjdHVyYWxfZWxlbWVudHMubWQiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImFkbWluIjpmYWxzZSwiaWF0IjoxNjcxMTg3NTk5fQ.E55Cm1tBRr3NAYRhrcMV4Twrxv5sLgtvpB0E7DIUTyg

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" type="text/css" href="08-02 estilos.css">
+        <title>Conversor</title>
+    </head>
+
+    <body>
+        <section id="home">
+            <header>
+                Conversor de Unidades
+            </header>
+            <nav>
+                <div>
+                    <a href="#temperature"><button> Temperatura </button></a>
+                    <a href="#weight"><button> Peso </button></a>
+                    <a href="#distance"><button> Distancia</button></a>
+                </div>
+            </nav>
+        </section>
+
+        <div id="all-conversion-sections">
+            <section id="temperature">
+                <div id="tmp">
+                    <figure>
+                        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="150px"/>
+                        <figcaption>Conversión de Celsius a Fahrenheit</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>Temperatura</legend>
+                            <label for="Temperature">Celsius</label> <br/>
+                            <input type="number" id="c"> <br/>
+                            <button id="temperature">Convertir</button> <br/>
+                            <input type="number" id="f"> <br/>
+                            <label for="Temperature">Fahrenheit</label>
+                        </fieldset>
+                        <aside>
+                            Para convertir Celsius a Fahrenheit, usa esta fórmula reemplazando `C` con tu temperatura en grados Celsius: (C × 9/5) + 32
+                        </aside>
+                    </article>
+                </div>
+            </section>
+        
+            <section id="weight">          
+                <div id="wgt">
+                    <figure>
+                        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" width="150px"/>
+                        <figcaption>Conversión de Kilogramos a Libras</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>Peso</legend>
+                            <label for="Weight">Kilogramos</label> <br/>
+                            <input type="number"> <br/>
+                            <button id="weight">Convertir</button> <br/>
+                            <input type="number"> <br/>
+                            <label for="Weight">Libras</label>
+                        </fieldset>
+                        <aside>
+                            Para convertir kilogramos a libras, usa esta fórmula reemplazando `kg` con tu peso en kilogramos: kg x 2.205
+                        </aside>      
+                    </article>
+                </div>
+            </section>
+            
+            <section id="distance">
+                <div id="dst">
+                    <figure>
+                        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png" width="150px"/>
+                        <figcaption>Conversión de Kilómetros a Millas</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>Distancia</legend>
+                            <label for="Distance">Kilómetros</label> <br/>
+                            <input type="number"> <br/>
+                            <button id="distance">Convertir</button> <br/>
+                            <input type="number"> <br/>
+                            <label for="Distance">Millas</label>
+                        </fieldset>
+                        <aside>
+                            Para convertir kilómetros a millas, usa esta fórmula reemplazando `km` con tu distancia en kilómetros: km ÷ 1.609
+                        </aside>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <div id="go-home">
+            <a href="#home">
+                <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
+            </a>
+        </div>
+        <footer>Aprende más sobre HTML y CSS como parte de la Certificación de Desarrollador en la Nube Fullstack de IBM</footer>
+    </body>
+</html>

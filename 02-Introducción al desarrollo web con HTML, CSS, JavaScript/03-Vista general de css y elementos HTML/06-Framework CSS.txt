@@ -1,0 +1,75 @@
+"Bienvenido a CSS Frameworks. Después de ver este vídeo, podrá: diferenciar entre los diferentes tipos de framework CSS, enumerar las ventajas y desventajas de cada tipo de Framework
+    popular e identificar los Framework CSS populares y cómo usarlos.
+
+Recuerde que un Framework proporciona una base sobre la que puede construir su código. Los Framework CSS, específicamente, pueden proporcionarte todas las herramientas que
+    necesitas para crear una interfaz de usuario (o UI) básica. Esto facilita: Implementar varios elementos visuales en una página.
+
+Esto puede incluir barras de navegación, formularios y cuadrículas y crear sitios web dinámicos y adaptables, lo que puede hacer que un sitio web sea adecuado para cualquier
+    tamaño de pantalla.
+
+Dado que los Framework deben usarse desde la creación del proyecto, es importante conocer los diferentes tipos de Framework disponibles. Los distintos Framework se centran en
+    distintas características, por lo que es importante identificar cuáles son las más importantes para el proyecto a la hora de decidir qué Framework utilizar.
+
+Existen dos tipos de Framework CSS: Framework de utilidades y Framework de componentes. Al no usar ningún Framework y simplemente usar CSS simple (también llamado CSS Vanilla),
+    es necesario que escribas todo el estilo por tu cuenta.
+Esto te da la libertad de diseñar todo exactamente como quieras, pero también requiere mucho tiempo y esfuerzo, ya que debes diseñar cada componente.
+
+Una alternativa a esto es usar un Framework de utilidades, que te proporciona clases de «utilidades» que se centran en una sola propiedad de CSS. Esto facilita la aplicación de
+    las propiedades CSS directamente en el código HTML, lo que puede ahorrar mucho tiempo y, al mismo tiempo, te da la libertad de diseñar los componentes como desees.
+
+Los Framework de componentes le proporcionan componentes y plantillas prediseñados que son fáciles de añadir a cualquier sitio web. Esto requiere pocos conocimientos de CSS y
+    facilita el mantenimiento de estilos coherentes, pero también limita solo a los componentes que ofrece el Framework.
+
+Los Framework que dan prioridad a las utilidades le proporcionan una forma sencilla de hacer referencia a las propiedades del CSS. Por lo general, se presentan en forma de
+    clases, denominadas clases de utilidad, que se refieren a clases CSS de un solo propósito. En lugar de tener que escribir toda la propiedad del CSS, los Framework que dan
+    prioridad a las utilidades permiten utilizar una propiedad haciendo referencia a su clase correspondiente dentro del atributo «class» del elemento HTML deseado.
+Por ejemplo, en lugar de utilizar la propiedad CSS «text-align: center;» en el código, un Framework que dé prioridad a las utilidades podría tener una clase autodescriptiva,
+    como «text-center», que hace lo mismo cuando se agrega al atributo «class» de un elemento HTML. Facilitan la coherencia con las elecciones de color, el espaciado, la
+    tipografía, las sombras y todo lo demás que constituye un sistema de diseño bien diseñado.
+
+Sin embargo, tener estos estilos mezclados en las clases de HTML reduce las separaciones preocupantes dentro del código, lo que hace que el marcado HTML sea más detallado.
+Dado que los framework que dan prioridad a la utilidad implican añadir muchas clases al marcado HTML, esto suele provocar que el tamaño de descarga del marcado aumente y,
+    potencialmente, ralentice las páginas web.
+
+Tailwind CSS es un framework CSS muy popular que se utiliza en la actualidad y que se utiliza en la actualidad. Está repleto de clases que se pueden componer para crear
+    cualquier diseño directamente en tu lenguaje de marcado. Por ejemplo, supongamos que quieres darle un estilo a un enlace para indicar que es peligroso.
+Puedes subrayar el texto del enlace y cambiar el color del texto a rojo, así como hacer que el enlace tenga un tono rojo más oscuro al pasar el ratón por encima. Hacerlo en CSS
+    estándar requeriría este código, en el que debes especificar el aspecto que tendrá el enlace con regularidad y cuándo colocarás el cursor sobre él en dos secciones distintas.
+Sin embargo, con Tailwind CSS, se puede hacer fácilmente dentro del atributo «class», directamente en el HTML, lo que puede ahorrar tiempo al desarrollador. La parte «hover» del
+    CSS de Tailwind es un tipo de clase especial, denominada modificador, que se puede utilizar con cualquier otra clase de Tailwind y solo se aplica cuando el usuario pasa el
+    ratón sobre ese elemento.
+Hay muchos ejemplos de modificadores en el CSS de Tailwind, algunos de los cuales pueden facilitar la creación de sitios web adaptables que se adapten a cualquier tamaño de
+    pantalla. Por ejemplo, si agregas «md:» antes de una clase, solo se aplicará la clase cuando el tamaño de la pantalla del usuario sea superior a 768 píxeles de ancho, lo que
+    Tailwind define como una pantalla de tamaño medio. Este código mostrará una imagen con un ancho de 16 (64 píxeles) de forma predeterminada, un ancho de 32 (128 píxeles) en
+    pantallas medianas y un ancho de 48 (192 píxeles) en pantallas grandes.
+
+Esto ahorra mucho tiempo a los desarrolladores a la hora de diseñar muchos elementos diferentes, lo que les permite centrarse más en el back-end. También les proporciona la
+    libertad de diseñar los elementos como quieran.
+
+Los framework de componentes proporcionan componentes prediseñados que se pueden agregar fácilmente a su código. Esto se traduce en la capacidad de desarrollar rápidamente
+    sitios web bien diseñados, ya que se necesita dedicar mucho menos tiempo a diseñar cada elemento. También hace que sea más fácil mantener todos los elementos relacionados
+    con un estilo uniforme, ya que puedes simplemente elegir estilos iguales o similares cada vez.
+Sin embargo, tener todos estos estilos predefinidos te limita únicamente a lo que proporciona el framework y no te da la libertad de personalizar todo exactamente como quieras.
+También proporcionan una gran cantidad de códigos generales que, de otro modo, no obtendrías si decidieras no utilizar ningún framework, ya que los framework de componentes
+    suelen proporcionarte más componentes de los que utilizarías.
+
+Uno de los framework CSS de componentes más populares que se utilizan en la actualidad se llama Bootstrap. Te permite crear sitios rápidos y adaptables con un conjunto de
+    herramientas de interfaz repleto de funciones. Si tomamos el ejemplo de añadir un enlace de peligro rojo a tu página web, como vimos anteriormente, podemos ver lo fácil que
+    sería con Bootstrap. Recuerda cómo añadir esto con Vanilla CSS y Tailwind CSS. Bootstrap proporciona un enlace peligroso rojo como uno de sus muchos componentes, por lo que
+    puede añadirlo simplemente utilizando la clase «link-danger».
+
+Al ver todos estos enlaces uno al lado del otro, queda claro que, en este ejemplo, bootstrap es el que tiene la implementación más sencilla de un enlace peligroso.
+Sin embargo, puede que no siempre sea así. Además de proporcionar componentes HTML individuales, como botones y enlaces, Bootstrap también proporciona plantillas completas que
+    van desde algo tan completo como un sitio web completo hasta una simple página de inicio de sesión.
+En general, todos los componentes y funciones de Bootstrap ahorran tiempo al diseñar páginas web y permiten mantener la coherencia con los estilos de todo el sitio web.
+Su facilidad de uso también significa que no es necesario ser un experto en CSS para usarlo, ¡solo se necesitan conocimientos limitados para usar sus funciones básicas! Sin
+    embargo, es importante tener en cuenta que los componentes que puede proporcionar son limitados y es posible que no tenga los que estás buscando.
+
+En este vídeo, aprendiste que los framework CSS facilitan la implementación de elementos de la interfaz de usuario y la creación de páginas web aptas para dispositivos móviles.
+El CSS simple o estándar te permite escribir todos los estilos y diseños de un sitio web por tu cuenta. Utility-First Frameworks le proporciona clases de utilidad para ayudarlo
+    a crear sus propios estilos y diseños.
+
+El CSS de Tailwind consta de clases compuestas para crear diseños directamente sobre el marcado. Los framework de componentes le proporcionan una amplia selección de componentes
+    y plantillas prediseñados, que se pueden implementar en su sitio web.
+
+Bootstrap permite a los desarrolladores crear sitios rápidos y adaptables con su kit de herramientas de front-end repleto de funciones."

@@ -1,0 +1,19 @@
+"En este módulo ha aprendido que:
+
+CSS crea un aspecto uniforme en cada elemento de cada página del sitio web.
+
+CSS suele codificarse en hojas de estilo externas y crea estilos de base para un sitio web.
+
+Los framework CSS ayudan a implementar elementos de interfaz de usuario y a crear páginas web dinámicas.
+
+CSS tiene dos tipos de framework:
+
+Los frameworks de utilidad, que proporcionan clases de utilidad para ayudar en la construcción de estilos y diseños propios.
+
+Framework de componentes, que proporcionan una amplia selección de componentes y plantillas preestilizados que pueden implementarse en una página web.
+
+El CSS plano (Vanilla) permite a los desarrolladores escribir los estilos y diseños de un sitio web.
+
+Los elementos HTML5 proporcionan estructura y función a los sitios web.
+
+HTML5 utiliza la etiqueta <input> para permitir a los usuarios introducir información."

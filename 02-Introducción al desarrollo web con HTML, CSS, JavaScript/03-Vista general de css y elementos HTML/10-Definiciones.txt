@@ -1,0 +1,17 @@
+"Framework de componentes
+Los framework de componentes proporcionan plantillas y componentes prediseñados que son fáciles de agregar a cualquier sitio web.
+
+CSS
+Las "hojas de estilo en cascada" son un lenguaje de hojas de estilo que describe cómo se muestran los elementos HTML.
+Es el diseño que se superpone en la parte superior de una página web HTML.
+
+Diseño fijo
+Un diseño fijo es un diseño en el que usted especifica la altura y el ancho de los elementos, y esos valores permanecen iguales independientemente del sistema operativo o
+    navegador que utilice para acceder al sitio web.
+
+Diseño fluido
+Un diseño fluido es un diseño en el que la altura y el ancho de los elementos son flexibles y pueden expandirse o contraerse según la ventana del navegador, el sistema operativo
+    y otras preferencias del usuario.
+
+Framework de utilidad
+El framework de utilidad proporciona clases de utilidad cuyo ámbito es propiedades CSS individuales, lo que ayuda a crear diseños personalizados en archivos HTML."

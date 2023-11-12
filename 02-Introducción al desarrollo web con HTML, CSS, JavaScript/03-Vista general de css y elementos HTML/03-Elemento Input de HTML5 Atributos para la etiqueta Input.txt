@@ -1,0 +1,50 @@
+"Bienvenido a HTML5 Input Element — Attributes for the Input Tag. Tras ver este vídeo, podrá describir los atributos de los elementos de entrada HTML5, explicar los distintos
+    atributos de los tipos de entrada, como el teléfono, el correo electrónico, la fecha y hora, el número, el rango y el color, y la importancia de implementar un sistema
+    alternativo de validación.
+
+El atributo type='color'»/de entrada permite al usuario seleccionar un color.
+El cuadro de diálogo varía según el navegador. Algunos navegadores no admiten este tipo de entrada. En los navegadores no compatibles, este tipo de entrada se muestra como un
+    campo de entrada de texto normal en el que el usuario puede escribir un nombre o un código de color válidos.
+
+El atributo type='date» de entrada es un control de fecha (año, mes, día) sin zona horaria'. En el ejemplo, se muestra el campo de entrada type='date» tal y como aparece en Google Chrome'.
+El cuadro de diálogo de entrada varía de un navegador a otro.
+
+El atributo datetime-local proporciona entradas para una fecha y hora (año, mes, día, hora, minuto, AM/PM) sin zona horaria.
+El campo de entrada datetime-local se muestra como un calendario desplegable en el navegador Google Chrome. La hora se puede escribir o introducir con el control giratorio.
+
+El atributo input type='email'» se muestra como un campo de entrada de texto normal. Proporciona comentarios cuando la entrada no sigue el formato de correo electrónico.
+
+La entrada type='number'» toma un valor numérico como entrada. Si lo desea, puede especificar los valores mínimo y máximo, el tamaño del paso, etc. En el ejemplo se muestra el
+    selector de números del navegador Chrome. Solo se pueden seleccionar los números entre 5 y 10.
+
+La entrada type='range'» toma un rango numérico como entrada. En el ejemplo, se muestra el selector de números del navegador Chrome. Solo se pueden seleccionar los números
+    en el rango del mínimo y el máximo. El atributo de rango muestra un control deslizante con un rango de valores entre el mínimo y el máximo. Solo se muestra el propio
+    deslizador. Se necesita código JavaScript adicional para mostrar el valor del control deslizante.
+
+Las diferencias entre la entrada type='search'»/y la entrada type='text'»/son principalmente de estilo. Los navegadores basados en WebKit devuelven un historial de las cadenas
+    de texto buscadas recientemente. El campo de entrada de búsqueda del navegador Safari tiene esquinas redondeadas.
+
+El atributo input type='tel'» pattern= '[parameters]'» espera un número de teléfono como entrada. Por sí sola, la entrada type='tel'» no proporciona más que un campo de entrada
+    de texto en los navegadores. No exige la introducción únicamente numérica, ya que muchos números de teléfono incluyen otros caracteres, como el signo más y los guiones.
+    Debe proporcionar su propio comparador de patrones si desea que el navegador valide el número de teléfono.
+
+El atributo URL se usa para validar que el usuario escribió una URL o dirección web con el formato correcto.
+
+La lista de entrada ='some_list'» utiliza la función de lista de datos. No debe confundirse con el elemento seleccionado. Las opciones de la lista de datos son solo sugerencias.
+    Útil para la funcionalidad de autocompletar. Puede rellenar la lista anidando los <option>elementos dentro de la etiqueta de la lista de datos. Estas opciones son los tipos
+    de frutas que aparecen en la lista desplegable. El texto de marcador de posición se utiliza para dar pistas sobre el aspecto del formato del texto de entrada.
+
+El marcador de posición rellena el campo de texto de entrada con los valores del ejemplo en un tono de texto más claro. El formulario no envía el valor del texto del marcador
+    de posición si el texto introducido no se sobrescribe. El atributo obligatorio implica que se debe escribir algún texto. El requisito de escribir alguna entrada se aplica
+    incluso si el campo contiene texto de marcador de posición.
+
+¿Qué ocurre si la validación basada en el navegador no es compatible con estos atributos de entrada? Existen varias opciones para realizar la validación en navegadores que no
+    admiten todos los atributos de entrada de HTML5.
+
+Puede utilizar las bibliotecas JavaScript y jQuery. Puedes suponer que, con el tiempo, serán más los navegadores que admitan estas funciones y dejar que toda la validación final
+    se encargue del procesamiento del lado del servidor.
+
+Puede codificar la validación del lado del cliente que se adjunta al controlador de eventos de envío del formulario para validar todos los campos del formulario cuando se envíe
+    el formulario.
+
+En este vídeo, aprendiste: Los atributos comunes de la etiqueta de entrada y cómo implementar la validación alternativa."

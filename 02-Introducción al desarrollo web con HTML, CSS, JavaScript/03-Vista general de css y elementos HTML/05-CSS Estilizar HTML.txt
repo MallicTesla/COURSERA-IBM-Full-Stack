@@ -1,0 +1,70 @@
+"Bienvenido a CSS: Diseñar HTML Tras ver este vídeo, podrá: Explicar qué es una hoja de estilos en cascada (CSS) Describir cómo utilizar el CSS para dar formato a los elementos
+    HTML Describir cómo utilizar el CSS en documentos HTML para dar formato a páginas web Al utilizar una combinación de HTML5, JavaScript y hojas de estilos en cascada, los
+    desarrolladores pueden crear páginas web que se pueden mostrar en ordenadores de sobremesa y dispositivos móviles.
+
+Estas tecnologías tienen potentes funciones que se pueden utilizar para mostrar aplicaciones interactivas sofisticadas sin necesidad de tecnologías de complementos, como el
+    reproductor multimedia Flash.
+
+Los documentos HTML pueden renderizarse en una ventana del navegador o mediante un sintetizador de voz para proporcionar tecnologías de asistencia a las personas con
+    discapacidad visual. Poder cumplir con los requisitos de accesibilidad es una de las ventajas de utilizar el marcado HTML en lugar de los complementos del navegador para
+    ofrecer contenido interactivo.
+
+El CSS es el diseño que se coloca en capas sobre la parte superior de una página web HTML El CSS es un lenguaje de hojas de estilos que describe cómo se muestran los elementos
+    HTML. Lo que hace que la hoja de estilos esté «en cascada» es que los desarrolladores pueden aplicar CSS para crear una apariencia uniforme en cada elemento de cada página
+    del sitio web.
+Los elementos secundarios y descendientes suelen heredar los estilos que se definen para los elementos principales; sin embargo, existen excepciones a esta regla. En el caso de
+    los sitios web, es importante separar los datos del diseño. Los datos se envían al navegador mediante HTML y el diseño se aplica a esos datos mediante un CSS.
+Esta separación permite a las personas renderizar una página web sin su diseño si tienen necesidades especiales de accesibilidad. Permite que las máquinas (como los motores de
+    búsqueda) indexen un sitio web sin que el diseño interfiera.
+
+Puede codificar CSS como atributo de estilo en una etiqueta HTML, la sección principal de un documento o un documento externo La preferencia es codificar CSS en externo
+    documentos (denominadas hojas de estilo) Puede utilizar CSS para controlar la apariencia de un documento y especificar reglas de estilo para los siguientes elementos de la
+    página web: Fuentes, colores del texto, fondos, tamaños, bordes, espaciado, posicionamiento, efectos visuales, tablas y listas, los elementos de estilo CSS se estructuran de
+    esta manera.
+<li><label> En este ejemplo, el nombre de la etiqueta html puede ser uno de los siguientes elementos: Cualquiera de las etiquetas que encuentre en el código HTML (por ejemplo
+    <a><div>, etc.)
+Una referencia de identificación que aparece precedida por un símbolo hash (#) en el código CSS Una referencia de clase que aparece precedida por un símbolo de punto o punto (.)
+    en el código CSS Al diseñar un sitio, comience por establecer el estilo base.
+
+Establezca un estilo base estilizando la <body>etiqueta, como se muestra aquí. En este ejemplo se crean los siguientes estilos: Establece el color de fondo: blanquecino (color
+    de fondo) Garantiza que el color de la fuente sea negro (color) Garantiza que todos los bordes del contenido coincidan con el borde del marco de la ventana del navegador
+    (margen y relleno) Alinea horizontalmente el contenido textual hacia la izquierda (alineación de texto) Establece el tamaño de fuente predeterminado del navegador
+    (tamaño de fuente) y utiliza una fuente sans-serif (una fuente sin pequeños movimientos alrededor de los bordes) como familia de fuentes (font-family)
+Esta configuración es sencilla. En general, siga estas pautas: Cuando se especifique un color, utilice valores de luz hexadecimales rojo-verde-azul (RGB). Cuando se especifique
+    un tamaño, utilice píxeles (indicados con un px después del número); una em, que se indica con em después del número (es decir, el tamaño de la fuente multiplicado por el
+    número especificado); o un porcentaje, que se indica con un% después del número.
+
+El texto se puede alinear a la izquierda, a la derecha o al centro. Los flotadores también pueden estar a la izquierda o a la derecha. Las alineaciones verticales deben estar
+    en la parte superior, media o inferior.
+
+Las fuentes pueden ser cualquier fuente o familia de fuentes específica (serif, sans-serif o monospace) o incluso una fuente descargable.
+
+Una de las decisiones más importantes que debe tomar al determinar el diseño de su sitio web es si usar un diseño fluido o fijo: un diseño fluido : es un diseño en el que la
+    altura y el ancho de los elementos son flexibles y se pueden expandir o contraer según la ventana del navegador, el sistema operativo y otras preferencias del usuario.
+
+Estos elementos se especifican principalmente mediante porcentajes y puntos porcentuales. Un diseño fijo: es un diseño en el que se especifican la altura y el ancho de los
+    elementos, y esos valores permanecen iguales independientemente del sistema operativo o el navegador que utilice para acceder al sitio web.
+Estos elementos se especifican principalmente mediante píxeles. Al determinar el diseño, tenga en cuenta también las ventajas y desventajas de los diseños fluidos y fijos.
+
+El tipo de diseño que elija depende del tipo y la cantidad de contenido y del público objetivo del sitio web. Para aplicar un CSS, debe indicar al navegador dónde debe buscarlo.
+Este paso es el único punto verdadero en el que HTML hace referencia a un CSS.
+
+Puedes hacer la referencia de tres maneras: CSS integrado. Se usa para un solo elemento HTML, pero el documento HTML puede ensuciarse rápidamente a medida que se agregan más
+    estilos.Para usar este método, inserta el atributo «style» dentro de cualquier elemento HTML, entonces hay un CSS interno. Se usa para una sola página, sin embargo, «ensucia»
+    la página con un código que no es HTML. Si copias y pegas este estilo en cada página, este enfoque aumenta el tiempo de carga de cada página, lo que hace que el usuario
+    espere más. Para usar este método, <style>se debe usar la etiqueta, con el código CSS dentro.
+
+Por último, está el CSS externo. Este método se utiliza para dar estilo a un sitio web completo. Puede crear un enlace a él desde otras páginas, lo que garantiza un HTML limpio
+    y un tamaño de página más pequeño. Para utilizar este método, <link>la <head>etiqueta debe añadirse a la sección de etiquetas del código HTML. Si bien no se recomienda, es
+    posible utilizar una combinación de las tres formas.
+
+En este caso, si más de un método CSS apunta a un elemento, el tipo con la prioridad más alta anulará a los demás y se aplicará a ese elemento. El orden de prioridad de los
+    estilos CSS es el CSS en línea, que tiene una prioridad más alta que el CSS interno, que, a su vez, tiene una prioridad más alta que el CSS externo.
+
+En este vídeo, aprendiste: el CSS crea un aspecto uniforme en cada elemento de cada página del sitio web El diseño CSS es independiente de los datos. El diseño se puede eliminar
+    para obtener una accesibilidad especial. Los motores de búsqueda pueden indexar el sitio web sin que el diseño interfiera.
+
+El CSS suele codificarse en hojas de estilo externas Cree primero estilos base para su sitio web.
+También aprendió que debe elegir un tipo de diseño Fluido: la altura y el ancho de los elementos son flexibles y pueden expandirse o contraerse o Fijo: el alto y el ancho de los
+    elementos son flexibles y pueden expandirse o contraerse o Fijo: el alto y el ancho de los elementos sigue siendo el mismo Y, por último, el HTML hace referencia al CSS de
+    tres maneras: CSS en línea , CSS interno y CSS externo."

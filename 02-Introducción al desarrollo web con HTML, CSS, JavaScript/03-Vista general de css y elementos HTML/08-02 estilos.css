@@ -1,0 +1,51 @@
+/* Estilo global para todos los elementos */
+* {
+    margin: 10px; /* Margen de 10 píxeles en todos los lados */
+    background-color: black; /* Color de fondo negro */
+}
+
+/* Estilos para la Home sección */
+#home {
+    margin: -1px -1px 1cm; /* Margen de -1 en la parte superior izquierda y derecha, acolchado inferior de 1cm */
+    background-color: magenta; /* Color de fondo más claro de azul magenta */
+}
+
+/* Estilos para la Header sección */
+header {
+    font-size: 30px; /* Tamaño de fuente de 30 píxeles */
+    color: lightpurple; /* Color morado claro */
+    float: left; /* Flotar hacia la izquierda */
+    padding-left: 2cm; /* Relleno de 2cm a la izquierda */
+}
+
+/* Estilos para el contenedor de la barra de navegación */
+nav {
+    float: right; /* Flotar hacia la derecha */
+    padding-right: 1cm; /* Acolchado de 1cm a la derecha */
+}
+
+/* Estilos para los botones de la barra de navegación */
+nav a button {
+    color: lightgray; /* Color de texto gris claro */
+    background-color: darkviolet; /* Color de fondo violeta oscuro */
+    margin: 10px; /* Margen de 10 píxeles */
+    padding: 10px; /* Relleno de 10 píxeles */
+    border-radius: 1mm; /* Radio de borde de 1mm */
+    font-size: 20px; /* Tamaño de fuente de 20 píxeles */
+    /* Decoración de texto opcional (puedes agregar más estilos según sea necesario) */
+}
+
+/* Estilos para los botones de la barra de navegación al pasar el mouse (hover) */
+nav a button:hover {
+    color: white; /* Color blanco */
+    font-weight: bold; /* Peso de fuente más negrita */
+    background-color: purple; /* Color de fondo morado */
+    /* Decoración de texto opcional (puedes agregar más estilos según sea necesario) */
+}
+
+
+
+
+
+
+
