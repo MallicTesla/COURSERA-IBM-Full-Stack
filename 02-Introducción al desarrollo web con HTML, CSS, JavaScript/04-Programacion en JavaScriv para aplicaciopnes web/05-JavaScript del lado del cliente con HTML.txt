@@ -1,0 +1,35 @@
+"Bienvenido a JavaScript del lado del cliente con HTML. Tras ver este vídeo, podrá definir un script del lado del cliente, dar ejemplos de cuándo se pueden utilizar los scripts
+    del lado del cliente, explicar cómo utilizar la etiqueta noscript y describir el enlace de eventos en los scripts.
+Un script del lado del cliente es un programa que acompaña a un documento HTML o que puede estar incrustado directamente en el propio documento HTML.
+El programa de script se ejecuta en el dispositivo cliente cuando se carga el documento o en algún otro momento, como cuando se activa un enlace o cuando se hace clic en un
+    botón. Aunque JavaScript se utiliza ampliamente como lenguaje de secuencias de comandos en HTML, en su lugar se pueden utilizar otros lenguajes de secuencias de comandos.
+
+Los scripts ofrecen a los autores un medio para modificar y ampliar los documentos HTML de forma muy interactiva.
+Los scripts se pueden ejecutar después de cargar un documentoHTML.
+Los scripts se pueden usar para validar formularios o procesar la entrada a medida que se escribe.
+Los scripts se pueden activar por eventos que se producen en una página web, como el clic de un botón.
+Los scripts se pueden utilizar para crear dinámicamente elementos de documentos en una página HTML.
+
+Esta diapositiva muestra dos formas en las que se utiliza la etiqueta de script para incluir scripts en un documento HTML. El ejemplo 1 muestra cómo se puede incluir un script
+    directamente dentro del documento HTML. Este método es adecuado para guiones cortos, pero cuando un guion es largo, se prefiere el método utilizado en el ejemplo 2.
+El ejemplo 2 utiliza el atributo SRC para apuntar a un archivo de script externo. Este método tiene varios casos de uso, como la importación de bibliotecas de JavaScript para
+    interacciones complejas o el uso del mismo script en varios documentos HTML.
+
+Es posible que algunos usuarios que visiten su sitio web deshabiliten la ejecución de JavaScript o que utilicen un navegador que no admite secuencias de comandos. Para tener en
+    cuenta estas situaciones, coloca el contenido de la ruta alternativa dentro de la etiqueta noscript. Si el navegador no admite la creación de scripts, ejecuta la sección de
+    código que se encuentra dentro de la etiqueta noscript.
+
+Los scripts se pueden ejecutar al detectar determinados eventos que se producen cuando la página se ejecuta en una sesión de navegador. Llamar a una función cuando se produce un
+    evento se denomina enlace de eventos. Por ejemplo, el evento onload puede ejecutar un script cuando el navegador termina de cargar una página. O bien, se puede ejecutar una
+    función cuando se produce el evento onclick. Este evento se produce cuando se hace clic en el dispositivo señalador sobre un elemento, como un botón, que declara un
+    controlador para el evento.
+El controlador de eventos es una función que declara qué hacer cuando se hace clic en el botón. Otros eventos útiles incluyen pasar el ratón por encima, que se produce cuando el
+    cursor se mueve sobre un elemento. Aquí, el controlador de eventos en línea denominado showAnswers se ejecuta cuando se hace clic en el botón.
+
+En este vídeo, aprendió que un script del lado del cliente es un programa que acompaña a un documento HTML. Incluso puede estar incrustado en el propio HTML. Los scripts ofrecen
+    a los desarrolladores formas de ampliar los documentos HTML para mejorar la experiencia del usuario, especialmente mediante la incorporación de más elementos interactivos.
+
+Puede utilizar la etiqueta script para incluir un script en el documento HTML o para llamar a un script desde un archivo externo.
+Utilice la etiqueta noscript para proporcionar una alternativa cuando las secuencias de comandos estén deshabilitadas.
+Los scripts se pueden vincular a eventos para que se ejecuten automáticamente. Por ejemplo, el evento onload puede crear un script cuando el navegador termina de cargar una
+    página."

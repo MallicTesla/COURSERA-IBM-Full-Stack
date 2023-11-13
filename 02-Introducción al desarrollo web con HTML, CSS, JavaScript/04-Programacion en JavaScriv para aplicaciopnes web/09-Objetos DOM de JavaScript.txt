@@ -1,0 +1,31 @@
+"Bienvenido a JavaScript Dom Objects. Tras ver este vídeo, podrás enumerar los tipos de nodos relacionados, mostrar cómo acceder a los elementos del documento y explicar la
+    denominación de los objetos.
+
+El DOM de nivel 2 del W3C define 12 tipos diferentes de nodos, siete de los cuales tienen aplicabilidad directa en documentos HTML. Los tipos de nodos que no son aplicables al
+    HTML se omiten de la tabla. Esta tabla es de interés para que, al ver un árbol DOM, comprenda el significado de los tipos de nodos numéricos.
+Cada tipo de nodo es una constante con nombre que también se representa mediante un valor entero. Así, por ejemplo, un tipo ELEMENT_NODE está representado por el entero 1, un
+    tipo ATTRIBUTE_NODE está representado por el entero 2, un tipo TEXT_NODE está representado por el entero 3 y un COMMENT_NODE está representado por el entero 8.
+
+En el árbol DOM, el nombre de nodo del tipo ELEMENT_NODE es el nombre del elemento o la etiqueta. Por ejemplo, si está buscando un elemento DIV, el nombre del nodo es DIV.
+Si el elemento DIV tiene un atributo como id=div123, el nombre del atributo es «id» y el valor del atributo es «div123», que es el par nombre-valor. Otro ejemplo: si un
+    elemento de párrafo va seguido de algún texto, la cadena de texto tiene el nombre de nodo hash- sign-text y el valor del nodo es la propia cadena de texto. En la tabla se
+    enumeran algunas de las propiedades de los objetos de nodo del DOM de nivel 2 y los tipos de datos correspondientes.
+
+Estas propiedades aparecen al ver el árbol DOM de una página HTML en las herramientas para desarrolladores de un navegador, como las DevTools de Chrome. ¿Cómo se accede a los
+    elementos de una página HTML con la API DOM? Cuando se carga el documento, el navegador crea matrices para formularios, imágenes, anclajes, enlaces, applets e incrustaciones.
+A continuación, coloca todos los objetos de cada tipo en estas matrices.
+
+Las matrices se indexan tal como aparecen en el documento fuente. El primer índice de cada matriz comienza en cero. Cada uno de los tipos de matriz, como los formularios [],
+    contiene una matriz de elementos y cada elemento de índice [] son los campos o botones que aparecen en esa forma. Puede hacer referencia al elemento denominado field1 en la
+    figura por su posición relativa como document.forms [0] .elements [0]. Puede hacer referencia al mismo campo con elementos con nombre; por ejemplo, document.forms ["form1"]
+    .elements [" field1"], o incluso el documento abreviado document.form1.field1 Dado que solo se puede incluir un documento en una ventana, como se muestra con la línea
+    discontinua de la figura, puede omitir el prefijo de la ventana. Sin embargo, no puede omitir el prefijo del documento del objeto al que se hace referencia.
+
+El atributo id identifica un elemento de un documento. Los scripts utilizan el atributo id de un elemento para referirse al elemento con un nombre que coincide con el valor del
+    atributo id. Para asignar un nombre de referencia programable a un elemento HTML con el atributo id, utilice las siguientes convenciones: el id debe ser un nombre único en
+    el documento. El nombre debe estar entre comillas cuando se asigne al atributo id. El nombre no debe empezar por un dígito numérico. La función que se utiliza para devolver
+    un objeto de nodo que coincide con el valor id es document.getElementById con el nombre del id como argumento de parámetro.
+Se sugiere utilizar el mismo valor tanto para el atributo id como para el atributo name (visto anteriormente) cuando se utilizan ambos.
+
+En este vídeo, aprendió a enumerar los tipos de nodos relacionados, a acceder a los objetos anidados mediante una notación de puntos y a nombrar los objetos para facilitar el
+    acceso a ellos desde el script."

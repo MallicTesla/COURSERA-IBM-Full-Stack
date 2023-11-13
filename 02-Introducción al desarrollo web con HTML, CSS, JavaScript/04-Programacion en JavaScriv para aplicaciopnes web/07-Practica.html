@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script type="application/javascript">
+            function checkdata(){
+                var username = document.getElementById("name");
+                var email_address = document.getElementById("email");
+
+                if(username.value==""){
+                    alert("Pone tu nombre");
+                    username.focus();
+                    return false;
+                }
+
+                if(email_address.value == ""){
+                    alert("Pone tu Email");
+                    email_address.focus();
+                    return false;
+                }
+
+            }
+        </script>
+        <title>Datos de contacto</title>
+    </head>
+    <body>
+        <h2>Introduzca sus Datos:</h2> <br>
+
+        <form id="form1" onsubmit="return checkdata()">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br><br>
+            <input type="submit" value="Entregar">
+            <input type="reset" value="Resetear">
+        </form>
+    </body>
+</html>

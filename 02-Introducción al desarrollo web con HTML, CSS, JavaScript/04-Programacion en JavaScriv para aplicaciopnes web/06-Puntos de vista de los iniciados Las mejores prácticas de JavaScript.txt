@@ -1,0 +1,41 @@
+"Bienvenido a Insiders' Viewpoints: mejores prácticas de JavaScript. En este vídeo, escucharemos a varios profesionales de aplicaciones en la nube hablar sobre las mejores
+    prácticas a partir de sus experiencias con JavaScript. ¿Puedes compartir algunas de las mejores prácticas de tus experiencias al trabajar con JavaScript?
+
+Quiero compartir tres mejores prácticas que he aprendido a lo largo de los años trabajando en este campo, especialmente con JavaScript. Por lo tanto, primero está el uso de los
+    IDE. Me encanta usar algo como el código VS o WebStorm para escribir código. En la ayuda de contenido, puedo ver las funciones, la documentación y las clases, todo en el
+    mismo editor. Para mí es muy potente y, además, muy eficaz, me convierte en un desarrollador más productivo.
+
+Mi segundo consejo sería usar linters. Por lo tanto, si eres nuevo en JavaScript y no sabes qué son los linters, te ayudan a escribir código estándar. Ahora bien, no me refiero
+    al estándar en términos del estándar ES6. Pero esto podría ser estándar en términos de la forma en que su equipo decide escribir las funciones y la documentación. Y esto es
+    muy importante cuando se trata del control de versiones y la resolución de conflictos. Hace que tu vida sea mucho más fácil.
+
+Y, por último, mi tercer consejo sería aprender los diferentes paradigmas y patrones de JavaScript. Suponiendo que utilices JavaScript para la interfaz o el back-end, aprende a
+    modularizar el código en JavaScript, aprende a estructurar el código para que sea más fácil realizar pruebas unitarias, estructura el código para que sea más fácil importar
+    otros paquetes a tu aplicación.
+
+Así que trabajar con JavaScript ha cambiado mucho a lo largo de los años. De hecho, es bastante robusto hoy en día y hay muchas herramientas que puedes usar para ello.
+Definitivamente recomendaría borrar tu JavaScript. Una herramienta realmente buena que uso personalmente se llama XO. Es un gran linter que tiene un gran conjunto de opciones por
+    defecto. Y simplemente ejecuta eso en tu código. Además , hace que sigas estilos estándar específicos para que tú y todos los miembros de tu equipo se aseguren de que el
+    código se vea bien y, con suerte, también reduzcáis la cantidad de errores y la confusión en el código.
+
+También recomendaría usar TypeScript. Es una maravillosa adición a JavaScript y a menudo se puede colocar directamente sobre el proyecto de JavaScript actual sin necesidad de
+    cambiar mucho código. Y luego puedes añadir un conjunto importante de características a tu código para hacerlo mucho mejor. Mientras trabajas con JavaScript, evita declarar
+    variables y funciones globales.
+Las variables globales pueden ralentizar el programa, ya que no se eliminan hasta que se cierra la ventana. Los scripts que incluyan la misma variable y se ejecuten después del
+    código anularán las variables.
+
+Para reducir los tiempos de carga de la página, coloca tu js en la parte inferior de la página, especialmente si el propósito de js es añadir funcionalidad después de que ocurra
+    un evento. Al declarar instrucciones largas «para», declare variables fuera de la instrucción «for». También debes optimizar los bucles.
+Por ejemplo, en lugar de leer el atributo de longitud de una matriz en cada iteración, almacene el valor de longitud en una variable diferente. Comente siempre las secciones
+    importantes del código para que usted o sus colegas puedan entender el propósito del código cuando necesiten revisarlo. Por eso, al escribir JavaScript, me gusta mucho
+    aprovechar las funciones de ES6, ya que pueden hacer que mi código se vea más limpio, más fácil de leer y, simplemente, más atractivo, como las funciones de flecha o el
+    operador punto punto. Así que os animo a que, después de aprender JavaScript, os sumerjáis un poco en el ES6 y os lo paséis bien.
+
+Una buena práctica que los desarrolladores de JavaScript deben tener en cuenta es evitar el uso de variables globales. Es posible que también hayas escuchado este consejo para
+    otros lenguajes de programación, y las razones también se aplican aquí. Pero en el caso específico de JavaScript, el riesgo de colisión de nombres es bastante alto.
+Por lo tanto, es muy común que los desarrolladores incluyan su código y bibliotecas de terceros en la misma página. Además, todos estos scripts compartirán el mismo contexto
+    global, lo que significa que si eliges el mismo nombre para una variable global que una de esas bibliotecas de terceros, básicamente uno de tus programas o ambos no
+    funcionarán. JavaScript es un lenguaje muy potente.
+
+Te permite hacer prácticamente cualquier cosa que puedas imaginar, incluso pegarte un tiro en el pie si no tienes cuidado. Las prácticas que suelo seguir con JavaScript incluyen
+    el alcance adecuado de las variables y funciones. Y escribir pruebas unitarias y de integración para mis funciones."

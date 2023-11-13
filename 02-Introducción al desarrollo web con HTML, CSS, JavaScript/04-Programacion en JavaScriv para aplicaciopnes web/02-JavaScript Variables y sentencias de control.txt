@@ -1,0 +1,63 @@
+"Bienvenido a JavaScript: Variables y Declaraciones de Control. Después de ver este video, podrás definir la declaración de variables en JavaScript, mostrar cómo JavaScript
+    utiliza las variables e identificar las estructuras de control de JavaScript.
+
+Las variables son contenedores para almacenar valores de datos, que se pueden utilizar y modificar a lo largo de la ejecución de un programa. Las variables en JavaScript se
+    declaran con la palabra clave 'var', seguida del nombre de la variable, como en el ejemplo 'var age'.
+Las variables también se pueden declarar e inicializar en un solo paso, como en el ejemplo 'var age = 54'. Puedes asignar un valor a la variable en un momento posterior o
+    reasignar el valor de una variable.
+
+Dado que JavaScript es un lenguaje de tipado débil, no necesitas declarar el tipo de datos de una variable. La variable asume el tipo de datos del valor del campo durante la
+    asignación y el tipo de una variable puede cambiar durante la ejecución del programa.
+Ten cuidado de no inicializar las variables y no asignarles un valor. Si una variable no recibe un valor, su valor no es cero ni una cadena vacía ni ningún otro valor
+    predeterminado. El valor de la variable es 'indefinido'. Recuerda que la única palabra clave es 'var' y JavaScript no tiene forma de saber si esta variable es numérica, de
+    cadena o de cualquier otro tipo, hasta que proporciones un valor. Por lo tanto, por defecto, no puede decidir si asignar un cero o una cadena vacía. Los nombres de las
+    variables, o identificadores, siguen las siguientes reglas: El nombre debe comenzar con una letra, un guion bajo o un signo de dólar. Los caracteres posteriores también
+    pueden ser dígitos (del cero al nueve), y los identificadores distinguen entre mayúsculas y minúsculas.
+
+Las variables también tienen un ámbito. Las variables declaradas dentro de una función tienen un ámbito local para esa función, lo que significa que existen dentro de la función,
+    pero no fuera de ella.
+
+Las variables declaradas fuera de una función tienen un ámbito global. Las variables con ámbito global se pueden utilizar en otras partes del programa de JavaScript.
+Las variables declaradas sin la palabra clave 'var' tienen un ámbito global. Las variables que no están inicializadas tienen un valor de 'indefinido'.
+
+Aprenderás sobre las funciones en breve. Las declaraciones condicionales son el conjunto de comandos que se utilizan para realizar diferentes acciones según diferentes
+    condiciones: En JavaScript, la declaración 'if' es la forma en que la lógica del programa decide qué camino tomar según los valores actuales de las variables o las
+    propiedades de los objetos.
+
+La sintaxis de JavaScript para una decisión comienza con la palabra clave 'if', seguida de la condición a probar; luego, las declaraciones que se ejecutan si la condición
+    produce un resultado verdadero. El procesamiento verdadero sigue inmediatamente después de la condición de prueba y está delimitado por llaves, a menos que sea una única
+    declaración.
+Si la condición se resuelve como falsa, se ejecutan las declaraciones que siguen a la palabra clave 'else'.
+
+La sangría de las declaraciones de una declaración de control compuesta no es necesaria en JavaScript. Sin embargo, un programador puede encontrar que la sangría ayuda a
+    descifrar la declaración de control.
+Muchos editores de texto conscientes de JavaScript sangran automáticamente la estructura de control para que sea más legible. A diferencia de Java, no hay un ámbito de bloque de
+    declaración en JavaScript.
+
+No tener un ámbito de bloque de declaración significa que las variables declaradas dentro de una condición 'if' se pueden utilizar fuera del ámbito de esa condición.
+
+JavaScript admite la declaración 'switch' como una alternativa a las declaraciones condicionales 'if-then-else'. La condición que se está probando se coloca entre paréntesis
+    que siguen a la palabra clave 'switch'.
+
+El parámetro de expresión de la declaración 'switch' puede evaluar cualquier número o valor de cadena.
+Las etiquetas en la declaración 'case' están entre comillas cuando las etiquetas representan valores de cadena de la expresión. El programa busca una cláusula 'case' con una
+    etiqueta que coincida con el valor de la expresión y luego transfiere el control a esa cláusula, ejecutando las declaraciones asociadas. Si no se encuentra ninguna etiqueta
+    coincidente, el programa busca la cláusula 'default' opcional y, si se encuentra, transfiere el control a esa cláusula emitiendo las declaraciones asociadas.
+La palabra clave 'break' se utiliza para evitar que el código pase automáticamente a la siguiente cláusula 'case'.
+
+El bucle 'for' repite una serie de declaraciones cualquier número de veces. El bucle 'for' toma tres argumentos de parámetro, a saber, el valor inicial, la condición que se está
+    probando y la expresión de incremento. Cuando se ejecuta el bucle 'for', ocurre lo siguiente: Primero, se establece la expresión inicial, segundo, se evalúa la expresión
+    condicional. Si esta condición se evalúa como verdadera, se ejecutan las declaraciones del bucle y se actualiza la expresión de incremento.
+Si la condición se evalúa como falsa, el bucle 'for' termina. Si el bucle no termina, el control vuelve al segundo paso y se evalúa nuevamente la expresión condicional.
+
+El bucle 'while' es otro bucle común en JavaScript. El bucle se repite mientras la condición siga siendo verdadera. El bucle 'while' asume que la condición llega a una conclusión
+    y luego sale del bucle. Asegúrate de que la condición se evalúe como falsa en algún momento; de lo contrario, el bucle nunca termina.
+
+En este video, aprendiste que: Las variables se declaran utilizando la palabra clave 'var', seguida del nombre de la variable. Puedes inicializar variables en el momento de la
+    declaración o asignar un valor más tarde. No es necesario declarar el tipo de datos de una variable. Las variables toman su tipo de datos del valor asignado y pueden cambiar
+    de tipo durante la ejecución del programa.
+Las variables también tienen un ámbito. Las variables declaradas dentro de una función tienen un ámbito local para esa función. Las variables declaradas fuera de una función
+    tienen un ámbito global. Las variables declaradas sin la palabra clave 'var' tienen un ámbito global.
+
+Al ejecutar, el flujo del programa está dirigido por declaraciones de control, que incluyen: Declaraciones condicionales como 'if...then...else', declaraciones 'switch',
+    declaraciones de repetición como bucles 'for' y bucles 'while'."

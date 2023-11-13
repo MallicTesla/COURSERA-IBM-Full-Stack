@@ -1,0 +1,53 @@
+"Bienvenido a JavaScript del lado del cliente con DOM. Tras ver este vídeo, podrá describir la jerarquía del modelo de objetos del documento (DOM), describir los objetos de
+    ventana y documento e identificar los objetos DOM que se utilizan habitualmente en las aplicaciones de JavaScript para trabajar con documentos HTML.
+
+El modelo de objetos del documento es la interfaz de programación entre HTML o XHTML y JavaScript. El modelo de objetos del documento (DOM) es una interfaz basada en un
+    navegador para que las aplicaciones y los scripts accedan de forma dinámica al contenido, la estructura y el estilo de los documentos y los actualicen.
+JavaScript usa el DOM para acceder a los elementos de la página web y modificarlos en el navegador web.
+
+El World Wide Web Consortium publicó cuatro niveles de especificaciones del modelo de objetos del documento. Cada nivel sucesivo proporciona un conjunto más detallado de
+    características para describir documentos estructurados. Los distintos navegadores tienen varios niveles de compatibilidad con el estándar DOM. El análisis del DOM en esta
+    unidad se centra en las API HTML principales del DOM de nivel 1 y del DOM de nivel 1 para acceder a los elementos HTML con el DOM. El motor JavaScript de la mayoría de los
+    navegadores web es totalmente compatible con el DOM de nivel 1. Esta es una representación del modelo DOM básico para navegadores.
+
+El objeto de ventana se encuentra en la parte superior de la jerarquía del DOM y controla el entorno que contiene el documento.
+El objeto de historial guarda los detalles internos sobre el historial reciente de las páginas del navegador. El objeto de historial tiene métodos que permiten simular hacer
+    clic en los botones de retroceso o avance de un navegador.
+
+El objeto de ubicación contiene información sobre la URL de una página. El navegador es una representación objetiva del navegador de Internet del cliente o del agente de
+    usuario. No existe un estándar que se aplique al objeto de navegador, por lo que los valores de las propiedades que se devuelven al ejecutar consultas en el objeto de
+    navegador no son consistentes en todos los navegadores.
+
+El objeto de pantalla se utiliza para obtener información sobre la pantalla de un usuario, como las dimensiones de la pantalla. El objeto de pantalla es útil para determinar el
+    tamaño de pantalla de las ventanas del navegador que se ejecutan en dispositivos móviles. El objeto de documento proporciona acceso a todos los elementos HTML de una página.
+
+Cada documento HTML que se carga en una ventana se convierte en un objeto de documento. El objeto de ventana es el contenedor global más externo de todos los objetos de la
+    jerarquía del DOM. Cuando el navegador carga una página, se crea automáticamente un objeto de ventana.
+
+A continuación, puede acceder a las propiedades y funciones del objeto de la ventana desde su código JavaScript. En JavaScript del lado del cliente, el objeto Window actúa como
+    objeto global y todo lo que contiene el DOM tiene lugar en una ventana. Existen varios métodos predefinidos para el objeto de ventana.
+
+Los cuadros de diálogo window.alert, window.confirm y window.prompt que se utilizan en las páginas web provienen del objeto de ventana global. Puedes omitir el prefijo de
+    ventana para los métodos de la API del DOM. Por lo tanto, el método window.alert se puede codificar más simplemente como una alerta con un argumento de mensaje. Esta figura
+    muestra el modelo de objetos de un documento HTML simple.
+
+Observe cómo la jerarquía de objetos coincide con la jerarquía de contención HTML de la izquierda. El diagrama de objetos también se puede representar como una estructura de
+    árbol que corresponde a la estructura del documento HTML. Las ramas de la estructura de árbol se denominan nodos.
+
+Hay dos tipos de nodos en el DOM del W3C, los nodos de elementos y los nodos de texto. Todas las etiquetas HTML (html, head, meta, title y body) son nodos de elementos.
+Los nodos que contienen el texto real que va entre la etiqueta inicial y la etiqueta final de un elemento son nodos de texto.
+
+La figura muestra el árbol del DOM de nivel 2 para la parte FORM del documento. Las líneas que se alimentan entre los elementos son nodos de texto y forman parte del árbol del
+    DOM de nivel 2. El árbol del DOM de nivel 2 incluye un nodo de texto de alimentación lineal antes del párrafo y de los elementos de entrada. El elemento de entrada incluye
+    un nodo de texto que contiene todo el texto que sigue a la etiqueta de entrada. Un nodo de texto de alimentación lineal adicional sigue al elemento de entrada.
+El nivel 0 del DOM para la parte del formulario del documento solo tendría los cuadros de formulario, p y entrada. El DOM de nivel 2 añade las devoluciones, tabulaciones y
+    espacios del carro, lo que a veces se denomina «espacio en blanco».
+
+En este vídeo, aprendiste: El modelo de objetos del documento (DOM) es la interfaz de programación entre HTML o XHTML y JavaScript. Cada nivel sucesivo del DOM proporciona un
+    conjunto más detallado de funciones para describir documentos estructurados.
+Los distintos navegadores tienen distintos niveles de compatibilidad con el estándar DOM.
+El DOM básico para los navegadores es una jerarquía que incluye objetos que realizan diferentes funciones. Por ejemplo, el objeto de ventana controla el entorno del documento,
+    el objeto de ubicación contiene información sobre la URL de la página, el objeto de pantalla obtiene información sobre la pantalla del usuario y el objeto de documento
+    proporciona acceso a todos los elementos HTML de una página.
+Los niveles del DOM definen los tipos de objetos, con los que los desarrolladores pueden crear una variedad de documentos, desde documentos HTML simples para páginas web hasta
+    formularios más complejos."

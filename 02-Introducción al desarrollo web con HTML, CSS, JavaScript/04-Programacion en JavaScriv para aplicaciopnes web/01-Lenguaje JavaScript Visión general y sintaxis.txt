@@ -1,0 +1,63 @@
+"Hola. Bienvenido al lenguaje JavaScript, descripción general y sintaxis. Después de ver este vídeo, podrá describir las primitivas y los objetos de JavaScript.
+
+JavaScript es un lenguaje de secuencias de comandos derivado del estándar ECMAScript y diseñado originalmente para ejecutarse en el navegador Netscape Navigator.
+
+Prácticamente todos los navegadores admiten JavaScript. Aunque el nombre «Java» aparece en la palabra «JavaScript», los dos lenguajes no están relacionados.
+Cuando un intérprete de JavaScript está integrado en un navegador, el resultado es la posibilidad de crear páginas web dinámicas: JavaScript añade comportamiento a un contenido
+    web que de otro modo sería estático.
+El contenido de una página web se puede cambiar dinámicamente con la capacidad de creación de scripts del intérprete de JavaScript. El código JavaScript actúa sobre el modelo de
+    objetos del documento que genera el navegador web.
+Una de las formas en que la programación del servidor y las secuencias de comandos del navegador funcionan juntas es en una arquitectura que se denomina Ajax, o JavaScript y
+    XML asíncronos.
+
+El término «Ajax» abarca más que las llamadas asíncronas al servidor a través de JavaScript y XML. Ajax representa una serie de técnicas que proporcionan aplicaciones web
+    interactivas y más completas mediante HTML, JavaScript y hojas de estilos en cascada, además de modificar la página web mediante el modelo de objetos del documento. Hoy en
+    día, se suele utilizar JSON en lugar de XML.
+
+En JavaScript, hay cinco tipos primitivos que están asociados a varios valores primitivos: Número: todos los números, como 0 o 3.1412, Cadena: todas las cadenas, como «Hola mundo»,
+    Booleano: valores verdaderos o falsos, Nulo: valor nulo. Indefinido: el valor indefinido, ya que no se ha asignado un tipo de datos o la variable no existe.
+
+Todos los demás tipos de datos no primitivos son objetos. La primitiva numérica representa valores enteros y de punto flotante, el valor NaN (que no es un número) e Infinito.
+Los enteros se pueden codificar como valores de base 10 (decimal), base 8 (octal) o base 16 (hexadecimal). El literal entero 16 en decimal, 020 en octal y 0x10 en hexadecimal
+    tienen el mismo valor.
+Todos los números en JavaScript se representan internamente como números de coma flotante de 64 bits o de doble precisión. Las cadenas de JavaScript están delimitadas por comillas
+    simples o dobles.
+No hay ningún comportamiento o método asociado a los tipos de datos primitivos. Los tipos primitivos número, cadena y booleano se pueden agrupar con sus homólogos de objetos.
+
+Los objetos envoltorios tienen el mismo nombre que el tipo primitivo, excepto que comienzan con una letra mayúscula. Como la mayoría de los lenguajes de programación orientados
+    a objetos, JavaScript proporciona formas integradas de convertir entre estos objetos envoltorios y valores primitivos.
+
+Los objetos envoltorios utilizan métodos especiales, como los métodos valueOf y toString, para realizar conversiones entre objetos y literales primitivos. El tipo de palabra
+    clave en JavaScript se utiliza para averiguar el tipo de datos del operando suministrado. Observe cómo las cadenas creadas sin la nueva palabra clave tienen un tipo de
+    cadena.
+
+La palabra clave new se utiliza para crear el objeto String wrapper. Este objeto se puede convertir en un tipo de cadena primitivo llamando a la función valueOf de la clase
+    contenedora de objetos.
+Las matrices son objetos de colección especializados que ayudan al programador a almacenar y recuperar datos mediante claves indexadas. Las matrices utilizan un esquema de
+    indexación basado en cero, lo que significa que el primer elemento de una matriz tiene un índice de cero. Las matrices crecen o se contraen dinámicamente añadiendo o quitando
+    elementos.
+La propiedad length contiene el número de elementos que se encuentran en la matriz. Las matrices se pueden declarar mediante un constructor de matrices o un literal de matriz.
+Al declarar una matriz con un constructor, se utilizan las palabras clave de la nueva matriz y se especifican los elementos de la matriz como parámetros de la nueva matriz.
+
+Los literales de matriz se crean declarando los elementos de la matriz entre corchetes. A continuación, asigne la matriz a una variable, como se ve en el último ejemplo de la
+    diapositiva.
+
+El objeto Date es un objeto especializado que se utiliza para almacenar la fecha y la hora. El constructor de un objeto de fecha tiene el formato: new Date ([con parámetros
+    opcionales]). Si crea un objeto Date sin ningún parámetro, JavaScript devuelve un objeto que contiene la fecha y hora locales actuales. Si envía este objeto de fecha a la
+    consola o intenta mostrar el objeto de fecha en una página web, JavaScript aplica automáticamente un método toString al objeto. El resultado que se muestra es una versión en
+    cadena de la fecha, tal como se muestra en esta diapositiva. También puede crear nuevas fechas pasando los parámetros a la nueva función de fecha. Los ejemplos de la
+    diapositiva muestran cómo se pueden utilizar valores numéricos o de cadena para los parámetros de fecha al crear nuevos objetos de fecha.
+
+Al igual que otros lenguajes orientados a objetos, JavaScript crea instancias de objetos de error cuando se produce una excepción. La instancia del objeto de error incluye dos
+    propiedades que contienen información sobre el error: la propiedad message contiene una descripción del error. La propiedad name identifica el tipo de error, como un
+    RangeError. Un RangeError es una instancia de error que se crea cuando un valor numérico o un parámetro está fuera de su rango válido. Además de un error genérico, hay otros
+    seis tipos de errores principales en JavaScript, tres de los cuales se muestran en la diapositiva. Los otros tres son EvalError, ReferenceError y SyntaxError.
+El objeto Error se puede ampliar para crear tipos de error personalizados. La última línea de la diapositiva muestra la creación de un objeto de error genérico con un mensaje de
+    error personalizado en el campo de parámetros.
+
+En este vídeo, aprendió lo siguiente: JavaScript es un lenguaje de secuencias de comandos que añade comportamiento al contenido web que, de otro modo, sería estático.
+Las primitivas son valores y no tienen propiedades ni métodos. Algunos ejemplos de primitivas son: número, cadena, booleano, nulo e indefinido.
+Los objetos envoltorios permiten crear objetos de los tipos de datos primitivos correspondientes.
+Los objetos envoltorios pueden almacenar un valor primitivo y proporcionar métodos para procesarlo.
+Los objetos Wrapper tienen el mismo nombre que el tipo primitivo, pero comienzan con una letra mayúscula para diferenciarlos del propio tipo de datos primitivo.
+Algunos ejemplos de objetos envoltorios son los objetos de matriz, fecha y error."

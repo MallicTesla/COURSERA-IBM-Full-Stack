@@ -1,0 +1,23 @@
+"En este módulo, ha aprendido que:
+
+JavaScript es un lenguaje de scripting que permite a los desarrolladores añadir contenido dinámico a las páginas web.
+
+Las variables de JavaScript se declaran utilizando la palabra clave var y toman su tipo del valor asignado.
+
+La ejecución del programa se controla mediante sentencias como If...Then...Else, Switch, bucles For y bucles While.
+
+JavaScript utiliza bloques de código, denominadas funciones, que pueden invocarse desde cualquier parte del script.
+
+Se pueden agregar nuevos métodos y propiedades a un objeto modificando el prototipo de dicho objeto.
+
+Los prototipos permiten definir propiedades y métodos para todas las instancias de un objeto específico.
+
+Los scripts del lado del cliente son programas que acompañan a los documentos HTML y que los desarrolladores utilizan para incorporar más elementos interactivos.
+
+La etiqueta script puede incorporar un script dentro de un documento HTML o llamar a un script desde un archivo externo.
+
+El modelo de objetos del documento (DOM) es la interfaz de programación entre HTML o XHTML y JavaScript.
+
+Los desarrolladores pueden acceder a los elementos DOM de HTML desde los scripts de JavaScript utilizando la notación DOM correcta.
+
+A menudo se utilizan API para acceder a los elementos DOM de HTML en las páginas web."
