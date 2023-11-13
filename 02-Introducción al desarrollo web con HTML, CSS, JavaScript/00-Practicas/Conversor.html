@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <title> Conversor </title>
+</head>
+
+<body>
+    <section id="home">
+        <header> Conversor de unidades </header>
+
+        <nav>
+            <div>
+                <a href="#temperatura"><button> Temperatura </button></a>
+                <a href="#peso"><button> Peso </button></a>
+                <a href="#distancia"><button> Distancia </button></a>
+            </div>
+        </nav>
+    </section>
+
+    <div id="all-conversion-sections">
+        <section id="temperatura">
+            <div id="tmp">
+                <figure>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="150px"/>
+                    <figcaption> Combierte Grados Centigrados a Fahrenheit </figcaption>
+                </figure>
+
+                <article>
+                    <fieldset>
+                        <legend> Temperatura </legend>
+
+                        <label for="Temperatura"> Centigrados </label>
+                        <br/>
+
+                        <input type="number" id="c">
+                        <br/>
+
+                        <button id="temperatura"> Convertir </button>
+                        <br/>
+
+                        <input type="number" id="f">
+                        <br/>
+
+                        <label for="Temperatura"> Fahrenheit </label>
+                    </fieldset>
+
+                    <aside> La formula de comversion es (0 °C × 9/5) + 32 = 32 °F </aside>
+
+                </article>
+            </div>
+        </section>
+
+        <section id="peso">          
+            <div id="wgt">
+                <figure>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" width="150px"/>
+                    <figcaption> Convertir Kilos a Libras </figcaption>
+                </figure>
+
+                <article>
+                    <fieldset>
+                        <legend> Peso </legend>
+
+                        <label for="Peso"> KG </label>
+                        <br/>
+
+                        <input type="number">
+                        <br/>
+
+                        <button id="peso"> Convertir </button>
+                        <br/>
+
+                        <input type="number"> 
+                        <br/>
+
+                        <label for="Peso"> Libras </label>    
+                    </fieldset>
+
+                    <aside> Para obtener un resultado aproximado, multiplica el valor de masa por 2,205 </aside>      
+
+                </article>
+            </div>
+        </section>
+
+        <section id="distancia">
+            <div id="dst">
+                <figure>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png"  width="150px"/>
+                    <figcaption> Convierte Kilometros a Millas </figcaption>
+                </figure>
+
+                <article>
+                    <fieldset>
+                        <legend> Distancia </legend>
+
+                        <label for="Distancia"> KM </label>
+                        <br/>
+
+                        <input type="number">
+                        <br/>
+
+                        <button id="distancia"> Convertir </button>
+                        <br/>
+
+                        <input type="number">
+                        <br/>
+
+                        <label for="Distancia"> Millas </label>
+                    </fieldset>
+
+                    <aside> Para obtener un resultado aproximado, divide el valor de longitud entre 1,609 </aside>
+
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <div id="go-home">
+        <a href="#home">
+            <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
+        </a>
+    </div>
+
+    <footer>Learn more about HTML and CSS as a part of IBM Fullstack Cloud Developer Certification</footer>
+
+</body>
+</html>
