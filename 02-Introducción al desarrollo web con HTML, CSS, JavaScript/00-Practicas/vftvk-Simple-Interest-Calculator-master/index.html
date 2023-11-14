@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Calculadora de interés simple </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="maindiv">
+            <h1> Calculadora de interés simple </h1>
+
+            Cantidad <input type="number"  id="principal">
+            <br/>
+
+            <!-- step="0.25" asi solo se pirden colocar multiplos de 0.25 -->
+            Tasa <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()">
+            <span id = "rate_val"> 10.25 </span> %
+            <br/>
+
+            Numero de años <input type="number" id="years" list="all_years">
+            <datalist id="all_years">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <br/>
+
+            Interes : <span id="result"></span>
+            <br>
+
+            <button onclick="compute()"> Calcular Intereses </button>
+            <span id="result"> </span>
+
+        </div>
+    </body>
+
+    <footer>
+        &#169; Creado por Mallic Corp
+    </footer>
+</html>
