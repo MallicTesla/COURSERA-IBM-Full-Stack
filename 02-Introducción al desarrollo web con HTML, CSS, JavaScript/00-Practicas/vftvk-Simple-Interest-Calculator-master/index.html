@@ -8,19 +8,20 @@
     </head>
 
     <body>
-        <div class="maindiv">
+        <div class="div_1">
             <h1> Calculadora de interés simple </h1>
 
             Cantidad <input type="number"  id="principal">
             <br/>
 
             <!-- step="0.25" asi solo se pirden colocar multiplos de 0.25 -->
-            Tasa <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()">
-            <span id = "rate_val"> 10.25 </span> %
+            Tasa <input type="range" id="ratio" min="1" max="20" value="10.25" step="0.25" onchange="actualizar_ratio()">
+            <span id = "valor_ratio"> 10.25 </span> %
             <br/>
 
-            Numero de años <input type="number" id="years" list="all_years">
-            <datalist id="all_years">
+            <!-- en este menu desplegable aparese lo que esta dentro la lista que esta mas abajo la llama con el atributo list -->
+            Numero de años <input type="number" id="años" list="lista">
+            <datalist id="lista">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -34,11 +35,11 @@
             </datalist>
             <br/>
 
-            Interes : <span id="result"></span>
+            Interes : <span id="resultado"></span>
             <br>
 
-            <button onclick="compute()"> Calcular Intereses </button>
-            <span id="result"> </span>
+            <button onclick="calcular()"> Calcular Intereses </button>
+            <span id="resultado"> </span>
 
         </div>
     </body>
