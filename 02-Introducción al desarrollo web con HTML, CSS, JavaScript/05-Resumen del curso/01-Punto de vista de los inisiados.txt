@@ -1,0 +1,97 @@
+"Bienvenido a Insiders' Viewpoints: trayectorias profesionales para el desarrollo de aplicaciones web En este vídeo escucharemos a varios profesionales del desarrollo web hablar
+    sobre las cualidades y habilidades de un desarrollador web.
+
+Entonces, ¿cuáles son las cualidades y habilidades necesarias para ser un desarrollador de aplicaciones nativo de la nube o completo? (Esto puede abarcar tanto las habilidades
+    técnicas como las interpersonales que un desarrollador web necesita para tener éxito en su trabajo).
+La habilidad más importante para ser un desarrollador de nube completo es sentirse cómodo con la ambigüedad y aprender todo el tiempo. Porque en la nube salen muchas
+    actualizaciones todo el tiempo. Y mantenerse al día es lo que hará que tu aplicación funcione lo mejor que puedas.
+Porque a menudo, el proveedor de la nube presenta una actualización que resuelve un problema en el que acabas de trabajar. Y entonces no tendrá que escribir el código
+    personalizado usted mismo, simplemente podrá aprovechar esa nueva función en la nube. Ese es el desarrollo nativo de la nube. Y lo que quiero decir con que te sientas cómodo
+    con la ambigüedad es que utilizas constantemente servicios que no has utilizado antes. Como hay tantos, tantos nuevos y tantas funciones, nunca vas a tener una experiencia
+    total con ninguno de ellos. Así que siéntete cómodo sintiéndote incómodo.
+
+Un desarrollador completo debe tener habilidades técnicas para tecnologías de front-end, crear API y escribir código de back-end, trabajar con bases de datos, arquitectura web,
+    habilidades básicas de diseño y trabajar en git. Además de esto, también deben poseer habilidades de gestión de proyectos y tiempo, atención a los detalles, buenas
+    habilidades de comunicación y comprender los requisitos del cliente de acuerdo con la visión empresarial general.
+
+La otra habilidad que recomendaría a un desarrollador nativo de la nube es comprender el amplio alcance de los servicios, al menos a un nivel alto para al menos uno de los
+    principales proveedores de nube, y tener bastante confianza en al menos un idioma, como Python o Node J.S. Lo ideal es que los desarrolladores de aplicaciones nativas de la
+    nube tengan un conocimiento sólido de algunas tecnologías clave, como la tecnología de contenedores, que también incluye Docker, y las plataformas de orquestación de
+    contenedores como Kubernetes y Open Shift. La curva de aprendizaje con Kubernetes es pronunciada y hay mucho que aprender en este ámbito.
+Otro son los servicios sin servidor. Los servicios sin servidor tienen una curva de aprendizaje más baja y, en ese sentido, la simplicidad es su punto fuerte. Básicamente, los
+    servicios sin servidor implican desarrollar e implementar un servicio que, en su mayoría, desempeña una función (parece una función) y se puede implementar sin preocuparse
+    por los detalles de la administración de un servidor.
+Los desarrolladores nativos de API en la nube deberían estar bien versados y sentirse cómodos trabajando con las API REST, incluidas las herramientas más comunes, la
+    autenticación y todos los aspectos del trabajo con las API REST.
+Una habilidad que creo que está muy poco representada y subestimada para ser un desarrollador nativo de la nube realmente bueno es optimizar el flujo de trabajo. Y lo que quiero
+    decir es que, como desarrollador en la nube, vas a desarrollar en una máquina local, en un portátil o en un ordenador de sobremesa la mayor parte del tiempo. Pero también lo
+    vas a implementar en una amplia variedad de máquinas virtuales, contenedores , servidores, etc. Y para hacerlo, realmente es necesario que sucedan muchas cosas. Necesitas
+    desarrollar tu código, probarlo, crear imágenes, implementar esas imágenes, y cada una de esas cosas lleva su tiempo. Por lo tanto, es muy importante entender y optimizar
+    dónde se invierte el tiempo y qué se puede automatizar. Por lo general, intenta automatizarlo y, en general, dedica tu tiempo a desarrollar el código adecuado para tu
+    problema, no a crear imágenes y esperar a que las cosas comiencen. Por eso, es muy importante optimizar el flujo de trabajo y aprovechar al máximo el tiempo.
+
+A continuación, escucharemos a estos expertos hablar sobre algunos de los diferentes caminos que puede tomar para ingresar al campo del desarrollo web. O, ¿cómo se introdujeron
+    en el desarrollo web?
+Desarrolle sus conocimientos, desarrolle sus conocimientos en lenguajes como Python, Java y tecnologías de front-end como Angular o React. A continuación, podrá obtener la
+    certificación en una plataforma en la nube y empezar a solicitar puestos de trabajo.
+Primero tomando varios cursos en línea gratuitos o casi gratuitos y realizando proyectos en los que, de hecho, escribiría miniaplicaciones. Y luego, una vez sentí que había
+    completado varios cursos y que podía, ya sabes, hacer una buena cantidad de cosas. Y como en realidad fue después de 1000 horas de práctica, puede que no tengas que esperar
+    tanto. Después de 1000 horas de practicar programación, con esos cursos y ejercicios, empecé a ir casi todos los días a las reuniones. Y pronto conocí al fundador de una
+    empresa emergente que necesitaba una aplicación diseñada para un propósito específico, un sistema de riego doméstico. Y, al cabo de un mes, escribí esa aplicación. Y hacia
+    finales de mes, iba, otra vez, a reuniones. Y me puse la meta de tener una entrevista informativa todos los días, como en una cafetería con alguien. Porque si me encuentro
+    con alguien todos los días en una cafetería, digo que es un desarrollador que tiene un posible trabajo que ofrecerme, seguro que lo consigo. Y de hecho lo hice. Y al tercer
+    día, al tercer día que tenía el desafío de tener una reunión en una cafetería todos los días, conseguí un trabajo, y esa persona me dio un código de reacción para trabajar
+    en él primero. Y luego un poco de Node JS, según recuerdo. Y seguía ampliando mis horizontes con cada tarea que realizaba.
+
+No hay un único camino correcto para entrar en este campo. Muchas personas aprenden estas habilidades a través de cursos en línea, como este, pero también existe el camino
+    tradicional de ir a la universidad o instituto de cualquier manera. Cuando aprendas algo, es muy importante que lo apliques, ya sea un proyecto escolar, laboral o personal.
+
+Y, por último, escucharemos a estos expertos hablar sobre los consejos que darían a los aspirantes a desarrolladores de aplicaciones completas y en la nube. (Esto puede incluir
+    qué aprender, las habilidades que se deben adquirir y cómo adquirirlas, cómo demostrar esa habilidad o experiencia, cómo captar la atención de los empleadores, establecer
+    contactos y cualquier consejo para ser contratado).
+
+Así que ser un desarrollador completo, ya sabes, significa muchas cosas. Y es muy difícil ser absolutamente perfecto en todas esas cosas. Así que, mi consejo para un
+    desarrollador completo sería que, ya sabes, se concentre realmente en cuáles son sus puntos fuertes y, luego, se concentre en sus debilidades. Así que, para mí, puedo decir
+    que realmente trabajo. Me encanta trabajar con el back-end, pero no se me da muy bien diseñar o escribir CSS. Así que, en los últimos dos años, ya sabes, he intentado
+    centrarme en el front-end y mejorar mis habilidades o mejorar y desarrollar mis habilidades en esa área.
+Otro consejo que te daría es que pruebes diferentes marcos. Así que si eres principalmente un desarrollador de JavaScript y trabajas mucho con Node JS, te diría que salgas de tu
+    zona de confort e intentes trabajar con un framework de Python. Tal vez empieces, construyas algo en Django o Flask, simplemente viendo cómo diferentes marcos abordan el
+    mismo problema o trabajando en el diseño y la creación de un sitio web. Ya sabes, muchas cosas son comunes, por ejemplo, la autenticación, el middleware, el enrutamiento o
+    la creación de servicios REST.
+Todos los diferentes marcos tienen una forma muy obstinada de hacerlo si sales de tu zona de confort y analizas cómo los diferentes marcos abordan este problema. Creo que eso
+    podría ser muy beneficioso para cualquier desarrollador de front-end o, lo siento, para cualquier desarrollador completo. Y por último, diría que lean el código fuente,
+    ¿no? Así que cuando estés desarrollando JavaScript, lee la especificación real, cuando estés creando una aplicación de Python, consulta el código fuente de cualquier versión
+    de Python, del lenguaje que estés usando, y observa cómo se hacen las cosas. Creo que eso es simplemente esforzarse y tratar de orientarse. Puede dar miedo al principio,
+    pero te ayudará a largo plazo. Te ayudará a convertirte en un mejor desarrollador a largo plazo.
+
+Si quiere empezar a ser un desarrollador completo de aplicaciones, querrá crear aplicaciones en la nube. El mejor consejo que puedo darte es que lo hagas. No te metas en los
+    detalles, podrías cometer un error, pero si te estás iniciando en ello, no importa el marco que elijas, las herramientas que utilices o el idioma que elijas. Hay tantas
+    opciones, así que elige algo nuevo. Elige algo que te parezca guay, algo que tal vez te entusiasme. Pero toma esa decisión. Sigue adelante, crea algo, porque una vez que
+    hayas creado algo, puedes compartirlo con el mundo y con la nube puedes hacerlo crecer o avanzar rápidamente, y creo que eso es lo más importante que puedes hacer, porque
+    una vez que empieces a crear, realmente empezarás a avanzar en tu carrera.
+
+El consejo que les daría a los aspirantes a desarrolladores completos de aplicaciones en la nube es que obtengan algunas certificaciones en la nube. Le proporciona una visión
+    general de alto nivel de los servicios en la nube, para que sepa lo que hay disponible. Y además, ensuciate un poco las manos en la nube. Así que, en realidad, intenta usar
+    algunos de esos servicios. Incluso si no estás haciendo algo muy significativo con ello. Intenta hacer clic, ya sabes, en iniciar una máquina virtual en la nube y ver qué
+    pasa y hacerlo para varias cosas diferentes. Y será mucho menos aterrador. Pero de todos modos, una vez que tengas dos o tres certificaciones, llamarás la atención de los
+    reclutadores en LinkedIn. Y esa es una forma segura de llamar la atención.
+Otro consejo que les daría a los aspirantes a desarrolladores completos de servicios en la nube es que escuchen las conferencias. Todos los principales proveedores de servicios
+    en la nube tienen conferencias anuales, escuchen esas charlas. Se supone que son muy cautivadoras para ser una charla técnica. Y suelen estar muy bien comisariados. Y, ya
+    sabes, intento escuchar esas conversaciones en la nube. Cuando estoy limpiando sola, dando un paseo o conduciendo, ya sabes, no todo el tiempo, no te vuelvas loco. Pero de
+    vez en cuando, mientras comes, ya sabes, es bueno concentrarse en la comida. Pero de vez en cuando, ya sabes, intenta escuchar algunas conferencias sobre la nube.
+
+Comenzar con el desarrollo integral en la nube puede resultar bastante abrumador. Tienes muchas opciones entre las que elegir para los distintos elementos de tu stack y también
+    tienes muchas opciones en cuanto a cómo y dónde desplegarlos.
+
+Te recomiendo que cuando empieces a elegir una pila en particular, te quedes con ella. Lo que debes evitar es que hayas desarrollado 12 aplicaciones diferentes de listas de
+    tareas pendientes en 12 idiomas diferentes, pero en realidad no hayas desarrollado ninguna habilidad más profunda en ninguno de ellos.
+
+Empezaré diciendo que supongo que no estoy del todo convencido de la idea de un desarrollador completo, ya que es muy difícil sobresalir tanto en el desarrollo de la interfaz de
+    usuario de front-end como en el acceso a los datos de la API de back-end y en el desarrollo de la canalización de datos. Así que, mi consejo es que te centres en uno u otro.
+Y puede que aprendas algo sobre el otro, pero al menos domines el desarrollo tanto del front-end como del back-end. El desarrollo de las API de back-end y el desarrollo de
+    microservicios requerirán más experiencia en interacción con la infraestructura y los servicios de la nube que probablemente el desarrollo de front-end.
+
+En general, te recomiendo que aprendas más sobre seguridad, ya que los problemas de seguridad ya están presentes en todo y no quieres ser la persona que conoces, lo que deja un
+    agujero de seguridad en tu aplicación.
+
+Ser contratado. No es de extrañar que la creación de redes sea clave aquí. Incluso las conexiones de segundo grado pueden sacar tu currículum de la pila digital."
