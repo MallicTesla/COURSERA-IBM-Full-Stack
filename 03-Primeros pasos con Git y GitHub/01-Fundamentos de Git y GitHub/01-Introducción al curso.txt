@@ -1,0 +1,33 @@
+"¡Bienvenido a este curso sobre Git y GitHub!
+
+Los Sistemas de Control de Versiones Distribuidos (SCVD) se han convertido en herramientas críticas en el desarrollo de software, y en facilitadores clave para la codificación
+    social y colaborativa.
+No sólo los utilizan los ingenieros de software y los profesionales de DevOps, sino también muchos otros profesionales de la tecnología, como los científicos de datos y los
+    ingenieros de datos. Sin embargo, su uso no se limita únicamente a las profesiones de codificación.
+Son útiles en cualquier lugar donde se requiera el seguimiento de cambios/versiones y/o la colaboración entre varios usuarios. En IBM Skills Network, los instructores y autores
+    de los cursos utilizan ampliamente los repositorios Git incluso para desarrollar el contenido de los cursos, como las instrucciones de laboratorio. También encontrará casos
+    de uso en documentación técnica, gestión de documentos legales e incluso desarrollo colaborativo de recetas, libros, etc.
+
+Aunque existen muchos sistemas distribuidos de versionado, Git se encuentra entre los más populares. Y GitHub es una plataforma de control de versiones alojada basada en Git muy
+    popular, y está experimentando un crecimiento increíble.  Cuando algunos de los vídeos para este curso se desarrollaron un par de años antes, había más de 100 millones de
+    repositorios de GitHub, mientras que en el momento de escribir esto, enero de 2022, han crecido a más de 200 millones de repositorios. Estos incluyen repositorios públicos y
+    privados tanto para proyectos de código abierto como de código cerrado. 
+
+La popularidad de Git y GitHub hace que su uso sea una habilidad esencial para los profesionales relacionados con la codificación, como ingenieros de software, desarrolladores
+    de aplicaciones, desarrolladores móviles, ingenieros de DevOps y fiabilidad de sitios, científicos de datos e ingenieros de datos. Cuando intente conseguir un trabajo
+    relacionado con el software o cambiar a otro diferente, los empleadores esperan que proporcione enlaces a su perfil de GitHub en su currículum. 
+
+En este curso desarrollará las habilidades conceptuales y prácticas esenciales para trabajar con Git y GitHub. Comenzaremos con una visión general de Git y GitHub, seguida de la
+    creación de una cuenta de GitHub y un repositorio de proyecto, añadiendo archivos al mismo, y confirmando sus cambios utilizando la interfaz web. 
+
+A continuación, se familiarizará con los flujos de trabajo de Git que implican ramas y pull requests (PRs) y fusiones. Aprenderá a bifurcar y clonar repositorios públicos, a
+    utilizar pull y push para sincronizar su código base entre repositorios locales y remotos, y practicará el trabajo con comandos Git para su uso en flujos de trabajo de
+    desarrollo colaborativo. También completará un proyecto al final para aplicar y demostrar sus habilidades recién adquiridas.
+
+Si necesita cualquier aclaración o ayuda, no dude en publicar en los foros de debate del curso para interactuar con sus compañeros y obtener asistencia del equipo del curso.
+
+¡Diviértase y le deseamos lo mejor!
+
+Sus instructores del curso,
+
+Rav Ahuja y Upkar Lidder"

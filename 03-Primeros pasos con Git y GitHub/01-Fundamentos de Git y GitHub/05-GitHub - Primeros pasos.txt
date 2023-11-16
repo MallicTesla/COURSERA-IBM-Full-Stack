@@ -1,0 +1,26 @@
+"En el vídeo anterior, aprendiste sobre Git y GitHub. Antes de continuar con este vídeo, regístrate para obtener una cuenta de GitHub e inicia sesión.
+
+Empecemos por crear un repositorio nuevo. Haga clic en + y, a continuación, en Nuevo repositorio. Para crear un repositorio nuevo, debe proporcionar los siguientes detalles:
+    asigne un nombre al nuevo repositorio; si lo desea, añada una descripción del repositorio; elija la visibilidad del repositorio (si quiere que sea pública o privada) y elija
+    la opción de inicializar este repositorio con el archivo readme. A continuación, haz clic en Crear repositorio. Ahora se le redirigirá al repositorio que ha creado.
+La carpeta raíz de tu repositorio aparece de forma predeterminada y solo tiene un archivo README.md.
+
+Ahora es el momento de editar el archivo readme. Puedes hacerlo en tu navegador. Simplemente haga clic en el lápiz para abrir el editor en línea y podrá cambiar el texto del
+    archivo readme.
+Para guardar los cambios en el repositorio, debe confirmarlos. Una vez realizados los cambios, desplázate hacia abajo hasta la sección Confirmar cambios. Añade un mensaje de
+    confirmación y, si lo deseas, añade una descripción y, a continuación, haz clic en Confirmar cambios. La opción «confirmar cambios» se utiliza para guardar los cambios en el
+    repositorio.
+
+Vuelva a la pantalla de inicio haciendo clic en el enlace del nombre del repositorio. Tenga en cuenta que el archivo readme está actualizado y compruebe los cambios.
+
+Aprendamos cómo crear un archivo nuevo utilizando el editor web integrado proporcionado por GitHub, que se ejecuta en el navegador. Haz clic en Añadir archivo y, a continuación,
+    en Crear nuevo archivo para crear el nuevo archivo. Para crear un archivo de python llamado firstpython.py. Primero, proporciona el nombre del archivo. A continuación, añada
+    un comentario que describa el código y, a continuación, añada el código. Cuando termines, confirma el cambio en el repositorio. Puedes ver que tu archivo ya está agregado al
+    repositorio y que la lista de repositorios muestra cuándo se agregó o modificó el archivo. Cuando necesites cambiar el archivo, puedes volver a editarlo. Haz clic en el
+    nombre del archivo y, a continuación, en el icono del lápiz, realiza las modificaciones y confirma los cambios.
+
+También puedes cargar un archivo desde tu sistema local al repositorio. En la pantalla de inicio del repositorio, haga clic en Añadir archivo y elija la opción Cargar archivos.
+Haga clic en Elija sus archivos y seleccione los archivos que desee cargar desde su sistema local. El proceso de carga de archivos puede tardar poco, en función de lo que esté
+    cargando. Cuando los archivos terminen de cargarse, haz clic en Confirmar cambios. El repositorio ahora refleja los archivos que se cargaron.
+
+En este vídeo, aprendió a crear un repositorio, editar archivos y confirmar cambios mediante la interfaz web."

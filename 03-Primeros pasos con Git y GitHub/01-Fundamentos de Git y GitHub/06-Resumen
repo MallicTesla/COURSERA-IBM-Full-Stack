@@ -1,0 +1,15 @@
+"En este módulo, ha aprendido que:
+
+Un sistema de control de versiones distribuidas (DVCS) realiza un seguimiento de los cambios en el código, independientemente de dónde esté almacenado. Esto permite que varios
+    usuarios trabajen en la misma base de código o repositorio, replicando la base de código en sus propios ordenadores si es necesario, mientras que el software de control de
+    versiones distribuido ayuda a gestionar la sincronización entre las distintas réplicas de la base de código.
+
+Los repositorios son estructuras de almacenamiento que
+
+    Almacenan el código
+
+    Realizan un seguimiento de las incidencias y los cambios.
+
+    Permitir colaborar con otros
+
+Git es uno de los sistemas distribuidos de control de versiones más populares. GitHub, GitLab y Bitbucket son ejemplos de sistemas de control de versiones alojadas."

@@ -1,0 +1,46 @@
+"Bienvenido a Introducción a GitHub Después de ver este vídeo, podrás: Describir el propósito de los repositorios de código fuente y explicar cómo GitHub satisface las
+    necesidades de un repositorio de código fuente.
+
+El desarrollo de Linux a principios de la década de 2000 se gestionaba mediante un sistema de uso gratuito conocido como BitKeeper.
+
+En 2005, BitKeeper pasó a ser un sistema de pago, lo que supuso un problema para los desarrolladores de Linux por muchas razones. Linus Torvalds dirigió un equipo para
+    desarrollar un sistema de control de versiones fuente que lo sustituyera. El proyecto se llevó a cabo en un breve período de tiempo y un pequeño grupo definió las
+    características clave.
+Estas incluyen: Un fuerte apoyo al desarrollo no lineal. (Los parches de Linux llegaban entonces a un ritmo de 6,7 parches por segundo) Desarrollo distribuido.
+Cada desarrollador puede tener una copia local del historial de desarrollo completo. Compatibilidad con los sistemas y protocolos existentes. Esto era necesario para reconocer
+    la diversidad de la comunidad Linux. Manejo eficiente de grandes proyectos. Autenticación criptográfica del historial. Esto garantiza que todos los sistemas distribuidos
+    tengan actualizaciones de código idénticas. Estrategias de fusión conectables.
+
+Muchas vías de desarrollo pueden llevar a decisiones de integración complejas que pueden requerir estrategias de integración explícitas. ¿Qué tiene de especial el modelo de
+    repositorio de Git? Git está diseñado como un sistema de control de versiones distribuido. Se centra principalmente en el seguimiento del código fuente durante el desarrollo.
+Contiene elementos para coordinar entre los programadores, realizar un seguimiento de los cambios y respaldar los flujos de trabajo no lineales.
+
+Creado en 2005 por Linus Torvalds para la distribución de núcleos de Linux. Git es un sistema de control de versiones distribuido que se utiliza para rastrear los cambios en el
+    contenido. Sirve como punto central de colaboración con un enfoque particular en las metodologías de desarrollo ágiles.
+
+En un sistema central de control de versiones, todos los desarrolladores deben extraer el código del sistema central y volver a utilizarlo.
+Como Git es un control de versiones distribuido, cada desarrollador dispone de una copia local del historial de desarrollo completo y los cambios se copian de un repositorio a
+    otro. Cada desarrollador puede actuar como centro. Cuando Git se usa correctamente, hay una rama principal que corresponde al código desplegable.
+
+Los equipos pueden integrar de forma continua los cambios que están listos para su publicación y trabajar simultáneamente en ramas separadas entre versiones.
+
+Git también permite la administración centralizada de las tareas con controles de nivel de acceso para cada equipo. Git puede coexistir localmente, por ejemplo, a través del
+    cliente GitHub Desktop, o puede usarse directamente a través de un navegador conectado a la interfaz web de GitHub. IBM Cloud se basa en herramientas de código abierto
+    sólidas y consolidadas, incluidos los repositorios de Git, a menudo denominados repositorios.
+
+GitHub es un servicio de alojamiento online para repositorios de Git. GitHub está hospedado por una subsidiaria de Microsoft. GitHub ofrece cuentas gratuitas, profesionales y
+    empresariales. En agosto de 2019, GitHub tenía más de 100 millones de repositorios.
+
+Un repositorio es: una estructura de datos para almacenar documentos, incluido el código fuente de la aplicación. Un repositorio puede rastrear y mantener el control de
+    versiones.
+
+GitLab es una plataforma DevOps completa, que se entrega como una sola aplicación. GitLab proporciona acceso a los repositorios de Git, controlados mediante la gestión del
+    código fuente. Con GitLab, los desarrolladores pueden: Colaborar, revisar el código, hacer comentarios y ayudarse a mejorar el código de los demás.
+Trabajen desde su propia copia local del código. Ramifica y fusiona el código cuando sea necesario. Optimice las pruebas y la entrega con la integración continua (CI) y la
+    entrega continua (CD) integradas.
+
+En este vídeo, aprendiste lo siguiente: GitHub es el servicio de alojamiento en línea para los repositorios de Git. Los repositorios almacenan documentos, incluido el código
+    fuente de las aplicaciones, y permiten a los colaboradores realizar un seguimiento y mantener el control de las versiones. ¿Qué tiene de especial el modelo de repositorio de
+    Git? Git está diseñado como un sistema de control de versiones distribuido. Se centra principalmente en el seguimiento del código fuente durante el desarrollo.
+
+Contiene elementos para coordinar entre los programadores, realizar un seguimiento de los cambios y respaldar los flujos de trabajo no lineales."

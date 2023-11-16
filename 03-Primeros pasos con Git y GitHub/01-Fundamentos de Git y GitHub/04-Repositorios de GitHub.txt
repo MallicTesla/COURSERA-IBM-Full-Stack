@@ -1,0 +1,34 @@
+"¡Bienvenido a los repositorios de GitHub! Después de ver este vídeo, podrás: Explicar cómo registrarte en una cuenta de GitHub y describir cómo crear un repositorio.
+
+Registrarse para obtener una cuenta personal gratuita en GitHub es rápido y sencillo. Comienza en el sitio de GitHub, https://github.com. Deberás elegir un nombre de usuario,
+    ingresar tu dirección de correo electrónico y seleccionar una contraseña, luego hacer clic en Registrarse en GitHub. A continuación, tendrás una breve prueba para demostrar
+    que eres una persona. Haz clic en Verificar y resuelve el rompecabezas presentado. Cuando termines, haz clic en unirte a un plan gratuito y, a continuación, aparecerá una
+    pantalla en la que podrás seleccionar el tipo de cuenta. Lo más probable es que lo único que desees sea una cuenta personal gratuita. Elige configurar una cuenta personal
+    gratuita, que es la predeterminada. GitHub te hace algunas preguntas sobre tu trabajo, tu experiencia en programación y tus intereses. Puedes omitirlas si lo deseas. Por
+    último, tendrás que responder a un correo electrónico que recibas y que demuestre que te has vinculado a GitHub desde una cuenta a la que accedes.
+
+Te proporciona algunos puntos de partida. Puedes elegir crear un repositorio o una organización, o puedes realizar el curso de Introducción a GitHub. Recuerda que un repositorio
+    es una estructura de datos para almacenar documentos, incluido el código fuente de una aplicación, que rastrea y mantiene el control de las versiones.
+Una organización es un conjunto de cuentas de usuario que posee repositorios. Las organizaciones tienen uno o más propietarios, que tienen privilegios administrativos para la
+    organización. O bien, puede omitir esto por ahora y ponerse manos a la obra inmediatamente.
+
+GitHub proporciona muchos recursos para ayudarte a trabajar de forma eficaz. Cuando tengas tiempo, lee la guía de GitHub. El núcleo de un proyecto basado en Git es el
+    repositorio. Contiene todo el código y los elementos relacionados, incluidos elementos como: un archivo README para describir el propósito del proyecto.
+
+Una licencia para expresar las formas en que las personas pueden usar tu código, etc. También puedes hacer que tu repositorio sea privado (solo disponible para personas con
+    cuentas que tengan permiso para verlo) o público (todo el mundo pueda buscarlo y verlo). Cuando crees tu repositorio, verás que tiene varias pestañas y que está abierto en
+    la pestaña Código.
+
+Código: aquí es donde residen todos los archivos fuente. Git se creó inicialmente como un repositorio de código fuente y ahora todo tipo de archivos acaban aquí. Si has creado
+    un README y/o una licencia, eso es todo lo que tienes aquí ahora mismo.
+Problemas: como puedes imaginar, puedes hacer un seguimiento y planificar con herramientas como «Problemas», que enumera todos los elementos pendientes en función de tu base de
+    proyectos.
+Solicitudes de cambios: esto forma parte del mecanismo de colaboración con otros usuarios. Las solicitudes de extracción definen los cambios que están confirmados y listos para
+    ser revisados antes de incorporarlos a la rama principal.
+Proyectos: todas las herramientas para gestionar, clasificar, planificar, etc., sus diversos proyectos. Este es el núcleo del poder colaborativo de GitHub. Wiki, Security e
+    Insights: estas herramientas, que suelen reservarse a usuarios más avanzados, proporcionan una base de comunicación con la comunidad de usuarios externos.
+
+Configuración: GitHub permite una gran cantidad de personalizaciones, como cambiar el nombre del repositorio y controlar el acceso.
+
+En este vídeo, aprendiste: Cómo crear y verificar una cuenta de GitHub. Los repositorios son estructuras de almacenamiento que pueden almacenar código, realizar un seguimiento
+    de los problemas y permitirte colaborar con otros."

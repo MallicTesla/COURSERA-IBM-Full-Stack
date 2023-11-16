@@ -1,0 +1,41 @@
+"En este vídeo, obtendrás una visión general de Git y GitHub, que son entornos populares entre los desarrolladores y los científicos de datos para controlar las versiones de los
+    archivos y proyectos de código fuente y colaborar con otros. No se puede hablar de Git y GitHub sin tener una comprensión básica de lo que es el control de versiones.
+
+Un sistema de control de versiones te permite realizar un seguimiento de los cambios en tus documentos. Esto te facilita la recuperación de versiones antiguas de tu documento en
+    caso de que cometas un error y facilita mucho la colaboración con otros usuarios.
+
+A continuación se muestra un ejemplo para ilustrar cómo funciona el control de versiones. Supongamos que tienes una lista de compras y quieres que tus compañeros de habitación
+    confirmen las cosas que necesitas y añadan artículos adicionales. Sin el control de versiones, tienes un gran lío que arreglar antes de poder ir de compras. Con el control
+    de versiones, sabes exactamente lo que necesitas después de que todos hayan aportado sus ideas.
+
+Git es un software gratuito y de código abierto distribuido bajo la Licencia Pública General GNU. Git es un sistema de control de versiones distribuido, lo que significa que los
+    usuarios de cualquier parte del mundo pueden tener una copia de su proyecto en su propia computadora. Cuando hayan realizado cambios, podrán sincronizar su versión con un
+    servidor remoto para compartirla contigo.
+Git no es el único sistema de control de versiones que existe, pero el aspecto distribuido es una de las principales razones por las que se ha convertido en uno de los sistemas
+    de control de versiones más comunes disponibles. Los sistemas de control de versiones se utilizan ampliamente para cosas relacionadas con el código, pero también puedes
+    controlar las versiones de imágenes, documentos y cualquier tipo de archivos. Puedes usar Git sin una interfaz web mediante la interfaz de línea de comandos, pero GitHub es
+    uno de los servicios hospedados en la web más populares para los repositorios de Git.
+
+Otros incluyen GitLab, BitBucket y Beanstalk. Hay algunos términos básicos que necesitarás conocer antes de empezar. El protocolo SSH es un método para el inicio de sesión
+    remoto seguro de un ordenador a otro.
+Un repositorio contiene las carpetas del proyecto que están configuradas para el control de versiones.
+Una bifurcación es una copia de un repositorio.
+Una solicitud de cambios es la forma en la que solicitas que alguien revise y apruebe tus cambios antes de que sean definitivos.
+Un directorio de trabajo contiene los archivos y subdirectorios de tu ordenador que están asociados a un repositorio de Git.
+
+Hay algunos comandos básicos de Git que siempre utilizarás. Cuando empieces con un repositorio nuevo, solo tendrás que crearlo una vez: de forma local y, a continuación,
+    subirlo a GitHub, o bien clonar un repositorio existente con el comando «git init».
+
+«git add» mueve los cambios del directorio de trabajo al área de ensayo.
+«git status» te permite ver el estado de tu directorio de trabajo y una instantánea provisional de los cambios.
+«git commit» toma tu instantánea provisional de los cambios y los confirma en el proyecto.
+«git reset» deshace los cambios que has realizado en los archivos de tu directorio de trabajo.
+«git log» te permite buscar cambios anteriores en un proyecto.
+«git branch» te permite crear un entorno aislado dentro de tu repositorio para realizar cambios.
+«git checkout» te permite ver y cambiar las ramas existentes.
+«git merge» te permite volver a armar todo.
+
+Para aprender a utilizar Git de forma eficaz y empezar a colaborar con científicos de datos de todo el mundo, tendrás que aprender los comandos esenciales. Por suerte para
+    nosotros, GitHub tiene recursos increíbles disponibles para ayudarte a empezar. Ve a try.github.io para descargar las hojas de trucos y consultar los tutoriales.
+
+En los siguientes módulos, te ofreceremos un curso intensivo sobre cómo configurar tu entorno local y cómo empezar un proyecto."
