@@ -1,0 +1,38 @@
+"Bienvenido a administrar proyectos de GitHub. En este vídeo, identificarás las funciones comunes del control de versiones o de Git en el proyecto y enumerarás los comandos de
+    Git para comunicarte con otros desarrolladores.
+
+Ya sabes que GitHub es una plataforma popular para el control de versiones y la gestión de proyectos. Necesitas administrar tus proyectos de GitHub para una colaboración y
+    organización de proyectos efectivas. En la administración de un proyecto intervienen varios roles: un desarrollador, un integrador y un administrador de repositorios.
+
+Un desarrollador que trabaja como participante en un proyecto grupal debe aprender a comunicarse con los demás y a utilizar estos comandos además de los que necesita un
+    desarrollador independiente. Al trabajar con Git, puedes usar los comandos de Git o las herramientas de escritorio, como GitHub Desktop.
+
+El clon de Git se usa para crear una copia desde upstream, un repositorio compartido remoto en el que el desarrollador quiere trabajar. Git pull y git fetch se utilizan para
+    extraer o recuperar el repositorio desde el origen para mantenerse al día con el upstream.
+
+Git push se usa para enviar confirmaciones al repositorio compartido si adoptas un sistema de control de versiones simultáneo para el flujo de trabajo del repositorio, y git
+    request, pull crea un resumen de los cambios para que lo extraiga tu upstream.
+
+Un integrador de un proyecto grupal recibe los cambios realizados por otros usuarios, los revisa e integra, responde a las solicitudes de agrupamiento y publica el resultado
+    para que otros lo usen. Los integradores utilizan los siguientes comandos además de los que necesitan los participantes.
+Git pull te ayuda a unirte a tus lugartenientes de confianza.
+Git revert deshará cualquier confirmación fallida.
+Git push ayudará a publicar el proyecto desde el repositorio local al repositorio remoto.
+
+El administrador del repositorio estructura la forma en que se organiza el repositorio y la forma en que los usuarios interactúan con él. También administran las comunidades,
+    los tipos de activos, las relaciones, las categorías y los atributos. Un administrador del repositorio configura y mantiene el acceso al repositorio para los desarrolladores.
+También configuran los servidores necesarios para acceder a los servicios web y la documentación, definen la configuración del correo electrónico y del índice y gestionan el
+    aspecto de la aplicación.
+
+Los administradores de repositorios pueden usar las acciones de GitHub para automatizar los flujos de trabajo del software, incluida la integración y la entrega continuas (CICD).
+
+Recapitulemos. En este vídeo, descubriste que en la gestión de un proyecto intervienen varios roles: desarrollador, integrador y administrador de repositorios.
+Cada rol usa diferentes comandos de Git para comunicarse con los colaboradores.
+
+Un desarrollador que trabaja en un proyecto grupal usa comandos como git clone, git pull, git fetch, git push y git request pull.
+
+Además de los que necesita un desarrollador independiente, un integrador de un proyecto grupal revisa e integra los cambios realizados por otros. Los integradores utilizan
+    comandos como git pull, git revert y git push, además de los que necesitan los participantes.
+
+Los administradores del repositorio estructuran la forma en que se organiza el repositorio y la forma en que los usuarios interactúan con él. También configuran los servidores
+    necesarios para acceder a los servicios web y a la documentación, definen la configuración del correo electrónico y del índice y gestionan el aspecto de la aplicación."

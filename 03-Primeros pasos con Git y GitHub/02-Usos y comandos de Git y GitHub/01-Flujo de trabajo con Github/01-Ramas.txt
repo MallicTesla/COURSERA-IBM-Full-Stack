@@ -1,0 +1,51 @@
+"¡Bienvenido a GitHub Branches! Después de ver este vídeo, podrás: Explicar el propósito de las ramas y describir cómo combinar los cambios en ramas.
+
+Todos los archivos de GitHub se almacenan en una rama. La rama maestra es definitiva. Almacena la versión desplegable de su código. La rama maestra se crea de forma
+    predeterminada; sin embargo, puedes usar cualquier rama como versión principal, completa y desplegable del código.
+
+Cuando planeas cambiar algo, creas una nueva rama y le das un nombre descriptivo. La nueva sucursal comienza como una copia exacta de la rama original. A medida que haces
+    cambios, la rama que has creado contiene el código modificado. Para crear una nueva rama, haz clic en el menú desplegable rama: master Añadir el nombre de la nueva rama al
+    texto de la nueva rama y selecciona Crear rama.
+
+Las sucursales de GitHub pueden ser muy complejas para proyectos de software de gran tamaño. Para un proyecto simple, como los que estamos explorando, considera lo siguiente:
+    comienza con una base común, la fuente inicial de este proyecto. En un momento dado, el código se ramifica mientras se desarrollan nuevas funciones. En este ejemplo, ambas
+    ramas están experimentando cambios. Cuando las dos líneas de trabajo estén listas para fusionarse, el código de cada rama se identifica como una sugerencia. y las dos puntas
+    se fusionan en una tercera rama combinada.
+
+Los desarrolladores trabajan con los archivos fuente en una rama. Como algunos proyectos tardan un tiempo, la fuente no tiene sentido de inmediato.
+
+Para cambiar el contenido de un archivo: selecciona el archivo. Haz clic en el icono del lápiz. Realice los cambios. Realice los cambios. Cuando el desarrollador ha completado
+    el trabajo que se le ha asignado, para guardar los cambios, confirma el código. Commit indica que el desarrollador está convencido de que el código representa una plataforma
+    estable para la función o conjunto de funciones que se está desarrollando. Cuando un desarrollador incorpora el código fuente modificado a su ruta, debe escribir un
+    comentario que describa los cambios.
+El comentario debe ser descriptivo y significativo. El desarrollador puede optar por comprometerse con la rama actual o crear una nueva.
+
+Algunas prácticas recomendadas: no termines el mensaje de confirmación con un punto. Mantenga los mensajes de confirmación de menos de 50 caracteres; utilice la ventana ampliada
+    para ver los detalles. Escribe siempre con una voz «activa».
+
+La función Pull se utiliza para iniciar la fusión de las ramas con el fin de captar los cambios. Una solicitud de extracción permite que los cambios propuestos (confirmados)
+    estén disponibles para que otros los revisen y utilicen.
+
+Una extracción puede seguir a cualquier confirmación, incluso si el código no está terminado. Una extracción requiere que el usuario apruebe los cambios. Puede ser el autor del
+    cambio o puede asignarse dentro del equipo. Ten en cuenta que GitHub realiza automáticamente una solicitud de cambios en tu nombre si realizas un cambio en una sucursal que
+    no es de tu propiedad. Como los archivos de registro son inmutables, siempre es posible encontrar a la persona que aprobó la fusión del cambio.
+Para abrir una nueva solicitud de extracción: haz clic en Solicitud de extracción y selecciona Nueva solicitud de extracción. Selecciona la nueva sucursal en el cuadro de
+    comparación. Desplázate hacia abajo para ver los cambios. Confirme que los cambios son los que quiere evaluar. Agrega un título y una descripción a la solicitud. Haz clic en
+    Crear solicitud de extracción.
+
+La intención de los repositorios de Git es que la rama maestra sea el único código desplegado. Los desarrolladores pueden cambiar los archivos fuente en una rama, pero los
+    cambios no se publicarán hasta que se publiquen. Están comprometidos. Se emite una orden de tracción. Se revisa y aprueba el código. El código aprobado se vuelve a fusionar
+    con el código maestro.
+
+Para combinar un cambio de código confirmado con tu código maestro, haz clic en Combinar una solicitud de extracción. Haz clic en Confirmar la fusión. Cuando se hayan realizado
+    todos los cambios en una rama, esa rama se considerará obsoleta y deberá eliminarse.
+
+En este vídeo, aprendiste lo siguiente:
+    Todos los archivos de GitHub están en una rama.
+    La rama maestra contiene la versión final y desplegable del código.
+    Crea nuevas ramas cuando necesites cambiar el código.
+    La nueva rama comienza como una copia exacta de la rama original. A medida que haces cambios, la rama que has creado contiene el código modificado.
+    Es posible que se estén modificando más de una sucursal al mismo tiempo.
+    Los cambios guardados se denominan confirmaciones.
+    Las solicitudes de cambios permiten a otros usuarios revisar y utilizar los cambios propuestos (confirmados).
+    Cuando esté listo para fusionar el código modificado en la rama maestra, combine los cambios de código confirmados en su código maestro."

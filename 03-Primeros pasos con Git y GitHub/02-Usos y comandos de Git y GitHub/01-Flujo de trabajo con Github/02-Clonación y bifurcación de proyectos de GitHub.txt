@@ -1,0 +1,53 @@
+"Bienvenido a Clonación y bifurcación de proyectos de GitHub. Después de ver este vídeo, podrás: Clonar y sincronizar repositorios.
+
+Bifurca un proyecto para crear una base para un nuevo proyecto. Usa los comandos de git para comunicarte con otros desarrolladores. GitHub tiene más de 100 millones de
+    repositorios existentes, incluidos algunos proyectos muy útiles. Ya sea que estés uniéndote a un equipo o basando tu propio proyecto en un trabajo previo, algunas de las
+    herramientas más poderosas son la bifurcación y la clonación de un repositorio. Por lo general, la clonación se refiere a crear una copia de un repositorio en tu máquina
+    local. Las copias clonadas se pueden mantener sincronizadas entre las dos ubicaciones.
+
+La bifurcación permite modificar o ampliar un proyecto sin afectar al proyecto original. Con frecuencia, se utiliza para tomar un proyecto existente y convertirlo en el punto de
+    partida del nuevo proyecto.
+
+Para clonar un repositorio de GitHub, navega hasta el repositorio que deseas clonar. Debajo del nombre del repositorio, haz clic en Código. En la sección Clonar con HTTPS, haz
+    clic en el botón del portapapeles para copiar la URL. Para descargar el código fuente, puede hacer clic en Descargar zip, pero sin la información de control de versiones.
+En su máquina local, abra la ventana «Terminal» y diríjase al directorio en el que desee copiar el clon. Escribe «git clone» y, a continuación, pega la URL que has copiado
+    anteriormente y, a continuación, pulsa ENTER para ejecutar la clonación. Cuando hayas realizado los cambios y estés listo para volver a sincronizar tu código con GitHub.
+En primer lugar, debes ejecutar el <files>comando «git add». Esto mueve los archivos modificados a un área de almacenamiento provisional en el repositorio de GitHub.
+
+El área de preparación es un área en la que se pueden formatear y revisar las confirmaciones antes de completarlas. A continuación, cuando estés listo, ejecuta
+    «git commit —m<message>» para confirmar los cambios en el área de ensayo. Cuando estés listo para mover los cambios por completo al repositorio de GitHub. Usa el comando
+    «git push». Esto introducirá todos los cambios confirmados en el repositorio.
+
+Los repositorios remotos son repositorios que se almacenan en otro lugar: en Internet, en la red o incluso en el ordenador local. Puede tener varios repositorios remotos, cada
+    uno de los cuales, por lo general, es de solo lectura o de lectura/escritura. La colaboración con otras personas implica la administración de estos repositorios remotos y,
+    cuando es necesario compartir el trabajo, implica realizar operaciones de carga, extracción y recuperación hacia ellos y desde ellos.
+
+Usa git push para transferir tus cambios al repositorio remoto.
+Usa git fetch para transferir cualquier cambio del repositorio remoto a tu repositorio local.
+No fusiona esos cambios con la rama en la que estás trabajando. Si lo desea, puede realizar una fusión manualmente.
+Usa git pull para transferir los cambios del repositorio remoto a tu repositorio local y combínalos en una rama.
+
+Los desarrolladores utilizan los términos upstream y origin cuando hablan de representantes remotos. Por lo general, Origin se refiere a tu bifurcación y upstream se refiere a
+    la obra original.
+Estas son las normas. Por supuesto, puedes ponerles el nombre que quieras. La bifurcación se usa para tomar una copia de un repositorio de GitHub y usarla como base para un
+    nuevo proyecto. También puedes usar la bifurcación para volver a enviar los cambios al repositorio original. También se usa para realizar cambios en un proyecto de forma
+    independiente. En ese caso, cuando estés satisfecho con los cambios, envía una solicitud de cambios al propietario original del proyecto. Ellos pueden decidir si aceptan o
+    no tus cambios.
+
+A menudo es un requisito legal conservar una copia del archivo de licencia. Incluso si no existe ningún requisito legal, es una buena práctica. Navega hasta el repositorio que
+    deseas bifurcar. En la esquina superior derecha, haz clic en el botón «Bifurcar». Para mantener una bifurcación sincronizada con la obra original de un clon local.
+En primer lugar, crea un clon local del proyecto. Para configurar Git para que sincronice tu bifurcación: abre una terminal y cambia al directorio que contiene el clon.
+
+Escribe «git remote —v». Esto te mostrará el repositorio remoto.
+Escribe «git remote add upstream<PASTE>» con el directorio pegado que usaste al crear tu clon. Al añadir upstream, se añade el repositorio original como un nuevo repositorio
+    remoto denominado upstream.
+Si escribes «git remote —v», verás el cambio reflejado.
+
+Otros comandos interesantes son «git fetch upstream» para capturar las ramas ascendentes y «git merge upstream/master», que fusiona los cambios en la rama master.
+También verás que se usa «git pull upstream» para buscar y fusionar la rama remota en el mismo paso. «Git pull upstream» reduce el número de pasos necesarios para sincronizar
+    con una sucursal remota, pero no siempre es recomendable realizar fusiones automáticas.
+
+En este vídeo, aprendiste lo siguiente:
+GitHub tiene más de 100 millones de repositorios que puedes usar.
+Puedes clonar un repositorio para copiarlo en tu máquina local y sincronizar los cambios con el repositorio original.
+Puedes bifurcar un repositorio para usarlo como base para un nuevo proyecto o para trabajar en un proyecto de forma independiente."

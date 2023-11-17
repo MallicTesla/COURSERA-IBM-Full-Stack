@@ -1,0 +1,17 @@
+"En este módulo, usted aprendió que:
+
+Las ramas se utilizan para aislar los cambios en el código. Cuando los cambios están completos, pueden fusionarse de nuevo en la rama principal.
+
+Los repositorios pueden clonarse para poder trabajar localmente y luego sincronizar los cambios con el original.
+
+Los repositorios pueden bifurcarse para utilizarlos como base de un nuevo proyecto, o para que el desarrollador pueda trabajar de forma independiente.
+
+Se puede enviar una Pull Request (PR) para que sus cambios sean revisados y fusionados.
+
+Los grandes proyectos incluyen personas que trabajan en diferentes roles:
+
+Desarrollador - crea el código
+
+Integrador - gestiona los cambios realizados por los desarrolladores
+
+Administrador del repositorio - configura y mantiene el acceso al repositorio"
