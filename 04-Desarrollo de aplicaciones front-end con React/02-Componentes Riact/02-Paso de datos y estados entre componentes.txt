@@ -1,0 +1,61 @@
+"Bienvenido a Pasar datos y estados entre componentes. Después de ver este vídeo, podrás: Describir el ciclo de vida de los componentes de React y explicar cómo pasar los datos
+    y los estados a los componentes.
+
+Cada componente de React tiene tres fases en su ciclo de vida. El montaje es cuando se crea el componente por primera vez.
+La actualización se produce cuando el componente se renderiza con un cambio de estado o de propiedades (accesorios).
+Y el desmontaje se produce cuando el componente se elimina del modelo de objetos del documento (DOM).
+
+En el montaje, se utilizan cuatro métodos en este orden.
+El método constructor () construye el objeto. Esto puede llamar al superconstructor con el objeto props si se está configurando algún accesorio específico. El método
+    getDerivedStateFromProps () solo se usa cuando el estado depende de los cambios en los accesorios.
+
+El método render () es obligatorio en un componente de React. Este método hace que aparezca el componente. Debe devolver un elemento DOM y solo puede devolver un elemento raíz,
+    que puede tener o no muchos elementos secundarios anidados. El método componentDidMount () se invoca inmediatamente después de montar o insertar un componente en el árbol DOM.
+Cuando se crea el componente App, se invoca el constructor. El constructor primero llama al super y, a continuación, inicia sesión en la consola.
+
+A continuación, se invoca el método render. Este método inicia sesión en la consola y, a continuación, renderiza el componente. Y, por último, se invoca el método
+    componentDidMount.
+
+Puede ver esto en el orden de los registros de la consola en la página renderizada. Al actualizar, se invocan cinco métodos en este orden.
+
+El método getDerivedStateFromProps () solo se usa cuando el estado depende de los cambios en los accesorios.
+El método shouldComponentUpdate () devuelve true de forma predeterminada.
+Cada vez que se produce un cambio de estado, se llama a este método para comprobar si el componente debe actualizarse. No se invoca durante la creación inicial del componente.
+Haga que este método devuelva el valor false solo si no desea renderizar los cambios de estado.
+
+El método render () es el mismo método render () utilizado en el montaje, pero aquí actualiza el componente.
+El método getSnapshotBeforeUpdate () se invoca justo antes de que se procesen los cambios. Ayuda a realizar un seguimiento de lo que ha cambiado. Cualquier valor devuelto por
+    este ciclo de vida se transferirá como parámetro al método componentDidUpdate () y componentDidUpdate () se invocará inmediatamente después de que se produzca la
+    actualización. Cuando se cambia el estado de la aplicación componente, se actualiza.
+
+Pensemos en un componente de la aplicación con un contador de clics mantenido como estado. Con solo hacer clic en el botón, se invoca IncrementCounter, lo que aumenta el estado
+    del contador en 1. Cada vez que cambia el estado, el componente se vuelve a renderizar. Pero esto se puede controlar.
+
+El método shouldComponentUpdate devuelve el valor true de forma predeterminada. Este método rara vez se anula, es decir, su comportamiento rara vez cambia. Por lo general, se
+    hereda de la superclase y vuelve a ser verdadero. El método render inicia sesión en la consola y, a continuación, renderiza el componente.
+Por último, se invoca el método componentDidUpdate. Puede ver esto en el orden de los registros de la consola en la página renderizada.
+
+Cuando se desmonta o se quita un componente del árbol DOM, se llama al método componentWillUnmount (). En este ejemplo, tiene dos componentes. AppInner y App. AppInner se
+    renderiza dentro de la aplicación con un estado, se gestiona componentDidMount de la fase de montaje del componente de la aplicación y se inicia un temporizador de 5
+    segundos. Transcurridos 5 segundos, se invoca una llamada de retorno que cambia el estado del componente interno a un elemento div en lugar del componente AppInner, que
+    elimina o desmonta el componente.
+
+A continuación, se llama a componentWillUnmount de AppInner. Puede ver esto en el orden de los registros de la consola en la página renderizada. Puedes pasar datos entre los
+    componentes de React. Considera la relación entre los componentes.
+Hay tres tipos de relaciones: entre padres e hijos mediante accesorios, entre hijos y padres mediante llamadas y entre hermanos mediante Redux.
+Redux no está dentro del ámbito de este módulo. Aquí tienes dos clases: AppInner y App. El componente App contiene el componente AppInner. La aplicación es la principal y
+    AppInner es la secundaria. La aplicación establece el color y el nombre de la propiedad de AppInner. Los datos se pasan al hijo cada vez que se introduce un nuevo valor en
+    los cuadros de entrada del archivo principal. En el navegador, cuando se carga el componente, aparece el nombre por defecto John y el color verde. Cuando se cambian los
+    valores de color y nombre en el componente principal, se pasan al componente secundario, que se vuelve a renderizar. Aquí, pasará los datos del hijo al padre. Transfiere una
+    llamada al hijo como una propiedad y, a continuación, mediante la devolución de llamada, pasa los datos al padre. La devolución de llamada es un método normal, pero se
+    invoca más adelante cuando se cumple una condición.
+En este ejemplo, App es el componente principal que contiene un componente secundario: AppInner. En el elemento principal, se pasa la llamada de retorno func1 como una propiedad
+    al elemento secundario. Func1 es una función de componente principal que toma un argumento de cadena. En componentDidMount de AppInner, se invoca el método sendData.
+Este método invoca setInterval en un intervalo de 1 segundo. setInterval toma una devolución de llamada como primer parámetro y un intervalo de tiempo en el que la devolución
+    de llamada debe invocarse como segundo parámetro. En este caso, cada 1 segundo, se obtiene la hora actual y se invoca el método establecido como parentCallback, pasando el
+    tiempo. El método establecido como parentCallback es el método de la clase principal que establece el estado del componente principal y, por lo tanto, lo vuelve a renderizar.
+Puede ver la hora actual que pasa del hijo al padre mediante una retrollamada. El padre se vuelve a renderizar cada segundo.
+
+En este vídeo aprendiste que: cada componente de React tiene tres fases en su ciclo de vida: montaje, actualización y desmontaje.
+Cuando se crea o actualiza un componente, los métodos se invocan en el mismo orden y se pueden pasar datos de un componente a otro mediante propiedades, de un componente a otro
+    mediante retrollamadas y entre hermanos."

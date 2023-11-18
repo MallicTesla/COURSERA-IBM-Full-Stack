@@ -1,0 +1,58 @@
+"Bienvenido a Introduction to States. Después de ver este vídeo, podrás: explicar qué es un estado en React, explicar qué son los accesorios en React y comparar y contrastar el
+    estado y los accesorios de un componente.
+
+Los estados te permiten cambiar los datos de una aplicación. Se define como un objeto que le ayuda a incluir pares clave-valor que especifican los distintos tipos de datos que
+    desea rastrear en la aplicación.
+Los componentes de React tienen un objeto de estado integrado. Puede almacenar los valores de propiedad que pertenecen al componente en el objeto de estado. Cuando el objeto
+    de estado cambia, el componente se vuelve a renderizar.
+
+Hay dos tipos diferentes de estados en una aplicación de React: un estado compartido y un estado local.
+El estado compartido lo comparten varios componentes y es complicado. Un ejemplo de estado compartido es la lista de todos los pedidos de una solicitud de pedidos.
+
+El estado local reside en un único componente y no se utiliza en otros componentes. Un ejemplo de estado local es ocultar y mostrar información.
+
+El estado es un objeto simple de JavaScript utilizado por React para representar información sobre la situación actual del componente.
+El núcleo de cada componente de React es su «estado». El estado determina cómo se representa y se comporta un componente. Un estado permite crear componentes dinámicos e
+    interactivos.
+El estado es una instancia de la clase de componentes de React que se puede definir como un objeto con un conjunto de propiedades observables. Estas controlan el comportamiento
+    del componente. El estado se administra y conserva en el componente React. En otras palabras, el estado de un componente es un objeto que contiene cierta información que
+    puede cambiar a lo largo de la vida útil del componente. El estado es obligatorio si un componente de React va a cambiar o necesita cambiar durante la interacción con el
+    usuario. Puede realizar un seguimiento del cambio en el componente mediante un estado. Esto incluye, pero no se limita a, formularios, botones y temporizadores. Por ejemplo,
+    considere una aplicación sencilla con un botón y un contador. Cuando el usuario hace clic en el botón, el contador se incrementa en 1. Como el recuento cambia con cada clic,
+    debes mantener ese valor en ese estado.
+
+En este ejemplo de código se muestra cómo se puede crear un componente de prueba que contenga el estado con atributos como id, nombre y age. La función de renderización del
+    componente devuelve el nombre y la antigüedad del atributo de estado. El estado que contiene los atributos cambiará según los requisitos del componente.
+
+Props es la abreviatura de propiedades y se utilizan para pasar datos entre los componentes de React. El flujo de datos de React entre los componentes es unidireccional
+    únicamente de padres a hijos. Los accesorios son componentes de solo lectura. Son objetos que almacenan el valor de los atributos de una etiqueta y funcionan como los
+    atributos HTML. Son como argumentos de función que se pueden pasar al componente.
+
+Los accesorios son inmutables y no se pueden modificar desde el interior del componente. Los accesorios nunca deben cambiarse en un componente secundario. Si una variable se
+    modifica durante un proceso, debe pertenecer al estado del componente.
+
+Los accesorios también se utilizan para permitir que los componentes secundarios accedan a los métodos definidos en el componente principal.
+El estado se administra en el componente principal y el componente secundario no tiene un estado propio. La mayoría de sus componentes mostrarán información basada en los
+    accesorios que reciban y permanecerán sin estado.
+
+Veamos un ejemplo de accesorios. El ejemplo crea una clase, TestComponent, que amplía el componente React. Representa accesorios que aceptan el nombre del atributo.
+Luego, puedes pasar accesorios al componente de prueba, que acepta nombres diferentes, como John y Jill.
+
+Veamos las diferencias entre el estado y los accesorios.
+Un estado solo se puede usar en los componentes de la clase de forma nativa.
+En los componentes funcionales, debe activar el enlace useState para incluir funciones con estado. Los accesorios, por otro lado, le permiten reutilizar el componente al darle
+    la capacidad de recibir datos como entrada desde el componente principal. El estado es el estado local del componente al que no se puede acceder ni modificar fuera del
+    componente.
+
+Los accesorios, por otro lado, hacen que los componentes sean reutilizables al darles la capacidad de recibir datos del componente principal en forma de accesorios.
+Los componentes pueden crear y administrar sus propios datos con el estado, mientras que reciben datos del exterior con accesorios.
+El estado se usa para administrar datos, mientras que los accesorios se usan para pasar datos.
+Los datos estatales se pueden modificar mediante su propio componente , pero son privados y no se puede acceder a ellos desde fuera.
+Los datos de los accesorios son de solo lectura y no pueden ser modificados por un componente que los reciba desde fuera.
+Puede modificar el estado con el método setState (), mientras que los accesorios solo se pueden pasar del componente principal al secundario en un flujo unidireccional.
+
+En este vídeo, aprendiste que el estado es un objeto simple de JavaScript utilizado por React para representar información sobre la situación actual del componente.
+El estado te permite crear componentes dinámicos e interactivos.
+Cualquier cambio en los datos de estado provoca que la nueva representación del componente refleje el cambio.
+Props es la abreviatura de propiedades y se utilizan para pasar datos entre los componentes de React en un flujo unidireccional de padres a hijos.
+Los componentes pueden crear y administrar sus propios datos con el estado, mientras que reciben datos del exterior con accesorios."
