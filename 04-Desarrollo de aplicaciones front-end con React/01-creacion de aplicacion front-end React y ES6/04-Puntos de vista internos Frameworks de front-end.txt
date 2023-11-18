@@ -1,0 +1,22 @@
+"Bienvenido a Expert Viewpoints: Uso de frameworks JavaScript de front-end. En este vídeo, escucharemos a varios profesionales del desarrollo de aplicaciones hablar sobre cómo
+    trabajar con frameworks JavaScript para front-end.
+
+Entonces, ¿qué frameworks de JavaScript para front-end utilizas? ¿Y por qué los prefieres a otras opciones? Mi framework de JavaScript para front-end favorito sería React.js.
+
+Me encanta todo el diseño y la arquitectura basados en componentes que hay que seguir cuando se crea una aplicación basada en React.js. También me gusta la idea de que los
+    accesorios y los estados indiquen el estado de la aplicación. Lo crea o no, también me gusta la idea de tener todo mi estilo, mi HTML o JSX para un componente en el mismo
+    archivo. Hace que sea muy fácil trabajar con los componentes por sí mismos y, al final, conectar estos diferentes componentes para crear mi aplicación.
+Usamos el framework JavaScript de React. Es mejor que Angular en términos de velocidad y eficiencia. React es más fácil de aprender que otros frameworks de JavaScript, lo que
+    facilita su adopción en el equipo. También resuelve los problemas relacionados con los problemas entre navegadores.
+
+Otra gran característica de React es el uso de JSX. JSX es útil cuando se trabaja con la interfaz de usuario dentro del código JavaScript. Ayuda a React a mostrar mensajes de
+    error y advertencia más útiles.
+
+Así que, entre los frameworks de JavaScript de front-end, prefiero Vue. Simplemente lo encuentro más amigable. Me gusta la documentación. Sin embargo, React tiene una gran
+    comunidad. Y la documentación es muy extensa. Y tiene sentido. Y otro beneficio de React es que existe React Native. Así que si te sientes realmente cómodo escribiendo React,
+    puedes reutilizar ese código para convertirlo en una aplicación móvil que sea compatible con varias plataformas, lo cual es una gran ventaja. Y si estás escribiendo tu
+    aplicación en Vue, hay algunas maneras de convertirla en una aplicación web, como usar una aplicación web progresiva. Sin embargo, React Native, de esos tres (Angular, React
+    y Vue), es, con diferencia, el más fácil de combinar con el desarrollo de aplicaciones nativas.
+
+Angular, simplemente parece más detallado. La verdad es que nunca me interesé, excepto en algunos proyectos de estudiantes. Y, por suerte, nunca he tenido que profundizar más en
+    ello que simplemente editar el código existente."

@@ -1,0 +1,53 @@
+"Bienvenido a Introducción a Front-End Frameworks y React. Tras ver este vídeo, podrá comprender los diferentes frameworks de trabajo de front-end, definir React, explicar cómo
+    React facilita el desarrollo de aplicaciones JavaScript, describir cómo crear un componente de React y ejecutar una sencilla aplicación de React.
+
+Los frameworks de front-end se utilizan para crear un cliente dinámico que se pueda conectar al servidor. Estos frameworks están disponibles a través de bibliotecas de código
+    abierto que se pueden utilizar como parte del lenguaje de framework de hipertexto (HTML), JavaScript y las hojas de estilos en cascada (CSS) del navegador.
+    Angular, Vue y React son algunos de los frameworks de front-end más utilizados.
+
+Angular es un framework de código abierto de Google que se puede usar en cualquier HTML al incluir la biblioteca. Está basado en HTML y JavaScript, y es fácil de implementar.
+Para hacer que el HTML sea dinámico, Angular usa directivas. Todas las directivas están disponibles en el HTML donde se incluye la biblioteca. Aquí puede ver HTML usando Angular
+    con directivas model-bind. El componente de entrada se usa como un modelo al que está vinculado el componente de etiqueta.
+
+Vue también es un framework de front-end de código abierto. Utiliza un modelo de objetos de documentos virtuales (DOM). El HTML se considera un objeto completo. Como es muy
+    ligero, se renderiza rápido. Aquí puede ver una página simple de Vue que se representa como HTML. Los atributos del objeto Vue son similares a los de Angular y el enlace
+    está disponible.
+
+React es un framework para crear aplicaciones web dinámicas del lado del cliente. React utiliza un enlace dinámico de datos y un DOM virtual para ampliar la sintaxis HTML y
+    eliminar la necesidad de código que mantenga los elementos de la interfaz de usuario (UI) sincronizados con el estado de la aplicación. Esta imagen muestra HTML como un DOM.
+    Esto incluye el documento, que es la página HTML completa, el elemento raíz HTML y un elemento de cuerpo. Dentro del cuerpo tenemos h1 con un elemento de texto dentro, p con
+    un elemento de texto dentro y un elemento de formulario con dos elementos de entrada. El documento se renderizará como una página.
+En React, algunos de estos elementos se renderizarán como un componente de React. React usa un lenguaje de framework especial llamado JavaScript XML (JSX) que se parece al HTML.
+Babel, una herramienta especial en memoria, puede compilar e interpretar JSX como JavaScript.
+
+JSX está incrustado dentro de etiquetas de script especiales donde el atributo type especifica el contenido que requiere Babel.
+
+Los tres paquetes importantes que se utilizan para crear aplicaciones de React son el paquete React, el paquete ReactDOM y el paquete Babel.
+El paquete React contiene la fuente de React para los componentes y sus estados y propiedades.
+El paquete ReactDOM es el enlace entre React y el DOM.
+Babel es el módulo que está disponible en la mayoría de los navegadores modernos. Se usa para compilar e interpretar el JSX. Se puede cambiar una página HTML normal para
+    renderizar un componente de React. La mayoría de los navegadores modernos admiten scripts de Babel.
+
+Debe incluir react.production.min.js, react-dom.production.min.js y babel.min.js en el HTML. A continuación, el navegador se encargará del resto.
+El componente React se define dentro de una etiqueta de script del tipo text/babel. Aquí, el componente definido es myComp, que hereda de React.Component. Tal vez recuerdes la
+    herencia de lo que has aprendido acerca de las clases. Todos los componentes de React deben implementar el método render (). A continuación, puedes renderizar el componente
+    mediante el método ReactDOM.render especificando el nombre del componente, como una etiqueta HTML, y cualquier atributo que desees establecer, en este caso, el atributo name.
+
+A continuación, especifique en qué parte del HTML debe renderizarse el componente. En este ejemplo, se representa en comp1. Cuando abras el HTML, verás la página con el
+    componente HTML.
+Facebook ha incluido una utilidad llamada Create React App, que simplifica el proceso de creación de aplicaciones de React. Si tienes Node.js instalado, deberías poder ejecutar
+    npx create-react-app con el nombre de la aplicación que deseas crear. En este caso, el nombre de la aplicación es todoapp.
+
+Al ejecutar el comando npx create-react-app, se crea una estructura de directorios con todos los archivos necesarios. La estructura de directorios contiene todos los recursos
+    necesarios para crear y ejecutar una aplicación de React.
+
+La carpeta principal en la que realizará los cambios es la carpeta src. La carpeta src contiene los archivos App.js y index.js.
+    App.js contiene App, que es el componente raíz de React que añadirás a tu página HTML, y index.js es donde añadirás App al HTML.
+Para ejecutar la aplicación React, vaya al directorio de aplicaciones y ejecute npm start, que inicia el servidor, principalmente en el puerto 3000.
+Puedes ver el componente React cuando te conectas a la aplicación desde el navegador. La página que ves es la aplicación React predeterminada que se ha creado.
+Puedes hacer cambios y añadir más componentes anidados para convertirla en una aplicación front-end de React completa.
+
+En este vídeo, aprendiste que: React es una biblioteca de JavaScript eficiente y flexible para crear interfaces de usuario.
+React usa un lenguaje de framework especial llamado JSX.
+Una aplicación de React es un árbol de componentes y una extensión del DOM HTML.
+Con la aplicación Create React, puedes crear fácilmente una aplicación React."

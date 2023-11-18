@@ -1,0 +1,33 @@
+"Bienvenido a este curso: Desarrollo de aplicaciones front-end con React. Este curso está diseñado para ayudarlo a alcanzar el éxito en esta área de computación en nube de
+    rápido crecimiento.
+
+Puede que te dediques a TI y quieras dar un paso más en tu carrera profesional, que acabes de graduarte y que desees afianzar tus habilidades relacionadas con el cliente, un
+    responsable de la toma de decisiones de TI que necesite gestionar proyectos más centrados en la nube o alguien que esté en otro campo y que quiera poder hablar sobre la
+    informática del lado de los servidores con más conocimientos.
+
+React es un framework para crear aplicaciones web dinámicas del lado del cliente. Es una biblioteca de JavaScript eficiente y flexible para crear interfaces de usuario.
+React usa un lenguaje de marcado especial llamado JSX. En los vídeos instructivos y los laboratorios del curso, explorará cómo acceder a la biblioteca de la interfaz de usuario
+    (UI) del framework web React y cómo ejecutar una sencilla aplicación de React.
+
+Investigarás maneras de usar los componentes de React y de cambiar sus propiedades y estados en una interfaz de usuario dinámica. A continuación, aprenderás más sobre el estado
+    y los accesorios de React y cómo gestionan los datos en una aplicación.
+
+Esta semana, también conocerás las tres fases del ciclo de vida de un componente y practicarás cómo conectarte a un servidor externo desde una página de React. Además,
+    aprenderás los diferentes enfoques que se utilizan para probar un componente. Luego, profundizará en nuevas funciones como Hooks y Redux para escribir componentes avanzados.
+
+También realizarás un ejercicio práctico sobre cómo Hooks maneja los eventos y la lógica en los componentes funcionales sin usar clases.
+
+En la cuarta semana, crearás una aplicación React Budget Allocation en el proyecto final. Explorarás las acciones, los reductores y la función de envío. Por último, creará un
+    archivo de código, lo guardará y lo editará para realizar cambios. Además, escuche directamente a los expertos sobre sus experiencias con estas tecnologías del lado del
+    servidor en los vídeos de Expert Viewpoint.
+
+Escuchemos a estos expertos presentarse: Hola, me llamo Rupinder y trabajo como arquitecto jefe de soluciones en Skill-up Technologies.
+Soy Dennis Harvey y trabajo en Coursera como gerente de estrategia de contenido para tecnología de nube.
+Hola, me llamo Bradley Steinfeld, soy arquitecto de software y trabajo para IBM Cloud y Cognitive Software.
+Me llamo James Reeves y soy ingeniero de software integral en IBM.
+Hola, soy Yann Stoneman. Soy arquitecto de soluciones en Smartronics
+Hola a todos, mi nombre es Upkar Lidder y soy un defensor de los desarrolladores en IBM.
+
+Por lo tanto, ¡hay mucho que cubrir aquí! Para aprovechar al máximo este curso, complete la visualización de cada vídeo, complete todos los laboratorios prácticos y compruebe su
+    aprendizaje con cada cuestionario. Estamos muy contentos de contar con nosotros para iniciar tu viaje en el desarrollo de aplicaciones front-end con React. Si tienes algún
+    problema con alguno de los materiales del curso, no dudes en ponerte en contacto con nosotros en el foro de discusión. ¡Empecemos!"

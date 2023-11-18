@@ -1,0 +1,21 @@
+"En este curso, se centrará en JavaScript del lado del cliente y el desarrollo de framework con React.
+
+En la Semana 1, explorará cómo acceder a la biblioteca de interfaz de usuario (UI) del marco web React y ejecutar una aplicación React simple. Investigarás formas de utilizar los
+    componentes de React y cambiar sus propiedades y estados en una interfaz de usuario dinámica.
+
+En la Semana 2, aprenderá más sobre el estado y los accesorios en React y cómo administran los datos en una aplicación. En esta semana, también obtendrá información sobre las
+    tres fases del ciclo de vida de un componente, practicará la conexión a un servidor externo desde una página de React y aprenderá los diferentes enfoques para probar un
+    componente.
+
+En la semana 3, profundice en nuevas funciones como Hooks y Redux para escribir componentes avanzados. También realizará un ejercicio práctico sobre cómo los Hooks manejan
+    eventos y lógicas en componentes funcionales sin usar clases.
+
+En la semana 4, creará una aplicación React Budget Allocation en el proyecto final. Explorará acciones, reductores y la función de despacho. Finalmente, creará un archivo de
+    código, lo guardará y lo editará para realizar cambios.  
+
+Este curso está diseñado para ayudarlo a lograr el éxito en esta área de computación en la nube de rápido crecimiento. Es posible que esté en TI buscando dar un paso adelante en
+    su carrera, un recién graduado que busque establecer aún más sus habilidades del lado del cliente, un tomador de decisiones de TI que necesita administrar proyectos más
+    centrados en la nube o alguien en otro campo que quiera ser poder hablar sobre informática del lado del servidor con mayor conocimiento.   
+
+Para aprovechar al máximo el beneficio del curso, puede practicar cómo acceder a la biblioteca de interfaz de usuario (UI) del marco web React y ejecutar aplicaciones React en
+    los laboratorios. En caso de cualquier problema, puede ponerse en contacto con su grupo de pares a través de foros de discusión.   "

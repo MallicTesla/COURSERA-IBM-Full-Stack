@@ -1,0 +1,54 @@
+"Bienvenido a trabajar con React Components. En este vídeo, aprenderás sobre los componentes de React y sus propiedades y estados. Tras ver este vídeo, podrá definir los
+    componentes funcionales y de clase, describir cómo configurar las propiedades y acceder a ellas, y explicar cómo crear y acceder a los estados de un componente de React.
+
+React es una biblioteca de interfaz de usuario (UI) de JavaScript creada y mantenida como código abierto por Facebook y una comunidad de desarrolladores. Es una herramienta que
+    se utiliza para crear componentes de interfaz de usuario. Cualquier interfaz gráfica de usuario (GUI) que vea está compuesta por muchos componentes. Una aplicación de React
+    es un árbol de componentes. Hay un componente raíz, que es como un contenedor al que se añaden todos los componentes.
+
+Todos los nombres de los componentes, ya sean funcionales o de clase, deben empezar por mayúscula.
+Una aplicación se compone de uno o más componentes.
+Los componentes de una aplicación de React se pueden diseñar utilizando un atributo className y aplicándole cualquier estilo de hojas de estilos en cascada (CSS).
+
+Ahora verás un ejemplo de una aplicación de React. Esta aplicación está renderizando una calculadora compuesta por componentes.
+La estructura del árbol del modelo de objetos del documento (DOM) aparece a la derecha. La aplicación tiene un div con el nombre de clase «App», que es el componente raíz.
+Dentro de la aplicación está calc_box, que es como una caja con todos los botones.
+En calc_box hay seis componentes div de las filas de botones de ClassName.
+El div de la primera fila de botones contiene un componente de entrada.
+Cada uno de los componentes segundo, tercero, cuarto y quinto contiene cuatro componentes de botón.
+El último componente div contiene solo un botón.
+Puede ver cómo todos los componentes se unen para funcionar como una sola aplicación. Los componentes funcionales son más útiles cuando el componente tiene propiedades
+    (accesorios), pero no es necesario gestionar su ciclo de vida.
+Las propiedades se pueden definir por el usuario y se pasan como parámetros a la función. En este ejemplo, está configurando el tamaño y el color del componente. Se trata de
+    propiedades definidas por el usuario.
+
+Las propiedades no pueden tener caracteres en mayúscula. Cuando ejecutas la aplicación React solo con el componente App, la página se renderizará así. Puedes ver que las
+    propiedades que pasaste se han utilizado para darle estilo al componente. Los identificadores de eventos de los componentes funcionales se pueden configurar mediante las
+    propiedades.
+
+El controlador onClick es el más utilizado para los componentes funcionales, pero el componente React también es compatible con otros controladores de eventos. Se pueden
+    configurar de la misma manera que se configura onClick.
+
+En este ejemplo, puede ver qué propiedades se están configurando en el componente App. Aquí está configurando el controlador en la propiedad clickEvent.
+El componente App utilizará la propiedad clickEvent para gestionar el evento. Cualquier función en la que esté establecida la propiedad ClickEvent se invoca al hacer clic en el
+    botón. Cuando ejecutas la aplicación React solo con el componente App, la página se renderiza con el botón. Al hacer clic en el botón, el controlador de eventos que
+    configuró a través de la propiedad gestionará el evento de clic y se invocará el método que haya introducido. Puedes ver el cuadro de alerta. Los componentes de clase C se
+    prefieren más que los componentes funcionales debido a su versatilidad. Heredan React.Component y deben anular el método de renderizado.
+
+Los componentes de la clase pueden tener estados y accesorios. Estos componentes tienen un ciclo de vida que se puede gestionar y mantener. Así es como puede crear un componente
+    de clase en lugar de una aplicación de componentes funcionales.
+Tal vez recuerdes que necesitas heredar el componente de clase del módulo React. Para ello, importa el módulo React. Luego, crea la clase App que se extiende o hereda de
+    React.Component. Para establecer las propiedades del componente, se pasan los accesorios al constructor. Se llama al super, en este caso al constructor de la clase
+    React.Component, con los props.
+
+Super se refiere a la superclase y «this» se refiere al objeto actual. En el caso del componente React, el constructor de la clase derivada debe llamar al superconstructor.
+Se anula el método de renderización. Este es el método que realmente renderiza el componente.
+El método render solo puede devolver un componente. Sin embargo, ese componente puede tener varios componentes secundarios. No es necesario realizar ningún cambio en el archivo
+    index.js en el que se crea realmente la instancia del componente.
+El resultado es el mismo que ha visto antes para el componente funcional. Los accesorios se colocan desde fuera de la clase. El estado es interno de la clase. Cada vez que
+    cambia el estado, el componente se vuelve a renderizar. Aquí se define el contador de estado de la aplicación componente. Este estado cambiará. Aquí se define un método,
+    incrementCounter, que incrementa el valor del contador en 1. Con solo hacer clic en el botón, se llama al método IncrementCounter. El estado se actualiza y el componente se
+    vuelve a renderizar. Cada vez que cambia el estado, el componente se vuelve a renderizar. Puede ver que el contador aumenta en 1 por cada clic y uno más y otro.
+
+En este vídeo aprendiste que: React tiene dos tipos de componentes: funcionales y de clase. Los componentes funcionales son más útiles cuando no es necesario gestionar el ciclo
+    de vida del componente.
+Los componentes de clase son más versátiles y, cada vez que cambia el estado, el componente de clase se vuelve a renderizar."

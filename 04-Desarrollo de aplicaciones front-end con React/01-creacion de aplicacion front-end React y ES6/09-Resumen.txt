@@ -1,0 +1,14 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+React es una biblioteca de JavaScript eficiente y flexible para construir interfaces de usuario.
+
+Las nuevas características introducidas en JavaScript como parte de ES6 son let, const, flecha funciones, promesa y clase.
+
+Las principales ventajas de utilizar JSX son que puede aprovechar toda la potencia de JavaScript en HTML y evitar aprender o utilizar un lenguaje de plantillas.
+Permite que React muestre mensajes útiles de error y advertencia.
+
+Los cuatro tipos de componentes React son Funcional, Clase, Puro y Componente de alto orden.
+
+Los componentes funcionales son más útiles cuando no es necesario gestionar el ciclo de vida del componente.
+
+Los componentes de clase son más versátiles."
