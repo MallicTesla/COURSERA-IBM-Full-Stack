@@ -1,0 +1,26 @@
+"Bienvenido a Conectar React a servicios externos. Tras ver este vídeo, podrás: explicar cómo conectarte a un servidor externo desde una página de React y describir cómo
+    utilizar las llamadas asíncronas a un servidor externo.
+
+Un router puede conectarse a un servidor externo para realizar una de varias acciones, como OBTENER INFORMACIÓN, PUBLICAR para enviar información, ACTUALIZAR para cambiar
+    información y ELIMINAR para eliminar información.
+
+La mayoría de las solicitudes a servidores externos se bloquean. Para hacer que la llamada sea asíncrona, puede usar promesas. Este es un ejemplo de una solicitud GET.
+En este caso, un componente con un estado, usuario, se establece inicialmente como «Ninguno ha iniciado sesión». Con el evento componentDidMount, se conecta a un servidor
+    mediante una solicitud de axios. Cuando se cumple la promesa, se analiza la respuesta y se extraen los datos para cambiar el usuario y tener el mismo nombre que su valor.
+Puede enviar datos al servidor con una solicitud POST y recibir una respuesta.
+
+En este ejemplo, un servidor Express recibe una solicitud POST en el punto final /user, extrae el nombre y el género enviados como parámetros de consulta, crea un objeto de
+    notación de objetos de JavaScript (JSON) y lo inserta en la matriz usercollection.
+
+Otra solicitud GET en el punto final /user es a la que se envían todos los objetos del destino de la colección de usuarios como respuesta.
+
+Este servidor utiliza el middleware CORS para permitir las solicitudes de origen cruzado al servidor. Un cliente desde cualquier lugar puede conectarse a este servidor Express.
+Ahora verá cómo un cliente de React puede conectarse a este servidor. Aquí, envía datos al servidor con una solicitud POST y recibe una respuesta.
+El componente raíz de React tiene dos componentes de entrada y un botón. Tiene un estado, completionStatus, que inicialmente está vacío. Cuando el usuario agrega datos en los
+    cuadros de texto de nombre y género y hace clic en el botón, se invoca el método postDataToServer. Esto envía los datos al servidor y actualiza la respuesta del servidor al
+    estado CompletionStatus del componente.
+Del mismo modo, puede enviar solicitudes de ACTUALIZACIÓN y ELIMINACIÓN al servidor.
+
+En este vídeo aprendiste que: puedes utilizar las promesas para realizar llamadas a un servidor externo de forma asíncrona.
+Con el middleware, puede permitir que un cliente desde cualquier lugar se conecte a un servidor Express.
+Puedes recibir y enviar información desde un cliente de React a un servidor externo con las solicitudes GET, POST, UPDATE y DELETE."

@@ -1,0 +1,48 @@
+"Bienvenido al ciclo de vida de los componentes. Tras ver este vídeo, podrá: Explicar el ciclo de vida de un componente y describir las diferentes fases del ciclo de vida de un
+    componente.
+
+El ciclo de vida de un componente de React representa las diferentes fases de la vida útil de un componente. Existen diferentes métodos de ciclo de vida que React proporciona en
+    las diferentes fases de la vida útil de un componente. Además de las tres fases principales del ciclo de vida del componente, hay una cuarta fase, y las cuatro fases son:
+
+Inicialización: esta es la fase en la que el componente se construye con las propiedades y el estado predeterminado dados. Esto se hace en el constructor de una clase de
+    componentes.
+Montaje: El montaje es la fase de renderización del JSX devuelto por el propio método de renderizado.
+Actualización: la actualización es la fase en la que se actualiza el estado de un componente y se vuelve a pintar la aplicación.
+Desmontaje. Como su nombre indica, el desmontaje es el último paso del ciclo de vida del componente, en el que el componente se elimina de la página.
+
+El ciclo de vida de los componentes comienza cuando los componentes se crean o montan en el DOM. Una vez montados, crecen al actualizarse y, después, mueren o se desmontan en el
+    modelo de objetos del documento o DOM. React llama automáticamente al método responsable según la fase en la que se encuentre el componente. Estos métodos te dan un mejor
+    control sobre los componentes y puedes manipularlos usando los métodos.
+
+En la fase de montaje, el componente se añade al DOM. En esta fase, se crea un nuevo componente y se inserta en el DOM. Esta es también la fase en la que el componente se
+    inicializa y se representa en la página web por primera vez.
+Esta fase consta de dos funciones predefinidas: en primer lugar, está la función componentWillMount (). Esta función se invoca justo antes de montar el componente en el DOM o,
+    en otras palabras, antes de ejecutar la función render () por primera vez.
+Luego tenemos la función componentDidMount (). Esta función se invoca justo después de montar el componente en el DOM o, en otras palabras, después de ejecutar la función
+    render() por primera vez.
+La siguiente fase es la actualización, en la que los estados y los accesorios de un componente cambian con la aparición de algunos eventos del usuario, como hacer clic o pulsar
+    una tecla del teclado. Estos cambios pueden producirse dentro del componente o a través del backend. Vuelven a activar la función de renderizado.
+
+La fase de actualización consta de los siguientes métodos: en primer lugar, está el método estático GetDerivedStateFromProps. Este método es útil si ha actualizado los
+    accesorios y desea reflejarlos en el estado del componente.
+
+Luego tenemos el método shouldComponentUpdate. Está diseñado específicamente para la optimización del rendimiento y puede ayudar a evitar que se vuelvan a renderizar. Sin
+    embargo, el método no es fiable, ya que es posible que te pierdas una actualización y encuentres errores.
+
+A continuación, está el método render (), que es el mismo método render () utilizado en el montaje, pero aquí actualiza el componente. Otro método, el método
+    getSnapshotBeforeUpdate, permite acceder a las propiedades anteriores y al estado del componente antes de que se actualice.
+
+Y, por último, tenemos el método componentDidUpdate. Este es el último método de ciclo de vida que se invoca en la fase de actualización. Permite crear efectos secundarios, como
+    enviar solicitudes de red o llamar al método this.setState.
+
+La fase de desmontaje es la tercera y última fase de un componente de React. En esta fase, el componente se elimina del DOM. El desmontaje solo implica un método de ciclo de
+    vida: componentWillUnmount. Esta función se invoca antes de eliminar el componente de la página e indica el final del ciclo de vida.
+
+En este vídeo, aprendió lo siguiente: los componentes se crean o montan en el DOM; crecen al actualizarse y, después, mueren o se desmontan en el DOM. Esto se conoce como ciclo
+    de vida de los componentes.
+
+En la fase de montaje, el componente se añade al DOM.
+
+La actualización es la fase en la que los estados y los elementos de un componente cambian cuando se producen algunos eventos del usuario.
+
+Además, la fase de desmontaje es la tercera y última fase, en la que el componente se elimina del DOM."

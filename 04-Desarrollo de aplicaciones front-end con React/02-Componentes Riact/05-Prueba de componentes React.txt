@@ -1,0 +1,75 @@
+"Bienvenido a Testing React Components. Después de ver este vídeo, podrás: Explicar qué son las pruebas. Enumere las ventajas y desventajas de las pruebas. Describa los
+    diferentes enfoques de las pruebas de componentes. Y describa las herramientas de prueba.
+
+Las pruebas son una revisión línea por línea de cómo se ejecutará el código. Las pruebas también se pueden realizar mediante un conjunto de pruebas para una aplicación que
+    comprende varios bits de código para verificar si una aplicación se está ejecutando correctamente y sin errores. Las pruebas son esenciales, pero tienen ciertas ventajas y
+    desventajas.
+
+Las ventajas son las siguientes: evitan la regresión inesperada. Además, permite al desarrollador centrarse en la tarea actual en lugar de preocuparse por el pasado. Además,
+    permite la construcción modular de una aplicación que, de otro modo, sería demasiado compleja de construir. Y reduce la necesidad de verificación manual.
+Las desventajas son las siguientes: es necesario escribir más código, así como depurar y mantener el código, y los fallos no críticos en las pruebas pueden provocar el rechazo
+    de la aplicación en términos de integración continua. Las pruebas de los componentes de React se realizan para garantizar que la aplicación funcione según lo previsto para
+    los usuarios finales.
+
+La prueba verifica el código preparado por los desarrolladores para comprobar que se ejecuta sin errores. Las pruebas también prueban la funcionalidad de la aplicación al
+    replicar las acciones de los usuarios finales. También debe realizar pruebas para comprobar que las actualizaciones realizadas en la aplicación no afectan al funcionamiento
+    general de la aplicación.
+Al probar la aplicación, también se evita la regresión, es decir, la reaparición de un error que se había corregido anteriormente. Esto puede hacer que la función deje de
+funcionar según lo previsto cuando se produzca un evento determinado.
+
+Ahora, existen dos enfoques para las pruebas de componentes de React: puedes renderizar árboles de componentes en un entorno de prueba simple y afirmar su resultado. Este tipo
+    de pruebas unitarias implica una parte aislada de la aplicación. Se realiza en combinación con un renderizado superficial. Por ejemplo, un componente puede renderizarse con
+    las propiedades predeterminadas.
+El segundo enfoque requiere la ejecución de una aplicación completa en un entorno de navegador realista, lo que también se conoce como prueba «integral». Esto implica una prueba
+    de varios pasos que combina varias unidades e integra las pruebas en una gran prueba. Las pruebas se realizan en un navegador simulado. Puede que haya o no una interfaz de
+    usuario mientras se esté realizando la prueba. Por ejemplo, probar un flujo de autenticación completo.
+Las pruebas de los componentes se desarrollan en tres fases :
+Organizar: durante esta fase, se preparan las propiedades de los componentes.
+Acción: En esta fase, el componente debe representar su DOM en la interfaz de usuario. A continuación, registra cualquier acción o evento del usuario que pueda activarse
+    mediante programación.
+Y asevero: Por último, las expectativas están establecidas, verificando ciertos efectos secundarios sobre el margen de beneficio del componente. Esta forma de prueba unitaria se
+    conoce como Arrange-Act-Assert.
+
+Al elegir las herramientas de prueba, vale la pena tener en cuenta los siguientes puntos: velocidad frente a entorno: algunas herramientas ofrecen un ciclo de retroalimentación
+    muy rápido entre hacer un cambio y ver el resultado, pero no modelan el comportamiento del navegador con precisión.
+Otras herramientas pueden utilizar un entorno de navegador real, pero reducen la velocidad de iteración y no son fiables en un servidor de integración continua.
+
+Luego hay algo que se puede burlar: en el caso de los componentes, la diferencia entre una prueba de «unidad» y una de «integración» puede ser indistinta. Si estás probando un
+    formulario, ¿debería probar también los botones del formulario? ¿O un componente de botones debería tener su propio conjunto de pruebas? ¿La refactorización de un botón
+    debería alguna vez superar la prueba del formulario?
+
+Hay varias bibliotecas de pruebas para tus componentes de React. El ecosistema de React con un fondo de Node.js incluye a Mocha, Chai y Sinon para probar aplicaciones de
+    JavaScript. Mocha se utiliza como ejecutor de pruebas. Chai puede ser la biblioteca de aserciones. Sinon se puede usar opcionalmente para probar la lógica de JavaScript con
+    objetos como espías, muñecos y simulacros.
+
+Estos objetos son fragmentos de código que se pueden usar para diferentes tipos de pruebas. Las tres bibliotecas de pruebas se pueden usar para probar aplicaciones de React.
+Sin embargo, hay otra biblioteca llamada Enzyme que se agrega a la mezcla para renderizar los componentes de React. Ahora, puedes probar los componentes de React usando: Jest o
+    React testing Library. Facebook lanzó Jest para probar los componentes de React y aporta la potencia combinada de Mocha, Chai, Sinon y más.
+La biblioteca de pruebas de React es un conjunto de ayudantes que te permiten probar los componentes de React sin depender de los detalles de su implementación. Jest es un
+    ejecutor de pruebas de JavaScript, una biblioteca de aserciones, y también ofrece espías, talones y simulacros. Jest se puede combinar con la biblioteca de pruebas de Enzyme
+    o React para probar sus componentes de React de una manera aún más potente.
+Te permite acceder al DOM a través de jsdom para probar los componentes de React. Jest proporciona una gran velocidad de iteración combinada con potentes funciones, como módulos
+    de simulación y temporizadores, para que puedas tener más control sobre la forma en que se ejecuta el código. Jest incluye una herramienta de línea de comandos para la
+    ejecución de pruebas.
+También nos permite crear funciones simuladas con una configuración casi nula y facilita la lectura de las afirmaciones. Además, ofrece « pruebas instantáneas», que nos ayudan a
+    comprobar y verificar el resultado de la renderización de los componentes.
+
+Jest se instala como una dependencia de React cuando se usa npx-create-react-app, junto con la biblioteca de pruebas de React. La biblioteca de pruebas de React proporciona
+    funciones de utilidad ligeras además de las de react-dom y react-dom o test-utils, lo que fomenta mejores prácticas de prueba. Las utilidades que ofrece esta biblioteca
+    facilitan la consulta del DOM, la búsqueda de los elementos del formulario por sus etiquetas y la búsqueda de enlaces y botones en el texto, tal y como lo haría un usuario.
+También expone una forma recomendada de encontrar elementos en los que el contenido del texto y la etiqueta no son comprensibles. Esta biblioteca hace que sus aplicaciones sean
+    más accesibles y le permite probar sus componentes de la forma en que los utilizará el usuario final Esta biblioteca reemplaza a Enzyme. Este ejemplo muestra cómo usar la
+    biblioteca de pruebas React para probar componentes.
+El código de prueba anterior utilizó el método de renderización de React Testing Library para renderizar el componente de forma virtual.
+
+Puedes acceder al HTML renderizado a través del objeto de pantalla. El objetivo principal de la biblioteca de pruebas de React es aumentar la confianza en tus pruebas probando
+    tus componentes de la misma forma en que los utilizaría un usuario final.
+Los usuarios desconocen el backend de una aplicación y solo conocen el resultado. Esta biblioteca le permite escribir sus pruebas en función de la salida del componente.
+Vale la pena volver a escribir tus pruebas en la biblioteca de pruebas de React, ya que cambiarás las pruebas que te ralentizan por pruebas que te dan más confianza y aumentan
+tu productividad a largo plazo.
+
+En este vídeo, aprendiste que: las pruebas son una revisión línea por línea de cómo se ejecutará tu código. Puede renderizar árboles de componentes en un entorno de prueba
+    simple o en un entorno de navegador realista.
+Las pruebas de componentes se realizan a través de tres fases: organizar, actuar y aseverar.
+Los componentes de React se pueden probar con Mocha, Chai, Sinon, Jest y React Testing Library.
+Por último, la biblioteca de pruebas de React aumenta la confianza en tus pruebas al probar tus componentes de la misma forma en que los utilizaría un usuario final."

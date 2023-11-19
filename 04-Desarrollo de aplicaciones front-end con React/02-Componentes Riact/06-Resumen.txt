@@ -1,0 +1,11 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Estado es un objeto JavaScript plano utilizado por React para representar información sobre la situación actual del componente.
+
+Props es la abreviatura de propiedades, y se utilizan para pasar datos entre componentes React en un flujo unidireccional de padre a hijo.
+
+Puede pasar datos entre componentes de padre a hijo utilizando propiedades, de hijo a padre utilizando devoluciones de llamada, y entre hermanos.
+
+Los componentes se crean o se montan en el DOM; crecen actualizándose y luego mueren o se desmontan en el DOM. Esto se conoce como ciclo de vida de un componente.
+
+Los componentes React pueden ser probados usando Mocha, Chai, Sinon pero los enfoques preferidos son mediante el uso de Jest y React Testing Library."
