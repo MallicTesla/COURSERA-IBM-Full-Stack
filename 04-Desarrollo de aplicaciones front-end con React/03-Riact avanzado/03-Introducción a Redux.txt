@@ -1,0 +1,44 @@
+"Bienvenido a Introducción a Redux. Después de ver este video, podrás: Explicar Redux. Enumere las ventajas de usar Redux. Y enumere los usos de Redux.
+
+Redux es una biblioteca de administración de estados que se usa a menudo con React para controlar el estado de su aplicación. El estado de una aplicación es como un objeto
+    global que contiene información que se utiliza para diversos fines más adelante en la aplicación. Por ejemplo, tomar decisiones sobre qué componentes renderizar y cuándo
+    renderizar los datos almacenados, etc. Redux sigue un patrón conocido como arquitectura Flux.
+
+En el patrón Flux y en Redux, la información compartida no se almacena en componentes sino en un único objeto. Los desarrolladores de React usan Redux para gestionar muchos
+    cambios de estado en un solo lugar llamado «Redux Store».
+
+También se denomina «Fuente única de verdad». En Redux, el estado se gestiona de forma global y permite cambiar el estado desde cualquier parte de la aplicación, en lugar de
+    crear nuevos objetos cada vez que se cambia de estado. Cuanto más grande sea la aplicación, más Redux puede ser necesario. Un número elevado de componentes puede ser un buen
+    indicador de que se debe utilizar Redux cuando la aplicación pasa accesorios por el árbol de componentes con frecuencia.
+
+La biblioteca Redux no es específica de React y se puede usar en cualquier otra biblioteca o framework, como Angular, Vue e incluso en JavaScript estándar. Sin embargo, los
+    desarrolladores utilizan principalmente Redux cuando trabajan con React. Ahora, las aplicaciones grandes tienen una gran cantidad de estados de aplicación que se vuelven
+    difíciles de administrar a medida que la aplicación crece. Además, es posible que tenga componentes que utilicen los mismos datos pero que estén colocados de forma aleatoria
+    en el árbol del DOM.
+
+Este tipo de aplicación requiere bibliotecas de administración estatal como Redux. Redux es un sistema de administración estatal centralizado, lo que significa que, en lugar de
+    que los componentes individuales controlen su propio estado, Redux mantendrá un estado de aplicación que se emitirá o transmitirá a todos los componentes.
+Redux reduce la complejidad del código, ya que mantiene el estado de los componentes de la aplicación en un solo lugar de la tienda, lo que evita confusiones sobre la ubicación
+    del estado. Con la ayuda de la tienda, el estado ahora se encuentra en una posición de la aplicación, lo que facilita su mantenimiento cada vez que se actualiza el estado de
+    varios componentes. Redux actualiza las partes de una página en lugar de volver a cargar toda la página y, por lo tanto, nos ahorra tiempo.
+
+Redux introduce reductores queson funciones puras que actúan sobre el estado. Simplifican la lógica y ayudan a lograr una depuración sin esfuerzo.
+Algunas de las ventajas que Redux ofrece a sus aplicaciones son las siguientes: Cuando se utiliza en aplicaciones, Redux mejora el factor de predicción del estado, lo que ayuda
+    a los desarrolladores a desarrollar la aplicación. El mantenimiento es sencillo en las aplicaciones que utilizan Redux. Los elementos de mantenimiento de Redux facilitan las
+    pruebas y la depuración de la aplicación. El rendimiento de las aplicaciones de gran tamaño se optimiza mediante el uso de Redux en la aplicación.
+
+Redux es la biblioteca más valiosa y práctica para el renderizado del lado del servidor. Redux le permite compartir datos de un componente a otro sin proporcionar ningún estado
+    o método para sus componentes secundarios. Redux le permite administrar el estado de su aplicación en un solo lugar, de modo que los cambios en su aplicación sean predecibles
+    y rastreables.
+
+Por último, Redux ayuda a varios componentes a acceder al mismo estado de la aplicación. Redux se puede utilizar en cualquier lugar donde haya un estado que gestionar.
+Redux gestiona el estado en aplicaciones web de una sola página (SPA), aplicaciones de escritorio mediante Electron y aplicaciones nativas de React.
+También ayuda a almacenar en caché el estado de la página. Redux se utiliza cuando se necesita gestionar el estado de los componentes.
+Redux también gestiona el estado de los componentes globales. Si hay numerosos accesorios asociados a un componente de gama alta y solo se utilizan unos pocos, se pueden
+    refactorizar con Redux. Además, Redux también se usa cuando es necesario mapear el mismo estado de la aplicación a varios componentes del contenedor.
+
+En este vídeo, aprendiste lo siguiente: Redux es una biblioteca de administración de estados que se usa a menudo con React para gestionar el estado de tu aplicación.
+Redux reduce la complejidad del código, ya que mantiene el estado de los componentes de la aplicación en un solo lugar de la tienda.
+El rendimiento de las aplicaciones de gran tamaño se optimiza mediante el uso de Redux en la aplicación.
+Los elementos de mantenimiento de Redux facilitan las pruebas y la depuración de la aplicación.
+Y, por último, Redux se utiliza cuando se necesita gestionar el estado de los componentes."

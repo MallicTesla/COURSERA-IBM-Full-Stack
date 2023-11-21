@@ -1,0 +1,67 @@
+"Bienvenido a Implementing Forms. Después de ver este vídeo, podrás: explicar qué son los formularios, describir los diferentes tipos de entradas y enumerar las ventajas de los
+    formularios de React Hook.
+
+React utiliza formularios para permitir a los usuarios interactuar con la página web. La mayoría de los formularios de React son aplicaciones de una sola página (SPA) o
+    aplicaciones web que cargan una sola página. En una sola página, los datos nuevos se muestran de forma dinámica. En React, los datos de los formularios suelen ser
+    gestionados por los componentes. Permiten a los usuarios introducir y enviar datos directamente en componentes que van desde una pantalla de inicio de sesión hasta una
+    página de pago.
+
+Cuando los componentes manipulan los datos, todos los datos se almacenan en el estado del componente. La información no se envía directamente desde el formulario a un servidor.
+En su lugar, capturará la información del formulario del lado del cliente. Los datos se envían al servidor o se muestran mediante un código JavaScript adicional.
+Puede controlar los cambios añadiendo controladores de eventos en el atributo onChange, y ese controlador de eventos se utilizará para actualizar el estado de la variable.
+
+En HTML, los elementos del formulario, como input, textarea y select, suelen mantener su propio estado y lo actualizan en función de las entradas del usuario.
+En React, el estado de estos elementos de entrada normalmente se mantiene en la propiedad de estado de los componentes y solo se actualiza con setState ().
+
+La validación de un formulario es un proceso que verifica si la información rellenada por el usuario en el formulario es correcta. En React, la validación de los formularios no
+    está lista para usar y es necesario validarlos mediante tareas como: Obtener los valores de entrada del formulario. Administrar el estado del formulario y actualizar el
+    estado con los valores actuales. Validar el formulario sobre la marcha para comprobar la exactitud de los valores de entrada. Y mostrando los mensajes de error de cada
+    valor incorrecto durante la validación.
+
+Las entradas en React pueden ser de dos tipos: controladas o no controladas. Una entrada no controlada es la más sencilla de las dos. React coloca el valor en la página y el
+    navegador realiza un seguimiento del resto. Puedes acceder al valor de la entrada a través de los eventos de cambio de React. Las entradas incontroladas requieren menos
+    código, pero dificultan la realización de ciertas acciones.
+
+Con una entrada controlada, se controla de forma explícita el valor que muestra la entrada. Debe escribir código para responder a las pulsaciones de teclas, almacenar el valor
+    actual en algún lugar y devolver ese valor a la entrada para que se muestre. Requiere más código para cada acción, pero este tipo de entrada ofrece más control sobre el
+    valor de entrada.
+
+Cuando sueltas una entrada con la función de renderizado, la entrada no se controla. El navegador gestiona los elementos del formulario.
+Las entradas no controladas gestionan su propio valor. Al igual que con un formulario HTML simple, el valor se mantiene en el nodo DOM de la entrada. No es necesario realizar
+    un seguimiento manual del valor. El DOM gestiona los datos del formulario. En este caso, los elementos HTML mantienen su propio estado, que se actualizará cuando cambie el
+    valor de entrada.
+Para escribir un componente no controlado, es necesario utilizar una función ref para obtener los valores de entrada del formulario desde el DOM. En otras palabras, no es
+    necesario escribir un controlador de eventos para cada actualización de estado.
+
+En una entrada controlada, se escribe el código para gestionar el valor de forma explícita. En el código, se crea un estado para mantenerlo, se actualiza ese estado cuando el
+    valor cambia y se indica explícitamente a la entrada el valor que debe mostrar. En el componente controlado, el elemento del formulario de entrada lo gestiona el componente
+    y no el DOM. Los componentes controlados tienen funciones que controlan los datos que se transfieren a ellos en cada evento onChange, por ejemplo, al hacer clic en un botón
+    de envío. A continuación, estos datos se guardan en el estado y se actualizan con el método setState(). Esto proporciona al componente un mejor control sobre los elementos y
+    datos del formulario.
+Un componente controlado toma su valor actual mediante accesorios y notifica los cambios mediante un evento onChange. Un componente principal «controla» los cambios gestionando
+    la devolución de llamada y gestionando su propio estado. Luego, los nuevos valores se pasan como accesorios al componente controlado.
+
+Se trata de un formulario sencillo desarrollado para fines de registro. Los elementos HTML, como el correo electrónico y la contraseña, se utilizan para demostrar el ejemplo.
+En este ejemplo, observe la cantidad de código que se necesita para rastrear el estado de los campos del formulario. Para realizar un seguimiento del estado de la dirección de
+    correo electrónico, en este ejemplo se utiliza un gancho. Para garantizar que el correo electrónico permanezca actualizado cuando el usuario interactúe con el formulario,
+    debe añadir los atributos de entrada, valor y onChange a la dirección de correo electrónico.
+
+El código continúa en la siguiente diapositiva. Al hacer clic en el botón Enviar, se escriben el correo electrónico y la contraseña en la consola. React Hook Form es un paquete
+    útil para crear formularios web simples o complejos. React Hook Form es una biblioteca de administración y validación del estado de los formularios para las aplicaciones
+    basadas en la web de React y las aplicaciones móviles de React Native. Se centra en reducir la cantidad de código que los desarrolladores deben escribir al crear formularios
+    en React, así como en eliminar las rerenderizaciones innecesarias de los componentes del formulario.
+
+A diferencia de otras bibliotecas de formularios que gestionan la implementación de su biblioteca de gestión de formularios con el estado de React, React Hook Form utiliza ref
+    para controlar las entradas de los formularios. Puedes instalar React Hook Form mediante el comando install react hook form. React Hook Form ofrece un buen rendimiento y
+    reduce el número de rerenderizados de los componentes del formulario. El tamaño del paquete es pequeño y se puede adoptar fácilmente, ya que no tiene dependencias.
+
+La API es muy intuitiva, lo que proporciona una experiencia perfecta a los desarrolladores.
+React Hook Form sigue los estándares HTML para validar los formularios mediante una API de validación basada en restricciones.
+Otra gran característica que ofrece React Hooks es su sencilla integración con las bibliotecas de interfaz de usuario, ya que la mayoría de las bibliotecas admiten el atributo
+    ref. Y los componentes se montan en la página más rápido que los componentes controlados porque tienen menos sobrecarga.
+
+En este vídeo, aprendiste que: en React, los datos de los formularios suelen ser gestionados por los componentes.
+Las entradas en React pueden ser de dos tipos: controladas o no controladas.
+    En el caso de una entrada no controlada, React coloca el valor en la página y el navegador realiza un seguimiento del resto.
+    En una entrada controlada, se escribe el código para gestionar el valor de forma explícita.
+Además, los formularios de React Hook ofrecen un mejor rendimiento y reducen el número de rerenderizaciones."

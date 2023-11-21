@@ -1,0 +1,13 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Los ganchos proporcionan una forma de utilizar funcionalidades como el contexto o el estado, sin clases.
+
+Las entradas en React pueden ser de dos tipos: controladas o no controladas.
+
+Redux es una biblioteca de gestión de estado que se utiliza a menudo con React para manejar el estado de su aplicación.
+
+Los elementos Redux que intervienen en la actualización de las propiedades del componente son action, store y reducer.
+
+Puede interactuar con datos asíncronos en su aplicación React Redux utilizando middleware.
+
+El flujo de datos en la aplicación React-Redux es unidireccional."

@@ -1,0 +1,56 @@
+"Bienvenido a Hooks. Después de ver este video, podrás: Explicar qué son los Hooks. Enumere las ventajas de los ganchos. Enumere las mejores prácticas de uso de Hooks. Describe
+    los Hooks estándar y personalizados.
+
+Los ganchos son una forma más sencilla de encapsular el comportamiento con estado y los efectos secundarios en las interfaces de usuario.
+Los Hooks se introdujeron en febrero de 2019 como parte de React 16.8. Te ayudan a hacer que tu código sea más claro y esté mejor estructurado.
+Los ganchos permiten que los componentes de la función tengan acceso al estado y a otras funciones de React.
+
+Son funciones normales de JavaScript. Proporcionan una forma de usar funcionalidades como el contexto o el estado, que antes solo se podían lograr a través de clases, y ahora se
+    pueden hacer fácilmente con componentes de funciones.
+
+Los React Hooks permiten a los componentes funcionales adjuntar el estado local, y React conservará este estado cuando el componente se vuelva a renderizar. Por lo tanto, esto
+    permite usar React sin clases. Como su nombre indica, te permite acceder a las características de estado y ciclo de vida de React desde los componentes de la función. Usas
+    un componente de clase para gestionar los métodos de estado y ciclo de vida en los componentes de React.
+
+Los desarrolladores han tenido problemas al utilizar los componentes de las clases, como la complejidad del contenedor, el tamaño inmanejable de los componentes y la confusión de
+    las clases. Los Hooks resuelven estos problemas al comportarse como funciones que permiten «conectar» las características de estado y ciclo de vida de React desde los
+    componentes de la función. Los Hooks te ayudan a simplificar los formularios complejos sin el uso de clases.
+
+¡Y otra gran ventaja de Hooks es que puedes crear los tuyos propios! Esto significa que, en lugar de volver a escribir el código de un componente a otro, puedes escribir un Hook
+    abstracto personalizado y reutilizarlo.
+
+Así que las ventajas de usar Hooks para escribir componentes de React son: Hooks hace que el código sea legible. El código que se usa con Hooks para escribir los componentes de
+    React es menor. En general, el componente escrito con Hooks está optimizado.
+
+Los Hooks permiten escribir un componente funcional con estado. Escribir componentes complejos se hizo más fácil con Hooks. Con Hooks, puedes gestionar eventos y lógicas en
+    componentes funcionales sin usar clases.Y Hooks mejora el rendimiento con componentes funcionales.
+
+Ahora bien, existen tres prácticas recomendadas para usar ganchos en tu código de React: los ganchos solo se pueden invocar dentro de los componentes de la función de React.
+No puedes llamar a Hooks desde las funciones normales de JavaScript. Los Hooks solo se pueden invocar en el nivel superior de un componente. No puedes llamar a los Hooks dentro
+    de bucles, condiciones o funciones anidadas. Además, los Hooks no pueden ser condicionales.
+Los Hooks utilizan la plataforma JavaScript Node versión 6. Además, utilizan la versión 5.2 o superior de NPM.
+
+NPM es el administrador de paquetes de la plataforma Node JavaScript. Se recomienda utilizar la herramienta Create-React-App para ejecutar la aplicación React.
+
+Veamos una lista de ganchos estándar: useState, es un gancho que te permite usar el estado en tu función. Añade estado a un componente de la función.
+UseEffect gestiona los efectos secundarios, como los cambios en los documentos, el HTTP, etc. Por ejemplo, si necesitas buscar datos, puedes usar el Hook «useEffect».
+UseContext gestiona los cambios de contexto y proporciona al componente acceso a un contexto.
+Y useReducer gestiona los cambios de estado de Redux. Al igual que una versión ligera de Redux, este Hook proporciona una función de envío y un estado, a la vez que toma un
+    reductor y un estado inicial.
+
+Ten en cuenta que no es un sustituto completo de Redux, aunque podría usarse en determinadas situaciones. Los ganchos de React personalizados son herramientas esenciales que te
+    permiten añadir funcionalidades especiales y únicas a tus aplicaciones de React. Los ganchos personalizados se denominan con «use» como prefijo y, por ejemplo, un gancho
+    personalizado podría llamarse useLocalStorage o useAuthentication.
+
+Un Hook personalizado es una nueva composición de uno o varios Hooks. Como los Hooks se pueden tratar como funciones, tienen las mismas características que las funciones.
+Son reutilizables, se pueden dividir en ganchos más pequeños que se pueden combinar y se pueden probar.
+
+En el ejemplo de código, useState es el Hook que necesita invocar un componente de función para añadirle algún estado local. El parámetro useState devuelve un par en el que el
+    primer elemento es el valor del estado actual o valor inicial y el segundo es una función que nos permite actualizarlo. Después de eso llamaremos a esta función desde un
+    controlador de eventos o desde otro lugar.
+
+En este vídeo, aprendiste que: los ganchos proporcionan una forma de utilizar funcionalidades como el contexto o el estado, sin clases.
+Los ganchos te ayudan a simplificar los formularios complejos sin el uso de clases.
+Los ganchos permiten escribir un componente funcional con estado.
+Los Hooks estándar permiten gestionar el estado, los efectos secundarios, el contexto y los cambios de estado de Redux.
+Los Custom Hooks le permiten añadir funciones especiales y únicas a sus aplicaciones."

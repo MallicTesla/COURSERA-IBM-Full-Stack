@@ -1,0 +1,47 @@
+"Bienvenido a Binding Redux and Flow. Después de ver este video, podrás: Explicar el concepto de cambio de estado. Describa el flujo de datos en Redux. Además, enumere las
+    ventajas del flujo de datos unidireccional en Redux.
+
+En una aplicación de React, el estado almacena las propiedades de un componente. Cuando el estado de un componente cambia, React responde activando la renderización del modelo
+    de objetos del documento o DOM. A medida que la aplicación se expande, se hace difícil administrar el estado de la aplicación. El cambio de estado puede implicar la
+    transferencia de datos entre los componentes y una larga cadena de accesorios lo que puede resultar en un código de aplicación complicado.
+La solución a este problema la ofrece Redux. Es una biblioteca JavaScript de código abierto que puede administrar el estado de su aplicación. Se usa comúnmente con ReactJS, pero
+    no se limita a él y también se puede usar con otras bibliotecas de JavaScript como Angular.
+
+Una aplicación React-Redux convencional consta de un único almacén junto con un único reductor raíz. A medida que la aplicación se hace más compleja, el reductor raíz se divide
+    en reductores más pequeños que funcionan en las diferentes partes del árbol de estados.
+Una solución alternativa puede ser establecer una variable global a la que puedan acceder diferentes componentes. Sin embargo, React no reaccionará ante ningún cambio realizado
+    en la variable global. Redux proporciona un almacén central que reduce la complejidad del código y facilita el proceso de actualización del estado.
+
+Los elementos de Redux que intervienen en la actualización de las propiedades de los componentes incluyen: Almacén central: el almacén contiene la lista completa de aplicaciones
+    en forma de «árbol de estados». Acciones: son paquetes de información enviados por el componente con un tipo (descripción) al reductor. Las acciones son objetos simples que,
+    convencionalmente, tienen dos propiedades: tipo y carga útil. La propiedad type suele ser una cadena que identifica la acción, y la carga útil es una propiedad opcional que
+    contiene algunos datos necesarios para realizar una tarea. Por lo tanto, la función principal de las acciones es enviar datos desde la aplicación a la tienda Redux.
+
+Reductor: esta es una función simple que recibe el estado y la acción anteriores como entrada y devuelve un estado actualizado. Como el estado es inmutable, un reductor siempre
+    devuelve un estado nuevo, que es una versión actualizada del estado anterior.
+
+Suscripción: se activa en los componentes cada vez que se actualiza el estado en la tienda. El flujo de datos en una aplicación React-Redux es unidireccional. Solo va en una
+    dirección. El flujo de datos en una aplicación de React-Redux comienza a nivel de componente cuando el usuario interactúa con la interfaz de usuario de la aplicación. Esta
+    interacción hace que los creadores de la acción envíen una acción. Por lo tanto, cuando se envía una acción, es recibida por el reductor raíz de la aplicación y se transmite
+    a todos los reductores. Por lo tanto, la tarea del reductor consiste en determinar si necesita actualizar el estado en función de la acción enviada. Esto se comprueba
+    mediante una simple sentencia de conmutación para filtrar las acciones necesarias.
+
+Cada reductor más pequeño de la aplicación acepta la acción enviada y, si el tipo de acción enviada coincide, devuelve un estado recién actualizado. Es esencial señalar aquí que
+    el estado en realidad nunca cambia en Redux. En cambio, el reductor siempre genera un nuevo estado que es una copia del estado anterior pero con algunas modificaciones.
+    Luego, la tienda informa al componente sobre el nuevo estado, que a su vez recupera el estado actualizado y vuelve a renderizar el componente. Los desarrolladores anteriores
+    utilizaban el enlace bidireccional para cambiar los datos de estado de forma que la interfaz de usuario reflejara el cambio.
+
+Los marcos robustos como Angular y Ember utilizaban este tipo de enlace. Sin embargo, el enlace bidireccional estaba afectando negativamente al rendimiento del navegador con la
+    expansión de las aplicaciones. Además, se hizo difícil hacer un seguimiento del flujo de datos. Las grandes empresas tenían dificultades para implementar aplicaciones
+    triviales como su función de chat.
+
+En el paradigma del flujo de datos unidireccional, crear componentes de presentación y empaquetarlos en contenedores o almacenes (como en las aplicaciones de Redux) resuelve el
+    problema. Ahora, la ventaja del flujo de datos unidireccional en Redux es que la creación de aplicaciones web grandes y con un uso intensivo de interfaces resulta mucho más
+    fácil de gestionar. Es más fácil administrar el estado cuando las acciones que se realizan en la interfaz de usuario están separadas del cambio y la actualización del estado
+    que se producen debido a la acción. Puedes usar algunos de los mismos contenedores, acciones y reductores de React Native para crear rápidamente aplicaciones para iOS y
+    Android. Los componentes de presentación cambian un poco cuando usas componentes de visualización de iOS o Android en lugar de HTML.
+
+En este vídeo, aprendiste lo siguiente: cuando el estado de un componente cambia, React responde activando la renderización del DOM.
+Los elementos de Redux que intervienen en la actualización de las propiedades del componente son: Central Store, Actions, Reducer y Subscription.
+El flujo de datos en una aplicación React-Redux es unidireccional.
+Además, es más fácil administrar el estado cuando las acciones realizadas en la interfaz de usuario están separadas del cambio de estado."

@@ -1,0 +1,78 @@
+"Bienvenido a Async with Redux. Después de ver este vídeo, podrás: Explicar lo síncrono y lo asíncrono. Explica la necesidad de la asincronía en Redux. Y describe los diferentes
+    tipos de middleware, Thunk y Saga.
+
+El código sincrónico o sincronizado se ejecuta en una secuencia ordenada de arriba a abajo. Esto significa que cada operación debe esperar a que se complete la anterior antes de
+    ejecutarse.
+
+Mientras que el código asíncrono o asíncrono se ejecuta en paralelo. Esto significa que una operación puede producirse mientras se está procesando otra. La ejecución asíncrona de
+    código suele ser preferible en situaciones en las que la ejecución se puede bloquear indefinidamente.
+
+Algunos ejemplos de ello son las solicitudes de red, los cálculos de larga duración, las operaciones del sistema de archivos, etc. El uso de código asíncrono en el navegador
+    garantiza que la página siga siendo responsiva y que la experiencia del usuario no se vea afectada en gran medida. JavaScript es un lenguaje de programación concurrente,
+    asíncrono y de un solo subproceso que ofrece mucha flexibilidad. Por lo tanto, con el JavaScript asíncrono, el código JavaScript no espera las respuestas al ejecutar una
+    función, sino que continúa con la ejecución de otras funciones.
+
+Redux gestiona el estado de una aplicación JavaScript. La infraestructura de Redux se basa en fundamentos funcionales y permite crear fácilmente código que se puede probar.
+Sin embargo, el flujo de las tareas de gestión del estado de Redux es completamente sincrónico. Esto significa que cuando se envía una acción, se genera inmediatamente una cadena
+    de llamadas al middleware y a Reducers para llevar a cabo la transición de estado. Para cambiar esta secuencia de sincronizada a asíncrona, es necesario abordar algunas
+    preguntas: una: ¿cómo se puede habilitar la transición de estado de una aplicación mediante acciones asincrónicas? Dos: ¿cómo se habilitan las transiciones de estado que
+    implican una solicitud a un servidor web o el uso de un temporizador? Y tres: ¿cómo se integra el estado de la aplicación con los datos generados por una acción asincrónica
+    y al mismo tiempo cumplir con el patrón arquitectónico de Redux?
+
+Las aplicaciones de React Redux son comunes en la web hoy en día debido a su versatilidad potencial de escalabilidad e innumerables funciones.
+
+El uso de Actions and Reducers complementa la arquitectura de tu aplicación y te permite mantener tu código limpio mientras implementas funciones complejas.
+Sin embargo, cuando necesitas utilizar operaciones asíncronas, como las acciones de envío, después de recibir la respuesta de un servidor, las acciones y los reductores por sí
+    solos no son suficientes. Puedes interactuar con datos asíncronos en tu aplicación React Redux mediante middleware. Los cambios de estado en la tienda Redux se realizan
+    activando las acciones proporcionadas por la tienda.
+El middleware que utilices interceptará la acción. También puede retrasar las acciones si es necesario, lo que permite realizar operaciones asíncronas. Y, una vez que se
+    completa el proceso asíncrono, el resto del flujo de Redux continúa como de costumbre, donde el reductor recibe la acción de calcular el nuevo estado. El envío final de la
+    acción restaura el flujo de datos sincrónico.
+
+Ahora bien, hay muchas técnicas que se pueden utilizar como middleware para Redux. Y las dos primeras son las más populares.
+Son: el middleware Thunk, el middleware Saga, el middleware basado en Promise y Async/Await, que se usa junto con el middleware Thunk. Redux Thunk es una forma muy sencilla de
+    introducir un middleware en Redux. En Redux, se espera que los creadores de acción devuelvan los objetos. Sin embargo, Redux Thunk te permite transferir funciones dentro de
+    tus creadores de acción para crear un Redux asíncrono.
+
+Redux Thunk permite las siguientes acciones. Permite escribir creadores de acciones que devuelvan una función en lugar de una acción.
+Permite retrasar el envío de una acción.
+Permite enviar una acción si se cumple una determinada condición.
+Además, pasa dispatch y getState como parámetros a la función devuelta por el creador de la acción o por la función interna. Por lo tanto, una vez que se presenta Redux Thunk, el
+    creador de la acción se denomina Thunk.
+
+Analicemos los pros y los contras de usar Redux Thunk. Las ventajas son: es adecuado para aplicaciones sencillas.
+Permite operaciones asíncronas sin una gran cantidad de código repetitivo.
+Además, es fácil de configurar e implementar y requiere una curva de aprendizaje más pequeña.
+
+Sin embargo, también tiene ciertas desventajas, y son las siguientes: no puede actuar directamente en respuesta a una acción.
+También es difícil gestionar los problemas de simultaneidad que puedan producirse.
+Es imprescindible, por lo que no es muy fácil de probar.
+Además, no se escala bien porque una aplicación puede expandirse y es posible que acabes con un código complicado e inmanejable.
+
+Redux Saga utiliza una función de ES6 llamada Generadores para habilitar las operaciones asíncronas. Los generadores facilitan la lectura, la escritura y la prueba de los flujos
+    asíncronos. El middleware de Saga expone un conjunto de funciones auxiliares o sagas para crear efectos declarativos que son simples objetos de JavaScript y que pueden ser
+    generados por tus sagas. A continuación, el middleware se ocupará de los objetos generados en el backend.
+
+Analicemos los pros y los contras de usar el middleware Saga. Las ventajas son que las sagas permiten expresar la lógica compleja como funciones puras.
+Son fáciles de probar porque las funciones puras son predecibles, repetibles y los efectos son declarativos.
+Permiten separar las preocupaciones. Las sagas pueden viajar en el tiempo y permiten registrar flujos complejos.
+Facilitan la ampliación de aplicaciones complejas con efectos secundarios.
+Es más fácil detectar errores y gestionar los fallos mediante bloques de prueba.
+Y lo que es más importante, están bien documentados.
+
+Sin embargo, las desventajas son: el middleware Saga no es muy adecuado para aplicaciones simples, ya que añade una indirección innecesaria de los activadores.
+Además, se requiere más código repetitivo en comparación con otros middleware.
+Es necesario tener conocimientos de generadores para comprender completamente los conceptos.
+Y, por último, se requiere una curva de aprendizaje más alta en comparación con otros middleware.
+
+Por lo tanto, dependiendo de la situación se puede elegir cualquier middleware para su aplicación de React aunque en la mayoría de los casos se ha preferido Thunk para
+    satisfacer todos los requisitos. Con Thunk, puedes comunicarte con tus acciones antes de que lleguen a tu Reducer. Thunk tiene muchos casos de uso basados en prácticas
+    aplicaciones web que necesitan realizar diferentes acciones. Estas acciones dependen de la respuesta del servidor.
+Thunk es una solución eficaz para aplicaciones con requisitos asíncronos simples. Además, entender Thunk es un objetivo accesible para quienes aprenden Redux por primera vez.
+Una vez que te sientas cómodo con Thunks, es una buena idea probar alternativas.
+
+En este vídeo, aprendiste que: Synchronous se ejecuta en una secuencia ordenada de arriba a abajo.
+En el código asíncrono, una operación puede ocurrir mientras se está procesando otra.
+Puedes interactuar con datos asíncronos en tu aplicación React Redux mediante middleware.
+El middleware Thunk y el middleware Saga son los más populares.
+Además, Redux Thunk te permite transferir funciones a tus creadores de acción para crear un Redux asíncrono."

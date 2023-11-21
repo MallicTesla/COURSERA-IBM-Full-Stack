@@ -1,0 +1,42 @@
+"Bienvenido a Essential Concepts of Redux. Después de ver este vídeo, podrás: Explicar los conceptos esenciales de Redux. Y describe las acciones, la storage y los reductores.
+Aprendamos cuál es el principio básico detrás del funcionamiento de Redux.
+
+Redux ofrece un sistema de administración estatal centralizado en su biblioteca de aplicaciones. El estado de su aplicación se gestiona mediante un único almacén y no mediante
+    componentes individuales. Las propiedades de un componente deben considerarse inmutables.
+
+Con Redux, cuando un usuario interactúa con un componente de una aplicación, la acción actualiza el estado de toda la aplicación. Esto, a su vez, desencadena una nueva
+    representación del componente y por lo tanto actualiza las propiedades de ese componente. Estas propiedades muestran el resultado al usuario.
+
+Los elementos de Redux que intervienen en la actualización de las propiedades de los componentes son: las acciones, que son lo que puede hacer tu aplicación. Store, que es la
+    ubicación única y la fuente autorizada del estado de la aplicación, y Reducers, que son acciones que devuelven el nuevo estado. Por lo tanto, cuando se activa un evento
+    desde cualquier vista al seleccionar un botón de radio, hacer clic en una casilla de verificación o hacer clic en un botón, se denomina acción.
+
+Las acciones son objetos JSON que contienen información sobre los cambios que se deben realizar en el estado. Las acciones las producen funciones denominadas creadores de
+    acciones. Es un objeto puro creado para almacenar la información del evento del usuario y describe un cambio de estado. Contiene el tipo de acción, el momento en que se
+    produjo y la indicación de lo que pretende cambiar.
+
+Ahora, varias partes de la aplicación pueden enviar las acciones y recibirlas en la storage. Son cargas de información que envían datos de la aplicación a la storage. Son simples
+    objetos de JavaScript que describen QUÉ pasó, pero no describen CÓMO cambiará el estado de la aplicación. Las acciones se envían a la instancia de tu storage siempre que
+    desees actualizar el estado de tu aplicación. El resto lo gestionan los Reducers.
+
+Redux requiere que todos los objetos Action contengan un campo de tipo. Este campo se utiliza para describir el tipo de acción que se envía y es una constante que se exporta
+    desde un archivo. Todos los demás campos del objeto Action son opcionales.
+
+El estado actual de la aplicación Redux reside en un objeto que se denomina storage. Hay una sola storage por aplicación de Redux. Es un objeto, no una clase, y además del estado
+    de la aplicación, contiene funciones y otros objetos. Además, una storage puede enviar y recibir acciones. Sin embargo, la Storage no realiza ningún cambio en el estado de la
+    aplicación, lo que hacen los Reductores. Puedes suscribirte para escuchar los eventos cada vez que la Storage se actualice. En una aplicación que no sea de React, puedes
+    usar esta suscripción para actualizar la interfaz de usuario. El estado de la aplicación en Redux tiene la forma de un objeto JavaScript y, a menudo, se denomina «árbol de
+    estados».
+La storage contiene la lista completa de aplicaciones en forma de «árbol de estados». Puedes añadir cualquier valor al «árbol de estados» de la storage y anidarlos según sea
+    necesario. Cada vez que envías una acción a tu storage, la acción pasa al Reductor. Luego, el reductor realiza los cambios apropiados en el estado. Los reductores son
+    funciones puras que reciben el estado actual y un objeto Action y devuelven un nuevo estado con las acciones realizadas. En otras palabras, se utilizan para volver a calcular
+    el nuevo estado de la aplicación o, al menos, una parte de ella. Actúa como un detector de eventos que gestiona los eventos en función del tipo de evento aceptado.
+Lee las cargas útiles de la acción y, a continuación, actualiza la storage mediante el estado correspondiente.
+
+La función Reducer toma dos parámetros: el estado anterior de la aplicación y la acción que se está enviando. Devuelve el nuevo estado de la aplicación.
+
+En este vídeo, ha aprendido lo siguiente: los elementos de Redux que intervienen en la actualización de las propiedades de los componentes son: Actions, Store y Reducers.
+Las acciones son objetos JSON que contienen información sobre los cambios que deben realizarse en el estado.
+El estado actual de la aplicación Redux reside en un objeto que se denomina Storage.
+Los reductores son funciones puras que reciben el estado actual y un objeto Action y devuelven un nuevo estado con las acciones realizadas.
+Además, puedes suscribirte para escuchar los eventos cada vez que se actualice la storage."
