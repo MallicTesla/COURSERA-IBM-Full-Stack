@@ -1,0 +1,20 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Las tecnologías de backend incluyen varios tipos de servidores e infraestructuras de apoyo como lenguajes de programación, marcos de trabajo y otro hardware.
+
+Node.js es el componente del lado del servidor de JavaScript.
+
+La sentencia require puede invocarse desde cualquier parte del código de la aplicación, está ligada dinámicamente y es síncrona,
+Mientras que la sentencia import sólo puede invocarse al principio de un archivo, está ligada estáticamente y es asíncrona.  
+
+El JavaScript del lado del cliente se utiliza para procesar los elementos de la interfaz de usuario del front-end, y el JavaScript del lado del servidor se utiliza para permitir
+    el acceso a diferentes tipos de servidores y aplicaciones web.
+
+Con JavaScript del lado del servidor, las aplicaciones Node.js procesan y enrutan las peticiones de servicios web del cliente.
+
+Para poner una función o un valor a disposición de las aplicaciones Node.js que importen su módulo, añada una propiedad al objeto exports implícito.
+
+Los módulos básicos incluyen la funcionalidad mínima, los módulos locales son los que usted crea para su aplicación y la comunidad Node.js crea módulos de terceros.
+
+Una instalación local significa que sólo la aplicación dentro del directorio del instalado puede acceder al paquete, mientras que una instalación global significa que cualquier
+    aplicación en la máquina puede acceder al paquete"

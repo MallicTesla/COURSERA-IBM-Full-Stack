@@ -1,0 +1,44 @@
+"Bienvenido a la descripción general del administrador de paquetes de nodos. Tras ver este vídeo, podrá explicar el propósito de un administrador de paquetes, describir los dos
+    aspectos principales del administrador de paquetes de nodos (NPM), describir el propósito de un archivo package.json y comparar y contrastar una instalación local de NPM con
+    una instalación de NPM global.
+
+Cuando se trata de lenguajes que utilizan módulos y paquetes, como JavaScript, normalmente se necesita una herramienta denominada administrador de paquetes. Un administrador de
+    paquetes es un conjunto de herramientas que se utilizan para tratar los módulos y paquetes que contienen dependencias. A veces también se lo denomina sistema de gestión de
+    paquetes. Las dependencias son código, normalmente en forma de bibliotecas y paquetes, que se invoca y se reutiliza en un programa.
+
+Por ejemplo, supongamos que está desarrollando un módulo nuevo y llama a una función incluida en otro módulo escrito por usted, que llama a otro módulo escrito por otra persona,
+    que llama a otro módulo escrito por un tercero. El módulo que estás escribiendo es «dependiente» de todos los demás módulos. Una biblioteca de código suele contener muchas
+    dependencias, pero la biblioteca es autónoma y no depende de código ajeno a la propia biblioteca. Los paquetes funcionan de la misma manera. Un administrador de paquetes
+    automatiza el proceso de búsqueda, instalación, actualización, configuración , mantenimiento y eliminación de paquetes de un programa informático. Los administradores de
+    paquetes suelen estar conectados a una base de datos con información sobre las dependencias y las versiones de los paquetes de un repositorio y la mantienen.
+El administrador de paquetes garantiza que un software tenga las dependencias necesarias para ejecutarse correctamente y elimina la necesidad de realizar este trabajo manualmente.
+El administrador de paquetes de Node, generalmente abreviado como NPM, es el administrador de paquetes predeterminado para el motor de ejecución Node.js. NPM tiene dos funciones.
+
+En primer lugar, proporciona una interfaz de línea de comandos que permite a los usuarios publicar y descargar paquetes.
+En segundo lugar, se comporta como un repositorio en línea de paquetes binarios de JavaScript.
+El repositorio es una base de datos de paquetes que rastrea las versiones de los paquetes a las que se hace referencia en las aplicaciones. Todos los paquetes de NPM requieren
+    un archivo llamado «package.json» que debe estar ubicado en el directorio raíz del proyecto.
+
+NPM usa los metadatos del archivo package.json para determinar todas las dependencias de un paquete. Este archivo contiene los metadatos de identificación del proyecto en forma
+    de pares clave-valor que, como mínimo, identifican el nombre del proyecto y el número de versión del proyecto.
+
+{"name":"thisProject",
+"version":"0.0.0",}
+El código que se muestra aquí muestra un ejemplo de esos dos pares clave-valor. Hay dos formas en las que NPM puede instalar paquetes: local o globalmente.
+Querrá usar la instalación local si está instalando un paquete que desee usar en su aplicación. Ejecute el comando de instalación local desde el directorio en el que desee
+    instalar el paquete. La instalación local es el comportamiento predeterminado de npm. Para instalar el paquete node_modules localmente, utilice la interfaz de línea de
+    comandos de NPM para introducir: npm install <package_name> Este comando crea un directorio llamado node_modules con el paquete y sus dependencias en su directorio de
+    trabajo actual. Los paquetes también se pueden instalar globalmente.
+
+Una instalación global significa que todas las aplicaciones de la máquina en la que está instalado el paquete pueden usar ese código. Las instalaciones globales deben usarse con
+    prudencia porque todos los proyectos de ese equipo utilizarán ese paquete y sus dependencias. Si tiene diferentes versiones de un proyecto en su máquina, todas usarán el
+    paquete instalado globalmente, lo que podría interrumpir la compatibilidad con otras dependencias.
+
+Para instalar node_modules de forma que cualquier aplicación de la máquina pueda acceder al paquete, lo que significa que están instalados de forma global, utilice el comando
+    «npm install minus g package_name» en la interfaz de línea de comandos. Es el mismo comando que el comando de instalación local, pero añade la opción menos g.
+
+En este vídeo, aprendiste que: el administrador de paquetes garantiza que un software tenga las dependencias que necesita para funcionar correctamente.
+NPM proporciona una herramienta de interfaz de línea de comandos y también funciona como una base de datos en línea de paquetes de JavaScript.
+NPM usa los metadatos de un archivo package.json para determinar las dependencias de un paquete.
+Además, una instalación local significa que solo la aplicación del directorio del instalado puede acceder al paquete
+Mientras que una instalación global significa que cualquier aplicación de la máquina puede acceder al paquete."
