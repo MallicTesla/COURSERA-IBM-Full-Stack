@@ -1,0 +1,57 @@
+"Bienvenido a «¿Qué es el desarrollo de back-end?» Después de ver este vídeo, podrá: Definir el desarrollo de backend Diferenciar entre tecnologías frontend y backend Explique
+    los componentes del backend de una aplicación web Describa la importancia de un backend robusto y escalable Las aplicaciones cliente-servidor, como las basadas en la nube y
+    las aplicaciones web, por lo general, constan de un «frontend» y un «backend».
+
+El frontend se ejecuta en la máquina cliente y el backend se ejecuta en un servidor. La máquina cliente ejecuta el navegador web y el motor del navegador web. El motor del
+    navegador es lo que se comunica con el backend.
+Los desarrolladores de backend trabajan en las tecnologías que garantizan que un sitio web funcione correctamente, parte de las cuales incluye escribir el código que se comunica
+    con el motor del navegador y el servidor de back-end. Además, el desarrollo de backend se refiere al desarrollo de la lógica del lado del servidor, incluido el código
+    relacionado con las bases de datos, los servidores y las aplicaciones. Las tecnologías de backend incluyen servidores, bases de datos, API web, lenguajes de programación,
+    framework y tiempos de ejecución.
+
+Los servidores se componen de hardware, software o ambos que se comunican con un cliente y le proporcionan funcionalidad. Los servidores también pueden comunicarse entre sí y
+    proporcionarse funcionalidad entre sí. Existen muchos tipos de servidores. Las aplicaciones web suelen utilizar muchos tipos de servidores, incluidos servidores de bases de
+    datos, servidores de aplicaciones y servidores web. Analicemos brevemente cada uno de estos tipos de servidores.
+
+El servidor de base de datos es la máquina y la aplicación que aloja, recupera y entrega los datos. Los términos «servidor de base de datos» y «base de datos» suelen utilizarse
+    indistintamente.
+Los servidores web garantizan que se responda a las solicitudes de los clientes, a menudo utilizando el protocolo de transferencia de hipertexto o HTTP para abreviar. Un
+    servidor HTTP es parte del software que se ejecuta en un servidor web.
+La parte de software de un servidor web es la que controla la forma en que un usuario accede a los archivos alojados en el servidor. Los servidores de aplicaciones alojan y
+    entregan una aplicación empresarial a través de HTTP. Se encuentran entre un servidor de base de datos y un servidor web. Los servidores de aplicaciones transforman los
+    datos en contenido dinámico y ejecutan la lógica empresarial, que son las reglas de almacenamiento y transferencia de datos. Los servidores deben comunicarse entre sí y con
+    la interfaz en una arquitectura cliente-servidor.
+
+Las API, que son las siglas de «interfaz de programación de aplicaciones», permiten que dos piezas de software se comuniquen entre sí. Un servicio web es un tipo de API web. Un
+    servicio web se comunica mediante solicitudes HTTP. En otras palabras, el servicio web es la interfaz de programación que envía y recibe solicitudes mediante HTTP entre los
+    servidores web y el cliente.
+
+Los lenguajes de programación de backend son los lenguajes que utilizan los desarrolladores para hacer que los servidores funcionen. Estos lenguajes incluyen JavaScript, PHP,
+    Python, Ruby, Java y C-sharp. Los framework proporcionan la estructura del código. Se puede crear e implementar una aplicación mediante un framework.
+
+El framework a menudo genera código que no se puede modificar para realizar tareas comunes. Algunos framework de backend comunes incluyen Django, un framework de Python,
+    Ruby on Rails, un framework de Ruby, y Express.js, un framework de JavaScript. Express.js es un framework que se ejecuta sobre node.js y que gestiona las solicitudes HTTP
+    realizadas a un servidor web.
+
+Hablemos de los entornos de ejecución. Un entorno de ejecución se comporta de forma similar a un minisistema operativo que proporciona los recursos necesarios para que se
+    ejecute una aplicación. El tiempo de ejecución es la infraestructura que admite la ejecución de una base de código. Es el entorno de hardware y software en el que se ejecuta
+    una aplicación.
+Node.js es un ejemplo de un entorno de ejecución de back-end. La razón por la que Node.js se ha hecho tan popular como tecnología de backend es porque funciona con el motor V8
+    de código abierto de Google Chrome, el mismo motor que ejecuta el navegador en la interfaz. Además, la mayoría de los navegadores modernos, como Microsoft Edge y Opera,
+    también funcionan con el motor V8. Node.js facilita la comunicación entre el frontend y el backend. Node.js ejecuta JavaScript. Recuerde que en un curso anterior se menciona
+    que JavaScript se usa ampliamente en la interfaz. Esto convierte a JavaScript en un lenguaje útil para que los desarrolladores web lo aprendan debido a su uso tanto en el
+    frontend como en el backend.
+
+Otro problema que debe preocupar a los desarrolladores de backend es la escalabilidad. La escalabilidad es esencial para el éxito del software empresarial y es responsabilidad
+    del backend, que se ve afectado por la carga de una aplicación. La carga se refiere al número de usuarios simultáneos, el número de transacciones y la cantidad de datos que
+    se transfieren entre los clientes y los servidores. Las aplicaciones web deben ser escalables. La escalabilidad es la capacidad de la aplicación para gestionar dinámicamente
+    la carga a medida que crece o se reduce sin que ello afecte al rendimiento de la aplicación. La escalabilidad es esencial para el éxito de una aplicación cliente-servidor.
+
+Por último, otras responsabilidades del backend incluyen la seguridad, la autenticación y la prevención de los ataques de malware. El backend también es el principal responsable
+    del rendimiento, ya que recupera y transfiere datos entre máquinas, entrega el contenido al front-end y proporciona la lógica empresarial de la aplicación.
+
+En este vídeo, aprendió que el desarrollo del backend se refiere al desarrollo de la lógica del lado del servidor, incluido el código relacionado con las bases de datos, los
+    servidores y las aplicaciones.
+Las tecnologías frontend son aquellas que pertenecen al cliente, como la interfaz y el navegador web.
+Las tecnologías de backend incluyen varios tipos de servidores e infraestructuras de soporte, como lenguajes de programación, framework y otro tipo de hardware.
+El backend es responsable de la escalabilidad, la seguridad y el rendimiento."

@@ -1,0 +1,46 @@
+"Bienvenido a importar y requerir. Después de ver este vídeo, podrá explicar qué es un módulo, qué es la especificación de un módulo, explicar el propósito de las declaraciones
+    de import y de exigencia y diferenciar entre las instrucciones de import y las de exigencia.
+
+En Node.js, los módulos son archivos que contienen código JavaScript relacionado y encapsulado que cumplen un propósito específico. Los módulos pueden ser un único archivo o una
+    colección de varios archivos y carpetas. Los desarrolladores dependen en gran medida de los módulos debido a su reutilización y a su capacidad para dividir el código complejo
+    en fragmentos manejables. Cuando una aplicación externa necesita usar el código contenido en un módulo, la aplicación debe llamar a ese módulo. Cuando la aplicación externa
+    llama a un módulo, se llama al módulo mediante una instrucción import() o request(). La sentencia necesaria depende de la especificación.
+
+Hablemos de las especificaciones a continuación. Un directorio con uno o más módulos agrupados se denomina paquete. Las especificaciones de los módulos son las convenciones y
+    los estándares que se utilizan para crear paquetes en código JavaScript para las aplicaciones de Node.js.
+Las especificaciones de módulo más utilizadas para las aplicaciones de Node.js son los módulos CommonJS y ES. Algunas de las diferencias entre los módulos CommonJS y ES se
+    analizarán en un momento. De forma predeterminada, Node.js trata el código JavaScript como un módulo CommonJS. Los autores de bibliotecas pueden habilitar fácilmente los
+    módulos ES en un paquete Node.js simplemente cambiando la extensión del archivo del paquete del punto j-s a punto m-j-s.
+
+Los módulos CommonJS utilizan la sentencia request() para importar módulos, mientras que los módulos ES utilizan la función import(). Cuando se necesita un módulo fuera de su
+    propio archivo, primero debe exportarse. La sentencia module.exports debe usarse con CommonJS. Los módulos se pueden exportar a una especificación ES mediante la palabra
+    clave «export».
+
+A continuación, analizaremos más de cerca las diferencias entre request e import. Veamos las diferencias entre llamar a request e import dentro del código de la aplicación.
+La instrucción request se puede invocar en cualquier parte del archivo, mientras que la instrucción de import se debe llamar al principio del archivo. Como la sentencia request
+    se puede llamar desde cualquier parte, esto significa que se puede llamar a ella desde sentencias y funciones condicionales, pero no a import.
+Esto puede parecer una ventaja de request, pero tenga en cuenta que la instrucción request está vinculada dinámicamente, mientras que la import está vinculada estáticamente.
+Esto significa que los errores que se produzcan al vincular la definición de la función a la llamada a la función no se identificarán hasta el momento de la ejecución. En el
+    caso de la import, los errores de enlace se identifican en el momento de la compilación. Los módulos obligatorios son de naturaleza sincrónica y los módulos importados con
+    la import son asíncronos.
+
+Sincrónico significa que los módulos se cargarán y procesarán de forma lineal, uno a la vez.
+Asincrónico significa que los módulos se pueden procesar simultáneamente.
+La import se ejecuta más rápido en comparación con las funciones necesarias en aplicaciones a gran escala, que implican cargar cientos de módulos.
+
+Veamos algunos ejemplos de código que muestran cómo exportar e importar mediante request e import. Recuerde que la sentencia request se usa con las aplicaciones CommonJS.
+Este fragmento de código mostrará cómo exportar desde un archivo llamado message dot j-s.
+Usamos el módulo dot exports para exportar la cadena «Hello programmers» del módulo message dot j-s.
+
+A continuación, para importar el módulo message dot j-s a la aplicación principal, utilizamos la sentencia request. En este código, el resultado de request se asigna a la letra
+    m-s-g y, a continuación, la variable se registra en la consola.
+
+Ahora, veamos el código que exporta un módulo ES desde un archivo llamado module dot m-j-s. Este código nombra una constante como 'a' y establece la constante igual a 1.
+A continuación, se utiliza la sentencia de exportación. Tenga en cuenta el uso de los corchetes. Se cambia el nombre de A a mi valor.
+Por último, analizamos el código para importar un módulo ES mediante la import. Simplemente usa la palabra clave de import. Estamos importando mi valor del archivo module.mjs.
+
+En este vídeo, aprendiste que un módulo es un archivo que contiene funciones de JavaScript relacionadas y que sirve para un propósito específico.
+Las especificaciones de los módulos son convenciones y estándares que se utilizan para crear paquetes en código JavaScript.
+Las instrucciones import y request se utilizan para llamar a un módulo o paquete a una aplicación externa.
+La sentencia request se puede llamar desde cualquier parte del código de la aplicación, está enlazada de forma dinámica y es sincrónica,
+y la instrucción de import solo se puede llamar al principio de un archivo, está enlazada de forma estática y es asíncrona."

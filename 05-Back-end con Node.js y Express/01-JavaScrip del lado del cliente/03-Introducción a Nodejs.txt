@@ -1,0 +1,31 @@
+"¡Bienvenido a Introduction to Node.js! Tras ver este vídeo, podrá: Describir la función de Node.js en la creación de scripts del lado del servidor. Enumere las diferencias
+    entre JavaScript y Node.js. Describa Express.js y explique cómo Express.js ayuda a los desarrolladores a crear Node.js aplicaciones.
+
+Node.js es un lenguaje de código abierto que se ejecuta en la versión V8. Al ser de código abierto, node.js puede ejecutarse en Linux, Windows y Mac OSX.
+V8 es un motor de código abierto desarrollado por Google para el navegador Google Chrome. Los desarrolladores suelen utilizar JavaScript para la funcionalidad del lado del
+    cliente. Node.js es el componente del servidor en el mismo idioma.
+
+Node.js se basa en eventos y utiliza E/S asíncronas y no bloqueantes. Con JavaScript del lado del servidor, las aplicaciones de Node procesan y enrutan las solicitudes de
+    servicios web desde el cliente.
+
+En el paso 1, el usuario selecciona una opción en la interfaz de usuario, escrita en HTML y CSS.
+En el paso 2, esta acción del usuario activa el código JavaScript que implementa la lógica empresarial en el lado del cliente, por ejemplo, la validación de entradas.
+En el paso 3, la aplicación JavaScript realiza una llamada a un servicio web a través de HTTP con una carga útil de datos JSON. El servicio web REST, que forma parte de una
+    aplicación node.js que se ejecuta en el servidor del nodo, recibe la solicitud HTTP.
+En el paso 4, el servicio web REST procesa la solicitud y devuelve el resultado al cliente como una carga útil JSON a través de HTTP.
+
+Si bien los desarrolladores pueden seguir usando JavaScript para la funcionalidad del navegador en frameworks, como AngularJS, Dojo y jQuery, ahora pueden usar Node.js en los
+    mismos componentes de la arquitectura en los que usan Java, Perl, C++, Python y Ruby.
+Empresas como Uber y Yahoo! utilizan Node.js en la producción , LinkedIn, GoDaddy, eBay y PayPal. Se basa en eventos y utiliza E/S asíncronas y no bloqueantes. Express.js es un
+    framework altamente configurable para crear aplicaciones en Node.js. En Node.js, abstrae las API de nivel inferior mediante métodos de utilidad HTTP y middleware.
+
+Antes de crear tu primera aplicación de Node.js, familiaricémonos con el IDE y con algunos conceptos clave de Node.js. Express.js simplifica el desarrollo de aplicaciones en
+    Node.js. Las siguientes funciones le permiten desarrollar su aplicación rápidamente: Pública: activos públicos como imagen, CSS y javascript.
+
+Plantillas/vistas: HTML renderizado por el servidor que se devuelve al cliente en respuesta a las solicitudes.
+Rutas: define los puntos finales que aceptan y procesan las solicitudes de los clientes.
+Server.js: un archivo que contiene el código principal de la aplicación.
+Package.json: contiene información de metadatos sobre el proyecto, incluidas las dependencias, los scripts, etc.
+
+En este vídeo, aprendiste que: Node.js es el componente de JavaScript del lado del servidor.
+El uso de Node.js puede mejorar el rendimiento de las aplicaciones y express.js es un framework que le ayuda a crear Node.js aplicaciones."

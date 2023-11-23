@@ -1,0 +1,31 @@
+"Bienvenido a Introducción a JavaScript del lado del servidor. Después de ver este vídeo, podrá: Explicar el propósito del framework de JavaScript Node.js y explicar las
+    diferencias entre el JavaScript del lado del cliente y el JavaScript del lado del servidor.
+
+JavaScript es uno de los principales lenguajes utilizados en la World Wide Web. Se creó originalmente para añadir un comportamiento dinámico a los sitios web estáticos en
+    clientes en los que había principalmente navegadores. JavaScript es un lenguaje interpretado. No es necesario compilar aplicaciones de JavaScript antes de ejecutarlas.
+Aunque la sintaxis del lenguaje se parece a Java, no se deriva del lenguaje de programación Java. JavaScript ahora se puede ejecutar en diferentes servidores y sistemas
+    integrados, y todos los navegadores web modernos admiten JavaScript.
+
+Los desarrolladores crean aplicaciones web interactivas y adaptables con lenguaje de marcado de hipertexto (HTML), hojas de estilos en cascada (CSS) y JavaScript.
+Con un editor de texto y un navegador web, puede escribir, probar y depurar aplicaciones JavaScript rápidamente. Con JavaScript del lado del cliente, los desarrolladores crean
+    aplicaciones web completas e interactivas en el navegador web.
+
+En el paso 1, la interfaz de usuario se renderiza mediante HTML y CSS. Cuando el usuario selecciona una opción en la página web, activa la lógica empresarial escrita como una
+    aplicación de JavaScript. La aplicación JavaScript envía una solicitud de servicio web mediante la notación de objetos de JavaScript (JSON) a través del protocolo de
+    transferencia de hipertexto (HTTP).
+En el servidor, un servicio web de transferencia de estado representacional (REST) intercepta la llamada. Tradicionalmente, este servicio se escribiría en Java, PHP:
+    preprocesador de hipertexto (PHP) u otro lenguaje de fondo.
+En el último paso, el servidor de aplicaciones procesa la solicitud de servicio web mediante una aplicación del lado del servidor, como los componentes de Enterprise Java, y la
+    devuelve al cliente. Con JavaScript del lado del servidor, las aplicaciones Node.js procesan y enrutan las solicitudes de servicios web desde el cliente.
+
+Compare el siguiente diagrama con el de la diapositiva anterior. La mayoría de los pasos son idénticos.
+En el paso 1, el usuario selecciona una opción en la interfaz de usuario, que está escrita en HTML y CSS.
+En el paso 2, la opción activa una aplicación de JavaScript que implementa la lógica empresarial en el lado del cliente.
+En el paso 3, la aplicación JavaScript realiza una llamada a un servicio web a través de HTTP con una carga útil de datos escrita en JSON.
+En el paso 4, un servicio web REST intercepta la solicitud HTTP
+y en el último paso, en lugar de invocar una aplicación Java empresarial, el servidor Node.js aloja una aplicación escrita en el lenguaje JavaScript.
+Este código escrito en JavaScript se ejecuta en el servidor y no en el navegador web del cliente.
+
+En este vídeo, aprendió lo siguiente: Node.js es un framework de programación del lado del servidor que utiliza JavaScript como lenguaje de programación.
+Con JavaScript del lado del servidor, las aplicaciones Node.js procesan y enrutan las solicitudes de servicios web desde el cliente
+y Node.js es para desarrolladores que desean crear aplicaciones de servidor simultáneas y escalables rápidamente con un conjunto mínimo de herramientas."

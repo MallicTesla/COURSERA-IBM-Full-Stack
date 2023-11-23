@@ -1,0 +1,37 @@
+"Bienvenido a Expert Viewpoints: reflexiones introductorias sobre JavaScript del lado del servidor y Node.js. En este vídeo, escucharemos a varios profesionales del desarrollo
+    de aplicaciones hablar sobre cómo trabajar con JavaScript del lado del servidor y Node.js.
+
+Lo mejor de usar Node.js como lenguaje de back-end es que es el mismo que el lenguaje de front-end. Por lo tanto, hace que sea más fácil (más o menos) cambiar de contexto entre
+    escribir para el front-end y luego escribir para el back-end. Básicamente, puedes hacer que los mismos desarrolladores escriban ambas. Quiero decir que muchos desarrolladores
+    conocen varios idiomas. Pero de esta forma si tienes a alguien muy experto en JavaScript todo ese conocimiento se verá recompensado tanto en el front-end como en el back-end.
+Y también puedes usar el mismo escaneo y prueba de código para el JavaScript de front-end que para el JavaScript de backend. Por eso, y al igual que el escaneo de seguridad de
+    las dependencias y todo eso, tanto el front-end como el back-end van a utilizar NPM, la administración de paquetes de nodos, para las dependencias. De esa forma, se obtiene
+    una especie de enfoque unificado para las dependencias y los paquetes. Creo que el atractivo más obvio de usar Node.js, al menos para los desarrolladores completos, es que
+    se puede usar el mismo idioma en el lado del cliente y en el lado del servidor.
+Así que si eres un desarrollador nuevo, ese es un idioma menos que tienes que aprender. E incluso si no lo eres, puede ser bueno minimizar las diferencias a la hora de cambiar
+    de contexto entre el desarrollo front-end y el back-end.
+
+De hecho, otra ventaja es la comunidad que rodea a Node.js. Creo que en la encuesta más reciente de Stack Overflow lo utilizaban más del 50% de los desarrolladores profesionales.
+Y eso se refleja realmente en la gran cantidad de recursos de aprendizaje y apoyo que tienes a tu disposición. Si eres un desarrollador front-end, si entiendes JavaScript,
+    entonces empezar a trabajar en el backend con un framework como Node.js no es una exageración. De hecho, empecé a crear sitios web estáticos y, poco a poco, aprendí a
+    incluir contenido dinámico mediante JavaScript. Luego tuve que usar Java o PHP para construir mis sistemas de back-end en el servidor. Hay un pequeño cambio de contexto
+    cuando lo haces, pero lo bueno de Node.js es que estás usando JavaScript en el front-end y también en el back-end. Así que hay un cambio de contexto un poco menor.
+
+Es fácil cambiar entre trabajar con los servicios en el back-end y luego ir a tu sitio web e introducir algo de JavaScript. Lo único que me pareció un poco extraño al principio
+    fue la naturaleza de un solo subproceso de Node.js, ya que todo se basa en devoluciones de llamadas.
+
+Así que la programación asíncrona mediante callbacks es un poco diferente con Node.js. Pero es cuestión de acostumbrarse a eso. Lo único que me gustó fue la abundancia de
+    paquetes en registros como NPM para que los pudieras usar en tus aplicaciones. La principal ventaja de usar Node.js es un procesamiento más rápido. Puede gestionar las
+    solicitudes simultáneas más rápido que cualquier otro lenguaje del lado del servidor. Node.js es una opción popular para juegos en línea, chats, videoconferencias o
+    cualquier solución que requiera datos actualizados constantemente. Es más fácil aprender Node.js si uno ya tiene un buen dominio de JavaScript.
+
+Los desarrolladores pueden escribir tanto el front-end como el back-end en Javascript utilizando un entorno de ejecución. En este caso, no es necesario que los desarrolladores
+    de front-end y back-end estén separados. Obviamente, JavaScript es el estándar de facto para el desarrollo web del lado del cliente. Por lo tanto, naturalmente tiene sentido
+    permitir que los desarrolladores de JavaScript aprovechen esas habilidades en el lado del servidor. Y ahí es donde Node.js encaja muy bien.
+
+Lo más importante de Node.js es su arquitectura, ya que ofrece una arquitectura única de un solo subproceso, asíncrona y orientada a eventos que le permite gestionar una gran
+    cantidad de conexiones simultáneas. Piense en cientos de miles de conexiones simultáneas.
+
+Node.js se basa en el motor Chrome JavaScript V8 de Google. El análisis de JSON es increíblemente rápido porque JSON es un tipo de datos nativo de JavaScript. Además, Node.js
+    también se adapta muy bien a la adopción de microservicios ya que cada microservicio está dedicado a uno o a un pequeño número de servicios cohesivos y, por lo tanto, su
+    alcance es intrínsecamente limitado."

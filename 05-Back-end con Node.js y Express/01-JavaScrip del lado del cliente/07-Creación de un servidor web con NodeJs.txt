@@ -1,0 +1,24 @@
+"Bienvenido a la creación de un servidor web con Node.js. Después de ver este vídeo, podrá: Describir las características de Node.js y escribir un servidor web sencillo con
+    Node.js. Node.js es un framework de programación del lado del servidor que utiliza JavaScript como lenguaje de programación.
+
+Muchos desarrolladores ya están familiarizados con el lenguaje JavaScript. Está construido con un fuerte énfasis en la programación simultánea con un lenguaje ligero.
+Node.js es un entorno de aplicaciones de un solo subproceso que gestiona las operaciones de entrada/salida (E/S) mediante eventos.
+
+En lugar de bloquear las operaciones de E/S asíncronas, se escriben funciones de devolución de llamada para gestionar los resultados una vez finalizados. Node.js es ideal para
+    desarrolladores que desean crear aplicaciones de servidor escalables y simultáneas mediante el uso de funciones como las funciones de devolución de llamada y el bucle de
+    eventos de ejecución de Node.JS. Estas características del lenguaje JavaScript y del entorno de ejecución Node.js permiten un desarrollo rápido con un conjunto mínimo de
+    herramientas.
+
+Cada archivo JavaScript es un módulo de Node.js. Un módulo corresponde a un archivo de script. Un paquete puede contener uno o más nodos. El motor de ejecución de Node.js
+    incluye muchos módulos de utilidades que puede utilizar para crear y ampliar sus aplicaciones.
+
+Con el módulo HTTP Node.js, puede desarrollar una aplicación que escuche las solicitudes HTTP y devuelva los mensajes de respuesta HTTP. Para crear una instancia de un servidor
+    web, utilice la función http.CreateServer. El servidor web se almacena en una variable llamada «servidor».
+La función CreateServer incluye una función de devolución de llamada opcional como parámetro. Esta función de devolución de llamada gestiona el mensaje de solicitud entrante y
+    proporciona un mensaje de respuesta adecuado. La función de devolución de llamada que se muestra aquí es anónima. Tras crear una instancia del objeto de servidor, puede
+    configurar el servidor para que escuche un puerto específico; por ejemplo, llame a la función http.Listen con el parámetro 8080 como puerto para configurar el servidor para
+    que escuche en 8080.
+
+En este vídeo, aprendió lo siguiente: Node.js es un entorno de aplicaciones de un solo subproceso que gestiona las operaciones de E/S mediante eventos.
+Cada archivo JavaScript es un módulo de Node.js.
+Con el módulo HTTP Node.js, puede desarrollar una aplicación que escuche las solicitudes HTTP y devuelva los mensajes de respuesta HTTP."

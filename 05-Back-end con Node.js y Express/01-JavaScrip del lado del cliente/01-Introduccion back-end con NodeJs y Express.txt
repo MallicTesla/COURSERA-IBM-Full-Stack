@@ -1,0 +1,28 @@
+"Bienvenido a este curso: Desarrollo de aplicaciones de back-end con Node.js y Express.
+
+Ahora, quizás se pregunte sobre la relevancia de desarrollar aplicaciones de back-end con Node.js y Express. En la encuesta de Stack Overflow de 2022, aproximadamente el 50% de
+    los desarrolladores que respondieron a la encuesta utilizaron Node.js, lo que la convierte en la tecnología de servidor más utilizada.
+
+Por otro lado, Express se clasificó como la cuarta tecnología web más popular en general, lo que la convierte en el framework web del lado del servidor más popular.
+
+Node.js es un entorno de ejecución que puede ejecutar aplicaciones de JavaScript del lado del servidor, mientras que Express es un framework web de JavaScript del lado del
+    servidor que se ejecuta sobre Node.js para escribir las aplicaciones.
+
+Este curso está diseñado para ayudarle a tener éxito como desarrollador de back-end o full stack. Puede que esté trabajando en TI y quiera dar un paso adelante en su carrera
+    profesional o que se haya graduado recientemente y quiera afianzar sus habilidades en el lado del servidor, un responsable de la toma de decisiones de TI que necesite
+    gestionar proyectos más centrados en la nube o alguien en otro campo que desee poder hablar sobre la informática del lado del servidor con más conocimientos.
+
+En los laboratorios y videos instructivos del curso, aprenderá sobre el desarrollo del lado del servidor mediante JavaScript, codificará su primer servidor web y usará
+    Node Package Manager para administrar los módulos y las dependencias de sus aplicaciones.
+
+Descubrirá cómo hacer que las aplicaciones se ejecuten sin bloqueos mediante llamadas y promesas asíncronas, aprenderá cómo se utilizan las API REST junto con las solicitudes y
+    respuestas HTTP con el framework Express.js y a continuación practicará el uso de Express mediante la creación de un servidor web y la creación de contenido dinámico con
+    middleware, enrutamiento y plantillas. Además, escuche directamente a los expertos hablar sobre sus experiencias con estas tecnologías del lado del servidor en los vídeos de
+    Expert Viewpoint. Escuchemos a estos expertos presentarse: mi nombre es James Reeve y soy ingeniero de software integral en IBM. Hola, me llamo Rupinder y trabajo como
+    arquitecto jefe de soluciones en Skill-Up Technologies. Soy Dennis Harvey y trabajo en Coursera como gerente de estrategia de contenido para tecnología en la nube. ¡Hola! Mi
+    nombre es Bradley Steinfeld, soy arquitecto de software y trabajo para IBM Cloud y Cognitive Software. Hola a todos, me llamo Upkar Lidder y soy promotor de desarrolladores
+    en IBM. Hola, soy Yan Stoneman, soy arquitecto de soluciones en Smartronix.
+
+Ahora bien, hay mucho que cubrir aquí, así que para aprovechar al máximo este curso, vea cada vídeo, compruebe lo que ha aprendido con cada cuestionario y cree una cartera
+    ganadora completando los laboratorios prácticos y el proyecto final. Da el siguiente paso en este emocionante viaje que te llevará a un mundo de posibilidades, ¡ y buena
+    suerte!"
