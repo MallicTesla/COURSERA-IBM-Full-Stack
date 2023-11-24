@@ -1,0 +1,25 @@
+"Bienvenido a Promises. Después de ver este vídeo, podrás: Definir promesas. Explique los diferentes estados de una promesa y describa cómo utilizarlas con métodos asíncronos.
+
+Una promesa es un objeto devuelto por un método asíncrono. La promesa tiene tres estados: pendiente, resuelto y rechazado. Las promesas son especialmente útiles para las
+    solicitudes de la interfaz de programación de aplicaciones (API), las operaciones de entrada/salida (E/S) y otras operaciones que requieren mucho tiempo y pueden bloquear
+    recursos.
+
+Se puede definir un método para devolver un objeto de promesa si se sabe que su ejecución tardará un tiempo y, por lo tanto, bloqueará los recursos. Cuando llamas a un método
+    que devuelve una promesa, se crea un objeto de promesa. El estado inicial de la promesa es el estado pendiente. Permanece en este estado hasta que se complete la operación
+    o se produzca algún error que provoque la interrupción de la operación. Cuando se completa la operación, se dice que la promesa está resuelta. Cuando hay un error, se dice
+    que la promesa ha sido rechazada. También puedes crear un objeto de promesa si sabes que las operaciones que vas a realizar podrían estar bloqueándolas.
+
+En este ejemplo, MethCall es una promesa que se cumple o se rechaza en función de si el archivo se ha leído correctamente o no. Puede ver en la pantalla de salida que el
+    contenido del archivo se lee si el nombre del archivo es válido y se muestra. En este caso, la promesa queda resuelta. Si el nombre del archivo no es válido, se rechaza la
+    promesa y se muestra el mensaje de error. Ya sabe que las solicitudes del protocolo de transferencia de hipertexto (HTTP) cuando se llaman de forma sincrónica pueden
+    bloquearse. Hay muchos paquetes en el ecosistema de Node.js que incluyen promesas en torno a las solicitudes HTTP.
+
+El paquete axios es uno de esos paquetes para gestionar las solicitudes HTTP. Devuelve un objeto de promesa. El estado de la promesa está pendiente hasta que reciba una
+    respuesta del localizador uniforme de recursos (URL) solicitado. El objeto de la promesa tiene un método «entonces» al que se invoca una vez que se ha cumplido la promesa.
+La captura se ejecuta si se rechaza la promesa. En este ejemplo, primero se pasa una URL válida. Crea una promesa pendiente. Una vez que se cumple la promesa, la respuesta se
+    registra en la consola. A continuación, pasa una URL no válida. Esto también crea un objeto de promesa que está pendiente. Esta promesa será rechazada. Este estado está
+    bajo control. Puede ver el registro de la consola para ver la resolución y el rechazo.
+
+En este vídeo aprendiste que: una promesa es un objeto que se devuelve mediante un método asíncrono.
+El estado inicial del objeto de la promesa es el estado pendiente.
+El paquete axios se usa en Node.js para gestionar las solicitudes HTTP y puede crear una promesa si sabe que las operaciones podrían estar bloqueándose."

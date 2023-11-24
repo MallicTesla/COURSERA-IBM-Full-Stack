@@ -1,0 +1,39 @@
+"Bienvenido a Expert Viewpoints: uso de la función de devolución de llamada anónima en Node.js. En este vídeo, escucharemos a varios profesionales del desarrollo de aplicaciones
+    hablar sobre cuándo les pareció útil saber cómo utilizar las funciones de devolución de llamadas anónimas en Node.js y cómo fueron fundamentales para las soluciones que
+    desarrollaron.
+
+Todo lo que aparezca en Node.js y requiera que realices una solicitud externa a tu aplicación, lo cual es muy probable que lo hagas, es muy importante que sepas cómo funcionan
+    las devoluciones de llamada. Por eso, cuando decimos devoluciones de llamadas anónimas, las devoluciones de llamadas no tienen por qué ser anónimas. De hecho, muchas veces
+    escribo funciones con nombre y las paso como argumentos a mis funciones que necesitan la devolución de llamada.
+
+Te daré un ejemplo. Supongamos que estás creando un sitio web que muestra la temperatura en el sitio web principal, ¿verdad? Así que para obtener la temperatura, lo más probable
+    es que llames a otro sitio web, muy probablemente a otro servicio web, que acepte algún JSON como entrada y te devuelva otro JSON como salida. Ahora, cuando el usuario final
+    entra en tu sitio web, se desplaza hacia arriba y hacia abajo. Si lo bloqueas y haces la solicitud a la API meteorológica, tu usuario no podrá ni siquiera desplazarse hacia
+    arriba y hacia abajo, ¿verdad? Así que en el navegador, hace una cosa a la vez.
+Node.js es de un solo subproceso, por lo que todo se bloquea si realizas esa solicitud. Y si lo piensas bien, si la API meteorológica no te responde, por el motivo que sea,
+    puede que tus credenciales sean incorrectas, que el servidor no funcione y tus usuarios se queden esperando. En ese caso, las funciones de devolución de llamada son muy
+    útiles. Así que lo que tienes que hacer es hacer una solicitud a la API meteorológica y luego dedicarte a tus asuntos. Y cuando recibas una respuesta, puedes gestionar esa
+    respuesta y mostrar la información al usuario. Por lo tanto, entender las devoluciones de llamadas es clave para dominar JavaScript.
+
+Las funciones son un objeto de primera clase en JavaScript y, por lo tanto, se pueden pasar como parámetros a otras funciones. Una función de devolución de llamada sigue
+    específicamente el patrón de devolución de llamada e implica pasar una función como parámetro a otra función, y la función de devolución de llamada se invoca una vez que se
+    ha ejecutado la función adjunta. Por lo tanto, una función de devolución de llamada es un cierre, ya que la función de devolución de llamada tiene acceso a las variables de
+    alcance de la función contenedora.
+
+Las funciones de devolución de llamada pueden ser anónimas o tener un nombre y aquí estamos hablando de funciones de devolución de llamada anónimas. Las funciones anónimas a
+    veces son más legibles y son una buena solución cuando la función de devolución de llamada no está destinada a ser reutilizada.
+
+En otros casos, un módulo de utilidad como Async.js puede ayudar a gestionar el JavaScript asíncrono. Las funciones de devolución de llamadas anónimas en JavaScript son
+    excelentes. Son muy útiles para mantener limpio el código y definir una función sobre la marcha. Así que los he utilizado ampliamente cuando se trata de mensajes. La idea es
+    enviar y recibir mensajes y quiero procesar esos mensajes. No siempre quiero definir necesariamente una función completa sobre cómo procesarla cada vez.
+Solo quiero decir: oye, cuando reciba este mensaje, voy a hacer algo muy simple. Por eso, a menudo, es muy fácil y muy útil crear una función de llamada anónima muy simple que
+    reciba un mensaje, lo procese, haga algo y, así, no tenga que volver a preocuparme por ello.
+
+Si planeas usar Node.js para el desarrollo web, el concepto de funciones de devolución de llamadas es una de las primeras cosas que tendrás que entender. Cuando defina las
+    rutas en su servidor web, dependerá de una biblioteca que le proporcionará los objetos de solicitud y respuesta. Se proporcionarán como argumentos a la función de
+    devolución de llamada, que luego leerá la solicitud y modificará la respuesta para asegurarse de que el cliente obtenga el resultado deseado. Si bien aquí es posible
+    utilizar funciones con nombre para las funciones de devolución de llamada, a menudo se prefieren las funciones anónimas porque la lógica de cada ruta es única y no está
+    duplicada en ningún otro lugar. Por lo tanto, el uso de funciones anónimas mantiene el código limpio y legible.
+
+Las funciones de devolución de llamadas anónimas le permiten escribir un bloque de código específico que puede volver a utilizar más adelante. Las funciones anónimas combinadas
+    con la sintaxis de las flechas nos permiten escribir canalizaciones claras y concisas en JavaScript para manipular los datos de las matrices."

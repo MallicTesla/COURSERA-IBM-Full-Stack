@@ -1,0 +1,14 @@
+"Bienvenido a trabajar con JSON. Tras ver este vídeo, debería poder: Analizar los datos de la notación de objetos de JavaScript (JSON) de un mensaje del protocolo de transferencia
+    de hipertexto (HTTP).
+
+JSON es el formato estándar para el intercambio de datos de la interfaz de programación de aplicaciones (API). Es la representación estándar de los objetos nativos de JavaScript
+    y Node.js lo maneja fácilmente. En este ejemplo, el objeto consta de pares atributo-valor. El primer atributo es «Empresa» y el valor es «IBM». El segundo atributo es «País»
+    y el valor es «EE. UU.». El tercer atributo es «Sede central» y el valor es «Armonk, Nueva York». Para convertir una cadena JSON en un objeto JavaScript, utilice el método
+    JSON.parse. El método JSON.stringify () convierte un objeto JavaScript en una cadena JSON. Ahora ya sabe qué es JSON y dos métodos importantes que puede usar para analizar
+    una cadena en JSON y también convertir JSON en una cadena.
+
+Veamos un ejemplo del uso de un punto final real que devuelve JSON. Puedes usar JSON para averiguar cuántos astronautas hay en la Estación Espacial Internacional (ISS). Has
+    descubierto que el número de astronautas es cinco.
+
+En este vídeo, aprendiste lo siguiente: Node.js maneja JSON con facilidad y puedes usar dos métodos importantes para convertir una cadena en JSON y también convertir JSON en una
+    cadena."

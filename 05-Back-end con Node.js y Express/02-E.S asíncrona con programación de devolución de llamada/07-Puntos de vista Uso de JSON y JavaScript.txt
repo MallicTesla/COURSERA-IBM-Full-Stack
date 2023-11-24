@@ -1,0 +1,25 @@
+"Bienvenido a Expert Viewpoints: Uso de JSON y JavaScript. En este vídeo, escucharemos a varios profesionales del desarrollo de aplicaciones hablar sobre situaciones en las que
+    conocer JSON y JavaScript les ha ayudado y cómo creen que estos métodos pueden beneficiar a los nuevos desarrolladores de aplicaciones en la nube.
+
+Estar familiarizado con JavaScript y JSON es más o menos un requisito para los desarrolladores web. Si no trabajas en absoluto con la interfaz, es posible que puedas prescindir
+    de nada de JavaScript, pero JSON es el estándar de facto para la serialización de datos. Querrás aprender a usar JSON para consumir las API escritas por otras personas y
+    además hacer que tus propias API devuelvan JSON para que otras personas puedan usarlas fácilmente.
+
+Otro lugar en el que verás JSON con frecuencia es cuando tienes que especificar algo de una manera que el ordenador pueda entender fácilmente. Probablemente lo veas primero al
+    especificar los requisitos para un proyecto de Node.js, por ejemplo, pero es posible que lo vuelvas a ver cuando especifiques despliegues para ofertas de plataforma como
+    servicio o cargas de trabajo de Kubernetes.
+
+La notación de objetos JSON o JavaScript está integrada en JavaScript, ¿verdad? Así que cuando trabajas con objetos en JavaScript, básicamente trabajas con JSON. Dicho esto, con
+    los servicios web RESTful, un formato común de comunicación o datos también es el JSON. Así que, como desarrolladores de Node.js y desarrolladores de JavaScript, no podéis
+    escapar de JSON. De hecho, es un formato muy fácil de usar. JSON es una de esas cosas, una de esas cosas si eres desarrollador de JavaScript, si eres desarrollador de Node.js
+    necesitas entender los objetos JSON y trabajar con ellos. Así que, cuanto antes lo aprendas, mejor.
+JSON es uno de los formatos dominantes para codificar objetos en una cadena. Y JSON es un tipo de datos nativo de JavaScript. Por lo tanto, la serialización convierte el objeto
+    JSON en una cadena de bytes y la deserialización convierte la cadena de bytes de nuevo en el objeto JSON.
+
+Una gran ventaja de estar familiarizado con JSON es que los objetos de solicitud y respuesta en la nube (las API REST) suelen estar en JSON, al menos cuando se trabaja a nivel
+    curl o a nivel de script de shell. Otra ventaja de conocer JavaScript y JSON es trabajar con bases de datos de documentos orientadas a JSON.
+
+Escribir en JavaScript y usar JSON siempre me ayuda, porque JavaScript es el lenguaje de Internet. Así que lo ves en muchas aplicaciones. Y poder añadir código a un proyecto
+    existente o escribir JavaScript desde cero es realmente útil. Es como hablar, un idioma que es muy popular. Además, muchos de los lenguajes modernos utilizan JSON, entre
+    ellos, Python y Node.js. Por eso uso Python todos los días, porque es una forma muy útil de estructurar los datos y pasarlos de un lado a otro. Y, ya sabes, esa es la forma
+    en que se obtiene una respuesta de la mayoría de las API."

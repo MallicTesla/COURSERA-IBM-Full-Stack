@@ -1,0 +1,12 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Las operaciones de red asíncronas pueden manejarse utilizando funciones de devolución de llamada para evitar el bloqueo del código JavaScript.
+
+Una función callback debe invocar otra función callback para pasar un mensaje del módulo Node.js de vuelta a la aplicación principal después de que el módulo Node.js reciba un
+    mensaje de respuesta
+
+Las retrollamadas anidadas pueden ser difíciles de leer y depurar. La inversión de control causa problemas de confianza cuando se trata con código de terceros
+
+Los objetos Promise son más útiles para que las operaciones requieran mucho tiempo y pueden bloquear recursos
+
+JSON.parse() y JSON.stringify() son dos métodos utilizados para analizar objetos JSON"
