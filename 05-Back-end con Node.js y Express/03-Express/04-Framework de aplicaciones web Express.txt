@@ -1,0 +1,59 @@
+"Bienvenido a Express Web Application Framework. Después de ver este vídeo, podrá describir el framework Express, explicar los usos principales de Express y descargar Express.
+
+Express es un framework de aplicaciones web basado en el entorno de ejecución Node.js; sin embargo, Express extrae detalles de bajo nivel. Express le ayuda a organizar mejor la
+    aplicación y a desarrollarla más rápido. Proporciona mecanismos sólidos para integrar paquetes de middleware y gestionar diferentes métodos de solicitud del protocolo de
+    transferencia de hipertexto (HTTP).
+
+El framework de aplicaciones web Express se utiliza ampliamente en este campo en la actualidad y también constituye la base de otros marcos. Express se usa principalmente con
+    dos propósitos: uno como API y el segundo es configurar plantillas con renderización del lado del servidor, también conocida como SSR.
+
+El uso de Express para crear API implica configurar una interfaz HTTP para interactuar con la capa de datos. En el caso de las API, los datos se devuelven al cliente en formato
+    JSON mediante un objeto de respuesta, o res, por sus siglas en inglés.
+
+El método res.json se utiliza para notificar al cliente el tipo de contenido de los datos que se envían, por ejemplo, si se trata de una imagen o un texto. También se puede usar
+    para encadenar datos, es decir, convertir JavaScript a formato JSON.
+
+En el renderizado del lado del servidor (SSR), Express se utiliza para configurar las plantillas. Express es responsable de utilizar los datos enviados por el cliente
+    proporcionados por una solicitud HTTP junto con la plantilla para escribir HTML, CSS o JavaScript de forma dinámica. El HTML, CSS o JavaScript se devuelven al cliente en
+    forma de texto para que el navegador pueda renderizar la página. Esto se logra mediante el método res.render de Express.
+
+Express implementa una clase de aplicación que se asigna a una ruta de recursos web. Por el contrario, cuando se utiliza la interfaz de programación de aplicaciones (API)
+    principal de Node.js, la función http.CreateServer se basa en la función de devolución de llamada personalizada para analizar la ruta del recurso web.
+
+Esta es una descripción general de cómo trabajar con Express. Hay cinco pasos.
+
+Primer paso: declarar Express como una dependencia en el manifiesto del paquete de un proyecto de Node.js.
+Segundo, ejecuta el comando npm para descargar los módulos que falten.
+En tercer lugar, importe el módulo Express y cree una aplicación Express.
+Cuatro, cree un nuevo controlador de rutas.
+Y cinco, inicie un servidor HTTP en un número de puerto determinado.
+
+A continuación, verá cómo completar los pasos uno y dos. En primer lugar, para declarar Express como una dependencia en el archivo package.json, cree un archivo package.json en
+    la carpeta de su proyecto. El archivo package.json almacena información sobre el contenido de un módulo de Node.js, que incluye cinco elementos: nombre, versión, descripción,
+    elemento principal y dependencias.
+Nombre es el nombre del módulo Node.js.
+La versión es una cadena que define el número de versión principal y secundaria del módulo.
+La descripción es una oración que describe el propósito del módulo.
+Main identifica el script Node.js como el punto de entrada al módulo.
+Y las dependencias son una lista de los módulos de Node.js que requiere el módulo actual.
+
+Para declarar Express como una dependencia, incluya el módulo Express y un número de versión en la propiedad dependencies. Aquí, en este archivo de dependencias package.json, el
+    nombre del módulo es temperature. Su versión es la 1.0.0. Su descripción es «recuperar las condiciones meteorológicas actuales en los Estados Unidos».
+El archivo de script principal, que es el punto de entrada del módulo, está establecido en app.js. Depende del framework Express, que es la versión 4.x.
+En el paso 2, ejecute el comando npm para descargar los módulos que falten. Al ejecutar el comando npm install dentro del directorio de módulos Node.js, resuelve los módulos
+    Node.js dependientes que falten. El comando descarga y guarda los módulos Node.js que falten en su propio directorio node_module.
+
+Este esquema le permite usar diferentes versiones del mismo módulo Node.js en paquetes diferentes. Por ejemplo, un módulo Node.js personalizado instala una versión 4.0 del
+    framework Express. Otro módulo de Node.js instala la versión 5.0 en su propio repositorio de módulos de Node. Para instalar un módulo Node.js en el directorio compartido
+    node_module, ejecuta npm install con el nombre del módulo desde el directorio de la instalación Node.js.
+Para descargar Express, ejecute npm install en la carpeta de su proyecto. Cuando ejecute el comando npm install sin parámetros, la aplicación npm escaneará su archivo package.json.
+Comprueba tu directorio node_module para ver si falta algún módulo. En este caso, el framework de aplicaciones web Express no se encuentra en su instalación actual.
+La aplicación npm descarga el framework Express y todos sus módulos dependientes.
+
+En este vídeo, aprendió lo siguiente: Express es un módulo de terceros que proporciona un framework para crear aplicaciones web.
+Express tiene dos propósitos: configurar las API e implementar SSR.
+Para instalar Express, hay cinco pasos: declarar Express como una dependencia en el manifiesto del paquete de un proyecto de Node.js.
+    Ejecute el comando npm para descargar los módulos que falten.
+    Importe el módulo Express y cree una aplicación Express.
+Cree un nuevo gestor de rutas.
+Por último, inicie un servidor HTTP en un número de puerto determinado."

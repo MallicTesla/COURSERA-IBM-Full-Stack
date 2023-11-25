@@ -1,0 +1,29 @@
+"Bienvenido a Expert Viewpoints: Cómo trabajar con frameworks JavaScript de backend y Express. En este vídeo, escucharemos a varios profesionales del desarrollo de aplicaciones
+    nativas de la nube explicar por qué utilizan Express.js para crear aplicaciones web de back-end.
+
+El framework Express para Node.js es una excelente opción para crear aplicaciones web de back-end. Permite una declaración expresiva de muy alto nivel de los puntos finales de
+    la API REST, lo que resulta ideal para la productividad y la legibilidad del código. Creo que es el framework web más popular para Node.js y el equipo de Express. Y la
+    comunidad que lo rodea ha creado un montón de software intermedio excelente para cosas como analizar el contenido del cuerpo, autenticar, gestionar las sesiones de los
+    usuarios y registrar las solicitudes.
+
+Existen varias razones para usar Express en la actualidad. Es popular. Hay un montón de paquetes para él. Por lo tanto, le dará la posibilidad de crear algo con solo unas pocas
+    líneas de código. Además, me parece que Express es ideal para trabajar con middlewares, que te permiten hacer prácticamente lo que quieras con cualquier solicitud que reciba
+    o reciba una respuesta cuando la gente utilice su servicio.
+Además, Express puede ser muy, muy rápido y muy, muy fácil de usar, por lo que me parece que el ciclo de vida del desarrollo puede ser muy corto si sabes lo que estás haciendo.
+Cuando se trata de usar frameworks de JavaScript de fondo, estoy más familiarizado con Express.js. Es muy prominente. Y puede usarlo para crear aplicaciones que se encuentren en
+    la Web. Por lo tanto, Express.js extrae una gran cantidad de código de bajo nivel que escribiría usted mismo si estuviera creando su sitio web o aplicación web en el propio
+    Node.js. Por lo tanto, me convierte en un programador o desarrollador de software más eficaz.
+
+Pero más que eso, Express se basa en ciertas prácticas recomendadas que tendrías que seguir de todos modos si estuvieras creando todo esto desde cero. Es bueno confiar en este
+    framework de código abierto impulsado por la comunidad, que lo más probable es que sea lo correcto para mí.
+
+Al usar Express.js para el desarrollo de back-end, podemos escalar aplicaciones rápidamente. Podemos codificar fácilmente tanto el front-end como el back-end con la ayuda de
+    JavaScript utilizando Express.js.
+
+Express.js es compatible con el motor Google V8, con la ayuda del cual podrá obtener un mayor rendimiento sin demoras ni errores en el procesamiento.
+También es compatible con la función de almacenamiento en caché, por lo que no tendrá que volver a ejecutar los códigos una y otra vez.
+Además, ayudará a que las páginas web se carguen más rápido que nunca. También puede integrar varias aplicaciones y servicios de terceros con Express.js.
+
+Me enseñaron a usar Express cuando estaba aprendiendo el desarrollo de back-end. Pero al final no lo usé tanto porque podía utilizar servicios totalmente gestionados en la nube
+    para encargarme de muchas de esas cosas por mí. Por lo tanto, podría disponer de un servicio de pasarela de API que gestionara las solicitudes de API por mí. Y luego solo
+    tendría que escribir el código para saber qué hacer en respuesta."

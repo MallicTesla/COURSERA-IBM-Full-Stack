@@ -1,0 +1,27 @@
+"En este artículo hablaremos de los términos middleware y rutas.
+
+El middleware es un software que se sitúa entre las aplicaciones, las bases de datos o los servicios y permite que esas diferentes tecnologías se comuniquen.
+Crea interacciones fluidas para el usuario final en un sistema distribuido.
+
+Express es un framework de mensajería utilizado para manejar rutas y escribir middleware.
+El front-end de una aplicación utiliza Express para facilitar la comunicación entre los componentes del back-end sin necesidad de que los servicios front-end y back-end utilicen
+    el mismo lenguaje. El front-end se comunica con el middleware, no directamente con el back-end.
+
+Los frameworks de mensajería como Express suelen contener JSON, API REST y servicios web.
+Los frameworks de mensajería más antiguos pueden contener lenguaje de marcado extensible (XML) y protocolos simples de acceso a objetos (SOAP) en lugar de JSON y API REST,
+    respectivamente.
+El framework de mensajería proporciona una forma estandarizada de manejar la transferencia de datos entre diferentes aplicaciones.
+
+Un servidor web es un ejemplo de middleware que conecta un sitio web a una base de datos.
+El servidor web maneja la lógica de negocio y enruta los datos desde la base de datos en función de la solicitud.
+Una ruta es la parte del código que asocia una solicitud HTTP, como GET, POST o DELETE, con una URL y la función a la que se llama que gestiona esa URL.
+El enrutamiento se utiliza en el desarrollo web para dividir la interfaz de usuario de una aplicación basándose en reglas identificadas por la URL del navegador.
+
+Las funciones de enrutamiento se denominan colectivamente "middleware". El middleware es responsable de responder a una petición HTTP o de llamar a otra función de la cadena de
+    middleware. Express maneja las funciones de enrutador a través de la clase Router, como Router.get().
+Como su nombre indica, Router.get() gestiona las peticiones HTTP GET.
+Otras funciones Router incluyen Router.post(), Router.put(), Router.delete() en su mayor parte de la misma manera.
+Estos métodos toman dos argumentos, una ruta URL y una función de devolución de llamada.
+
+Además del enrutamiento, el middleware también es responsable de proporcionar conexiones seguras entre los servicios cifrando y descifrando los datos, gestionando las cargas de
+    las aplicaciones distribuyendo el tráfico a diferentes servidores y clasificando o filtrando los datos antes de que se devuelvan al cliente."

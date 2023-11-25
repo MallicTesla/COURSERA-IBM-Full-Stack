@@ -1,0 +1,34 @@
+"Bienvenido a Extending Node.js. Tras ver este vídeo, debería poder: Ampliar Node.js con paquetes de terceros y definir la dependencia de los paquetes.
+
+Puede crear un servidor de protocolo de transferencia de hipertexto (HTTP) mediante Node.js, pero el marco Node.js predeterminado es limitado. Sin embargo, la creación de un
+    servidor web tiene muchos aspectos, como el enrutamiento, el análisis de los archivos entrantes, la autenticación, la conexión a una base de datos y otros aspectos. Por
+    ejemplo, puede analizar el lenguaje de marcado extensible (XML) con funciones de cadena de JavaScript, pero un objeto de documento XML no es eficiente a la hora de analizar
+    un flujo de datos XML. Los desarrolladores se basan en bibliotecas y paquetes externos para ampliar la funcionalidad principal de Node.js.
+
+Supongamos que necesita conocer los datos meteorológicos del Aeropuerto Internacional de San Francisco. Puede enviar una solicitud HTTP a un servidor web externo. Después de
+    recibir los datos meteorológicos, puede analizarlos manualmente. Aquí puede analizar los mensajes del servicio web como una cadena. Cuando Node.js recibe la parte final del
+    mensaje de respuesta HTTP, llama al controlador de eventos response.on ('end'). Dentro de la función callback, la primera línea con la llamada a la función buffer.match
+    localiza la parte del mensaje XML que comienza y termina con la etiqueta del elemento XML temp_f. Esta cadena, incluidas las etiquetas inicial y final de temp_f, se guarda
+    en la variable matches.
+
+Si hay una coincidencia, la segunda llamada a matches [0] .replace elimina los elementos XML temp_f de inicio y final. Tenga en cuenta las desventajas de tratar los datos XML
+    como una cadena. La coincidencia de cadenas ignora la estructura de los datos XML. El cuerpo del mensaje puede contener datos XML con formato incorrecto. Según la complejidad
+    de los datos XML, la coincidencia de cadenas puede ser más eficaz que crear un árbol XML de los datos. La coincidencia de cadenas tolera menos los cambios en la estructura
+    de datos XML. Y si el mensaje agrega o quita algún elemento XML, debe cambiar la expresión regular de la función de coincidencia de cadenas.
+
+Puede usar el paquete xml2js Node.js para analizar una cadena de elementos XML y convertirla en un objeto JavaScript. Se trata de un paquete Node.js que utiliza únicamente
+    JavaScript. No requiere una biblioteca de análisis XML escrita en otro idioma.
+Como las licencias de paquetes de terceros pueden tener sus propias licencias, confirme que su empresa y su aplicación cumplen las condiciones de licencia antes de instalar el
+    paquete xml2js Node.js. Puede usar la aplicación npm para administrar los paquetes de Node.js en su instalación de Node.js framework. Por ejemplo, ejecute el comando
+    npm install para recuperar y configurar un paquete Node.js y cualquier dependencia del paquete.
+
+En este ejemplo, se llama a npm install xml2js desde la línea de comandos. La aplicación npm se conecta a Internet y recupera el módulo xml2js de Node.js y todas las
+    dependencias que necesite. Aquí, importa el paquete a su aplicación. En la primera línea, la función parseString llama a la función callback cuando termina de procesar el
+    árbol XML en el búfer. En la última línea, la variable JavaScript resultante representa el contenido del fragmento XML en el búfer.
+En otras palabras, la variable JavaScript resultante representa el elemento XML, pero en formato JavaScript. La propiedad current_observation.temp_f [0] se asigna al primer
+    elemento secundario del elemento XML temp_f. El elemento temp_f es un elemento secundario del elemento current_observation.
+
+En este vídeo, aprendiste lo siguiente: los desarrolladores confían en paquetes de terceros para ampliar las funciones de Node.js. La coincidencia de cadenas ignora la estructura
+    de los datos XML.
+El paquete xml2js Node.js analiza una cadena de elementos XML para convertirlos en un objeto JavaScript
+La aplicación npm gestiona los paquetes Node.js en la instalación del framework Node.js."

@@ -1,0 +1,62 @@
+"Bienvenido a Introducción a los frameworks web. Después de ver este vídeo, podrá: Explicar la diferencia entre los frameworks web basados en Node.js y los basados en Node.js.
+Explica los estilos arquitectónicos de las API MVC y REST. Y describa las características destacadas de varios frameworks web de Node.
+
+A veces, Node.js se denomina incorrectamente framework web. Node.js no es un framework sino un entorno de ejecución que ejecuta JavaScript en un servidor. Los entornos de
+    ejecución son el hardware y el software que pueden ejecutar programas con una base de código determinada.
+Un framework, por otro lado, es como un esqueleto sobre el que se construye una aplicación para un entorno específico. El framework es la estructura fundamental que sustenta la
+    aplicación. Por lo tanto para utilizar Node.js, debe usar un framework web que funcione en conjunto con él. Un framework que funciona con Node.js se denomina framework web
+    de nodos o simplemente framework de nodos.
+
+Hay varios frameworks de nodos diferentes. Y discutiremos algunos más adelante en este vídeo. Por lo tanto, antes de analizar los frameworks individuales, analicemos primero dos
+    enfoques para crear back-ends que pueden emplear los frameworks web: Model-View-Controller, más conocidos como MVC, y las interfaces de programación de aplicaciones de
+    transferencia de estado representacional, o API REST, por sus siglas en inglés.
+
+Se puede utilizar un enfoque MVC de forma simultánea con las API REST. No se excluyen mutuamente. MVC son las siglas de «controlador de vista de modelo». MVC es un patrón
+    arquitectónico que divide una aplicación en tres componentes: modelo, vista y controlador. Analicemos qué es cada uno de estos componentes.
+
+La capa del modelo es responsable de administrar los datos de la aplicación. Interactúa con la base de datos y maneja la lógica de los datos.
+La vista es responsable de representar la presentación de los datos que le pasa el modelo.
+Y el controlador regula el flujo de los datos. Es responsable de procesar los datos que le proporciona el usuario y los envía al modelo para su manipulación o almacenamiento.
+
+Los frameworks MVC se utilizan generalmente para desarrollar aplicaciones que necesitan una separación de datos, denominada modelo; la presentación de los datos, denominada
+    vista; y el módulo que manipula los datos, que es el controlador. Los frameworks que se prestan a desarrollar el back-end con un patrón MVC incluyen Koa, Django, Express y
+    NestJS.
+
+Ahora hablemos de las API REST. Las API REST permiten que varios servicios web se comuniquen entre sí. Las API RESTful están sujetas a ciertas restricciones. El código del
+    cliente debe ser completamente independiente del código del servidor. El código del lado del cliente se puede actualizar sin interferir con el código del servidor y viceversa.
+En segundo lugar, las API RESTful tampoco tienen estado. Sin estado significa que el cliente no necesita conocer el estado del servidor, ni el servidor necesita conocer el estado
+    del cliente para comunicarse entre ambos. Las API REST se comunican mediante operaciones en los recursos y no dependen de una implementación concreta de la API.
+Cuando un cliente solicita recursos mediante una API REST mediante métodos HTTP como GET, POST, PATCH o DELETE, el servidor responde al cliente con una representación del estado
+    del recurso. La representación de los datos transferidos entre el cliente y el servidor suele ser una carga útil de JSON, pero también puede ser HTML, XLT, Python, PHP o
+    texto sin formato.
+
+Entonces, ahora que hemos discutido un par de maneras de estructurar el código de fondo, profundicemos y analicemos algunos de los frameworks más populares en sí mismos.
+
+Express.js, también conocido como Express, es uno de los Node Web Frameworks más populares. Se usa para enrutamiento y middleware. Su codificación sencilla con JavaScript
+    significa que hay una curva de aprendizaje bastante pequeña. Es fácil implementar un patrón de arquitectura MVC con Express. Proporciona mecanismos de depuración para ayudar
+    a identificar fácilmente los errores en la aplicación.
+Express ofrece un alto rendimiento porque gestiona múltiples solicitudes de operación de forma simultánea que son independientes entre sí mediante una programación asíncrona.
+Cuenta con muchos ayudantes HTTP que hacen que los programas sean inteligibles y reutilizables para gestionar las solicitudes HTTP. Cuenta con una excelente negociación de
+    contenido que ayuda al cliente y al servidor a comunicarse al proporcionar de manera eficiente encabezados HTTP a las URL y obtener los datos exactos que necesita el cliente
+    solicitante.
+
+Koa es un framework web relativamente nuevo diseñado por el mismo equipo que diseñó Express. Está diseñado para ser más pequeño, más expresivo y proporcionar una base más sólida
+    para las aplicaciones web y las API. Koa utiliza funciones asíncronas de tal forma que no es necesario realizar llamadas de retorno y aumenta la capacidad de gestionar los
+    errores. Koa es adecuada para aplicaciones de alto rendimiento, exigentes y complejas, y desarrolladas por equipos grandes y experimentados.
+
+Socket.io es una excelente opción para desarrollar aplicaciones en las que se intercambian datos bidireccionales entre clientes y servidores en tiempo real. Puede desarrollar
+    aplicaciones que utilicen WebSocket en lugar de HTTP para la comunicación. Sus servidores envían datos sin necesidad de que el cliente los llame. Es adecuado para
+    aplicaciones como salas de chat, aplicaciones de mensajes de texto , videoconferencias y juegos multijugador.
+
+Además, Hapi.js es un framework web de nodos de código abierto confiable con mucha seguridad incorporada. Hay muchos complementos integrados, por lo que no necesitará utilizar un
+    middleware no oficial. Es más conocido por desarrollar servidores proxy y API, aplicaciones de proxy HTTP, API REST y otras aplicaciones de escritorio.
+
+Y, por último, tenemos el framework NestJS, que es apropiado para crear aplicaciones empresariales dinámicas y escalables, junto con su flexibilidad debido a su multitud de
+    bibliotecas. Sigue una arquitectura MVC. NestJS está construido sobre Express, por lo que tienen propósitos similares y proporcionan funciones comparables. Es compatible con
+    TypeScript, que es un subconjunto de superconjuntos de JavaScript. Funciona en conjunto con el framework Angular de front-end. Además, Nest combina la programación reactiva
+    funcional y orientada a objetos, lo que podría duplicar la productividad y el rendimiento de las aplicaciones.
+
+En este vídeo, aprendiste lo siguiente: Node.js es un entorno de ejecución, mientras que los frameworks web de nodos utilizan el entorno Node.js para ejecutarse.
+El estilo de arquitectura MVC divide una aplicación de back-end en tres partes: el modelo, la vista y el controlador.
+Los frameworks de API REST utilizan métodos HTTP para comunicarse entre sí
+Varios frameworks web de nodos populares incluyen Express, Koa, Hapi.js y NestJS."

@@ -1,0 +1,35 @@
+"Bienvenido a su primera aplicación web Express. Después de ver este vídeo, podrá crear una aplicación con Express e identificar los cinco pasos para instalar Express.
+
+Siga estos cinco pasos para trabajar con Express
+    One y declare Express como una dependencia en el manifiesto del paquete de su proyecto de Node.js.
+    Segundo, ejecute el comando npm para descargar los módulos que falten.
+    En tercer lugar, importe el módulo Express y cree una aplicación Express.
+    Cuatro, crear un nuevo controlador de rutas y
+    cinco, iniciar un servidor de protocolo de transferencia de hipertexto (HTTP) en un número de puerto determinado.
+
+Al declarar Express como una dependencia en el proyecto Node.js y descargar los módulos que faltan, puede crear un archivo mynodeserver.js en la carpeta del proyecto.
+Ahora puede empezar a programar con su primer programa Express.
+
+En este ejemplo, está escribiendo un programa para recuperar las condiciones meteorológicas actuales. Cuando haya importado una copia del framework de aplicaciones web Express,
+    cree una instancia del objeto JavaScript de la aplicación desde el framework.
+
+A continuación, cree un nuevo controlador de rutas.
+
+En su aplicación, para gestionar las solicitudes de aplicaciones web, asigne un método HTTP y una ruta de recursos web a la función JavaScript.
+Aquí, está escuchando las solicitudes HTTP GET entrantes, que realizan solicitudes a la ruta de recursos de temperatura. También está guardando el valor después de la ruta del
+    recurso de temperatura en una variable denominada location_code. Puede acceder a la variable de la ruta mediante request.params.location_code y almacenar el valor en una
+    variable de ubicación denominada «location». Al ejecutar la función weather.current, se transfiere el parámetro location, que se toma de la ruta del recurso.
+
+En el último paso, se inicia un servidor HTTP en un número de puerto determinado. Para crear una instancia del servidor desde la aplicación, llama a app.listen para crear un
+    objeto de servidor web (es decir, una instancia) que escuche las solicitudes entrantes en el puerto especificado. La aplicación escucha las solicitudes entrantes; por
+    ejemplo, en el puerto 8080. El segundo parámetro define una función anónima a la que llama el framework Express cuando crea una instancia del objeto de servidor. Para
+    obtener el resultado, introduzca el localizador uniforme de recursos (URL) en su navegador.
+
+En este vídeo, aprendió lo siguiente: cuando declara Express como una dependencia en su proyecto de Node.js y descarga los módulos que faltan, puede crear una aplicación y
+    empezar a programar con Express.
+
+Para instalar Express, hay cinco pasos: primero , declarar Express como una dependencia en el manifiesto del paquete de un proyecto de Node.js.
+En segundo lugar, ejecute el comando npm para descargar los módulos que falten.
+En tercer lugar, importe el módulo Express y cree una aplicación Express.
+Cuatro, crear un nuevo controlador de rutas
+cinco, iniciar un servidor HTTP en un número de puerto determinado."

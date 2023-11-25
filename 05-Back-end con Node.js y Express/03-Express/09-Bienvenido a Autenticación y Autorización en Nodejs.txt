@@ -1,0 +1,79 @@
+"Una vez que haya terminado de leer este documento, podrá:
+    Definir autenticación.
+    Explique la autenticación basada en sesiones, basada en tokens y sin contraseña.
+    Compare y contraste diferentes tipos de autenticaciones, incluidas las basadas en sesiones, las basadas en tokens y las sin contraseña.
+El proceso de autenticación confirma la identidad de un usuario mediante credenciales al validar quién dice ser. La autenticación garantiza la seguridad de una aplicación al
+    garantizar que sólo aquellos con credenciales válidas puedan acceder al sistema. La autenticación es responsabilidad del backend de una aplicación.
+
+Tres métodos de autenticación populares en Node.js incluyen:
+    Basado en sesiones
+    Basado en tokens
+    Sin contraseña
+
+Expliquemos un poco sobre cada uno de estos métodos y compárelos.
+
+
+Basado en sesiones
+La autenticación basada en sesiones es la forma más antigua de tecnología de autenticación. Normalmente, el flujo de una sesión es el siguiente:
+    El usuario utiliza sus credenciales para iniciar sesión.
+    Las credenciales de inicio de sesión se verifican con las credenciales de una base de datos. La base de datos es responsable de almacenar a qué recursos se puede acceder en
+        función del ID de la sesión.
+    El servidor crea una sesión con un ID de sesión que es una cadena cifrada única. El ID de la sesión se almacena en la base de datos.
+    El ID de la sesión también se almacena en el navegador como una cookie.
+    Cuando el usuario cierra la sesión o ha pasado un período de tiempo específico, el ID de la sesión se destruye tanto en el navegador como en la base de datos.
+
+
+Basado en tokens
+La seguridad basada en tokens consta de dos partes: autenticación y autorización. La autenticación es el proceso de proporcionar credenciales y obtener un token que prueba las
+    credenciales del usuario. La autorización se refiere al proceso de usar ese token para que el servidor de recursos sepa a qué recursos debe tener acceso el usuario.
+
+Autenticación basada en tokens
+La autenticación basada en tokens utiliza tokens de acceso para validar a los usuarios. Un token de acceso es un pequeño fragmento de código que contiene información sobre el
+    usuario, sus permisos, grupos y vencimientos que se pasa de un servidor al cliente. Un token de identificación es un artefacto que demuestra que el usuario ha sido
+    autenticado.
+
+El token contiene tres partes: el encabezado, la carga útil y la firma.
+    El encabezado contiene información sobre el tipo de token y el algoritmo utilizado para crearlo.
+    La carga útil contiene atributos de usuario, denominados reclamos, como permisos, grupos y vencimientos.
+    La firma verifica la integridad del token, lo que significa que el token no ha cambiado durante el tránsito.
+Un token web JSON, que se pronuncia "jot" pero se escribe JWT, es un estándar de Internet para crear datos de carga útil cifrados en formato JSON.
+
+El navegador de un usuario realiza una llamada a un servidor de autenticación y obtiene acceso a una aplicación web. Luego, el servidor de autenticación devuelve un token de
+    identificación que el cliente almacena como una cookie cifrada. Luego, el token de identificación se pasa a la aplicación en el servidor web como prueba de que el usuario
+    ha sido autenticado.
+
+Autorización basada en token
+Este diagrama de flujo muestra el flujo de trabajo de un token a través del proceso de autorización.
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0220EN-SkillsNetwork/Readings/images/tokenworkflow.png
+
+El proceso de autorización se ejecuta cuando la aplicación web quiere acceder a un recurso, por ejemplo, una API que está protegida contra el acceso no autorizado. El usuario
+    se autentica en el servidor de autorización. El servidor de autorización crea un token de acceso (tenga en cuenta que el token de ID y el token de acceso son dos objetos
+    separados) y envía el token de acceso al cliente, donde se almacena el token de acceso. Luego, cuando el usuario realiza solicitudes o recursos, el token se pasa al recurso,
+    también llamado servidor API. El token se pasa con cada solicitud HTTP. El token contiene información integrada sobre los permisos del usuario sin la necesidad de acceder a
+    esos permisos desde el servidor de autorización. Incluso si el token es robado, el hacker no tiene acceso a las credenciales del usuario porque el token está cifrado.
+
+
+Sin contraseña
+Con la autenticación sin contraseña, el usuario no necesita credenciales de inicio de sesión, sino que obtiene acceso al sistema demostrando que posee un factor que prueba su
+    identidad. Los factores comunes incluyen datos biométricos como una huella digital, un "enlace mágico" enviado a su dirección de correo electrónico o un código de acceso de
+    un solo uso enviado a un dispositivo móvil. Los sistemas de recuperación de contraseñas ahora suelen utilizar autenticación sin contraseña.
+
+La autenticación sin contraseña se logra mediante el cifrado de clave pública y clave privada. En este método, cuando un usuario se registra en la aplicación, el dispositivo del
+    usuario genera un par de clave privada/clave pública que utiliza un factor que prueba su identidad, como se indicó anteriormente.
+
+La clave pública se utiliza para cifrar mensajes y la clave privada para descifrarlos. La clave privada se almacena en el dispositivo del usuario y la clave pública se almacena
+    con la aplicación y se registra en un servicio de registro.
+
+Cualquiera puede acceder a la clave pública, pero la clave privada sólo la conoce el cliente. Cuando el usuario inicia sesión en la aplicación, la aplicación genera un desafío
+    de inicio de sesión, como solicitar datos biométricos, enviar un "enlace mágico" o enviar un código especial por SMS, cifrándolo con la clave pública. La clave privada
+    permite descifrar el mensaje. Luego, la aplicación verifica el desafío de inicio de sesión y acepta la respuesta para autorizar al usuario.
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0220EN-SkillsNetwork/Readings/images/reg-verify.png
+
+
+En esta lectura, aprendiste que:
+La autenticación es el proceso de confirmar la identidad de un usuario utilizando credenciales validando quién dice ser.
+La autenticación basada en tokens utiliza tokens de acceso, a menudo JWT, que se pasan entre el servidor y el cliente con los datos que se pasan entre los dos.
+La autenticación basada en sesiones utiliza credenciales para crear una ID de sesión almacenada en una base de datos y en el navegador del cliente. Cuando el usuario cierra
+    sesión, el ID de sesión se destruye.
+La autenticación sin contraseña utiliza pares de claves pública/privada para cifrar y descifrar los datos pasados ​​entre el cliente y el servidor sin necesidad de una contraseña.
+"

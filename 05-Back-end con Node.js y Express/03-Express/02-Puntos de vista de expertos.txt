@@ -1,0 +1,20 @@
+"Bienvenido a Expert Viewpoints: Trabajar con extensiones de Node.js de terceros. En este vídeo, varios profesionales del desarrollo de aplicaciones analizarán qué extensiones
+    de Node.js de terceros utilizan habitualmente y cómo estas extensiones suelen beneficiar a los desarrolladores de aplicaciones.
+
+Uno de los paquetes Node.js de NPM que más he utilizado es el marco sin servidor, ya que permite implementar microservicios sin servidor en la nube con mucha facilidad sin
+    necesidad de escribir usted mismo gran parte del código de recursos e infraestructuras.
+
+Hay varias extensiones de Node.JS que uso todo el tiempo. Por ejemplo, uso Lodash, que es un gran paquete para trabajar con colecciones y matrices, encontrar los elementos
+    correctos, ordenar, etc. Ahorra mucho tiempo.
+Axios también es muy útil para gestionar las API RESTful y enviar archivos GETS, PUTS, POSTS, etc.
+
+Además, en mis aplicaciones Express hay un montón de middlewares, especialmente los que se ocupan de la autenticación y los tokens JWT. Todos ellos son extremadamente útiles y
+    realmente ayudan a acelerar la creación de servicios y otras herramientas en la nube por parte de cualquier desarrollador de la nube.
+
+Cuando trabaje con Node.js, le daré dos de mis paquetes favoritos que uso a diario. Lo primero es hacer solicitudes a los servicios web. Por lo tanto, lo más probable es que mi
+    aplicación tenga que solicitar información de otro servicio web. Ahora bien, este podría ser un servicio web que he escrito yo, o podría ser un servicio web que haya escrito
+    otra persona. En cualquier caso, tengo que enviar una solicitud con algunos parámetros de entrada y luego esperar a que la solicitud regrese o esperar a que llegue la
+    respuesta y gestionar esa respuesta. En lugar de escribir todo este código yo mismo, utilizo una biblioteca como Axios, que me ayuda a crear estas solicitudes con los
+    encabezados correctos y también me proporciona funciones de devolución de llamadas y/o promete ser capaz de gestionar las respuestas que se reciben.
+Mi segundo paquete sería cuando trabajo con bases de datos. Utilizaré paquetes NPM, lo más probable es que sirvan para comunicarme con una base de datos externa,
+    independientemente de si se trata de una base de datos relacional o NoSQL."
