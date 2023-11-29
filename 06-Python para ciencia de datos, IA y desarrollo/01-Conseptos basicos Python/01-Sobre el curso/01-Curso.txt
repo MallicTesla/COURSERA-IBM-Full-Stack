@@ -1,0 +1,12 @@
+"Este curso se diseñó para proporcionar los fundamentos de la programación en Python y la recopilación de datos para quienes elijan una carrera en Ciencia de Datos,
+    Ingeniería de Datos, IA o Desarrollo de Aplicaciones.
+
+Concebido inicialmente como un curso básico para la Ciencia de Datos y la IA, se ha actualizado en varias ocasiones para seguir el ritmo de las opciones profesionales emergentes.
+Se han añadido contenidos adicionales aplicables a la Ciencia de Datos, la Ingeniería de Datos, la IA o el Desarrollo de Aplicaciones.
+
+Después de completar este curso habrá aprendido habilidades fundamentales en programación Python que podrá aplicar en el curso de Proyectos Python para su carrera elegida.
+Los cursos de Proyectos Python implican escenarios del mundo real en los que estará a cargo de un proyecto final como Científico de Datos, Ingeniero de Datos o en IA y
+    Desarrollo de Aplicaciones.
+Al terminar este curso y su Proyecto Python de seguimiento, obtendrá las habilidades básicas para continuar los pasos en su carrera elegida.
+
+Nota: Este curso es un requisito previo para los cursos de Proyecto Python y debe completarse en su totalidad antes de intentar el curso de Proyecto Python correspondiente."
