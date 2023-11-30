@@ -1,0 +1,79 @@
+"
+En este módulo, vamos a hablar de objetos y clases. Python tiene muchos tipos diferentes de tipos de datos: enteros, flotadores, cadenas, listas, diccionarios, booleanos.
+
+En Python, cada uno es un objeto. Cada objeto tiene lo siguiente: un tipo, representación interna , un conjunto de funciones llamadas métodos para interactuar con los datos.
+Un objeto es una instancia de un tipo particular. Por ejemplo, tenemos dos tipos, tipo uno y tipo dos. Podemos tener varios objetos de tipo uno como se muestra en amarillo.
+Cada objeto es una instancia del tipo uno. También tenemos varios objetos de tipo dos que se muestran en verde. Cada objeto es una instancia del tipo dos. Hagamos varios
+    ejemplos menos abstractos. Cada vez que creamos un entero, estamos creando una instancia de tipo entero, o estamos creando un objeto entero. En este caso, estamos creando
+    cinco instancias de tipo entero o cinco objetos enteros. Del mismo modo, cada vez que creamos una lista, estamos creando una instancia de lista de tipos, o estamos creando
+    un objeto de lista. En este caso, estamos creando cinco instancias de lista de tipos o cinco objetos de lista. Podríamos averiguar el tipo de un objeto mediante el comando
+    type. En este caso, tenemos un objeto de lista de tipos, tenemos un objeto de tipo entero, tenemos un objeto de tipo string. Finalmente, tenemos un objeto de tipo
+    diccionario. Los métodos de una clase o tipo son funciones que cada instancia de esa clase o tipo proporciona.
+
+Es cómo interactúas con el objeto. Hemos estado usando métodos todo este tiempo, por ejemplo, en listas. Sorting es un ejemplo de un método que interactúa con los datos del
+    objeto. Considere las clasificaciones de la lista, los datos son una serie de números contenidos en la lista. La ordenación del método cambiará los datos dentro del objeto.
+Llamamos al método agregando un punto al final del nombre del objeto, y el nombre del método al que nos gustaría llamar con paréntesis. Tenemos la lista de calificación
+    representada en naranja. Los datos contenidos en la lista son una secuencia de números. Llamamos al método de ordenación, esto cambia los datos contenidos en el objeto.
+    Puede decir que cambia el estado del objeto. Podemos llamar al método inverso en la lista, cambiando la lista de nuevo.
+Llamamos al método, invirtiendo el orden de la secuencia dentro del objeto. En muchos casos, no tienes que conocer el funcionamiento interno de la clase y sus métodos, solo
+    tienes que saber cómo usarlos. A continuación, vamos a cubrir cómo construir sus propias clases. Puede crear su propio tipo o clase en Python. En esta sección, creará una
+    clase. La clase tiene atributos de datos. La clase tiene métodos. A continuación, creamos instancias o instancias de esa clase u objetos. Los atributos de datos de clase
+    definen la clase. Vamos a crear dos clases. La primera clase será un círculo, la segunda será un rectángulo. Pensemos en lo que constituye un círculo. Examinando esta
+    imagen, todo lo que necesitamos es un radio para definir un círculo, y vamos a añadir color para que sea más fácil de distinguir entre diferentes instancias de la clase más
+    adelante. Por lo tanto, nuestros atributos de datos de clase son radio y color. Del mismo modo, examinando la imagen con el fin de definir un rectángulo, necesitamos la
+    altura y la anchura. También agregaremos color para distinguir entre instancias más adelante. Por lo tanto, los atributos de datos son color, alto y ancho. Para crear el
+    círculo de clase, deberá incluir la definición de clase. Esto le dice a Python que está creando su propia clase, el nombre de la clase. Para este curso entre paréntesis,
+    siempre colocará el término objeto, este es el padre de la clase. Para el rectángulo de clase, cambiamos el nombre de la clase, pero el resto se mantiene igual.
+
+Las clases son contornos que tenemos que establecer los atributos para crear objetos. Podemos crear un objeto que es una instancia de tipo círculo. El atributo de datos de
+    color es rojo, y el radio del atributo de datos es cuatro. También podríamos crear un segundo objeto que sea una instancia de círculo de tipo. En este caso, el atributo de
+    datos de color es verde, y el radio del atributo de datos es dos. También podemos crear un objeto que es una instancia de rectángulo de tipo. El atributo de datos de color
+    es azul, y el atributo de datos de altura y anchura es dos. El segundo objeto es también una instancia de tipo rectángulo. En este caso, el atributo de datos de color es
+    amarillo, y la altura es uno, y el ancho es tres. Ahora tenemos diferentes objetos de círculo de clase o círculo de tipo.
+
+También tenemos diferentes objetos de rectángulo de clase o rectángulo de tipo. Vamos a seguir construyendo la clase de círculo en Python. Definimos nuestra clase. Luego
+    inicializamos cada instancia de la clase con atributos de datos, radio y color usando el constructor de la clase. La función init es un constructor. Es una función especial
+    que le dice a Python que está haciendo una nueva clase. Hay otras funciones especiales en Python para hacer clases más complejas. Los parámetros de radio y color se utilizan
+    para inicializar los atributos de datos de radio y color de la instancia de clase. El parámetro self se refiere a la instancia recién creada de la clase. Los parámetros, el
+    radio y el color se pueden utilizar en el cuerpo de constructores para acceder a los valores pasados al constructor de la clase cuando se construye la clase. Podríamos
+    establecer el valor de los atributos de datos de radio y color a los valores pasados al método constructor. Del mismo modo, podemos definir el rectángulo de clase en Python.
+
+El nombre de la clase es diferente. Esta vez, los atributos de datos de clase son color, altura y ancho. Después de crear la clase, con el fin de crear un objeto de círculo de
+    clase, introducimos una variable. Este será el nombre del objeto. Creamos el objeto mediante el constructor de objetos. El constructor de objetos consiste en el nombre de
+    la clase, así como los parámetros. Estos son los atributos de datos. Cuando creamos un objeto de círculo, llamamos al código como una función. Los argumentos pasados al
+    constructor del círculo se utilizan para inicializar los atributos de datos de la instancia de círculo recién creada. Es útil pensar en sí mismo como una caja que contiene
+    todos los atributos de datos del objeto. Escribir el nombre del objeto seguido de un punto y el atributo de datos name nos da el valor del atributo de datos, por ejemplo,
+    radio. En este caso, el radio es 10. Podemos hacer lo mismo para el color. Podemos ver la relación entre el parámetro self y el objeto. En Python, también podemos establecer
+    o cambiar el atributo de datos directamente. Escribir el nombre del objeto seguido de un punto y el nombre del atributo de datos, y establecerlo igual al valor
+    correspondiente. Podemos verificar que el atributo de datos de color ha cambiado. Normalmente, con el fin de cambiar los datos en un objeto, definimos métodos en la clase.
+
+Vamos a discutir los métodos. Hemos visto cómo los atributos de datos consisten en los datos que definen los objetos. Los métodos son funciones que interactúan y cambian los
+    atributos de datos, cambiando o utilizando los atributos de datos del objeto. Digamos que nos gustaría cambiar el tamaño de un círculo. Esto implica cambiar el atributo
+    radius
+
+Añadimos un método, agregamos radio al círculo de clase. El método tiene una función que requiere el yo, así como otros parámetros. En este caso, vamos a añadir un valor al
+    radio, Denotamos ese valor como r. Vamos a añadir r al radio del atributo de datos. Veamos cómo funciona esta parte del código cuando creamos un objeto y llamamos al método
+    add_radius. Como antes, creamos un objeto con el constructor de objetos. Pasamos dos argumentos al constructor. El radio se establece en dos y el color se establece en rojo.
+
+En el cuerpo del constructor, se establecen los atributos de datos. Podemos usar la analogía del cuadro para ver el estado actual del objeto. Llamamos al método agregando un
+    punto seguido del método, nombre y paréntesis. En este caso, el argumento de la función es la cantidad que nos gustaría añadir. No necesitamos preocuparnos por el parámetro
+    self al llamar al método. Al igual que con el constructor, Python se encargará de eso por nosotros. En muchos casos, puede que no haya ningún parámetro que no sea
+    autoespecificado en la definición del método. Así que no pasamos ningún argumento al llamar a la función. Internamente, el método se llama con un valor de ocho, y el objeto
+    propio. El método asigna un nuevo valor al radio automático. Esto cambia el objeto, en particular, el atributo de datos de radio. Cuando llamamos al método add_radius, esto
+    cambia el objeto cambiando el valor del atributo de datos de radio. Podemos agregar valores predeterminados a los parámetros de una clase como constructor.
+
+En los laboratorios, también creamos el método llamado DrawCircle. Consulte el laboratorio para la implementación de DrawCircle. En los laboratorios, podemos crear un nuevo
+    objeto de tipo círculo usando el constructor. El color será rojo y el radio será de tres. Podemos acceder al radio del atributo de datos. Podemos acceder al color del
+    atributo. Finalmente, podemos utilizar el método DrawCircle para dibujar el círculo. Del mismo modo, podemos crear un nuevo objeto de tipo círculo. Podemos acceder al
+    atributo de datos de radio. Podemos acceder al color del atributo de datos. Podemos utilizar el método DrawCircle para dibujar el círculo. En resumen, hemos creado un
+    objeto de círculo de clase llamado RedCircle con un atributo de radio de tres, y un atributo de color de rojo.
+
+También creamos un objeto de círculo de clase llamado BlueCircle, con un atributo radio de 10 y un atributo de color de azul. En el laboratorio, tenemos una clase similar para
+    rectángulo. Podemos crear un nuevo objeto de tipo rectángulo usando el constructor. Podemos acceder a un atributo de datos de altura. También podemos acceder al atributo de
+    datos de ancho. Podríamos hacer lo mismo para el atributo de datos de color. Podemos utilizar el método drawRectangle para dibujar el rectángulo. Así que tenemos una clase,
+    un objeto que es una realización o instanciación de esa clase. Por ejemplo, podemos crear dos objetos de clase Circle, o dos objetos de clase Rectangle. La función dir es
+    útil para obtener la lista de atributos de datos y métodos asociados a una clase. El objeto que le interesa se pasa como argumento. El valor devuelto es una lista de los
+    atributos de datos de objetos. El atributo rodeado por guiones bajos es para uso interno, y no debería tener que preocuparse por ellos. Los atributos de aspecto regular son
+    los que deberías preocuparte. Estos son los objetos, los métodos y los atributos de datos. Hay mucho más que puedes hacer con objetos en Python. Consulte Python.org para
+    obtener más información.
+"

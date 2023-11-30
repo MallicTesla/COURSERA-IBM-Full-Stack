@@ -1,0 +1,48 @@
+"En este video vamos a cubrir Loops en particular para bucles y bucles while. Utilizaremos muchos ejemplos visuales en este video. Consulte los laboratorios para obtener
+    ejemplos con datos. Antes de hablar de bucles, vamos a repasar la función de rango.
+
+La función de rango genera y ordena secuencia como una lista I. Si la entrada es un entero positivo, la salida es una secuencia. La secuencia contiene el mismo número de
+    elementos que la entrada, pero comienza en cero. Por ejemplo, si la entrada es tres, la salida es la secuencia cero, uno, dos. Si la función de rango tiene dos entradas
+    donde la primera entrada es mayor que la segunda entrada, la salida es una secuencia que comienza en la primera entrada. Entonces la secuencia itera hasta pero sin incluir
+    el segundo número. Para la entrada 10 y 15 obtenemos la siguiente secuencia. Consulte los laboratorios para obtener más capacidades de la función de rango. Tenga en cuenta
+    que si usa Python tres, la función de rango no generará una lista explícitamente como en Python dos.
+
+En esta sección, cubriremos los bucles. Nos centraremos en listas, pero muchos de los procedimientos se pueden usar en tuplas. Loops realizan una tarea una y otra vez.
+Considere el grupo de cuadrados de colores. Digamos que nos gustaría reemplazar cada cuadrado de color por un cuadrado blanco. Vamos a dar a cada cuadrado un número para hacer
+    las cosas un poco más fácil y referirnos a todo el grupo de cuadrados como cuadrados. Si quisiéramos decirle a alguien que reemplace los cuadrados cero por un cuadrado
+    blanco, diríamos igual reemplazar el cuadrado cero por un cuadrado blanco o podemos decir cuatro cuadrados cero en cuadrados cero es igual a cuadrado blanco. Del mismo modo,
+    para el siguiente cuadrado podemos decir para el cuadrado uno en cuadrados, cuadrado uno es igual a cuadrado blanco.
+
+Para el siguiente cuadrado podemos decir para el cuadrado dos en cuadrados, cuadrado dos es igual a cuadrado blanco. Repetimos el proceso para cada cuadrado. Lo único que cambia
+    es el índice del cuadrado al que nos referimos. Si vamos a realizar una tarea similar en Python no podemos usar cuadrados reales. Así que usemos una lista para representar
+    las cajas. Cada elemento de la lista es una cadena que representa el color. Queremos cambiar el nombre del color en cada elemento a blanco. Cada elemento de la lista tiene
+    el siguiente índice. Esta es una sintaxis para realizar un bucle en Python. Observe la sangría, la función de rango genera una lista. El código simplemente repetirá todo en
+    la sangría cinco veces. Si cambiara el valor a seis, lo haría 6 veces. Sin embargo, el valor de I se incrementa en uno cada vez. En este segmento cambiamos el elemento I de
+    la lista a la cadena blanca. El valor de I se establece en cero. Cada iteración del bucle comienza al principio de la sangría. Luego ejecutamos todo en la sangría.
+El primer elemento de la lista se establece en blanco. Luego vamos al comienzo de la sangría, avanzamos hacia abajo en cada línea. Cuando llegamos a la línea para cambiar el
+    valor de la lista, establecemos el valor del índice uno en blanco. El valor de I aumenta en uno. Repetimos el proceso para el índice dos. El proceso continúa para el
+    siguiente índice, hasta que llegamos al elemento final.
+
+También podemos iterar a través de una lista o tupple directamente en python, ni siquiera necesitamos usar índices. Aquí está la lista de cuadrados. Cada iteración de la lista
+    pasamos un elemento de los cuadrados de la lista al cuadrado variable. Vamos a mostrar el valor del cuadrado variable en esta sección. Para la primera iteración, el valor
+    del cuadrado es rojo, comenzamos la segunda iteración. Para la segunda iteración, el valor del cuadrado es amarillo. Luego comenzamos la tercera iteración. Para la iteración
+    final, el valor de cuadrado es verde, se enumera una función útil para iterar datos. Se puede utilizar para obtener el índice y el elemento en la lista. Usemos la analogía
+    de la caja con los números que representan el índice de cada cuadrado. Esta es la sintaxis para iterar a través de una lista y proporcionar el índice de cada elemento.
+    Utilizamos los cuadrados de lista y usamos los nombres de los colores para representar los cuadrados de color. El argumento de la función enumerar es la lista.
+En este caso cuadrados la variable I es el índice y el cuadrado variable es el elemento correspondiente en la lista. Vamos a utilizar la parte izquierda de la pantalla para
+    mostrar los diferentes valores del cuadrado variable y I para las diversas iteraciones del bucle. Para la primera iteración, el valor de la variable es rojo correspondiente
+    a el índice zeroth, y el valor para I es cero para la segunda iteración. El valor del cuadrado variable es amarillo, y el valor de I corresponde a su índice, es decir, 1.
+    Repetimos el proceso para el último índice.
+
+Mientras que los bucles son similares a for loops pero en lugar de ejecutar una sentencia un número determinado de veces un bucle while sólo se ejecutará si se cumple una
+    condición. Digamos que nos gustaría copiar todos los cuadrados anaranjados de los cuadrados de lista a la lista Nuevos cuadrados. Pero nos gustaría parar si nos encontramos
+    con un cuadrado no naranja. No conocemos el valor de los cuadrados de antemano. Simplemente continuaríamos el proceso mientras que el cuadrado es naranja o ver si el 
+    cuadrado es igual a naranja. Si no, nos detendríamos. Para el primer ejemplo, comprobaríamos si el cuadrado era naranja. Cumple las condiciones por lo que copiaríamos la
+    plaza. Repetimos el proceso para el segundo cuadrado. Se cumple la condición. Así que copiamos la plaza. En la siguiente iteración, encontramos un cuadrado púrpura. LA
+    condición no se cumple. Así que detenemos el proceso. Esto es esencialmente lo que hace un bucle while. Usemos la figura de la izquierda para representar el código.
+
+Vamos a utilizar una lista con los nombres del color para representar los diferentes cuadrados. Creamos una lista vacía de nuevos cuadrados. En realidad la lista es de tamaño
+    indeterminado. Comenzamos el índice en cero la sentencia while repetidamente ejecutará las sentencias dentro de la sangría hasta que la condición dentro del corchete sea
+    falsa. Añadimos el valor del primer elemento de los cuadrados de lista a la lista de nuevos cuadrados. Aumentamos el valor de Yo en uno. Añadimos el valor del segundo
+    elemento de los cuadrados de lista a la lista de nuevos cuadrados. Incrementamos el valor de I. Ahora el valor en los cuadrados de la matriz es púrpura; por lo tanto, la
+    condición para la declaración while es falsa y salimos del bucle. Echa un vistazo a los laboratorios para obtener más ejemplos de bucle muchos con datos reales."

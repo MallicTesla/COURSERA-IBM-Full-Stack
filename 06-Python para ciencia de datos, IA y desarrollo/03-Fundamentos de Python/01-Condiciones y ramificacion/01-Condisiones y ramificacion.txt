@@ -1,0 +1,68 @@
+"En este vídeo aprenderás sobre las condiciones y la ramificación. Las operaciones de comparación comparan algún valor o operando. Luego, basado en alguna condición, producen un
+    booleano.
+
+Digamos que asignamos un valor de un a seis. Podemos usar el operador de igualdad denotado con dos signos iguales para determinar si dos valores son iguales. En este caso, si
+    siete es igual a seis. En este caso, como seis no es igual a siete, el resultado es falso. Si realizamos una prueba de igualdad para el valor seis, los dos valores serían
+    iguales. Como resultado, obtendríamos una verdad.
+
+Considere el siguiente operador de comparación de igualdad: Si el valor del operando izquierdo, en este caso, la variable i es mayor que el valor del operando derecho, en este
+    caso cinco, la condición se vuelve verdadera o obtenemos un falso. Vamos a mostrar algunos valores para i a la izquierda. Veamos el valor es mayor que cinco en verde y el
+    resto en rojo. Si establecemos i igual a seis, vemos que seis es mayor que cinco y como resultado, obtenemos una verdadera. También podemos aplicar las mismas operaciones a
+    flotadores. Si modificamos el operador de la siguiente manera, si el operando izquierdo i es mayor o igual que el valor del operando derecho, en este caso cinco, entonces
+    la condición se vuelve verdadera. En este caso, incluimos el valor de cinco en la línea numérica y el color cambia a verde en consecuencia. Si establecemos el valor de i
+    igual a cinco, el operando producirá un verdadero. Si establecemos el valor de i en dos, obtendríamos un falso porque dos es menor que cinco. Podemos cambiar la desigualdad
+    si el valor del operando izquierdo, en este caso, i es menor que el valor del operando derecho, en este caso, seis. Entonces la condición se vuelve verdadera.
+
+De nuevo, podemos representar esto con una línea numérica de color. Las áreas donde la desigualdad es verdadera están marcadas en verde y rojo donde la desigualdad es falsa.
+Si el valor de i se establece en dos, el resultado es verdadero. Como dos es menos de seis. La prueba de desigualdad usa una marca de explicación que precede al signo igual.
+Si dos operandos no son iguales, entonces la condición se vuelve verdadera. Podemos usar una línea numérica. Cuando la condición es verdadera, los números correspondientes se
+    marcan en verde y rojo para donde la condición es falsa. Si establecemos i igual a dos, el operador es verdadero ya que dos no es igual a seis. También comparamos cadenas.
+
+Comparando ACDC y Michael Jackson usando la prueba de igualdad, obtenemos un falso, ya que las cadenas no son las mismas. Usando la prueba de desigualdad, obtenemos un
+    verdadero, ya que las cadenas son diferentes. Vea los Lapps para más ejemplos.
+
+La ramificación nos permite ejecutar diferentes declaraciones para una entrada diferente. Es útil pensar en una declaración if como una habitación cerrada. Si esta declaración
+    es verdadera, puede ingresar a la sala y su programa puede ejecutar alguna tarea predefinida. Si la declaración es falsa, su programa omitirá la tarea. Por ejemplo,
+    considere el rectángulo azul que representa un concierto ACDC. Si el individuo tiene 18 años o más, puede entrar en el concierto ACDC. Si son menores de 18 años, no pueden
+    participar en el concierto. El individuo procede al concierto de su edad es 17, por lo tanto, no se les concede acceso al concierto y deben seguir adelante. Si el individuo
+    es 19, la condición es verdadera. Ellos pueden entrar en el concierto y luego pueden seguir adelante. Esta es la sintaxis de la sentencia if de nuestro ejemplo anterior.
+    Tenemos la declaración if. Tenemos la expresión que puede ser verdadera o falsa. Los corchetes no son necesarios. Tenemos dos puntos. Dentro de una sangría, tenemos la
+    expresión que se ejecuta si la condición es verdadera. Las sentencias después de la sentencia if se ejecutarán independientemente de si la condición es verdadera o falsa.
+    Para el caso donde la edad es 17, establecemos el valor de la variable edad en 17. Comprobamos la sentencia if, la sentencia es falsa. Por lo tanto, el programa no ejecutará
+    la declaración para imprimir, «usted entrará». En este caso, simplemente imprimirá «seguir adelante». Para el caso donde la edad es 19, establecemos el valor de la variable
+    edad en 19. Comprobamos la sentencia if. La declaración es verdadera. Por lo tanto, el programa ejecutará la instrucción para imprimir «usted entrará». Entonces simplemente
+    imprimirá «seguir adelante». La instrucción else ejecutará un bloque de código diferente si la misma condición es falsa. Usemos de nuevo la analogía del concierto ACDC.
+    Si el usuario tiene 17 años, no puede ir al concierto ACDC pero puede ir al concierto de Pan de Carne representado por la plaza púrpura. Si el individuo es 19, la condició
+    es verdadera, pueden entrar en el concierto ACDC entonces pueden seguir adelante como antes. La sintaxis de la instrucción else es similar. Simplemente añadimos la
+    declaración de lo contrario. A continuación, añadimos la expresión que nos gustaría ejecutar con una sangría. Para el caso donde la edad es 17, establecemos el valor de
+    la variable edad en 17. Comprobamos la sentencia if, la sentencia es falsa. Por lo tanto, avanzamos a la declaración else. Ejecutamos la instrucción en la sangría. Esto
+    corresponde a la persona que asiste al concierto de Meat Loaf. El programa continuará ejecutándose. Para el caso donde la edad es 19, establecemos el valor de la variable
+    edad en 19. Comprobamos la sentencia if, la declaración es verdadera. Por lo tanto, el programa ejecutará la instrucción para imprimir «usted entrará». El programa omite
+    las expresiones en la sentencia else y continúa ejecutando el resto de las expresiones. La instrucción elif, abreviatura de else if, nos permite comprobar condiciones
+    adicionales si la condición anterior es falsa. Si la condición es verdadera, se ejecutarán las expresiones alternativas.
+Considere el ejemplo del concierto, si el individuo tiene 18 años, irán al concierto de Pink Floyd en lugar de asistiendo a los conciertos ACDC o Meat Loaf. La persona de 18
+    años entra en la zona ya que no tiene más de 19 años. Ellos no pueden ver ACDC pero como sus 18 años, asisten a Pink Floyd. Después de ver a Pink Floyd, siguen adelante. La
+    sintaxis de la instrucción elif if es similar. Simplemente agregamos la declaración elif con la condición. A continuación, añadimos la expresión que nos gustaría ejecutar
+    si la declaración es verdadera con una sangría. Vamos a ilustrar el código de la izquierda. Un niño de 18 años entra. No tienen más de 18 años de edad. Por lo tanto, la
+    condición es falsa. Entonces se comprueba la condición de la declaración elif. La condición es verdadera. Así que entonces imprimiríamos «ve a Pink Floyd». Entonces nos
+    moveremos como antes. Si la variable edad fuera 17, se imprimiría la declaración «ve a ver el Pan de Carne». Del mismo modo, si la edad fuera mayor de 18 años, se imprimiría
+    la declaración «puedes ingresar». Compruebe los Lapps para más ejemplos.
+
+Ahora echemos un vistazo a los operadores lógicos. Las operaciones lógicas toman valores booleanos y producen valores booleanos diferentes. La primera operación es el operador
+    no. Si la entrada es verdadera, el resultado es falso. Del mismo modo, si la entrada es falsa, el resultado es verdadero.
+Deje A y B representar variables booleanas. El operador OR toma los dos valores y produce un nuevo valor booleano. Podemos usar esta tabla para representar los diferentes
+    valores. La primera columna representa los valores posibles de A. La segunda columna representa los valores posibles de B. La última columna representa el resultado de la
+    aplicación de la operación OR. Vemos que el operador OR solo produce un falso si todos los valores booleanos son falsos. Se imprimirán las siguientes líneas de código:
+    «Este álbum fue hecho en los años 70 o 90», si el año variable del álbum no cae en los años 80. Veamos qué pasa cuando fijamos el año del álbum en 1990. La línea numérica
+    coloreada es verde cuando la condición es verdadera y roja cuando la condición es falsa. En este caso, la condición es verdadera. Examinando la segunda condición, vemos que
+    1990 es mayor que 1989. Así que la condición también es cierta. Podemos verificar examinando la segunda línea de número correspondiente. En la línea de número final, la
+    región verde indica donde el área es verdadera. Esta región corresponde a donde al menos una declaración es verdadera. Vemos que 1990 cae en la zona. Por lo tanto,
+    ejecutamos la sentencia.
+Deje A y B representar variables booleanas. El operador AND toma los dos valores y produce un nuevo valor booleano. Podemos usar esta tabla para representar los diferentes
+    valores. La primera columna representa los valores posibles de A. La segunda columna representa los valores posibles de B. La última columna representa el resultado de
+    aplicar la operación AND. Vemos que el operador OR solo produce un verdadero si todos los valores booleanos son verdaderos. Las siguientes líneas de código imprimirán
+    «Este álbum fue hecho en los 80's» si el año variable del álbum es entre 1980 y 1989. Veamos qué pasa cuando fijamos el año del álbum en 1983. Como antes, podemos usar la
+    línea numérica coloreada para examinar dónde se cumple la condición. En este caso, 1983 es mayor que 1980, por lo que la condición es verdadera. Examinando la segunda
+    condición, vemos que 1990 es mayor que 1983. Así que esta condición también es cierta. Podemos verificar examinando la segunda línea de número correspondiente. En la línea
+    de número final, la región verde indica donde el área es verdadera. Del mismo modo, esta región corresponde a donde ambas sentencias son verdaderas. Vemos que 1983 cae en
+    la zona. Por lo tanto, ejecutamos la sentencia. La ramificación nos permite ejecutar diferentes declaraciones para diferentes entradas."
