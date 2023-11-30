@@ -1,0 +1,21 @@
+"También podemos escribir en archivos usando la función abierta. Vamos a utilizar la función abierta de Python para obtener un objeto de archivo para crear un archivo de texto.
+
+Podemos aplicar la escritura de método para escribir datos en ese archivo. Como resultado, el texto se escribirá en el archivo. Podemos crear el archivo Example2.txt de la
+    siguiente manera. Usamos la función abierta. El primer argumento es la ruta del archivo. Se compone del nombre del archivo. Si tiene ese archivo en su directorio, se
+    sobrescribirá, y el directorio de archivos. Establecemos el parámetro de modo en W para escribir. Finalmente, tenemos el objeto de archivo. Como antes usamos la declaración
+    with. El código ejecutará todo en el bloque de sangría y luego cerrará el archivo. Creamos el objeto de archivo, Archivo1. Usamos la función abierta. Esto crea un archivo
+    Example2.txt en su directorio. Utilizamos el método write, para escribir datos en el archivo. El argumento es el texto que nos gustaría introducir en el archivo.
+
+Si usamos el método de escritura sucesivamente, cada vez que se llama, escribirá en el archivo. La primera vez que se llame, escribiremos, «Esta es la línea A' para representar
+    una nueva línea. La segunda vez que llamamos al método, escribirá, «esta es la línea B' y luego cerrará el archivo. Podemos escribir cada elemento en una lista en un archivo.
+
+Como antes, usamos un comando with y la función open para crear un archivo. La lista, Líneas, tiene tres elementos que consisten en texto. Utilizamos un bucle for para leer
+    cada elemento de las primeras líneas y pasarlo a la línea variable. La primera iteración del bucle escribe el primer elemento de la lista en el archivo Example2. La segunda
+    iteración escribe el segundo elemento de la lista y así sucesivamente. Al final del bucle, el archivo se cerrará. Podemos establecer el modo para anexar usando una minúscula
+    a. Esto no creará un nuevo archivo, sino que simplemente usará el archivo existente. Si llamamos al método write, simplemente escribirá en el archivo existente, luego
+    agregue «Esta es la línea C» y luego cierre el archivo. Podemos copiar un archivo a un nuevo archivo de la siguiente manera. Primero, leemos el archivo Example1 e
+    interactuamos con él a través del objeto de archivo, leer el archivo. A continuación, creamos un nuevo archivo Example3 y utilizar el archivo de escritura objeto de archivo
+    para interactuar con él. El bucle for toma una línea del objeto de archivo, archivo de lectura, y lo almacena en el archivo Example3 utilizando el objeto de archivo,
+    archivo de escritura. La primera iteración copia la primera línea. La segunda iteración copia la segunda línea, hasta que se alcanza el final del archivo.
+
+Entonces ambos archivos están cerrados. Echa un vistazo a los laboratorios para obtener más ejemplos."
