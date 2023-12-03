@@ -1,0 +1,75 @@
+"En este video vamos a cubrir numpy en 1D, en particular matrices ND. Numpy es una biblioteca de computación científica. Tiene muchas funciones útiles. Hay muchas otras ventajas
+    como la velocidad y la memoria.
+
+Numpy es también la base de los pandas. Así que echa un vistazo a nuestro video pandas. En este video vamos a cubrir lo básico y la creación de matrices, indexación y corte,
+    operaciones básicas, funciones universales. Vamos a repasar cómo crear una matriz numpy. Una lista de Python es un contenedor que le permite almacenar y acceder a los datos.
+Cada elemento está asociado con un índice. Podemos acceder a cada elemento usando un corchete cuadrado de la siguiente manera. Una matriz numpy o matriz ND es similar a una
+    lista. Normalmente se fija en tamaño y cada elemento es del mismo tipo, en este caso enteros. Podemos lanzar una lista a una matriz numpy importando primero numpy.
+
+Luego lanzamos la lista de la siguiente manera; podemos acceder a los datos a través de un índice. Al igual que con la lista, podemos acceder a cada elemento con un entero y un
+    corchete cuadrado. El valor de a se almacena de la siguiente manera. Si verificamos el tipo de matriz que obtenemos, numpy.ndarray. Como numpy arrays contienen datos del
+    mismo tipo, podemos usar el atributo dtype para obtener el tipo de datos de los elementos de la matriz. En este caso, un entero de 64 bits. Vamos a revisar algunos atributos
+    básicos de matriz usando la matriz a. El tamaño del atributo es el número de elementos en la matriz. Como hay cinco elementos, el resultado es cinco. Los siguientes dos
+    atributos tendrán más sentido cuando lleguemos a dimensiones superiores, pero vamos a revisarlos. El atributo ndim representa el número de dimensiones de la matriz o el
+    rango de la matriz, en este caso uno. La forma del atributo es una tupla de enteros que indican el tamaño de la matriz en cada dimensión.
+
+Podemos crear una matriz numpy con números reales. Cuando comprobamos el tipo de la matriz, obtenemos numpy.ndarray. Si examinamos el atributo D tipo, vemos float64 ya que los
+    elementos no son enteros. Había muchos otros atributos, echa un vistazo a numpy.org. Vamos a revisar algunos métodos de indexación y corte. Podemos cambiar el primer
+    elemento de la matriz a 100 de la siguiente manera. El primer valor de la matriz es ahora 100. Podemos cambiar el quinto elemento de la matriz de la siguiente manera.
+El quinto elemento es ahora cero. Como listas y tuplas podemos cortar una matriz NumPy. Los elementos de la matriz corresponden al siguiente índice. Podemos seleccionar los
+    elementos de uno a tres y asignarlo a una nueva matriz numpy d de la siguiente manera. Los elementos en d corresponden al índice.
+
+Como listas, no contamos el elemento correspondiente al último índice. Podemos asignar los correspondientes índices a los nuevos valores de la siguiente manera. La matriz c
+    ahora tiene nuevos valores. Vea los laboratorios o numpy.org para más ejemplos de lo que puede hacer con numpy. Numpy hace que sea más fácil hacer muchas operaciones que
+    son comúnmente realizadas en la ciencia de datos. Las mismas operaciones son generalmente computacionalmente más rápidas y requieren menos memoria en numpy en comparación
+    con Python normal. Revisemos algunas de estas operaciones en matrices unidimensionales. Vamos a ver muchas de las operaciones en el contexto de vectores euclidianos para
+    hacer las cosas más interesantes. La adición de vectores es una operación ampliamente utilizada en la ciencia de datos. Considere el vector u con dos elementos, los
+    elementos se distinguen por los diferentes colores. Del mismo modo, considere el vector v con dos componentes. Además vector, creamos un nuevo vector en este caso z.
+
+El primer componente de z es la adición del primer componente de vectores u y v. Del mismo modo, el segundo componente es la suma de los segundos componentes de u y v. Este
+    nuevo vector z es ahora un lineal combinación del vector u y v. Representa la adición vectorial con el segmento de línea o flechas es útil. El primer vector está
+    representado en rojo. El vector apuntará en la dirección de los dos componentes. El primer componente del vector es uno. Como resultado, la flecha se desplaza una unidad del
+    origen en la dirección horizontal. El segundo componente es cero, representamos este componente en la dirección vertical. Como este componente es cero, el vector no apunta
+    en la dirección horizontal. Representamos el segundo vector en azul. El primer componente es cero, por lo tanto, la flecha no apunta a la dirección horizontal. El segundo
+    componente es uno. Como resultado, el vector apunta en la dirección vertical de una unidad. Cuando añadimos el vector u y v, obtenemos el nuevo vector z.
+
+Añadimos el primer componente, esto corresponde a la dirección horizontal. También añadimos el segundo componente. Es útil utilizar el método de punta a cola al agregar vectores,
+    colocando la cola del vector v en la punta del vector u. El nuevo vector z se construye conectando la base del primer vector u con la cola del segundo v. Las siguientes tres
+    líneas de código vamos a añadir las dos listas y colocar el resultado en la lista z. También podemos realizar adición vectorial con una línea de código NumPy. Se requeriría
+    varias líneas para realizar la resta vectorial en dos listas como se muestra en el lado derecho de la pantalla. Además, el código numpy se ejecutará mucho más rápido. Esto
+    es importante si tiene muchos datos. También podemos realizar resta vectorial cambiando el signo de suma a un signo de resta. Requeriría varias líneas realizar resta
+    vectorial en dos listas como se muestra en el lado derecho de la pantalla. La multiplicación vectorial con un escalar es otra operación comúnmente realizada. Considere el
+    vector y, cada componente está especificado por un color diferente. Simplemente multiplicamos el vector por un valor escalar en este caso dos. Cada componente del vector se
+    multiplica por dos, en este caso cada componente se duplica. Podemos utilizar el segmento de línea o las flechas para visualizar lo que está pasando.
+
+El vector original y está en púrpura. Después de multiplicarlo por un valor escalar de dos, el vector se estira por dos unidades como se muestra en rojo. El nuevo vector es el
+    doble de largo en cada dirección. La multiplicación vectorial con un escalar solo requiere una línea de código usando numpy. Se requeriría varias líneas para realizar la
+    misma tarea que que se muestra con las listas de Python como se muestra en el lado derecho de la pantalla. Además, la operación también sería mucho más lenta. producto
+    Hadamard es otra operación ampliamente utilizada en la ciencia de datos. Considere los siguientes dos vectores, u y v. El producto Hadamard de u y v es un nuevo vector z.
+
+El primer componente de z es el producto de el primer elemento de u y v. Del mismo modo, el segundo componente es el producto del segundo elemento de u y v. El resultado vector
+    consiste en el producto sabio de entrada de u y v. Podemos también realizar hadamard producto con una línea de código en numpy. Se requeriría varias líneas para realizar
+    producto hadamard en dos listas como se muestra en el lado derecho de la pantalla. El producto dot es otra operación ampliamente utilizada en la ciencia de datos. Considere
+    el vector u y v, el producto de punto es un número único dado por el siguiente término y representa lo similares que son dos vectores. Multiplicamos el primer componente de
+    v y u, luego multiplicamos el segundo componente y sumamos el resultado juntos. El resultado es un número que representa cuán similares son los dos vectores.
+
+También podemos realizar el producto de punto usando la función numpy dot y asignarlo con el resultado variable de la siguiente manera. Considere la matriz u, la matriz contiene
+    los siguientes elementos. Si añadimos un valor escalar a la matriz, numpy agregará ese valor a cada elemento. Esta propiedad se conoce como radiodifusión. Una función
+    universal es una función que opera en matrices ND. Podemos aplicar una función universal a una matriz numpy. Considere las matrices a, podemos calcular el valor medio o
+    promedio de todos los elementos en un usando el método medio. Esto corresponde al promedio de todos los elementos. En este caso el resultado es cero. Hay muchas otras
+    funciones. Por ejemplo, considere las matrices numpy b. Podemos encontrar el valor máximo utilizando el método cinco. Vemos que el valor más grande es cinco, por lo tanto,
+    el método max devuelve un cinco. Podemos usar numpy para crear funciones que mapee matrices numpy a nuevas matrices numpy. Vamos a implementar algún código en el lado
+    izquierdo de la pantalla y usar el lado derecho de la pantalla para demostrar lo que está pasando. Podemos acceder al valor del pie en numpy de la siguiente manera.
+
+Podemos crear la siguiente matriz numpy en radianes. Esta matriz corresponde al siguiente vector. Podemos aplicar la función sin a la matriz x y asignar los valores a la matriz
+    y. Esto aplica la función sin a cada elemento de la matriz, esto corresponde a aplicar la función seno a cada componente del vector. El resultado es una nueva matriz y,
+    donde cada valor corresponde a una función seno que se aplica a cada elemento de la matriz x. Una función útil para trazar funciones matemáticas es el espacio de línea.
+
+El espacio de línea devuelve uniformemente números espaciados sobre el intervalo especificado. Especificamos el punto inicial de la secuencia, el punto final de la secuencia.
+El parámetro num indica el número de muestras a generar, en este caso cinco. El espacio entre las muestras es uno. Si cambiamos el parámetro num a nueve, obtenemos nueve
+    números espaciados uniformemente sobre la integral de dos negativos a dos. El resultado es que la diferencia entre muestras posteriores es 0.5 en contraposición a una como
+    antes. Podemos usar el espacio de línea de función para generar 100 muestras espaciadas uniformemente desde el intervalo cero a dos circular. Podemos usar la función numpy
+    sin para mapear la matriz x a una nueva matriz y. Podemos importar la biblioteca pyplot como plt para ayudarnos a trazar la función. Como estamos usando un cuaderno de
+    Júpiter, usamos el comando matplotlib en línea para mostrar la trama. El siguiente comando traza un gráfico. La primera entrada corresponde a los valores para el eje
+    horizontal o x. La segunda entrada corresponde a los valores para el eje vertical o y. Hay mucho más que puedes hacer con numpy. Echa un vistazo a los laboratorios y
+    numpy.org para obtener más. Gracias por ver este video."

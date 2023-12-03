@@ -1,0 +1,48 @@
+"Podemos crear matrices numpy con más de una dimensión. Esta sección se centrará solo en matrices 2D, pero puede usar numpy para construir matrices de dimensiones mucho mayores.
+En este vídeo, cubriremos los conceptos básicos y la creación de matrices en 2D, indexación y corte en 2D, y operaciones básicas en 2D. Considere la lista a, la lista contiene
+    tres listas anidadas cada una de igual tamaño. Cada lista está codificada por colores para simplificar. Podemos lanzar la lista a una matriz numpy de la siguiente manera.
+
+Es útil visualizar la matriz numpy como una matriz rectangular cada lista anidada corresponde a una fila diferente de la matriz. Podemos utilizar el atributo ndim para obtener
+    el número de ejes o dimensiones referidos como el rango. El término ranking no se refiere al número de columnas linealmente independientes como una matriz. Es útil pensar
+    en ndim como el número de listas anidadas. La primera lista representa la primera dimensión. Esta lista contiene otro conjunto de listas. Esto representa la segunda
+    dimensión o eje. El número de listas que contiene la lista no tiene que ver con la dimensión, sino con la forma de la lista. Al igual que con una matriz 1D, la forma del
+    atributo devuelve una tupla. También es útil usar la representación rectangular. El primer elemento de la tupla corresponde al número de listas anidadas contenidas en la
+    lista original o al número de filas en la representación rectangular, en este caso tres. El segundo elemento corresponde al tamaño de cada una de las listas anidadas o al
+    número de columnas de la matriz rectangular cero. La convención es etiquetar este eje cero y este eje uno de la siguiente manera.
+
+También podemos usar el tamaño del atributo para obtener el tamaño de la matriz. Vemos que hay tres filas y tres columnas. Multiplicando el número de columnas y filas juntas,
+    obtenemos el número total de elementos, en este caso nueve. Echa un vistazo a los laboratorios para matrices de diferentes formas y otros atributos. Podemos utilizar
+    corchetes rectangulares para acceder a los diferentes elementos de la matriz. La siguiente imagen muestra la relación entre las convenciones de indexación para las listas,
+    como la representación. El índice en el primer corchete corresponde a las diferentes listas anidadas cada una de un color diferente. El segundo corchete corresponde al
+    índice de un elemento particular dentro de la lista anidada. Usando la representación rectangular, el primer índice corresponde al índice de fila. El segundo índice
+    corresponde al índice de columna. También podríamos usar un solo corchete para acceder a los elementos de la siguiente manera. Considere la siguiente sintaxis.
+
+Este índice corresponde a la segunda fila, y este índice a la tercera columna, el valor es 23. Considere este ejemplo, este índice corresponde a la primera fila y el segundo
+    índice corresponde a la primera columna, y un valor de 11. También podemos usar el corte en matrices numpy. El primer índice corresponde a la primera fila. El segundo índice
+    accede a las dos primeras columnas. Considere este ejemplo, el primer índice corresponde a las dos primeras filas. El segundo índice accede a la última columna.
+
+También podemos agregar matrices, el proceso es idéntico a la adición de matriz. Considere la matriz X, cada elemento es de color diferente. Considere la matriz Y. Del mismo
+    modo, cada elemento tiene un color diferente. Podemos añadir las matrices. Esto corresponde a agregar los elementos en la misma posición, es decir, agregar elementos
+    contenidos en los mismos cuadros de color juntos. El resultado es una nueva matriz que tiene el mismo tamaño que la matriz Y o X. Cada elemento en esta nueva matriz es la
+    suma de los elementos correspondientes en X e Y. Para agregar dos matrices en numpy, definimos la matriz en este caso X. Luego definimos la segunda matriz Y, agregamos las
+    matrices. El resultado es idéntico a la adición de matriz. Multiplicar una matriz numpy por un escalar es idéntico a multiplicar una matriz por un escalar.
+
+Considere la matriz Y. Si multiplicamos la matriz por este escalar dos, simplemente multiplicamos cada elemento de la matriz por dos. El resultado es una nueva matriz del mismo
+    tamaño donde cada elemento se multiplica por dos. Consideremos la matriz Y. Primero definimos la matriz, multiplicamos la matriz por un escalar de la siguiente manera y la
+    asignamos a la variable Z. El resultado es una nueva matriz donde cada elemento se multiplica por dos. La multiplicación de dos matrices corresponde a un producto basado en
+    elementos, o producto Hadamard. Considere matriz X y matriz Y. producto Hadamard corresponde a multiplicar cada uno de los elementos en la misma posición, es decir,
+    multiplicar elementos contenidos en las mismas cajas de color juntos. El resultado es una nueva matriz que es del mismo tamaño que la matriz Y o X. Cada elemento en esta
+    nueva matriz es el producto de los elementos correspondientes en X e Y. Considere la matriz X e Y. Podemos encontrar el producto de dos matrices X e Y en una línea, y
+    asignarlo a la variable Z de la siguiente manera. El resultado es idéntico al producto Hadamard. También podemos realizar la multiplicación de matrices con matrices Numpy.
+
+La multiplicación de matriz es un poco más compleja, pero vamos a proporcionar una visión general básica. Considere la matriz A donde cada fila es de un color diferente. Además,
+    considere la matriz B donde cada columna es de un color diferente. En álgebra lineal, antes de multiplicar la matriz A por la matriz B, debemos asegurarnos de que el número
+    de columnas en la matriz A en este caso tres sea igual al número de filas en la matriz B, en este caso tres. A partir de la multiplicación de matriz, para obtener la fila y
+    la columna jésima de la nueva matriz, tomamos el producto punto de la fila iésima de a con las columnas jésimas de B. Para la primera columna, primera fila tomamos el
+    producto de punto de la primera fila de A con la primera columna de B de la siguiente manera. El resultado es cero. Para la primera fila y la segunda columna de la nueva
+    matriz, tomamos el producto punto de la primera fila de la matriz A, pero esta vez usamos la segunda columna de la matriz B, el resultado es dos.
+
+Para la segunda fila y la primera columna de la nueva matriz, tomamos el producto punto de la segunda fila de la matriz A. Con la primera columna de la matriz B, el resultado es
+    cero. Finalmente, para la segunda fila y la segunda columna de la nueva matriz, tomamos el producto punto de la segunda fila de la matriz A con la segunda columna de la
+    matriz B, el resultado es dos. En numpy, podemos definir las matrices numpy A y B. Podemos realizar la multiplicación matricial y asignarla a la matriz C. El resultado es
+    la matriz C. Corresponde a la multiplicación matricial de la matriz A y B. Hay mucho más que se puede hacer con ella en numpy. Checkout numpy.org. Gracias por ver este video."

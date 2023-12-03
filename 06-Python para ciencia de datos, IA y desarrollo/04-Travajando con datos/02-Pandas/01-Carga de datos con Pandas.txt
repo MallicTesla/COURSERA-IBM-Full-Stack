@@ -1,0 +1,30 @@
+"Las dependencias o bibliotecas son código preescrito para ayudar a resolver problemas. En este video, vamos a presentar Pandas, una popular biblioteca para el análisis de datos.
+
+Podemos importar la biblioteca o una dependencia como Pandas usando el siguiente comando. Comenzamos con el comando de importación seguido del nombre de la biblioteca. Ahora
+    tenemos acceso a un gran número de clases y funciones preconstruidas. Esto supone que la biblioteca está instalada. En nuestro entorno de laboratorio, se instalan todas las
+    bibliotecas necesarias. Digamos que nos gustaría cargar un archivo CSV usando la función incorporada Pandas, leer csv. Un CSV es un tipo de archivo típico utilizado para
+    almacenar datos. Simplemente tecleamos la palabra Pandas, luego un punto, y el nombre de la función con todas las entradas.
+
+Escribir Pandas todo el tiempo puede ser tedioso. Podemos usar la declaración as para acortar el nombre de la biblioteca. En este caso, usamos la abreviatura estándar, pd. Ahora
+    escribimos pd, y un punto, seguido del nombre de la función que nos gustaría usar. En este caso, read_csv. No estamos limitados a la abreviatura pd. En este caso, usamos el
+    término banana. Nos quedaremos con pd para el resto de este video. Examinemos este código más en profundidad.
+
+Una forma en que Pandas le permite trabajar con datos es con el marco de datos. Vamos a repasar el proceso para pasar de un archivo CSV a un marco de datos. Esta variable
+    almacena la ruta del CSV. Se utiliza como argumento para la función read_csv. El resultado se almacena en la variable df. Esta es la abreviatura de marco de datos. Ahora que
+    tenemos los datos en un marco de datos, podemos trabajar con ellos. Podemos usar el método head para examinar las primeras cinco filas de un marco de datos.
+El proceso para cargar un archivo de Excel es similar. Usamos la ruta del archivo Excel. La función lee Excel. El resultado es un marco de datos. Un marco de datos se compone
+    de filas y columnas. Podemos crear un marco de datos a partir de un diccionario. Las claves corresponden a las etiquetas de columna. Los valores o listas correspondientes a
+    las filas. Luego lanzamos el diccionario a un marco de datos usando el marco de datos de la función. Podemos ver la correspondencia directa entre la tabla. Las claves
+    corresponden a los encabezados de la tabla. Los valores son listas correspondientes a las filas. Podemos crear un nuevo marco de datos que consta de una columna.
+Acabamos de poner el nombre del marco de datos, en este caso, df, y el nombre del encabezado de columna entre corchetes dobles. El resultado es un nuevo marco de datos compuesto
+    por la columna original. Puede hacer lo mismo para varias columnas. Acabamos de poner el nombre del marco de datos, en este caso, df, y el nombre de los encabezados de
+    columna múltiples encerrados entre corchetes dobles. El resultado es un nuevo marco de datos compuesto por las columnas especificadas. Una forma de acceder a elementos
+    únicos es el método ix. Puede acceder a la primera fila y la primera columna de la siguiente manera. Puede acceder a la segunda fila y la primera columna de la siguiente
+    manera. Puede acceder a la primera fila, tercera columna de la siguiente manera. Puede acceder a la segunda fila, tercera columna de la siguiente manera.
+
+Cuando utilice también el nombre de la columna, puede acceder a la primera fila de la columna denominada Artista de la siguiente manera. Del mismo modo, puede acceder a la
+    segunda fila de la columna denominada Artista. Puede acceder a la primera fila de la columna denominada Liberado de la siguiente manera. Finalmente, puede acceder a la
+    segunda fila de la columna denominada Liberado. También puede dividir marcos de datos y asignar los valores a un nuevo marco de datos. Asignamos las dos primeras filas y las
+    tres primeras columnas a la variable Z. El resultado es un marco de datos compuesto por las filas y columnas seleccionadas. También puede dividir marcos de datos y asignar
+    los valores a un nuevo marco de datos utilizando los nombres de columna. El código asigna las tres primeras filas y todas las columnas de entre a las columnas denominadas
+    SArtista y Liberado. El resultado es un nuevo marco de datos Z con los valores correspondientes."

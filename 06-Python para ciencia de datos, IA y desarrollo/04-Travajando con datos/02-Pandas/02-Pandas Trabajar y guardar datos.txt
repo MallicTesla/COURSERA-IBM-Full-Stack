@@ -1,0 +1,16 @@
+"Cuando tenemos un marco de datos podemos trabajar con los datos y guardar los resultados en otros formatos. Considere la pila de 13 bloques de diferentes colores. Podemos ver
+    que hay tres colores únicos.
+Supongamos que le gustaría averiguar cuántos elementos únicos hay en una columna de un marco de datos. Esto puede ser mucho más difícil porque en lugar de 13 elementos, puede
+    que tengas millones. Pandas tiene el método único para determinar los elementos únicos en una columna de un marco de datos. Digamos que nos gustaría determinar el año único
+    de los álbumes en el conjunto de datos. Ingresamos el nombre del marco de datos, y luego ingresamos el nombre de la columna liberada entre corchetes. A continuación,
+    aplicamos el método único. El resultado es todos los elementos únicos de la columna liberados.
+
+Digamos que nos gustaría crear una nueva base de datos consistente en canciones de los años 80 y posteriores. Podemos ver la columna lanzada para las canciones hechas después de
+    1979, y luego seleccionar las columnas correspondientes. Podemos lograr esto dentro de una línea de código en Pandas. Pero vamos a romper los pasos. Podemos usar los
+    operadores de desigualdad para todo el marco de datos en Pandas. El resultado es una serie de valores booleanos. Para nuestro caso, simplemente especificamos la columna
+    publicada y la desigualdad para los álbumes después de 1979. El resultado es una serie de valores booleanos. El resultado es verdadero cuando la condición es verdadera y
+    falsa de lo contrario. Podemos seleccionar las columnas especificadas en una línea. Simplemente usamos los nombres de los marcos de datos y los corchetes que colocamos la
+    desigualdad mencionada anteriormente y la asignamos a la variable df1. Ahora tenemos un nuevo marco de datos, donde cada álbum fue lanzado después de 1979.
+
+Podemos guardar el nuevo marco de datos utilizando el método to_csv. El argumento es el nombre del archivo csv. Asegúrese de incluir una extensión.csv. Hay otras funciones para
+    guardar el marco de datos en otros formatos."
