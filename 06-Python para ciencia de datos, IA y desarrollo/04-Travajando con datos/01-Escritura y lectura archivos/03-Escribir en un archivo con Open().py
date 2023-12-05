@@ -128,7 +128,9 @@ Modo	Sintaxis	Descripción
 'a+'	'a+'	    Modo anexar y leer. Abre un archivo para agregarlo y leerlo. Crea el archivo si no existe.
 'x+'	'x+'	    Modo exclusivo de creación y lectura/escritura. Crea un nuevo archivo para lectura y escritura pero genera un error si ya existe.
 
+
 Conclusión
+
 Trabajar con archivos es un aspecto fundamental de la programación y Python proporciona herramientas poderosas para realizar diversas operaciones con archivos.
 En este resumen, cubrimos conceptos clave y ejemplos de código relacionados con el manejo de archivos en Python, incluida la escritura, adición y copia de archivos.
 """
