@@ -1,0 +1,82 @@
+"En este video discutiremos la aplicación Interfaces de programa, o APIs para abreviar. En concreto, analizaremos: Qué es una API, las bibliotecas de API y las API de REST, que
+    incluyen: Solicitud y respuesta y un ejemplo con PyCoinGecko.
+
+Una API permite que dos piezas de software se comuniquen entre sí. Por ejemplo, tienes tu programa, tienes algunos datos y tienes otros componentes de software. Usas la API para
+    comunicarte con otro software a través de entradas y salidas. Al igual que una función, no tienes que saber cómo la API funciona, solo sus entradas y salidas.
+
+Pandas es en realidad un conjunto de componentes de software, muchos de los cuales ni siquiera están escritos en Python. Tienes algunos datos. Tienes un conjunto de componentes
+    de software. Usamos la API de pandas para procesar los datos mediante comunicándonos con los demás componentes del software.
+
+Vamos a limpiar el diagrama. Cuando creas un diccionario y luego creas un objeto pandas con el Dataframe constructor, en la jerga de la API, esta es una «instancia». Los datos
+    del diccionario son transmitidos a la API de pandas. Luego usas el marco de datos para comunicarse con la API. Cuando llamas al encabezado del método, el marco de datos se
+    comunica con la API y muestra las primeras filas del marco de datos. Cuando llamas al método, significa que la API calculará el significan y devuelven los valores.
+
+Las API REST son otro tipo popular de API; te permiten comunicarte a través de Internet, lo que te permite aprovechar recursos como el almacenamiento, el acceso a más datos, los
+    algoritmos de inteligencia artificial y mucho más.
+
+La RE significa Representacional, la S significa Estado, la T significa Transferencia. En las API restantes, su programa se denomina cliente. La API se comunica con un servicio
+    web al que llamas a través de Internet.
+
+Existe un conjunto de reglas relativas a la comunicación, la entrada o solicitud y la salida o la respuesta. Estos son algunos términos comunes.
+Puedes pensar en ti o en tu código como en un cliente. El servicio web se denomina recurso. El cliente encuentra el servicio a través de un punto final. Revisaremos esto con más
+    detalle en la siguiente sección. El cliente envía solicitudes al el recurso y la respuesta al cliente.
+Los métodos HTTP son una forma de transmitir datos a través de Internet Le decimos a las API de Rest qué hacer enviando una solicitud. La solicitud se comunica normalmente a
+    través de un mensaje HTTP. El mensaje HTTP suele contener un archivo JSON. Contiene instrucciones para qué operación nos gustaría que el servicio funcionara. Esta operación
+    se transmite a el servicio web a través de Internet. Y el servicio realiza la operación. De manera similar, el servicio web devuelve una respuesta a través de un mensaje
+    HTTP, donde la información normalmente se devuelve a través de un archivo JSON. Esta información se transmite de vuelta al cliente.
+
+Los datos de criptomonedas son excelentes para usar en una API porque se actualiza constantemente y es vital para el comercio de criptomonedas. Usaremos el cliente o contenedor
+    Python de PyCoinGecko para la API de Coin Gecko, actualizado cada minuto por CoinGecko Usamos el contenedor, o cliente, porque es fácil Úsalo para que puedas centrarte en la
+    tarea de recopilar datos, también presentaremos las series temporales de los pandas funciones para tratar datos de series temporales.
+
+El uso de PyCoinGecko para recopilar datos es sencillo. Todo lo que necesitamos es instalar e importar la biblioteca, y luego crear un objeto de cliente, y finalmente, usar una
+    función para solicitar nuestros datos. En esta función obtenemos datos sobre bitcoin, en dólares estadounidenses, durante los últimos 30 días. En este caso, nuestra
+    respuesta es un JSON expresado como un diccionario de Python de listas anidadas que incluyen precios, capitalización bursátil y volúmenes totales que contienen la marca de
+    tiempo de Unix y el precio en ese momento.
+Solo nos interesa el precio, así que eso es lo que seleccionaremos utilizando el precio clave. Para simplificar las cosas, podemos convertir nuestra lista anidada en un
+    DataFrame. Con la marca de tiempo y el precio de las columnas, es difícil entender la marca de tiempo de la columna. La convertiremos en una versión más legible formatea
+    usando la función pandas to_datetime. Usando esta función to_datetime, creamos datos de tiempo legibles, la entrada es la columna de marca de tiempo, la unidad de tiempo se
+    establece en milisegundos. Anexamos la salida a la fecha de la nueva columna. 
+
+hora queremos crear un diagrama de velas. Para obtener los datos de las velas diarias, agruparemos por fecha para encontrar el precio mínimo, máximo, primero y último de cada
+    día. Por último, utilizaremos plotly para crear el gráfico de velas y graficarlo. Ahora podemos ver el gráfico de velas abriendo el archivo HTML y haciendo clic en confiar
+    en HTML en la parte superior izquierda de la pestaña. Debería tener un aspecto parecido a este
+
+
+En este video, vamos a discutir Application Program Interfaces que utilizan algún tipo de inteligencia artificial. Transcribiremos un archivo de audio usando la API de texto a
+    voz de Watson. Luego traduciremos el texto a un nuevo idioma usando la API de traductor de idiomas de Watson.
+
+En la llamada a la API, enviará una copia del archivo de audio a la API. Esto a veces se llama solicitud POST. Entonces la API enviará la transcripción de texto de lo que el
+    individuo está diciendo. Bajo el capó, la API está haciendo una solicitud GET. Luego enviamos el texto que nos gustaría traducir a un segundo idioma a una segunda API. La
+    API traducirá el texto y te enviará la traducción. En este caso, traducimos inglés a español.
+
+A continuación, proporcionamos una visión general de las claves API y los puntos finales, Watson Speech to Text y Watson Translate. En primer lugar, revisaremos las claves de
+    API y los endpoints. Te darán acceso a la API. Una clave API como una forma de acceder a la API. Es un conjunto único de caracteres que la API utiliza para identificarte y
+    autorizarte. Normalmente, su primera llamada a la API incluye la clave API. Esto le permitirá acceder a la API. En muchas API, es posible que se le cobre por cada llamada.
+    Así que al igual que su contraseña, debe mantener su clave API en secreto.
+
+Un punto final es simplemente la ubicación del servicio. Se usa para encontrar la API en Internet como una dirección web.
+
+Ahora, transcribiremos un archivo de audio usando la API de Watson Text to Speech. Antes de iniciar el laboratorio, debe registrarse para obtener una clave API. Vamos a
+    descargar un archivo de audio en su directorio. Primero, importamos SpeechTotexTV1 de IBM Watson. El extremo del servicio se basa en la ubicación de la instancia del
+    servicio. Almacenamos la información en la variable url_s2t. Para averiguar qué URL usar, vea las credenciales del servicio. Harás lo mismo con tu clave API.
+Crear un objeto adaptador de voz a texto. Los parámetros son el punto final y la clave API. Utilizará este objeto para comunicarse con el servicio Speech to Text de Watson.
+Tenemos la ruta del archivo wav que nos gustaría convertir a texto. Creamos el archivo objeto wav con el archivo wav usando open. Definimos el modo a rb, , lo que significa leer
+    el archivo en formato binario. El objeto de archivo nos permite acceso al archivo wav que contiene el audio. Utilizamos el método reconocer de el discurso al objeto
+    adaptador de texto.
+Esto básicamente envía el archivo de audio al servicio Watson Speech to Text. El parámetro audio es el objeto de archivo. El tipo de contenido es el formato de archivo de audio.
+El servicio envía una respuesta almacenada en la respuesta del objeto. El resultado del atributo contiene un diccionario python. El valor de resultados clave tiene una lista que
+    contiene un diccionario. Estamos interesados en la transcripción clave. Podemos asignarlo a la variable recognized_text de la siguiente manera. recognized_text ahora
+    contiene una cadena con un texto transcrito.
+
+Ahora vamos a ver cómo traducir el texto usando el traductor de lenguaje Watson. Primero, importamos LanguageTranslatorv3 de ibm_watson. Asignamos el punto final del servicio a
+    la variable url_l2. Puede obtener el servicio en las instrucciones del laboratorio. Necesita una clave API, consulte las instrucciones del laboratorio sobre cómo obtener la
+    clave API. Esta solicitud de API requiere la fecha de la versión, consulte la documentación. Creamos un objeto traductor de idioma, LanguageTranslator. Podemos obtener una
+    lista de los idiomas que el servicio puede identificar de la siguiente manera. El método devuelve el código de idioma. Por ejemplo, el inglés tiene un símbolo en al español,
+    que tiene el símbolo es. En la última sección, asignamos los textos transcritos a la variable a recognized_text. Podemos utilizar el método de traducir. Esto traducirá el
+    texto. El resultado es un objeto de respuesta detallado. El texto del parámetro es el texto. model_id es el tipo de modelo que nos gustaría usar. En este caso, lo
+    configuramos en en-es para inglés a español. Utilizamos el método get result para obtener el texto traducido y asignarlo a la traducción variable. El resultado es un
+    diccionario que incluye el conteo de palabras de traducción y el conteo de caracteres. Podemos obtener la traducción y asignarla a la variable spanish_translation de la
+    siguiente manera.
+Usando la variable spanish_translation, podemos traducir el texto de nuevo al inglés de la siguiente manera. El resultado es un diccionario. Podemos obtener la cadena con el
+    texto de la siguiente manera. Luego podemos traducir el texto al francés de la siguiente manera. Gracias por ver este video."

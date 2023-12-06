@@ -1,0 +1,30 @@
+"En este vídeo, analizaremos el protocolo HTTP. Específicamente, analizaremos: Localizador uniforme de recursos: respuesta a la solicitud de URL. En la última sección, abordamos
+    las API REST.
+
+El protocolo HTTP puede considerarse como un protocolo general de transferencia de información a través de la web. Esto incluye muchos tipos de API REST. Recuerde que la API
+    REST funciona mediante el envío de una solicitud y la solicitud se comunica mediante un mensaje HTTP. El mensaje HTTP normalmente contiene un archivo JSON. Cuando usted, el
+    cliente, utiliza una página web, su navegador envía una solicitud HTTP al servidor donde está alojada la página. El servidor intenta encontrar el recurso deseado por defecto,
+    index.html». Si la solicitud se realiza correctamente, el servidor enviará el objeto al cliente en una respuesta HTTP; esto incluye información como el tipo de recurso, la
+    longitud del recurso y otra información. La tabla situada debajo del servidor web representa una lista de los recursos almacenados en el servidor web.
+
+En este caso, un archivo HTML, una imagen png y un archivo txt. Cuando se solicita la información, los servidores web envían la información solicitada, es decir, uno de los
+    archivos. Localizador uniforme de recursos: URL El localizador uniforme de recursos (URL) es la forma más popular de encontrar recursos en la web.
+Podemos dividir la URL en tres partes. Según el esquema, este es el protocolo, para este laboratorio siempre será la dirección de Internet http://o la URL base, que se utilizará
+    para encontrar la ubicación; algunos ejemplos incluyen la ruta www.ibm.com y www.gitlab.com: esta es la ubicación en el servidor web; por ejemplo: /images/IDSNlogo.png
+    Repasemos el proceso de solicitud y respuesta.
+
+El siguiente es un ejemplo del mensaje de solicitud para el método get request. Hay otros métodos HTTP que podemos usar. En la línea de inicio tenemos el método GET. Se trata de
+    un método HTTP. En este caso, solicita el archivo index.html. El encabezado de la solicitud transmite información adicional con una solicitud HTTP. En el método GET, el
+    encabezado de la solicitud está vacío. Algunas solicitudes tienen un cuerpo; tendremos un ejemplo del cuerpo de una solicitud más adelante.
+
+La siguiente tabla representa la respuesta. La línea de inicio de la respuesta contiene el número de versión seguido de una frase descriptiva. En este caso, HTTP/1.0, un código
+    de estado (200), que significa éxito, y la frase descriptiva, OK. Más adelante hablaremos de los códigos de estado. El encabezado de la respuesta contiene información.
+Por último, tenemos el cuerpo de la respuesta que contiene el archivo solicitado, en este caso un documento HTML. Veamos otros códigos de estado. En la siguiente tabla se
+    muestran algunos ejemplos de códigos de estado.
+
+El prefijo indica la clase; por ejemplo, los 100 son respuestas informativas; 100 indica que todo va bien hasta el momento.
+Los 200 son respuestas satisfactorias: por ejemplo, 200 La solicitud se ha realizado correctamente.
+Cualquier valor entre los 400 es una mala noticia. 401 significa que la solicitud no está autorizada.
+500 significa errores del servidor, y 501 significa no implementado. Cuando se realiza una solicitud HTTP, se envía un método HTTP.
+Esto le indica al servidor qué acción debe realizar. Aquí se muestra una lista de varios métodos HTTP. En el siguiente vídeo, utilizaremos Python para aplicar el método GET que
+    recupera datos del servidor y el método post que envía datos al servidor."

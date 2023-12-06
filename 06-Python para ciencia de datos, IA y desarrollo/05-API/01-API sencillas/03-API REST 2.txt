@@ -1,0 +1,34 @@
+"En este vídeo, analizaremos el protocolo HTTP uso de la biblioteca de solicitudes, un método popular para trabajar con el protocolo HTTP en Python. En este vídeo, revisaremos
+    la biblioteca de Python solicitudes para trabajar con los protocolos HTTP. Proporcionaremos una descripción general de las solicitudes de obtención y publicación.
+    Repasemos el módulo de solicitudes en Python.
+
+Esta es una de las varias bibliotecas que incluyen: httplib, urllib, que pueden funcionar con el protocolo HTTP. Requests es una biblioteca de Python que te permite para enviar
+    solicitudes HTTP/1.1 fácilmente.
+
+Podemos importar la biblioteca de la siguiente manera: Puede realizar una solicitud GET mediante el método get a www.ibm.com: tenemos el objeto de respuesta 'r', contiene
+    información sobre la solicitud, como el estado de la solicitud. Podemos ver el código de estado con el atributo status_code, que es 200 para OK.
+
+
+Puedes ver los encabezados de las solicitudes: Puedes ver el cuerpo de la solicitud de la siguiente manera línea. Como no hay ningún cuerpo para una solicitud GET, obtenemos un
+    None. Puedes ver el encabezado de respuesta HTTP utilizando los encabezados de los atributos. Esto devuelve un diccionario de Python de encabezados de respuesta HTTP.
+Podemos mirar los valores del diccionario. Podemos obtener la fecha en que se envió la solicitud utilizando la clave Fecha. La clave Content-Type indica el tipo de datos.
+Usando el objeto de respuesta 'r', podemos compruebe también la codificación: como el tipo de contenido es text/html, puede usar el texto del atributo para mostrar el HTML en
+    el cuerpo. Podemos revisar el primeros 100 caracteres. También puede descargar otro contenido, consulte el laboratorio para obtener más información. Puede utilizar el método
+    GET para modificar el resultados de su consulta. Por ejemplo, recuperar datos de una API. En el laboratorio utilizaremos httpbin.org, un sencillo servicio de solicitud y
+    respuesta HTTP. Enviamos una solicitud GET al servidor. Como antes, tenemos la URL base en la ruta; añadimos /get. Esto indica que nos gustaría para realizar una solicitud
+    GET. Esto se demuestra en la siguiente tabla: Después de solicitar GET, tenemos la consulta cadena. Forma parte de un localizador uniforme de recursos (URL) y envía otra
+    información al servidor web. El inicio de la consulta es un? , seguido mediante una serie de pares de parámetros y valores, como se muestra en la tabla siguiente.
+
+El nombre del primer parámetro es «nombre» y el valor es «Joseph». El nombre del segundo parámetro es «ID» y el valor es «123». Cada par, parámetro y valor están separados con
+    un signo igual, «=». La serie de pares está separada por el signo «&». Vamos a completar un ejemplo en python. Tenemos la URL base a la que se le ha añadido GET el final.
+Para crear una cadena de consulta, utilizamos el diccionario carga útil. Las claves son los nombres de los parámetros y los valores son el valor de la consulta cadena. Luego,
+    pasamos la carga útil del diccionario a el parámetro params de la función get (). Podemos imprimir la URL y ver el nombre y valores. Podemos ver el cuerpo de la solicitud.
+Tal como está la información enviado en la URL, el cuerpo tiene el valor Ninguno. Podemos imprimir el código de estado. Podemos ver la respuesta como texto: podemos ver la
+    clave «Tipo de contenido» para mira el tipo de contenido. Como el «tipo de contenido» de contenido está en el JSAON, formatéelo usando el método json (). Devuelve un
+    diccionario de Python: la clave 'args' tiene el nombre y los valores para la cadena de consulta. Como una solicitud GET, una solicitud POST se usa para enviar datos a un
+    servidor, pero la solicitud POST envía los datos al cuerpo de la solicitud, no al url. Para enviar la solicitud de publicación en la URL, cambia la ruta a POST: este punto
+    final esperará datos y es una forma cómoda para configurar una solicitud HTTP para enviar datos a un servidor. Tenemos el diccionario The Payload. Para hacer una solicitud
+    POST, utilizamos la función post (). La variable payload se pasa a los datos del parámetro: comparar la URL con el atributo url desde el objeto de respuesta de las
+    solicitudes GET y POST, vemos que la solicitud POST no tiene nombre o pares de valores en su URL. Podemos comparar las solicitudes POST y GET cuerpo.
+
+Vemos que solo la solicitud POST tiene un cuerpo: podemos ver el formulario clave para obtener la carga útil."
