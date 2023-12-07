@@ -31,4 +31,5 @@ Tal como está la información enviado en la URL, el cuerpo tiene el valor Ningu
     POST, utilizamos la función post (). La variable payload se pasa a los datos del parámetro: comparar la URL con el atributo url desde el objeto de respuesta de las
     solicitudes GET y POST, vemos que la solicitud POST no tiene nombre o pares de valores en su URL. Podemos comparar las solicitudes POST y GET cuerpo.
 
+
 Vemos que solo la solicitud POST tiene un cuerpo: podemos ver el formulario clave para obtener la carga útil."
