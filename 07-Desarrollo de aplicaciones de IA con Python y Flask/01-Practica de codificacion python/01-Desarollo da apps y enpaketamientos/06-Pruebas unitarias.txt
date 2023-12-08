@@ -1,0 +1,52 @@
+"Bienvenido a Unit Testing. Después de ver este vídeo, podrá definir las pruebas unitarias, explicar el proceso de las pruebas unitarias, crear y ejecutar pruebas unitarias y
+    revisar el resultado de una prueba unitaria.
+
+Las pruebas unitarias son un método para validar si las unidades de código funcionan según lo diseñado. Una unidad es una parte comprobable más pequeña de una aplicación.
+Este es un ejemplo de una unidad que tiene dos funciones: cuadrado y doblador en el archivo mymodule.py. La función cuadrada se escribe como def: cuadrado abierto, número de
+    corchetes, cierre corchetes, dos puntos, número devuelto, asterisco, asterisco dos. Del mismo modo, el código de la función dobladora se escribe como def doubler abrir el
+    número entre corchetes cerrar corchetes y dos puntos para devolver el número asterisco dos. Para desarrollar pruebas unitarias, utilizará la biblioteca unittest, que es un
+    módulo de Python instalado que proporciona un marco que contiene la funcionalidad de prueba. Repasemos brevemente el proceso de pruebas de principio a fin, desde las
+    pruebas unitarias hasta la publicación y la base de código de producción. Durante el desarrollo del código, probará cada unidad. La prueba se realiza en dos fases.
+
+En la primera fase, probará la unidad en su sistema local. Si la prueba no es satisfactoria, determinará el motivo del fallo y solucionará el problema. A continuación, volverá a
+    probar la unidad. Una vez superada la prueba unitaria, tendrá que probar la unidad en un entorno de servidor , como el servidor de prueba de integración continua o CICD.
+
+Si la unidad no pasa la prueba del servidor, recibirá los detalles del fallo. Deberá determinar y solucionar el problema. Una vez que la unidad pasa la prueba del servidor, se
+    integra en la base de código final. Tras una visión general del proceso de prueba unitaria, repasemos algunas funciones de prueba para entender cómo crear pruebas unitarias.
+
+Observe el código de la unidad y de la prueba unitaria. Observe que el nombre del archivo de la unidad es mymodule.py. El archivo unittest tiene la palabra test anexa o
+    anteponida. Esta es una buena convención de nomenclatura, ya que ayuda a diferenciar claramente el archivo unitario del archivo unitario. Veamos los pasos para crear un
+    archivo de prueba unitaria. El primer paso es importar la biblioteca de Python unittest. Escriba import unittest. A continuación, importe las funciones que desee probar.
+
+Por ejemplo, para importar el cuadrado y el doblador de la unidad mymodule a unittest, escriba desde mymodule import square, doubler. A continuación, cree la clase de prueba
+    unitaria para llamar a la prueba unitaria desde un objeto de una sola clase. Por ejemplo, para crear una clase llamada TestMyModule, escriba class test con T mayúscula en
+    la primera aparición, my con M mayúscula, module con M mayúscula, módulo con M mayúscula y abra unitTest.TestCase entre corchetes con T y C en mayúscula. Observe cómo el
+    nombre de la clase tiene el prefijo test al nombre de la unidad en el ejemplo. Es una buena convención de nomenclatura poner el prefijo test al nombre de la clase para
+    ayudar a distinguir entre la clase unitaria y la clase unittest.
+
+A continuación, haz que la clase herede la clase de casos de prueba de la biblioteca de pruebas unitarias. Por ejemplo, test case es la clase de caso de prueba de la biblioteca
+    unittest. Heredar la clase le permite aprovechar los métodos existentes en la clase de casos de prueba. A continuación, cree las funciones en la clase de pruebas unitarias
+    correspondientes a cada función que deba probarse. Por ejemplo, en la clase TestMyModule, dos funciones test underscore square y test underscore doubler corresponden a las
+    funciones cuadradas y dobladoras de la unidad de mi módulo. Tenga en cuenta que asegúrese de que las funciones estén precedidas de la prueba en el módulo unittest, ya que
+    solo se ejecutan las funciones que comienzan con test. Por último, puede crear casos de prueba. Al crear los casos de prueba, añada uno o más métodos de afirmación para
+    garantizar que se cumpla la condición de la prueba unitaria. Una función de aserción es assertEqual. Observe que el método se ha agregado a la clase de casos de prueba del
+    código. La función assertEqual compara dos valores o entidades y determina si son iguales. El método se utiliza para comprobar si las funciones devuelven los valores
+    correctos. Uno de los parámetros que toma la función assertEqual es el valor real. Para obtener el valor real, llamará a la función que desee probar.
+
+El segundo parámetro es el valor esperado, al que añadirás lo que se espera que devuelva la función. En el ejemplo, la primera prueba es para la función cuadrada con el número
+    dos, que debería devolver un valor de 4 si la función se ejecuta correctamente. Como parte de la prueba, primero se evalúa la función y, a continuación, se comparan los dos
+    valores para comprobar si son iguales. Según el resultado de la comparación, la prueba pasa o no. Tras ejecutar el archivo de prueba, se genera un resultado.
+
+El resultado muestra los resultados de la prueba junto con algunos detalles adicionales. Por ejemplo, si el resultado muestra que se ejecutaron dos pruebas en 0 segundos, OK
+    indica que la prueba se ha superado y que las dos funciones se han implementado correctamente. Pero, ¿qué ocurre si la función no se implementó correctamente? Pensemos en
+    la función cuadrada, en la que escribiste el código para calcular el cubo de un número en vez del cuadrado, la función falla y se genera un resultado. Repasemos el ejemplo
+    del resultado de una prueba unitaria fallida. El resultado muestra claramente que la prueba unitaria falló. Por ejemplo, los estados de salida no superan la prueba de dos
+    puntos, subrayado cuadrado abierto entre corchetes, subrayado, subrayado principal, subrayado principal, subrayado TestMyModule con T y M mayúsculas y sin espacios, cierra
+    el corchete. También puede ver la función en la que falló la prueba unitaria. Por ejemplo, pruebe el subrayado cuadrado con un punto propio para afirmar que ningún espacio
+    es igual a mayúscula E entre corchetes abiertos cuadrangular 2 corchetes cerrados entre corchetes y comas cuatro corchetes cerrados indican que la función cuadrática ha
+    fallado. Un error de afirmación con las iniciales A y E en mayúsculas, dos puntos y una exclamación igual a 4 indican que los valores no coinciden. El resultado detallado
+    le permite corregir un error antes de la implementación real de la solución. En este vídeo, aprendió que las pruebas unitarias son un método para validar si las unidades de
+    código funcionan según lo diseñado. Durante el desarrollo del código, se prueba cada unidad. La unidad se prueba en dos fases. Una vez que la unidad pasa la prueba del
+    servidor, la unidad se fusiona con la base de código final. Asegúrese de que los archivos de prueba estén preanexados o anexados con la palabra test para diferenciarlos
+    claramente del archivo del módulo. Puede usar diferentes funciones de prueba para crear pruebas unitarias. Assert=Function es un método de aserción que se utiliza
+    habitualmente para comparar dos valores. Puede revisar el resultado de la prueba unitaria y determinar si la prueba ha sido aprobada o no."

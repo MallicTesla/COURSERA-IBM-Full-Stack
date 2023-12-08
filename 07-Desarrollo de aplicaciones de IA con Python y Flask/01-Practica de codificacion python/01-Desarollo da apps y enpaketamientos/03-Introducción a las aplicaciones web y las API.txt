@@ -1,0 +1,49 @@
+"Bienvenido a la «Introducción a las API y aplicaciones web». Tras ver este vídeo, podrá: Describir aplicaciones web o aplicaciones web Describir una interfaz de programación de
+    aplicaciones (o API) Comparar y contrastar aplicaciones web y API Empecemos por definir una aplicación web.
+
+Una aplicación web es un programa almacenado en un servidor remoto y distribuido a través de Internet. Un usuario interactúa con la aplicación mediante un navegador. Los
+    servicios web, como los sitios de comercio electrónico, el correo web, etc., son todos aplicaciones web. Si bien algunas aplicaciones pueden depender del tipo de navegador
+    que se utilice, la mayoría de las aplicaciones web funcionan en todos los navegadores web modernos.
+
+Una aplicación web requiere tres componentes para procesar la solicitud de un cliente: un servidor web para gestionar las solicitudes planteadas, un servidor de aplicaciones
+    para ejecutar la tarea solicitada y una base de datos para almacenar la información necesaria para completar la tarea.
+
+Al programar aplicaciones web, escribirá código para el usuario o el front-end mediante JavaScript, HTML o CSS. También codificará para el servidor o el back-end mediante Python,
+    Java o Ruby. El uso de aplicaciones web tiene varias ventajas en comparación con las aplicaciones que se ejecutan estrictamente de forma local en el sistema del usuario. Las
+    ventajas incluyen: los desarrolladores pueden poner la misma versión de la aplicación a disposición de varios usuarios al mismo tiempo. Los usuarios tienen la flexibilidad
+    de usar la aplicación desde la plataforma que elijan, como una computadora de escritorio, una computadora portátil o un dispositivo móvil. Los usuarios pueden acceder a la
+    aplicación a través del navegador que elijan. Los usuarios no necesitan instalar la aplicación en sus sistemas locales.
+
+Una API es un componente de software que permite que dos aplicaciones que no están conectadas entre sí se comuniquen. Las API ayudan a crear más flexibilidad para los
+    programadores y les permiten solicitar datos de aplicaciones que de otro modo estarían cerradas. Como resultado, las API tienen reglas y funciones estandarizadas que
+    determinan qué datos se pueden recopilar o modificar dentro de una aplicación y cómo se produce ese proceso. Por ejemplo, las aplicaciones de tu teléfono requieren que
+    concedas permiso para usar diferentes funciones del teléfono, como la ubicación, la cámara, el audio y la grabadora.
+
+Un ejemplo de aplicación que usa una API es una aplicación meteorológica. Tu aplicación meteorológica no genera datos meteorológicos por sí misma. En su lugar, simplemente
+    solicita información de una API meteorológica. La API conecta el software que recopila y almacena los datos meteorológicos con la aplicación de su dispositivo móvil. El
+    dispositivo, a su vez, le proporciona un pronóstico detallado para el día siguiente.
+
+Existen varias arquitecturas que los desarrolladores de software utilizan para crear una API, pero las más populares son Representational State Transfer (o REST) o Simple Object
+    Access Protocol (o SOAP). Estas arquitecturas se analizarán en otro vídeo.
+
+Una API puede ser beneficiosa por muchos motivos, entre ellos: mejora la conectividad entre aplicaciones. Admite las acciones tradicionales de crear, leer, actualizar, eliminar
+    (o CRUD). Funciona con los verbos HTTP, incluidos PUT, POST, DELETE y GET.
+
+Se basa en HTTP, lo que lo hace personalizable. API es un término más genérico que se utiliza para todos los tipos de aplicaciones que crean un enlace entre dos partes de un
+    sistema.
+
+Las aplicaciones web son una forma de API que se comunica entre el front-end y el back-end. Para aclarar la distinción entre aplicaciones web y API, consideremos el ejemplo de
+    un servicio de compras de comercio electrónico. Cuando accedes al servicio de compras de comercio electrónico desde un navegador, el navegador actúa como la API que te
+    conecta a la aplicación web. Al seleccionar un producto, la aplicación web comprueba su disponibilidad y, si está disponible, muestra su precio. Si intentas acceder al
+    servicio de compras de comercio electrónico desde un dispositivo móvil, la aplicación de tu dispositivo actúa como la API que se conecta al servicio de compras de comercio
+    electrónico.
+
+La naturaleza de todas las aplicaciones web es compartir datos con otras aplicaciones; básicamente, todas las aplicaciones web pueden considerarse API. Sin embargo, API es un
+    término genérico e incluye aplicaciones «en línea» o basadas en la web y «fuera de línea». En resumen, todas las aplicaciones web son API, pero no todas las API son
+    aplicaciones web.
+
+En este vídeo, aprendió lo siguiente: las aplicaciones web son programas almacenados en un servidor remoto y distribuidos a través de Internet a través de un navegador.
+Puede ejecutar aplicaciones web en diferentes plataformas y navegadores sin tener que instalar software nuevo.
+Una interfaz de programación de aplicaciones, o API, es un componente de software que permite que dos aplicaciones no conectadas se comuniquen.
+Las aplicaciones web son API, pero no todas las API son aplicaciones web.
+Ambas comparten datos entre aplicaciones, pero no todas las API requieren redes como las aplicaciones web."

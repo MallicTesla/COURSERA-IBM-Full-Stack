@@ -1,0 +1,56 @@
+"Resumen del módulo 1: Prácticas de codificación en Python y conceptos de empaquetadoEstado:
+¡Enhorabuena! Ha completado este módulo. Llegados a este punto, ya lo sabe:
+
+El ciclo de vida del desarrollo de aplicaciones consta de siete fases, entre las que se incluyen:
+
+Recopilación de requisitos: Recopila los requisitos técnicos, empresariales y de usuario para la aplicación
+
+Análisis: Usted analiza los requisitos
+
+Diseño: Usted diseña la solución completa
+
+Codificación y pruebas: Usted construye y prueba los diferentes componentes de la aplicación
+
+Pruebas de usuario y del sistema: Los usuarios comprueban la usabilidad de la aplicación y usted realiza las pruebas de integración del sistema y de rendimiento
+
+Producción: La aplicación está disponible para todos los usuarios finales
+
+Mantenimiento: Usted actualiza o soluciona cualquier problema de los usuarios o del sistema
+
+Todas las aplicaciones web son API, pero no todas las API son aplicaciones web. Ambas comparten datos entre aplicaciones, pero no todas las API requieren redes como las
+    aplicaciones web.
+
+Las directrices PEP8 para la legibilidad del código incluyen lo siguiente:
+
+Cuatro espacios para la sangría
+
+Líneas en blanco para separar funciones y clases
+
+Espacios alrededor de los operadores y después de las comas
+
+Las convenciones de codificación PEP8 para la coherencia y manejabilidad incluyen:
+
+Añadir bloques de código más grandes dentro de las funciones
+
+Nombre las funciones y los archivos utilizando minúsculas con guiones bajos
+
+Nombre las clases utilizando CamelCase
+
+Nombrar las constantes en mayúsculas con guiones bajos separando las palabras
+
+Para asegurarse de que su código se ajusta al estilo y la norma predefinidos sin ejecutar el código, puede utilizar el método de análisis estático del código.
+
+Las pruebas unitarias son un método para validar si las unidades de código funcionan tal y como fueron diseñadas. Debe probar cada unidad antes de la integración con la base de
+    código final.
+
+Para crear un paquete
+
+Cree una carpeta con el nombre del paquete
+
+Cree un archivo __init__.py vacío
+
+Cree los módulos necesarios
+
+En el archivo __init__.py, añada código para hacer referencia a los módulos necesarios en el paquete
+
+Puede verificar el paquete a través del terminal bash en un shell Python."

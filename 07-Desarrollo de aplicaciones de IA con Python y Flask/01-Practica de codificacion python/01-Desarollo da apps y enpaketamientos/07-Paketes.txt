@@ -1,0 +1,43 @@
+"Bienvenido a «Packaging». Después de ver este vídeo, podrá: <click>Diferenciar entre módulo, paquete y biblioteca de Python <click>Crear un paquete de Python <click>Verificar
+    un paquete de Python <click>Y utilizar un paquete de Python Los módulos, paquetes y bibliotecas son términos de uso frecuente en Python. Veamos cada uno de los términos en
+    detalle. Un módulo de Python es un archivo.py que contiene definiciones, sentencias, funciones y clases de Python. Puede importar un módulo a otros scripts y libretas.
+
+Por ejemplo, considere un módulo denominado module.py que tiene dos funciones. La primera función es definir el cuadrado abierto entre corchetes, el número, cerrar los corchetes
+    y dos puntos, el número devuelto, el asterisco, el asterisco, dos, que eleva al cuadrado la entrada y devuelve el resultado como salida. La segunda función es el doblador
+    definitivo, el número entre corchetes y dos puntos, el número devuelto con el asterisco dos, que duplica la entrada y devuelve el resultado como salida.
+
+Si la función está en el mismo directorio, puede importarla y usar las funciones de ese módulo. Consideremos el uso de la función cuadrada con el comando print. imprima entre
+    corchetes abiertos comillas dobles, símbolo de cuatro quilates, dos comillas dobles, cuadrado, cuadrado, corchete abierto, cuatro corchetes redondos cerrados, corchete
+    cerrado. El resultado se muestra como un símbolo de cuatro quilates, dos es igual a dieciséis.
+
+Del mismo modo, para la función de doblado de impresión con el valor 4, el resultado es dos asteriscos cuatro iguales a ocho. Un paquete es una colección de módulos de Python en
+    un diccionario con un archivo __init__.py, que lo distingue de un simple diccionario de scripts de Python. El ejemplo muestra el paquete myproject en parent_directory con
+    dos módulos, el módulo 1 punto pie y el módulo 2 punto pie. También contiene el subrayado en el archivo underscore underscore punto pie.
+
+Al importar un módulo o un paquete, el objeto correspondiente creado por Python es siempre del tipo module. Tenga en cuenta que la distinción entre módulo y paquete es solo a
+    nivel del sistema de archivos. Una biblioteca es una colección de paquetes o puede ser un paquete único. Algunos ejemplos son numpy, pytorch y Pandas. Tenga en cuenta que
+    los términos paquete y biblioteca a menudo se usan indistintamente. Por lo tanto, numpy, pytorch y Pandas también se denominan paquetes. Veamos los pasos para crear un
+    paquete de Python. Tenga en cuenta que hay dos módulos, module1.py tiene dos funciones, square y doubler. Module2.py tiene una función, es decir.
+
+Para convertir la carpeta myproject en un paquete, debe tener __init__.py como archivo en la carpeta myproject. El contenido del archivo __init__.py debe proceder del módulo uno
+    de importación de puntos y del módulo dos de importación de puntos. Los pasos típicos para crear un paquete incluyen: primero, cree una carpeta con el nombre del paquete.
+
+A continuación, cree un archivo __init__.py vacío. Cree los módulos necesarios. Por último, en el archivo __init__.py, añada código para hacer referencia a los módulos
+    necesarios en el paquete. Después de crear el paquete, debe verificarlo. Para verificar el paquete: Primero, abre un terminal bash. Asegúrese de que el directorio sea el
+    mismo que la carpeta en la que se encuentra el paquete. Abre el intérprete de python ejecutando el comando python en el shell. Con la línea de comandos de Python, escriba
+    import seguido del nombre del proyecto, por ejemplo import myproject. Si el comando se ejecuta sin errores, indica que el paquete se ha cargado correctamente.
+
+La estructura general para probar el paquete es el nombre del paquete, el nombre del módulo, el nombre de la función, seguido de los parámetros sin los corchetes, pero
+    manteniendo los corchetes redondos. Por ejemplo, si utiliza myproject, myproject dot basic dot square open round corchete y dos corchetes cerrados, la función devolverá el
+    valor 4. Después de crear el paquete, puede usarlo en otros scripts si la carpeta del paquete está en el mismo directorio. En este caso, si tiene el archivo Test.Py en el
+    «directorio principal», puede importar las funciones del paquete. Por ejemplo, si utiliza el código Python del módulo de puntos de mi proyecto, importe un doblador de comas
+    cuadradas del módulo de puntos de mi proyecto, dos importando la impresión media entre corchetes abiertos, comillas dobles, símbolo de cuatro quilates, dos comillas dobles,
+    comillas dobles, comillas dobles, coma, corchete cuadrado, corchete, cuatro corchetes cerrados. imprimir corchetes abiertos entre comillas dobles dos asteriscos cuatro
+    iguales a comillas dobles comillas dobladoras entre corchetes abiertos cuatro corchetes cerrados entre corchetes. imprimir entre comillas dobles corchete abierto 2 más 1 más
+    tres corchetes cerrados divididos por tres iguales comillas dobles coma significa corchete abierto corchete abierto dos comas una coma tres corchetes cerrados corchete
+    cerrar corchete cerrar corchete. A continuación, puede ejecutar las funciones y comprobar si obtiene los resultados correctos. En este vídeo, aprendió lo siguiente: un
+    módulo de Python es un archivo.py que contiene definiciones, sentencias, funciones y clases de Python. Un paquete es una colección de módulos Python de Python en un
+    diccionario con un archivo __init__.py. Una biblioteca es una colección de paquetes o puede ser un solo paquete. Para crear un paquete: cree una carpeta con el nombre del
+    paquete. Cree un archivo __init__.py vacío. Cree los módulos necesarios. En el archivo __init__.py, añada código para hacer referencia a los módulos necesarios en el paquete.
+
+Puedes verificar el paquete a través del terminal bash. Después de crear el paquete, puede usarlo en otros scripts si la carpeta del paquete está en el mismo directorio."

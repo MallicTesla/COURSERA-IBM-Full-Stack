@@ -1,0 +1,37 @@
+"Hola a todos y bienvenidos a la demostración del IDE en la nube (o entorno de desarrollo integrado) proporcionada por el equipo de IBM Skills Network. El IDE en la nube es un
+    entorno de programación para el aprendizaje, que puede utilizar para escribir, ejecutar , depurar y ejecutar código directamente en un navegador, sin necesidad de instalar
+    ni configurar ningún software o herramienta en su dispositivo personal. En esta demostración, aprenderá a: Navegar por los diferentes componentes del IDE de la nube Instalar
+    los paquetes o bibliotecas de Python Escribir código Ejecutar código Al abrir el IDE de la nube, se mostrarán dos paneles principales. El panel izquierdo se denomina panel
+    de instrucciones. Muestra las instrucciones que debe seguir para finalizar el proyecto. El panel de la derecha muestra una interfaz de programación en la que puede escribir
+    y ejecutar el código. Tenga en cuenta que el panel derecho es similar a la interfaz de código VS, que es un IDE popular para administrar código.
+
+Puede cambiar el tamaño de los paneles de instrucciones y códigos. Por ejemplo, puede reducir el tamaño del panel de instrucciones arrastrándolo desde su margen hacia la
+    izquierda. O bien, puede aumentar el tamaño arrastrando el panel de instrucciones hacia la derecha. También tiene la opción de modificar las fuentes y el tamaño de fuente
+    según sus preferencias. Si hay varias páginas en el panel de instrucciones, verá los botones Siguiente y Anterior. Estos botones le permiten navegar entre las páginas.
+
+También puede obtener una vista previa de una página de instrucciones. Observe el botón del índice en la esquina superior izquierda del panel de instrucciones. Use este botón
+    para navegar por las diferentes secciones de las instrucciones. A continuación, veamos un chatbot con IA disponible en el IDE de la nube. El equipo de IBM Skills Network le
+    proporciona un chatbot de asistente de enseñanza habilitado para la IA llamado Tai, que le ayuda a utilizar el entorno de laboratorio para programar tareas.
+
+El icono de Tai está disponible en la parte izquierda del panel de instrucciones. Para acceder al chatbot, simplemente haz clic en el icono. Intentemos hacer una pregunta, como
+    «Por favor, envíeme un código Python simple». Como puede ver, se muestra el código. Puede copiar o ejecutar el código. A continuación, veamos la interfaz de programación del
+    IDE. La interfaz de programación tiene varios componentes. Sin embargo, las dos pestañas que utilizará con frecuencia incluyen la pestaña Editor, donde escribe el código, y
+    la pestaña Terminal, donde ejecuta el código. En el panel de programación también hay una caja de herramientas de Skills Network, que le permite trabajar con varios entornos
+    de administración de bases de datos, herramientas de macrodatos, herramientas en la nube, bibliotecas de IA integradas y lanzar las aplicaciones que cree. Antes de empezar
+    a escribir el código, necesitará instalar las bibliotecas o paquetes de Python necesarios en este entorno basado en la nube. Deberá realizar esta tarea en la pestaña
+    Terminal. Para abrir una nueva terminal, haga clic en el menú Terminal. A continuación, haga clic en Nueva terminal. Para la demostración, copiemos el bloque de código del
+    panel de instrucciones y péguelo en la terminal. Luego, presione Entrar para ejecutar el comando. Observe que la biblioteca numpy se ha instalado correctamente.
+
+Ahora puedes importar esta biblioteca a tu código. Vamos a crear ahora un programa básico de Python. En el panel de programación, haga clic en Archivo. A continuación,
+    seleccione Nuevo archivo. El nuevo archivo se abre en la pestaña Editor. Se recomienda guardar el archivo antes de empezar a añadir código. Como estamos escribiendo un
+    código Python, guarde el archivo con la extensión.py. En el menú Archivo, haga clic en Guardar (o Ctrl+S). Cuando se le pida, introduzca el nombre del archivo. Para este
+    ejemplo, guardemos el archivo como Hello.py. El siguiente paso es añadir el código. Puede escribir el código manualmente en la pestaña Editor o copiar y pegar el código del
+    panel de instrucciones, si está disponible, en el archivo. Para esta demostración, copiemos el código del panel de instrucciones y péguelo en el archivo. ¡No olvides
+    guardar el archivo! Es hora de ejecutar el código. Volvamos a la pestaña Terminal. Asegúrese de estar en la carpeta donde está almacenado el archivo del programa. Para
+    ejecutar el archivo, escriba python3 seguido del nombre del archivo. Para este ejemplo, es python3 Hello.py. Observe que el resultado se muestra sin errores. Esto nos lleva
+    al final de la demostración en el IDE de la nube. En resumen: el IDE en la nube es un entorno de programación similar a VS Code [proporcionado por IBM Skills Network con el
+    fin de aprender y desarrollar habilidades prácticas]. El IDE en la nube tiene dos paneles, el de instrucción y el de programación. Puede utilizar el botón de índice del
+    panel de instrucciones para navegar entre las páginas de instrucciones.
+
+El panel de programación incluye la pestaña Editor para escribir código y la pestaña Terminal para ejecutar código. Debe instalar las bibliotecas necesarias a través de la
+    Terminal. En cualquier momento de las sesiones de laboratorio, puede copiar los bloques de código del panel de instrucciones y pegarlos en las pestañas Editor o Terminal."

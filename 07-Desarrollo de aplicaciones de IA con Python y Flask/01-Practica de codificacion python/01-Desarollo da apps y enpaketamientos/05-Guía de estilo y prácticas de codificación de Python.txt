@@ -1,0 +1,52 @@
+"Bienvenido a la «Guía de estilo y prácticas de codificación de Python». Después de ver este vídeo, podrás: Describir la importancia de escribir código legible Enumerar las
+    convenciones de codificación de Python Explicar el análisis de código estático Cuando escribes código, tienes que asegurarte de que el equipo pueda leerlo y entenderlo
+    fácilmente. Esta tarea requiere algunos estándares y convenciones de codificación.
+
+Python.org ha publicado un documento denominado Propuesta de mejora de Python 8 (o PEP8) en el que se proporcionan las convenciones y directrices para que el código de Python
+    sea legible y tenga un formato coherente. Empecemos con las pautas clave para mejorar la legibilidad del código. PEP8 recomienda el uso de espacios en lugar de tabulaciones
+    para la sangría. ¿Se pregunta por qué? Los distintos editores de texto y entornos de desarrollo integrados (IDE) interpretan el número de espacios de una pestaña de forma
+    diferente. Por ejemplo, un editor puede interpretar una pestaña como tres espacios, mientras que otro puede interpretarla como cuatro. El uso de una pestaña como indentación
+    puede provocar una falta de uniformidad en el código y provocar errores de formato. Por ejemplo, observe la diferencia de espaciado cuando se pulsa la tecla Tabulador para
+    la instrucción 1 para la condición if en el Editor 1 en comparación con el espacio anterior a la instrucción 1 para la condición si en el Editor 2.
+Para evitar este tipo de errores, debe utilizar un número constante de espacios al indentar el código. Para garantizar la uniformidad, la pauta es utilizar cuatro espacios para
+    cada nivel de indentación de un código. Cuatro espacios para una hendidura son suficientes para una legibilidad adecuada. Tenga en cuenta que los cuatro puntos se han
+    añadido antes de la primera frase y de la segunda para representar cuatro espacios. PEP8 también recomienda usar líneas en blanco para separar las funciones y las clases en
+    el código.
+
+Observe que en el bloque de la izquierda, que no sigue las pautas de PEP8, no hay ningún espacio entre donde termina la función uno y donde la clase UserClass, con U mayúscula
+    y C mayúscula, no hay espacio. Sin embargo, en el lado derecho se muestra la representación correcta con un espacio antes de la definición de la clase. Las líneas en blanco
+    ayudan a establecer el principio y el final de las diferentes partes del código. Para mejorar la legibilidad del código, utilice espacios alrededor de los operadores y
+    después de las comas. El uso de espacios hará que los comandos parezcan espaciosos y discretos, lo que mejorará la legibilidad de los comandos. Veamos algunos ejemplos.
+
+Cuando escribes «A» igual a b más c sin espacios, puede resultar confuso. Sin embargo, al agregar los espacios (por ejemplo, el espacio «A» es igual al espacio b más el espacio
+    c), la legibilidad mejora. A continuación, veamos algunas convenciones de codificación para mantener la coherencia y una capacidad de administración eficiente.
+
+Una convención de codificación clave consiste en crear funciones independientes para las funcionalidades con bloques de código más grandes. A continuación, puede llamar a las
+    funciones desde el programa principal. Por ejemplo, en el código, la sintaxis if else no tiene una función y deberá escribirse cada vez que necesite la funcionalidad. Sin
+    embargo, si observa que la función subrayado está escrita como def, subrayado uno con dos parámetros a y b, puede llamarla fácilmente.
+
+Por ejemplo, c es igual a función: subrayar un corchete abierto («A»), coma b (corchete cerrado). Esto aumenta la velocidad de ejecución del código y permite la reutilización
+    del bloque de código de una manera mucho más cómoda. Otra convención de codificación es nombrar las funciones y los archivos en minúsculas con guiones bajos. ¿Se pregunta
+    por qué? Python usa la convención de nomenclatura y tiene muchas bibliotecas integradas y funciones predefinidas que usan las convenciones de nomenclatura comunes. Por lo
+    tanto, se recomienda usar un nombre de función en minúscula, preferiblemente con guiones bajos, para que las funciones sean únicas.
+
+Por ejemplo, en lugar de escribir el nombre de la función como comp Surface con S mayúscula Radiación con R mayúscula entre corchetes abiertos y corchetes cerrados, escriba comp
+    underscore surface underscore radiation entre corchetes abiertos y corchetes cerrados entre corchetes. Una excepción a la regla son los criterios de denominación de los
+    paquetes de Python, en los que, por lo general, no se recomienda usar guiones bajos. Por ejemplo, en lugar de escribir mi paquete de guiones bajos, escribe mypackage.
+
+Nombrar las clases con CamelCase también es una convención de codificación. CamelCase, o el caso CapWord, es una convención de nomenclatura para las clases que tiene una buena
+    aceptación en la comunidad de programadores. CamelCase también ayuda a distinguir entre clases y funciones en el código. Por ejemplo, en lugar de escribir la clase Lam
+    underscore squirrel underscore Cage, lo mejor es llamar a la clase Lam Squirrel Cage con las iniciales L, S y C en mayúsculas.
+
+Utilice la convención de codificación de poner todas las palabras en mayúsculas y separarlas con guiones bajos para mantener la coherencia.
+El nombre suele indicar el propósito de la constante, por ejemplo, MAX_FILE_UPLOAD_SIZE en mayúsculas. Hablamos de la convención y las directrices de codificación.
+Los desarrolladores de software suelen utilizar el análisis de código estático para gestionar el cumplimiento de estas pautas de estilo. El análisis de código estático es un
+    método para evaluar el código según un estilo y un estándar predefinidos sin ejecutar el código. El análisis estático ayuda a detectar problemas, como errores de
+    programación, infracciones de los estándares de codificación, valores indefinidos , infracciones de sintaxis y vulnerabilidades de seguridad. Puedes usar la biblioteca
+    PyLint para comprobar si tu código Python cumple con las directrices del PEP8. En este vídeo, aprendiste lo siguiente: escribir código coherente ayuda a todos los miembros
+    del equipo a leer y entender el código con facilidad. Las pautas del PEP8 para una mejor legibilidad del código incluyen las siguientes: cuatro espacios para la sangría,
+    usar líneas en blanco para separar funciones y clases y usar espacios alrededor de los operadores y después de las comas.
+
+Algunas convenciones de codificación para garantizar la coherencia y la manejabilidad del código incluyen: añadir bloques de código más grandes dentro de las funciones, nombrar
+    funciones y archivos en minúsculas con guiones bajos, nombrar clases con camelCase y nombrar las constantes en mayúsculas con guiones bajos para separar las palabras.
+Utilice el método de análisis de código estático para evaluar su código con respecto a un estilo y estándar predefinidos sin ejecutar el código."

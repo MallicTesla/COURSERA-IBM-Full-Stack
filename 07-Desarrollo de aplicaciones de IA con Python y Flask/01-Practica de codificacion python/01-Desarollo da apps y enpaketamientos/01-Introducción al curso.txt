@@ -1,0 +1,14 @@
+"Bienvenido a este curso sobre el desarrollo de aplicaciones basadas en IA utilizando Python y Flask. Python se encuentra entre los diez lenguajes de programación más utilizados a nivel mundial, según una encuesta realizada por StackOverflow (https://stackoverflow.blog/2023/06/13/developer-survey-results-are-in/). Flask es un microframework de Python con una dependencia mínima o nula de bibliotecas externas. Con Python y Flask, un programador puede desarrollar aplicaciones concisas, incluso incorporar componentes de IA, y también puede formar parte fácilmente de una solución escalable. Después de completar este curso, podrá: Describir los pasos y procesos involucrados en la creación de una aplicación. Cree módulos de Python, ejecute pruebas unitarias y empaquete aplicaciones. Implemente aplicaciones en la web
+    mediante el marco Flask. Además, cree e implemente una aplicación basada en IA en un servidor web utilizando las bibliotecas de IA integradas de IBM Watson y Flask.
+
+Este curso está dirigido a cualquier persona con conocimientos básicos de programación, un conocimiento básico de Python y que esté interesada en crear aplicaciones web
+    reutilizables con integración de IA. El módulo 1 le presentará los conceptos básicos del desarrollo de aplicaciones, incluido el ciclo de vida y las mejores prácticas de
+    programación. También tendrá la oportunidad de crear módulos, ejecutar pruebas unitarias y empaquetar aplicaciones. También aprenderá las prácticas de codificación ideales
+    para Python y aprenderá a ejecutar análisis de código estático. En el módulo 2, comenzará con una introducción a Flask. A continuación, se le presentarán los conceptos de
+    implementación, incluidas las rutas, los objetos de solicitud y respuesta, el manejo de errores y los decoradores. También podrá crear e implementar una aplicación con Flask.
+
+Finalmente, en el módulo 3, tendrá la oportunidad de aplicar todos sus conocimientos de los módulos anteriores para desarrollar aplicaciones web funcionales y aplicaciones web
+    basadas en IA utilizando bibliotecas de IA integradas en Watson. Con un proyecto práctico y un proyecto graduado, podrá demostrar su competencia en la creación e
+    implementación de aplicaciones con Flask. Debes enviar tu trabajo para el proyecto calificado a tus compañeros. ¡Hay mucho que cubrir aquí! Para aprovechar al máximo este
+    curso, asegúrate de: ver todos los vídeos, comprobar tu aprendizaje con cada cuestionario y completar todos los laboratorios prácticos. Si tienes algún problema con el
+    material del curso, no dudes en ponerte en contacto con nosotros en el foro de discusión. Gracias por formar parte de nuestro curso, ¡y bienvenidos!"

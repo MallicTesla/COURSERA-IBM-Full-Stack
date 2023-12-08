@@ -1,0 +1,49 @@
+"Bienvenido al «Ciclo de vida del desarrollo de aplicaciones». Después de ver este vídeo, podrá: Enumerar los pasos del ciclo de vida del desarrollo de aplicaciones Describir
+    las diferentes fases del ciclo de vida del desarrollo de aplicaciones y reconocer la importancia de escribir los códigos de las aplicaciones en varios archivos Imagínese.
+
+Un cliente le pide que cree una aplicación para ayudar a sus empleados a realizar un seguimiento de sus tareas diarias. Ahora, imagine un escenario en el que un cliente quiere
+    que cree una aplicación web para gestionar las reservas de hotel, desde la creación hasta la salida del cliente. En cualquiera de los dos escenarios, ¿se puede empezar a
+    crear la aplicación cuando el cliente hace una solicitud? ¡La verdad es que no! Deberá realizar ciertas actividades, como analizar los requisitos, planificar y codificar,
+    antes de que la aplicación esté lista para los usuarios. Independientemente del tipo de aplicación, cada aplicación pasará por diferentes fases, lo que se denomina ciclo de
+    vida de desarrollo de la aplicación. Puede dividir el ciclo de vida del desarrollo de aplicaciones en siete fases: recopilación de requisitos, análisis, diseño, código y
+    pruebas, pruebas de usuario y sistema, producción y mantenimiento. Analicemos en detalle cada una de las fases de desarrollo de la aplicación. La recopilación de requisitos
+    es la primera fase del proceso de desarrollo de la aplicación. En la fase de recopilación de requisitos, recopilará los requisitos en todos los aspectos de la aplicación,
+    incluidos los requisitos de los usuarios, los requisitos empresariales y los requisitos técnicos. Consideremos la aplicación de reservas de hoteles.
+
+Para esta aplicación, un requisito de los usuarios puede ser que los usuarios puedan ver las diferentes habitaciones y servicios disponibles. Determinar el precio correcto para
+    las diferentes habitaciones y servicios puede ser un requisito empresarial. Un requisito técnico podría ser que la aplicación se ejecute en todos los navegadores y
+    dispositivos móviles. El objetivo debería ser recopilar tantos requisitos como sea posible, incluso si parecen redundantes o triviales. También debe identificar cualquier
+    limitación de diseño y viabilidad del modelo de negocio. Por ejemplo, en el caso de la aplicación de reservas de hoteles, una limitación es que el servidor debe mantener
+    actualizado el estado de la disponibilidad de las habitaciones en todo momento, lo que tiene un coste asociado. Por lo tanto, para mantener la viabilidad del negocio, se
+    añade una pequeña tarifa de conveniencia al pago final. Una vez recopilados los requisitos y las restricciones, debe analizar cada uno de ellos para crear una posible
+    solución para el diseño de la aplicación. Durante el análisis y el diseño, es posible que se realicen varias rondas de verificación y revisión para crear una solución
+    modelo que cumpla con todos los requisitos especificados. En todas las fases de análisis y diseño del desarrollo de la aplicación, debe mantener la documentación adecuada
+    con registros de todas las actualizaciones del diseño. Esta documentación debe ser clara y concisa, tal como se utilizó durante la fase de código y prueba.
+
+El diseño final propuesto y los requisitos especificados pasan a la fase de código y prueba. Durante la fase de código y prueba, el equipo utiliza los requisitos de programación
+    especificados en la documentación de diseño para codificar, probar, revisar y probar los programas de aplicación hasta que el código cumpla con todos los requisitos
+    documentados. Repasemos la fase de prueba. Las pruebas que realizas para el código de la unidad se denominan pruebas unitarias. Realice las pruebas unitarias a nivel de
+    programación para asegurarse de que cumple con todas las especificaciones requeridas. Tras la prueba unitaria, puede generar una versión de la aplicación aceptable.
+
+A continuación, la nueva versión de la aplicación se somete a una serie de pruebas a nivel de usuario y sistema. Las pruebas de usuario verifican la funcionalidad desde el punto
+    de vista del usuario. Además, tendrá que ejecutar varias pruebas a nivel del sistema, incluidas las pruebas de integración y rendimiento. Las pruebas de integración
+    verifican que todos los programas involucrados continúen funcionando según lo esperado después de la integración. Las pruebas de integración también verifican que la
+    aplicación funcione dentro de un marco más amplio. Las pruebas de rendimiento ayudan a evaluar la velocidad, la escalabilidad y la estabilidad de la aplicación en función de
+    las diferentes cargas de trabajo. Tras realizar las pruebas, puede generar una nueva versión de la aplicación y enviarla a producción. Una vez en producción, los usuarios
+    finales pueden acceder a ella y utilizarla. Debe asegurarse de que la aplicación funcione correctamente y de que esté disponible para los usuarios.
+
+Cuando la aplicación se encuentra en la fase de producción, debe permanecer en un estado estable. En un estado estable, no debe realizar ningún cambio en la aplicación.
+Sin embargo, esto no siempre es posible. Por ejemplo, es posible que deba realizar cambios en la aplicación en caso de error. Estos cambios se controlan rigurosamente y se
+    prueban exhaustivamente antes de implementarlos en producción. La última fase del ciclo de vida del desarrollo de aplicaciones es el mantenimiento. Es posible que la
+    aplicación necesite una actualización o que necesite añadir nuevas funciones. En este caso, las nuevas funciones deben pasar por todas las fases anteriores antes de
+    integrarse en la versión de la aplicación implementada en producción. Repasemos brevemente por qué mantener varios archivos para codificar diferentes funcionalidades es una
+    buena práctica. Por lo general, cada aplicación tiene múltiples funcionalidades y los requisitos para cada funcionalidad pueden variar. La mejor práctica es codificar cada
+    funcionalidad en un archivo independiente. A continuación, puede crear un programa central que ejecute la aplicación y llame a los archivos individuales para realizar
+    funciones específicas. Este enfoque de organización del código hace que el mantenimiento del código sea eficiente y fácil. Tener varios archivos también ayuda a la hora de
+    añadir nuevas funciones a una aplicación existente. Al escribir el código de una nueva funcionalidad en un archivo independiente, solo el archivo pasará por todo el proceso
+    de diseño y verificación antes de integrarse en la aplicación en ejecución. En este vídeo, aprendió que: El ciclo de vida del desarrollo de aplicaciones consta de siete
+    fases, que incluyen: recopilación de requisitos, en la que se recopilan los requisitos de usuario , empresariales y técnicos para la aplicación Análisis, diseño de la
+    solución completa Código y prueba, creación y prueba los diferentes componentes de la aplicación Prueba de usuario y sistema, en la que los usuarios prueban la aplicación
+    para determinar su usabilidad y se realizan pruebas de integración del sistema y pruebas de rendimiento Producción, donde la aplicación está disponible para Mantenimiento
+    para todos los usuarios finales, donde se actualizan o se corrigen los problemas del usuario o del sistema Para una codificación eficiente, utilice siempre un programa
+    central para llamar a los archivos y funciones individuales para realizar diferentes acciones."
