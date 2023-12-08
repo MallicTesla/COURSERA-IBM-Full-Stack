@@ -1,0 +1,34 @@
+"En este vídeo repasaremos el lenguaje de marcado de hipertexto o HTML para webscraping. Hay muchos datos útiles disponibles en las páginas web, como los precios de los
+    inmuebles y las soluciones a las preguntas de codificación.
+
+El sitio web Wikipedia es un repositorio de información mundial. Si tienes conocimientos de HTML, puedes usar Python para extraer esta información. En este vídeo, revisará el
+    HTML de una página web básica, comprenderá la composición de una etiqueta HTML, comprenderá los árboles HTML y comprenderá las tablas HTML. Supongamos que te piden que
+    busques el nombre y el salario de los jugadores de una Liga Nacional de Baloncesto en la siguiente página web. La página web está compuesta de HTML.
+Consiste en texto rodeado por una serie de elementos de texto azules encerrados entre corchetes angulares denominados etiquetas. Las etiquetas indican al navegador cómo mostrar
+    el contenido. Los datos que necesitamos están en este texto. La primera parte contiene el «DOCTYPE html» que declara que este documento es un documento HTML. el
+    <html>elemento es el elemento raíz de una página HTML y el <head>elemento contiene metainformación sobre la página HTML. A continuación, tenemos el cuerpo, que es lo que se
+    muestra en la página web. Por lo general, estos son los datos que nos interesan, vemos los elementos con una «h3», es decir, un encabezado de tipo 3, hace que el texto sea
+    más grande y en negrita. Estas etiquetas tienen los nombres de los jugadores, fíjate en los datos que aparecen entre los elementos. Comienza con un h3 entre paréntesis y
+    termina con una barra h3 entre paréntesis. También hay una etiqueta diferente, «p», es decir, párrafo, cada etiqueta p contiene el salario de un jugador.
+
+Veamos más de cerca la composición de una etiqueta HTML. Este es un ejemplo de una etiqueta de anclaje HTML. Aparecerá IBM y, al hacer clic en él, lo enviará a IBM.com. Tenemos
+    el nombre de la etiqueta, en este caso «a». Esta etiqueta define un hipervínculo, que se utiliza para vincular de una página a otra. Resulta útil pensar en el nombre de cada
+    etiqueta como una clase en Python y en cada etiqueta individual como una instancia. Tenemos la etiqueta inicial o inicial y tenemos la etiqueta final. Tiene el nombre de la
+    etiqueta precedido por una barra oblicua. Estas etiquetas contienen el contenido, en este caso lo que se muestra en la página web. Tenemos el atributo, que está compuesto
+    por el nombre del atributo y el valor del atributo. En este caso, es la URL de la página web de destino. Las páginas web reales son más complejas.
+
+Dependiendo del navegador que utilices, puedes seleccionar el elemento HTML y, a continuación, hacer clic en Inspeccionar. El resultado te permitirá inspeccionar el HTML.
+También hay otros tipos de contenido, como CSS y JavaScript, que no abordaremos en este curso. El elemento real se muestra aquí. En realidad, cada documento HTML puede
+    denominarse árbol de documentos. Repasemos un ejemplo sencillo. Las etiquetas pueden contener cadenas y otras etiquetas. Estos elementos son los elementos secundarios de la
+    etiqueta. Podemos representarlo como un árbol genealógico. Cada etiqueta anidada es un nivel del árbol. La etiqueta HTML de la etiqueta contiene la etiqueta principal y la
+    etiqueta corporal. La etiqueta con la cabeza y el cuerpo descienden de la etiqueta html. En particular, son los elementos secundarios de la etiqueta HTML.
+
+La etiqueta HTML es su padre. La cabeza y la placa corporal son hermanas, ya que están al mismo nivel. La etiqueta de título es la secundaria de la etiqueta de cabeza y su
+    padre es la etiqueta de cabeza. La etiqueta de título es una descendiente de la etiqueta HTML, pero no su hija. Las etiquetas de encabezado y párrafo son las secundarias de
+    la etiqueta corporal y, como todas son secundarias de la etiqueta corporal, son hermanas entre sí. La etiqueta en negrita es un elemento secundario de la etiqueta de
+    encabezado, el contenido de la etiqueta también forma parte del árbol, pero puede resultar difícil de dibujar. A continuación, repasemos las tablas HTML. Para definir una
+    tabla HTML tenemos la etiqueta de tabla. Cada fila de la tabla se define con una <tr>etiqueta, también puede usar una etiqueta de encabezado de tabla para la primera fila.
+
+La celda de la fila de la tabla contiene un conjunto de <td>etiquetas, cada una de las cuales define una celda de la tabla. Para la primera fila tenemos la primera celda; para
+    la primera fila tenemos la segunda celda; y así sucesivamente. Para la segunda fila tenemos; y para la segunda fila tenemos la primera celda; para la segunda fila tenemos la
+    segunda celda; y así sucesivamente. Ahora tenemos algunos conocimientos básicos de HTML. Ahora intentemos extraer algunos datos de una página web"

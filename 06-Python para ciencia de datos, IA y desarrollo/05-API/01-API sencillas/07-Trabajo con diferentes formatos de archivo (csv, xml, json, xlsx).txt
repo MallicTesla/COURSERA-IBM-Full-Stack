@@ -1,0 +1,28 @@
+"Hola. Bienvenido a Trabajar con diferentes formatos de archivo Después de ver este vídeo, será capaz de: Definir diferentes formatos de archivo como csv, xml y json Escribir
+    programas sencillos para leer y extraer datos Qué bibliotecas de Python son necesarias para extraer datos Al recopilar datos encontrará que hay muchos formatos de archivo
+    diferentes que necesitan ser recopilados o leídos con el fin de completar una historia o un análisis basado en datos.
+
+Al recopilar los datos Python puede simplificar el proceso con sus bibliotecas predefinidas, pero antes de explorar Python veamos primero algunos de los distintos formatos de
+    archivo. Al mirar el nombre de un archivo notará una extensión al final del título. Estas extensiones le permiten saber qué tipo de archivo es y qué necesita para abrirlo.
+
+Por ejemplo, si ve un título como "ArchivoEjemplo.csv" sabrá que se trata de un archivo "csv". Este es sólo un ejemplo de los diferentes tipos de archivo , ya que existen muchos
+    más como "json" o "xml". Cuando nos encontramos con estos diferentes formatos de archivo e intentamos acceder a sus datos necesitamos utilizar librerías Python para hacer
+    este proceso más sencillo. La primera biblioteca de Python con la que hay que familiarizarse se llama Pandas. Importando esta biblioteca al principio del código podremos
+    leer fácilmente los distintos tipos de archivos. Ya que hemos importado la biblioteca Pandas, vamos a utilizarla para leer el primer archivo "csv"
+En este caso nos hemos encontrado con el archivo "ArchivoEjemplo.csv". El primer paso es asignar el archivo a una variable. A continuación, crear otra variable para leer el
+    archivo con la ayuda de la biblioteca Panda. A continuación, podemos llamar a la función read_csv para dar salida a los datos en la pantalla. En este ejemplo no había
+    cabeceras para los datos, por lo que se añadió la primera línea como cabecera. Dado que no queremos la primera línea de datos como cabecera, averigüemos cómo corregir este
+    problema. Ahora que hemos aprendido a leer y dar salida a los datos de un archivo "csv", vamos a darle un aspecto un poco más organizado. En el último ejemplo pudimos
+    imprimir los datos pero como el archivo no tenía cabeceras imprimió la primera línea de datos como cabecera. Resolvemos esto fácilmente añadiendo un atributo dataframe.
+Utilizamos la variable "df" para llamar al archivo y luego añadimos el atributo "columns". Añadiendo esta única línea a nuestro programa podemos organizar ordenadamente la
+    salida de datos en las cabeceras especificadas para cada columna.
+
+El siguiente formato de archivo que exploraremos es el formato de archivo "json". En este tipo de archivo el texto se escribe en un formato de datos independiente del lenguaje
+    y es similar a un diccionario de Python. El primer paso para leer este tipo de archivo es importar "json". Después de importar "json" podemos añadir una línea para abrir el
+    archivo llamar al atributo "load" de "json" para comenzar y leer el archivo y por último podemos entonces imprimir el archivo.
+
+El siguiente formato de archivo es "xml". Este tipo de archivo también se conoce como Extensible Markup Language. Aunque la librería Pandas no tiene un atributo para leer este
+    tipo de archivo exploremos cómo parsear este tipo de archivo. El primer paso para leer este tipo de archivos es importar xml. Al importar esta biblioteca podemos utilizar el
+    atributo "etree" para analizar el archivo "xml". A continuación, añadimos las cabeceras de las columnas y las asignamos al marco de datos. A continuación, creamos un bucle
+    para recorrer el documento para recopilar los datos necesarios y anexar los datos a un marco de datos. En este vídeo, ha aprendido: Cómo reconocer diferentes tipos de
+    archivos Cómo utilizar las bibliotecas de Python para extraer datos Cómo utilizar marcos de datos al recopilar datos"

@@ -1,0 +1,35 @@
+"En este vídeo trataremos el webscraping. Después de ver este vídeo, podrá: definir el web scraping, entender el papel de los objetos BeautifulSoup, aplicar el método find_all y
+    crear un webscrape de un sitio web.
+
+¿Qué harías si quisieras analizar cientos de puntos de datos para encontrar a los mejores jugadores de un equipo deportivo? ¿Empezarías a copiar y pegar manualmente la
+    información de diferentes sitios web en una hoja de cálculo? ¿ Pasas horas intentando encontrar los datos correctos y, finalmente, te das por vencido porque la tarea era
+    demasiado abrumadora? Ahí es donde el webscraping puede ayudar. El webscraping es un proceso que se puede utilizar para extraer automáticamente información de un sitio web y
+    se puede realizar fácilmente en cuestión de minutos y no de horas. Para empezar, solo necesitamos un poco de código Python y la ayuda de dos módulos llamados Requests y
+    Beautiful Soup. Supongamos que te piden que busques el nombre y el salario de los jugadores de una Liga Nacional de Baloncesto en la siguiente página web.
+
+Importamos BeautifulSoup. Podemos almacenar el HTML de la página web como una cadena en la variable HTML. Para analizar un documento, páselo al constructor BeautifulSoup.
+Obtenemos el objeto Beautiful Soup, soup, que representa el documento como una estructura de datos anidada. BeautifulSoup representa el HTML como un conjunto de objetos en forma
+    de árbol con métodos utilizados para analizar el HTML. Revisaremos el objeto BeautifulSoup utilizando el objeto BeautifulSoup, soup, que creamos. El objeto etiqueta
+    corresponde a una etiqueta HTML del documento original. Por ejemplo, la etiqueta «título». Considera la etiqueta<h3>. Si hay más de una etiqueta con el mismo nombre, se
+    selecciona el primer elemento con esa etiqueta. En este caso de Lebron James, vemos que el nombre está encerrado en el atributo «b» en negrita. Para extraerlo, usa la
+    representación en forma de árbol. Usemos la representación del árbol. La variable tag-object se encuentra aquí. Podemos acceder al elemento secundario de la etiqueta o
+    navegar por la rama de la siguiente manera: Puede navegar hacia arriba en el árbol utilizando el atributo principal. La etiqueta secundaria variable se encuentra aquí.
+
+Podemos acceder al padre. Este es el objeto de etiqueta original. Podemos encontrar el hermano de «etiqueta objeto». Simplemente usamos el siguiente atributo hermano. Podemos
+    encontrar al hermano de uno de los hermanos. Simplemente usamos el siguiente atributo de hermano. Considera la etiqueta objeto secundario. Puede acceder al nombre y el
+    valor del atributo como un par clave-valor en un diccionario de la siguiente manera. Puede devolver el contenido como una cadena navegable, es como una cadena de Python que
+    admite la funcionalidad BeautifulSoup. Repasemos el método find_all. Se trata de un filtro. Puede utilizar filtros para filtrar en función del nombre de una etiqueta, sus
+    atributos, el texto de una cadena o alguna combinación de estos. Considera la lista de pizzerías. Como antes, crea un objeto BeautifulSoup. Pero esta vez, llámala tabla.
+
+El método find_all () busca en los descendientes de una etiqueta y recupera todos los descendientes que coinciden con tus filtros. <tr>Aplícalo a la tabla con la etiqueta.
+    <tr>El resultado es una iterable de Python como una lista, para la que cada elemento es un objeto de etiqueta. Esto corresponde a cada fila de la lista, incluido el
+    encabezado de la tabla. Cada elemento es un objeto de etiqueta. Considera la primera fila. Por ejemplo, podemos extraer la primera celda de la tabla. También podemos
+    recorrer en iteración cada celda de la tabla. En primer lugar, recorremos la lista de «filas de la tabla» mediante la fila variable. Cada elemento corresponde a una fila de
+    la tabla. Podemos aplicar el método find all para buscar todas las celdas de la tabla y, a continuación, podemos recorrer en iteraciones las celdas variables de cada fila.
+
+Para cada iteración, la celda variable corresponde a un elemento de la tabla para esa fila en particular. Continuamos recorriendo cada elemento y repitiendo el proceso para
+    cada fila. Veamos cómo aplicar BeautifulSoup a una página web. Para raspar una página web, también necesitamos la biblioteca de solicitudes. El primer paso es importar los
+    módulos necesarios. Usa el método get de la biblioteca de solicitudes para descargar la página web. La entrada es la URL. Utilice el atributo text para obtener el texto y
+    asignarlo a la página variable. A continuación, crea un objeto BeautifulSoup llamado «soup» a partir de la página variable. Te permitirá analizar la página HTML.
+
+Ahora puedes raspar la página. Echa un vistazo a los laboratorios para obtener más información."
