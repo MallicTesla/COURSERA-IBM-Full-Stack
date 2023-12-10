@@ -1,0 +1,49 @@
+"Bienvenido a «Aplicaciones y rutas básicas». Después de ver este vídeo, podrá: Crear y ejecutar una aplicación Flask con rutas básicas establecidas. Explica cómo devolver la
+    respuesta JSON del servidor a los clientes. Describa las diversas opciones de configuración disponibles en Flask Antes de crear su primera aplicación de Flask, asegúrese de
+    haber instalado Flask.
+
+A continuación, cree un archivo de Python que será su servidor. Vamos a llamar a este archivo app.py. Escribamos el código en este archivo. Primero, importe la clase F Flask en
+    mayúscula del módulo f Flask en minúscula. A continuación, crea una instancia de un objeto de la clase Flask como tu aplicación. El constructor toma un solo argumento de la
+    clase Scaffold. Se establece el nombre en el andamio pasando el nombre del módulo de la aplicación en la variable de nombre integrada. Este nombre se usa para buscar los
+    recursos del sistema de archivos y, por extensión, para proporcionar información de depuración. Ahora que ha definido su servidor, agreguemos la primera ruta. Desea devolver
+    un mensaje al cliente cuando llame a su servidor sin añadir una ruta. Debes usar el decorador @app para definir una ruta. El decorador toma la ruta como argumento.
+
+Por último, puede devolver texto o HTML desde el método. Veamos el código. El decorador @app se define en el método hello_world. Toma el argumento «/» y devuelve el mensaje HTML
+    «¡mi primera aplicación Flask en acción!» en negrita. El siguiente paso es ejecutar la aplicación. El primer paso es crear algunas variables de entorno del sistema.
+
+Necesita una variable FLASK_APP que contenga el nombre del archivo principal del servidor. Además, necesita una variable FLASK_ENV que definirá el entorno de desarrollo o
+    producción. Esta variable quedará obsoleta en Flask 2.3. Como puede ver, ha definido la variable de entorno FLASK_APP como el nombre de archivo que contiene el servidor
+    central y el FLASK_ENV de desarrollo. Finalmente, para ejecutar la aplicación, pase el argumento run al framework Flask ejecutando «Flask run».
+
+La aplicación Flask se ejecuta de forma predeterminada en el puerto 5000. Puedes ir a http://localhost:5000 para ver tu mensaje. Usemos también las herramientas de desarrollo
+    del navegador para ver qué información llega de tu servidor. La URL solicitada es http://localhost:5000. El método de solicitud es HTTP GET. La respuesta tiene un estado de
+    200, lo que indica que la respuesta ha sido correcta. El tipo de contenido del encabezado de la respuesta es «text/html».
+
+El servidor es Werkzeug y se ejecuta con una versión 3.6.15 de Python. Enhorabuena por ejecutar tu primera aplicación Flask. Debe configurar las variables de entorno para cada
+    aplicación antes de ejecutarla. Puede pasar la configuración al comando flask utilizando «--app» para identificar el archivo de Python que se va a ejecutar. Añada «--debug»
+    para habilitar el modo de desarrollo. El indicador de depuración también permite el reinicio automático cuando se modifican los archivos fuente y resulta útil cuando se
+    desarrollan aplicaciones y se desean ver los cambios al instante. En tu caso, la aplicación se almacena en un archivo llamado app.py, por lo que podrías haber omitido este
+    argumento, ya que Flask buscará app.py en el directorio actual de forma predeterminada. El resultado debería tener un aspecto parecido a este. La pantalla muestra la
+    aplicación Flask ejecutándose en modo de desarrollo como antes. Hay varias formas de devolver JSON desde la aplicación Flask. Un método es devolver un objeto serializable,
+    como un diccionario o una lista. En el código dado, devuelves un diccionario de Python. Flask utilizará el módulo JSON de Python para devolver JSON al cliente.
+
+Vamos a probar si esto funciona con el comando curl. Hará una solicitud GET a localhost:5000. Puedes ver un estado de respuesta de 200 OK. En lugar de HTML, también puedes ver
+    el tipo de contenido «Aplicación/JSON». Por último, puedes ver el JSON que se devuelve. Si devuelves un objeto más complejo, como una clase, asegúrate de que se pueda
+    serializar. La segunda forma es usar el método jsonify proporcionado por Flask. Este método toma los pares clave-valor en la entrada y devuelve el JSON apropiado.
+
+Veamos un ejemplo. Primero debe importar jsonify desde Flask. A continuación, pasa pares clave-valor a jsonify. Deberías obtener el mismo resultado que antes en el navegador.
+Las herramientas para desarrolladores deberían tener el mismo aspecto, con un código de estado de 200 OKs y mostrar el tipo de contenido «Aplicación/JSON». Observó dos
+    configuraciones con las variables FLASK_ENV y FLASK_APP. Flask ofrece otras opciones de configuración que puedes usar en tu aplicación: ENV: indica el entorno, la producción
+    o el desarrollo en los que se ejecuta la aplicación. DEBUG: habilita el modo de depuración. PRUEBA: habilita el modo de prueba. SECRET_KEY: se usa para firmar la cookie de
+    sesión. SESSION_COOKIE_NAME: el nombre de la cookie de sesión. SERVER_NAME: vincula el host y el puerto, y JSONIFY: el valor predeterminado es « application/JSON».
+
+Además, hay otras formas de proporcionar opciones de configuración a Flask. Flask proporciona un objeto de configuración. Puede insertar opciones de configuración en este objeto.
+Si ya tiene variables de entorno, puede cargarlas en el objeto de configuración. Por último, puedes guardar las opciones de configuración en un archivo JSON independiente y
+    cargarlas con el método «from_file» que proporciona el objeto de configuración.
+
+A medida que tu aplicación crezca, debes crear una estructura de directorios en lugar de usar un solo archivo de Python. Hay muchas maneras de estructurar la aplicación.
+He aquí un ejemplo: almacene el código fuente principal en su directorio de módulos y almacene todas las configuraciones en su archivo. Almacene todos los activos estáticos,
+    como los archivos de imagen, JavaScript y CSS, por separado. Almacene todo el contenido dinámico en un directorio de plantillas. Coloque todos los archivos de prueba en un
+    directorio de prueba y disponga de un entorno virtual que pueda activarse para instalar la versión correcta de las dependencias. En este vídeo, aprendiste que: puedes crear
+    un servidor instanciando la clase Flask. Usa el decorador @app para crear controladores de URL. Devuelve mensajes de cadena o usa el método jsonify () para devolver objetos
+    JSON. Puede establecer la configuración de la aplicación directamente desde las variables de entorno, los archivos de Python ( app. config object)."

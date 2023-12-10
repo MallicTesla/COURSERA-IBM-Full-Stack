@@ -1,0 +1,28 @@
+"Bienvenido a las bibliotecas y marcos de Python para el desarrollo de aplicaciones. Después de ver este vídeo, podrás para: Describir las bibliotecas de Python para el
+    desarrollo de aplicaciones Definir un marco para el desarrollo de aplicaciones Identificar los beneficios de usar un marco para el desarrollo de aplicaciones Compare marcos
+    y bibliotecas Las bibliotecas de Python son como conjuntos de herramientas. Cada biblioteca tiene herramientas específicas para simplificar y agilizar ciertas tareas de
+    programación. Las bibliotecas como NumPy facilitan las matemáticas avanzadas cálculos. Los pandas ofrecen manipulación y análisis de datos capacidades. Matplotlib simplifica
+    la visualización de datos. Estas bibliotecas ahorran a los desarrolladores una cantidad significativa tiempo y esfuerzo en la creación de estas funciones.
+
+Para el desarrollo de aplicaciones web, algo de Python las bibliotecas son esenciales. La biblioteca de solicitudes simplifica el proceso de enviar solicitudes HTTP.
+BeautifulSoup facilita la recopilación de información desde páginas web para iterar, buscar y modificar el árbol de análisis. SQLAlchemy es un conjunto de herramientas de SQL y
+    objeto-relacional Herramienta de mapeo u ORM. Es un sistema que ofrece a los desarrolladores de aplicaciones toda la potencia y flexibilidad de SQL. PyTest es un marco de
+    pruebas que permite los usuarios pueden crear fácilmente pruebas pequeñas y sencillas, pero escalarlas para admitir pruebas funcionales complejas para aplicaciones y
+    bibliotecas. Los marcos son estructuras predefinidas para la aplicación desarrollo. Además, los marcos proporcionan un conjunto de directrices para el desarrollo de
+    aplicaciones. Los marcos facilitan las buenas prácticas de codificación al ofrecer una estructura bien definida para escribir y organizar el código y permitir la
+    reutilización de bibliotecas de códigos para funciones adicionales. Algunos ejemplos de marcos incluyen Django, Flask y Web2Py. El uso de un marco tiene varios beneficios
+    para el desarrollo de aplicaciones. Uno de los beneficios de usar un marco es que facilita el proceso de desarrollo con las bibliotecas de código, los módulos y directrices
+    para desarrolladores. Con herramientas de depuración prediseñadas, marcos web simplifique el proceso de depuración de aplicaciones web para los desarrolladores.
+
+Otro beneficio de usar marcos es que los desarrolladores pueden añadir más funciones utilizando menos código. ¿Cómo? Un marco está equipado con varios preconstruidos bibliotecas
+    y módulos, que un desarrollador puede aprovechar al crear su código. Un desarrollador no necesita crear todo lo necesario funcionalidades desde cero. El uso de marcos mejora
+    la gestión de bases de datos eficiencia. Los marcos vienen con una base de datos incorporada herramientas de integración, que ayudan a integrar sin problemas los puntos
+    finales de las bases de datos para la transferencia de datos. Siendo la seguridad una preocupación clave para la aplicación usuarios, una ventaja de utilizar marcos es que
+    los desarrolladores pueden aprovechar la seguridad integrada características y directrices para reforzar la seguridad. Veamos brevemente cómo los marcos y las bibliotecas se
+    diferencian entre sí. El marco contiene el flujo básico y la arquitectura de una aplicación, que le permite crear la aplicación completa. Una biblioteca de Python es un
+    conjunto de paquetes que realizan solo una funcionalidad específica. En este vídeo, aprendiste que: las bibliotecas de Python son como kits de herramientas.
+
+Cada biblioteca tiene herramientas específicas para simplificar y agilizar ciertas tareas de programación. Los marcos son estructuras de aplicación predefinidas desarrollo.
+El uso de marcos proporciona varios beneficios, incluida la facilitación del proceso de desarrollo, la simplificación del proceso de depuración y la habilitación más
+    funcionalidad con menos código, mejorando la eficiencia de la administración de bases de datos y haciendo cumplir seguridad. Framework le permite crear el completo
+    aplicación, mientras que las bibliotecas ayudan con funciones específicas."

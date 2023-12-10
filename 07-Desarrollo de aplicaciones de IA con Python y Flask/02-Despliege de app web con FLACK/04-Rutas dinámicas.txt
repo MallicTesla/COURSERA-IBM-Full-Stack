@@ -1,0 +1,22 @@
+"Bienvenido a «Dynamic Routes». Después de ver este vídeo, podrás: Describir cómo llamar a una API externa en Flask Describir cómo pasar parámetros a las rutas en Flask Veamos
+    un ejemplo de cómo se puede llamar a una API externa en Flask. La forma más sencilla es usar la biblioteca de solicitudes de Python. Puedes devolver el JSON de la API
+    externa a tu cliente. Sin embargo, también puedes procesar los resultados antes de devolverlos a tu cliente. He aquí un ejemplo: primero, se importan los módulos Flask y se
+    solicitan. El código aquí asume que ya has instalado la biblioteca de solicitudes. A continuación, puede definir su ruta. Usa la biblioteca de solicitudes para solicitar la
+    API de openlibrary y buscar información sobre el autor Michael Crichton. Guarda la respuesta en una variable llamada res.
+
+A continuación, compruebe si el código de estado de la respuesta de la API de openlibrary es 200. Si la respuesta es 200, devuelves el JSON al cliente. Si la respuesta resulta
+    ser 404, envías el mensaje «Algo ha ido mal». Por último, en este caso hipotético, si la respuesta es diferente, regresas con un estado de 500 y el mensaje «Error del
+    servidor». Al desarrollar las API RESTful, puedes enviar algún identificador de recurso como parte de la URL de la solicitud. Por ejemplo, si desea crear un punto final que
+    devuelva la información del libro según el número de libro estándar internacional (ISBN), pero en lugar de codificar el ISBN de forma rígida, quiere que el cliente lo envíe
+    como parte de la URL. Flask proporciona un enrutamiento dinámico para ello. Veamos un ejemplo concreto: añada la variable denominada isbn como parte dinámica de la URL.
+
+A continuación, pasa esta variable a la API de openlibrary. A continuación, el resultado se devuelve al cliente. Flask también le permite configurar el tipo de parámetro.
+El marco utiliza esta información para validar las solicitudes entrantes. Por ejemplo, puede crear un punto final de terminales y un SFO para obtener el número de terminales del
+    aeropuerto de San Francisco. Este decorador de rutas se activa si el usuario envía una cadena al final de la URL. Del mismo modo, en el ejemplo anterior, puedes dar el ISBN
+    como un número. Estos son algunos otros ejemplos de tipos de parámetros en Flask. Si bien string, int y float son parámetros simples, también puede usar parámetros complejos,
+    como path, para indicar una ruta web o una ruta de carpeta, o un identificador único universal (UUID) para indicar un identificador único, como el identificador único global
+    (GUID). A continuación, se muestra un ejemplo de UUID. Puede crear un punto final, «red», que tenga un UUID específico para obtener información sobre la red. Puedes escribir
+    este código donde la ruta espere un uuid variable de tipo uuid, el uuid se pase al método como argumento, devuelvas un mensaje de éxito si se encuentra el uuid; de lo
+    contrario, devuelves un código de error con el mensaje correspondiente. En este vídeo, aprendiste lo siguiente: puedes analizar el objeto de solicitud para obtener los
+    parámetros de la consulta, el cuerpo y otros argumentos. Puede establecer el estado de los objetos de respuesta antes de enviar una respuesta al cliente. Puede usar rutas
+    dinámicas para crear puntos finales RESTful"

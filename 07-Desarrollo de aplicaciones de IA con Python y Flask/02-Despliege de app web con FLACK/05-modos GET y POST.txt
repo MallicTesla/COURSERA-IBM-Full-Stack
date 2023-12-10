@@ -1,0 +1,54 @@
+"Bienvenido a «Objetos de solicitud y respuesta». Después de ver este vídeo, podrás: Explicar el objeto Flask Request y explicar el objeto Flask Response. Aprendamos a
+    personalizar las rutas en Flask. Defina la ruta con el decorador de rutas. El decorador @app .route usa de forma predeterminada el método GET. Los clientes solo pueden
+    enviar solicitudes GET a la ruta especificada. Puedes pasar un segundo argumento de métodos para controlar a qué métodos HTTP responde la ruta.
+
+Por ejemplo, observe los dos métodos siguientes que son iguales. El método GET está implícito en este código. Si bien este código especifica explícitamente el método GET.
+He aquí otro ejemplo. La URL «/health» responderá a las solicitudes GET y POST. Si la solicitud es GET, el código muestra el estado de ok y el método GET.
+Si la solicitud es POST, el código muestra el estado de ok y el método POST. Este es el resultado del comando GET curl. Si bien este es el resultado del comando POST curl.
+Todas las llamadas HTTP a Flask contienen el objeto de solicitud creado a partir de Flask. Clase de solicitud. Cuando un cliente solicita un recurso del servidor Flask, lo
+    gestiona el decorador @app .route. Puedes examinar y explorar el objeto de solicitud con el mismo método. La siguiente información está disponible en el objeto de solicitud:
+    la dirección del servidor en forma de tupla, host o puerto. Los encabezados enviados con la solicitud. Y la URL que es el recurso solicitado en la solicitud. access_route,
+    que muestra todas las direcciones IP de las solicitudes que se reenvían varias veces. full_path que representa la ruta completa de la solicitud, incluida cualquier cadena de
+    consulta. is_secure es true si un cliente hace una solicitud mediante el protocolo HTTPS o WSS. is_JSON es verdadero si la solicitud contiene datos JSON. Además, el
+    diccionario de cookies contiene todas las cookies enviadas con la solicitud. Además, puedes acceder a los siguientes datos desde el encabezado: Cache-Control: contiene
+    información sobre cómo almacenar en caché en los navegadores. Aceptar: informa al navegador qué tipo de contenido entiende el cliente.
+
+Aceptar codificación: indica el contenido del código. Agente de usuario: identifica el cliente, la aplicación, el sistema operativo o la versión. Accept-Language: solicita un
+    idioma y una configuración regional específicos. Y Host: especifica el número de host y puerto del servidor solicitado. Puede reemplazar el objeto de solicitud por un objeto
+    de solicitud personalizado, que suele ser opcional, ya que los atributos y métodos de la clase Flask Request son suficientes. Veamos ahora algunos valores reales que se
+    imprimen en el servidor cuando un cliente hace una solicitud. En este caso, el cliente es el comando CURL del terminal. El servidor de solicitudes es 127.0.0.1 o localhost
+    en el puerto 5000. A continuación, imprime algunos encabezados: El host es la ruta completa de localhost: 5000. El agente de usuario es la versión 7.79.1 de curl.
+
+Y el cliente ha solicitado el tipo de contenido de la aplicación/JSON. Veamos algunos atributos más del objeto de solicitud. La URL solicitada es http://localhost:5000.
+La lista de rutas de acceso contiene el valor único de 127.0.0.1. La ruta completa de la solicitud es la ruta de inicio indicada por una barra diagonal única. is_JSON es falso
+    porque no enviamos ningún dato con la solicitud GET. is_secure es falso porque la URL es HTTP y no HTTPS. Y la longitud del diccionario de cookies es cero. Hay varias formas
+    de obtener información del objeto de solicitud. Utilice get_data para acceder a los datos de la solicitud POST en forma de bytes. A continuación, usted es responsable de
+    analizar estos datos. También puedes usar el método get_JSON () para que los datos se analicen como JSON a partir de la solicitud de publicación. Flask también proporciona
+    métodos más específicos para obtener información exacta de la solicitud, de modo que no tengas que analizar los datos en un tipo específico. Args te proporcionará los
+    parámetros de consulta en forma de diccionario. JSON analizará los datos en un diccionario. los archivos le proporcionarán los archivos cargados por el usuario.
+
+El formulario contiene todos los valores publicados en el envío de un formulario. Y los valores combinan los datos de los argumentos con los datos del formulario.
+Ahora que sabe qué aspecto tiene el objeto de la solicitud y los métodos para obtener datos de los parámetros y el cuerpo de la solicitud, veamos cómo extraer valores
+    específicos de estos datos. Los tipos de devolución de los métodos que has visto hasta ahora son MultiDict, ImmutableMultiDict o CombinedMultiDict.
+
+Todas estas estructuras de datos se comportan como un diccionario de Python, y puedes usar la indexación o el método GET para extraer valores. Para la URL dada, te gustaría
+    extraer los parámetros de consulta de «capstone» y «rating». Primero, importas Flask y los módulos de solicitud en tu método. Extraes el valor del argumento del curso
+    mediante la indexación. A continuación, se extrae el valor del argumento de calificación mediante el método GET. El método GET devuelve el valor None si el argumento no está
+    presente, mientras que el método de indexación devuelve un error y detiene el servidor con una «solicitud incorrecta de 400». El mensaje muestra la solicitud en el navegador
+    con un final final y una valoración de 10. Flask proporcionará un objeto de respuesta al igual que proporciona un objeto de solicitud. Puedes usar el objeto de respuesta
+    para enviar atributos y encabezados personalizados al cliente. Algunos atributos de respuesta comunes son los siguientes: status_code indica el éxito o el fracaso de la
+    solicitud. Los encabezados proporcionan más información sobre la respuesta. content_type muestra el tipo de medio del recurso solicitado. content_length es el tamaño del
+    cuerpo del mensaje de respuesta. content_encoding indica cualquier codificación aplicada a la respuesta, por lo que el cliente sabe cómo decodificar los datos. mime-type
+    establece el tipo multimedia de la respuesta. Y caduca contiene la fecha o la hora después de la cual la respuesta se considera caducada. Estos son algunos métodos estándar
+    para los objetos de respuesta. set_cookie establece una cookie de navegador en el cliente. delete_cookie borra una cookie del cliente.
+
+Aprendamos cómo funciona Flask con el objeto de respuesta utilizando los diferentes métodos: cuando devuelves datos del método @route, se crea automáticamente un objeto de
+    respuesta con un status_code igual a 200 y un código HTML de tipo MIME. JSonify también crea un objeto de respuesta automáticamente. Puedes usar make_response para crear
+    una respuesta personalizada.
+
+Flask proporciona un método de redireccionamiento especial para devolver un código de estado 302 y redirigir al cliente a otra URL.
+Por último, Flask proporciona un método de cancelación para devolver una respuesta con una condición de error.
+En este vídeo, aprendiste que: Flask proporciona un objeto de solicitud y un objeto de respuesta para cada llamada de un cliente.
+Puedes obtener información adicional de la solicitud de Flask, como los encabezados.
+Puede analizar el objeto de solicitud para obtener los parámetros, el cuerpo y otros argumentos de la consulta.
+Puede establecer el estado de los objetos de respuesta antes de enviar una respuesta al cliente."

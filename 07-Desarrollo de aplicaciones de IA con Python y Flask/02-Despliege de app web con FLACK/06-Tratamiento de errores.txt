@@ -1,0 +1,40 @@
+"Bienvenido a «Gestión de errores». Después de ver este vídeo, podrás: Describir los diferentes estados HTTP que los servicios de API pueden devolver. Explica cómo funciona la
+    gestión de errores en Flask. Explica cómo devolver errores desde los puntos finales de tu API.
+
+Cada respuesta HTTP contiene un código de tres dígitos que indica un estado de error y de éxito diferente. El cliente es responsable de consumir este código de error.
+El código de respuesta válido oscila entre 100 y 599. Los códigos de error están organizados en categorías de cien cada uno. Los códigos de error del 100 al 199 indican que la
+    solicitud se ha recibido y son informativos. Los códigos de error del 200 al 299 indican que la solicitud se ha recibido y que la operación solicitada se ha realizado
+    correctamente. Los códigos de error entre los números 300 indican que hay una redirección en el servidor. Los códigos de error en el rango de 400 a 499 muestran un error en
+    la solicitud. Por último, los códigos de error del 500 al 599 indican un error en el servidor. Las API que escribirá en este curso seguirán esta nomenclatura. Por ejemplo,
+    si el cliente envía una solicitud GET para un recurso que no está disponible, usted puede devolver una respuesta 404. Si las solicitudes son incorrectas, puedes responder
+    con el estado 400. El servidor Flask devuelve automáticamente un estado 200 OK cuando regresas del método @app .route. 200 también se devuelve de forma predeterminada
+    cuando se utiliza el método jsonify () para responder a una solicitud. Se devolverá una respuesta correcta con un código de estado 200 cuando se ejecute el código en
+    cuestión. El código puede devolver un código diferente al predeterminado. Flask te permite enviar el código de estado en forma de tupla junto con la respuesta.
+
+En el código, devuelves una respuesta HTML que dice «¡mi primera aplicación en acción!» con un código de estado 200. También puedes usar el método make_response () para
+    establecer explícitamente el código de estado. Este código devuelve el mismo mensaje HTML y el mismo código de estado HTTP 200 que el código anterior, pero aquí se utiliza
+    el método make_response (). Veamos algunos ejemplos más de códigos que puede utilizar en este curso. El estado 200 se devuelve de forma predeterminada. Indica que la
+    solicitud se ha realizado correctamente. 201 indica al cliente que el servidor ha creado correctamente el recurso. 202 indica que la solicitud se ha aceptado y está en
+    proceso, y es común en las operaciones de procesamiento por lotes. El servidor devuelve 204 después de completar una solicitud satisfactoriamente; no devuelve ningún
+    contenido. Este estado es útil en los casos en los que no desea que el navegador realice ninguna acción. Por ejemplo, el usuario permanece en su página actual. 400 indica
+    que la solicitud no es válida. Este estado podría implicar que los parámetros faltan o son incorrectos o que la solicitud no es válida de alguna otra forma.
+
+El 401 indica que faltan las credenciales o no son válidas. 403 implica que las credenciales del cliente no son suficientes para cumplir con la solicitud. si el servidor no
+puede encontrar el recurso, devuelve el estado 404. 405 indica que la operación solicitada no es compatible. 500 se utiliza cuando hay un error en el servidor.
+
+Ahora que conoce los diferentes códigos HTTP, usted, como desarrollador, debe devolver el código correcto desde el servicio. Veamos un ejemplo.
+
+Este método search_response busca el parámetro de consulta q de la base de datos. El servicio llama al método simulado «fetch_from_database» después de analizar la consulta.
+El código devuelve el recurso al cliente si el recurso existe. El servidor devuelve implícitamente un código 200 y 404 si no encuentra el recurso.
+
+Llamemos a este punto final usando el programa curl. Llame a la ruta sin un parámetro de consulta. El comando curl devuelve un mensaje de «falta un parámetro de entrada» con un
+    estado de retorno de 422. A continuación, llama a la ruta con el ID de recurso correcto. El comando curl devuelve el recurso en forma de cuerpo y el estado a es 200.
+
+Por último, llama a la ruta con un recurso que no existe. El comando curl devuelve un mensaje de «recurso no encontrado» con un estado 404. Flask proporciona una forma de
+    gestionar los mensajes de error a nivel de aplicación. Aquí vemos un método que procesa el error 404 y devuelve el mensaje «API no encontrada» con un código de estado 404.
+
+Del mismo modo, este fragmento crea un controlador de errores para 500 errores y devuelve el mensaje «algo ha ido mal en el servidor».
+
+En este vídeo, aprendiste que: la respuesta HTTP requiere un código de estado para indicar qué ocurre cuando se procesa la solicitud. Existen varias clases de códigos de estado
+    HTTP que muestran el éxito, el error del usuario o el error del servidor. Flask devuelve implícitamente un código de éxito 200 con la respuesta. Puede proporcionar códigos
+    de estado de forma explícita. Flask proporciona controladores de errores a nivel de aplicación."

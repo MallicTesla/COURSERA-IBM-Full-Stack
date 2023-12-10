@@ -1,0 +1,65 @@
+"Bienvenido a Introducción a Flask. Después de ver este vídeo, podrá definir el framework web Flask y describir sus principales características. Explique cómo instalar Flask en
+    sus máquinas. Describa las principales dependencias de Flask y explique las principales diferencias entre Flask y otro framework web de Python llamado Django.
+
+Flask es un micromarco que puede crear aplicaciones web. No es obstinado como otros frameworks más grandes y no vincula al usuario a un conjunto específico de herramientas.
+Una de las dependencias complejas de Flask es Python. Ejecutará Flask 2.2.2, que requiere una versión 3.7 de Python como mínimo.
+
+En 2004, Armin Ronacher creó el framework como una broma de los inocentes. Rápidamente ganó popularidad por su facilidad de uso y extensibilidad. Flask proporciona las
+    dependencias mínimas que podría necesitar para crear una aplicación web. Sin embargo, es extensible y muchas extensiones comunitarias añaden funciones adicionales a Flask.
+
+Las principales características de Flask incluyen las siguientes. Flask tiene un servidor web que ejecuta aplicaciones en modo de desarrollo. Flask también viene con un
+    depurador para ayudar a depurar las aplicaciones. El depurador muestra el rastreo interactivo y el rastreo de pila en el navegador. Flask usa el registro estándar de Python
+    para los registros de aplicaciones, y usted puede usar el mismo registrador para registrar mensajes personalizados sobre su aplicación.
+
+Flask proporciona una forma de probar diferentes partes de su aplicación. La función de prueba permite a los desarrolladores seguir un enfoque basado en las pruebas. Puedes usar
+    frameworks como Pi test y Coverage para asegurarte de que tu código funcione como deseas. Por último, los desarrolladores pueden acceder a los objetos de solicitud y
+    respuesta para obtener argumentos y personalizar las respuestas.
+
+Ahora, las características adicionales de Flask son las siguientes. El framework admite activos estáticos como archivos CSS , archivos JavaScript e imágenes. Flask proporciona
+    etiquetas para cargar archivos estáticos en las plantillas. También puede desarrollar páginas dinámicas utilizando el framework de plantillas Jinja y estas páginas dinámicas
+    pueden mostrar información que puede cambiar para cada solicitud o comprobar si el usuario ha iniciado sesión.
+
+Flask proporciona enrutamiento y admite URL dinámicas que son extremadamente útiles para los servicios RESTful. Puede crear rutas para diferentes métodos HTTP y proporcionar
+    redirecciones en su aplicación. Puede escribir controladores de errores globales en Flask que funcionen a nivel de aplicación.
+
+Por último, es compatible con la gestión de las sesiones de los usuarios. Algunas de las extensiones de comunidad más populares que se pueden agregar a su aplicación son las
+    siguientes.
+
+    Flask-SQLAlchemy agregó soporte para ORM a Flask, denominado SQLAlchemy, lo que brinda a los desarrolladores una forma de trabajar con objetos de bases de datos en Python.
+    Flask-Mail ofrece la posibilidad de configurar un servidor de correo SMTP.
+    Flask-Admin le permite añadir fácilmente interfaces de administración a las aplicaciones de Flask.
+    Flask-Uploads le permite añadir archivos personalizados a su aplicación.
+    Flask-CORS permite que su aplicación gestione el intercambio de recursos entre orígenes, lo que posibilita las solicitudes de JavaScript de origen cruzado.
+    Flask-Migrate añade migraciones de bases de datos a SQLAlchemy ORM.
+    Flask-User agrega la autenticación, la autorización y otras actividades de administración de usuarios.
+    Marshmallow añade a su código un amplio soporte para la serialización y deserialización de objetos.
+    Celery es una potente cola de tareas que se puede utilizar para tareas sencillas en segundo plano y programas y programas complejos de almacenamiento múltiple.
+
+Flask está disponible en el administrador de paquetes de Python llamado pip, y pip está disponible en el entorno de laboratorio. Sin embargo, si lo va a instalar en sus máquinas,
+    se recomienda crear primero un entorno virtual con el módulo venv o bin venv. Puede instalar la versión 2.2.2 de Flask. Ahora, se recomienda fijar el número de versión de
+    las dependencias en su aplicación. Esto garantiza que la aplicación se pueda reproducir desde cero en diferentes entornos, como el desarrollo, la puesta en escena y la
+    producción. También garantiza que no se introduzcan nuevos problemas y errores por error cuando los paquetes se actualicen automáticamente sin un número de versión.
+
+Flask viene con algunas dependencias integradas que habilitan las diversas funciones.
+Werkzeug implementa WSGI o la interfaz de puerta de enlace del servidor web.
+
+Esta es la interfaz estándar de Python entre aplicaciones y servidores. Jinja es un lenguaje de plantillas que renderiza las páginas de su aplicación. MarkupSafe viene con Jinja.
+
+Evita las entradas no confiables al renderizar plantillas para evitar ataques de inyección. ItsDangerous se utiliza para asignar datos de forma segura. Esto ayuda a determinar
+    si los datos han sido manipulados y se utiliza para proteger la cookie de sesión de Flask.
+
+Por último, Click es un framework para escribir aplicaciones de línea de comandos. Proporciona el comando Flask y permite agregar comandos de administración personalizados.
+Para ver las dependencias integradas, puede usar el comando pip freeze en el entorno virtual y ver que todos los paquetes integrados están instalados de forma predeterminada.
+
+Ahora, otro framework para desarrolladores de Python es Django. Estas son algunas de las diferencias clave entre Flask y Django.
+
+Los juegos de Flask son un framework muy ligero. Django, por otro lado, es un framework completo. Como resultado, Flask solo proporciona las dependencias básicas necesarias para
+    crear una aplicación web. Sin embargo, el desarrollador puede elegir otras extensiones que proporcionen funciones adicionales. Django, por otro lado, incluye todo lo que
+    necesitas para crear una aplicación completa. Además, Flask es muy flexible. Puede añadir y quitar piezas de una forma plug-and-play.
+Por otro lado, Django es obstinado y toma la mayoría de las decisiones en nombre del desarrollador para que pueda centrarse en la lógica de la aplicación.
+
+En este vídeo, aprendiste que Flask es un microframework que viene con dependencias mínimas. Para crear sitios web, Flask tiene funciones como servidores de depuración,
+    enrutamiento, plantillas y manejo de errores.
+Flask se puede ampliar mediante el uso de extensiones comunitarias.
+Flask se puede instalar como un paquete de Python.
+Django es un framework completo en comparación con Flask"
