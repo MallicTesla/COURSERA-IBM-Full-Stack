@@ -1,6 +1,12 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 
+# aca se crea una instansia de Flask y se le pasa el nombre de este archivo
 app = Flask(__name__)
+
+# para renderisar un html si o si tiene que estar en una carpeta templates
+@app.route ("/MHTML")
+def mhtml ():
+    return render_template ("agrega_esto.html")
 
 @app.route ("/metodos", methods = ["GET", "POST"])
 def metodo ():

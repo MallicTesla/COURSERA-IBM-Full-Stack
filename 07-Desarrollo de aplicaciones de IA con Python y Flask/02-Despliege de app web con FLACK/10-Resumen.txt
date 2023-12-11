@@ -1,0 +1,32 @@
+"¡Enhorabuena! Ha completado este módulo. Llegados a este punto, ya lo sabe:
+
+Las bibliotecas de Python son como juegos de herramientas. Cada biblioteca tiene herramientas específicas para simplificar y agilizar ciertas tareas de programación. Los
+    frameworks son estructuras predefinidas para el desarrollo de aplicaciones. Los frameworks le permiten construir la aplicación completa, mientras que las librerías le ayudan
+    con funcionalidades específicas.
+
+Flask es un microframework que se entrega con dependencias mínimas. Para construir sitios web, Flask cuenta con características como servidores de depuración, enrutamiento,
+    plantillas y gestión de errores. Flask puede instalarse como un paquete python.
+Django es un framework full-stack comparado con Flask. Puede crear un servidor instanciando la clase Flask.
+
+Flask proporciona un objeto Request y un objeto Response para cada llamada del cliente. Puede obtener información adicional de la Solicitud de Flask, como las cabeceras. Puede
+    analizar el objeto de solicitud para obtener los parámetros de consulta, el cuerpo y otros argumentos. Puede incluso establecer el estado de los objetos Respuesta antes de
+    enviar una respuesta al cliente.
+
+Puede utilizar rutas dinámicas para crear puntos finales RESTful.
+
+Existen varias clases de códigos de estado HTTP que muestran éxito, error del usuario o error del servidor. Flask devuelve implícitamente un código de éxito de 200 con la
+    respuesta. También puede proporcionar códigos de estado explícitamente. Flask también proporciona gestores de errores a nivel de aplicación.
+
+Flask es un microframework para crear aplicaciones web y soporta CRUD.
+
+Instale el paquete Flask utilizando pip.
+
+Para crear una aplicación web utilizando Flask:
+
+Importar Flask
+
+Instancie Flask
+
+Ejecute la aplicación
+
+Puede renderizar tanto plantillas estáticas como dinámicas con Flask."

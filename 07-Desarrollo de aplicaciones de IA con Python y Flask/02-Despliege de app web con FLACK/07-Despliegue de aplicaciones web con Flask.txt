@@ -1,0 +1,53 @@
+"Bienvenido a la implementación de aplicaciones web con Flask. Después de ver este vídeo, podrá describir las características de Flask, instalar Flask y crear e implementar una
+    aplicación web Python con Flask. Flask es un micromarco para crear aplicaciones web de forma rápida y sencilla con Python. Flask es compatible con CRUD.
+
+Que no es más que solicitudes de creación, lectura, actualización y eliminación mediante solicitudes de publicación, colocación, obtención, actualización y eliminación.
+Esta es la estructura básica de una aplicación Flask. Observe el logotipo del paquete Flask. Veamos cómo se puede utilizar Flask para las operaciones de CRUD. Las solicitudes
+    Post y Put se utilizan para crear objetos o datos; por ejemplo, puede utilizar las solicitudes Post y Put para crear un usuario. La diferencia entre ambas es que Post crea
+    el objeto o los datos en cada solicitud, mientras que Put crea el objeto o los datos solo en la primera solicitud y continúa actualizando el objeto o los datos en
+    solicitudes consecutivas. En la mayoría de las aplicaciones web, verá que Post se utiliza para crear objetos o datos. Puede usar la solicitud Obtener para leer datos del
+    servidor, puede usar las solicitudes de actualización para actualizar los datos u objetos existentes, puede usar las solicitudes de eliminación para eliminar los datos u
+    objetos existentes. Tenga en cuenta que la mayoría de las aplicaciones web suelen utilizar Post para crear , actualizar y eliminar objetos y datos, y Get for reading, otro
+    vídeo que explica en detalle las solicitudes Post, Put y Get. A continuación, veamos cómo crear una aplicación web con Flask. El primer paso es instalar el paquete Flask
+    usando Pip, el administrador de paquetes estándar para Python. Como todos los demás paquetes, puede usar el comando Pip Install Flask, que obtendrá la versión más reciente
+    de Flask. El paquete Flask está instalado y ya está listo para crear la aplicación web. A continuación, importe el paquete Flask, cree una instancia de la clase Flask,
+    cree una aplicación web y, a continuación, ejecute la aplicación. A modo de demostración, veamos la aplicación web que devuelve la cadena Hello World como respuesta a una
+    solicitud Get. Paso uno, instala Flask. Paso dos, importe el módulo Flask del paquete Flask, para ello, escriba desde Flask import Flask.
+
+Paso tres: cree un objeto de la clase Flask como una aplicación web con el nombre My first web Application y guárdelo como aplicación. Por ejemplo, app = Flask («Mi primera
+    aplicación»), la mayoría de las aplicaciones utilizan el nombre de referencia app por motivos de claridad. Sin embargo, la aplicación es solo un nombre de referencia y
+    puedes usar cualquier otro nombre. Paso cuatro: defina la raíz y el método que se invocará cuando se acceda a esta ruta. Por ejemplo, introduzca @app .route ('/').
+
+Observe que en este ejemplo no se han especificado ni Get ni Post. Si no especificas una solicitud, se solicita Get de forma predeterminada. Por lo tanto, en el ejemplo, el
+punto final ahora podrá enviar las solicitudes Get a la raíz. Paso cinco, hello es el método, escrito como def hello ():, el método hello se invocará cuando el sistema acceda al
+punto final de la API que se definió en el paso anterior. El código para hacerlo es app.run (debug).
+
+No toma parámetros y devuelve la cadena Hello World. En el código, esto se escribe como return 'Hello World!'. Paso seis: añada la condición de que la aplicación web solo se
+    ejecute si el atributo_ _name _ _ está establecido en_ _ main _ _, de forma predeterminada, _ name _ _ _ está configurado en _ _ main _ _ a menos que se modifique
+    explícitamente. Puede guardarlo y ejecutarlo como cualquier otra aplicación de Python. Escriba app.run (debug=True). Para iniciar el servidor en un entorno de desarrollo,
+    debe guardar el código en un archivo de Python y ejecutarlo como cualquier otra aplicación de Python. Cuando se inicia el servidor de aplicaciones web, proporciona la
+    dirección IP y el puerto desde el que se puede acceder a la aplicación. Para comprobar los puntos finales, puedes abrir el navegador y conectarte al punto final que veas.
+
+En la salida del servidor, coloque 127.0.0.1 en el puerto 5000 y vea que la aplicación del servidor web devuelve la cadena Hello World. Las plantillas no son más que páginas
+    HTML creadas previamente que se sirven desde la aplicación web. Pueden ser tanto estáticas como dinámicas. De forma predeterminada, la aplicación Flask busca las plantillas
+    en un directorio denominado templates situado en el directorio raíz. Si las plantillas necesitan usar imágenes, hojas de estilo o archivos JavaScript que estén almacenados
+    en una carpeta denominada static en el directorio raíz, las páginas estáticas se representan tal cual. Las páginas dinámicas suelen tener información que se rellena de
+    forma dinámica para cada solicitud; estas páginas suelen basarse en los valores que se pasan como argumentos. Los argumentos se pueden pasar a través de la URL o se pueden
+    pasar como parámetros de la solicitud. Veamos un ejemplo de una aplicación Flask. Comience con la importación de Flask para crear una solicitud de aplicación web, gestionar
+    la solicitud entrante y render_template. Para renderizar páginas HTML estáticas y dinámicas, escribe desde flask import Flask, render_template, request, luego crea una
+    instancia de Flask y configura la carpeta estática.
+
+Por ejemplo, app = Flask («Mi primera aplicación»). El nombre predeterminado de la carpeta es estático, pero puede tener el contenido estático en un directorio con un nombre
+    diferente siempre que lo establezca de forma explícita. Observe que hay tres puntos finales en esta aplicación web.
+
+El primero es /sample, que renderizará una página HTML estática, la imagen de este HTML proviene del directorio estático. El código para lograrlo es app.route ('/sample').
+En la segunda línea, escribe def getSampleHTML ():.
+
+Tenga en cuenta que no hay ningún espacio entre getSampleHTML; en la tercera línea, escriba return render_template ('sample.html'). <username>La siguiente es /user/username,
+    donde el nombre de usuario que aparece entre corchetes angulares es el parámetro, el código se escribe como @app .route ('/user/ ', methods= [' GET ']).
+
+Si ves que el método se ha configurado explícitamente en get, esto es solo para mostrar cómo puedes configurar el tipo de solicitud. Si no se especifica nada, se considera una
+    solicitud Get. La página se representa con el parámetro que hemos introducido en la URL. El último es /user/username, donde el nombre de usuario se pasa como parámetro de
+    solicitud. La página se representa con el parámetro que se pasó como solicitud. En este vídeo, aprenderá que Flask es un micromarco para crear aplicaciones web y que es
+    compatible con CRUD. Instala el paquete Flask con Pip para crear una aplicación web con Flask, importa Flask, crea una instancia de Flask, ejecuta la aplicación y puedes
+    renderizar plantillas estáticas y dinámicas con Flask. [MÚSICA]"

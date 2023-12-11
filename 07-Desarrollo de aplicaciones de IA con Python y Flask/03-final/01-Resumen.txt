@@ -1,0 +1,20 @@
+"¡Enhorabuena! Ha completado este módulo. Llegados a este punto, ya lo sabe: 
+
+Las bibliotecas Watson AI son bibliotecas incrustables que están preinstaladas en el marco IDE Nube. Estas bibliotecas de IA incrustables proporcionan una variedad de funciones
+    de PNL y basadas en el habla basadas en modelos de IA populares.
+
+En los proyectos, usted desarrolló aplicaciones web con funciones de IA incorporadas utilizando las bibliotecas de IBM Watson. 
+
+Ambos proyectos siguieron los mismos pasos de creación de aplicaciones, entre ellos
+
+Crear una función para la aplicación
+
+Empaquetar la función de la aplicación
+
+Ejecutar pruebas unitarias de la función llamándola como paquete
+
+Desplegar la aplicación en la web utilizando Flask
+
+Incorporar la gestión de errores a la aplicación
+
+Ejecute el análisis estático de código en los códigos creados"
