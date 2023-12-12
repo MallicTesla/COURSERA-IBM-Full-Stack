@@ -1,0 +1,32 @@
+"¿Qué es SQL? SQL es un lenguaje utilizado por las bases de datos relacionales para consultar u obtener datos de una base de datos. S-Q-L también se conoce como SQL, y es la
+    abreviatura de su nombre original, Structured English Query Language.
+
+SQL es un lenguaje que utilizan las bases de datos para consultar datos, pero ¿qué son los datos y qué es una base de datos? Los datos son una colección de hechos en forma de
+    palabras , números o incluso imágenes. Los datos son uno de los activos más importantes de cualquier empresa. Se utilizan y recopilan prácticamente en todas partes.
+
+Su banco almacena datos sobre usted, su nombre, dirección, número de teléfono, números de cuenta, etc. La compañía emisora de su tarjeta de crédito y sus cuentas PayPal también
+    almacenan datos sobre usted. Los datos son importantes, por lo que deben estar seguros y almacenarse y acceder a ellos rápidamente. La respuesta es una base de datos,
+    entonces,
+
+¿qué es una base de datos? Las bases de datos están en todas partes y se usan todos los días, pero en gran medida se dan por sentadas. Una base de datos es un depósito de datos.
+Es un programa que almacena datos. Una base de datos también proporciona la funcionalidad para agregar, modificar y consultar esos datos.
+
+Existen diferentes tipos de bases de datos con diferentes requisitos. Los datos se pueden almacenar de varias formas. Cuando los datos se almacenan en forma tabular, los datos
+    se organizan en tablas, como en una hoja de cálculo que tiene columnas y filas, es decir, una base de datos relacional. Las columnas contienen propiedades del elemento, como
+    el apellido, el nombre, la dirección de correo electrónico y la ciudad. Una tabla es un conjunto de elementos relacionados, como una lista de empleados o una lista de
+    autores de libros. En una base de datos relacional, puede establecer relaciones entre tablas.
+
+Una base de datos es un repositorio de datos. Un conjunto de herramientas de software para los datos de la base de datos se denomina sistema de gestión de bases de datos, o DBMS,
+    por sus siglas en inglés. Los términos base de datos, servidor de bases de datos, sistema de bases de datos, servidor de datos y sistemas de gestión de bases de datos suelen
+    usarse indistintamente.
+
+En el caso de las bases de datos relacionales, se denomina sistema de gestión de bases de datos relacionales o RDBMS. El RDBMS es un conjunto de herramientas de software que
+    controla los datos, como el acceso, la organización y el almacenamiento. Un RDBMS sirve como la columna vertebral de las aplicaciones en muchas industrias, incluidas la
+    banca, el transporte, la salud, etc. Algunos ejemplos de sistemas de gestión de bases de datos relacionales son MySQL, Oracle Database, Db2 Warehouse y Db2 on Cloud.
+
+Para la mayoría de las personas que utilizan una base de datos, hay cinco comandos sencillos para crear una tabla, insertar datos para rellenar la tabla, seleccionar datos de la
+    tabla, actualizar los datos de la tabla y eliminar datos de la tabla.
+
+Ahora puede describir qué es SQL, qué son los datos, qué es una base de datos y qué es una base de datos relacional. Sabe que RDBMS significa sistema de gestión de bases de
+    datos relacionales y puede enumerar cinco comandos SQL básicos para crear una tabla, insertar datos para rellenar la tabla, seleccionar datos de la tabla, actualizar los
+    datos de la tabla y eliminar datos de la tabla. Gracias por ver este vídeo."

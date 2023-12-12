@@ -1,0 +1,67 @@
+"Una base de datos relacional es una colección de datos organizados en una estructura de tablas donde las tablas se pueden vincular o relacionar, en función de los datos comunes
+    a cada una. Las tablas se componen de filas y columnas, donde las filas son los registros y las columnas los atributos. Tomemos el ejemplo de una tabla de clientes que
+    mantiene datos sobre cada cliente de una empresa.
+
+Las columnas o atributos de la tabla de clientes son el ID del cliente, el nombre del cliente, la dirección del cliente y el teléfono principal del cliente.
+Y cada fila es un registro de cliente.
+
+Ahora vamos a entender qué queremos decir cuando decimos que las tablas están vinculadas o relacionadas en función de los datos comunes a cada una. Junto con la tabla de
+    clientes, la empresa también mantiene tablas de transacciones que contienen datos que describen varias transacciones individuales relacionadas con cada cliente.
+
+Las columnas de la tabla de transacciones pueden incluir la fecha de la transacción, el identificador del cliente, el importe de la transacción y el método de pago.
+La tabla de clientes y las tablas de transacciones se pueden relacionar en función del campo de ID de cliente común. Puede consultar la tabla de clientes para generar informes,
+    como un extracto de cliente que consolide todas las transacciones de un período determinado.
+
+Esta capacidad de relacionar tablas en función de datos comunes le permite recuperar una tabla completamente nueva a partir de los datos de una o más tablas con una sola
+    consulta. También le permite comprender las relaciones entre todos los datos disponibles y obtener nuevos conocimientos para tomar mejores decisiones.
+
+Las bases de datos relacionales utilizan un lenguaje de consulta estructurado o SQL para consultar datos. Más adelante en este curso, aprenderemos más sobre SQL. Las bases de
+    datos relacionales se basan en los principios organizativos de los archivos planos, como las hojas de cálculo, y los datos se organizan en filas y columnas siguiendo una+
+    estructura y un esquema bien definidos. Pero aquí es donde termina la similitud. Las bases de datos relacionales, por diseño, son ideales para optimizar el almacenamiento,
+    la recuperación y el procesamiento de datos para grandes volúmenes de datos. A diferencia de las hojas de cálculo que tienen un número limitado de filas y columnas, cada
+    tabla de una base de datos relacional tiene un conjunto único de filas y columnas, y se pueden definir relaciones entre las tablas, lo que minimiza la redundancia de los
+    datos. Además, puede restringir los campos de la base de datos a tipos y valores de datos específicos, lo que minimiza las irregularidades y conduce a una mayor coherencia e
+    integridad de los datos.
+
+Las bases de datos relacionales utilizan SQL para consultar datos, lo que le brinda la ventaja de procesar millones de registros y recuperar grandes cantidades de datos en
+    cuestión de segundos. Además, la arquitectura de seguridad de las bases de datos relacionales proporciona un acceso controlado a los datos y también garantiza el
+    cumplimiento de las normas y políticas que rigen los datos. Las bases de datos relacionales van desde pequeños sistemas de escritorio hasta sistemas masivos basados en la
+    nube. Pueden ser de código abierto y de código abierto con soporte interno con soporte comercial o sistemas comerciales de código cerrado. IBM, DB, dos servidores Microsoft
+    SQL Server, MySQL, Oracle y PostgreSQL son algunas de las bases de datos relacionales más populares.
+
+Las bases de datos relacionales basadas en la nube, también denominadas bases de datos como servicio, se utilizan cada vez más, ya que tienen acceso a las capacidades ilimitadas
+    de procesamiento y almacenamiento que ofrece la nube. Algunas de las bases de datos relacionales en la nube más populares son Amazon Relational Database Service o RDS,
+    Google Cloud, SQL, IBM, DB, Two On Cloud, Oracle Cloud y SQL Azure.
+
+El RDBMS es una tecnología madura y bien documentada, que facilita el aprendizaje y la búsqueda de talentos cualificados. Una de las ventajas más importantes del enfoque de
+    bases de datos relacionales es su capacidad para crear información significativa mediante la unión de tablas. Algunas de sus otras ventajas incluyen la flexibilidad.
+
+Con SQL, puede agregar nuevas columnas, agregar nuevas tablas, cambiar el nombre de las relaciones y realizar otros cambios mientras la base de datos se ejecuta y se realizan
+    consultas. Redundancia reducida. Las bases de datos relacionales minimizan la redundancia de datos. Por ejemplo, la información de un cliente aparece en una sola entrada de
+    la tabla de clientes y la tabla de transacciones correspondiente al cliente almacena un enlace a la tabla de clientes. Facilidad de copia de seguridad y recuperación ante
+    desastres.
+
+Las bases de datos relacionales ofrecen opciones sencillas de exportación e importación, lo que facilita la creación de copias de seguridad y la restauración.
+Las exportaciones pueden realizarse mientras la base de datos está en ejecución, lo que facilita la restauración en caso de error.
+Las bases de datos relacionales basadas en la nube crean réplicas continuas, lo que significa que la pérdida de datos durante la restauración se puede medir en segundos o menos.
+
+Conformidad con ACID. ACID es sinónimo de atomicidad, consistencia, aislamiento y durabilidad. El cumplimiento de ACID implica que los datos de la base de datos se mantengan
+    precisos y consistentes a pesar de las fallas y que las transacciones de la base de datos se procesen de manera confiable.
+
+Ahora veremos algunos casos de uso de bases de datos relacionales.
+Las aplicaciones OLTP de procesamiento de transacciones en línea se centran en tareas orientadas a las transacciones que se ejecutan a altas velocidades.
+Las bases de datos relacionales son adecuadas para las aplicaciones OLTP porque pueden alojar a un gran número de usuarios.
+Admiten la capacidad de insertar, actualizar o eliminar pequeñas cantidades de datos y también admiten consultas y actualizaciones frecuentes, así como tiempos de respuesta
+    rápidos.
+Almacenes de datos.
+En un entorno de almacenamiento de datos, las bases de datos relacionales se pueden optimizar para el procesamiento analítico en línea (OLAP), en el que se analizan los datos
+    históricos con fines de inteligencia empresarial. Soluciones de IoT Las soluciones de Internet de las cosas (IoT) requieren velocidad, así como la capacidad de recopilar y
+    procesar datos desde dispositivos periféricos, que necesitan una solución de base de datos ligera.
+
+Esto nos lleva a las limitaciones del RDBMS.
+El RDBMS no funciona bien con datos semiestructurados o no estructurados y, por lo tanto, no es adecuado para un análisis exhaustivo de dichos datos. Para la migración entre dos
+    RDBMS, los esquemas y el tipo de datos deben ser idénticos en las tablas de origen y de destino. Las bases de datos relacionales tienen un límite en la longitud de los
+    campos de datos, lo que significa que si intenta introducir más información en un campo de la que puede contener, la información no se almacenará.
+
+A pesar de las limitaciones y la evolución de los datos, en estos tiempos de macrodatos, computación en la nube, dispositivos de IoT y redes sociales, el RDBMS sigue siendo la
+    tecnología predominante para trabajar con datos estructurados."

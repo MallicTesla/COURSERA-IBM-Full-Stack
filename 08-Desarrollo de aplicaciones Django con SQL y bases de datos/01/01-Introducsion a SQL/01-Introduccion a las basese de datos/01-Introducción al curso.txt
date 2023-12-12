@@ -1,0 +1,28 @@
+"Bienvenido a este curso introductorio sobre el desarrollo de aplicaciones basadas en bases de datos utilizando Django. En este curso, aprenderá los fundamentos del trabajo con
+    bases de datos y SQL. También perfeccionará las habilidades para desarrollar aplicaciones web que almacenen y administren datos en bases de datos relacionales utilizando el
+    marco Django en Python.
+
+Este curso es adecuado para desarrolladores de software aspirantes y existentes. Para beneficiarse de este curso, debe tener conocimientos básicos de GitHub, Python, HTML y CSS.
+Estas habilidades se imparten en los cursos anteriores del certificado profesional de desarrollador de software Full Stack de IBM y del certificado profesional de desarrollo de
+    back-end de IBM. El primer módulo presenta los conceptos fundamentales de las bases de datos y los conceptos básicos de SQL, un lenguaje de programación simple y potente
+    para consultar y gestionar datos. Aprenderá sobre bases de datos relacionales y no relacionales y realizará varios laboratorios prácticos para realizar las operaciones de
+    creación, lectura, actualización y eliminación o CRUD mediante SQL.
+
+En el segundo módulo, aprenderá sobre Django, la programación orientada a objetos, y conocerá el mapeo relacional de objetos o el marco y las herramientas ORM. Obtendrá
+    experiencia práctica en la implementación de su primera aplicación web de Django.
+
+El módulo tres explora cómo el patrón Modelo-Vista-Plantilla de Django funciona en conjunto para presentar los datos en un sitio web. Descubrirá cómo combinar vistas y
+    plantillas de Django para presentar sus datos como páginas web dinámicas y crear un sitio de administración con funciones de interfaz de usuario (o UI) como la búsqueda y el
+    filtro. Crear una vista basada en clases en el módulo cuatro aumentará tus habilidades con Django.
+
+También aprenderás sobre la autenticación y la autorización en Django y cómo añadir Bootstrap, un framework front-end web de código abierto, a tu plantilla de Django para crear
+    páginas web interactivas. Creará una aplicación web de Django con capacidades de inicio, cierre de sesión y registro de usuarios.
+
+En el módulo cinco, completará un proyecto final para aplicar sus habilidades agregando nuevas funciones a una aplicación de cursos en línea de Django.
+
+En el proyecto final, aprenderás los requisitos del proyecto y descargarás la aplicación MVP. Cree modelos y plantillas. Desarrolle nuevas funcionalidades de aplicación para
+    enviar, mostrar y evaluar los resultados, y ejecute y pruebe su aplicación.
+
+Para aprovechar al máximo este curso, mira todos los vídeos y comprueba lo que has aprendido con cada cuestionario. Complete los laboratorios prácticos para practicar sus nuevas
+    habilidades y continúe creando un portafolio que demuestre sus habilidades. Y siéntase libre de conversar con el personal del curso y sus compañeros en los foros de debate
+    del curso. Enhorabuena por dar el siguiente paso en este apasionante viaje. Y buena suerte."

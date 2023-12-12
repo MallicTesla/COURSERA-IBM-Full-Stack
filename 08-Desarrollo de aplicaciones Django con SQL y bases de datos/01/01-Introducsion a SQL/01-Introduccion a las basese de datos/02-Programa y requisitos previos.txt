@@ -1,0 +1,46 @@
+"Bienvenido a Desarrollo de Aplicaciones con SQL, Bases de Datos y Django. En esta clase de 5 semanas, puede esperar dedicar aproximadamente 2-3 horas por módulo.
+
+Requisitos previos
+
+Este curso asume que usted está familiarizado con GitHub, HTML, CSS, y Python.
+
+Esquema del curso
+
+Módulo 1: Primeros pasos con SQL y bases de datos relacionales
+
+    Lección 0: Bienvenida
+
+    Lección 1: Introducción a las bases de datos
+
+    Lección 2: Sentencias SQL básicas
+
+    Lección 3: (Opcional) Creación de tablas, ordenación de resultados y uniones
+
+    Lección 4: Resumen del módulo 1
+
+Módulo 2: ORM: Tendiendo puentes entre el mundo real y el modelo relacional
+
+    Lección 1: ORM: Salvando las distancias entre el mundo real y el modelo relacional
+
+    Lección 2: Resumen del módulo 2 y cuestionario graduado
+
+Módulo 3: Desarrollo full-stack de Django
+
+    Lección 1: Desarrollo Django Full-stack
+
+    Lección 2: Resumen del módulo 3 y cuestionario graduado
+
+Módulo 4: Consolide y despliegue su aplicación Django
+
+    Lección 1: Consolide y despliegue su aplicación Django
+
+    Lección 2: Resumen y examen del módulo 4
+
+Módulo 5: Proyecto final: Mejore la App del Curso Online con Nuevas Funcionalidades
+
+    Lección 1: Proyecto Práctico: Customer360
+
+    Lección 2: Proyecto final: Añadir una nueva función de evaluación a una aplicación de curso en línea
+
+    Lección 3: Resumen del curso
+"
