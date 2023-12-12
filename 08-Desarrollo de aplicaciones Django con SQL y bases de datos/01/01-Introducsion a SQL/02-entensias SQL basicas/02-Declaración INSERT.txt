@@ -1,0 +1,24 @@
+"Hola y bienvenidos a la declaración INSERT. En este vídeo aprenderemos sobre rellenar una tabla de base de datos relacional. Al final de este vídeo, podrá identifique la
+    sintaxis de la instrucción INSERT y explique dos métodos para añadir filas a una tabla.
+
+Una vez creada la tabla, la tabla debe rellenarse con datos. Para insertar datos en una tabla, utilizamos la instrucción INSERT. Se usa la instrucción INSERT para añadir nuevas
+    filas a una tabla.
+
+La instrucción INSERT es una de las sentencias de lenguaje de manipulación de datos. Manipulación de datos, declaraciones de lenguaje o DML las declaraciones se utilizan para
+    leer y modificar datos. Basándonos en el ejemplo de la entidad autora, creamos la tabla con el nombre de la entidad, el autor y los atributos de la entidad como las columnas
+    de la tabla. Ahora añadiremos los datos al autor tabla añadiendo filas a la tabla.
+
+Para añadir los datos al autor tabla, utilizamos la instrucción INSERT. La sintaxis del comando INSERT la instrucción tiene este aspecto: INSERT INTO [TableName] < ([columnName],
+    ... ) > VALORES ([Valor],...) En esta declaración, el nombre de la tabla identifica en la tabla, la lista de nombres de columna identifica cada columna en la tabla, y la
+    cláusula de valores especifica los datos valores que se añadirán a las columnas de la tabla.
+
+Para añadir una fila con los datos de Raul Chong, tenemos inserte una fila con el identificador de subrayado del autor A one, el apellido es Chong, el primero el nombre es Raúl,
+    el correo electrónico es RFC@IBM.com, la ciudad es Toronto y el país como CA para Canadá. La tabla de autores tiene seis columnas, por lo que la instrucción INSERT muestra
+    los seis nombres de columna separados por comas, seguidos de un valor para cada una de las columnas también están separadas por comas.
+
+Es importante que el número de los valores proporcionados en la cláusula de valores son iguales al número de nombres de columna especificado en la lista de nombres de columna.
+    Esto garantiza que cada columna tenga un valor. No es necesario que las tablas sean se rellenaron una fila a la vez. Se pueden insertar varias filas mediante especificando
+    cada fila en la cláusula de valores. En la cláusula de valores, cada la fila está separada por una coma.
+
+Por ejemplo, en este INSERT En esta declaración estamos insertando dos filas, una para Raul Chong y otra para Rav Ahuja. Ahora puede identificar la sintaxis del INSERT
+    declaración, y explica los dos métodos para añadir filas una tabla. Una fila a la vez o varias filas. Gracias por ver este vídeo."

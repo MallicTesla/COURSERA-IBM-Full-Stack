@@ -1,0 +1,31 @@
+"Hola y bienvenidos a la ACTUALIZACIÓN Declaración y declaración DELETE. En este vídeo, aprenderemos sobre modificar y eliminar datos en una tabla de base de datos relacional.
+    Al final de esta lección, podrá identificar la sintaxis de las sentencias UPDATE y DELETE, y explicar su importancia de la cláusula WHERE de estas declaraciones.
+
+Una vez creada una tabla y rellenada con datos, los datos de la tabla pueden ser alterado con la instrucción UPDATE. La instrucción UPDATE es uno de los datos lenguaje de
+    manipulación o sentencias DML.
+
+Las sentencias DML se utilizan para leer y modificar datos. Basándonos en el ejemplo de la entidad autora, creamos la tabla utilizando el nombre de la entidad, el autor y los
+    atributos de la entidad como las columnas de la tabla. Se agregaron filas al autor tabla para rellenar la tabla. Algún tiempo después, quieres modificar los datos de la
+    tabla. Para alterar o modificar los datos del autor tabla, utilizamos la instrucción UPDATE. La sintaxis de la UPDATE La sentencia tiene este aspecto:
+    UPDATE [TableName] SET [[ColumnName] = [Value]]
+
+En esta sentencia, tabla el nombre identifica la tabla, el nombre de la columna identifica el valor de la columna para cambiarse como se especifica en la condición WHERE. Veamos
+    un ejemplo. En este ejemplo, desea actualizar el nombre y apellidos del autor con el ID de autor A2, desde Rav Ahuja hasta Lakshmi Katta. En este ejemplo, para ver el
+    sentencia de actualización en acción, empezamos por seleccionar todas las filas de la tabla de autores para ver los valores.
+
+Para cambiar el nombre y apellido a Lakshmi Katta, donde el ID del autor es igual a A2, introduzca la instrucción UPDATE de la siguiente manera:
+    UPDATE AUTHOR SET LASTNAME='KATTA' FIRSTNAME='LAKSHMI' WHERE AUTHOR_ID='A2' Ahora, para ver el resultado de la actualización, seleccione de nuevo todas las filas de la tabla
+    de autores y verá que en la fila dos el nombre cambió de Rav Ahuja a Lakshmi Katta.
+
+Tenga en cuenta que si no especifica la cláusula WHERE, se actualizarán todas las filas de la tabla. En este ejemplo, sin especificando la cláusula WHERE, todas las filas de la
+    tabla habrían cambiado el nombre y apellidos de Lakshmi Kata.
+
+Algún tiempo después, puede ser necesario para eliminar una o más filas de una tabla. Las filas se eliminan con la instrucción DELETE. La instrucción DELETE es una de las
+    instrucciones del lenguaje de manipulación de datos utilizadas para leer y modificar datos. La sintaxis de la instrucción DELETE es la siguiente esto:
+    DELETE FROM [TableName] <WHERE [Condition] > Las filas que se eliminarán son especificadas en la condición WHERE.
+
+Basándonos en el ejemplo de la entidad autora, queremos para borrar las filas de los ID de autor A2 y A3. Veamos un ejemplo. ELIMINAR DEL AUTOR DONDE EL IDENTIFICADOR AUTHOR_ID
+    ESTÉ EN ('A2', «A3») Tenga en cuenta que si no especifica la cláusula WHERE, todos los se eliminarán las filas de la tabla.
+
+Ahora puede identificar la sintaxis de la ACTUALIZACIÓN declaración y declaración DELETE, y explicar la importancia del WHERE cláusula de estas declaraciones.
+Gracias por ver este vídeo."

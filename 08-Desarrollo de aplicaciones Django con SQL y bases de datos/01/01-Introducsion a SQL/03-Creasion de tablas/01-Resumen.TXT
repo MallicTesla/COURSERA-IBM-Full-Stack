@@ -1,0 +1,9 @@
+"Hay muchas maneras en que puede utilizar SQL para ayudar a analizar sus datos y presentarlos de una manera que apoye su historia de datos. En esta lección extra, aprenderá
+    algunas técnicas SQL más allá de las básicas, que le ayudarán a hacer más con los datos. Aprenderá a utilizar comandos SQL para crear tablas. También aprenderá a refinar los
+    resultados de sus consultas, así como a clasificarlos y organizarlos para que le resulte más fácil extraer de ellos información útil.
+
+Esta lección extra se proporciona únicamente con fines informativos y no contiene ningún contenido calificado. Aunque es útil saber estas cosas sobre SQL, quienes desarrollen
+    aplicaciones emplearán normalmente otros mecanismos para realizar estas tareas, algunos de los cuales se enseñarán en módulos posteriores de este curso.  
+
+Si desea aprender más sobre SQL más allá de lo que se cubre en este curso, el siguiente curso será de interés, especialmente para aquellos en las pistas de Ingeniería de Datos,
+    Ciencia de Datos o Analista de Datos:"

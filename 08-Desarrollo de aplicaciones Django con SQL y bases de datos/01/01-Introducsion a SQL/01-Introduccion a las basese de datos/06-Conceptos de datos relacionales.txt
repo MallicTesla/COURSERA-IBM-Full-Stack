@@ -1,0 +1,44 @@
+"Hola y bienvenidos a Database Concepts. En este vídeo, aprenderemos sobre los diferentes tipos de modelos, cómo utilizamos los modelos para asignar datos a las tablas y cómo
+    definimos las relaciones entre las tablas. Al final de esta lección, podrá explicar las ventajas del modelo relacional, explicar cómo el nombre y los atributos de la entidad
+    se asignan a una tabla de base de datos relacional, describir la diferencia entre una entidad y un atributo, identificar algunos tipos de datos de uso común y describir la
+    función de las claves principales.
+
+El modelo relacional es el modelo de datos más utilizado en las bases de datos porque permite la independencia de los datos. Los datos se almacenan en una estructura de datos
+    simple. Tablas: esto proporciona independencia lógica de los datos, independencia física de los datos e independencia del almacenamiento físico.
+
+Un modelo de datos de relación entre entidades, o modelo de datos ER, es una alternativa a un modelo de datos relacional. Utilizando como ejemplo una base de datos de biblioteca
+    simplificada, en esta figura se muestra un diagrama de relaciones entre entidades o ERD que representa entidades denominadas tablas y sus relaciones. En el ejemplo de la
+    biblioteca, tenemos libros. Un libro puede estar escrito por uno o varios autores. La biblioteca puede tener uno o varios ejemplares de un libro. Cada copia puede ser
+    prestada por un solo prestatario a la vez.
+
+Un modelo de relación entre entidades propone pensar en una base de datos como una colección de entidades en lugar de utilizarla como un modelo por sí sola. El modelo ER se
+    utiliza como una herramienta para diseñar bases de datos relacionales. En el modelo ER, las entidades son objetos que existen independientemente de cualquier otra entidad de
+    la base de datos. Los componentes básicos de un diagrama ER son las entidades y los atributos. Una entidad puede ser un sustantivo: persona, lugar o cosa. En un diagrama ER,
+    una entidad se dibuja como un rectángulo. Las entidades tienen atributos que son los elementos de datos que caracterizan a la entidad. Los atributos nos proporcionan más
+    información sobre la entidad. En un diagrama ER, los atributos se dibujan como óvalos. Si utilizamos una biblioteca simplificada como ejemplo, el libro es un ejemplo de
+    entidad. Los atributos son determinadas propiedades o características de una entidad y nos proporcionan más información sobre la entidad. El libro de entidades tiene
+    atributos como el título del libro, la edición del libro, el año en que se escribió el libro, etc. Los atributos están conectados exactamente a una entidad.
+
+El libro de entidades se convierte en una tabla de la base de datos y los atributos se convierten en las columnas de una tabla. Una tabla es una combinación de filas y columnas.
+Durante el mapeo, la entidad se convierte en la tabla. Dicho esto, la tabla aún no ha adoptado la forma de filas y columnas. Los atributos se traducen en columnas en una tabla
+    que proporciona la forma real de la tabla en filas y columnas. Más adelante, agregamos algunos valores de datos a cada una de las columnas, lo que completa el formulario de
+    la tabla. Cada atributo almacena valores de datos de diferentes formatos, caracteres, números, fechas, divisas y muchos más. En el ejemplo de la tabla del libro, el título
+    está compuesto por caracteres. Como los títulos de los libros varían en longitud, podemos establecer el tipo de datos de caracteres variables para la columna del título:
+    Varchar.
+Para las columnas de caracteres que no varían en longitud, utilizamos character o Char.
+Las columnas de edición y año serían numéricas.
+La columna ISBN sería Char porque contiene guiones, números, etc.
+
+Con el mapeo de entidades del libro como ejemplo, podemos crear las tablas para el resto de nuestro ejemplo de biblioteca simplificada utilizando nombres de entidades, como
+    autor, lista de autores, prestatario , préstamo y copia. Los atributos de la entidad serán las columnas de las tablas. A cada tabla se le asigna una clave principal.
+
+La clave principal de una tabla relacional identifica de forma única cada tupla o fila de una tabla, lo que evita la duplicación de datos y proporciona una forma de definir las
+    relaciones entre las tablas. Las tablas también pueden contener claves externas, que son claves principales definidas en otras tablas, lo que crea un enlace entre las tablas.
+
+Ahora sabe que la principal ventaja del modelo relacional es la independencia lógica y física de los datos y la independencia del almacenamiento. Las entidades son objetos
+    independientes que pueden tener múltiples características denominadas atributos. Al mapearlas a una base de datos relacional, las entidades se representan como tablas y los
+    atributos se asignan a columnas.
+
+Los tipos de datos más comunes incluyen caracteres como Char y Varchar, números como enteros y decimales, y marcas de tiempo que incluyen fecha y hora.
+
+Una clave principal identifica de forma exclusiva una fila específica de una tabla y evita la duplicación de datos."

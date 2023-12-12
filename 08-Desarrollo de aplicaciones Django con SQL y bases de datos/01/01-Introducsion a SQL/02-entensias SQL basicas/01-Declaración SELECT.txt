@@ -1,0 +1,29 @@
+"Hola y bienvenidos a la recuperación de datos con una sentencia SELECT. En este vídeo, aprenderemos a recuperar datos de una tabla de base de datos relacional seleccionando
+    columnas de una tabla. Al final de esta lección, será capaz de recuperar datos de una tabla de base de datos relacional, encontrar el uso de un predicado, identificar la
+    sintaxis de la sentencia SELECT utilizando la cláusula WHERE, y enumerar los operadores de comparación soportados por un sistema de gestión de base de datos relacional.
+
+El objetivo principal de un sistema de gestión de bases de datos, no es sólo almacenar los datos, sino también facilitar la recuperación de los mismos. Así pues, después de
+    crear una tabla de base de datos relacional e insertar datos en la tabla, queremos ver los datos. Para ver los datos, utilizamos la sentencia SELECT.
+
+La sentencia SELECT es una sentencia del lenguaje de manipulación de datos. Las sentencias del lenguaje de manipulación de datos o sentencias DML se utilizan para leer y
+    modificar datos. La sentencia SELECT se denomina consulta, y el resultado que obtenemos al ejecutar esta consulta se denomina conjunto de resultados o tabla de resultados.
+    En su forma más simple, una sentencia SELECT es select star from table name.
+
+Basándonos en el ejemplo de la entidad book, crearíamos la tabla utilizando el nombre de la entidad book y los atributos de la entidad como las columnas de la tabla. Los datos
+    se añadirían a la tabla libro añadiendo filas a la tabla mediante la sentencia insert. En el ejemplo de entidad libro, select star from book da como resultado un conjunto de
+    cuatro filas. Se muestran todas las filas de datos de todas las columnas de la tabla libro. Además, también puede recuperar todas las filas de todas las columnas
+    especificando los nombres de las columnas individualmente en la sentencia SELECT. No siempre tiene que recuperar todas las columnas de una tabla.
+
+Puede recuperar sólo un subconjunto de columnas. Si lo desea, puede recuperar sólo dos columnas del libro de la tabla. Por ejemplo, book_id y title. En este caso, la sentencia
+    select es select book_id, title from book. En este caso, sólo se muestran las dos columnas para cada una de las cuatro filas. Observe también que el orden de las columnas
+    mostradas siempre coincide con el orden de la sentencia SELECT. Sin embargo, ¿qué ocurre si queremos conocer el título del libro cuyo book_id es B1.
+
+La operación relacional nos ayuda a restringir el conjunto de resultados permitiéndonos utilizar la cláusula WHERE. La cláusula WHERE siempre requiere un predicado. Un predicado
+    condicionado se evalúa como verdadero, falso o desconocido. Los predicados se utilizan en la condición de búsqueda de la cláusula WHERE. Así, si necesitamos conocer el
+    título del libro cuyo book_id es B1, utilizamos la cláusula WHERE con el predicado book_id es igual a B1. Select book_id title from book where book_id es igual a B1.
+    Observe que el conjunto de resultados se restringe ahora a sólo una fila cuya condición se evalúa como verdadera.
+
+El ejemplo anterior utilizaba el operador de comparación igual a en la cláusula WHERE. Existen otros operadores de comparación admitidos por un sistema de gestión de bases de
+    datos relacionales: igual a, mayor que, menor que, mayor que o igual a, menor que o igual a, y no igual a. Ahora puede recuperar datos y seleccionar columnas de una tabla de
+    base de datos relacional, definir el uso de un predicado, identificar la sintaxis de la sentencia SELECT utilizando la cláusula WHERE, y enumerar los operadores de
+    comparación admitidos por un sistema de gestión de bases de datos relacionales. Gracias por ver este vídeo."

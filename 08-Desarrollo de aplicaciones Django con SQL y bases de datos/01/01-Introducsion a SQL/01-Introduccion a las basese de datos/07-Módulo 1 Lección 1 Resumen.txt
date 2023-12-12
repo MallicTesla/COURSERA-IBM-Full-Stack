@@ -1,0 +1,20 @@
+"Enhorabuena Ha completado esta lección. A estas alturas del curso, ya lo sabe
+
+El lenguaje de consulta estructurado, o SQL, se diseñó para gestionar datos en bases de datos relacionales y es útil para manejar datos estructurados
+
+Los datos son una colección de hechos en palabras, números e imágenes
+
+Una base de datos es un repositorio de datos que proporciona funcionalidad para añadir, modificar y consultar datos
+
+Las bases de datos relacionales almacenan datos tabulares como colecciones de elementos relacionados, con columnas que contienen las propiedades de los elementos
+
+Las sentencias SQL básicas son CREATE TABLE, INSERT, SELECT, UPDATE y DELETE
+
+Las bases de datos no relacionales proporcionan un enfoque flexible y escalable para almacenar y recuperar datos.
+
+Las bases de datos relacionales son ideales para el almacenamiento, la recuperación y el procesamiento optimizados de grandes volúmenes de datos
+
+RDBMS es una tecnología madura y bien documentada, que proporciona flexibilidad, redundancia reducida, facilidad de copia de seguridad y recuperación en caso de desastre, y
+    cumplimiento de ACID
+
+Un modelo Entidad-Relación es una herramienta para diseñar bases de datos relacionales. Las entidades se convierten en tablas y los atributos se traducen en columnas"

@@ -1,0 +1,33 @@
+"Hola y bienvenidos a Join Overview. Después de ver este vídeo, podrá: Definir el operador de unión Explicar el papel de las claves principales y externas en una operación de
+    unión Listar los diferentes tipos de operadores de unión Una simple instrucción Select recupera datos de una o más columnas de una sola tabla.
+
+El siguiente nivel de complejidad consiste en recuperar datos de dos o más tablas. Esto conduce a múltiples posibilidades de cómo se puede generar el conjunto de resultados.
+Para combinar datos de dos tablas, se utiliza el operador JOIN. Una combinación combina las filas de dos o más tablas en función de la relación entre determinadas columnas de
+    estas tablas. En este ejemplo simplificado de base de datos de biblioteca, el autor y el libro son entidades. Este diagrama de relaciones entre entidades representa el
+    modelo de datos relacionales para el autor y la entidad del libro, así como para otras entidades, como el prestatario, el préstamo, el ejemplar y la lista de autores.
+
+La información se divide en diferentes tablas. Si quieres saber qué prestatario tiene qué ejemplar de un libro en préstamo, necesitas recopilar datos de tres tablas: la del
+    prestatario, la del préstamo y la de copias. Aquí es cuando necesitas usar el operador de unión. En primer lugar, debe identificar la relación entre estas tablas. Es decir,
+    la columna o columnas de cada tabla para usarlas como enlace entre las tablas. En este diagrama de relación entre entidades, observe que el identificador del autor, el
+    identificador del libro, el identificador del prestatario y el identificador de la copia tienen el icono de la clave principal.
+
+Una clave principal identifica de forma exclusiva cada fila de una tabla. Observe también las entidades de la mitad inferior de la pantalla. Algunos atributos tienen FK entre
+    paréntesis junto a ellos. Esto identifica una clave externa, que es un conjunto de columnas que hacen referencia a una clave principal de otra entidad. Por ejemplo, la
+    entidad crediticia tiene el atributo ID del prestatario con el FK entre paréntesis. En este ejemplo, el atributo de ID del prestatario es la clave externa de la entidad
+    crediticia, que hace referencia a la clave principal de la entidad prestataria. Por lo tanto, si quiere saber qué prestatario tiene una cartera pendiente de préstamo,
+    necesitará recopilar datos de las tablas de prestatarios y préstamos.
+
+Necesitará el identificador del prestatario de ambas tablas. Hasta ahora, has visto un ejemplo de combinación de dos tablas. Pero, ¿qué sucede si necesita combinar datos de tres
+    o más tablas diferentes? Solo tiene que añadir tablas nuevas a las uniones. Por ejemplo, si quiere saber qué prestatarios tienen un libro en préstamo y qué ejemplar del
+    libro tienen en préstamo, primero debe unir la información de la tabla de prestatarios y la tabla de préstamos haciendo coincidir los identificadores de los prestatarios.
+
+A continuación, se une la información de la tabla de préstamos y la tabla de copias haciendo coincidir las identificaciones de las copias. SQL le ofrece varios tipos diferentes
+    de JOIN. Puede extraer un conjunto de datos correspondiente a la intersección de las dos tablas implicadas o puede elegir un conjunto de datos más grande. Puede ir hasta el
+    punto de seleccionar la combinación de todos los datos de estas dos tablas. El tipo de combinación más común es la combinación interna, que muestra solo las filas de dos
+    tablas que tienen un valor coincidente en una columna común, normalmente la clave principal de una tabla que existe como clave externa en la segunda tabla.
+También hay combinaciones externas, que devuelven filas coincidentes e incluso filas de una u otra tabla que no coinciden. Existen muchos tipos de uniones externas que puede
+    utilizar para refinar el conjunto de resultados.
+
+En este vídeo, aprendió lo siguiente: puede utilizar el operador JOIN para combinar filas de dos o más tablas.
+Las tablas que se van a unir están relacionadas mediante una columna común, que suele ser la clave principal de una tabla, y aparece como clave externa en la otra tabla.
+Hay dos tipos de uniones: las internas y las externas."

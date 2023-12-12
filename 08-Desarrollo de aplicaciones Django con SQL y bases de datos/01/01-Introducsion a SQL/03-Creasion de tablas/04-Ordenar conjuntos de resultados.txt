@@ -1,0 +1,25 @@
+"Hola, y bienvenidos a la ordenación de conjuntos de resultados de sentencias SELECT. En este vídeo, aprenderemos algunas técnicas avanzadas para recuperar datos de una tabla de
+    base de datos relacional y ordenar cómo se muestra el conjunto de resultados. Al final de esta lección, podrá describir cómo ordenar el conjunto de resultados en orden
+    ascendente o descendente y explicar cómo indicar qué columna utilizar para el orden de clasificación.
+
+El principal objetivo de un sistema de gestión de bases de datos no es sólo almacenar los datos, sino también facilitar su recuperación. En su forma más simple, una sentencia
+    select es select * from table name. Basándonos en nuestro modelo simplificado de base de datos de bibliotecas, en la tabla book, select * from book da un conjunto de
+    resultados de cuatro filas. Se muestran todas las filas de datos de todas las columnas de la tabla book.
+
+Podemos elegir listar sólo los títulos de los libros como se muestra en este ejemplo, select title from book. Sin embargo, el orden no parece estar en ningún orden.
+Mostrar el conjunto de resultados en orden alfabético haría que el conjunto de resultados fuera más cómodo. Para ello, utilizamos la cláusula "order by". Para mostrar el
+    conjunto de resultados en orden alfabético, añadimos la cláusula order by a la sentencia select. La cláusula order by se utiliza en una consulta para ordenar el conjunto de
+    resultados por una columna especificada. En este ejemplo, hemos utilizado ordenar por en la columna título para ordenar el conjunto de resultados. Por defecto, el conjunto
+    de resultados se ordena en orden ascendente. En este ejemplo, el conjunto de resultados se ordena en orden alfabético por el título del libro.
+
+Para ordenar en orden descendente, utilice la palabra clave" desc." El conjunto de resultados se ordena ahora según la columna especificada, que es título, y se ordena en orden
+    descendente. Observe el orden de las tres primeras filas. Las tres primeras palabras del título son iguales, por lo que la ordenación comienza a partir del punto en que los
+    caracteres difieren.
+
+Otra forma de especificar la columna de ordenación es indicar el número de secuencia de la columna. En este ejemplo, select title, pages from book order by two, indica el número
+    de secuencia de la columna en la consulta para el orden de clasificación. En lugar de especificar el nombre de la columna pages, se utiliza el número dos. En la sentencia
+    select, la segunda columna especificada en la lista de columnas es pages, por lo que el orden de clasificación se basa en los valores de la columna pages. En este caso, la
+    columna pages indica el número de páginas del libro. Como puede ver, el conjunto de resultados está en orden ascendente por número de páginas.
+
+Ahora puede describir cómo ordenar el conjunto de resultados en orden ascendente o descendente, y explicar cómo indicar qué columna utilizar para el orden de clasificación.
+Gracias por ver este vídeo."

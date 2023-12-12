@@ -1,0 +1,31 @@
+"Enhorabuena Ha completado esta lección. A estas alturas del curso, ya sabe:
+
+cREATE, ALTER, TRUNCATE y DROP definen, modifican o eliminan objetos de base de datos como las tablas
+
+La sentencia CREATE TABLE incluye la definición de los atributos de las columnas de la tabla, incluyendo:
+
+Nombres de las columnas
+
+Tipos de datos de las columnas
+
+Valores opcionales, si son necesarios, como la restricción de clave primaria
+
+La cláusula ORDER BY se utiliza en una consulta SQL para ordenar el conjunto de resultados por una columna especificada.por ejemplo, "ORDER BY title" ordena el conjunto de
+    resultados por la columna llamada "title"
+
+También puede especificar la ordenación de la columna indicando el número de secuencia de la columna.por ejemplo, "select title, pages from book ORDER BY 2" indica que el orden
+    de clasificación se basa en los valores de la segunda columna.
+
+El operador JOIN combina filas de dos o más tablas basándose en una relación entre determinadas columnas de dichas tablas
+
+Las tablas que se unen están relacionadas por una columna común, que suele ser la clave primaria de una tabla y aparece como clave ajena en la otra tabla
+
+La clave primaria de una tabla relacional identifica de forma exclusiva cada fila de una tabla
+
+Una clave foránea es un conjunto de columnas que hacen referencia a una clave primaria de otra entidad
+
+Si necesita combinar datos de tres o más tablas diferentes, añada nuevas tablas a las uniones. En primer lugar, combine la información de la tabla A y la tabla B haciendo
+    coincidir sus atributos compartidos. A continuación, une la información de la tabla B y la tabla C haciendo coincidir sus atributos compartidos
+
+SQL ofrece varios tipos de JOIN, como INNER JOIN y OUTER JOIN.puede extraer un conjunto de datos correspondiente a la intersección de las dos tablas implicadas o elegir un
+    conjunto de datos mayor"

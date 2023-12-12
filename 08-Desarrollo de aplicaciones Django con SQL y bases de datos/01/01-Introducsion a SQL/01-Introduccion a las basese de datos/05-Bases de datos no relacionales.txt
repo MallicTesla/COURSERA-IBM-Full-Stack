@@ -1,0 +1,57 @@
+"NoSQL, que significa no solo SQL o, a veces, no SQL, es un diseño de base de datos no relacional que proporciona esquemas flexibles para el almacenamiento y la recuperación de
+    datos. Las bases de datos NoSQL existen desde hace muchos años, pero solo recientemente se han hecho más populares en la era de la nube, los macrodatos y las aplicaciones
+    web y móviles de gran volumen.
+
+Hoy en día se eligen por sus atributos de escalabilidad, rendimiento y facilidad de uso. Es importante destacar que el no en NoSQL es una abreviatura no solo de la palabra no,
+    sino también de la palabra no propiamente dicha. Las bases de datos NoSQL están diseñadas para modelos de datos específicos y tienen esquemas flexibles que permiten a los
+    programadores crear y administrar aplicaciones modernas. No utilizan el diseño tradicional de bases de datos de filas, columnas y tablas con esquemas fijos y, por lo general,
+    no utilizan el lenguaje de consulta estructurado ni SQL para consultar datos. Sin embargo, algunos pueden admitir interfaces SQL o similares a SQL. NoSQL permite que los
+    datos se almacenen sin esquema o de forma libre. Cualquier dato, ya sea estructurado, semiestructurado o no estructurado, se puede almacenar en cualquier registro.
+
+Según el modelo que se utilice para almacenar datos, existen cuatro tipos comunes de bases de datos NoSQL. Almacén de valores clave, basado en documentos, basado en columnas y
+    basado en gráficos.
+
+Almacén de valores clave: los datos de una base de datos de valores clave se almacenan como una colección de pares de valores clave. La clave representa un atributo de los
+    datos y es un identificador único. Tanto las claves como los valores pueden ser cualquier cosa, desde números enteros o cadenas simples hasta documentos JSON complejos.Los
+    almacenes de valores clave son excelentes para almacenar los datos de la sesión y las preferencias de los usuarios, hacer recomendaciones en tiempo real y publicidad
+    dirigida, y almacenar datos en caché en memoria. Sin embargo, si desea poder consultar los datos sobre un valor de datos específico, necesita relaciones entre los valores de
+    los datos o necesita tener varias claves únicas, es posible que un almacén de valores clave no sea la mejor opción. Redis, Memcached y DynamoDB son algunos de los ejemplos
+    más conocidos de esta categoría.
+
+Las bases de datos documentales basadas en documentos almacenan cada registro y sus datos asociados en un único documento. Permiten una indexación flexible, potentes consultas
+    ad hoc y análisis de colecciones de documentos. Las bases de datos de documentos son preferibles para las plataformas de comercio electrónico, los registros médicos, el
+    almacenamiento, las plataformas de CRM y las plataformas de análisis. Sin embargo, si desea ejecutar consultas de búsqueda complejas y transacciones multioperación, es
+    posible que una base de datos basada en documentos no sea la mejor opción para usted. MongoDB, DocumentDB, CouchDB y Cloudant son algunas de las bases de datos basadas en
+    documentos más populares.
+
+Los modelos basados en columnas y basados en columnas almacenan los datos en celdas agrupadas como columnas de datos en lugar de filas. Una agrupación lógica de columnas, es
+    decir, las columnas a las que normalmente se accede juntas, se denomina familia de columnas. Por ejemplo, lo más probable es que se acceda al nombre y a la información de
+    perfil de un cliente juntos, pero no a su historial de compras, por lo que los datos del nombre del cliente y la información del perfil se pueden agrupar en una familia de
+    columnas. Como las bases de datos de columnas almacenan todas las celdas correspondientes a una columna como una entrada continua en el disco, acceder a los datos y
+    buscarlos resulta muy rápido. Las bases de datos de columnas pueden ser excelentes para sistemas que requieren solicitudes de escritura intensivas, ya que almacenan datos de
+    series temporales, datos meteorológicos y datos de IoT. Sin embargo, si necesita utilizar consultas complejas o cambiar sus patrones de consulta con frecuencia, puede que
+    esta no sea la mejor opción para usted. Las bases de datos de columnas más populares son Cassandra y HBase.
+
+Las bases de datos basadas en gráficos y basadas en gráficos utilizan un modelo gráfico para representar y almacenar datos. Son particularmente útiles para visualizar, analizar
+    y encontrar conexiones entre diferentes fragmentos de datos. Los círculos son nodos y contienen los datos, las flechas representan las relaciones. Las bases de datos
+    gráficas son una excelente opción para trabajar con datos conectados, es decir, datos que contienen muchas relaciones interconectadas. Las bases de datos gráficas son
+    excelentes para las redes sociales, las recomendaciones de productos en tiempo real, los diagramas de red, la detección de fraudes y la gestión de accesos. Sin embargo, si
+    desea procesar grandes volúmenes de transacciones, puede que no sea la mejor opción para usted, ya que las bases de datos gráficas no están optimizadas para consultas
+    analíticas de gran volumen. Neo4J y CosmosDB son algunas de las bases de datos gráficas más populares.
+
+NoSQL se creó en respuesta a las limitaciones de la tecnología tradicional de bases de datos relacionales. La principal ventaja de NoSQL es su capacidad para gestionar grandes
+    volúmenes de datos estructurados, semiestructurados y no estructurados. Algunas de sus otras ventajas incluyen la capacidad de funcionar como sistemas distribuidos escalados
+    en varios centros de datos, lo que les permite aprovechar la infraestructura de computación en la nube. Una arquitectura de escalabilidad horizontal eficiente y rentable que
+    proporciona capacidad y rendimiento adicionales con la incorporación de nuevos nodos y un diseño más sencillo, un mejor control de la disponibilidad y una escalabilidad
+    mejorada, lo que le permite ser más ágil, más flexible e iterar con mayor rapidez.
+
+Para resumir las diferencias clave entre las bases de datos relacionales y no relacionales, los esquemas de RDBMS definen rígidamente cómo se deben escribir y componer todos los
+    datos insertados en la base de datos, mientras que las bases de datos NoSQL pueden ser independientes del esquema, lo que permite almacenar y manipular datos no estructurados
+    y semiestructurados.
+
+Mantener sistemas de gestión de bases de datos relacionales comerciales de alta gama es caro, mientras que las bases de datos NoSQL están diseñadas específicamente para hardware
+    básico de bajo costo. Las bases de datos relacionales, a diferencia de la mayoría de las NoSQL, admiten el cumplimiento de la normativa ACID, lo que garantiza la fiabilidad
+    de las transacciones y la recuperación ante fallos.
+
+El RDBMS es una tecnología madura y bien documentada, lo que significa que los riesgos son más o menos perceptibles en comparación con NoSQL, que es una tecnología relativamente
+    más nueva. No obstante, las bases de datos NoSQL llegaron para quedarse y se utilizan cada vez más para aplicaciones de misión crítica."

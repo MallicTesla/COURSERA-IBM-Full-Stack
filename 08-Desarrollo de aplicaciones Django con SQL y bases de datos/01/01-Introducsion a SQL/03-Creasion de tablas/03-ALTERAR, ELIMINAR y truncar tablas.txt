@@ -1,0 +1,33 @@
+"Hola y bienvenidos a las tablas ALTER, DROP y TRUNCATE. Después de ver este vídeo, podrá: Describir las sentencias ALTER TABLE, DROP TABLE y TRUNCATE. Explica la sintaxis y usa
+    las sentencias en las consultas.
+
+La instrucción ALTER TABLE se utiliza para añadir o quitar columnas de una tabla, modificar el tipo de datos de las columnas, añadir o eliminar claves y añadir o eliminar
+    restricciones. Aquí se muestra la sintaxis de la instrucción ALTER TABLE. Comience con ALTER TABLE seguido del nombre de la tabla que desee modificar. Sin embargo, a
+    diferencia de lo que ocurre con la instrucción CREATE TABLE, no se utilizan paréntesis para incluir los parámetros de la instrucción ALTER TABLE.
+
+Cada fila de la instrucción ALTER TABLE especifica un cambio que se desea realizar en la tabla. Por ejemplo, para añadir una columna de números de teléfono a la tabla AUTHOR de
+    la base de datos de la biblioteca para almacenar el número de teléfono del autor, utilice la siguiente sentencia: ALTER TABLE author ADD COLUMN telephone_number BIGINT; en
+    este ejemplo, el tipo de datos de la columna es BIGINT, que puede contener un número de hasta 19 dígitos. También se utiliza la instrucción ALTER TABLE para modificar el
+    tipo de datos de una columna. Para ello, utilice la cláusula ALTER COLUMN que especifica el nuevo tipo de datos de la columna.
+
+Por ejemplo, si se utiliza un tipo de datos numéricos para el número de teléfono, no se pueden incluir paréntesis, signos de suma o guiones como parte del número. Para
+    solucionar este problema, puede cambiar la columna para utilizar el tipo de datos CHAR.
+
+Este código muestra cómo modificar la tabla de autores: ALTER TABLE author ALTER COLUMN telephone_number SET DATA TYPE CHAR (20). Sin embargo, alterar el tipo de datos de una
+    columna que contiene datos existentes puede causar problemas si los datos existentes no son compatibles con el nuevo tipo de datos. Por ejemplo, cambiar una columna del tipo
+    de datos CHAR a un tipo de datos numérico no funcionará si la columna ya contiene datos no numéricos. Si intenta hacerlo, verá un mensaje de error en el registro de
+    notificaciones y la sentencia no se ejecutará. Si sus especificaciones cambian y ya no necesita esta columna adicional, puede volver a utilizar la instrucción ALTER TABLE,
+    esta vez con la cláusula DROP COLUMN, para eliminar la columna como se muestra: ALTER TABLE author DROP COLUMN telephone_number; De forma similar a cuando se usa DROP COLUMN
+    para eliminar una columna de una tabla, se usa la instrucción DROP TABLE para eliminar una tabla de una base de datos.
+
+Si eliminas una tabla que contiene datos, de forma predeterminada, los datos se eliminarán junto con la tabla. La sintaxis de la instrucción DROP TABLE es:
+    DROP TABLE table_name; por lo tanto, utilice esta declaración: DROP TABLE author; para eliminar la tabla de la base de datos.
+
+A veces, es posible que desee simplemente eliminar los datos de una tabla en lugar de eliminar la tabla en sí. Si bien para ello puede utilizar la instrucción DELETE sin la
+    cláusula WHERE, en su lugar suele ser más rápido y eficaz truncar la tabla. La instrucción TRUNCATE TABLE se utiliza para eliminar todas las filas de una tabla. La sintaxis
+    de la instrucción es: TRUNCATE TABLE table_name IMMEDIATE; la instrucción IMMEDIATE especifica que se debe procesar la declaración inmediatamente y que no se puede deshacer.
+    Por lo tanto, para truncar la tabla de autores, utilice esta declaración: TRUNCATE TABLE author IMMEDIATE.
+
+En este vídeo, aprendió que: la instrucción ALTER TABLE cambia la estructura de una tabla existente, por ejemplo, para añadir, modificar o eliminar columnas.
+La instrucción DROP TABLE elimina una tabla existente
+La instrucción TRUNCATE TABLE elimina todas las filas de datos de una tabla."

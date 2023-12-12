@@ -1,0 +1,28 @@
+"Enhorabuena Ha completado esta lección. A estas alturas del curso, ya lo sabe:
+
+El lenguaje de consulta estructurado, o SQL, se utiliza para consultar y gestionar datos
+
+SQL es útil para manejar datos estructurados o datos que incorporan relaciones entre entidades y variables.
+
+La sentencia SELECT de SQL recupera datos de una tabla de una base de datos relacional.
+
+La sentencia SELECT es una consulta, y la salida que obtenemos al ejecutar esta consulta es un Conjunto de resultados o una Tabla de resultados.
+
+En su forma más simple, la sintaxis de una sentencia SELECT es: SELECT * from NombreTabla
+
+La sentencia SQL INSERT inserta datos en una tabla de base de datos relacional añadiendo filas.
+
+La sintaxis de la sentencia INSERT es INSERT INTO NombreTablaNombreColumna VALUES (valores)
+
+Para la sentencia INSERT, los valores proporcionados en la cláusula Valores deben ser iguales al número de nombres de columna especificados en la lista NombreColumna. Esto
+    garantiza que cada columna tenga un valor.
+
+La sentencia SQL UPDATE se utiliza para leer y modificar datos.
+
+La sintaxis de la sentencia UPDATE es la siguiente: UPDATE [NombreTabla] SET [[NombreColumna]=[Valor]] <WHERE [Condición]>.
+
+La sentencia DELETE de SQL se utiliza para eliminar datos de una tabla.
+
+La sintaxis de la sentencia DELETE es: DELETE FROM [NombreTabla] <Donde[Condición]>
+
+La cláusula WHERE especifica las filas de una tabla sobre las que actuará una sentencia SQL como SELECT, DELETE o UPDATE."

@@ -1,0 +1,140 @@
+"
+
+SELECT
+
+Recupera datos de una o varias tablas basándose en las columnas especificadas.
+
+SELECT columna1, columna2 FROM nombre_tabla;
+------------------------------------------------------------------------------------------------------------------------------------
+
+FROM
+
+Especifica la tabla de la que se recuperan los datos.
+
+SELECT columna1, columna2 FROM nombre_tabla;
+------------------------------------------------------------------------------------------------------------------------------------
+
+WHERE
+
+Filtra los datos en función de las condiciones especificadas.
+
+SELECT columna1, columna2 FROM nombre_tabla WHERE condición;
+------------------------------------------------------------------------------------------------------------------------------------
+
+ORDER BY
+
+Ordena el conjunto de resultados basándose en las columnas especificadas en orden ascendente o descendente.
+
+SELECT columna1, columna2 FROM nombre_tabla ORDER BY columna1 ASC;
+------------------------------------------------------------------------------------------------------------------------------------
+
+GROUP BY
+
+Agrupa las filas en función de una columna especificada.
+
+SELECT columna1, COUNT(*) FROM nombre_tabla GROUP BY columna1;
+------------------------------------------------------------------------------------------------------------------------------------
+
+HAVING
+
+Filtra los datos agrupados basándose en condiciones especificadas.
+
+SELECT columna1, COUNT(*) FROM nombre_tabla GROUP BY columna1 HAVING COUNT(*) > 1;
+------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO
+
+Inserta datos en una tabla.
+
+INSERT INTO nombre_tabla (columna1, columna2) VALUES (valor1, valor2);
+------------------------------------------------------------------------------------------------------------------------------------
+
+UPDATE
+
+Modifica los datos de una tabla basándose en las condiciones especificadas.
+
+UPDATE nombre_tabla SET columna1 = valor1 WHERE condición;
+------------------------------------------------------------------------------------------------------------------------------------
+
+DELETE FROM
+
+Elimina los datos de una tabla basándose en las condiciones especificadas.
+
+DELETE FROM nombre_tabla WHERE condición;
+------------------------------------------------------------------------------------------------------------------------------------
+
+JOIN
+
+Combina filas de varias tablas basándose en columnas relacionadas.
+
+SELECT columna1, columna2 FROM tabla1 JOIN tabla2 ON tabla1.columna = tabla2.columna;
+------------------------------------------------------------------------------------------------------------------------------------
+
+INNER JOIN
+
+Devuelve sólo las filas coincidentes de ambas tablas.
+
+SELECT columna1, columna2 FROM tabla1 INNER JOIN tabla2 ON tabla1.columna = tabla2.columna;
+------------------------------------------------------------------------------------------------------------------------------------
+
+LEFT JOIN
+
+Devuelve todas las filas de la tabla izquierda y las filas coincidentes de la tabla derecha.
+
+SELECT columna1, columna2 FROM tabla1 LEFT JOIN tabla2 ON tabla1.columna = tabla2.columna;
+------------------------------------------------------------------------------------------------------------------------------------
+
+RIGHT JOIN
+
+Devuelve todas las filas de la tabla derecha y las filas coincidentes de la tabla izquierda.
+
+SELECT columna1, columna2 FROM tabla1 RIGHT JOIN tabla2 ON tabla1.columna = tabla2.columna;
+------------------------------------------------------------------------------------------------------------------------------------
+
+FULL JOIN
+
+Devuelve todas las filas de ambas tablas, independientemente de la coincidencia.
+
+SELECT columna1, columna2 FROM tabla1 FULL JOIN tabla2 ON tabla1.columna = tabla2.columna;
+------------------------------------------------------------------------------------------------------------------------------------
+
+DISTINT
+
+Devuelve valores únicos de una columna.
+
+SELECT DISTINCT columna1 FROM nombre_tabla;
+------------------------------------------------------------------------------------------------------------------------------------
+
+COUNT
+
+Cuenta el número de filas o valores no nulos de una columna.
+
+SELECTCOUNT(*) FROM nombre_tabla; o SELECT COUNT(columna1) FROM nombre_tabla;
+------------------------------------------------------------------------------------------------------------------------------------
+
+SUM
+
+Calcula la suma de los valores de una columna.
+
+SELECT SUM(columna1) FROM nombre_tabla;
+------------------------------------------------------------------------------------------------------------------------------------
+
+AVG
+
+Calcula el valor medio de una columna.
+
+SELECT AVG(columna1) FROM nombre_tabla;
+------------------------------------------------------------------------------------------------------------------------------------
+
+MAX
+
+Calcula el valor máximo de una columna.
+
+SELECT MAX(columna1) FROM nombre_tabla;
+------------------------------------------------------------------------------------------------------------------------------------
+
+MIN
+
+Busca el valor mínimo de una columna.
+
+SELECT MIN(columna1) FROM nombre_tabla;"
