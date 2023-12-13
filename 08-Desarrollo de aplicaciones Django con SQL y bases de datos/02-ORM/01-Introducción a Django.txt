@@ -1,0 +1,70 @@
+"Bienvenido a la introducción a Django. Después de ver este vídeo, podrá describir las características clave y la naturaleza del framework web de Django e identificar los tipos
+    de aplicaciones web que se pueden crear con Django.
+
+Django es un framework web python de código abierto y accesible de alto nivel. Sigue el patrón MVC del controlador de visualización de modelos, que ayuda a los desarrolladores a
+    crear aplicaciones web de forma rápida y eficiente. Django fue creado para permitir un desarrollo rápido y la reutilización del código.
+
+Los usuarios pueden crear casi cualquier aplicación web con Django, incluido un sistema de gestión de contenido o CMS, plataformas de redes sociales, aplicaciones empresariales y
+    nuevos sitios web.
+
+Una frase común para describir a Django es que se incluyen las pilas, debido a la naturaleza integral del framework web de Django.
+Django ofrece una amplia gama de características y funcionalidades listas para usar.
+
+Django proporciona un mapeo relacional de objetos o capa de formulario que le permite definir sus modelos de datos utilizando clases de Python. Esto facilita el trabajo con bases
+    de datos y la realización de operaciones. Como consultar, insertar, actualizar y eliminar registros.
+Django tiene un motor de plantillas integrado que permite a los desarrolladores separar la lógica empresarial de la lógica de presentación de su aplicación.
+
+Django también proporciona una interfaz de administración que se genera automáticamente en función de los modelos de su aplicación. Proporciona una interfaz fácil de usar para
+    administrar el contenido del sitio y se puede personalizar para adaptarse a requisitos específicos.
+
+Django ofrece sólidas funciones de seguridad, incluida la protección contra las vulnerabilidades web más comunes, como las secuencias de comandos entre sitios (xss), la
+    falsificación de solicitudes entre sitios (CSRF) y la inyección de SQL. También proporciona mecanismos para el cifrado de contraseñas y la gestión de las sesiones de los
+    usuarios.
+
+Django tiene mecanismos integrados de autenticación y autorización, que le permiten administrar las cuentas de usuario, incluida la administración del registro, el inicio de
+    sesión y la administración de contraseñas. También proporciona controles de autorización detallados para definir los permisos de los usuarios y las restricciones de acceso.
+
+Django se puede expandir con la ayuda de módulos, también conocidos como aplicaciones o paquetes de Django. Estos módulos son componentes reutilizables que puede integrar en sus
+    proyectos de Django para añadir funciones o características específicas.
+
+Por ejemplo, Django admite la localización de idiomas. Con el módulo gettext, Django ofrece paquetes de terceros, como Django Simple Captcha para la integración de los captchas,
+    lo que ayuda a evitar que los bots envíen automáticamente los formularios, y el módulo de formularios integrado en Django incluye un formulario robusto.
+    Lógica de validación para garantizar que los datos del formulario cumplan los criterios.
+
+Django promueve una arquitectura en la que cada instancia del servidor web funciona de forma independiente, conocida como share nothing o stateless. En la arquitectura, cada
+    instancia de servidor web gestiona las solicitudes y respuestas de forma autónoma sin depender de recursos compartidos ni mantiene ningún estado del lado del servidor entre
+    las solicitudes.
+
+El framework web de Django facilita el escalado porque la aplicación Django no tiene estado y administra las sesiones de los usuarios. Esto permite a los desarrolladores añadir
+    más instancias de una aplicación y transferir la experiencia del usuario entre los modelos sin perder datos.
+
+Soporte para Django, todo tipo de pruebas, incluidas las pruebas unitarias, de integración y funcionales. El framework de pruebas de Django incluye un ejecutor de pruebas, que
+    permite a los desarrolladores ejecutar las pruebas rápidamente y proporciona informes de pruebas detallados. Ofrece varias utilidades de prueba, afirmaciones y accesorios
+    para facilitar la redacción y ejecución de las pruebas.
+
+Debido a que Django está construido en Python, es independiente de la plataforma, lo que significa que podría ejecutarse en muchas plataformas. Esta independencia de la
+    plataforma se debe a la portabilidad de Python y a su amplia disponibilidad en diferentes sistemas operativos. Esto permite a los desarrolladores elegir la plataforma de
+    alojamiento que mejor se adapte a sus necesidades e infraestructura. Una aplicación de Django puede ejecutarse en casi todos los proveedores de la nube. La naturaleza
+    independiente de la plataforma de Django le permite implementar su aplicación en varias plataformas en la nube según sus requisitos y preferencias específicos.
+
+Por ejemplo, si tiene una plataforma de blogs y prefiere la simplicidad y facilidad de uso de los servicios en la nube de Microsoft Azure, puede implementar su aplicación de
+    blog en Azure sin problemas.
+
+El framework web de Django debe gran parte de su éxito a su dedicada comunidad de usuarios. Esta comunidad incluye desarrolladores, diseñadores y entusiastas de todo el mundo,
+    que comparten una pasión común por crear aplicaciones web excepcionales. Una de las principales fortalezas de la comunidad de Django reside en su compromiso de mejorar y
+    hacer avanzar continuamente el framework.
+
+La naturaleza de código abierto de Django permite a los desarrolladores aportar su experiencia y sus mejoras al código base del framework. Este esfuerzo colectivo se traduce en
+    actualizaciones y lanzamientos periódicos que incorporan nuevas funciones, optimizan el rendimiento y abordan los problemas de seguridad. Se han creado varias aplicaciones
+    web famosas con Django. Instagram, una popular plataforma de redes sociales para compartir fotos y videos, se creó inicialmente con Django. Spotify, una plataforma líder en
+    transmisión de música, también ha utilizado Django y su infraestructura. La popular plataforma para compartir videos YouTube ha incorporado Django a su arquitectura.
+    Y el Washington Post, una reconocida publicación de noticias, ha adoptado Django para su sistema de gestión de contenido o CNS.
+
+En este vídeo, aprenderás que Django es un framework web python de alto nivel, accesible y de código abierto.
+Con Django, los usuarios pueden crear sistemas de gestión de contenido (CMS), plataformas de redes sociales, aplicaciones empresariales y sitios web.
+El mapeo relacional de objetos de Django, o capa de formulario, le permite definir sus módulos de datos mediante clases de Python.
+Las características integradas de Django incluyen plantillas, una interfaz de administración, seguridad, autenticación y autorización, mecanismos, escalado fácil de usar y
+    soporte de pruebas.
+Django se puede ampliar con módulos o aplicaciones o paquetes de Django que añaden funciones y características.
+Django promueve una arquitectura sin estado ni nada compartido que permite gestionar de forma autónoma las solicitudes y respuestas sin depender de recursos compartidos.
+Además, Django es independiente de la plataforma, lo que significa que puede ejecutarse en cualquier plataforma y prácticamente en cualquier servidor en la nube."

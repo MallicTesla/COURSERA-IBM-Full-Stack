@@ -1,0 +1,48 @@
+"Las herramientas de mapeo relacional de objetos (ORM) se utilizan ampliamente en el desarrollo de software moderno para cerrar la brecha entre los lenguajes de programación
+    orientados a objetos y las bases de datos relacionales. Las herramientas ORM brindan una manera conveniente y eficiente de interactuar con bases de datos utilizando objetos
+    y conceptos de lenguaje de programación, eliminando la necesidad de que los desarrolladores escriban consultas SQL complejas y repetitivas.
+
+Los lenguajes de programación tienen sus propias herramientas ORM que simplifican las operaciones de la base de datos y agilizan el proceso de desarrollo. Esta lectura le
+    enseñará acerca de algunas herramientas ORM ampliamente utilizadas para diferentes lenguajes de programación.
+
+PYTHON
+Django es un framework web Python con un ORM incorporado que proporciona una interfaz de programación de aplicaciones (API) de alto nivel para interactuar con bases de datos.
+Django ofrece funciones como definición de modelos, construcción de consultas, migraciones de bases de datos y optimización automática de consultas.
+SQLAlchemy es una biblioteca ORM popular y completa en Python, que proporciona una API flexible y expresiva para trabajar con bases de datos. SQLAlchemy ofrece enfoques ORM de
+    alto y bajo nivel, lo que permite a los desarrolladores elegir el nivel de abstracción necesario.
+web2py es un framework web completo de código abierto escrito en Python que tiene como objetivo simplificar el desarrollo de aplicaciones web proporcionando una solución todo en
+    uno que incluye un servidor web, una capa de abstracción de base de datos y un entorno de desarrollo basado en web.
+
+JACA
+Hibernate se utiliza ampliamente para aplicaciones Java, ya que ofrece una API potente y rica en funciones para asignar objetos Java a bases de datos relacionales. Hibernate
+    admite varios sistemas de bases de datos y proporciona funciones avanzadas como carga diferida, almacenamiento en caché y gestión de transacciones.
+EclipseLink es otra herramienta popular para Java. Es un framework de código abierto que ofrece un amplio soporte para asignar Java a bases de datos relacionales. EclipseLink
+    admite funciones como Java Persistence API (JPA), almacenamiento en caché, capacidades de consulta avanzadas e integración con varios servidores de aplicaciones.
+Apache OpenJPA es una implementación de código abierto de la especificación JPA. Facilita el mapeo de clases Java a tablas de bases de datos relacionales y proporciona
+    persistencia transparente de objetos Java.
+
+.NETO
+Entity Framework es el framework ORM de Microsoft para aplicaciones .NET. Proporciona una API fácil de usar para asignar objetos .NET a bases de datos relacionales. Entity
+    Framework admite diferentes proveedores de bases de datos, ofrece capacidades de consulta e incluye características como enfoques de código primero y base de datos primero
+    para la creación de modelos.
+Dapper es un micro-ORM para .NET que se centra en el rendimiento y la simplicidad. Proporciona una API ligera y eficiente para consultar bases de datos. Dapper es adecuado para
+    escenarios donde se desea control directo sobre las consultas SQL y su ejecución.
+NHibernate es una herramienta ORM ampliamente utilizada para la plataforma .NET. Está inspirado en la herramienta Hibernate ORM para Java. NHibernate une la programación
+    orientada a objetos en .NET y bases de datos relacionales, permitiendo a los desarrolladores interactuar con bases de datos utilizando objetos .NET.
+
+Rubí
+ActiveRecord es el ORM predeterminado en Ruby on Rails, un framework web popular en Ruby. Ofrece un enfoque de convención sobre configuración, lo que facilita la asignación de
+    objetos Ruby a tablas de bases de datos. ActiveRecord proporciona funciones como asociaciones de modelos, generación de consultas y migraciones de bases de datos.
+Sequel es una herramienta ORM flexible y rica en funciones para Ruby que enfatiza la simplicidad y un enfoque centrado en SQL. Sequel admite varios sistemas de bases de datos,
+    ofrece capacidades de consulta avanzadas y proporciona complementos para funciones adicionales.
+DataMapper se centra en la simplicidad, la flexibilidad y la facilidad de uso. Su objetivo es proporcionar una API limpia e intuitiva para trabajar con bases de datos en
+    aplicaciones Ruby. Las características de DataMappr incluyen mapeo flexible, abstracción de datos, consultas y patrones de repositorio.
+
+PHP
+Propel es una herramienta ORM de alto rendimiento para PHP que se centra en la generación y simplicidad de código. Proporciona un enfoque basado en el código, donde las clases y
+    objetos PHP definen el esquema de la base de datos. Propel genera consultas SQL eficientes y ofrece funciones como carga diferida, carga ansiosa y almacenamiento en caché.
+CakePHP incluye un componente ORM integrado que proporciona una API potente e intuitiva para trabajar con bases de datos, ofreciendo funciones como abstracción de bases de datos,
+    creación de consultas y gestión de asociaciones.
+Eloquent es el ORM predeterminado proporcionado por el framework Laravel, un framework PHP popular. Ofrece una sintaxis sencilla y expresiva para definir modelos y relaciones de
+    bases de datos. Eloquent simplifica las operaciones de bases de datos, incluidas consultas, recuperación de datos y migraciones de bases de datos, y admite diferentes
+    motores de bases de datos."

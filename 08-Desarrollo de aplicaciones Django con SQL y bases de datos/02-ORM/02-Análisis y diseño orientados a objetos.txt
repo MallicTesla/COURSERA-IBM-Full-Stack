@@ -1,0 +1,38 @@
+"Bienvenido al análisis y diseño orientados a objetos. Después de ver este vídeo, podrás explicar qué son los objetos y las clases. Describa el propósito de un diagrama de
+    clases y explique el diseño orientado a objetos en relación con la arquitectura de software.
+
+El análisis y diseño orientados a objetos, o OOAD para abreviar, es un enfoque para analizar y diseñar un sistema de software cuando el sistema utilizará lenguajes de
+    programación orientados a objetos para desarrollarlo.
+
+Antes de hablar de OOAD, aprendamos un poco más sobre la programación orientada a objetos en lenguajes como Java, C++ o Python. En el corazón de OOAD están los objetos. Los
+    objetos contienen datos y también tienen comportamientos que prescriben las acciones que el objeto puede realizar. Podría crear un objeto, por ejemplo, que represente a un
+    paciente. Supongamos que el nombre de la paciente es Nia Patel y Nia necesita cancelar una cita que concertó. Sin embargo, antes de crear Nia, primero debemos crear una
+    versión genérica de un objeto de paciente. La versión genérica de un objeto se denomina clase.
+
+Analicemos las clases a continuación antes de hablar más sobre Nia. Los objetos específicos, también llamados instancias, se crean a partir de clases que son planos o plantillas
+    para un objeto. Según nuestro ejemplo anterior, teniendo en cuenta a Nia Patel, Nia sería una instancia de la clase de pacientes. La clase contiene los objetos, los genéricos
+    y los atributos, las propiedades y los métodos, pero solo cuando se crea el objeto, lo que se denomina instanciación dentro del código, estos atributos genéricos se
+    establecen en valores particulares. La clase de pacientes puede tener una variable llamada lastName, que es una propiedad pero no especifica cuál es ese apellido. El
+    apellido es un marcador de posición hasta que se cree el objeto y se le asigne un nombre.
+Una vez que se ha creado una instancia del objeto, se puede llamar a sus métodos para hacer que el objeto realice alguna acción, como concertar o cancelar una cita. El OOAD se
+    usa para un sistema que se puede dividir en objetos que interactúan entre sí. De esta forma, varios desarrolladores pueden trabajar en diferentes aspectos de la aplicación
+    al mismo tiempo. Como se señaló anteriormente, se pueden crear diagramas UML visuales que muestren tanto la estructura estática como el comportamiento dinámico de un sistema.
+
+Ya hemos visto un par de ejemplos de diagramas UML de comportamiento listos. Veamos a continuación un diagrama UML estructural llamado diagrama de clases. Ahora que sabemos qué
+    son las clases. Este es un ejemplo de diagrama de clases. Los diagramas de clases se utilizan habitualmente para comunicar la estructura de un sistema de software en OOAD.
+El diagrama de clases muestra cómo las clases se relacionan entre sí en un diseño orientado a objetos. Cada cuadro representa una clase y muestra sus atributos. Recuerde que los
+    atributos de un objeto son tanto sus propiedades como sus datos y sus acciones disponibles denominadas métodos. Un diagrama de clases también muestra las relaciones entre
+    las clases.
+
+Se dice que una subclase hereda los atributos de su clase principal, lo que significa que tiene las mismas propiedades y métodos que la clase principal, pero también puede
+    añadir propiedades y métodos adicionales. En este diagrama, las clases de enfermeros, médicos y técnicos son subclases del personal médico y la clase de especialista es una
+    subclase de la clase de médicos.
+
+Esto significa que los médicos pueden hacer todo lo que pueda hacer el personal médico y los especialistas pueden hacer todo lo que pueda hacer un médico.
+
+En este vídeo, aprendiste que el análisis y el diseño orientados a objetos son el proceso de planificar un sistema de software en función del comportamiento de los objetos que
+    interactúan.
+
+Los objetos contienen datos y también tienen comportamientos que prescriben las acciones que el objeto puede realizar.
+Las clases son planos de los objetos.
+Un diagrama de clases es un diagrama UML estructural que muestra la relación entre los objetos."
