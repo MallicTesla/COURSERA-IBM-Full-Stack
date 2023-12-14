@@ -1,0 +1,60 @@
+"Bienvenido a Django Models CRUD. Después de ver este vídeo, podrás: Utilice las API de Django Model para realizar operaciones CRUD en objetos. Las operaciones más comunes con
+    los datos son: Crear Lea Actualizar y Eliminar.
+
+El modelo Django proporciona API CRUD completas para manipule objetos sin escribir consultas SQL. Repasemos el curso en línea modelos que utilizaremos para nuestros ejemplos.
+El modelo de usuario base contiene información común acerca de nuestros modelos de instructor y alumno. El instructor se hereda del usuario modelo y tiene campos como «es a
+    tiempo completo» o el número total de alumnos. El alumno también se hereda. Tiene campos como la ocupación y el vínculo social.
+
+El modelo de curso tiene relaciones de muchos a muchos tanto con el modelo de instructor como con el de alumno. El modelo de curso también tiene una relación de muchos a uno con
+    el modelo de proyecto. En un modelo de Django, se crea un objeto y se llama al método de guardado del modelo para insertarlo en la base de datos como registro.
+
+Aquí, hemos creado y guardado el objeto `course_cloud_app`. Si el objeto que creas contiene una referencia a otro modelo, como un campo de clave externa o de muchos a muchos, se
+    utiliza el campo relacionado referencia de modelo para crear una relación. Hemos creado un objeto de proyecto y remitió su clave externa del curso al curso de aplicaciones
+    en la nube que acabamos de crear.
+
+Una vez que hayamos insertado los objetos y sus relaciones en la base de datos, podemos consultarlos. Primero, veamos cómo leer todos los objetos de un modelo. Esto equivale a
+    usar SELECT * de una tabla para obtener todas las filas de la tabla en SQL. En general, para leer objetos usando la API del modelo de Django, necesitas construir un QuerySet
+    usando un administrador en tu clase de modelo. Un QuerySet representa una colección de registros de una base de datos.
+
+Una vez que haya definido su modelo mediante la subclasificación un modelo de Django, como Course en nuestro ejemplo, puede usar su administrador de modelos como interfaz para
+    acceder a los registros de la base de datos. De forma predeterminada, el nombre del administrador de modelos es `objetos`. Solo puede acceder al administrador de objetos
+    utilizando la clase del modelo, no la instancia del modelo, para imponer una separación entre las operaciones a nivel de tabla y las operaciones a nivel de registro.
+
+Para obtener todos los registros del curso, utilice el método «all» del director, que le devolverá un objeto QuerySet. En el resultado, puede ver que todos los cursos se
+    devolvieron e incluyeron en el objeto QuerySet. Por lo general, solo necesitará un subconjunto de registros en lugar de toda la tabla. Para crear un subconjunto de
+    profesores a tiempo parcial, refina el QuerySet inicial llamando a un método de filtro. El método de filtro puede tener muchas búsquedas parámetros, como mayor que, menor
+    que, contiene o es nulo. Esto es como el uso de la condición en la cláusula WHERE de SQL.
+
+Los parámetros de búsqueda contienen el campo el nombre y la expresión de la consulta, que pueden estar vacíos si se trata de una verificación igual o separados por un subrayado
+    para las demás comprobaciones. En este ejemplo, comprobamos que el El campo booleano «is_full_time» tiene el valor False para crear un subconjunto formado únicamente por
+    profesores a tiempo parcial. El administrador de modelos del curso devolverá todos los objetos de profesor a tiempo parcial contenidos en un objeto QuerySet. El método
+    exclude devuelve un nuevo QuerySet que no coincide con los parámetros de búsqueda dados.
+
+Dado que tanto el método de exclusión como el de filtro devuelven un QuerySet, podríamos añadir más excluir y filtrar métodos para formar una cadena de filtros. Esto es como
+    añadir varios condiciones usando `and` en una cláusula Where de SQL. Podemos encontrar un subconjunto de instructores utilizando tanto la opción de excluir como la de
+    filtrar.
+
+Primero, usamos el método de exclusión para eliminar todos los instructores a tiempo parcial. A continuación, aplicamos dos filtros para encontrar instructores con más de 30 000
+    alumnos y un nombre que comience por J. Otra forma de aplicar varios filtros es añadiendo varios parámetros de búsqueda en un método de filtro. Y podemos ver el objetivo Se
+    ha devuelto QuerySet. Si solo hay un objeto que coincida con tu consulta, puedes usar el método Get para devolver el objeto. Por ejemplo, si sabemos que solo hay uno
+    instructor con el nombre `John`, podemos usar el método Get con un first_name parámetro de búsqueda para obtener el instructor.
+
+En nuestro diseño de modelo anterior, muchos modelos eran relacionados mediante referencias de campos relacionales. Por ejemplo, el modelo del curso tenía un parámetro de muchos
+    a muchos referencia de campo al modelo de instructor. Desde el punto de vista de un objeto, estos compuestos los campos son referencias a modelos relacionados. Desde una
+    perspectiva de SQL, estos campos son claves externas que apuntan a tablas relacionadas y se pueden unir para obtener información relacionada.
+Al consultar registros relacionados en una base de datos, Django gestiona SQL JOIN automáticamente, por lo que puede leer objetos relacionados mediante referencias. También
+    puede crear parámetros de búsqueda en los campos relacionados de otros objetos. Por ejemplo, para buscar todos los cursos con un profesor cuyo nombre de pila sea igual a
+    `John`, podemos crear un parámetro de búsqueda con el campo relacionado llamado `instructores`, seguido de un doble subrayado y, a continuación, seguido por un campo del
+    instructor llamado `nombre_nombre`.
+
+Hemos visto cómo insertar registros en un base de datos y cómo leer datos utilizando modelos de Django. Ahora veamos cómo actualizar la base de datos registros mediante la
+    actualización de objetos. Una forma es actualizando el campos primitivos de un objeto. Para nuestro objeto de aprendizaje, podemos cambiar escribe el campo «fecha de
+    nacimiento» al 16 de marzo de 1985 y usa el método «guardar» para actualice el cambio en la base de datos.
+
+El modelo de Django creará y ejecutará las sentencias de actualización de SQL correspondientes. También podemos actualizar los campos relacionados, como el campo de clave
+    externa o el campo de muchos a muchos. Por ejemplo, podemos actualizar un curso en un idioma extranjero campo clave, por lo que apunta a un curso diferente. También podemos
+    usar el método Add para añadir otro alumno a un curso. Para eliminar registros de una base de datos, llame al Método Delete en un objeto modelo o un conjunto de consultas.
+Django ORM admite diferentes opciones de «al borrar». Más adelante obtendrá más información sobre ellas.
+
+En este vídeo, aprendiste que: Con las API de Django, puedes realizar acciones en datos en bases de datos sin escribir consultas SQL y puede utilizar las API del modelo de
+    Django para crear, leer, actualizar y eliminar objetos."

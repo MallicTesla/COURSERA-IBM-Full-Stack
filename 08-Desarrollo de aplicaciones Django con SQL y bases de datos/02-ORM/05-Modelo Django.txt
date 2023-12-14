@@ -1,0 +1,62 @@
+"Bienvenido a Django Model, un objeto popular Biblioteca de mapeo relacional, u ORM, para Python. Después de ver este vídeo, podrás: Explica los conceptos básicos de Django ORM
+    y convierte tu entidad-relación diagramas en modelos de Django.
+
+Recuerde que ORM puede crear el del desarrollador la vida es más fácil al abstraer las bases de datos y mapear automáticamente los objetos y métodos para tablas y consultas SQL.
+Ahora aprenderás cómo funciona Django ORM, un Python El componente ORM que pertenece al framework de aplicaciones web de Django puede ayudar a acelerar el desarrollo de su
+    aplicación con bases de datos.
+
+En Django ORM, cada Django el modelo se asigna a una tabla de base de datos. Al crear un objeto de clase, representa una fila de la tabla. Cada campo representa una columna de
+    la tabla. El esquema y las tablas se generan automáticamente una vez definidas las clases del modelo. Por ejemplo, podemos definir una clase de usuario, que es una subclase
+    del modelo de Django. Django luego creará la tabla de usuarios correspondiente en la base de datos mediante la generación de sentencias de «creación de tablas» y creando
+    columnas basadas en los campos de la clase.
+
+En nuestro ejemplo, una columna first_name será creará en función del primer campo _name. Cada campo de un modelo debe definirse como una clase de campo. Django asigna cada
+    campo a un tipo de columna. Aquí, first_name se define como un campo de caracteres y se transferirá a varchar, y la fecha de nacimiento es un campo de fecha y se transferirá
+    a la fecha.
+
+Para cada columna, definimos sus metadatos, como el tipo y las restricciones, especificando parámetros en una clase de Django Field. Por ejemplo, para el campo first_name,
+    utilizamos el max_length parámetro para especificar la longitud de varchar. Una vez que hayamos definido los modelos y campos, Django ORM generará el esquema y declaraciones
+    de «creación de tablas». nombre_nombre, apellidos y fecha de los campos de nacimiento se convierten en columnas.
+
+Cada campo tiene parámetros de personalización tales como clave nula, en blanco, predeterminada o principal. A continuación, modelamos las relaciones entre las entidades.
+Django ORM admite relaciones comunes como las de uno a uno, de muchos a uno y de muchos a muchos.
+
+Empezaremos con una relación de uno a uno. Supongamos que tenemos un diagrama de sala de emergencias de instructor y usuario. La clase de usuario contiene algunos campos comunes,
+    como el nombre o la fecha de nacimiento, y la clase de instructor tiene algunos campos especiales como «está lleno» o el número total de alumnos que tiene el profesor. Un
+    instructor solo puede tener la información básica almacenada en una clase de usuario y un usuario solo puede tener un rol, como profesor o alumno. Ahora, vamos a convertir
+    el diagrama ER en dos Django modelos. Primero, definimos los modelos (instructor y usuario) y sus campos.
+    Para definir la relación, definimos un campo individual adicional para actúa como una clave externa que apunta al usuario. Django ORM creará el Instructor y Tablas de
+    usuario con una clave externa en la tabla de instructores que apunta a la tabla de usuarios.
+
+Usaremos un diagrama ER del proyecto y del curso para ilustrar una relación de varios a uno. La clase Proyecto representa un proyecto de curso con campos como el nombre del
+    proyecto y calificación. La clase del curso representa una entidad del curso en línea. Tiene campos atómicos tales como como nombre y descripción. Más importante aún, tiene
+    un campo colectivo llamado `proyectos` que representa un conjunto de objetos de proyecto del curso. Por lo tanto, un curso tendría muchos cursos proyectos, y un proyecto de
+    curso solo pertenecería a un curso. Esto es una relación típica de munchos a uno. Para crear modelos en Django, añadimos un campo de curso adicional como clave externa.
+    Tenga en cuenta que este no es un campo individual porque varios proyectos pueden tener el mismo campo de curso.
+
+Para una relación de muchos a muchos, vamos mire un diagrama de la sala de emergencias del curso y del alumno. Un curso puede tener muchos alumnos inscritos, y un alumno puede
+    inscribirse en varios cursos. Para modelar esta relación, añadimos un El campo Many-to-Many a uno de los modelos. Normalmente, el campo Many-to-Many debería ir en el modelo
+    que se editará con más frecuencia. Por ejemplo, es probable que el curso se edite en un cada hora a medida que se añaden o eliminan alumnos, pero cada alumno solo puede
+    inscribirse en un curso nuevo de forma semanal o mensual. A veces puede que necesite información adicional sobre la relación entre los modelos. Por ejemplo, es posible que
+    desee información acerca de la inscripción que tuvo lugar entre los alumnos y los cursos, como la fecha de inscripción. Django le permite especificar el modelo que se
+    utilizará para gobernar la relación de muchos a muchos. En nuestro caso, el modelo intermedio es la tabla de inscripción. Se asocia al campo Many-To-Many mediante el
+    argumento `through`.
+
+La herencia de modelos en Django es como la herencia en Python. Es necesario determinar si los padres son solo poseedores de información común que solo será visible a través de
+    los modelos secundarios, o si los padres deberían tener sus propias mesas. Hay tres escenarios para la herencia del modelo: Utilice el modo de tablas múltiples cuando esté
+    subclasificando un modelo existente y desee cada modelo para tener su propia tabla de base de datos. Utilice clases base abstractas si es el padre la clase solo contendrá
+    información. Utilice modelos proxy para modificar el nivel de Python comportamiento de un modelo sin cambiar los campos.
+
+La herencia de varias tablas es como una relación de uno a uno. La única diferencia es que solo necesitas para subclasificar a Instructor a partir del modelo. Django creará una
+    nueva tabla de instructores y una Campo individual en la clase de instructores. Como tal, la herencia para las clases de varias tablas es una relación implícita de uno a uno.
+
+Hemos definido entidades y relaciones para nuestra base de datos de cursos en línea. Ahora Django creará estas bases de datos tablas y claves foráneas automáticamente. La tabla
+    de usuarios es la tabla base que tiene el ID como clave principal y contiene columnas atómicas como el nombre. La tabla de alumnos se hereda del usuario y tiene una relación
+    de muchos a muchos con Curso a través de una tabla de inscripción intermedia. El instructor y el curso también tienen una relación de muchos a muchos. Por último, las tablas
+    del proyecto y del curso tienen una relación de muchos a uno. Ahora que Django los ha creado tablas, podemos realizar operaciones de lectura, actualización y eliminación de
+    los datos.
+
+En este vídeo, aprendiste que: en Django ORM, cada Django modelar mapas a una tabla de base de datos.
+Cada campo se asigna a un tipo de columna como INT, VARCHAR o DATE.
+Cada campo tiene parámetros de personalización.
+Django ORM admite patrones de relación comunes como uno a uno, muchos a uno y muchos a muchos."
