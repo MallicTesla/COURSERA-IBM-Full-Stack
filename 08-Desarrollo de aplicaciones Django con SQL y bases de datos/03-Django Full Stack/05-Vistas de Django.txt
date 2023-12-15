@@ -1,0 +1,32 @@
+"Bienvenido a Django Views. Después de ver este vídeo, podrás: Comprender y crear una vista de Django.
+
+Una vista toma una solicitud web como HTTP GET, POST , DELETE o UPDATE y devuelve una respuesta web. La respuesta web puede ser una cadena, un archivo JSON/XML, una página HTML
+    o un estado de error indica errores en el lado del cliente o del servidor.
+
+Veamos cómo crear una vista basada en funciones. Al igual que otras funciones de Django, View acepta argumentos como entrada y devuelve algo. Normalmente necesita un objeto de
+    solicitud HTTP como primer argumento.
+
+Este objeto contiene metadatos de solo lectura como el método, el encabezado, los parámetros o la carga útil. El método de solicitud es un método HTTP GET o Método HTTP POST, y
+    la vista normalmente necesita procesarse mediante lógica. Por ejemplo, aquí tenemos consulte el primer registro del curso de la base de datos e inserte su nombre en una
+    plantilla html. Tras procesar la solicitud http con lógica empresarial, un objeto HttpResponse se rellenará y se devolverá a la interfaz de usuario.
+
+Por lo general, puedes pasar contenidos como una página HTML, una cadena o una cadena de bytes al constructor HttpResponse para crear y devolver una HttpResponse. Tras crear la
+    vista, se le asigna un patrón de URL para que la URL de una HttpRequest se asignará a tu función de visualización.
+
+Para hacer esto, abra el archivo URLconf, normalmente llamado urls.py, en la carpeta raíz de tu aplicación. Luego agrega un objeto de ruta con el primero ruta de argumentos, que
+    especifica un patrón de URL. Django comparará la URL solicitada con cada patrón de la lista de patrones de URL.
+
+El segundo argumento es la función de visualización lo definimos en la diapositiva anterior. El argumento del nombre permite hacer referencia al vista desde otros lugares de
+    Django, por lo que puede cambiar la URL tantas veces como sea necesario y usar el nombre de referencia para hacer referencia al patrón de URL.
+
+A veces también es necesario especificar un app_name como prefijo o espacio de nombres. Aquí, llamamos a nuestra aplicación «curso en línea» y el nombre de la vista es «curso».
+Por lo tanto, podemos referirnos a este patrón de URL utilizando onlinecourse:course desde cualquier parte de nuestro proyecto de Django.
+
+Cada respuesta HTTP está asociada a un código de estado. En nuestro resultado anterior, un código 200 predeterminado incluido en la respuesta HTTP indica que la solicitud se
+    procesó correctamente. Sin embargo, la respuesta de un la vista también puede ser un error. Por ejemplo, cuando la vista no puede encuentra el curso en la base de datos,
+    debería mostrar al usuario el mensaje de error «no encontrado». La respuesta de error HTTP se puede devolver añadiendo un estado de error como 404 No encontrado al argumento
+    de estado del constructor HttpResponse, junto con el contenido, como un mensaje de error o página html de error Si se puede encontrar el curso, un código de estado 200 OK se
+    puede usar con un mensaje de éxito o una página html.
+
+En este vídeo, aprendiste:
+Qué son las vistas de Django y cómo crear una vista de Django para recibir una Solicita HTTP y envía una respuesta HTTP."

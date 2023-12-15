@@ -1,0 +1,62 @@
+"Docker es una poderosa herramienta que facilita la ejecución de aplicaciones independientemente de la máquina en la que escribió el código y de la máquina en la que desea
+    ejecutarlo. Se usa ampliamente en la práctica, ya que permite a los desarrolladores evitar el mensaje "¡Pero funciona en mi computadora portátil!" problema cuando su código
+    no funciona.
+
+Primero necesitarás instalar Docker desde este enlace si estás trabajando localmente.
+
+Así es como funciona para aplicaciones Python (básicas):
+
+Crear un requirements.txt archivo
+Cree un Dockerfile que contenga instrucciones sobre cómo crear una imagen de Docker
+Ejecute docker compose up para crear una imagen de contenedor y ejecútela
+Confirme y envíe la imagen a un repositorio remoto para que otros puedan ejecutarla exactamente como usted la configuró.
+Las imágenes de Docker se usan comúnmente junto con Kubernetes, que es un servicio que administra contenedores.
+
+Se le presentará brevemente cómo puede configurar esta aplicación Django para que se ejecute usando Docker.
+
+Antes de entrar en los aspectos técnicos relacionados con Docker, solo necesitamos hacer un cambio final en nuestro código base. De forma predeterminada, Django está configurado
+    para bloquear todo el tráfico de todos los hosts, incluido el tráfico proveniente de CloudIDE, hasta que los definamos explícitamente en settings.py.
+
+Por lo tanto, abra el archivo settings.py y cambie el código ALLOWED_HOSTS = [] a: 
+"
+ALLOWED_HOSTS = ['*','.us-south.codeengine.appdomain.cloud']
+"
+
+Ahora comencemos a trabajar con Docker.
+Primero necesitamos crear el archivo requirements.txt, que usamos para indicarle a Docker qué paquetes de Python necesita instalar. Ejecute el siguiente comando en la carpeta
+    principal /firstproject.
+"
+pip install pipreqs
+pipreqs .
+"
+A continuación, queremos crear un Dockerfile que indique a Docker cómo crear su aplicación (en el mismo directorio):
+Ejecute el siguiente comando para crear un Dockerfile vacío
+
+"
+touch Dockerfile
+"
+
+Luego abra el Dockerfile recién creado y copie el siguiente contenido en él.
+"
+# syntax=docker/dockerfile:1
+FROM python:3
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+WORKDIR /code
+COPY requirements.txt /code/
+RUN pip install -r requirements.txt
+COPY . /code/
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+"
+
+El código anterior se ejecutará línea por línea. La línea FROM indica sobre qué imagen de contenedor base queremos construir y, en este caso, queremos usar una imagen de
+    Python 3. Puedes encontrar más detalles sobre cómo funciona este código aquí. https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/
+
+Ahora podemos ejecutar el siguiente comando para crear y ejecutar la imagen del contenedor:
+"
+docker build . -t my-django-app:latest && docker run -e PYTHONUNBUFFERED=1 -p  8000:8000 my-django-app 
+"
+Con esto, puedes compartir fácilmente la imagen de Docker siguiendo estas instrucciones. https://docs.docker.com/get-started/04_sharing_app/
+
+
+"

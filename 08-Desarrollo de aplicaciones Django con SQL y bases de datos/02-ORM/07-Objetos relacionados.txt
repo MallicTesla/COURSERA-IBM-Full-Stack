@@ -1,0 +1,44 @@
+"Bienvenido a Related Objects. Después de ver este vídeo, podrás : Utilice las API de Django Model para acceder y eliminar objetos relacionados.
+
+Todos nuestros modelos de cursos en línea están relacionados. El usuario tiene una relación personalizada con el instructor y alumno. El curso tiene una relación de muchos a
+    muchos con Instructor y alumno, y una relación de muchos a uno con Project. Le mostraremos cómo manejar estos modelos relacionados utilizando las API de modelos de Django.
+
+Django solo requiere que definas una relación modelo en un lado. Por ejemplo, solo necesita definir el modelo de estudiante como si tuviera una referencia de campo uno a uno al
+    modelo de usuario. Esta referencia explícita se denomina «acceso directo». En el fondo, Django creará una relación regresiva de usuario a alumno para que tú también puede
+    acceder a Learner desde el modelo de usuario. Esta es una referencia implícita o «acceso hacia atrás». Para acceder a la información común sobre un alumno , como su nombre o
+    apellido, necesitamos obtener su objeto de usuario. Como ya hemos definido una referencia de usuario en el modelo Learner, podemos obtener fácilmente el usuario del alumno de
+    forma explícita. También podemos obtener un alumno del objeto Usuario porque Django crea la relación inversa automáticamente.
+
+Una relación de herencia es como una relación de uno a uno. La clase Learner hereda de la clase User. Podemos acceder a la referencia de usuario principal del alumno con el
+    subrayado de usuario p-t-r, creado por Django con el nombre de modelo «user» más un sufijo `p-t-r`, separado por un subrayado. Mientras tanto, Django crea una relación
+    regresiva de usuario a alumno.
+
+Una relación de uno a muchos o de muchos a uno se define mediante un campo de clave externa. Aquí hemos definido una referencia futura de Project al curso Ahora podemos acceder
+    al curso para un proyecto de forma explícita. Mientras tanto, Django crea una referencia hacia atrás del curso al proyecto, con un campo implícito de «conjunto de proyectos»,
+    para que podamos acceder a proyectos que pertenecen a un curso. Manejar objetos relacionados con Many-To-Many funciona como otras relaciones.
+
+En este ejemplo, el modelo de curso tiene un parámetro de muchos a muchos campo que apunta al instructor como referencia explícita. Podemos acceder a los profesores de un curso
+    a través de este acceso directo. Y también podemos acceder a los instructores que actualmente imparten cursos a través del modo implícito referencia creada por Django.
+Anteriormente explicamos que se borra un aísla un objeto simplemente llamando al método delete. Sin embargo, ¿qué pasa si los objetos están relacionados? Por ejemplo, un curso
+    puede tener muchos cursos proyectos a través del campo Foreign Key, y un proyecto de curso pertenece a un curso. Si eliminamos un curso, ¿qué pasará con los proyectos de
+    curso que pertenecen a él? Voluntad ¿Django conservará los proyectos o también los eliminará? De hecho, Django admite diferentes eliminaciones comportamientos basados en
+    cómo se configuran las opciones de «al eliminar». Podemos poner la opción on_delete en el campo Foreign Key como parámetro.
+
+Veamos cómo funciona cada opción al eliminarla un objeto de curso con objetos de proyecto relacionados.
+La opción predeterminada es CASCADE. Se eliminará todos los proyectos del curso si se elimina el objeto del curso.
+La opción PROTECT evita que un objeto del curso se elimine si aún tiene alguno asociado proyectos de curso.
+La opción SET NULL mantiene los proyectos del curso para uso futuro. SET NULL solo está disponible si permitimos que la clave externa sea nula.
+La opción SET DEFAULT o SET asigna los proyectos a un curso predeterminado o a otro diferente curso cuando se ha eliminado el curso relacionado.
+La opción DO_NOTHING no hace nada con los relacionados proyectos cuando se ha eliminado el curso. No se recomienda usar esta opción porque los proyectos serán objetos huérfanos;
+    seguirán apuntando a un objeto de curso inexistente. Hay algunos métodos adicionales de Django para manejar objetos relacionados. Para añadir un objeto al conjunto de
+    objetos relacionado, utilice el método add con la referencia del objeto. Para crear un objeto nuevo con objetos relacionados, utilice el método create con parámetros de
+    palabras clave como valores de campo primitivos o relacionales.
+
+Para eliminar ciertos objetos, utilice la opción eliminar método con las referencias a los objetos relacionados. Para borrar todos los objetos relacionados, utilice la opción
+    borrar método sin ningún parámetro. Para reemplazar objetos relacionados, utilice el método set con el nuevo conjunto de objetos.
+
+En este vídeo, aprendiste que:
+El modelo de Django proporciona una API conveniente para leer o manipular objetos relacionados.
+Django solo requiere que definas la relación en un lado, lo que se denomina directo o explícito relación.
+Cuando defines una relación futura, Django creará automáticamente una relación inversa o implícita basada en el tipo de avance la relación que ha definido y las opciones
+    «al eliminar» especifican lo que sucede a objetos relacionados cuando se borra un objeto."

@@ -1,0 +1,71 @@
+"Bienvenido a Create a Django App. Después de ver este vídeo, podrás: Describa la estructura de la aplicación web de Django y cree y ejecute una aplicación web de Django simple.
+
+Veamos un proceso de desarrollo típico de Django. El orden de estos pasos puede variar. Primero, creamos un proyecto de Django que es un contenedor para las aplicaciones y
+    configuraciones de Django.
+Luego creamos y añadimos una o más aplicaciones de Django al proyecto. En Core Development, creamos modelos de Django para modelar los datos y creamos vistas para determinar qué
+    datos deben presentarse en la interfaz de usuario. También asignamos las URL de las solicitudes a nuestras vistas para que Django pueda reenviar las solicitudes a las vistas
+    correspondientes a través de URL.
+
+Luego podemos empezar a diseñar y construir la interfaz de usuario. Una vez que tengamos confianza en la versión actual, podemos realizar pruebas unitarias o de sistema.
+Una vez finalizado el desarrollo principal, necesitamos para que nuestra aplicación de Django esté lista para la producción, utilizando complementos como un sitio de
+    administración o un tercero biblioteca de frontend.
+
+Una vez que tengamos una aplicación de Django en funcionamiento, podemos despliéguelo en un servidor web, ya sea en las instalaciones o en la nube, y supervise el estado del
+    servidor. Un proyecto de Django es esencialmente un paquete de Python que contiene todos los ajustes de una instancia de la aplicación Django.
+
+Para crear un proyecto de Django, abre una línea de comandos terminal y ejecuta `django-admin, startproject, mysite`. Esto inicializa un proyecto de Django con archivos y
+    carpetas relacionados. Necesita conocer el uso de algunos archivos principales que crea Django.
+
+manage.py es una interfaz de línea de comandos utilizada para interactuar con el proyecto Django para iniciar el servidor, migrar modelos, etc.
+settings.py contiene los ajustes y configuraciones para su proyecto de Django.
+urls.py contiene la URL y las definiciones de enrutamiento de su aplicación Django.
+
+Una vez que haya creado el contenedor del proyecto de Django, puede agregarle su primera aplicación de Django. Vamos a llamemos a nuestra primera aplicación «curso en línea».
+Desde el directorio de proyectos mysite, ejecuta python, manage.py, aplicación de inicio, curso en línea. Django creará una estructura de aplicación temporal y algunos archivos
+    importantes de la aplicación.
+
+admin.py incluye todo lo que necesitas para crear y personalice un sitio de administración para administrar los usuarios y el contenido.
+models.py contiene los modelos de datos y el ORM.
+views.py contiene clases y funciones de visualización para crear vistas.
+urls.py contiene las declaraciones de URL y enrutamiento para la aplicación.
+app.py contiene la configuración de la aplicación clase.
+La carpeta de migraciones contiene scripts para migración de modelos.
+
+Ahora, añadimos la aplicación `cursos en línea`, simplemente creado en nuestro proyecto Django `mysite`. Abra el archivo settings.py en la carpeta mysite, busque la lista
+    INSTALLED_APPS en el archivo de configuración y añada una nueva entrada llamada 'OnlineCourse.Apps.OnlineCourseConfig` a la lista. El OnlineCourseConfig es una configuración
+    clase que representa la aplicación de cursos en línea.
+
+Ahora que nuestra aplicación está conectada, podemos opcionalmente configurar una base de datos para ello. El archivo mysite/settings.py tiene una BASE DE DATOS diccionario para
+    configurar las bases de datos de nuestra aplicación. Añadimos una instancia de base de datos añadiendo su información de conexión, como el motor, el nombre, el nombre de
+    usuario y la contraseña.
+
+Una vez que hayamos configurado nuestra aplicación y base de datos, podemos definir nuestros modelos de Django como el ORM componente entre los objetos y las tablas de la base de
+    datos. Definamos aquí un modelo de curso simple con campos como el nombre y la descripción. A continuación, le decimos a Django que hemos actualizado el modelo ejecutando
+    «python, manage.py, makemigrations, onlinecourse». Luego, Django creará la migración scripts en la carpeta `migraciones`. Para ver más detalles sobre las sentencias SQL para
+    la migración, podríamos ejecutar «python, manage.py, sqlmigrate, onlinecourse 001». Aquí se creará una tabla onlinecourse_course. Ejecute «python, manage.py, migrate» para
+    ejecutar los scripts de migración.
+
+A continuación, creamos una vista sencilla y una plantilla HTML codificada para presentar el objeto del curso. Abra el archivo onlinecourse/views.py para añadir una función de
+    visualización course_list. Acepta un objeto de solicitud HTTP y devuelve un objeto de respuesta HTTP. En primer lugar, obtenemos el objeto del curso de la base de datos como
+    un objeto del curso.
+A continuación, creamos una plantilla html e insertamos dinámicamente el nombre del curso en el marcador de posición. Por último, añadimos la cadena html completa como contenido
+    del HttpResponse y devolvemos a la interfaz de usuario.
+
+Ahora asociamos la vista course_list con una URL para que Django dirija la URL de la solicitud a la vista que se va a gestionar. Las rutas URL se definen en un archivo URLconf
+    para cada aplicación, así como para el proyecto Django. Para crear un archivo URLconf para la aplicación de cursos en línea, primero creamos un archivo urls.py en en la
+    carpeta onlinecourse/ y, a continuación, añadimos un objeto de ruta que apunte a una ruta URL a la vista course_list hemos creado.
+El primer argumento del constructor de rutas es la `ruta`. Define los patrones de URL para que Django los analice y los compare a partir de la solicitud HTTP a una vista. Aquí
+    lo dejamos vacío, lo que significa que se mapeará la URL raíz, host/onlinecourse a nuestra vista course_list. A continuación, apuntamos al archivo URL conf raíz del curso en
+    línea app al archivo URLconf raíz del proyecto.
+Abrimos el archivo URLconf del proyecto llamado mysite/urls.py y añadimos un objeto de ruta que haga referencia a la URLconf de la aplicación de cursos en línea. Entonces,
+    ¿cuándo Django recibe cualquier URL con el sufijo onlinecourse/, intentará hacer coincidir cualquier URL de onlinecourse.urls.py archivo.
+
+Y nuestra aplicación Django está configurada. Revisemos el resultado. Primero, llamamos al «python, manage.py, runserver» línea de comandos, que iniciará un servidor de
+    desarrollo localmente en 127.0.0.1 con el puerto predeterminado 8000 para alojar el proyecto y la aplicación de Django que acabamos de crear. Una vez que se inicia el
+    servidor, vamos a la URL raíz de la aplicación del curso en línea. Deberíamos ver una página web con la siguiente frase: «El primer curso que creamos es `Cloud Application
+    Desarrollo con base de datos`.» Este sencillo archivo html es generado por función de visualización course_list que creamos anteriormente.
+
+En este vídeo, aprendiste:
+La estructura del proyecto y la aplicación de Django y los archivos clave
+Un proceso típico de desarrollo de aplicaciones de Django
+Cómo crear y ejecutar una aplicación de Django simple."

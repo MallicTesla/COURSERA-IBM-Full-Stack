@@ -1,0 +1,31 @@
+"Bienvenido al patrón Django Model View Template (MVT), la implementación de Django del patrón Model-View-Controller (MVC) estándar. Después de ver este vídeo, podrás: Describir
+    el patrón Modelo-Vista-Controlador y describir el patrón de la plantilla de visualización de modelo de Django.
+
+El patrón de diseño MVC divide la lógica de la aplicación en tres componentes. El modelo accede a los datos y los manipula, pero no los presenta. El modelo puede tener
+    interfaces de base de datos como SQL u ORM, o puede usar la lógica empresarial para procesar datos sin procesar.
+
+View presenta los datos de varias formas, como elementos visuales en una página web, una interfaz de usuario de una aplicación móvil o en formato JSON/XML. El controlador
+    coordina entre el modelo y la vista. Enruta las solicitudes, procesa las entradas, solicita los datos CRUD del modelo y actualiza View.
+
+Cuando una aplicación cliente envía una solicitud con entradas al Controller, el Controller enruta la solicitud, valida y procesa la entrada, envía las solicitudes de CRUD a
+    Model y reenvía los datos a View para presentarlos. En la implementación del marco de Django, no hay un controlador explícito. En cambio, el propio servidor de Django
+    realiza esta función. Django Model gestiona el modelado de datos y el mapeo de bases de datos, así como la lógica empresarial para procesar datos.
+
+Django View describe qué datos se presentan, pero no cómo se presentan. Por lo general, ve a los delegados en una plantilla, que describe cómo se presentan los datos. Cuando un
+    cliente envía una solicitud, el servidor de Django la enruta a la vista apropiada según la configuración de la URL de Django. Por lo tanto, Django sigue un patrón de diseño
+    Model-View-Template, o MVT.
+
+Como hemos aprendido, los modelos de Django son clases asignadas a tablas de bases de datos. Las API de modelos de Django permiten a los desarrolladores ejecutar CRUD en objetos
+    y los desarrolladores también pueden escribir lógica empresarial en las clases de modelos de Django como funciones.
+
+En Django, una vista es esencialmente una función de Python. Esta función toma una solicitud web y aplica la lógica necesaria para generar una respuesta web, como el contenido
+    HTML de una página web, una redirección, un error 404, un documento XML, una imagen o cualquier otra respuesta web.
+
+A menudo, View interactúa con Django Model para obtener los datos necesarios en forma de QuerySet u objetos para generar una respuesta web. Django usa una plantilla para generar
+    páginas web dinámicas que se devuelven y se representan en el navegador del usuario.
+
+La plantilla de Django contiene elementos HTML estáticos, así como un código Python especial que describe cómo se generará el contenido dinámico de las páginas HTML.
+
+En este vídeo, aprendiste que: El modelo de Django difiere del patrón MVC tradicional.
+En el patrón MVT de Django Model-View-Template: el framework Django actúa como controlador.
+La vista de Django describe qué datos presentar, y la plantilla de Django describe exactamente cómo se presentan los datos."

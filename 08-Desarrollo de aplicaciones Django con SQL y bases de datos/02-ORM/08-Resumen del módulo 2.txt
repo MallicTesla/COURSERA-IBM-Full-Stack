@@ -1,0 +1,27 @@
+"Enhorabuena Ha completado esta lección. A estas alturas del curso, ya lo sabe:
+
+La Programación Orientada a Objetos (POO) y el paradigma SQL modelan los datos de forma diferente.
+
+El mapeo relacional de objetos, u ORM, tiende un puente entre la POO y el SQL.
+
+Las bibliotecas o herramientas ORM pueden mapear y transferir datos almacenados en una base de datos relacional como filas a objetos o como objetos a filas.
+
+ORM permite a los desarrolladores utilizar la POO para consultar y manipular datos porque transfiere objetos a filas y filas a objetos.
+
+Django ORM es un componente ORM de Python que pertenece al marco de aplicaciones web Django.
+
+Django ORM puede ayudar a acelerar el desarrollo de bases de datos porque se definen mapas a una tabla de base de datos para cada modelo Django.
+
+Cada campo Django mapea a un tipo de columna.
+
+Django crea automáticamente tablas una vez definidos los modelos y los campos.
+
+Las APIs de Django pueden realizar operaciones de creación, lectura, actualización y eliminación (CRUD) sobre objetos de la base de datos.
+
+En un modelo Django, se crea un objeto y se llama al método save del modelo para insertarlo en la base de datos como un registro.
+
+Debe construir un QuerySet utilizando un Gestor en su clase modelo para leer objetos utilizando la API de modelos de Django.
+
+Hay varias formas de actualizar los registros de la base de datos en Django mediante la actualización de objetos.
+
+Para eliminar registros de una base de datos, debe llamar al método Delete de Django ORM sobre un objeto modelo o conjunto de consultas."

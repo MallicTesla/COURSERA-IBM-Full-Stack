@@ -1,0 +1,52 @@
+"Bienvenido a Django Admin. Después de ver este vídeo, podrás crear un sitio de administración para gestionar el contenido de una aplicación de cursos en línea sin usar las API
+    modelo en el shell, y personalice el sitio de administración.
+
+Repasemos los modelos que seremos utilizándolo para nuestra aplicación de cursos en línea. La aplicación tiene algunas entidades comunes para una aplicación de aprendizaje en
+    línea, como cursos, lecciones, preguntas y opciones. Para persona, tiene usuario, alumno e instructor. Para las acciones, tiene Course Inscripción y envío de preguntas. Con
+    tantas entidades y sus relaciones, puedes imaginarte lo difícil que sería para los desarrolladores crear esta aplicación de cursos en línea. Afortunadamente, Django
+    proporciona a los desarrolladores un sitio de administración de Django muy poderoso para administrar este contenido con un mínimo esfuerzo de codificación.
+
+El marco de Django tiene una clara separación entre editores de contenido y usuarios. Django proporciona un sitio de administración integrado para administrar el contenido. En
+    el caso de una aplicación de cursos en línea, los instructores o administradores del sitio pueden usar el sitio de administración para agregar o editar cursos, lecciones,
+    preguntas, etc. Una vez que el curso esté listo y publicado, los estudiantes pueden inscribirse en los cursos del sitio público.
+
+Comencemos a crear un sitio de administración de Django de la siguiente manera primero creando un usuario administrador para el sitio de administración. Primero, ejecuta una
+    línea de comandos `python, manage.py, crea un superusuario`. Solicitará credenciales como nombre de usuario y contraseña.
+Después de crear el superusuario, puedes iniciar el servidor django. Vaya al sitio de administración e inicie sesión con la credencial que acabas de crear. Necesitará registrar
+    sus modelos al sitio de administración para que pueda administrarlos.
+Primero, abre el archivo onlinecourse/admin.py y añada dos líneas: admin.siteregister (curso) y admin.siteregister (instructor) a Los modelos de curso e instructor ahora
+    actualizan el sitio de administración. Puedes ver eso en la sección de cursos en línea, hemos agregado cursos e instructores. Basándose en los campos del modelo, Django
+    creará diferentes widgets de interfaz de usuario.
+
+Para los instructores, Django crea una casilla de verificación para el booleano campo para `Tiempo completo` y entrada numérica para el campo entero `total de alumnos`.
+El modelo de instructor se hereda de User, por lo que User es un objeto relacionado al instructor, que tiene algunos datos comunes, como el nombre y la fecha de nacimiento.
+Aquí podemos simplemente convertir a un usuario en instructor y determinar si el instructor trabaja a tiempo completo o no. Observe que, aunque hay un campo llamado Total de
+    alumnos, probablemente no queramos gestionar este campo en el sitio de administración, sino lo calcularíamos a partir del número de alumnos que están inscritos en el curso
+    del instructor. Más adelante, le mostraremos cómo elegir los campos que desea que se administren en el sitio de administración. Podemos crear un curso introduciendo su nombre,
+    descripción, imagen para la introducción del curso, fecha de publicación, profesores, etc.
+
+Es posible que los desarrolladores solo quieran incluir algunos de los campos del modelo en el sitio de administración y para especificar un orden en particular. Para
+    seleccionar los campos a incluir, creamos una clase de administración modelo y añadimos una lista de campos con el nombre del campo que queremos incluir en el modelo. Por
+    ejemplo, para el modelo de curso, creamos un Clase CourseAdmin con una lista de campos que queremos incluir en el sitio de administración. El orden serán pub_date, nombre y
+    descripción.
+Una vez que hayamos definido CourseAdmin, modifique el método admin.siteregister para añadir CourseAdmin como segundo parámetro. Después de actualizar el sitio de administración
+    e intentar agregar un curso, solo indique la fecha de publicación, el nombre y se muestra la descripción y se puede editar. Un curso puede contener muchas lecciones y
+    preguntas. En lugar de añadir cada modelo uno por uno utilizando su propio formulario de administración, podemos agregue el curso y las lecciones en un solo formulario,
+    usando admin.stackedInline o objetos admin.tabularInline. Podemos crear un objeto LessonInline especificando su modelo es Lesson y `extra` es 5, lo que significa que
+    queremos sumar 5 lecciones como máximo junto con un curso al mismo tiempo.
+En el objeto CourseAdmin que define el En el formulario de administración del curso, agregamos una lista integrada para incluir la clase LessonInline que definimos. Después de
+    actualizar la página, puede ver que aparece una sección de lecciones dentro del Formulario de administración del curso. Puede añadir el título, el orden y el contenido de
+    una lección, que será Django añadirá automáticamente al curso.
+
+Cuando mostramos varios cursos u otros modelos en forma tabular, necesitamos determinar los campos que aparecerán en la tabla. Por ejemplo, para una lista de cursos, solo
+    queremos mostrar el nombre y fecha de publicación del curso en la tabla.
+Hacemos esto añadiendo un list_display con la lista de campos que queremos que se muestren en la tabla de cambios de curso. Después de actualizar la página, la tabla de cambios
+    de curso ahora muestra el nombre del curso y la fecha de publicación columnas tal y como las definimos en list_display.
+
+La lista de cambios de curso puede ser muy larga, ¿y tú es posible que desee poder buscar y filtrar la lista. Para habilitar la búsqueda y el filtrado en el curso, cambie lista,
+    añada los campos de búsqueda para incluir los campos en los que desea buscar y el filtro de listas para incluir los campos que desea filtrar.
+Tras actualizar la página, un Aparecen un cuadro de búsqueda y un menú de filtros en la lista de cambios de cursos para que pueda realizar búsquedas y filtra los cursos en la
+    página de administración.
+
+En este vídeo, aprendiste que El sitio de administración de Django es muy poderoso y fácil de usar para que los administradores del sitio administren el contenido.
+El aspecto y las funciones también se pueden personalizar."
