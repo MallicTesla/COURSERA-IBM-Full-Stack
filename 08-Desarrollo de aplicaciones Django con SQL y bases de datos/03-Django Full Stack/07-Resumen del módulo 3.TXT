@@ -1,0 +1,35 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+El patrón de diseño Modelo-Vista-Controlador divide la lógica de la aplicación en tres componentes:
+
+    El modelo accede a los datos y los manipula
+
+    La vista presenta los datos de diversas formas
+
+    Controlador coordina entre Modelo y Vista
+
+El patrón Django Modelo-Vista-Controlador es como MVC, excepto que no hay Controlador, y el servidor Django realiza la función de controlador.
+
+En Django, una Vista es una función Python que toma una petición Web y aplica la lógica necesaria para generar una respuesta Web.
+
+Django utiliza una plantilla que contiene elementos HTML estáticos y código Python especial para generar páginas Web dinámicas.
+
+Cuando se crea un proyecto Django, Django crea algunos archivos principales.
+
+    manage.py es una interfaz de línea de comandos utilizada para interactuar con el proyecto Django
+
+    settings.py contiene los ajustes y configuraciones para su proyecto Django
+
+    urls.py contiene las definiciones de URL y enrutamiento de su aplicación Django
+
+Comience a construir un sitio de administración Django creando un usuario administrador.
+
+A continuación, puede iniciar sesión como superusuario y registrar sus modelos en el sitio de administración para poder gestionarlos.
+
+Puede personalizar el formulario de administración y añadir búsquedas y filtros.
+
+Una vista Django toma una petición web como HTTP GET, POST, DELETE o UPDATE y devuelve una respuesta web. La respuesta web puede ser una cadena, un archivo JSON/XML, una página
+    HTML o un estado de error que indique errores del lado del cliente o del servidor.
+
+Usted crea plantillas en Django para especificar cómo se presentarán sus datos. Una plantilla Django combina elementos HTML estáticos con etiquetas de plantilla Django y
+    variables para describir cómo se insertarán las partes dinámicas. Estos trabajan juntos para generar una página HTML renderizada en el navegador web de un usuario."

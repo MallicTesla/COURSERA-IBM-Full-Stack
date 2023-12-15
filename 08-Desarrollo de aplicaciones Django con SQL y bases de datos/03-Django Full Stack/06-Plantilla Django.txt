@@ -1,0 +1,42 @@
+"Bienvenido a Django Template. Después de ver este vídeo, podrás: Combine las vistas y plantillas de Django para presentar sus datos como páginas HTML dinámicas. Creas
+    plantillas en Django para especificar cómo se presentarán tus datos.
+
+Una plantilla de Django combina elementos HTML estáticos con etiquetas y variables de la plantilla de Django para describir cómo se insertarán las partes dinámicas. Estos
+    funcionan juntos para generar una página html que se representa en el navegador web de un usuario.
+
+Una plantilla de Django es esencialmente un archivo html con etiquetas y variables de plantilla de Django, que serán interpretadas por la plantilla de Django motor. Para añadir
+    un archivo de plantilla a nuestro curso en línea aplicación, creamos una carpeta en la carpeta raíz del curso en línea llamada `plantillas`. Dentro del En la carpeta
+    `plantillas` creamos una segunda carpeta de `cursos en línea`. Como tal, podríamos referirnos a la plantilla archivo como «onlinecourse/course_list.html». Tenga en cuenta
+    que tenemos dos carpetas de cursos en línea en la ruta de la plantilla. La razón principal es que el segundo curso en línea actúa como un espacio de nombres para distinguir
+    los archivos de plantilla con el mismo nombre en otras aplicaciones. La mejor manera de garantizar que estamos apuntando a Django a la plantilla correcta, espaciando las
+    plantillas por nombre poniendo están dentro de otro directorio llamado así por el propio curso en línea.
+
+Después de crear un archivo de plantilla, se renderizará con un contexto, que es similar a un diccionario objeto devuelto por las vistas. La representación reemplaza las
+    variables por sus valores, que se buscan en el contexto, y ejecuta etiquetas. Todo lo demás se muestra tal cual. Aquí usamos una etiqueta if-else para comprobar si existe la
+    lista course_list devuelta por el servidor. Si es así, usa la etiqueta «for loop» para iterar la lista. Si no es así, genera un html etiqueta de párrafo que indica que no
+    hay cursos disponibles.
+
+El curso y course_list son variables de el contexto. Si una variable representa un objeto, puede utilice la notación de puntos para buscar sus atributos. Una vez que hayamos
+    creado un archivo html de plantilla, necesitamos llenar la plantilla con datos. Esta lógica es manejada por las vistas. Este es un ejemplo de una vista de índice que busca
+    primero todos los cursos de la base de datos. A continuación, creamos un objeto similar a un diccionario llamado context y añadimos una clave `course_list` con un cursos
+    iterables QuerySet.
+
+A continuación, en lugar de devolver una respuesta HTTP utilizamos un método de renderizado directamente para combinar una plantilla dada con un contexto dado diccionario.
+Como resultado, el método render devuelve una HttpResponse que envuelve el renderizado texto. En nuestro ejemplo de vista de índice, el primer argumento es la solicitud http
+    original, el segundo argumento es una ruta relativa al archivo html de la plantilla, y el tercer argumento es el contexto que se integrará con el archivo de plantilla.
+
+Ya hemos creado plantillas y vistas y hemos configurado la URL de la vista. La vista busca una lista de cursos y llama al método render para cargar el archivo de plantilla e
+    inserte la lista de cursos. En el archivo de plantilla, el nombre de cada curso se mostrará como un encabezado html y la descripción del curso se mostrará como un párrafo
+    html. Luego podemos ir a la URL de visualización del índice. La página web generada mostrará una lista de dos cursos: `Introducción a Python` y `curso de Django. `
+
+Has visto cómo usar la plantilla de Django para presentar los datos proporcionados por las vistas de Django como archivos html. Para mejorar un archivo html haciéndolo más
+    interactivo, responsivo y estilizado, necesitamos usar archivos de recursos estáticos como CSS, multimedia y JavaScript.
+
+Ahora veamos cómo embellecer nuestra página de índice de cursos añadiendo un archivo CSS simple. Para usar una hoja de estilo CSS creada en nuestro Django aplicación, primero
+    necesitamos usar load static para cargar un conjunto de etiquetas estáticas y luego usar la etiqueta estática para generar la URL absoluta dada una ruta relativa.
+
+A continuación, añadimos las clases CSS a las etiquetas de cuerpo, párrafo y línea horizontal, respectivamente. Aquí está la página de índice actualizada con CSS agregado. Tenga
+    en cuenta que se ha generado la URL de la ruta absoluta. El fondo ahora es de color gris claro y las descripciones de los cursos aparecen en verde y están separadas por una
+    línea horizontal.
+
+En este vídeo, aprendiste: cómo crear plantillas de Django para presentar tus datos."
