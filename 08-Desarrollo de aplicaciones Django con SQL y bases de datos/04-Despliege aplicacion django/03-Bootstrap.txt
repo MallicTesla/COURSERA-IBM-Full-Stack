@@ -1,0 +1,50 @@
+"¡Bienvenido a Bootstrap! Después de ver este vídeo, podrás: Describir Bootstrap y explica cómo integrar Bootstrap en tu plantilla de Django.
+
+Bootstrap es un framework de interfaz web gratuito diseñado para facilitar el desarrollo de aplicaciones web. Proporciona muchas plantillas HTML y CSS bien diseñadas y de uso
+    común para simplificar Django desarrollo de plantillas. Con la ayuda de Bootstrap, los desarrolladores pueden cree fácilmente páginas web estilizadas e interactivas.
+
+Veamos cómo añadir rápidamente el framework Bootstrap a nuestras plantillas de Django. Integrar bootstrap es sencillo. Si solo quieres usar el estilo CSS de Bootstrap clases sin
+    descargar Bootstrap, simplemente puede agregar un enlace a la última versión de Bootstrap versión alojada en Content Delivery Network, como `maxCDN`, en el elemento
+    principal de tu plantilla html. ¡ Eso es! Esta es la forma más sencilla de añadir Bootstrap.
+
+Ahora puedes empezar a usar las clases de CSS que proporciona Bootstrap. El desarrollo de páginas web normalmente comienza con el diseño de maquetación. Diseñemos un curso
+    sencillo diseño de índice para representar los cursos en una aplicación de cursos en línea. Como muchas otras páginas web, nuestra página de índice de cursos tiene una barra
+    de navegación en la parte superior, que contiene enlaces y elementos para navegar por el sitio. Nuestra barra de navegación también tiene un formulario donde los usuarios
+    pueden enviar datos relacionados con la autenticación , como iniciar sesión o registrarse.
+
+El siguiente es el contenido principal de la página web, que incluye sus elementos principales, como una lista, una tabla o una galería de imágenes. Aquí utilizaremos un
+    contenedor para envolver los elementos de contenido. Planeamos presentar cada curso como una tarjeta. Una tarjeta es una caja bordeada con relleno su contenido. Puede tener
+    un encabezado, pie de página , contenido, imágenes, colores, etc. Para gestionar varias cartas del campo, las envolveremos en una baraja de cartas que creará una cuadrícula
+    de cartas que tienen la misma altura y anchura.
+
+En Bootstrap, creamos una barra de navegación con clase `navbar`, con clases adicionales, como el color de fondo y cómo extenderlo o contraerlo la barra de navegación para
+    adaptarse al tamaño de la pantalla.
+Para añadir elementos como un enlace o un botón al <li> en la barra de navegación, utilizamos el <ul> elemento con la clase `navbar-nav` y, a continuación, añadimos elementos con
+    nav-item. Aquí agregamos un enlace de inicio simple con la clase nav-link a la barra de navegación. Vamos a previsualizar el resultado. ¿Ves que un Se crea una barra de
+    navegación con un tema de fondo claro. Solo tiene un elemento de enlace.
+
+A continuación, añadimos un formulario a la barra de navegación para enviar datos relacionados con la autenticación. Necesitamos crear un formulario en línea en el que todos los
+    elementos estén en línea y alineados a la izquierda.
+Dentro del formulario en línea, podemos añadir dos elementos de entrada para recibir el nombre de usuario y la contraseña. Aquí usamos la clase form-control, que es una clase
+    estándar de Django para diseñar textos elementos. Luego agregamos un botón de envío estilizado por las clases btn y btn-primary, que crean un botón azul estándar de
+    Bootstrap. Por último, añadimos un enlace de registro que lleva a la página de registro, estilizada por btn y clases de btn-link.
+
+En el resultado, puede ver un formulario de inicio de sesión se ha agregado a la barra de navegación. Ya hemos terminado la parte del encabezado de nuestro página de índice de
+    cursos. A continuación, comenzaremos a crear el contenido principal de la página.
+
+Queremos incluir la página en un elemento div estilizado por clase contenedora. Hay dos tipos de contenedores en Bootstrap. La primera clase de contenedor tiene un ancho fijo.
+La otra es contenedor-fluid, que abarca todo el ancho del elemento principal.
+Dentro de la clase contenedora, creamos un div estilizado por la clase `card-deck`. La clase de baraja de cartas crea una cuadrícula de cartas para organizar nuestro curso
+    cartas. Luego creamos un div de cartas para representar un curso tarjeta.
+Cada tarjeta del curso tiene un elemento de imagen para mostrar una imagen del curso, un cuerpo de la tarjeta que incluye el título de la tarjeta para mostrar el nombre del
+    curso y el texto de la tarjeta para mostrar el curso descripción. El resultado es una bonita baraja de cartas que se representa con cada curso presentado como una carta.
+
+Otra plantilla de contenido de uso común es tabla, que muestra datos tabulares, como una lista de estudiantes. Para crear una tabla de Bootstrap, creamos un elemento de tabla
+    con el estilo de la clase de tabla. Luego creamos un encabezado de tabla con un elemento de encabezado en T para definir los encabezados de tabla, como el nombre, apellido y
+    correo electrónico.
+A continuación, añadimos un cuerpo de tabla para mostrar el usuario objetos para un curso, en los que cada fila de la tabla, o tr, representa a un usuario y a cada tabla columna,
+    o td, que representa un atributo de usuario, como el nombre, los apellidos o el correo electrónico. El resultado es una tabla de estudiantes que muestra una lista de los
+    estudiantes inscritos en un curso.
+
+En este vídeo, aprendiste: Qué es Bootstrap y cómo integrar Bootstrap en tu plantilla de Django. También aprendiste sobre algunos Bootstrap comunes plantillas: barra de
+    navegación con un formulario de inicio de sesión, Contenedor, baraja y baraja de cartas, y Mesa."

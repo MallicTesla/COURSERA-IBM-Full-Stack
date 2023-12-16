@@ -1,0 +1,59 @@
+"Bienvenido al Sistema de Autenticación de Django. Después de ver este vídeo, podrás: Defina la autenticación y la autorización y utilice los objetos de usuario de Django para
+    realizar la autenticación y autorización.
+
+La autenticación es el proceso de validación las identidades de los usuarios, utilizando credenciales como el nombre de usuario y la contraseña. Autenticación moderna sistemas
+    como el código de acceso de un solo uso por SMS/correo electrónico y el inicio de sesión único (SSO), o la biometría como como el reconocimiento facial y las huellas
+    dactilares, ni siquiera requieren que los usuarios introduzcan las contraseñas directamente.
+
+Una vez que los usuarios se hayan autenticado, la autorización verificará los permisos de acceso de los usuarios para recursos como bases de datos. Los administradores de
+    sistemas suelen necesitar definir diferentes funciones o grupos con permisos de acceso específicos, como el permiso para ver el contenido de un curso. Los administradores
+    asignan funciones o agregan usuarios a grupos específicos para conceder el acceso.
+
+El modelo de usuario proporciona información básica sobre el usuario, como el nombre de usuario, la contraseña y el correo electrónico. En Django, se crea un modelo de usuario
+    para gestionar la autenticación y trabajar con otros modelos como grupos y permisos para gestionar la autorización. Los desarrolladores pueden ampliar el modelo de usuario
+    para definir usuarios específicos de la aplicación, como profesores o alumnos, heredados del modelo de usuario. Para autenticar o iniciar sesión a un usuario con un nombre
+    de usuario y una contraseña, primero creamos una plantilla de página web para recibir las credenciales.
+
+Veamos cómo autenticar a un usuario en un inicio de sesión web típico página. Tenga en cuenta que esta no es una plantilla html completa; solo mostramos el elemento
+    «formulario de importación». Para este sencillo formulario de inicio de sesión, hemos creado un texto entrada para recibir un nombre de usuario y una contraseña: entrada
+    para recibir una contraseña con una contraseña máscara. Una vez que enviemos el formulario, le enviaremos un POST solicitud a la vista de inicio de sesión del curso en línea
+    para autenticar al usuario.
+
+Esta es una vista previa de la página de inicio de sesión que acabamos de crear. Se pueden introducir el nombre de usuario y la contraseña y se envía a una vista de inicio de
+    sesión en el servidor. Para la vista de inicio de sesión, primero obtenemos el nombre de usuario y la contraseña del atributo POST del objeto de solicitud. Usamos el método
+    de autenticación proporcionado por el marco de autenticación de Django, que devuelve un usuario válido si el nombre de usuario y la contraseña coinciden con los registros
+    de la base de datos. Devuelve «Ninguno» si las credenciales proporcionadas no coinciden.
+
+Finalmente, podemos usar el método de inicio de sesión para iniciar sesión el usuario y redirigirlo a una vista de índice. Una vez que el usuario inicia sesión, Django crea un
+    sesión única con un ID de sesión. A continuación, consulta la información del usuario y la añade a la sesión para que el servidor sepa qué usuario está siendo identificado
+    por el único identificador de sesión.
+
+La sesión web almacena datos de estado para los usuarios visitar un sitio web, para que el sitio y el usuario puedan realizar una serie de acciones con el servidor sin iniciar
+    sesión para cada acción.
+El lado del navegador también almacena el ID de sesión en su COOKIE para identificaciones dentro del sitio. Podemos usar el atributo COOKIES para obtener el identificador de
+    sesión y el atributo de sesión para obtener el datos de sesión similares a los de un diccionario. Si el usuario está autenticado, nosotros deberíamos poder ver un
+    identificador de sesión válido y los datos del diccionario de sesión deberían contener información acerca del usuario, como el identificador de usuario.
+
+Si el usuario no está autenticado, recibimos el identificador de sesión es «Ninguno» y un diccionario de sesión vacío. Cerrar la sesión de un usuario es sencillo. Simplemente
+    invocamos el método de cierre de sesión con el objeto de solicitud http. Crear un formulario de registro es similar a crear un formulario de inicio de sesión.
+Podemos dirigir la URL de acción del formulario a una vista de registro con el método de publicación, y añadir dos elementos de entrada para recibir el nombre de usuario y la
+    contraseña de los usuarios. La página de registro es similar a una página de inicio de sesión. Recibe el nombre de usuario y la contraseña y los envía a una vista de
+    registro. La vista de registro recibe el nombre de usuario y contraseña del atributo POST y llama a create_user del administrador de modelos de usuario método para crear un
+    nuevo usuario. A continuación, el usuario puede iniciar sesión y redirigirse a la página de índice de cursos en línea.
+
+La autorización del usuario en Django se gestiona principalmente mediante tres modelos: usuario, permiso y grupo.
+Explicamos el modelo de usuario en la autenticación. El modelo de permisos tiene muchas o muchas relaciones con el usuario para almacenar los tipos de objetos y cómo pueden
+    acceder los usuarios a ellos. El modelo de grupo proporciona una forma cómoda para administrar usuarios con los mismos permisos. La forma más sencilla de gestionar los
+    permisos y los grupos son con el sitio de administración de Django, pero también puede optar por administrarlos mediante programación usando APIs.
+
+En Django, puedes crear y asignar permisos a cada modelo que haya definido. Los cuatro permisos predeterminados son: Ver, Agregar, Cambiar y eliminar. Por ejemplo, tenemos
+    Puede añadir, Puede cambiar, Puede eliminar y ver los permisos de nuestro modelo de curso.
+
+A veces queremos agrupar a los usuarios con los mismos permisos. Con el modelo Django Group, puedes crear grupos de usuarios y asignar permisos a los grupos. Por ejemplo,
+    podemos crear un grupo de instructores con el curso para agregar, cambiar, eliminar y ver los permisos.
+Podemos crear otro grupo, Learners, que solo podemos ver el contenido del curso y podemos añadir fácilmente un nuevo usuario instructor a el grupo de profesores para conceder al
+    usuario todos los permisos de profesor de forma automática.
+
+En este vídeo, aprendiste la definición de autenticación y autorización, y Cómo usar Django para Registre y autentique a los usuarios, agregue permisos a los usuarios que
+    utilizan el sitio de administración, y administre los usuarios como grupos.
+En el laboratorio de autenticación y autorización, aprenderás más a programar añadiendo autenticación y autorización para una aplicación de Django."
