@@ -1,0 +1,49 @@
+"Bienvenido a Deploy Django Apps on Cloud. Después de ver este vídeo, podrás explicar cómo se implementan las aplicaciones de Django en la web servidores. Describa Cloud Foundry
+    y las ventajas de IBM Cloud Foundry y utilice los paquetes de compilación de Python y Staticfile proporcionado por Cloud Foundry para implementar una aplicación de Django de
+    muestra
+
+En el desarrollo de Django, cuando ejecutas la línea de comandos `runserver`, se inicia un desarrollo mínimo servidor web para que pueda desarrollar y probar rápidamente
+    aplicaciones de Django. Para implementar aplicaciones de Django confiables, escalables y fáciles de mantener, debe implementarlas en la web servidores. Dado que la mayoría
+    de los servidores web, como Apache HTTP El servidor y Nginx no están escritos en Python, las aplicaciones de Django necesitan interfaces adicionales para comunicarse a los
+    servidores web que admiten esas interfaces.
+
+La interfaz de puerta de enlace del servidor web, o WSGI, es el principal estándar de Python para la comunicación entre servidores web y aplicaciones. Es compatible Solo código
+    sincrónico. Para hacer que las aplicaciones de Django funcionen con WSGI, la línea de comandos de startproject creará un archivo wsgi.py declarando una aplicación invocable
+    de forma predeterminada. Los servidores WSGI intentarán encontrar esta aplicación invocable y la utilizarán como punto de entrada para comunicarse con tu aplicación Django.
+
+Hay algunos servidores web WSGI populares disponibles para aplicaciones de Django, como green unicorn, uWSGI, Apache y mod_wsgi. La interfaz de puerta de enlace de servidor
+    asíncrona es otra interfaz de servidor web, Django la aplicación es compatible.
+
+La principal diferencia con WSGI es que admite código asíncrono. Para trabajar con el servidor web ASGI, la línea de comandos startproject crea un archivo asgi.py archivo que
+    declara una aplicación invocable.
+
+Los servidores web ASGI más populares son Daphne, Hypercorn y Uvicorn. Despliegue de aplicaciones de Django o cualquier otra aplicación web en un entorno de producción no es
+    trivial, ya que es necesario construir y configurar cuidadosamente plataformas e infraestructuras, como los tiempos de ejecución, los sistemas operativos, la red, las bases
+    de datos y servidores para cumplir con sus requisitos de implementación.
+
+Afortunadamente, hoy en día con la ayuda de la infraestructura como servicio y plataforma como servicio, puede implementar aplicaciones en plataformas de aprovisionamiento con
+    un esfuerzo mínimo. Cloud Foundry es un ejemplo de plataforma como oferta de servicios. Con Cloud Foundry, puede centrarse en el desarrollo de su aplicación y no se preocupe
+    por la infraestructura y la plataforma subyacentes.
+Cloud Foundry tiene una arquitectura basada en contenedores que ejecuta aplicaciones en casi todos los programas populares idiomas. Puede implementar aplicaciones en Cloud Foundry
+    con modificaciones mínimas en su aplicación, y el canal de despliegue se encargará de todo el proceso de despliegue de forma automática. Al desvincular las aplicaciones de
+    la infraestructura, puede tomar decisiones de implementación sobre dónde alojar cargas de trabajo: en las instalaciones o en la nube.
+
+Tenga en cuenta que muchos proveedores están aprovisionando la nube Foundry con valores adicionales, como IBM Cloud, AWS, Azure y GCP. El uso de Cloud Foundry en IBM Cloud
+    ofrece muchas ventajas.
+En primer lugar, proporciona el nivel Lite sin necesidad de tarjeta de crédito. Esto es conveniente para los desarrolladores para aprender a implementar aplicaciones pequeñas.
+Con el control de acceso, puede incluso configurar la computación capacidad para sus equipos. IBM Cloud monitoriza el estado de salud de su aplicación y reinicia automáticamente
+    las aplicaciones bloqueadas. Con el enrutamiento automático, se crean automáticamente URL de acceso público para sus aplicaciones, y también puede vincularse automáticamente
+    a otros servicios de IBM, como los servicios de bases de datos e IA.
+
+Hay muchos entornos de ejecución de Cloud Foundry compatibles con IBM Cloud, incluido Java, node.js, Python, Go, Swift, PHP.Net, Tomcat y Ruby. En este curso, nos centraremos en
+    Tiempo de ejecución de Python.
+
+Otra alternativa para alojar tu Django la aplicación es el IBM Cloud Code Engine, o «Code Engine». Code Engine abstrae lo operativo la carga de crear, implementar y administrar
+    cargas de trabajo para que los desarrolladores puedan centrarse en desarrollo de código. Code Engine tiene muchas capacidades. Ejecuta diferentes cargas de trabajo, como una
+    aplicación de Django y cualquier trabajo por lotes que se ejecute hasta completarse. Se encarga de toda la gestión de los clústeres, incluidos el aprovisionamiento, la
+    configuración, el escalado y la gestión servidores, por lo que no tiene que preocuparse por la infraestructura subyacente Escala automáticamente sus cargas de trabajo hacia
+    arriba y hacia abajo, gestiona los permisos de acceso a la plataforma y a los servicios en función del IAM de IBM Cloud, y está completamente integrado en IBM Cloud para que
+    pueda aprovechar el catálogo completo de los servicios de IBM Cloud
+
+En este vídeo, aprendió: Cómo implementar la aplicación Django en los servidores web WSGI y ASGI,
+y cómo IBM Cloud Foundry e IBM Code Engine como PaaS pueden facilitar el despliegue de su aplicación."

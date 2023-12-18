@@ -1,0 +1,42 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Tanto las vistas basadas en funciones como las basadas en clases son funciones de Python.
+
+Cuando usted construye una vista basada en clases, usted define una clase subclase de la clase base Vista de Django. A continuación, accede a algunos métodos estándar como Get o
+    Post. A continuación, implementa su lógica para manejar las peticiones HTTP.
+
+Para acelerar el desarrollo y resolver tareas comunes, Django proporciona algunas clases de vistas incorporadas llamadas vistas basadas en genéricos para que los desarrolladores
+    puedan reutilizarlas.
+
+La autenticación consiste en validar la identidad de los usuarios utilizando credenciales como el nombre de usuario y la contraseña.
+
+Una vez autenticados los usuarios, la autorización comprobará los permisos de acceso de los usuarios a recursos como las bases de datos.
+
+En Django, se crea un modelo de usuario para manejar la autenticación y trabajar con otros modelos, como grupos y permisos, para manejar la autorización.
+
+Los desarrolladores pueden ampliar el modelo de usuario para definir usuarios específicos de la aplicación, como instructores o alumnos heredados del modelo de usuario.
+
+Bootstrap, un marco front-end web gratuito, facilita el desarrollo de aplicaciones web.
+
+Bootstrap proporciona muchas plantillas HTML y CSS para simplificar el desarrollo de plantillas Django.
+
+Si desea utilizar las clases de estilo CSS de Bootstrap sin descargar Bootstrap, añada un enlace a la última versión de Bootstrap en el elemento head de su plantilla HTML.
+
+Para añadir archivos estáticos a sus aplicaciones, primero debe crear carpetas para los distintos archivos estáticos, como plantillas HTML, imágenes o archivos CSS.
+
+Debajo de cada carpeta para albergar archivos estáticos, usted crea una subcarpeta utilizando el mismo nombre de la app. Esto crea un espaciado de nombres para referirse de
+    forma única a los archivos estáticos que utilizan el mismo nombre a través de múltiples apps en un proyecto Django.
+
+Django proporciona un conjunto de STACFILES_FINDERS para localizar los archivos estáticos en una app. También proporciona una aplicación staticfiles para recopilar todos los
+    archivos estáticos en un único directorio cuando se despliega una app.
+
+Para desplegar aplicaciones Django fiables, escalables y mantenibles, es necesario desplegarlas en servidores web.
+
+Dado que la mayoría de los servidores web no están escritos en Python, las apps Django necesitan interfaces extra para hablar con los servidores web.
+
+La Web Server Gateway Interface, o WSGI, es el principal estándar de Python para la comunicación entre servidores web y aplicaciones.
+
+La aplicación Django soporta la Interfaz de Pasarela de Servidor Asíncrono, otra interfaz de servidor web.
+
+La oferta de infraestructura como servicio y plataforma como servicio le permite centrarse en el desarrollo de sus aplicaciones y desplegarlas sin preocuparse de la
+    infraestructura y la plataforma subyacentes."

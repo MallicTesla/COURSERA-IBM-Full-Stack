@@ -1,0 +1,38 @@
+"Bienvenido a Django Static Files. Después de ver este vídeo, podrás: Explica cómo Django gestiona los archivos estáticos, como el CSS y los archivos multimedia, y combine vistas,
+    plantillas y archivos estáticos de Django para presentar sus datos como HTML dinámico páginas.
+
+Para añadir archivos estáticos a tus aplicaciones, necesitas para crear primero carpetas para diferentes archivos estáticos, como plantillas html, imágenes o CSS archivos.
+A continuación, debajo de cada carpeta para guardar los archivos estáticos, tendrás que crear una subcarpeta con el mismo nombre de la aplicación, por ejemplo, la aplicación
+    `onlinecourse`. La razón principal por la que necesitas este nivel adicional es para crear un espaciado entre nombres para los archivos estáticos porque es posible que
+    tengas archivos estáticos con el mismo nombre en varias aplicaciones en un Django proyecto.
+
+Django usa el espacio de nombres para referirse de forma única a archivos estáticos en varias aplicaciones. En Django, creas diferentes aplicaciones dentro de el contenedor del
+    proyecto. Cada aplicación puede tener su propio conjunto de archivos estáticos, que normalmente se almacenan en una carpeta denominada `static` en la carpeta raíz de la
+    aplicación.
+
+Además de estos archivos estáticos específicos de la aplicación, es posible que tengas que usar algunos archivos estáticos externos. Puede definir los directorios de estos
+    archivos estáticos adicionales en la lista STATICFILES_DIRS en el archivo settings.py del proyecto Django. Django proporciona un conjunto de STATICFILES_FINDERS como
+    AppDirectoriesFinder para localizar los archivos estáticos en una aplicación y FileSystemFinder para localizar otros directorios de archivos estáticos. Estos buscadores
+    generarán la ruta absoluta referencias y le entregarán esos archivos. Tenga en cuenta que estas carpetas estáticas están donde almacene sus archivos estáticos en su entorno
+    de desarrollo.
+
+Se pueden almacenar en varios lugares de su sistema de archivos local, especialmente si tiene varias aplicaciones. Esto no es conveniente para implementar la aplicación en un
+    servidor remoto. Cuando implementas tu aplicación en una web de producción servidor, es posible que desees mover todos tus archivos estáticos a una única ubicación.
+Django proporciona una aplicación de archivos estáticos, que se instala de forma predeterminada, para recopilar toda la estática archivos en un solo directorio. En primer lugar,
+    se especifica el STATIC_ROOT, un valor absoluto ruta que actúa como la ubicación raíz de los archivos estáticos y crea una estructura de archivos para ellos.
+
+A continuación, especifique el STATIC_URL, un prefijo para la URL de tus archivos estáticos. A continuación, llama a la línea de comandos collectstatic proporcionada por la
+    aplicación staticfiles, que recopilará los archivos estáticos en el STATIC_ROOT carpeta con una estructura de archivos creada para ti.
+Como alternativa, también puedes usar findstatic línea de comandos para buscar más rutas relativas que contengan archivos estáticos.
+A continuación se muestra un ejemplo de estructura de archivos en STATIC_ROOT después de que la línea de comandos collectstatic haya sido ejecutado.
+
+Los nombres de las carpetas del primer nivel secundario son el nombre de la aplicación como espacio de nombres. En las carpetas de la aplicación hay diferentes tipos de carpetas
+    de archivos estáticos, como CSS, fuentes e imágenes.
+
+Cuando despliegues tu aplicación Django en un servidor web remoto, el servidor web conocerá todos los archivos se recopilan en la carpeta STATIC ROOT. Esto facilitará que el
+    servidor pueda localice todos los archivos necesarios. Los archivos de la carpeta STATIC ROOT necesitan para ser servidos a tus aplicaciones o a otros usuarios externos.
+Se pueden servir localmente mediante un servidor de desarrollo de Django o de forma remota mediante un servidor web dedicado. Puede encontrar estos archivos a través de una URL
+    con el nombre de host y dominio, seguidos de la STATIC_URL definió, como `/static/`, que es esencialmente un prefijo de URL para sus archivos estáticos, seguido de la misma
+    ruta de archivo en la carpeta STATIC ROOT, como /onlinecourse/course.css.
+
+En este vídeo, aprendiste: Cómo gestiona Django los archivos estáticos en entornos de desarrollo e implementación"
