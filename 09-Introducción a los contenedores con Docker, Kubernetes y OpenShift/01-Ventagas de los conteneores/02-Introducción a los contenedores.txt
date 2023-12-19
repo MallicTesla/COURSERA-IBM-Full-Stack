@@ -1,0 +1,54 @@
+"Bienvenido a «Introducción a los contenedores». Tras ver este vídeo, podrá identificar los problemas informáticos tradicionales relacionados con el desarrollo de software,
+    definir un contenedor y describir sus características, y enumerar las ventajas y los desafíos que presenta, así como los proveedores de contenedores más populares.
+
+La tecnología nativa de la nube es el enfoque de desarrollo de aplicaciones más reciente para crear software escalable, dinámico e híbrido apto para la nube. La tecnología de
+    contenedores es una parte importante de ese enfoque. Veamos la analogía de un contenedor de transporte. La industria naviera moderna estandarizó un conjunto de tamaños de
+    contenedores, por lo que no importa qué artículo se envíe, el tamaño del contenedor sigue siendo el mismo. La estandarización mejora significativamente la eficiencia del
+    envío. El personal de logística selecciona las opciones de transporte de contenedores, como barcos, aviones, trenes y camiones, según el tamaño del contenedor y las
+    necesidades de entrega del cliente. La tecnología de contenedores digitales es similar.
+
+Los contenedores resuelven el problema de hacer que el software sea portátil para que las aplicaciones puedan ejecutarse en múltiples plataformas. Un contenedor, impulsado por
+    el motor de contenerización, es una unidad de software estándar que encapsula el código de la aplicación, el tiempo de ejecución, las herramientas del sistema, las
+    bibliotecas del sistema y la configuración necesarios para que los programadores creen, envíen y ejecuten aplicaciones de manera eficiente. Las operaciones y los problemas
+    de infraestructura subyacentes ya no son un obstáculo. Puede mover rápidamente las aplicaciones de su portátil a un entorno de pruebas, de un entorno de ensayo a un entorno
+    de producción, de una máquina física a una máquina virtual o a una nube privada o pública, y siempre tendrá la certeza de que su aplicación funcionará correctamente.
+
+Un contenedor puede ser pequeño, de solo decenas de megabytes, y los desarrolladores pueden iniciar aplicaciones en contenedores casi al instante. Con estas capacidades,
+    los contenedores sirven de base para los estándares actuales de soluciones de desarrollo e implementación.
+
+Examinemos algunos de los desafíos de desarrollo e implementación a los que se enfrentan las organizaciones en los entornos informáticos tradicionales. En los entornos
+    tradicionales, los desarrolladores no pueden aislar la aplicación ni asignar o designar recursos específicos de almacenamiento y memoria para las aplicaciones en servidores
+    físicos. Los servidores suelen estar infrautilizados o sobreutilizados, lo que se traduce en una utilización deficiente y en un bajo rendimiento de la inversión.
+Las implementaciones tradicionales requieren recursos de aprovisionamiento integrales y costosos costos de mantenimiento. Los límites de los servidores físicos pueden limitar el
+    rendimiento de las aplicaciones durante los picos de carga de trabajo. Las aplicaciones no se pueden transportar a varios entornos y sistemas operativos. La implementación
+    de hardware para garantizar la resiliencia suele llevar mucho tiempo, es compleja y costosa. Los entornos de TI locales tradicionales tienen una escalabilidad limitada. Por
+    último, la automatización es un desafío cuando se distribuye software a múltiples plataformas y recursos mediante entornos tradicionales.
+
+Los contenedores permiten a las organizaciones superar estos desafíos. Los motores de contenedores virtualizan el sistema operativo y son responsables del funcionamiento de los
+    contenedores. Los contenedores independientes de la plataforma son livianos, rápidos, aislados, portátiles y seguros y, a menudo, requieren menos espacio de memoria. Los
+    archivos binarios, las bibliotecas y otras entidades del contenedor permiten que las aplicaciones se ejecuten y una máquina puede alojar varios contenedores. Los
+    contenedores ayudan a los programadores a implementar código rápidamente en las aplicaciones. Los contenedores son independientes de la plataforma y pueden ejecutarse en la
+    nube, en el escritorio o en las instalaciones.
+
+Al ser independientes del sistema operativo, se ejecutan en Windows, Linux o Mac OS. Los contenedores también son independientes del lenguaje de programación y del IDE, ya sea
+    que ejecute Python, Node, Java u otros lenguajes. Los contenedores permiten a las organizaciones: Crear aplicaciones rápidamente mediante la automatización. Reduzca el
+    tiempo y los costes de implementación. Mejore la utilización de los recursos, incluidas la CPU y la memoria. Realice puertos en diferentes entornos y admita aplicaciones de
+    próxima generación, incluidos los microservicios.
+
+El uso de la contenedorización no está exento de desafíos. La seguridad del servidor puede convertirse en un problema si su sistema operativo se ve afectado. Los desarrolladores
+    pueden sentirse abrumados a la hora de gestionar miles de contenedores. La conversión de aplicaciones antiguas monolíticas puede ser un proceso complejo, y los desarrolladores
+    pueden tener dificultades para ajustar el tamaño de los contenedores a situaciones específicas.
+
+A continuación, conozcamos algunos de los proveedores de contenedores más populares.
+Docker es una plataforma sólida y la plataforma de contenedores más popular en la actualidad.
+Podman es un motor de contenedores sin demonios que es más seguro que Docker.
+Los desarrolladores suelen preferir LXC para aplicaciones y operaciones con un uso intensivo de datos.
+Además, Vagrant ofrece los niveles más altos de aislamiento en la máquina física en funcionamiento.
+
+En este vídeo, descubrió que las organizaciones están optando por los contenedores para superar los desafíos relacionados con el aislamiento, la utilización, el aprovisionamiento,
+    el rendimiento y más.
+Un contenedor es una unidad de software estándar que encapsula todo lo necesario para crear, enviar y ejecutar aplicaciones.
+Los contenedores son independientes del sistema operativo, el lenguaje de programación y la plataforma.
+Reducen el tiempo y los costos de implementación, mejoran la utilización, automatizan los procesos y admiten aplicaciones de próxima generación (microservicios).
+Es posible que los desarrolladores consideren que la administración, la migración de proyectos antiguos y el dimensionamiento correcto son desafíos importantes.
+Por último, entre los principales proveedores de contenedores se encuentran Docker, Podman, LXC y Vagrant."

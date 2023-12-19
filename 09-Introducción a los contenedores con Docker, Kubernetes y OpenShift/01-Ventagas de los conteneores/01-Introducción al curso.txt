@@ -1,0 +1,37 @@
+"Bienvenidos a este curso introductorio sobre Contenedores y Kubernetes. Mi nombre es Alex Parker y soy Upkar Lidder. Este curso fue diseñado para cualquier persona que quiera
+    aprender a diseñar, desarrollar, implementar y administrar aplicaciones seguras en plataformas de nube pública, privada e híbrida. Al final de este curso no sólo tendrá una
+    aplicación en ejecución en la nube pública, sino que también tendrá una muy buena comprensión de Kubernetes y Contenedores.
+
+La contenerización no es una tecnología nueva, pero adquirió mayor protagonismo en 2013 con el lanzamiento de Docker, y no ha dejado de crecer desde entonces. De hecho, los
+    contenedores se han convertido en la tecnología para el desarrollo nativo moderno en la nube. La firma analista Gartner predice que para 2023 más del 70 por ciento de las
+    organizaciones globales ejecutarán más de dos aplicaciones en contenedores en producción, frente a menos del veinte por ciento en 2019.
+
+La Cloud Native Computing Foundation, conocida como CNCF, realiza encuestas anuales para determinar dónde y cómo se están adoptando las tecnologías nativas de la nube.
+La encuesta de 2019 indica que el 84 por ciento de los encuestados está utilizando contenedores en producción, frente al 74 por ciento en 2018; y el 23 por ciento en la primera
+    encuesta en 2016. Estas tendencias demuestran claramente que los contenedores no son una moda pasajera o una tecnología de nicho, sino una revolución cambiante de la
+    industria que afectará a las organizaciones pequeñas y grandes, y a los desarrolladores de todo el mundo.
+
+Del mismo modo, Google desarrolló Kubernetes, una plataforma de código abierto para orquestar contenedores en funcionamiento y contribuyó a la comunidad de código abierto en
+    2015.
+
+Cloud Native Computing Foundation realizó una encuesta en 2019 y encontró que el número de usuarios o encuestados interesados en las tecnologías de computación nativa en la nube
+    aumentó del 58 al 78 por ciento con respecto al año anterior.
+
+Kubernetes es la tercera plataforma más grande para el número de committers en GitHub, así como la segunda más grande para una serie de problemas y solicitudes de extracción
+    solo después del kernel de Linux. Un próspero ecosistema rodea la plataforma de código abierto de Kubernetes, que incluye aplicaciones para la seguridad en la nube, malla de
+    servicio y otras tecnologías nativas en la nube.
+
+Como resultado de estas cosas, Kubernetes y Containers se han convertido en los estándares de facto a la hora de hablar de aplicaciones nativas en la nube, convirtiéndolas en la
+    base para cualquier aprendizaje relacionado con la informática en la nube.
+
+Este curso le presentará los registros de contenedores, Docker y contenedores, para comenzar con los fundamentos de esta tecnología. A continuación, aprenderá sobre la necesidad
+    de orquestación de contenedores en Kubernetes específicamente, incluida su arquitectura, los diferentes recursos que puede implementar en Kubernetes y cómo armar esas piezas
+    para implementar una aplicación en funcionamiento.
+
+Y por último, aprenderá sobre el ecosistema de Kubernetes, incluyendo Red Hat OpenShift e Istio, y cómo estas herramientas pueden hacer que su viaje hacia la contenedorización y
+    su posterior uso de contenedores sea mucho mejor.
+
+El curso contiene varios laboratorios prácticos que le ayudarán a aplicar el contenido que aprenda. Si usted no tiene los recursos necesarios para establecer un clúster de
+    Kubernetes, el curso proporcionará un entorno gratuito que le ayudará a terminar los laboratorios. Los requisitos previos para este curso incluyen conocimientos básicos
+    sobre computación y nube, así como una comprensión de los conceptos básicos de la nube. Además, la comprensión de la línea de comandos y cómo usar comandos de shell le
+    beneficiará enormemente durante este curso. ¡ Empecemos!"
