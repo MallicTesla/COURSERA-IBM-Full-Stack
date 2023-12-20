@@ -1,0 +1,30 @@
+"Bienvenido a «Building and Running Containers». Tras ver este vídeo, podrá: Crear una imagen de contenedor mediante un Dockerfile. Cree un contenedor en ejecución con una
+    imagen. Y describe los comandos clave de Docker.
+
+Este diagrama muestra el proceso de desarrollo de un contenedor en ejecución. Los pasos para crear y ejecutar contenedores son:
+    Crear un Dockerfile.
+    Usa el Dockerfile para crear una imagen de contenedor.
+    Y usa la imagen del contenedor para crear un contenedor en ejecución.
+
+Usa un Dockerfile para crear un contenedor en ejecución. Este ejemplo de Dockerfile incluye los comandos FROM y CMD. FROM define la imagen base. Y CMD imprime las palabras
+    «¡Hola mundo!» en la terminal.
+
+"docker build -t my-app:v1 .
+Claro, desglosemos la línea de comandos `docker build -t my-app:v1 .`:
+
+1. **`docker build`**: Este comando se utiliza para construir una imagen de Docker a partir de un archivo Dockerfile y un contexto de construcción. El contexto es el conjunto de
+    archivos y directorios en el directorio actual (`.`) que se enviará al daemon de Docker para construir la imagen.
+
+2. **`-t my-app:v1`**: El argumento `-t` se utiliza para etiquetar la imagen que se está construyendo. La etiqueta es en el formato `nombre:versión`. En este caso, la imagen se
+    etiquetará como `my-app` con la versión `v1`.
+
+3. **`.`**: Este es el contexto de construcción. En el contexto se encuentran el Dockerfile y cualquier otro archivo necesario para la construcción de la imagen. En este caso,
+    se asume que el Dockerfile está en el directorio actual (`.`).
+
+Entonces, en resumen, la línea de comandos `docker build -t my-app:v1 .` se traduce a: Construir una imagen de Docker a partir del Dockerfile en el directorio actual,
+    etiquetarla como `my-app` con la versión `v1`. Este proceso implica seguir las instrucciones del Dockerfile para crear una imagen que contiene la aplicación o servicio que
+    estás empaquetando.
+"
+
+Notarás que este comando de Docker usa el comando build, la etiqueta, el repositorio, la versión y el directorio actual. Tras ejecutar este comando de compilación, los mensajes
+    de salida incluyen: enviar el contexto de compilación al daemon de Docker «Se ha creado correctamente<image id>», que confirma la creación de la imagen, y «Se ha etiquetado correctamente my-app:v1», que confirma la etiqueta. Para verificar la creación de la imagen, ejecute el comando «docker images». El resultado muestra el repositorio (my-app), así como la etiqueta (v1), el ID de la imagen, la fecha de creación y el tamaño de la imagen. Cree el contenedor mediante el comando run con el nombre y la etiqueta de la imagen del contenedor. La aplicación imprime las palabras «¡Hola, mundo!» Ejecute el comando docker ps -a, que muestra los detalles del contenedor creado. Con la entrada adecuada, el comando build se utiliza para crear imágenes de contenedores con etiquetas de un Dockerfile. El comando images mostrará una lista de todas las imágenes, sus repositorios y etiquetas, así como sus tamaños. El comando run crea y ejecuta un contenedor a partir de una imagen. El comando push almacena las imágenes en un registro configurado y el comando pull recupera las imágenes de un registro configurado. En este vídeo, aprendió lo siguiente: el comando build se usa con un Dockerfile para crear una imagen de contenedor, el comando run se usa con una imagen para crear un contenedor en ejecución y los comandos clave de Dockerfile incluyen build, images, run, pull y push."

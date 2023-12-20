@@ -1,0 +1,34 @@
+"Bienvenido a «Introducción a Docker». Tras ver este vídeo, podrá: definir qué es Docker, describir el proceso de Docker y la tecnología subyacente, enumerar las ventajas de los
+    contenedores Docker e identificar los desafíos de los contenedores Docker.
+
+Disponible desde 2013, la definición oficial de Docker, parafraseada, afirma que Docker es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones como
+    contenedores.
+Docker se hizo popular entre los desarrolladores debido a su arquitectura simple, su escalabilidad masiva y su portabilidad en múltiples plataformas, entornos y ubicaciones.
+Docker aísla las aplicaciones de la infraestructura, incluidos el hardware, el sistema operativo y el tiempo de ejecución del contenedor.
+Docker está escrito en el lenguaje de programación Go.
+Docker utiliza las características del núcleo de Linux para ofrecer su funcionalidad.
+Docker también usa espacios de nombres para proporcionar un espacio de trabajo aislado llamado contenedor. Además
+Docker crea un conjunto de espacios de nombres para cada contenedor y cada aspecto se ejecuta en un espacio de nombres independiente con acceso limitado a ese espacio de nombres.
+
+La metodología de Docker ha inspirado otras innovaciones, entre las que se incluyen herramientas complementarias como Docker CLI, Docker Compose y Prometheus, y varios
+    complementos, incluidos los complementos de almacenamiento; tecnologías de orquestación que utilizan Docker Swarm o Kubernetes; y metodologías de desarrollo que utilizan
+    microservicios y sin servidores.
+
+Docker ofrece las siguientes ventajas: los entornos uniformes y aislados de Docker permiten despliegues de aplicaciones estables. Las implementaciones se realizan en cuestión de
+    segundos. Como las imágenes de Docker son pequeñas y reutilizables, aceleran considerablemente el proceso de desarrollo. Además, las capacidades de automatización de Docker
+    ayudan a eliminar los errores, lo que simplifica el ciclo de mantenimiento.
+
+Docker apoya las prácticas de DevOps ágiles y de CI/CD. El sencillo control de versiones de Docker acelera las pruebas, las reversiones y las redespliegues.
+Docker ayuda a segmentar las aplicaciones para facilitar su actualización, limpieza y reparación. Los desarrolladores colaboran para resolver los problemas con mayor rapidez y
+    escalar los contenedores cuando es necesario. Además, las imágenes de Docker son independientes de la plataforma, por lo que son muy portátiles.
+
+Docker no es adecuado para aplicaciones con estas cualidades:
+requieren un alto rendimiento o seguridad, se basan en la arquitectura Monolith, utilizan numerosas funciones de interfaz gráfica de usuario o realizan funciones de escritorio
+    estándar o limitadas.
+
+En este vídeo, descubrió que Docker es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones como contenedores.
+Docker acelera el proceso de implementación en varios entornos.
+Docker utiliza la tecnología de espacios de nombres para proporcionar un espacio de trabajo aislado denominado «contenedor».
+Docker crea un conjunto de espacios de nombres para cada contenedor y cada aspecto se ejecuta en un espacio de nombres independiente con acceso limitado a ese espacio de nombres.
+Docker admite prácticas de DevOps ágiles y de CI/CD y,
+por último, los contenedores Docker no son una buena opción para aplicaciones basadas en una arquitectura monolítica o aplicaciones que requieren un alto rendimiento o seguridad."
