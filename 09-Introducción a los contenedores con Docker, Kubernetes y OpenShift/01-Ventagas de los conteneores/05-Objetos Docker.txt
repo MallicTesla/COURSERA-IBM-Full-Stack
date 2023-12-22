@@ -1,0 +1,43 @@
+"Bienvenido a la «Introducción a los objetos de Docker». Tras ver este vídeo, podrá identificar y describir los objetos de Docker, identificar los comandos esenciales de
+    Dockerfile, explicar el formato de denominación de las imágenes de los contenedores y describir cómo Docker utiliza las redes, el almacenamiento y los complementos.
+
+Docker contiene objetos como el Dockerfile, imágenes, contenedores, redes, volúmenes de almacenamiento y otros objetos, como complementos y complementos.
+Un Dockerfile es un archivo de texto que contiene las instrucciones necesarias para crear una imagen.
+Puedes crear un Dockerfile con cualquier editor de la consola o terminal.
+
+Repasemos algunas de las instrucciones esenciales que proporciona Docker. Un Dockerfile siempre debe comenzar con una instrucción "FROM" que defina una imagen base. A menudo, la
+    imagen base proviene de un repositorio público, como un sistema operativo o un lenguaje específico, como Go o Node.js. La instrucción "RUN" ejecuta comandos.
+La instrucción "CMD" define un comando predeterminado para su ejecución. Un Dockerfile debe tener solo una instrucción CMD. Si el Dockerfile tiene varias instrucciones CMD, solo
+    tendrá efecto la última instrucción CMD.
+
+A continuación, aprendamos sobre las imágenes de Docker. Una imagen de Docker es una plantilla de solo lectura con instrucciones para crear un contenedor de Docker. El Dockerfile
+    proporciona instrucciones para crear la imagen. Cada instrucción de Docker crea una nueva capa en la imagen.
+Cuando cambias el Dockerfile y reconstruyes la imagen, el motor de Docker solo reconstruye las capas modificadas. Las imágenes pueden compartir estas capas, lo que ahorra mucho
+    espacio en disco y ancho de banda de red al enviar y recibir imágenes. Al crear una instancia de esta imagen, se obtiene un contenedor en ejecución. En este punto, se coloca
+    una capa contenedora grabable sobre las capas de solo lectura. La capa grabable es necesaria porque los contenedores no son inmutables como las imágenes.
+
+Ahora vamos a aprender cómo se nombran las imágenes. El nombre de una imagen tiene un formato único que consta de tres partes: el nombre de host, el repositorio y la etiqueta.
+El nombre de host identifica el registro de imágenes.
+Un repositorio es un grupo de imágenes de contenedores relacionadas.
+La etiqueta proporciona información sobre una versión o variante específica de una imagen.
+
+Considera el nombre de la imagen docker.io/ubuntu:18.04. El nombre de host docker.io hace referencia al registro de Docker Hub. Al utilizar la CLI de Docker, puede excluir el
+    nombre de host de docker.io. El nombre del repositorio ubuntu indica una imagen de Ubuntu. Por último, la etiqueta, que se muestra aquí como 18.04, representa la versión de
+    Ubuntu instalada.
+
+Ahora, aprendamos sobre los contenedores Docker. ¿Qué es un contenedor Docker? Un contenedor Docker es una instancia ejecutable de una imagen. Puedes usar la API o la CLI de
+    Docker para crear, iniciar, detener o eliminar una imagen. Puede conectarse a varias redes, adjuntar almacenamiento al contenedor o crear una imagen nueva en función de su
+    estado actual.
+
+Docker mantiene los contenedores bien aislados unos de otros y de su máquina host. Cuando se utiliza Docker, las redes ayudan a aislar las comunicaciones de los contenedores.
+De forma predeterminada, los datos no se conservan cuando el contenedor ya no existe. Docker usa volúmenes y montajes encuadernados para conservar los datos incluso después de
+    que un contenedor se detenga. Los complementos, como los complementos de almacenamiento, permiten conectarse a plataformas de almacenamiento externas.
+
+En este vídeo, aprendió que
+Docker contiene objetos como los Dockerfiles, imágenes, contenedores, redes, volúmenes de almacenamiento y otros objetos, como complementos y complementos.
+Las instrucciones esenciales de Docker incluyen FROM, RUN y CMD.
+Un contenedor Docker es una instancia ejecutable de una imagen.
+Un formato de nombre de imagen consta de tres identificadores: el nombre de host, el repositorio y la etiqueta.
+Docker usa las redes para aislar las comunicaciones de los contenedores.
+Docker usa volúmenes y enlaza los montajes para conservar los datos incluso después de que un contenedor deje de funcionar.
+Además, los complementos, como los complementos de almacenamiento, permiten conectarse a plataformas de almacenamiento externas."

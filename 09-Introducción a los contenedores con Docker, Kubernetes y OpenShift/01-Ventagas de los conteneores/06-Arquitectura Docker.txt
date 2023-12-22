@@ -1,0 +1,35 @@
+"Hola y bienvenidos a «Docker Architecture». Tras ver este vídeo, podrá identificar los componentes de la arquitectura Docker, explicar las características de los componentes de
+    la arquitectura Docker y describir el proceso de contenedorización mediante Docker.
+
+La arquitectura cliente-servidor de Docker proporciona un entorno de aplicaciones completo. Los componentes de Docker incluyen el cliente, el host y el registro.
+Veamos cómo funciona Docker desde un punto de vista de alto nivel. En primer lugar, utilizará la interfaz de línea de comandos de Docker o las API REST a través del cliente de
+    Docker para enviar instrucciones al servidor host de Docker, comúnmente denominado host.
+El host de Docker contiene el daemon, conocido como dockerd. El daemon escucha las solicitudes o comandos de la API de Docker, como «docker run», y procesa esos comandos.
+El daemon se encarga del trabajo pesado de crear, ejecutar y distribuir contenedores de Docker. A continuación, Docker almacena las imágenes del contenedor en un registro.
+El host de Docker también incluye y administra: imágenes, contenedores, espacios de nombres, redes, complementos de almacenamiento y complementos.
+Puede usar el cliente Docker para comunicarse con los hosts Docker locales y remotos. Puede ejecutar el cliente y el daemon de Docker en el mismo sistema o conectar el cliente
+    de Docker a un daemon de Docker remoto.
+
+Además , los daemons de Docker también pueden comunicarse con otros demonios para administrar los servicios de Docker. Docker almacena y distribuye imágenes en un registro.
+El acceso al registro es público, como Docker Hub, al que todos pueden acceder, o privado. Las empresas suelen optar por utilizar un registro privado por motivos de seguridad.
+Además, las ubicaciones de registro se alojan mediante un proveedor externo, como IBM Cloud Container Registry, o se alojan automáticamente en centros de datos privados o en la
+    nube.
+
+A continuación, aprendamos cómo mover imágenes al registro. En primer lugar, los desarrolladores crean e insertan las imágenes mediante la automatización o una canalización de
+    compilación en un registro, donde Docker almacena estas imágenes. Luego, las máquinas locales, los sistemas en la nube y los sistemas locales pueden extraer esas imágenes.
+Examinemos el proceso con más detalle. Esta es una representación visual de la arquitectura de Docker, que consta del cliente, el host de Docker, incluido el daemon de Docker, y
+    el registro con las imágenes almacenadas existentes.
+
+Veamos el proceso de contenerización. Así es como se usa Docker para crear una imagen de contenedor: primero, usa una imagen base existente o un Dockerfile. Luego, ejecuta el
+    comando "build" que crea una imagen de contenedor con un nombre.
+A continuación, ejecute el comando "push" para almacenar la imagen en el registro. El anfitrión comprueba primero localmente si la imagen ya está disponible y, a continuación,
+    ejecuta el comando run con el nombre de la imagen para crear el contenedor. Si la imagen no está disponible en el host, el cliente Docker se conecta al registro y envía la
+    imagen al host.
+A continuación, el daemon crea un contenedor en ejecución con la imagen.
+
+En este vídeo, aprendió lo siguiente:
+La arquitectura de Docker consta de un cliente de Docker, un host de Docker y un registro.
+El cliente interactúa con el host mediante comandos y API REST.
+El host de Docker incluye el daemon, comúnmente denominado dockerd.
+El host de Docker también administra imágenes, contenedores, espacios de nombres, redes, almacenamiento, complementos y complementos
+La contenedorización es el proceso que se utiliza para crear , insertar y ejecutar una imagen para crear un contenedor en ejecución."
