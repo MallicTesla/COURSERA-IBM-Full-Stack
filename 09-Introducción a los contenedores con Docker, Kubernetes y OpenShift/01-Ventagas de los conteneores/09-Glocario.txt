@@ -1,0 +1,116 @@
+"Ágil
+es un enfoque iterativo para la gestión de proyectos y el desarrollo de software que ayuda a los equipos a ofrecer valor a sus clientes más rápido y con menos problemas.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arquitectura cliente-servidor
+Es una estructura de aplicación distribuida que divide tareas o cargas de trabajo entre los proveedores de un recurso o servicio, llamados servidores, y los solicitantes de
+    servicios, llamados clientes.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Un contenedor
+impulsado por el motor de contenedorización, es una unidad estándar de software que encapsula el código de la aplicación, el tiempo de ejecución, las herramientas del sistema,
+    las bibliotecas del sistema y las configuraciones necesarias para que los programadores creen, envíen y ejecuten aplicaciones de manera eficiente.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Registro de contenedores
+Se utiliza para el almacenamiento y distribución de imágenes de contenedores con nombre. Si bien se pueden crear muchas funciones sobre un registro, sus funciones más básicas
+    son almacenar imágenes y recuperarlas.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Canalizaciones de CI/CD
+Una canalización de integración e implementación continuas (CI/CD) es una serie de pasos que se deben realizar para entregar una nueva versión de software. Los canales de CI/CD
+    son una práctica centrada en mejorar la entrega de software durante todo el ciclo de vida del desarrollo de software a través de la automatización.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nativo de la nube
+Una aplicación nativa de la nube es un programa diseñado para una arquitectura de computación en la nube. Estas aplicaciones se ejecutan y alojan en la nube y están diseñadas
+    para aprovechar las características inherentes de un modelo de entrega de software de computación en la nube.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sin demonio
+Un tiempo de ejecución de contenedor que no ejecuta ningún programa específico (daemon) para crear objetos, como imágenes, contenedores, redes y volúmenes.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DevOps
+Es un conjunto de prácticas, herramientas y una filosofía cultural que automatizan e integran los procesos entre el desarrollo de software y los equipos de TI.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Estibador
+Una plataforma de contenedores abierta para desarrollar, enviar y ejecutar aplicaciones en contenedores.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Un archivo Docker
+es un documento de texto que contiene todos los comandos que normalmente ejecutaría manualmente para crear una imagen de Docker. Docker puede crear imágenes automáticamente
+    leyendo las instrucciones de un Dockerfile.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cliente acoplable
+es la forma principal en que muchos usuarios de Docker interactúan con Docker. Cuando utiliza comandos como docker run, el cliente envía estos comandos a dockerd, quien los
+    ejecuta. El comando Docker utiliza la API de Docker. El cliente Docker puede comunicarse con más de un demonio.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Interfaz de línea de comandos (CLI) de Docker
+El cliente Docker proporciona una interfaz de línea de comandos (CLI) que le permite emitir comandos de compilación, ejecución y parada de aplicaciones a un demonio Docker.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Demonio Docker (dockerd)
+Crea y administra objetos Docker, como imágenes, contenedores, redes y volúmenes.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Centro acoplable
+es la forma más fácil del mundo de crear, administrar y entregar las aplicaciones de contenedor de su equipo.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+servidor local acoplable
+Docker proporciona una red de host que permite a los contenedores compartir la pila de redes de su host. Este enfoque significa que un localhost en un contenedor se resuelve en
+    el host físico, en lugar del contenedor en sí.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Host remoto de Docker
+Un host Docker remoto es una máquina, dentro o fuera de nuestra red local, que ejecuta un Docker Engine y tiene puertos expuestos para consultar la API del motor.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Redes acoplables
+ayudar a aislar las comunicaciones de los contenedores.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Complementos de Docker
+como un complemento de almacenamiento, brinda la posibilidad de conectar plataformas de almacenamiento externas.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+almacenamiento acoplable
+utiliza volúmenes y montajes de enlaces para conservar los datos incluso después de que se detiene un contenedor en ejecución.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LXC
+LinuX Containers es una tecnología de virtualización a nivel de sistema operativo que permite la creación y ejecución de múltiples entornos virtuales (VE) Linux aislados en un
+    único host de control.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Registro de contenedores de IBM Cloud
+almacena y distribuye imágenes de contenedores en un registro privado totalmente administrado.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Imagen
+Un archivo inmutable que contiene el código fuente, las bibliotecas y las dependencias necesarias para que se ejecute una aplicación. Las imágenes son plantillas o planos de un
+    contenedor.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Inmutabilidad
+Las imágenes son de sólo lectura; si cambias una imagen, creas una nueva imagen.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Microservicios
+son un enfoque arquitectónico nativo de la nube en el que una única aplicación contiene muchos componentes o servicios más pequeños débilmente acoplados y que se pueden
+    implementar de forma independiente.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Espacio de nombres
+Un espacio de nombres de Linux es una característica del kernel de Linux que aísla y virtualiza los recursos del sistema. Los procesos que están restringidos a un espacio de
+    nombres solo pueden interactuar con recursos o procesos que forman parte del mismo espacio de nombres. Los espacios de nombres son una parte importante del modelo de
+    aislamiento de Docker. Existen espacios de nombres para cada tipo de recurso, incluidas redes, almacenamiento, procesos, control de nombres de host y otros.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Virtualización del sistema operativo
+La virtualización a nivel de sistema operativo es un paradigma de sistema operativo en el que el kernel permite la existencia de múltiples instancias aisladas de espacio de
+    usuario, llamadas contenedores, zonas, servidores privados virtuales, particiones, entornos virtuales, kernels virtuales o cárceles.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Registro Privado
+Restringe el acceso a las imágenes para que sólo los usuarios autorizados puedan verlas y utilizarlas.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+API DESCANSO
+Una API REST (también conocida como API RESTful) es una interfaz de programación de aplicaciones (API o API web) que se ajusta a las limitaciones del estilo arquitectónico REST
+    y permite la interacción con servicios web RESTful.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Registro
+es un servicio alojado que contiene repositorios de imágenes que responde a la API del Registro.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Repositorio
+es un conjunto de imágenes de Docker. Se puede compartir un repositorio enviándolo a un servidor de registro. Las diferentes imágenes del repositorio se pueden etiquetar
+    mediante etiquetas.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Virtualización de servidores
+La virtualización de servidores es el proceso de dividir un servidor físico en múltiples servidores virtuales únicos y aislados mediante una aplicación de software. Cada
+    servidor virtual puede ejecutar sus propios sistemas operativos de forma independiente.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sin servidor
+es un modelo de desarrollo nativo de la nube que permite a los desarrolladores crear y ejecutar aplicaciones sin tener que administrar servidores.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Etiqueta
+Una etiqueta es una etiqueta aplicada a una imagen de Docker en un repositorio. Las etiquetas sirven para distinguir entre sí las distintas imágenes de un repositorio.
+"

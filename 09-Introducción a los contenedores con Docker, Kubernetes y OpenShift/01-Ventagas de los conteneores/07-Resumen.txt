@@ -1,0 +1,18 @@
+"Un contenedor es una unidad de software que encapsula todo lo necesario para construir, enviar y ejecutar aplicaciones.
+
+Los contenedores reducen el tiempo y los costes de despliegue, mejoran la utilización, automatizan los procesos y soportan las aplicaciones de nueva generación (microservicios).
+    Entre los principales proveedores de contenedores se encuentran Docker, Podman, LXC y Vagrant.
+
+Docker es una plataforma abierta utilizada para desarrollar, enviar y ejecutar aplicaciones como contenedores.
+
+Los contenedores Docker no son una buena opción para aplicaciones basadas en una arquitectura monolítica o aplicaciones que requieran un alto rendimiento o seguridad.
+
+La arquitectura Docker consta del cliente Docker, el host Docker y el registro de contenedores.
+
+El host Docker contiene objetos como los archivos Docker, imágenes, contenedores, redes, volúmenes de almacenamiento y otros objetos, como plugins y complementos.
+
+Docker utiliza redes para aislar las comunicaciones entre contenedores.
+
+Docker utiliza volúmenes y montajes binds para persistir los datos incluso después de que un contenedor deje de ejecutarse.
+
+Los complementos, como los de almacenamiento, ofrecen la posibilidad de conectarse a plataformas de almacenamiento externas."
