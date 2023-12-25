@@ -1,0 +1,63 @@
+"Bienvenido a «Container Orchestration». Tras ver este vídeo, podrá definir los desafíos de la administración de contenedores, determinar cuándo es necesaria la organización de
+    contenedores y demostrar las ventajas de la organización de contenedores.
+
+El viaje de todos los contenedores comienza con un contenedor. Sin embargo, las cosas no permanecen así por mucho tiempo. Con el tiempo, se crean nuevas aplicaciones y los
+    proyectos se implementan en todo el mundo para aumentar la disponibilidad.
+Ese contenedor inicial se convierte inevitablemente en varios contenedores. E inicialmente, ese crecimiento es fácil de manejar. Pero pronto es abrumador. Considere conectar,
+    administrar y escalar cientos o miles de contenedores para convertirlos en una aplicación grande, como una base de datos o una aplicación web. Esto puede salirse de control
+    fácilmente.
+Para crear, escalar y gestionar un gran número de contenedores, es necesaria la organización de los contenedores. La organización de contenedores es un proceso que automatiza el
+    ciclo de vida de los contenedores de las aplicaciones basadas en contenedores (o «contenerizadas»). Esto incluye la implementación, la administración, el escalado, la
+    creación de redes y la disponibilidad.
+La organización de contenedores es una necesidad en entornos grandes y dinámicos, ya que: agiliza la complejidad. Permite el despliegue y el escalado sin intervención. Aumenta
+    la velocidad, la agilidad y la eficiencia. Se integra perfectamente en los flujos de trabajo de CI/CD y en las prácticas de DevOps. Y permite a los equipos de desarrollo
+    utilizar los recursos de forma más eficiente.
+La organización de contenedores se puede implementar de forma local y en entornos públicos, privados o multinube. Suele ser una parte fundamental de los requisitos de seguridad,
+    organización, automatización y respuesta de una organización, también conocidos como requisitos «SOAR». Las herramientas de organización de contenedores tienen una amplia
+    variedad de funciones.
+
+Estas funciones incluyen: definir qué imágenes de contenedores componen la aplicación y dónde se encuentran (en qué registro) Mejorar el aprovisionamiento y el despliegue de los
+    contenedores para lograr un proceso más automatizado, unificado y fluido.
+Proteger las conexiones de red entre contenedores. Garantizar la disponibilidad y el rendimiento mediante la reubicación de los contenedores en otro host en caso de que se
+    produzca una interrupción o escasez de recursos del sistema.
+Escalar los contenedores para satisfacer la demanda y las solicitudes de equilibrio de carga.
+Gestionar la asignación de recursos y la programación de los contenedores a la infraestructura subyacente. Realizar actualizaciones y reversiones sucesivas. Y realizar
+    comprobaciones de estado para garantizar que las aplicaciones se estén ejecutando o realizando las acciones necesarias cuando las comprobaciones no sean satisfactorias.
+
+La orquestación de contenedores utiliza archivos de configuración escritos en YAML o JSON. Estos archivos configuran cada contenedor para que pueda encontrar recursos,
+    establecer una red y almacenar registros. La orquestación de contenedores también programa automáticamente el despliegue de un nuevo contenedor en un clúster y busca el host
+    adecuado en función de las configuraciones o restricciones predefinidas.
+Además, la organización de contenedores gestiona el ciclo de vida del contenedor en función de las especificaciones del archivo de configuración. Esto incluye los parámetros del
+    sistema (como la CPU y la memoria) y los parámetros del archivo (como la proximidad y los metadatos del archivo).
+Además, la organización de contenedores permite el escalado y mejora la productividad mediante la automatización.
+
+Estas son algunas de las herramientas de organización de contenedores más conocidas.
+Marathon es un marco para Apache Mesos, un administrador de clústeres de código abierto desarrollado por la Universidad de California en Berkeley. Le permite escalar la
+    infraestructura de contenedores mediante la automatización de la mayor parte de las tareas de administración y supervisión.
+Nomad, de HashiCorp, es una herramienta de gestión y programación de clústeres gratuita y de código abierto que admite Docker y otras aplicaciones independientes, virtualizadas
+    o en contenedores en los principales sistemas operativos de toda la infraestructura, ya sea local o en la nube. Esta flexibilidad permite a los equipos trabajar con
+    cualquier tipo y nivel de carga de trabajo.
+Docker Swarm automatiza la implementación de aplicaciones en contenedores, pero se diseñó específicamente para funcionar con Docker Engine y otras herramientas de Docker, lo qu
+    lo convierte en una opción popular para los equipos que ya trabajan en entornos de Docker. Desarrollada por Google y mantenida por la Cloud Native Computing Foundation (CNCF),
+    la plataforma de código abierto Kubernetes es el estándar de facto para la organización de contenedores. Kubernetes automatiza una serie de tareas de administración de
+    contenedores, como el despliegue, el aprovisionamiento del almacenamiento, el equilibrio y el escalado de la carga, la detección de servicios y la «recuperación automática»,
+    es decir, la capacidad de reiniciar, reemplazar o eliminar un contenedor averiado.
+
+Con una amplia funcionalidad y un creciente ecosistema de herramientas de soporte de código abierto, Kubernetes cuenta con el respaldo de los principales proveedores de
+    servicios en la nube, muchos de los cuales ahora ofrecen servicios de Kubernetes totalmente gestionados.
+
+La organización de contenedores ayuda a cumplir los objetivos empresariales y a aumentar la rentabilidad mediante el uso de la automatización. Entre las ventajas de la
+    organización de contenedores para los desarrolladores y administradores se incluyen las siguientes: aumento de la productividad: se elimina la carga de instalar y
+    administrar cada contenedor de forma individual, lo que, a su vez, reduce los errores y permite a los equipos de desarrollo centrarse en la mejora de las aplicaciones.
+Implementaciones más rápidas: se lanzan nuevas funciones y capacidades de forma iterativa y se despliegan contenedores y aplicaciones contenerizadas con rapidez.
+Costes reducidos: son rentables, ya que los contenedores tienen menos gastos generales y utilizan menos recursos que las máquinas virtuales o los servidores tradicionales.
+Mayor seguridad: compartir los recursos y aislar los procesos de las aplicaciones, lo que mejora la seguridad general del contenedor.
+Escalabilidad más sencilla: escalamiento de aplicaciones mediante un único comando.
+Recuperación de errores más rápida: se mantiene una alta disponibilidad mediante la detección y la resolución automática de problemas, como los fallos de infraestructura.
+
+En este vídeo, aprendió lo siguiente:
+administrar un gran número de contenedores es difícil.
+La organización de contenedores automatiza el ciclo de vida de los contenedores, lo que se traduce en despliegues más rápidos, menos errores, mayor disponibilidad y mayor
+    seguridad.
+Entre las herramientas populares de organización de contenedores se incluyen Marathon, Nomad, Docker Swarm y Kubernetes.
+Además, la organización de contenedores mejora la productividad, las implementaciones, los costes, la seguridad, la escalabilidad y la recuperación de errores."
