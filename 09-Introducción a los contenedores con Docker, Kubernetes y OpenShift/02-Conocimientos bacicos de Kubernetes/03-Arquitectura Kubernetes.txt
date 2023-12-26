@@ -1,0 +1,54 @@
+"Bienvenido a «Kubernetes Architecture». Tras ver este vídeo, podrá: Identificar los componentes de una arquitectura de Kubernetes, identificar los componentes de un plano de
+    control e identificar los componentes de un plano de trabajo.
+
+Este diagrama de arquitectura destaca los componentes principales de un sistema Kubernetes. Un despliegue de Kubernetes se denomina clúster de Kubernetes. Un clúster de
+    Kubernetes es un clúster de nodos que ejecuta aplicaciones en contenedores.
+Cada clúster tiene un nodo principal (el plano de control de Kubernetes) y uno o más nodos trabajadores.
+El plano de control mantiene el estado deseado del clúster al tomar decisiones sobre el clúster y detectar los eventos del clúster y responder a ellos. Como analogía, es similar
+    a un termostato. Usted especifica la temperatura deseada y el termostato regula los sistemas de calefacción y refrigeración de forma continua para alcanzar el estado
+    especificado.
+Un ejemplo de una decisión tomada por el plano de control es la programación de las cargas de trabajo, y un ejemplo de respuesta a un evento es la creación de nuevos recursos
+    cuando se implementa una aplicación.
+
+Los nodos son las máquinas de trabajo de un clúster de Kubernetes. En otras palabras, las aplicaciones de usuario se ejecutan en nodos. Los nodos no los crea Kubernetes en sí,
+    sino el proveedor de la nube. Esto permite que Kubernetes se ejecute en una variedad de infraestructuras. A continuación, los nodos son gestionados por el plano de control.
+En el plano de control de Kubernetes, el servidor de API de Kubernetes expone la API de Kubernetes. El servidor de API sirve como interfaz para el plano de control. Todas las
+    comunicaciones del clúster utilizan esta API.
+Por ejemplo, el servidor de la API de Kubernetes acepta comandos para ver o cambiar el estado del clúster. La implementación principal de un servidor API de Kubernetes es
+    kube-apiserver, que está diseñado para ampliarse horizontalmente, mediante la implementación de más instancias.
+
+Puedes ejecutar varias instancias de kube-apiserver y equilibrar el tráfico entre esas instancias. Etcd es un almacén de valores clave distribuido y de alta disponibilidad que
+    contiene todos los datos del clúster. Cuando le dices a Kubernetes que despliegue tu aplicación, esa configuración de despliegue se almacena en etcd.
+
+Etcd define el estado en un clúster de Kubernetes y el sistema trabaja para que el estado real coincida con el estado deseado. El programador de Kubernetes asigna los pods
+    recién creados a los nodos. Básicamente, esto significa que el kube-scheduler determina dónde deben ejecutarse las cargas de trabajo dentro del clúster.
+El programador selecciona el nodo más óptimo de acuerdo con los principios de programación, las opciones de configuración y los recursos disponibles de Kubernetes.
+El administrador de controladores de Kubernetes ejecuta todos los procesos del controlador que supervisan el estado del clúster y se asegura de que el estado real de un clúster
+    coincida con el estado deseado.
+Por último, el administrador de controladores en la nube ejecuta controladores que interactúan con los proveedores de la nube subyacentes. Estos controladores vinculan los
+    clústeres de forma eficaz a la API de un proveedor de servicios en la nube.
+
+Dado que Kubernetes es de código abierto y lo ideal sería que lo adoptaran varios proveedores y organizaciones de la nube, Kubernetes se esfuerza por ser lo más independiente
+    posible de la nube.
+
+El controlador-administrador de la nube permite que tanto Kubernetes como los proveedores de la nube evolucionen libremente sin introducir dependencias entre sí. Los nodos son
+    las máquinas de trabajo de un clúster de Kubernetes. En otras palabras, las aplicaciones de usuario se ejecutan en nodos. Los nodos pueden ser máquinas virtuales o físicas.
+Cada nodo es administrado por el plano de control y contiene los servicios necesarios para ejecutar las aplicaciones. Los nodos incluyen los pods, que son la entidad de
+    despliegue más pequeña de Kubernetes. Los pods incluyen uno o más contenedores. Los contenedores comparten todos los recursos del nodo y pueden comunicarse entre sí.
+
+El kubelet es el componente más importante de un nodo trabajador. Este controlador se comunica con el kube-apiserver para recibir las especificaciones de los pods nuevas y
+    modificadas y garantizar que los pods y sus contenedores asociados funcionen según lo deseado.
+El kubelet también informa al plano de control sobre el estado y el estado de los pods. Para iniciar un pod, el kubelet utiliza el motor de ejecución del contenedor. El motor de
+    ejecución del contenedor es responsable de descargar las imágenes y ejecutar los contenedores.
+En lugar de proporcionar un único tiempo de ejecución de contenedor, Kubernetes implementa una interfaz de tiempo de ejecución de contenedores que permite conectar el tiempo de
+    ejecución del contenedor.
+
+Si bien es probable que Docker sea el entorno de ejecución más conocido, Podman y Cri-o son otros dos entornos de ejecución de contenedores de uso común. Por último, el proxy de
+    Kubernetes es un proxy de red que se ejecuta en cada nodo de un clúster. Este proxy mantiene las reglas de red que permiten la comunicación con los pods que se ejecutan en
+    los nodos; en otras palabras, la comunicación con las cargas de trabajo que se ejecutan en el clúster. Esta comunicación puede provenir del clúster o de fuera de él.
+
+En este vídeo, aprendió que un plano de control toma decisiones globales sobre el clúster de Kubernetes.
+Un plano de control está compuesto por controladores, un servidor API, un planificador y un etcd.
+Un plano de trabajo está compuesto por los nodos, kubelet, container runtime y kube-proxy.
+Los nodos de trabajo ejecutan componentes importantes de Kubernetes, así como las cargas de trabajo de los usuarios desplegadas en el clúster.
+La entidad desplegable más pequeña de Kubernetes es un pod que incluye uno o más contenedores."

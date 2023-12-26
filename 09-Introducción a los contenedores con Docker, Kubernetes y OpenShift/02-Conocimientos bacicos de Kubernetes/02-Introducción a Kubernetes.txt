@@ -1,0 +1,73 @@
+"Bienvenido a la «Introducción a Kubernetes». Tras ver este vídeo, podrá definir Kubernetes, explicar qué no es Kubernetes, relacionar los conceptos de Kubernetes, describir las
+    capacidades de Kubernetes y describir el ecosistema de Kubernetes.
+
+La documentación oficial de Kubernetes describe a Kubernetes como «un sistema de código abierto para automatizar la implementación, el escalado y la administración de
+    aplicaciones en contenedores». Kubernetes está ampliamente disponible y se ha posicionado como la opción de facto para la organización de contenedores. Kubernetes es una
+    plataforma de orquestación de contenedores de código abierto, desarrollada como un proyecto por Google y mantenida actualmente por la Cloud Native Computing Foundation.
+Se puede transportar fácilmente a través de las nubes y de forma local. Con su creciente ecosistema de proyectos y productos creados por socios miembros y no miembros,
+    Kubernetes es reconocida como la solución de orquestación de contenedores ideal.
+Kubernetes as a Service creció como una extensión de Containers as a Service. Kubernetes facilita la gestión declarativa, ya que realiza automáticamente las operaciones
+    necesarias para alcanzar el estado solicitado.
+
+Esto es lo que Kubernetes no es. No es una plataforma como servicio tradicional y con todo incluido. No es un modelo rígido ni obstinado, sino más bien flexible que admite una
+    variedad extremadamente diversa de cargas de trabajo, incluidas las cargas de trabajo apátridas, con estado y de procesamiento de datos. Puede funcionar con todas las
+    aplicaciones que se pueden almacenar en contenedores.
+No proporciona canales de integración o entrega continuos para crear aplicaciones o implementar código fuente.
+No prescribe soluciones de registro, monitoreo y alerta.
+Las organizaciones son libres de seleccionar e integrar herramientas de terceros y de código abierto. Además, no proporciona middleware, bases de datos ni otros servicios
+    integrados.
+
+Veamos algunos conceptos de Kubernetes. Entre los conceptos de Kubernetes se incluyen los siguientes:
+los pods representan el objeto informático más pequeño que se puede implementar y las abstracciones de nivel superior para ejecutar cargas de trabajo.
+Los servicios exponen las aplicaciones que se ejecutan en conjuntos de pods.
+A cada pod se le asigna una dirección IP única.
+Los conjuntos de pods tienen un único nombre DNS.
+Kubernetes admite el almacenamiento persistente y temporal de los pods.
+Configuración, que se refiere al aprovisionamiento de recursos para configurar los pods.
+Medidas de seguridad para las cargas de trabajo nativas de la nube, que refuerzan la seguridad del acceso a los pods y a las API.
+Políticas para grupos de recursos, que garantizan que los pods coincidan con los nodos para que el kubelet pueda encontrarlos y ejecutar los pods.
+Programación y desalojo que ejecutan y finalizan de forma proactiva uno o más pods en nodos con pocos recursos.
+La prioridad, que se basa en la priorización. La prioridad elimina los pods de menor prioridad para que los pods con mayor prioridad puedan programarlos y ejecutarse en los nodos.
+Por último, la administración de clústeres proporciona los detalles necesarios para crear o administrar un clúster.
+
+Las capacidades de Kubernetes incluyen:
+la implementación automática de los cambios en la aplicación o la configuración, la supervisión del estado y la reversión de los cambios.
+Organización del almacenamiento que monta un sistema de almacenamiento elegido, incluido el almacenamiento local, el almacenamiento en red o la nube pública.
+Y, escalado horizontal de las cargas de trabajo en función de métricas o mediante comandos.
+
+Las capacidades adicionales incluyen las siguientes: empaquetado automático de contenedores que aumenta la utilización y el ahorro de costes mediante una combinación de cargas
+    de trabajo críticas y aquellas que requieren mayor esfuerzo.
+El embalaje automatizado de contenedores permite la colocación automática de los contenedores en función de los requisitos y condiciones de los recursos sin sacrificar la alta
+    disponibilidad.
+
+Kubernetes incluye la gestión secreta y de la configuración de la información confidencial, incluidas las contraseñas, los tokens de OAuth y las claves SSH, y gestiona los
+    despliegues y las actualizaciones de los datos secretos y la configuración sin tener que volver a crear las imágenes.
+Además, Kubernetes asigna direcciones IPv4 e IPv6 a los pods y a los servicios.
+Kubernetes gestiona las cargas de trabajo de integración continua y por lotes y reemplaza automáticamente los contenedores defectuosos.
+Repara automáticamente los contenedores defectuosos o que no responden.
+Detecta los pods mediante direcciones IP o un nombre de DNS y equilibra la carga del tráfico para mejorar el rendimiento y la alta disponibilidad.
+
+Además, Kubernetes añade funciones al clúster sin modificar el código fuente.
+El ecosistema de Kubernetes es un ecosistema grande y de rápido crecimiento en el que sus servicios, soporte y herramientas están ampliamente disponibles.
+La ejecución de aplicaciones en contenedores requiere herramientas independientes además de la herramienta de organización de Kubernetes.
+
+El ecosistema incluye servicios como: Crear imágenes de contenedores. Almacenar imágenes en un registro de contenedores. Registro y supervisión de aplicaciones y capacidades de
+    CI/CD. El ecosistema de Kubernetes es una enorme colección de productos, servicios y proveedores.
+
+Entre los principales proveedores de nube pública se encuentran Prisma, IBM, Google y AWS.
+Los proveedores de marcos de código abierto incluyen Red Hat, VMware, SUSE, Mesosphere, Docker y Cloud Foundry.
+Los proveedores de administración incluyen Digital Ocean, loodse, SUPERGIANT, CloudSoft, turbonomic, Techtonic y Weaverworks.
+Los proveedores de herramientas incluyen Jfrog, Univa, Aspen Mesh, Bitnami y Cloud 66.
+Los proveedores de monitoreo y registro incluyen Sumalogic, DATADOG, New Relic, iguazio, Grafana SignalFX, sysdig y Dynatrace.
+Los proveedores de seguridad incluyen GUARDCORE, BLACKDUCK, yubico, cilium, aqua, Twistlock y Alcide,
+Los proveedores de equilibrio de carga incluyen AVI Networks, VMware y Nginx.
+
+En este vídeo, descubrirá lo siguiente:
+Kubernetes es un sistema de organización de contenedores de código abierto, altamente portátil y escalable horizontalmente, con un despliegue automatizado y funciones de
+    administración simplificadas.
+Entre sus conceptos se incluyen los pods y las cargas de trabajo, los servicios, el almacenamiento, la configuración, la seguridad, las políticas, la programación y el desalojo,
+    la prevención y la administración.
+También aprendiste que las capacidades de Kubernetes incluyen las implementaciones y reversiones automatizadas, la organización del almacenamiento, el escalado horizontal, el
+    empaquetado automático de contenedores, la gestión de secretos y configuraciones, la compatibilidad con doble pila para IPv4 e Ipv6, la ejecución por lotes, la
+    autorreparación, la detección de servicios y el equilibrio de carga, y, por último, diseñado para ser extensible.
+El ecosistema de Kubernetes incluye proveedores de nube pública, marcos, administración, herramientas, monitoreo y registro, seguridad y equilibrio de carga."
