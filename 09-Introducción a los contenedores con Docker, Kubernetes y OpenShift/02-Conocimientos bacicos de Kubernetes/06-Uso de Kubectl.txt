@@ -1,0 +1,45 @@
+"Bienvenido a «Using Kubectl». Después de ver este vídeo, podrá definir Kubectl y la estructura de comandos, enumerar los tres tipos de comandos, sus características y ventajas,
+    y enumerar los comandos más utilizados con ejemplos específicos.
+
+Kubectl es la interfaz de línea de comandos (o CLI) de Kubernetes. Kubectl son las siglas de Kube Command Tool Line. Kubectl es una de las herramientas clave para trabajar con
+    Kubernetes y ayuda a los usuarios a implementar aplicaciones, inspeccionar y administrar los recursos del clúster, ver los registros y mucho más. Proporciona muchas
+    funciones para los usuarios que trabajan con clústeres de Kubernetes y gestionan las cargas de trabajo de los clústeres en ejecución.
+
+Además, hay tres tipos de comandos de Kubectl: Los comandos imperativos, la configuración de objetos imperativos y la configuración de objetos declarativos.
+Los comandos de Kubectl utilizan la siguiente estructura: es fundamental mantener cada componente en orden: «comando» significa cualquier operación que se vaya a realizar, como
+    «crear», «obtener», «aplicar » o «eliminar»;
+«tipo» significa el tipo de recurso, como «pod»,
+«despliegue» o «replicaSet»; «nombre» significa el nombre del recurso (si corresponde)
+«flags» significa opciones o modificadores especiales que anulan los valores predeterminados.
+
+Los comandos imperativos le permiten crear, actualizar y eliminar objetos activos directamente. Las operaciones deben especificarse en el comando como argumentos o indicadores.
+Los comandos imperativos son fáciles de aprender y ejecutar. Por ejemplo, para crear un pod con un contenedor específico, simplemente ejecute el comando como se muestra,
+    especificando solo el nombre del pod y la imagen del contenedor.
+Sin embargo, los comandos imperativos no proporcionan un registro de auditoría, lo cual es importante para hacer un seguimiento de los cambios. No son flexibles, ya que las
+    opciones son limitadas, no utilizan plantillas y no se pueden integrar con los procesos de revisión de cambios.
+Sin embargo, son ideales para entornos de desarrollo y pruebas. Los comandos imperativos también tienen desventajas. Supongamos que un desarrollador ejecuta un comando para
+    implementar una aplicación. Otro desarrollador quiere implementar la misma aplicación, pero no puede hacerlo porque no hay un archivo de configuración. El segundo
+    desarrollador debe consultar con el primer desarrollador el comando exacto que debe implementar y, a continuación, ejecutarlo. Sería mejor que ambos desarrolladores
+    utilizaran una plantilla para la implementación, ya que así se superan las limitaciones de trabajar con comandos imperativos.
+
+En la configuración de objetos imperativos, el comando kubectl especifica las operaciones obligatorias, los indicadores opcionales y al menos un nombre de archivo. El archivo de
+    configuración especificado debe contener una definición completa de los objetos en formato YAML o JSON. Para crear los objetos definidos en el archivo, ejecuta el comando
+    'kubectl create -f nginx.yaml'.
+El uso de las mismas plantillas de configuración en varios entornos producirá resultados idénticos. Un archivo de configuración: se puede almacenar en un sistema de control de
+    código fuente como Git, se puede integrar con los procesos de cambio y proporciona pistas de auditoría y plantillas para crear nuevos objetos. Sin embargo, su uso requiere
+    comprender el esquema del objeto y escribir un archivo YAML o JSON.
+
+Ahora bien, la configuración imperativa de los objetos también tiene limitaciones. Debe especificar todas las operaciones de comando necesarias. Por ejemplo, si un desarrollador
+    realiza una operación de actualización que no está integrada en el archivo de configuración, otro desarrollador no podrá usar la configuración actualizada en futuras
+    implementaciones. En su lugar, el segundo desarrollador usa la configuración original o anterior.
+Es mejor definir el estado deseado en un archivo de configuración compartido y, a continuación, al realizar la implementación, Kubernetes determinará automáticamente las
+    operaciones necesarias. Esto se conoce como configuración declarativa de objetos.
+
+La configuración declarativa de objetos almacena los datos de configuración en archivos. Kubectl identifica las operaciones en lugar de especificarlas el usuario. Esto funciona
+    en directorios o archivos individuales. Por ejemplo, el comando 'kubectl apply' menciona un directorio (como se muestra) y, a continuación, aplica los datos de configuración a todos los archivos de ese directorio. El usuario no está obligado a realizar ninguna operación, ya que el sistema la realiza automáticamente. Los archivos de configuración definen el estado deseado y Kubernetes actualiza ese estado. Y este enfoque es el método ideal para los sistemas de producción. Este es un ejemplo de configuración declarativa. Un desarrollador actualiza una aplicación en ejecución. Como los datos de configuración se almacenan en la plantilla compartida, todavía hay una fuente fiable para la configuración de este objeto. Ahora, incluso si otro desarrollador omite varias de estas actualizaciones, lo único que tiene que hacer es aplicar la plantilla de configuración actual para asegurarse de que el objeto desplegado es el esperado. Kubernetes determina y realiza automáticamente las operaciones necesarias para hacer coincidir el estado actual con el estado deseado.
+Reproduce el video desde :5:49 y sigue la transcripción5:49
+Estos son algunos de los comandos y descripciones de Kubectl más utilizados: el comando get accede a un archivo, contenedor o cualquier otro recurso, el comando delete elimina un archivo o contenedor, el comando autoscale aplica el proceso de escalado automático al archivo o contenedor seleccionado, etc. Puedes encontrar todos los comandos de Kubectl en Kubernetes.io.
+Reproduce el video desde :6:16 y sigue la transcripción6:16
+Los comandos «get» de Kubectl te permiten enumerar: los servicios de un espacio de nombres actual, los pods de todos los espacios de nombres, una implementación concreta y los pods del espacio de nombres actual. Los comandos «apply» de Kubectl crean recursos mediante archivos YAML o JSON. Utilizan extensiones como .yaml, .yml o .json.
+Reproduce el video desde :6:37 y sigue la transcripción6:37
+Puedes usar los comandos «aplicar» para crear recursos: desde varios archivos o desde una URL. Los comandos de «escala» de Kubectl escalan el número de réplicas. Puedes usar comandos de «escalado» para escalar: un ReplicaSet llamado «foo» a 3, o un recurso en «foo.yaml» a 3. Vamos a crear una implementación con tres réplicas de la imagen de nginx. Cree la implementación mediante un comando «aplicar». El resultado confirma la creación de la implementación. El comando «get deployment» proporciona los detalles específicos de la implementación de «my-dep». El resultado confirma la creación de tres réplicas: listas, actualizadas y disponibles. En este vídeo, aprendiste que Kubectl es la interfaz de línea de comandos de Kubernetes. La estructura de comandos de Kubectl es: kubectl, command, type, name, flags. Los comandos imperativos son los más fáciles de aprender, no tienen registro de auditoría y no son flexibles. La configuración de objetos imperativa utiliza plantillas para garantizar una replicación adecuada de la implementación. Por último, la configuración declarativa de objetos está automatizada, no requiere la intervención del usuario y es ideal para los sistemas de producción."

@@ -1,0 +1,58 @@
+"Bienvenido a «Objetos de Kubernetes: primera parte». Tras ver este vídeo, podrá definir un objeto de Kubernetes y sus propiedades, describir los objetos básicos de Kubernetes y
+    sus características y demostrar cómo los objetos de Kubernetes se relacionan entre sí.
+
+En el mundo real, un objeto es algo que tiene una identidad, un estado y un comportamiento. Una ventana o un carrito de compras son ejemplos de objetos. Un objeto de software es
+    un conjunto de datos que tiene una identidad, un estado y un comportamiento. Los ejemplos incluyen variables, estructuras de datos y funciones específicas. Otro término es
+    «entidad», que también tiene una identidad y datos asociados. Por ejemplo, en la banca, la cuenta de un cliente es una entidad. Por último, el término «persistente»
+    significa que algo durará incluso si se produce un fallo en el servidor o un ataque a la red. Un ejemplo es el almacenamiento persistente. Los objetos de Kubernetes son
+    entidades persistentes. Los ejemplos incluyen: pods, espacios de nombres, ReplicaSets, despliegues y más. Los objetos de Kubernetes constan de dos campos principales: la
+    especificación y el estado del objeto. La especificación del objeto la proporciona el usuario, que dicta el estado deseado del objeto. El estado lo proporciona Kubernetes.
+    Esto describe el estado actual del objeto. Kubernetes trabaja para hacer coincidir el estado actual con el estado deseado. Para trabajar con estos objetos, usa la API de
+    Kubernetes directamente con las bibliotecas cliente y la interfaz de línea de comandos kubectl, o ambas.
+
+Las etiquetas son pares clave/valor adjuntos a los objetos. Están destinadas a la identificación de objetos. Sin embargo, una etiqueta no identifica de forma única un único
+    objeto. Muchos objetos pueden tener las mismas etiquetas. Esto ayuda a organizar y agrupar los objetos. Los selectores de etiquetas son el principal método de agrupación en
+    Kubernetes. Permiten identificar un conjunto de objetos.
+
+Los espacios de nombres proporcionan un mecanismo para aislar grupos de recursos dentro de un único clúster. Esto resulta útil cuando los equipos comparten un clúster para
+    ahorrar costes o para mantener varios proyectos aislados. Los espacios de nombres son ideales cuando el número de usuarios del clúster es grande. Algunos ejemplos de
+    espacios de nombres son el sistema kube, destinado a los usuarios del sistema, y el espacio de nombres predeterminado que se usa para almacenar las aplicaciones de los
+    usuarios.
+Existen diferentes patrones de trabajo con los espacios de nombres. Puede que solo haya un espacio de nombres para un usuario que trabaje con un equipo que solo tenga un
+    proyecto implementado en un clúster. Como alternativa, puede haber muchos equipos o proyectos, o muchos usuarios con necesidades diferentes, en los que se puedan crear
+    espacios de nombres adicionales.
+Los espacios de nombres proporcionan un ámbito para los nombres de los objetos. Cada objeto debe tener un nombre único para ese tipo de recurso dentro de ese espacio de nombres.
+
+Un pod es la unidad más simple de Kubernetes. Un pod representa un proceso o una instancia única de una aplicación que se ejecuta en el clúster. Un pod normalmente envuelve uno
+    o más contenedores. La creación de réplicas de un pod sirve para escalar una aplicación horizontalmente.
+
+Los archivos YAML se utilizan a menudo para definir los objetos que se desean crear. Los archivos YAML que se muestran definen un pod simple. El campo «tipo» especifica el tipo
+    de objeto que se va a crear. En este caso, creamos un pod. El campo «especificaciones» proporciona los campos adecuados para el objeto que se va a crear, como los
+    contenedores que se ejecutarán en este pod. Un PodSpec debe contener al menos un contenedor. En este ejemplo, el contenedor se denomina «nginx».
+
+El campo de imagen indica qué imagen se ejecutará en el pod. Y la matriz de puertos muestra los puertos que expone el contenedor.
+Un ReplicaSet es un conjunto de réplicas idénticas en ejecución de un pod escaladas horizontalmente. Los archivos de configuración de un ReplicaSet y un pod son diferentes entre
+    sí. El campo de réplicas especifica el número de réplicas que deben estar ejecutándose en un momento dado. Siempre que se actualice este campo, el ReplicaSet crea o elimina
+    pods para cumplir con el número deseado de réplicas. En la especificación del ReplicaSet se incluye una plantilla de pods, que define los pods que debe crear el ReplicaSet.
+En el campo selector, las etiquetas incluidas en el campo MatchLabels especifican los pods que puede adquirir el ReplicaSet. Observa que la etiqueta identificada en el campo
+    MatchLabels es la misma que la del campo de etiquetas de la plantilla Pod. Ambas son la aplicación: nginx. No se recomienda crear ReplicaSets directamente. En su lugar,
+    cree una implementación, que es un concepto de nivel superior que administra los ReplicaSets y ofrece más funciones y un mejor control.
+
+Una implementación es un objeto de nivel superior que proporciona actualizaciones tanto para los Pods como para los ReplicaSets. Las implementaciones ejecutan varias réplicas de
+    una aplicación mediante ReplicaSets y ofrecen capacidades de administración adicionales además de estos ReplicaSets. Las implementaciones son adecuadas para aplicaciones sin
+    estado.
+
+Para las aplicaciones con estado, se utilizan conjuntos con estado. Algunos ejemplos de implementaciones son la implementación de una aplicación replicada, las actualizaciones
+    de los pods gestionadas por una implementación o la ampliación de una aplicación. En este ejemplo de especificación de despliegue, se muestra el tipo de despliegue, que
+    define el número de réplicas, un selector para identificar los pods que se pueden adquirir y una plantilla de pod.
+
+Una característica clave que ofrecen las implementaciones, pero no las de ReplicaSets, son las actualizaciones continuas. Una actualización progresiva amplía una nueva versión
+    hasta el número adecuado de réplicas y reduce la versión anterior a cero réplicas. El ReplicaSet garantiza que exista la cantidad adecuada de pods, mientras que la
+    implementación organiza el lanzamiento de una nueva versión.
+
+En este vídeo, aprendiste que los objetos de Kubernetes son entidades persistentes.
+Sus campos principales son la «especificación del objeto» y el «estado».
+Los espacios de nombres ayudan a aislar grupos de recursos dentro de un único clúster;
+Los pods representan un proceso o una instancia de una aplicación que se ejecuta en el clúster;
+Los ReplicaSets crean y administran pods en ejecución escalados horizontalmente;
+Las implementaciones proporcionan actualizaciones para los pods y los ReplicaSets."

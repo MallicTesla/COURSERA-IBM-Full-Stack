@@ -1,0 +1,62 @@
+"Bienvenido a «Objetos de Kubernetes: segunda parte». Tras ver este vídeo, podrá: Describir los propósitos, propiedades y usos de un servicio, describir las funciones y los usos
+    de los servicios ClusterIP, NodePort, LoadBalancer y External Name Services. Y describa las funciones y los usos de Ingress, DaemonSet, StatefulSet y un trabajo.
+
+Un servicio es un objeto REST, como los pods. Los servicios son una abstracción lógica para un conjunto de pods de un clúster. Proporcionan políticas para acceder a los pods y
+    al clúster. Y actúa como un equilibrador de carga en todos los pods. A cada servicio se le asigna una dirección IP única para acceder a las aplicaciones implementadas en los
+    pods. Además, un servicio elimina la necesidad de un proceso de descubrimiento de servicios independiente.
+
+Un servicio admite varios protocolos, como TCP, que es el protocolo predeterminado, UDP, y otros, y admite varias definiciones de puertos. El número de puerto con el mismo
+    nombre puede variar en cada pod de backend. Además, un servicio puede tener un selector opcional y, si lo desea, puede asignar los puertos entrantes a un TargetPort.
+
+A continuación, veamos por qué se necesita un servicio. Se necesita un servicio porque los pods de un clúster se pueden destruir y se pueden crear nuevos pods en cualquier
+    momento. Esta volatilidad provoca problemas de visibilidad debido a los cambios de dirección IP. Un servicio realiza un seguimiento de los cambios de los pods y expone una
+    única dirección IP o un nombre de DNS, y utiliza selectores para dirigirse a un conjunto de pods.
+
+En el caso de las aplicaciones nativas de Kubernetes, los puntos de conexión de las API se actualizan cada vez que se detectan cambios en los pods del Servicio. En el caso de
+    las aplicaciones no nativas, Kubernetes utiliza un puente o un balanceador de cargas basado en IP virtual entre las aplicaciones y los pods de backend.
+
+Hay cuatro tipos de servicios: ClusterIP, NodePort, LoadBalancer y External Name. Vamos a obtener más información sobre cada tipo de servicio.
+ClusterIP es el tipo de servicio predeterminado y más común. Kubernetes asigna una dirección IP interna del clúster al servicio ClusterIP, lo que hace que solo se pueda acceder
+    al servicio dentro del clúster. Un servicio ClusterIP no puede realizar solicitudes al Servicio desde fuera del clúster. Puede establecer la dirección IP del clúster en el
+    archivo de definición del servicio, y el servicio IP del clúster proporciona comunicación entre servicios dentro del clúster. Por ejemplo, la comunicación entre los
+    componentes front-end y back-end de la aplicación.
+Un servicio NodePort, una extensión del servicio ClusterIP, crea y enruta las solicitudes entrantes automáticamente al servicio ClusterIP. Un NodePort expone el servicio en la
+    dirección IP de cada nodo en un puerto estático. Tenga en cuenta que, por motivos de seguridad, no se recomienda su uso en producción. Kubernetes ofrece un único servicio
+    sin requisitos de equilibrio de carga para varios servicios. Una extensión del servicio NodePort, un balanceador de carga externo (ELB), crea los servicios NodePort y
+    ClusterIP automáticamente.
+
+Un ELB integra y dirige automáticamente el tráfico al servicio NodePort. Para exponer un servicio a Internet, necesita un ELB nuevo con una dirección IP. Puede usar el ELB de un
+    proveedor de nube para alojar su clúster. El tipo de servicio de nombres externo se asigna a un nombre DNS y no a ningún selector y requiere un parámetro `spec.ExternalName`.
+
+El Servicio de nombres externo asigna el servicio al contenido del campo ExternalName que devuelve un registro CNAME y su valor. Puedes usar un nombre externo para crear un
+    servicio que represente el almacenamiento externo y permitir que los pods de diferentes espacios de nombres se comuniquen entre sí.
+
+A continuación, Ingress es un objeto de API que, cuando se combina con un controlador, proporciona reglas de enrutamiento para administrar el acceso de los usuarios externos a
+    varios servicios de un clúster de Kubernetes.
+
+En producción, Ingress expone las aplicaciones a Internet a través del puerto 80 (para HTTP) o el puerto 443 (para HTTPS). Mientras que el clúster supervisa Ingress, un
+    balanceador de carga externo es caro y se administra fuera del clúster.
+
+Un DaemonSet es un objeto que garantiza que los nodos ejecuten una copia de un pod. A medida que se añaden nodos a un clúster, se añaden pods a los nodos. Los pods son basura
+    que se recoge cuando se retiran de un clúster. Si eliminas un DaemonSet, se eliminarán todos los pods. Los Daemonsets son ideales para almacenar, registrar y monitorizar
+    nodos.
+
+Un StatefulSet es un objeto que gestiona las aplicaciones con estado, gestiona el despliegue y el escalado de los pods y ofrece garantías sobre el orden y la exclusividad de los
+    pods. Un StatefulSet mantiene una identidad fija para cada solicitud de pod y proporciona volúmenes de almacenamiento persistentes para tus cargas de trabajo.
+
+Por último, un trabajo crea los pods y hace un seguimiento del proceso de finalización del pod. Los trabajos se vuelven a intentar hasta que se completen. Al eliminar un trabajo,
+    se eliminarán los pods creados. Al suspender un trabajo, se eliminarán sus pods activos hasta que se reanude el trabajo. Un trabajo puede ejecutar varios pods en paralelo.
+Y un CronJob se usa habitualmente para crear trabajos siguiendo un cronograma iterativo.
+
+En este vídeo, aprendiste lo siguiente:
+Un servicio en Kubernetes es un objeto REST que proporciona políticas para acceder a los pods y al clúster.
+ClusterIP es el tipo de servicio predeterminado y más común, y proporciona comunicación entre servicios dentro del clúster.
+Una extensión del servicio ClusterIP, un servicio NodePort, crea las solicitudes entrantes y las enruta automáticamente al servicio ClusterIP.
+Un balanceador de carga externo, una extensión del servicio NodePort, crea los servicios NodePort y ClusterIP automáticamente.
+Además, Ingress es un objeto de API que, cuando se combina con un controlador, proporciona reglas de enrutamiento para administrar el acceso de los usuarios externos a varios
+    servicios de un clúster de Kubernetes.
+También aprendió que el uso de un DaemonSet garantiza que haya al menos una instancia del pod en todos los nodos.
+Puedes usar un nombre externo para crear un servicio que represente el almacenamiento externo y permita que los pods de diferentes espacios de nombres se comuniquen entre sí.
+Un StatefulSet gestiona las aplicaciones con estado, gestiona el despliegue y el escalado de los pods, mantiene una identidad fija para cada solicitud de pod y proporciona
+    volúmenes de almacenamiento persistentes para tus cargas de trabajo.
+Por último, un trabajo crea los pods y hace un seguimiento del proceso de finalización del pod. Los trabajos se vuelven a intentar hasta que se completen."
