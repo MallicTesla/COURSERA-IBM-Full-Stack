@@ -1,0 +1,223 @@
+"Visión general
+Una estrategia de despliegue de Kubernetes define el ciclo de vida de una aplicación que alcanza y mantiene el estado configurado para objetos y aplicaciones de forma
+    automatizada. Las estrategias de despliegue eficaces minimizan el riesgo.
+
+Las estrategias de despliegue de Kubernetes se utilizan para
+
+Desplegar, actualizar o revertir ReplicaSets, Pods, Servicios y Aplicaciones
+
+Pausar/reanudar despliegues
+
+Escalar despliegues manual o automáticamente
+
+Tipos de estrategias de despliegue
+A continuación se enumeran seis tipos de estrategias de despliegue:
+
+    Recrear
+
+    Enrollable
+
+    Azul/verde
+
+    Canario
+
+    Pruebas A/B
+
+    Sombra
+
+Puede utilizar una única estrategia de despliegue o una combinación de varias estrategias de despliegue.
+
+Estrategia recrear
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/S0OHGQciTMiDhxkHIuzIZw_59fd9b955e3749cd8653f50a997075f1_Recreate-Strategy.png?expiry=1703894400000&hmac=Fk5oKKorzFjCCXFpzcxYgFN9PqEVkzXFK9VVrzgrNNM
+
+En la estrategia recrear, los Pods que ejecutan la versión en vivo de la aplicación se apagan todos simultáneamente y se despliega una nueva versión de la aplicación en Pods
+    recién creados.
+
+Recreate es la estrategia de despliegue más sencilla. Hay un breve tiempo de inactividad entre el apagado del despliegue existente y el nuevo despliegue
+
+Los pasos de la estrategia Recreate incluyen:
+
+    Una nueva versión de la aplicación (v2) está lista para su despliegue.
+
+    Todos los Pods que ejecutan la versión actual (v1) se apagan o eliminan.
+
+    Se crean nuevos Pods (v2).
+
+El proceso de rollback se completa en orden inverso, sustituyendo la versión 2 (v2) por la versión 1 (v1).
+
+Configuración sencilla      Se produce un breve tiempo de inactividad entre el apagado y el nuevo despliegue
+
+La versión de la aplicación se sustituye por completo
+
+--------------------------------------------------------------------------------------------------------------------
+Estrategia rolling (ramped)
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/X2UzR6YmTGSlM0emJmxkkw_d9be2366ede249569c7c574db5d75cf1_Rolling-Ramped-Strategy.png?expiry=1703894400000&hmac=267BoVFUqGwgZ6RXjt4INb0ehyfOGLAib4NTP74pvwM
+
+En una estrategia rodante, cada Pod se actualiza de uno en uno. Un único Pod v1 se sustituye por un nuevo Pod v2. Cada Pod v1 se actualiza de este modo hasta que todos los Pods
+    son v2. Durante una actualización de estrategia rodante, apenas hay tiempo de inactividad, ya que los usuarios son dirigidos a cualquiera de las dos versiones.
+
+Los pasos de la estrategia rodante incluyen:
+
+    Una nueva versión de la aplicación (v2) está lista para su despliegue.
+
+    Uno de los Pods que ejecuta la versión actual (v1) se apaga o se elimina.
+
+    Se crea un nuevo Pod (v2) para sustituir al Pod (v1) que se eliminó.
+
+    Los pasos 2 y 3 se repiten hasta que se eliminan todos los Pods (v1) y se sustituyen por Pods (v2).
+
+El proceso de desmantelamiento se invierte, y los Pods v2 son reemplazados por Pods v1.
+
+Pros                                                                                        Contras
+
+Configuración sencilla                                                                      El rollout/rollback lleva tiempo
+
+Adecuado para aplicaciones con estado que necesitan manejar el reequilibrio de los datos    No se puede controlar la distribución del tráfico
+
+--------------------------------------------------------------------------------------------------------------------
+Estrategia azul/verde
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/NFTOHT_BSvmUzh0_wfr5jw_81599343d2f2432493a079dd15427cf1_Blue-green-strategy.png?expiry=1703894400000&hmac=5v9RY6nMCmWZQ8Gydas9c21L-Nf1cvVsDPlROV4MVy4
+
+En una estrategia azul/verde, el entorno azul es la versión en vivo de la aplicación. El entorno verde es una copia exacta que contiene el despliegue de la nueva versión de la
+    aplicación. El entorno verde se prueba a fondo. Una vez solucionados todos los cambios, errores y problemas, se cambia el tráfico de usuarios del entorno azul al verde.
+
+Los pasos de la estrategia azul/verde incluyen
+
+    Crear un nuevo entorno idéntico al entorno de producción actual.
+
+    Diseñe la nueva versión y pruébela a fondo hasta que esté lista para la producción.
+
+    Dirija todo el tráfico de usuarios a la nueva versión.
+
+Para realizar un rollback, vuelva a cambiar los entornos.
+
+Pros                                                        Contras
+
+Rollout/rollback instantáneos                               Caro
+    (sin tiempo de inactividad)                             (requiere el doble de recursos)
+
+La nueva versión está disponible inmediatamente para        Se requieren pruebas rigurosas antes de pasar a producción
+    todos los usuarios
+
+                                                            Manejar aplicaciones con estado es difícil
+
+
+--------------------------------------------------------------------------------------------------------------------
+Estrategia canaria
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0WrU-4r7Qbqq1PuK-3G6Kg_6ca8301e22aa4901867272f13d0f43f1_Canary-Strategy.png?expiry=1703894400000&hmac=iCu7Aff0zVanTJyh1oUIH_zpNtH1O0sxmhWSuoD2NjA
+
+En una estrategia canaria, la nueva versión de la aplicación se prueba utilizando un pequeño conjunto de usuarios aleatorios junto con la versión actual en vivo de la aplicación.
+    Una vez que la nueva versión de la aplicación se ha probado con éxito, se despliega a todos los usuarios.
+
+Los pasos de la estrategia canaria incluyen:
+
+    Diseñar una nueva versión de la aplicación.
+
+    Dirija una pequeña muestra de solicitudes de usuarios a la nueva versión.
+
+    Pruebe la eficacia, el rendimiento, los errores y los problemas, y haga retroceder la aplicación si es necesario.
+
+    Repita los pasos 1 a 3. Una vez resueltos todos los problemas, encamine todo el tráfico a la nueva versión.
+
+El rollback no tiene tiempo de inactividad ya que pocos usuarios están expuestos a la nueva versión.
+
+Pros                                                                                    Contras
+
+Conveniente para la supervisión de la fiabilidad, los errores y el rendimiento          Despliegue lento, acceso gradual de los usuarios
+
+Retroceso rápido
+
+--------------------------------------------------------------------------------------------------------------------
+Estrategia de pruebas A/B
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/2qr5RL7vRHmq-US-7_R5jQ_00cb25ca0f5748569d238f17d071c9f1_AB-Testing.png?expiry=1703894400000&hmac=xRCQgDe0EsOyRRHtdGOr5KOuoDL0mKtqDGTf67qYErA
+
+La estrategia de pruebas A/B, también conocida como pruebas divididas, evalúa dos versiones de una aplicación (versión A y versión B). Con las pruebas A/B, cada versión tiene
+    características que se adaptan a diferentes grupos de usuarios. Puede seleccionar qué versión es la mejor para el despliegue global basándose en la interacción y los
+    comentarios de los usuarios
+
+Los pasos de la estrategia de pruebas A/B incluyen:
+
+    Diseñar una nueva versión de la aplicación añadiendo la mayoría de las características de la interfaz de usuario.
+
+    Identifique un pequeño conjunto de usuarios basándose en condiciones como el peso, el valor de la cookie, los parámetros de consulta, la geolocalización, la versión del
+    navegador, el tamaño de la pantalla, el sistema operativo y el idioma.
+
+    Dirija las peticiones del conjunto de usuarios a la nueva versión.
+
+    Compruebe los errores, la eficacia, el rendimiento y los problemas.
+
+    Una vez resueltos todos los problemas, dirija todo el tráfico a la nueva versión.
+
+Se pueden implementar retrocesos, pero el tiempo de inactividad puede afectar al usuario.
+
+Pros                                                    Contras
+
+Pueden ejecutarse varias versiones en paralelo          Requiere un equilibrador de carga inteligente
+
+Control total sobre la distribución del tráfico         Difícil solucionar los errores de una sesión determinada, el rastreo distribuido se hace obligatorio
+
+
+--------------------------------------------------------------------------------------------------------------------
+Estrategia de sombra
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/xJnAA_d8T8GZwAP3fP_BRw_e7f8f2808ba44abe850a8d234b0567f1_Shadow-Strategy.png?expiry=1703894400000&hmac=SBHcvKSpCXgB35bupV3sf2EFTx2b9FQ684TUjjxy-9w
+
+En una estrategia en la sombra, se despliega una "versión en la sombra" de la aplicación junto a la versión en vivo. Las solicitudes de los usuarios se envían a ambas versiones,
+    y ambas gestionan todas las solicitudes, pero la versión en la sombra no reenvía las respuestas a los usuarios.esto permite a los desarrolladores ver cómo funciona la
+    versión sombra utilizando datos del mundo real sin interrumpir la experiencia del usuario.
+
+Para realizar una reversión, vuelva a cambiar los entornos.
+
+Pros                                                            Contras
+
+Pruebas de rendimiento con tráfico de producción                Caro (duplica los recursos)
+
+Sin impacto en el usuario                                       No es una verdadera prueba de usuario, puede dar lugar a resultados malinterpretados
+
+Sin tiempo de inactividad                                       Configuración compleja
+
+                                                                Requiere la supervisión de dos entornos
+
+
+Resumen de las estrategias de implantación
+
+
+Estrategia                | Sin tiempo de inactividad | Pruebas de tráfico real | Usuarios objetivo | Coste de la nube | Duración del desmantelamiento | Impacto negativo en los usuarios | Complejidad de la instalación | Volver a crear
+--------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
+Se elimina la versión 1 y |             X             |            X            |          X        |        ---       |            ---                |             ---                |             ---               |       - - -
+luego se implanta la      |                           |                         |                   |                  |                               |                                |                               |
+versión 2                 |                           |                         |                   |                  |                               |                                |                               |
+--------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
+En rampa                  |                           |            ✓            |          X        |        ---       |            ---                |             ---                |                               |
+La versión 1 se sustituye |                           |                         |                   |                  |                               |                                |                               |
+por un lento despliegue de|                           |                         |                   |                  |                               |                                |                               |
+la versión 2              |                           |                         |                   |                  |                               |                                |                               |
+--------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
+Azul/Verde                |                           |                         |                   |                  |                               |                                |                               |
+La versión 2 se libera    |                           |                         |                   |                  |                               |                                |                               |
+junto con la versión 1,   |                           |                         |                   |                  |                               |                                |                               |
+entonces el tráfico pasa  |            ✓              |            X            |          X        |        ---       |            ---                |             - - -              |             ---               |
+a la versión 2            |                           |                         |                   |                  |                               |                                |                               |
+--------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
+Canary                    |                           |                         |                   |                  |                               |                                |                               |
+La versión 2 se libera    |            ✓              |            ✓           |          X        |        ---       |            ---                |             ---                |             ---               |
+primero a un subconjunto  |                           |                         |                   |                  |                               |                                |                               |
+de usuarios, luego se     |                           |                         |                   |                  |                               |                                |                               |
+despliega completamente   |                           |                         |                   |                  |                               |                                |                               |
+cuando está lista para la |                           |                         |                   |                  |                               |                                |                               |
+producción                |                           |                         |                   |                  |                               |                                |                               |
+--------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
+Pruebas A/B               |                           |                         |                   |                  |                               |                                |                               |
+La versión 2 sólo se      |            ✓              |            ✓            |          ✓       |        ---       |            ---                |             ---                |             ---               |
+lanza a un subconjunto de |                           |                         |                   |                  |                               |                                |                               |
+usuarios con rasgos       |                           |                         |                   |                  |                               |                                |                               |
+específicos               |                           |                         |                   |                  |                               |                                |                               |
+--------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
+Sombra                    |                           |                         |                   |                  |                               |                                |                               |
+La versión 2 recibe       |            ✓              |            ✓            |          X        |        ---       |            - - -               |             - - -              |             ---               |
+tráfico del mundo real    |                           |                         |                   |                  |                               |                                |                               |
+junto con la versión A    |                           |                         |                   |                  |                               |                                |                               |
+pero no responde a los    |                           |                         |                   |                  |                               |                                |                               |
+usuarios                  |                           |                         |                   |                  |                               |                                |                               |
+
+
+"

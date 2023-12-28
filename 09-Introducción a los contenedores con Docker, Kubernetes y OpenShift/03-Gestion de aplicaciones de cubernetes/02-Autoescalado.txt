@@ -1,0 +1,64 @@
+"Hola y bienvenidos a «Autoscaling». Después de ver este vídeo, podrá: definir el escalado automático, explicar los tres tipos de escaladores automáticos y demostrar cómo
+    funciona cada uno de ellos.
+
+Los ReplicaSets son un buen punto de partida para el escalado, pero no siempre querrás ejecutar 10 instancias de tu recurso. Debería poder escalar según sea necesario. El
+    escalado automático de Kubernetes ayuda a optimizar el uso de los recursos y los costes al escalar automáticamente un clúster en función de la demanda.
+    Kubernetes permite el escalado automático en dos capas diferentes: el nivel de clúster o nodo y el nivel de pod.
+
+Hay tres tipos de escaladores automáticos disponibles en Kubernetes: el escalador automático de pod horizontal (o HPA), el escalador automático de pod vertical (o VPA) y el
+    escalador automático de clústeres (o CA).
+
+Para crear el escalado automático: indica el número y el estado actuales de los pods. En este escenario, tiene un pod. Al crear una implementación, se crea automáticamente un
+    ReplicaSet. Para escalar automáticamente, basta con utilizar el comando autoscale con los atributos necesarios.
+Mín es el número mínimo de grupos. Observe que hemos cambiado el valor de «Mín» a 2. Máximo es el número máximo de cápsulas. Además, el porcentaje de CPU actúa como un
+    disparador que indica al sistema que cree un nuevo módulo cuando el uso de la CPU alcance el 50% en todo el clúster.
+En segundo plano, la implementación sigue utilizando el ReplicaSet para escalar hacia arriba y hacia abajo. Observe que el número de réplicas de este ReplicaSet
+    «escalado automáticamente» ha cambiado a 2 desde que el número mínimo especificado en el comando de escalado automático anterior se cambió a 2.
+
+Ahora, en Kubernetes, hay tres tipos de escalado automático: el escalador automático de pods horizontal (o HPA) ajusta el número de réplicas de una aplicación aumentando o
+    disminuyendo el número de pods.
+El escalador automático de pods verticales (o VPA) ajusta las solicitudes de recursos y los límites de un contenedor aumentando o disminuyendo el tamaño de los recursos o la
+    velocidad de los pods. Además, el escalador automático de clústeres (o CA) ajusta la cantidad de nodos del clúster cuando los pods no se programan o la demanda aumenta o
+    disminuye en relación con la capacidad de los nodos.
+
+En Kubernetes, un HPA actualiza automáticamente un recurso de carga de trabajo (como una implementación) escalando horizontalmente la carga de trabajo para adaptarla a la
+    demanda. El escalado horizontal, o «escalado horizontal», aumenta o reduce automáticamente la cantidad de módulos en ejecución a medida que cambia el uso de las aplicaciones.
+    Un HPA utiliza un operador de clúster que establece objetivos para métricas como el uso de la CPU o la memoria y el número máximo y mínimo deseado de réplicas. Por ejemplo,
+    la carga del sistema es baja a primera hora de la mañana, por lo que un módulo es suficiente. El HPA escala automáticamente el recurso de carga de trabajo para satisfacer la
+    demanda de uso. A las 11 de la mañana, los picos de carga hacen que se necesiten tres módulos, por lo que la HPA escala automáticamente el recurso de carga de trabajo para
+    satisfacer la demanda de uso. El uso disminuye por la tarde, por lo que el tercer módulo se marca para su eliminación y se retira. Además, el consumo se reduce aún más a las
+    17:00 horas, por lo que se marca otro módulo para su eliminación y se retira.
+
+Y otra forma de habilitar el escalado automático es crear manualmente el objeto HPA a partir de un archivo YAML. De forma similar al comando de escalado automático, puedes
+    establecer el número mínimo y máximo de pods. El indicador CPU-Percentage aparece como «TargetCPUUtilizationPercentage». Y aunque puede crear un escalador automático HPA
+    desde cero, debería usar el comando de escalado automático en su lugar.
+
+Lo mejor es escalar horizontalmente, pero hay algunos servicios que puede que desee ejecutar en un clúster en los que el escalado horizontal no sea posible o no sea ideal. El
+    escalado vertical, o «escalado ascendente», se refiere a añadir más recursos a una máquina existente. Un VPA le permite escalar un servicio verticalmente dentro de un
+    clúster. El operador del clúster establece objetivos para métricas como el uso de la CPU o la memoria, de forma similar a un HPA. A continuación, el clúster concilia el
+    tamaño del pod o los pods del servicio en función de su uso actual y del objetivo deseado. Por ejemplo, la carga del sistema es baja a primera hora de la mañana, por lo que
+    los recursos del sistema que utiliza el pod son bajos. A las 11 de la mañana, los picos de carga hacen que se necesite más capacidad. El VPA escala automáticamente el módulo
+    añadiendo más recursos del sistema (CPU y memoria) para satisfacer la demanda. El uso disminuye por la tarde, por lo que el pod se escala automáticamente para utilizar menos
+    recursos del sistema. Además, el uso se reduce aún más a las 5 p. m., por lo que el módulo se ajusta aún más automáticamente para adaptarse a los niveles de las 7 a. m.
+    No debes usar VPA con HPA en métricas de recursos como la CPU o la memoria.
+
+Sin embargo, puede usarlos juntos en métricas personalizadas o externas. Una CA escala automáticamente el clúster en sí, aumentando y disminuyendo la cantidad de nodos
+    disponibles en los que se pueden ejecutar los pods.
+
+Los pods se escalan automáticamente mediante HPA o VPA, pero cuando los propios nodos están sobrecargados de pods, puede utilizar una CA para escalar automáticamente los nodos,
+    de modo que los pods puedan reequilibrarse por sí mismos en todo el clúster. Por ejemplo, la carga del sistema es baja a primera hora de la mañana, por lo que los nodos
+    existentes pueden gestionar la carga. Cuando la demanda aumenta, llegan nuevas solicitudes de módulos y la CA escala automáticamente el clúster añadiendo un nodo y unos
+    nuevos módulos para satisfacer la demanda. A las 11 de la mañana, los picos de carga permiten que el nuevo nodo alcance su capacidad máxima. Cuando el consumo disminuye por
+    la tarde, las cápsulas no utilizadas se marcan para su eliminación y se retiran. Y cuando el consumo disminuya aún más antes de las 17.00 horas, todos los pods del nuevo
+    nodo se marcan para que se eliminen y se eliminen. Luego, el nodo en sí se marca y se elimina.
+
+Un escalador automático de clústeres garantiza que siempre haya suficiente potencia de procesamiento para ejecutar sus tareas y que no tenga que pagar más por los nodos no
+    utilizados. Por ejemplo, es posible que durante las noches y los fines de semana haya menos cargas de pruebas de desarrollo o de integración continua. Además, los clústeres
+    pueden tener períodos en los que se completan todos los trabajos de procesamiento por lotes y el nuevo lote no comienza hasta más tarde ese mismo día. Cada tipo de escalador
+    automático es adecuado para situaciones específicas, por lo que debe analizar las ventajas y desventajas de cada uno para encontrar la mejor opción. El uso de una combinación
+    de los tres tipos garantiza que los servicios funcionen de forma estable en los momentos de máxima carga y que los costes se minimicen en los momentos de menor demanda.
+
+En este vídeo, aprendió que: el escalado automático permite escalar según sea necesario a nivel de clúster o nodo y a nivel de pod.
+Puede escalar automáticamente una implementación o un replicaSet.
+Los tipos de escalador automático incluyen pod horizontal (o HPA), pod vertical (o VPA) y clúster (o CA).
+Además, una combinación de los tres tipos de escaladores automáticos suele proporcionar la solución más optimizada."

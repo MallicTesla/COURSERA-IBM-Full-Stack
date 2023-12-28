@@ -1,0 +1,50 @@
+"Bienvenido a «ReplicaSet». Después de ver este vídeo, podrá definir un ReplicaSet, explicar cómo funciona un ReplicaSet y enumerar las ventajas de utilizar un ReplicaSet.
+
+Si una aplicación se implementa en un solo pod, el pod no podrá realizar determinadas acciones si las solicitudes se multiplican o se producen interrupciones. Las
+    implementaciones de un solo módulo no pueden: adaptarse a las crecientes demandas de la aplicación y equilibrar la carga entre los módulos; gestionar las interrupciones
+    eliminando un único punto de fallo; minimizar el tiempo de inactividad y las interrupciones del servicio proporcionando una alta disponibilidad mediante módulos redundantes;
+    o reiniciar automáticamente las implementaciones si algo sale mal. Podemos solucionar estas limitaciones con un ReplicaSet.
+
+Un ReplicaSet garantiza que la cantidad correcta de pods estén siempre en funcionamiento. Siempre intenta hacer coincidir el estado real de las réplicas con el estado deseado.
+Un ReplicaSet: agrega o elimina pods para aumentar la escalabilidad y la redundancia, lo que ayuda a mantener la disponibilidad. Sustituye los pods defectuosos o elimina los
+    pods adicionales para mantener el estado deseado. Y reemplaza a un ReplicaController y debería usarse en su lugar. Se crea un ReplicaSet para usted cuando crea una
+    implementación en su clúster. Las implementaciones administran los ReplicaSets, envían actualizaciones declarativas a los pods y tienen muchas otras funciones útiles.
+    Por eso, la mejor forma de administrar un ReplicaSet es mediante un despliegue.
+
+Kubernetes está diseñado para mantener la independencia de los tipos de objetos. Por eso, el ReplicaSet no es propietario de ninguno de los pods. En su lugar, utiliza las
+    etiquetas de los pods para decidir qué pods adquirir al llevar una implementación al estado deseado. Veamos una plantilla de despliegue. Aquí, los metadatos de la plantilla
+    definen las etiquetas y las especificaciones de los posibles módulos candidatos que se van a añadir o eliminar.
+
+Al crear una implementación, se crea automáticamente un ReplicaSet. Para comprobarlo, cree una implementación y, a continuación, utilice el comando «get ReplicaSet» para
+    comprobar que el ReplicaSet se genera automáticamente de forma predeterminada.
+
+El ReplicaSet solo se replica en un único pod. Además, si describe el pod, verá los detalles del pod y verá que está «controlado por»: el mismo ReplicaSet. Para crear un
+    ReplicaSet desde cero, aplica un archivo yaml con el atributo kind establecido en «ReplicaSet», como se muestra. Si define el número de réplicas como 1, obtendrá 1 pod.
+    Esto es similar a crear un valor predeterminado sin especificar el número de réplicas del archivo yaml.
+
+Vamos a crear un ReplicaSet desde cero: usa el comando «create ReplicaSet». El resultado muestra que se creó un ReplicaSet. Confirme que se creó mediante el comando «get pods» y
+    observe el estado como «En ejecución». A continuación, utilice el comando «get rs» (rs es la abreviatura de ReplicaSet). El resultado muestra el nombre y otros detalles del
+    ReplicaSet recién creado y su pod. Sin embargo, recuerde que se recomienda crear una implementación que incluya un ReplicaSet en lugar de crear un ReplicaSet independiente.
+
+Antes de escalar una implementación, debe asegurarse de tener una implementación y un pod. Para ello: cree una implementación con el comando «create». El resultado confirmará
+    que se creó una implementación. La implementación crea un pod de forma predeterminada. Puedes confirmarlo con el comando «get pods». El resultado muestra el nombre del pod y
+    otros detalles. Puede comprobar los detalles de la implementación con el comando «get deploy». El resultado muestra que la implementación se denomina «Hello-Kubernetes».
+    Ahora, una vez que la implementación y el pod estén listos, utilice el comando «scale» para escalar la implementación y establecer el número deseado de réplicas. Aquí
+    establecemos el número de réplicas en 3 y el resultado confirma que la implementación está escalada. Si usas el comando «get pods», verás 3 pods ejecutándose. El ReplicaSet
+    creó dos nuevos pods: uno que termina en «5mflw» y el otro que termina en «htb7v». Observemos cómo el ReplicaSet mantiene el estado deseado cuando se elimina un pod.
+
+En primer lugar, utilice el comando «get pods». Nuestros 3 pods aparecen en la salida, como era de esperar. Ahora, usa el comando «delete pod» para eliminar el pod que termina
+    en «5mflw». Se elimina el pod que termina en «5mflw» y observa que el estado deseado no coincide con el estado real. Y que el pod eliminado se sustituya automáticamente por
+    uno nuevo. Ahora, vuelve a usar el comando «get pods». El resultado muestra que el ReplicaSet creó inmediatamente un nuevo pod que terminaba en «6lw4r» para que el número
+    total de pods volviera a ser 3. El ReplicaSet mantiene el estado deseado. Ahora observemos cómo el ReplicaSet mantiene el estado deseado cuando se crea un pod. El comando
+    «get pods» muestra nuestros 3 pods anteriores.
+
+Usa el comando 'create pod' para crear un pod que termine en 'mx9rp'. A continuación, vuelva a utilizar el comando «get pods». La salida ahora muestra 4 pods. El estado deseado
+    no coincide con el estado real. Como el ReplicaSet siempre se esfuerza por hacer coincidir el estado real con el estado deseado, el nuevo pod (que termina en «mx9rp») se
+    marca para su eliminación y se elimina automáticamente. El comando «get pods» ahora muestra el número total de pods restaurados a 3. Y una vez más, el ReplicaSet mantiene el
+    estado deseado.
+
+En este vídeo, aprendió que un ReplicaSet proporciona alta disponibilidad mediante la redundancia,
+Un ReplicaSet permite escalar mediante la creación o eliminación de pods,
+Puede crear un ReplicaSet mediante la CLI o el descriptor YAML,
+Un ReplicaSet siempre intenta hacer coincidir el estado real con el estado deseado y, como práctica recomendada, es utilizar un Deployment en lugar de un ReplicaSet directamente."
