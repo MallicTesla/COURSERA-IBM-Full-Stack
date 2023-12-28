@@ -1,0 +1,38 @@
+"¡Enhorabuena! Ha completado este módulo. Llegados a este punto, ya lo sabe:
+
+La orquestación de contenedores automatiza el ciclo de vida de los contenedores, lo que se traduce en despliegues más rápidos, menos errores, mayor disponibilidad y una
+    seguridad más sólida.
+
+Kubernetes Es un sistema de orquestación de contenedores de código abierto, altamente portátil y escalable horizontalmente, con despliegue automatizado y capacidades de gestión
+    simplificadas.
+
+La arquitectura de Kubernetes consta de un plano de control y uno o varios planos de trabajadores.
+
+Un plano de control incluye controladores, un servidor API, un planificador y un etcd.
+
+Un plano de trabajo incluye nodos, un kubelet, un tiempo de ejecución de contenedores y un kube-proxy.
+
+Los objetos de Kubernetes incluyen Namespaces, Pods, ReplicaSets, Deployments y Services.
+
+Los Namespaces ayudan a aislar grupos de recursos dentro de un mismo cluster.
+
+Los Pods representan un proceso o una instancia de una aplicación que se ejecuta en el clúster.
+
+Los ReplicaSets crean y gestionan Pods en ejecución escalados horizontalmente.
+
+Los despliegues proporcionan actualizaciones para Pods y ReplicaSets.
+
+Un servicio en Kubernetes es un objeto REST que proporciona políticas para acceder a los pods y al cluster.
+
+Las capacidades de Kubernetes incluyen despliegues y retrocesos automatizados, orquestación del almacenamiento, escalado horizontal, empaquetado automatizado de contenedores,
+    gestión de secretos y configuración, soporte de doble pila Ipv4/Ipv6, ejecución por lotes, autocuración, descubrimiento de servicios, equilibrio de carga y diseño extensible.
+
+Los servicios en Kubernetes son objetos REST que proporcionan políticas de acceso a los pods y al cluster. ClusterIP proporciona comunicación entre servicios dentro del clúster;
+    un servicio NodePort crea y enruta las solicitudes entrantes automáticamente al servicio ClusterIP; el equilibrador de carga externo, o ELB, crea servicios NodePort y
+    ClusterIP automáticamente y el servicio External Name representa el almacenamiento externo, además de permitir que los pods de diferentes espacios de nombres se comuniquen
+    entre sí.
+
+Ingress es un objeto API que proporciona reglas de enrutamiento para gestionar el acceso de usuarios externos a múltiples servicios en un clúster Kubernetes; mientras que el uso
+    de un DaemonSet garantiza que haya al menos una copia del pod en todos los nodos; un StatefulSet gestiona las aplicaciones con estado, gestiona el despliegue y escalado de
+    los pods, mantiene una identidad fija para cada solicitud de pod y proporciona volúmenes de almacenamiento persistentes para sus cargas de trabajo y, por último, un Job crea
+    pods y realiza un seguimiento del proceso de finalización de los pods; los Jobs se reintentan hasta que se completan. "

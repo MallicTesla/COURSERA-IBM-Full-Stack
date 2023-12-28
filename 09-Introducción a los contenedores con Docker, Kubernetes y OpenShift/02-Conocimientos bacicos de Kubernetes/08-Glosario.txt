@@ -1,0 +1,176 @@
+"Embalaje de contenedores automatizado
+Aumenta la utilización de recursos y el ahorro de costos mediante una combinación de cargas de trabajo críticas y de mejor esfuerzo.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Ejecución por lotes
+Gestiona cargas de trabajo de integración continua y por lotes y reemplaza automáticamente los contenedores fallidos, si están configurados.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Administrador del controlador de la nube
+Un componente del plano de control de Kubernetes que incorpora una lógica de control específica de la nube. El administrador del controlador de nube le permite vincular su
+    clúster a la API de su proveedor de nube y separa los componentes que interactúan con esa plataforma de nube de los componentes que solo interactúan con su clúster.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Grupo
+Un conjunto de máquinas trabajadoras, llamadas nodos, que ejecutan aplicaciones en contenedores. Cada clúster tiene al menos un nodo trabajador.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Orquestación de contenedores
+La orquestación de contenedores es un proceso que automatiza el ciclo de vida del contenedor de aplicaciones en contenedores.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Tiempo de ejecución del contenedor
+El tiempo de ejecución del contenedor es el software responsable de ejecutar los contenedores.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Bucle de control
+Un bucle sin terminación que regula el estado de un sistema. Un termostato es un ejemplo de circuito de control.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Plano de control
+La capa de orquestación de contenedores que expone la API y las interfaces para definir, implementar y administrar el ciclo de vida de los contenedores.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Controlador
+En Kubernetes, los controladores son bucles de control que observan el estado de su clúster y luego realizan o solicitan cambios cuando sea necesario. Cada controlador intenta
+    acercar el estado actual del clúster al estado deseado.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Plano de datos (trabajador)
+La capa que proporciona capacidad como CPU, memoria, red y almacenamiento para que los contenedores puedan ejecutarse y conectarse a una red.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Conjunto de demonios
+Garantiza que se ejecute una copia de un Pod en un conjunto de nodos de un clúster.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Gestión declarativa
+Un estado deseado que se puede expresar (por ejemplo, el número de réplicas de una aplicación específica), y Kubernetes trabajará activamente para garantizar que el estado
+    observado coincida con el estado deseado.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Despliegue
+Un objeto que proporciona actualizaciones tanto para Pods como para ReplicaSets. Las implementaciones ejecutan múltiples réplicas de una aplicación creando ReplicaSets y
+    ofreciendo capacidades de administración adicionales además de esos ReplicaSets. Además, las implementaciones son adecuadas para aplicaciones sin estado.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Diseñado para extensibilidad
+Agrega funciones a su clúster sin agregar ni modificar el código fuente.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Enjambre de Docker
+Automatiza la implementación de aplicaciones en contenedores, pero fue diseñado específicamente para funcionar con Docker Engine y otras herramientas de Docker, lo que lo
+    convierte en una opción popular para los equipos que ya trabajan en entornos Docker.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Ecosistema
+Una composición de servicios, soporte y herramientas que están ampliamente disponibles. El ecosistema de Kubernetes es un ecosistema grande y de rápido crecimiento donde sus
+    servicios, soporte y herramientas están ampliamente disponibles.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Etcétera
+Un almacén de valores clave de alta disponibilidad que contiene todos los datos del clúster. Para cualquier implementación, la configuración de implementación se almacena en
+    etcd. Es la fuente de verdad para el estado en un clúster de Kubernetes, y el sistema trabaja para alinear el estado del clúster con lo que está almacenado en etcd.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Desalojo
+Proceso de terminación de uno o más Pods en Nodos.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Comandos imperativos
+Cree, actualice y elimine objetos activos directamente.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Gestión imperativa
+Definir pasos y acciones para llegar a un estado deseado.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Ingreso
+Un objeto API que gestiona el acceso externo a los servicios de un clúster, normalmente HTTP.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Doble pila IPv4/IPv6
+Asigna direcciones IPv4 e IPv6 a pods y servicios.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Trabajo
+Una tarea finita o por lotes que se ejecuta hasta su finalización.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Kubectl
+También conocida como kubectl Herramienta de línea de comandos para comunicarse con el plano de control de un clúster de Kubernetes mediante la API de Kubernetes.
+-----------------------------------------------------------------------------------------------------------------------------------------
+kubelet
+El kubelet es el "agente de nodo" principal que se ejecuta en cada nodo. El kubelet toma un conjunto de PodSpecs (un objeto YAML o JSON que describe un pod) proporcionado
+    principalmente a través del apiserver y garantiza que los contenedores descritos en esas PodSpecs estén ejecutándose y en buen estado. Kubelet no gestiona contenedores que
+    no hayan sido creados por Kubernetes.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Kubernetes
+Es el estándar de facto de plataforma de código abierto para la orquestación de contenedores. Fue desarrollado por Google y es mantenido por Cloud Native Computing Foundation
+    (CNCF). Kubernetes automatiza las tareas de gestión de contenedores, como la implementación, el aprovisionamiento de almacenamiento, el equilibrio y escalado de carga, el
+    descubrimiento de servicios y la reparación de contenedores fallidos. Su conjunto de herramientas de código abierto y su amplia gama de funcionalidades son muy atractivos
+    para los principales proveedores de nube, quienes lo admiten y, en algunos casos, también ofrecen servicios de Kubernetes totalmente administrados.
+-----------------------------------------------------------------------------------------------------------------------------------------
+API de Kubernetes
+La aplicación que brinda funcionalidad de Kubernetes a través de una interfaz RESTful y almacena el estado del clúster.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Servidor API de Kubernetes
+El servidor API de Kubernetes valida y configura datos para los objetos de API que incluyen pods, servicios, controladores de replicación y otros. El servidor API presta
+    servicios a las operaciones REST y proporciona la interfaz para el estado compartido del clúster a través del cual interactúan todos los demás componentes.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Administrador del controlador de Kubernetes
+Ejecuta todos los procesos del controlador que monitorean el estado del clúster y garantiza que el estado real de un clúster coincida con el estado deseado. Ejemplos de
+    controladores que se incluyen con Kubernetes son el controlador de replicación, el controlador de puntos finales, el controlador de espacio de nombres y el controlador de
+    cuentas de servicio.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Administrador del controlador de la nube de Kubernetes
+Un componente del plano de control de Kubernetes que incorpora una lógica de control específica de la nube. El administrador del controlador de nube le permite vincular su
+    clúster a la API de su proveedor de nube y separa los componentes que interactúan con esa plataforma de nube de los componentes que solo interactúan con su clúster.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Proxy de Kubernetes
+Un proxy de red que se ejecuta en cada nodo de un clúster. Este proxy mantiene reglas de red que permiten la comunicación con los Pods que se ejecutan en los nodos; en otras
+    palabras, la comunicación con las cargas de trabajo que se ejecutan en el clúster. El usuario debe crear un servicio con la API apiserver para configurar el proxy.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Al planificador
+Componente del plano de control que busca Pods recién creados sin nodos asignados y selecciona un nodo para ejecutarlos.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Selector de etiquetas
+Permite a los usuarios filtrar una lista de recursos según etiquetas.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Etiquetas
+Etiqueta objetos con atributos de identificación que son significativos y relevantes para los usuarios.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Balanceo de carga
+Equilibra el tráfico entre Pods para un mejor rendimiento y alta disponibilidad.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Maratón
+Es un marco de Apache Mesos. Apache Mesos es un administrador de clústeres de código abierto desarrollado por UC Berkeley. Permite a los usuarios escalar la infraestructura de
+    contenedores a través de la automatización de la mayoría de las tareas de administración y monitoreo.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Espacio de nombres
+Una abstracción utilizada por Kubernetes para admitir el aislamiento de grupos de recursos dentro de un único clúster.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Nodo
+La máquina trabajadora en un clúster de Kubernetes. Las aplicaciones de usuario se ejecutan en nodos. Los nodos pueden ser máquinas virtuales o físicas. Cada nodo es administrado
+    por el plano de control y puede ejecutar Pods.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Nómada
+(Hashicorp) es una herramienta de programación y gestión de clústeres gratuita y de código abierto que admite Docker y otras aplicaciones en los principales sistemas operativos
+    en toda la infraestructura, ya sea local o en la nube. Esta flexibilidad permite a los equipos trabajar con cualquier tipo y nivel de carga de trabajo.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Objeto
+Una entidad en el sistema Kubernetes. La API de Kubernetes utiliza estas entidades para representar el estado de su clúster.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Persistencia
+Garantiza que un objeto exista en el sistema, hasta que se modifique o elimine.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Derecho preferente de compra
+La lógica en Kubernetes ayuda a un Pod pendiente a encontrar un Nodo adecuado al desalojar los Pods de baja prioridad que existen en ese Nodo.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Autosanación
+Reinicia, reemplaza, reprograma y elimina contenedores que fallan o no responden.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Servicio
+Una forma abstracta de exponer una aplicación que se ejecuta en un conjunto de Pods como un servicio de red.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Descubrimiento de servicios
+Descubre Pods utilizando sus direcciones IP o un único nombre DNS.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Conjunto con estado
+Gestiona la implementación y el escalado de un conjunto de Pods y proporciona garantías sobre el orden y la unicidad de estos Pods.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Almacenamiento
+Un almacén de datos que admite almacenamiento persistente y temporal para Pods.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Orquestación de almacenamiento
+Monta automáticamente el sistema de almacenamiento elegido, ya sea desde almacenamiento local, almacenamiento en red o nube pública.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Bajo
+El objeto de Kubernetes más pequeño y simple. Representa un proceso que se ejecuta en un clúster; también representa una instancia única de una aplicación que se ejecuta en un
+    clúster. Por lo general, un Pod encapsula un solo contenedor pero, en algunos casos, encapsula varios contenedores estrechamente acoplados que comparten recursos.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Apoderado
+En informática, un proxy es un servidor que actúa como intermediario de un servicio remoto.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Conjunto de réplicas
+Un ReplicaSet (tiene como objetivo) mantener un conjunto de réplicas de Pods ejecutándose en un momento dado.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Carga de trabajo
+Una carga de trabajo es una aplicación que se ejecuta en Kubernetes."
