@@ -1,0 +1,47 @@
+"Bienvenido a «Service Binding». Tras ver este vídeo, podrás explicar las funciones y los objetivos de la vinculación de servicios, describir cómo vincular un clúster de
+    Kubernetes a un servicio externo, identificar los comandos para recuperar los secretos de tu clúster de Kubernetes y describir cómo utilizar la vinculación de servicios en
+    las aplicaciones.
+
+Entonces, ¿qué es el enlace de servicios? El enlace de servicios es el proceso necesario para consumir servicios externos o servicios de respaldo, incluidas las API REST, las
+    bases de datos y los buses de eventos de nuestras aplicaciones.
+
+La vinculación de servicios gestiona la configuración y las credenciales de los servicios de back-end y, al mismo tiempo, protege los datos confidenciales. Además, la
+    vinculación de servicios hace que las credenciales de servicio estén disponibles automáticamente como secretas. El enlace de servicios consume el servicio externo al
+    vincular la aplicación a una implementación.
+
+A continuación, el código de la aplicación utiliza las credenciales del enlace y llama al servicio correspondiente. Aquí puede ver un diagrama de arquitectura que ilustra la
+    vinculación de un clúster de Kubernetes a un servicio externo. A continuación, aprendamos los pasos necesarios para vincular el Servicio a tu aplicación.
+
+Usemos un ejemplo de IBM Cloud Service. La vinculación de servicios crea rápidamente las credenciales de servicio para un servicio de IBM Cloud. Las credenciales de servicio se
+    crean mediante el punto de conexión de servicio de nube pública de IBM y, a continuación, se almacenan o «enlazan» las credenciales de servicio en un Kubernetes Secret de su
+    clúster. A continuación, le indicamos cómo vincular un servicio de IBM Cloud a su clúster: primero, aprovisione una instancia del servicio.
+
+A continuación, vincula el Servicio a su clúster para crear credenciales de servicio para su Servicio que utilizan el punto final del Servicio de nube pública. A continuación,
+    guarda las credenciales en un Kubernetes Secret. Por último, configuras tu aplicación para acceder a las credenciales del servicio en el secreto de Kubernetes. El catálogo
+    de IBM Cloud ofrece varios servicios que van desde el reconocimiento visual hasta el procesamiento del lenguaje natural y la creación de chatbots.
+
+Estamos utilizando el servicio «Analizador de tonos» para explicar la encuadernación. Este servicio utiliza el análisis lingüístico para detectar el tono de un texto determinado.
+El servicio proporciona un SDK en JavaScript. Debe vincular el Servicio a la implementación para que las credenciales estén disponibles automáticamente. A continuación, el
+    código utiliza las credenciales del enlace y llama al servicio Tone Analyzer.
+
+Bien, ahora que conoces los pasos, examinemos un código. En el primer paso, aprovisione una instancia del Servicio creando la instancia del Servicio mediante la interfaz de
+    línea de comandos. También puede aprovisionar una instancia del Servicio mediante el catálogo del sitio web de IBM Cloud.
+En el segundo paso, vincula esta instancia de servicio recién creada a su clúster mediante el comando «service bind». La vinculación de IBM Cloud Service crea automáticamente un
+    secreto de Kubernetes con las credenciales del servicio. Las credenciales de una instancia de servicio están codificadas en base64 y se almacenan dentro de su secreto en
+    formato JSON. Y ahora que el servicio está enlazado a tu clúster, en el paso 3, puedes verificar tu objeto secreto. El comando «obtener secretos» muestra todos los secretos
+    de tu clúster de Kubernetes. O bien, puede recuperar los mismos secretos en la interfaz de usuario de Kubernetes Dashboard y en el servicio Kubernetes de IBM Cloud.
+
+Para acceder a los datos de su secreto, elija una de las siguientes opciones: monte el secreto como un volumen en su pod, según las especificaciones proporcionadas en el paso 1.
+Esta acción crea un archivo con formato JSON denominado «binding» que se almacena en el directorio Mounts del volumen.
+El archivo de enlace incluye toda la información y las credenciales necesarias para acceder al IBM Cloud Service. O bien, consulte el secreto de las variables de entorno.
+
+Las variables de entorno binding dot apiKey, nombre de usuario y contraseña de binding dot corresponden a la apiKey, el nombre de usuario y la contraseña de la instancia del
+    servicio Watson Tone Analyzer creada en el paso anterior. El fragmento de código mostrado muestra un ejemplo de aplicación node.js que utiliza la apiKey del punto de enlace,
+    el nombre de usuario del punto de enlace y la variable de entorno de contraseña del punto de enlace dentro de una aplicación express.js que se desplegará en el servicio
+    Kubernetes de IBM Cloud.
+
+En este vídeo, aprendió que vincular un servicio externo a su despliegue proporciona automáticamente las credenciales para utilizar el servicio dentro del código.
+Las credenciales se almacenan como un secreto que se puede consumir con VolumeMounts y volumes.
+Binding gestiona la configuración y las credenciales de los servicios de back-end y, al mismo tiempo, protege los datos confidenciales.
+Además, puedes configurar tu aplicación para que utilice las credenciales almacenadas en el Secret, ya sea montando el Secret como un volumen en tu pod o haciendo referencia al
+    Secret en las variables de entorno."

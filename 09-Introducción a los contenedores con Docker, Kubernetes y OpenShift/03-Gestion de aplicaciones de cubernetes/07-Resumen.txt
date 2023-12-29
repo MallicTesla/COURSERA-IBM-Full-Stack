@@ -1,0 +1,21 @@
+"¡Enhorabuena! Ha completado este módulo. Llegados a este punto, ya lo sabe:
+
+Un ReplicaSet permite el escalado mediante la creación o eliminación de pods.
+
+Un ReplicaSet siempre intenta hacer coincidir el estado real con el estado deseado.
+
+El autoescalado permite escalar según sea necesario a nivel de clúster o nodo, y a nivel de pod.
+
+Los tipos de autoescalado incluyen el pod horizontal (HPA), el pod vertical (VPA) y el clúster (CA).
+
+Rolling updates despliega los cambios de la aplicación de forma controlada y automatizada.
+
+Las actualizaciones continuas y las reversiones se pueden realizar utilizando estrategias "todo a la vez" y "de una en una".
+
+Los ConfigMaps se utilizan para proporcionar variables para su aplicación.
+
+Los Secretos se utilizan para proporcionar información sensible a su aplicación.
+
+Vincular un Servicio externo a su despliegue proporciona automáticamente las credenciales para utilizar el Servicio dentro del código.
+
+La vinculación gestiona la configuración y las credenciales de los Servicios externos a la vez que protege los datos sensibles."

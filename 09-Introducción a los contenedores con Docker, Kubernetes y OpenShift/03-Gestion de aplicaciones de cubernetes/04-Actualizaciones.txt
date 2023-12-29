@@ -1,0 +1,55 @@
+"Bienvenido a «Rolling Updates». Tras ver este vídeo, podrás explicar qué es una actualización progresiva y cómo funciona. Haz una lista de los pasos previos antes de poder
+    aplicar una actualización progresiva. Y demuestre cómo deshacer una actualización progresiva.
+
+Las actualizaciones continuas son actualizaciones automáticas que se producen de forma programada. Implementan cambios de aplicaciones automatizados y controlados en todos los
+    módulos, funcionan con plantillas de módulos, como las implementaciones, y permiten revertirlos según sea necesario.
+
+Para preparar la aplicación para permitir las actualizaciones sucesivas, añada sondas de actividad y de preparación a las implementaciones. De esta forma, las implementaciones
+    se marcan adecuadamente como «listas».
+
+A continuación, añada una estrategia de actualización continua al archivo YAML. En este ejemplo, va a crear una implementación con 10 pods. Su estrategia consiste en tener al
+    menos el 50% de los módulos siempre disponibles. El valor máximo de 2 indica que solo se pueden añadir 2 cápsulas a las 10 que has definido anteriormente. Para un sistema
+    sin tiempo de inactividad, establezca el valor MaxUnavailable en 0. Si se establece el MaxSurge en el 100%, se duplicaría el número de módulos y se crearía una réplica
+    completa antes de eliminar el conjunto original una vez finalizado el despliegue. Y, en ocasiones, también resulta útil utilizar el atributo minReadySeconds para esperar
+    unos segundos antes de pasar al siguiente módulo de la fase de lanzamiento.
+
+Veamos un ejemplo práctico de cómo implementar una actualización de una aplicación. Tiene una implementación con tres módulos en su ReplicaSet. Su aplicación muestra el mensaje
+    «¡Hola mundo!» Su cliente ha enviado una nueva solicitud y usted tiene una nueva imagen para su solicitud con un mensaje diferente. En lugar del texto original, debes
+    mostrar «¡Hola mundo v2!» a tus usuarios. Sin embargo, no puede haber ningún tiempo de inactividad en su aplicación.
+En primer lugar, debe crear, etiquetar y cargar esta nueva imagen en Docker Hub. El nuevo software se ha incorporado a Docker Hub y, a continuación, se ha actualizado a Docker
+    Hub con el nombre y la etiqueta «hello-kubernetes upkar/hello-kubernetes:2.0». Se trata de comandos simples de Docker, que no están relacionados en absoluto con Kubernetes.
+    Ahora, aplique esta nueva imagen a su implementación. Tienes los tres módulos del primer comando. El segundo comando establece el indicador de imagen en la imagen de
+    etiqueta actualizada en Docker Hub. El resultado dice que la imagen se ha actualizado, pero vamos a comprobar si eso ha sucedido realmente.
+    Puedes ver el estado de la implementación mediante el comando «rollout status». La API muestra «el despliegue 'hello-kubernetes' se ha implementado correctamente».
+
+¡Eso es genial! Ahora, si vuelves a la URL, verás el nuevo mensaje «¡Hola mundo v2!» A veces, se producen errores en una implementación o los clientes pueden cambiar de opinión.
+Las reversiones son fáciles de implementar en Kubernetes. Usa el comando «deshacer» en la implementación. Usa el comando «get pods» para confirmar que los pods de lanzamiento
+    han finalizado. También verás tres nuevos pods que se crearon como parte de esta reversión. Si vuelves a visitar el sitio, verás el mensaje original. Y así es como se anulan
+    los cambios en la aplicación.
+
+Ahora veamos cómo funcionan las actualizaciones sucesivas, tanto de una vez como de una en una. En la versión «todas a la vez», se deben eliminar todos los objetos de la versión
+    1 para que los objetos de la versión 2 se activen. Aquí puede ver la versión 1 de una aplicación con tres módulos en ejecución a los que pueden acceder los usuarios. Cuando
+    se implementa la versión 2, se crean nuevos pods. Los pods de la versión 1 se marcan para su eliminación y se eliminan. El acceso de los usuarios está bloqueado. Una vez que
+    se eliminan los pods de la versión 1, los pods de la versión 2 se activan y se restablece el acceso de los usuarios.
+Observe el intervalo de tiempo entre la implementación y las actualizaciones de los pods. En una reversión completa, se deben eliminar todos los objetos de la versión 2 antes de
+    que los objetos de la versión 1 puedan activarse. Veamos qué aspecto tiene una reversión de todos a la vez. Aquí puede ver la versión 2 de una aplicación con tres módulos en
+    ejecución a los que los usuarios pueden acceder. Cuando se implementa la versión 1 de la aplicación, se crean nuevos pods. Los pods de la versión 2 se marcan para su
+    eliminación y se eliminan. Y el acceso de los usuarios está bloqueado. Una vez que se eliminan los pods de la versión 2, los pods de la versión 1 se activan y se restablece
+    el acceso de los usuarios. En un lanzamiento de uno en uno, la actualización se realiza de forma escalonada para que el acceso de los usuarios no se interrumpa. Aquí puede
+    ver la versión 1 de una aplicación con tres módulos en ejecución a los que pueden acceder los usuarios. Cuando se implementa la versión 2, se crea un nuevo pod. El primer
+    pod de la versión 1 se marca para su eliminación y se elimina. Y el módulo v2 se activa. A continuación, se crea un segundo pod v2. Y el segundo pod de la versión 1 se marca
+    para su eliminación y se elimina. El segundo pod de la versión 2 se activa. Se crea un tercer pod de la versión 2. Y el tercer pod de la versión 1 se marca para su
+    eliminación y se elimina. Y ahora se activa el tercer pod de la versión 2. Con una actualización escalonada, el acceso de los usuarios no se interrumpe.
+
+En una reversión de una en una, la reversión de la actualización es escalonada para que el acceso de los usuarios no se interrumpa. Veamos qué aspecto tiene una reversión de una
+    en una. Aquí puede ver la versión 2 de una aplicación con tres módulos en ejecución a los que pueden acceder los usuarios. Cuando se implementa la versión 1 de la aplicación,
+    se crea un nuevo pod. El primer pod de la versión 2 se marca para su eliminación y se elimina, y el pod de la versión 1 pasa a estar activo. Ahora, se crea un segundo pod de
+    la versión 1. El segundo pod de la versión 2 se marca para su eliminación y se elimina, y el segundo pod de la versión 1 pasa a estar activo. A continuación, se crea un
+    tercer pod de la versión 1 y el tercer pod de la versión 2 se marca para su eliminación y se elimina. Y el tercer pod de la versión 1 se activa.
+
+En este vídeo, aprendiste lo siguiente:
+Las actualizaciones continuas implementan cambios en las aplicaciones de forma controlada y automatizada.
+Las actualizaciones continuas publican los cambios en las aplicaciones sin interrupciones perceptibles.
+Las actualizaciones continuas pueden revertir los cambios cuando una aplicación necesita revertirlos.
+Las actualizaciones y reversiones sucesivas se pueden realizar mediante estrategias de una sola vez o de una en una.
+"

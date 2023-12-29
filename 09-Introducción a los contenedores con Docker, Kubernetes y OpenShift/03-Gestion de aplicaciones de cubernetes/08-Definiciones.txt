@@ -1,0 +1,49 @@
+"Escalador automático de clústeres
+También conocido como CA. Un recurso de API que escala automáticamente el clúster, aumentando y disminuyendo la cantidad de nodos disponibles en los que se pueden ejecutar los
+    pods.
+--------------------------------------------------------------------------------------------------------------------------
+Mapa de configuración
+Un objeto API utilizado para almacenar datos no confidenciales en pares clave-valor. Los pods pueden consumir ConfigMaps como variables de entorno, argumentos de línea de
+    comandos o como archivos de configuración en un volumen.
+--------------------------------------------------------------------------------------------------------------------------
+Escalador automático de pods horizontales
+También conocido como: HPA Un recurso de API que escala automáticamente la cantidad de réplicas de Pod en función de la utilización de CPU específica o de objetivos de métricas
+    personalizados.
+--------------------------------------------------------------------------------------------------------------------------
+Análisis lingüístico
+Detecta el tono en un texto determinado.
+--------------------------------------------------------------------------------------------------------------------------
+Catálogo de nube de IBM
+Proporciona diversos Servicios que van desde el reconocimiento visual hasta el procesamiento del lenguaje natural y la creación de chatbots.
+--------------------------------------------------------------------------------------------------------------------------
+Volumen persistente
+Un objeto API que representa una parte de almacenamiento en el clúster. Disponible como un recurso general conectable que persiste más allá del ciclo de vida de cualquier Pod
+    individual.
+--------------------------------------------------------------------------------------------------------------------------
+Reclamación de volumen persistente
+Reclama recursos de almacenamiento definidos en un PersistentVolume para que pueda montarse como un volumen en un contenedor.
+--------------------------------------------------------------------------------------------------------------------------
+Actualizaciones continuas
+Proporcione una forma de implementar cambios en las aplicaciones de forma automatizada y controlada en todos sus pods. Las actualizaciones continuas funcionan con plantillas de
+    pod, como las implementaciones. Las actualizaciones continuas permiten revertirlas si algo sale mal.
+--------------------------------------------------------------------------------------------------------------------------
+Misterios
+Almacena información confidencial, como contraseñas, tokens OAuth y claves ssh.
+--------------------------------------------------------------------------------------------------------------------------
+Enlace de servicio
+Es el proceso necesario para consumir Servicios externos o Servicios de respaldo, incluidas API REST, bases de datos y buses de eventos en sus aplicaciones.
+--------------------------------------------------------------------------------------------------------------------------
+Servicio de analizador de tonos
+Se utiliza para explicar el enlace del servicio. Este Servicio de Cloud de IBM utiliza análisis lingüístico para detectar el tono en un texto determinado.
+--------------------------------------------------------------------------------------------------------------------------
+Escalador automático de pod vertical también conocido como VPA
+Un recurso API que agrega recursos a una máquina existente. Un VPA le permite escalar un servicio verticalmente dentro de un clúster.
+--------------------------------------------------------------------------------------------------------------------------
+Volumen
+Un directorio que contiene datos, accesible para múltiples contenedores en un Pod.
+--------------------------------------------------------------------------------------------------------------------------
+Montaje de volumen
+Implica el montaje del volumen declarado en un contenedor en el mismo Pod.
+--------------------------------------------------------------------------------------------------------------------------
+Complemento de volumen
+Un complemento de volumen permite la integración del almacenamiento dentro de un Pod."

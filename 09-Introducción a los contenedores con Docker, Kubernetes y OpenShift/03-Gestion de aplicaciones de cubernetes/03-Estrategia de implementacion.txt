@@ -181,43 +181,58 @@ Sin tiempo de inactividad                                       Configuración c
 Resumen de las estrategias de implantación
 
 
-Estrategia                | Sin tiempo de inactividad | Pruebas de tráfico real | Usuarios objetivo | Coste de la nube | Duración del desmantelamiento | Impacto negativo en los usuarios | Complejidad de la instalación | Volver a crear
---------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
-Se elimina la versión 1 y |             X             |            X            |          X        |        ---       |            ---                |             ---                |             ---               |       - - -
-luego se implanta la      |                           |                         |                   |                  |                               |                                |                               |
-versión 2                 |                           |                         |                   |                  |                               |                                |                               |
---------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
-En rampa                  |                           |            ✓            |          X        |        ---       |            ---                |             ---                |                               |
-La versión 1 se sustituye |                           |                         |                   |                  |                               |                                |                               |
-por un lento despliegue de|                           |                         |                   |                  |                               |                                |                               |
-la versión 2              |                           |                         |                   |                  |                               |                                |                               |
---------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
-Azul/Verde                |                           |                         |                   |                  |                               |                                |                               |
-La versión 2 se libera    |                           |                         |                   |                  |                               |                                |                               |
-junto con la versión 1,   |                           |                         |                   |                  |                               |                                |                               |
-entonces el tráfico pasa  |            ✓              |            X            |          X        |        ---       |            ---                |             - - -              |             ---               |
-a la versión 2            |                           |                         |                   |                  |                               |                                |                               |
---------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
-Canary                    |                           |                         |                   |                  |                               |                                |                               |
-La versión 2 se libera    |            ✓              |            ✓           |          X        |        ---       |            ---                |             ---                |             ---               |
-primero a un subconjunto  |                           |                         |                   |                  |                               |                                |                               |
-de usuarios, luego se     |                           |                         |                   |                  |                               |                                |                               |
-despliega completamente   |                           |                         |                   |                  |                               |                                |                               |
-cuando está lista para la |                           |                         |                   |                  |                               |                                |                               |
-producción                |                           |                         |                   |                  |                               |                                |                               |
---------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
-Pruebas A/B               |                           |                         |                   |                  |                               |                                |                               |
-La versión 2 sólo se      |            ✓              |            ✓            |          ✓       |        ---       |            ---                |             ---                |             ---               |
-lanza a un subconjunto de |                           |                         |                   |                  |                               |                                |                               |
-usuarios con rasgos       |                           |                         |                   |                  |                               |                                |                               |
-específicos               |                           |                         |                   |                  |                               |                                |                               |
---------------------------|---------------------------|-------------------------|-------------------|------------------|-------------------------------|--------------------------------|-------------------------------|----------------
-Sombra                    |                           |                         |                   |                  |                               |                                |                               |
-La versión 2 recibe       |            ✓              |            ✓            |          X        |        ---       |            - - -               |             - - -              |             ---               |
-tráfico del mundo real    |                           |                         |                   |                  |                               |                                |                               |
-junto con la versión A    |                           |                         |                   |                  |                               |                                |                               |
-pero no responde a los    |                           |                         |                   |                  |                               |                                |                               |
-usuarios                  |                           |                         |                   |                  |                               |                                |                               |
+Estrategia                  |Sin tiempo de |Pruebas de  |Usuarios|Coste de|Duración del    |Impacto negativo|Complejidad de|Volver a crear
+                            |inactividad   |tráfico real|objetivo|la nube |desmantelamiento|en los usuarios |la instalación|
+----------------------------|--------------|------------|--------|--------|----------------|----------------|--------------|--------------
+Se elimina la versión 1 y   |   X          |      X     |    X   |  ---   |    ---         |     ---        |    ---       |       - - -
+luego se implanta la        |              |            |        |        |                |                |              |
+versión 2                   |              |            |        |        |                |                |              |
+----------------------------|--------------|------------|--------|--------|----------------|----------------|--------------|--------------
+En rampa                    |              |      ✓     |    X   |  ---   |    ---         |     ---        |              |
+La versión 1 se sustituye   |              |            |        |        |                |                |              |
+por un lento despliegue de  |              |            |        |        |                |                |              |
+la versión 2                |              |            |        |        |                |                |              |
+----------------------------|--------------|------------|--------|--------|----------------|----------------|--------------|--------------
+Azul/Verde                  |              |            |        |        |                |                |              |
+La versión 2 se libera      |              |            |        |        |                |                |              |
+junto con la versión 1,     |              |            |        |        |                |                |              |
+entonces el tráfico pasa    |  ✓           |      X     |    X   |  ---   |    ---         |     - - -      |    ---       |
+a la versión 2              |              |            |        |        |                |                |              |
+----------------------------|--------------|------------|--------|--------|----------------|----------------|--------------|--------------
+Canary                      |              |            |        |        |                |                |              |
+La versión 2 se libera      |  ✓           |      ✓    |     X  |    --- |      ---        |       ---     |    ---       |
+primero a un subconjunto    |              |            |        |        |                |                |              |
+de usuarios, luego se       |              |            |        |        |                |                |              |
+despliega completamente     |              |            |        |        |                |                |              |
+cuando está lista para la   |              |            |        |        |                |                |              |
+producción                  |              |            |        |        |                |                |              |
+----------------------------|--------------|------------|--------|--------|----------------|----------------|--------------|--------------
+Pruebas A/B                 |              |            |        |        |                |                |              |
+La versión 2 sólo se        |  ✓           |      ✓     |    ✓  |  ---   |    ---         |      ---       |    ---      |
+lanza a un subconjunto de   |              |            |        |        |                |                |              |
+usuarios con rasgos         |              |            |        |        |                |                |              |
+específicos                 |              |            |        |        |                |                |              |
+----------------------------|--------------|------------|--------|--------|----------------|----------------|--------------|--------------
+Sombra                      |              |            |        |        |                |                |              |
+La versión 2 recibe         |  ✓           |      ✓    |    X   |   ---  |    - - -       |       - - -    |    ---       |
+tráfico del mundo real      |              |            |        |        |                |                |              |
+junto con la versión A      |              |            |        |        |                |                |              |
+pero no responde a los      |              |            |        |        |                |                |              |
+usuarios                    |              |            |        |        |                |                |              |
 
+Para crear una buena estrategia
 
+    Tenga en cuenta el tipo de producto y el público objetivo
+
+    Las estrategias sombra y canaria utilizan solicitudes de usuarios en vivo, en lugar de utilizar una muestra de usuarios.
+
+    La estrategia de pruebas A/B es útil si la versión de la aplicación requiere pequeños retoques o cambios en las características de la interfaz de usuario.
+
+    La estrategia azul/verde es útil si la versión de la aplicación es compleja o crítica y necesita una supervisión adecuada sin tiempo de inactividad durante el despliegue.
+
+    La estrategia canaria es una buena opción si desea un tiempo de inactividad cero y se siente cómodo exponiendo su versión de la aplicación al público.
+
+    Una estrategia rodante despliega gradualmente la nueva versión de la aplicación.no hay tiempo de inactividad y es fácil volver atrás.
+
+    La estrategia de recreación es una buena elección si la aplicación no es crítica y los usuarios no se ven afectados por un breve tiempo de inactividad.
 "
