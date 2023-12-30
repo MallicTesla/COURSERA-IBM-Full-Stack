@@ -1,0 +1,77 @@
+"Bienvenido a la «Introducción a Red Hat OpenShift». Tras ver este vídeo, podrá explicar qué es OpenShift y enumerar sus características. Describa la CLI, la arquitectura y los
+    componentes de OpenShift. Y compare OpenShift con Kubernetes.
+
+OpenShift® (desarrollada y respaldada por Red Hat®) es una plataforma de contenedores Kubernetes preparada para la empresa y creada para la estrategia de nube híbrida.
+    Proporciona una plataforma de aplicaciones coherente para gestionar las implementaciones híbridas, multinube y periféricas. Se basa en la base tecnológica de Linux®, los
+    contenedores y la automatización. Proporciona operaciones automatizadas completas y aprovisionamiento de autoservicio para que los desarrolladores puedan trasladar las ideas
+    de forma eficiente del desarrollo a la producción.
+
+Además de la organización de contenedores, proporciona herramientas adicionales para todo el ciclo de vida de las aplicaciones, desde la creación, pasando por la CI/CD, hasta la
+    supervisión y los registros. Tanto Kubernetes como OpenShift son plataformas de organización de contenedores. Kubernetes es un componente fundamental de OpenShift. OpenShift
+    se utiliza como una extensión de Kubernetes para proporcionar una plataforma más sólida y completa para las aplicaciones en contenedores.
+
+Repasemos las características de OpenShift: las aplicaciones pueden ampliarse a miles de instancias en cientos de nodos en cuestión de segundos. Las opciones flexibles de
+    infraestructura híbrida simplifican la implementación y la administración. Los estándares de código abierto utilizan contenedores de Kubernetes y Open Container Initiative
+    (OCI), lo que significa que el desarrollo es familiar y los contenedores se pueden transportar a varios entornos. Incluye un conjunto completo de herramientas para
+    desarrolladores, soporte multilingüe, línea de comandos, integraciones de IDE y más.
+Admite actualizaciones de plataforma inalámbricas y los servicios de OperatorHub se pueden configurar e implementar completamente con actualizaciones con un solo clic. La
+    creación de contenedores y aplicaciones, los despliegues, el escalado y la gestión del estado están optimizados y automatizados.
+
+OpenShift también mejora la compatibilidad con topologías de menor tamaño en escenarios periféricos para mejorar la cartografía, la conectividad y la disponibilidad. Administra
+    y aplica fácilmente las políticas en varios clústeres a escala. Ofrece controles de acceso, redes y registro empresarial, escáner integrado, detección mejorada de amenazas,
+    gestión de vulnerabilidades durante el ciclo de vida y creación de perfiles de riesgo.
+
+OpenShift es compatible con las soluciones empresariales de almacenamiento persistente para ejecutar aplicaciones con y sin estado. Además , el ecosistema de socios de OpenShift
+    ofrece servicios adicionales de almacenamiento y red, además de IDE, CI, integraciones y mucho más.
+
+Comparemos los aspectos principales entre OpenShift y Kubernetes.
+La instalación en OpenShift tiene opciones limitadas una vez iniciada la instalación, mientras que Kubernetes se puede instalar en todos los entornos Linux.
+Los flujos de imágenes de OpenShift proporcionan una mejor administración, mientras que la administración de imágenes de contenedores de Kubernetes no es fácil.
+Los objetos del router OpenShift permiten el acceso externo, mientras que los objetos de entrada de Kubernetes permiten el acceso externo a los clústeres de Kubernetes.
+El CI y el CD de OpenShift se integran con Jenkins, mientras que el CI y el CD de Kubernetes se pueden integrar, pero no con Jenkins.
+OpenShift es un producto, mientras que Kubernetes es un proyecto de código abierto.
+OpenShift es menos flexible, mientras que Kubernetes es más flexible.
+OpenShift está disponible en línea, con Azure, y de forma exclusiva, mientras que Kubernetes está disponible en EKS en AWS, GKE en GCP y AKS en Azure.
+OpenShift tiene una política de seguridad muy estricta, mientras que el mantenimiento de la seguridad de Kubernetes es sencillo.
+OpenShift usa el comando DeploymentConfig, menos flexible, mientras que Kubernetes usa objetos de implementación más flexibles.
+OpenShift proporciona una buena experiencia de usuario, mientras que Kubernetes requiere herramientas adicionales para una mejor experiencia de usuario.
+OpenShift ofrece buenas soluciones de red listas para usar, mientras que Kubernetes ofrece complementos de terceros cuando las soluciones de red no están disponibles.
+OpenShift ofrece un buen catálogo de servicios, mientras que Kubernetes ofrece menos recursos para ofrecer mejores servicios en clústeres.
+OpenShift se ejecuta sobre un clúster de Kubernetes y los datos de los objetos se almacenan en el almacén de valores clave etcd.
+OpenShift tiene un diseño de consola web fácil de usar que es fácil de aprender para los principiantes, mientras que el diseño de la consola de Kubernetes es difícil de aprender
+    para los principiantes.
+Tiene una arquitectura basada en microservicios. Sus servicios son: las API REST, que exponen los objetos principales.
+Y los controladores, que leen las API de REST, aplican los cambios a los demás objetos e informan sobre el estado del objeto o lo escriben de nuevo.
+También mantienen el estado deseado del clúster.
+
+Docker proporciona abstracción para empaquetar y crear imágenes de contenedores livianos y basadas en Linux. Kubernetes proporciona administración de clústeres y organiza los
+    contenedores en varios hosts.
+
+Las características de OpenShift incluyen: administración del código fuente, compilaciones e implementaciones para desarrolladores.
+Gestione y promocione las imágenes a escala a medida que fluyen por el sistema.
+Gestión de aplicaciones a escala.
+Gestión del seguimiento de equipos y usuarios de una gran organización de desarrolladores. Y la infraestructura de red que soporta el clúster.
+
+En un entorno OpenShift, el servidor principal de Kubernetes se ejecuta en Red Hat Enterprise Linux CoreOS, mientras que los nodos de trabajo son compatibles con Red Hat
+    Enterprise Linux, que es la capa base de Red Hat.
+
+La siguiente es la arquitectura de Kubernetes y un conjunto de servicios. Los servicios de clúster incluyen la supervisión integrada, un registro privado dentro del clúster ,
+    soluciones de red y muchos otros. Los servicios de plataforma ayudan a los usuarios a gestionar sus cargas de trabajo. Los servicios de aplicaciones ayudan a los usuarios a
+    crear aplicaciones nativas de la nube. Y los servicios para desarrolladores aumentan la productividad de los desarrolladores.
+
+OpenShift ofrece un conjunto de herramientas de interfaz de línea de comandos (o CLI) que permiten a los usuarios realizar diversas operaciones de administración y desarrollo
+    desde la terminal. OpenShift CLI (u oc): es la herramienta CLI más utilizada para realizar operaciones de principio a fin. Se ejecuta en Windows, Linux o Mac. oc le permite:
+    trabajar directamente con el código fuente del proyecto mediante un script de comandos. Programe operaciones con OpenShift. Y gestione los proyectos con un ancho de banda
+    restringido o la disponibilidad de la consola web.
+
+Como OpenShift se ejecuta sobre un clúster de Kubernetes, oc también incluye una copia de kubectl.
+Los binarios oc y kubectl ofrecen las mismas funciones, pero oc se ha ampliado para admitir de forma nativa funciones de OpenShift, como DeploymentConfigs, BuildConfigs, Routes,
+    ImageStreams e ImageStreamTags. No están disponibles en los Kubernetes estándar. oc también ofrece un comando de inicio de sesión incorporado para la autenticación. Además,
+    oc también admite comandos adicionales, como «new-app», lo que facilita la puesta en marcha de nuevas aplicaciones utilizando el código fuente existente o imágenes
+    prediseñadas.
+
+En este vídeo, descubrirá lo siguiente:
+Kubernetes y OpenShift son plataformas de orquestación de contenedores.
+OpenShift® es una plataforma de contenedores de Kubernetes preparada para la empresa, creada para una nube híbrida abierta.
+OpenShift se ejecuta en un clúster de Kubernetes, con los datos de los objetos almacenados en el almacén de valores clave etcd.
+Además, OpenShift es más fácil de usar, se integra con Jenkins y tiene más servicios y funciones."

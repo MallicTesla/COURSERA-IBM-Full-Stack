@@ -1,0 +1,66 @@
+"Bienvenido a «Builds». Tras ver este vídeo, podrás: describir qué es una compilación, crear las fuentes de entrada y la estrategia de creación, describir lo que hacen las
+    ImageStreams e identificar sus características, explicar cómo automatizar las compilaciones mediante activadores de compilación, enumerar los pasos que se utilizan para el
+    proceso de BuildConfig y explicar las estrategias de creación de código fuente a imagen, Docker y creación personalizada.
+
+Una compilación es el proceso de transformar las entradas en un objeto resultante. Por ejemplo, transformar el código fuente en una imagen de contenedor. Una compilación
+    requiere un archivo de configuración de compilación (o BuildConfig), que define la estrategia de compilación y las fuentes de entrada.
+
+Las estrategias de compilación más utilizadas son: Source-to-Image (S2I), Docker y Custom. Una fuente de entrada de compilación proporciona contenido para las compilaciones.
+Puedes usar las siguientes entradas de compilación, ordenadas por orden de prioridad: definiciones de Dockerfile integradas, contenido extraído de imágenes existentes,
+    repositorios de Git, entradas binarias (o locales), secretos de entrada y artefactos externos.
+
+Ten en cuenta que se pueden combinar varias entradas en una sola compilación. Además, un Dockerfile en línea tiene prioridad y sobrescribe cualquier Dockerfile externo. Un
+    ImageStream es una abstracción para hacer referencia a imágenes de contenedores dentro de OpenShift.
+Un ImageStream: crea y actualiza continuamente imágenes de contenedores, pero no contiene datos de imagen reales. En su lugar, apunta a las imágenes almacenadas en registros
+    internos y externos o a otros ImageStreams. Un único ImageStream puede constar de muchas etiquetas diferentes, como la más reciente, la de desarrollo y la de prueba. Y cada
+    etiqueta apunta a una imagen determinada de un registro.
+
+Para implementar una aplicación, consultará la etiqueta de flujo de imágenes en lugar de codificar la URL y la etiqueta del registro. Si la ubicación de la imagen de origen
+    cambia, actualizará la definición del flujo de imágenes, en lugar de actualizar todas las implementaciones de forma individual. Un ImageStream también proporciona una
+    función de activación que invoca automáticamente las compilaciones e implementaciones cuando hay disponible una nueva versión de una imagen. En lugar de ejecutar las
+    compilaciones manualmente, automatice el proceso mediante activadores. Activadores de webhook: envía una solicitud a un punto final de la API.
+
+Además, son compatibles con los webhooks genéricos y los webhooks de GitHub, más utilizados, que envían la solicitud de activación al punto final de la API ante cualquier nueva
+    confirmación o solicitud de incorporación de cambios o en otras circunstancias. El siguiente es el activador de cambio de imagen, que se activa cuando hay disponible una
+    nueva versión de una imagen. Por ejemplo, si crea la aplicación con una imagen base de Node.js, esa imagen se actualiza cuando se publican las correcciones de seguridad y se
+    producen otras actualizaciones. Por último, un desencadenante de cambio de configuración: hace que se ejecute una nueva compilación al crear un nuevo recurso de BuildConfig.
+
+Veamos un ejemplo de archivo de configuración para BuildConfig. La especificación crea un nuevo BuildConfig denominado ruby-sample-build. El campo RunPolicy controla cómo deben
+    ejecutarse las compilaciones creadas a partir de una configuración de compilación. Los valores incluyen el número de serie predeterminado (o secuencialmente) y de forma
+    simultánea. También puede especificar una lista de activadores que creen una nueva compilación. La sección de fuentes define la fuente de la compilación. Además, el tipo de
+    fuente determina la entrada principal, como un repositorio de Git, un Dockerfile integrado o cargas binarias.
+La sección de estrategia muestra qué estrategia se utilizó para ejecutar la compilación, como una estrategia de código fuente, de Docker o personalizada.
+En este ejemplo, se utiliza la imagen de contenedor ruby-20 centos7 y la estrategia Source-to-Image (o S2I) para la creación de la aplicación. Por lo tanto, después de crear la
+    imagen del contenedor, se inserta en el repositorio descrito en la sección de resultados. Y la sección PostCommit define un enlace de compilación opcional.
+
+Otra estrategia de creación que ofrece OpenShift se denomina Source-to-Image o S2I. La herramienta S2I: crea imágenes de contenedores reproducibles e inyecta una imagen de
+    contenedor con la fuente de la aplicación para producir una imagen lista para su ejecución. La nueva imagen se crea incorporando una imagen de creación y la fuente, lo que
+    evita el uso de un Dockerfile, lo que permite pasar de la fuente a la imagen en un solo paso.
+
+OpenShift incluye una variedad de imágenes de creación disponibles, ¡lo que le permite ahorrar tiempo y esfuerzo de desarrollo!
+
+El uso de una estrategia de compilación de Docker requiere un repositorio que contenga un Dockerfile y los artefactos necesarios. Al iniciar una compilación, OpenShift toma la
+    entrada, invoca el comando «docker build» y crea una imagen que, a continuación, se inserta en el registro interno de OpenShift.
+
+Estas son cuatro formas de implementar la estrategia de compilación de Docker: reemplazar Dockerfile FROM image, usar la ruta de Dockerfile, usar variables de entorno de Docker
+    o agregar argumentos de compilación de Docker. En una estrategia de compilación personalizada, debes definir y crear tu propia imagen de compilación necesaria para el
+    proceso de compilación. Las imágenes de creación personalizadas son imágenes normales de Docker que contienen la lógica necesaria para transformar las entradas en la salida
+    esperada.
+
+Tanto las estrategias de Docker como las de S2I dan como resultado imágenes ejecutables, pero la estrategia de creación personalizada crea objetos adicionales, como archivos JAR
+    y un despliegue de CI/CD, que realiza pruebas unitarias o de integración.
+
+Las compilaciones personalizadas solo están disponibles para los administradores de clústeres porque se ejecutan con altos privilegios. El desarrollo nativo de la nube requiere
+    una mayor automatización durante todo el ciclo de vida de los contenedores.
+
+La automatización está disponible mediante el proceso de integración continua y entrega continua (CI/CD). Por ejemplo, el proceso CI/CD de OpenShift fusiona automáticamente los
+    nuevos cambios de código en el repositorio y a continuación, crea, prueba, aprueba e implementa una nueva versión en diferentes entornos.
+
+En este vídeo, aprendió que:
+una compilación es un proceso que transforma las entradas en un objeto.
+Las entradas de compilación, en orden de prioridad, incluyen definiciones de Dockerfile en línea, contenido extraído de imágenes existentes, repositorios de git, entradas
+    binarias (o locales), secretos de entrada y artefactos externos.
+Un ImageStream es una abstracción para hacer referencia a imágenes de contenedores en OpenShift.
+Puede automatizar las compilaciones mediante un activador de Webhook, un cambio de imagen o un cambio de configuración.
+Las estrategias de compilación más utilizadas incluyen Source-to-Image (o S2I), Docker y Custom Build.
+Por último, las compilaciones requieren un archivo de configuración de compilación (o BuildConfig), que define la estrategia de compilación y las fuentes de entrada."
