@@ -1,0 +1,64 @@
+"Bienvenido a «Operadores». Tras ver este vídeo, podrá definir un operador y explicar su propósito, mostrar la relación entre los controladores personalizados, el patrón de
+    operador y las definiciones de recursos personalizadas (CRD) y explicar el propósito del Operator Hub, el marco y el modelo de madurez.
+
+Los operadores automatizan las tareas de los clústeres y actúan como controladores personalizados para ampliar la API de Kubernetes. Los operadores se ejecutan en un pod e
+    interactúan con el servidor de API, empaquetan, implementan y administran las aplicaciones de Kubernetes y automatizan la creación, configuración y administración de
+    aplicaciones mediante decisiones continuas en tiempo real.
+Hay operadores humanos y operadores de software. Los operadores humanos entienden los sistemas que controlan. Saben cómo implementar los servicios y cómo reconocer y solucionar
+    problemas. Los operadores de software intentan captar el conocimiento de los operadores humanos y automatizar los mismos procesos.
+Los operadores proporcionan: Procesos de instalación y actualización fáciles de repetir. Comprobaciones periódicas del estado de todo el sistema de cada componente del sistema.
+Actualizaciones inalámbricas (o OTA) del contenido de los proveedores de componentes y software.
+
+Una forma de recopilar y difundir los conocimientos de los ingenieros de campo a todos los usuarios. Y la integración con las API y las herramientas de CLI, como los comandos
+    kubectl y oc.
+
+Veamos cómo se comparan los Service Brokers con los Operators. Los agentes de servicios ofrecen: un proceso de corta duración que no puede realizar las operaciones de un día
+    consecutivo, como las actualizaciones, la conmutación por error o el escalado. Las personalizaciones y la parametrización solo se realizan en el momento de la instalación.
+    Y servicios fuera del clúster.
+
+Los operadores proporcionan un proceso de larga duración que puede realizar operaciones, como actualizaciones, conmutaciones por error o escalado todos los días.
+Personalizaciones y parametrización, ya que los operadores observan constantemente el estado actual del clúster. Y servicios fuera del clúster.
+Las definiciones de recursos personalizadas (o CRD) almacenan y recuperan objetos en la API de Kubernetes.
+Los CRD amplían la funcionalidad de Kubernetes más allá de los recursos integrados, como las implementaciones y los pods. Hacen que la API de Kubernetes sea más modular y
+    flexible.
+Los usuarios pueden instalar los CRD en clústeres, pero cada CRD solo está disponible en el clúster en el que está instalado. Una vez instalados, se puede acceder a los objetos
+    CRD mediante kubectl, de forma similar a los pods y otros recursos.
+Para cambiar el estado de un clúster, se utilizan controladores personalizados. Los controladores concilian el estado real de un clúster con su estado configurado. Los
+    controladores personalizados hacen la misma conciliación para los recursos personalizados.
+La combinación de los CRD y los controladores personalizados crea una API declarativa. Esta combinación se conoce como «El patrón del operador». Los controladores personalizados
+    interpretan los datos del CRD como el estado deseado y concilian el estado real del clúster para que coincida con los datos del CRD.
+
+Operate Framework es un conjunto de herramientas de código abierto que abarca la codificación, las pruebas, la entrega y las actualizaciones de Operator.
+El SDK de Operator (que incluye Helm, Go y Ansible) ayuda a los autores a crear, probar y empaquetar sus operadores sin necesidad de conocer las complejidades de la API de
+    Kubernetes.
+
+El Operator Lifecycle Manager (u OLM) controla la instalación, la actualización y el control de acceso basado en funciones (RBAC) de los operadores de un clúster.
+El Registro de operadores almacena los CRD, las versiones de los servicios de clúster (o CSV) y los metadatos de los operadores para los paquetes y los canales. Se ejecuta en
+    clústeres de Kubernetes u OpenShift para proporcionar los datos del catálogo de Operator a OLM.
+
+La consola web de OperatorHub permite a los administradores de clústeres encontrar operadores para instalarlos en su clúster. La sofisticación de la lógica de administración del
+    operador varía según el tipo de servicio que represente el operador. Este modelo de madurez del operador define las fases de madurez de las actividades operativas generales
+    del segundo día y abarca desde la instalación básica hasta el piloto automático. También muestra qué actividades son compatibles con las funciones de Helm, Go y Ansible del
+    SDK para operadores.
+
+Algunos ejemplos de operadores incluyen: Implementar una aplicación en el clúster de OpenShift. Esto puede ir más allá de las implementaciones e incluir Secrets, ConfigMaps y
+    recursos de almacenamiento. Escalar la aplicación con la ayuda de varias réplicas en función del tipo de aplicación.
+
+Automatización de tareas rutinarias en un clúster, como la creación y restauración de copias de seguridad del estado de una aplicación y la integración. Consideremos más sobre
+    el primer ejemplo.
+
+Para implementar una aplicación completa: crea un recurso personalizado para esa aplicación. Y, a continuación, un controlador personalizado para ese CRD. La lógica del operador
+    determina cómo conciliar los estados real y configurado. Un CRD requiere la creación de despliegues, servicios, almacenamiento y otros objetos. La vista de OperatorHub de la
+    consola web OpenShift permite al operador la instalación con un solo clic.
+
+OperatorHub cuenta con muchos tipos diferentes de operadores disponibles, entre los que se incluyen: operadores de Red Hat, operadores certificados de proveedores de servicios
+    independientes asociados con Red Hat, operadores comunitarios de la comunidad de código abierto que no cuentan con el apoyo oficial de Red Hat y operadores personalizados
+    definidos por los usuarios.
+
+Puede instalar muchas herramientas del ecosistema de Kubernetes a través de OperatorHub. Un ejemplo es la malla de servicios de Istio.
+
+En este vídeo, aprendió lo siguiente:
+Los CRD amplían la API de Kubernetes; los CRD combinados con controladores personalizados crean nuevas API declarativas en Kubernetes; los operadores utilizan los CRD y
+    controladores personalizados para automatizar las tareas de los clústeres
+El Operator Framework abarca la codificación, las pruebas, la entrega y las actualizaciones.
+El modelo de madurez de los operadores define las fases de madurez de las actividades."

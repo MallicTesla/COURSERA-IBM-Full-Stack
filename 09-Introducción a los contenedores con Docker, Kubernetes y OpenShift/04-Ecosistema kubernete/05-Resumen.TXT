@@ -1,0 +1,22 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas, ya lo sabe:
+
+OpenShift® es una plataforma de contenedores Kubernetes preparada para la empresa y creada para la nube híbrida abierta.
+
+OpenShift es más fácil de usar, se integra con Jenkins y cuenta con más servicios y funciones.
+
+Las definiciones de recursos personalizadas (CRD) amplían la API de Kubernetes.
+
+Las CRD emparejadas con controladores personalizados crean nuevas API declarativas en Kubernetes.
+
+Los operadores utilizan las CRD y los controladores personalizados para automatizar las tareas del clúster.
+
+Un build es un proceso que transforma entradas en un objeto.
+
+Un ImageStream es una abstracción para referenciar imágenes de contenedores en OpenShift.
+
+Una malla de servicios proporciona gestión del tráfico para controlar el flujo de tráfico entre servicios, seguridad para cifrar el tráfico entre servicios y observabilidad del
+    comportamiento de los servicios para solucionar problemas y optimizar las aplicaciones.
+
+Istio es una malla de servicios que soporta cuatro conceptos de conexión, seguridad, aplicación y observabilidad. Se utiliza habitualmente con aplicaciones de microservicios.
+
+Istio proporciona métricas de comunicación de servicios para las necesidades básicas de monitorización de servicios: latencia, tráfico, errores y saturación."

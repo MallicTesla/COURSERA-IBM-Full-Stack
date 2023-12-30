@@ -1,0 +1,68 @@
+"Bienvenido a «Istio». Tras ver este vídeo, podrá describir una red de servicios, identificar los cuatro conceptos en los que se basa Istio, describir las ventajas y los
+    desafíos de utilizar Istio con microservicios e identificar las cuatro métricas básicas de supervisión de los servicios de comunicación.
+
+Una malla de servicios es una capa dedicada a hacer que la comunicación entre servicios sea segura y fiable. Entre otras cosas, las mallas de servicio proporcionan
+    administración del tráfico para controlar el flujo de tráfico entre servicios, seguridad para cifrar el tráfico entre servicios y observabilidad del comportamiento del
+    servicio para solucionar problemas y optimizar las aplicaciones.
+
+El término «malla de servicios» describe el software que crea un dominio de seguridad o de red con el patrón necesario para lograr las capacidades anteriores.
+
+Istio es una red de servicios independiente de la plataforma que se utiliza a menudo en Kubernetes. De acuerdo con la definición de una malla de servicios, Istio presenta estos
+    cuatro conceptos. En primer lugar, está la conexión. La conexión permite a Istio controlar de forma inteligente el tráfico entre los servicios en despliegues canarios,
+    pruebas A/B y otros modelos de despliegue. Lo siguiente es la seguridad. Istio protege los servicios mediante la autenticación, la autorización y el cifrado. Istio también
+    proporciona la aplicabilidad y el control mediante la aplicación de políticas en toda la flota. Y, por último, Istio apoya la observabilidad.
+
+Con Istio, puede observar el flujo de tráfico en su red, rastrear los flujos de llamadas y las dependencias y ver métricas como la latencia y los errores. Istio cuenta con
+    comunicaciones cifradas con la capa de seguridad de transporte entre los servicios de un clúster, combinadas con la autenticación y la autorización adecuadas.
+
+Istio equilibra la carga del tráfico para diferentes protocolos, incluidos el tráfico HTTP, TCP, gRPC y WebSocket. Istio admite una configuración granular del flujo de tráfico,
+    conocida como reglas de enrutamiento, y permite el control mediante reintentos continuos, métodos de inyección de errores y conmutaciones por error automáticas. Además,
+    admite políticas y API para los controles de acceso, los límites de velocidad y las cuotas.
+Istio también proporciona monitoreo, registro y seguimiento automáticos del tráfico entrante y saliente.
+Istio es extensible y puede gestionar una amplia gama de necesidades de implementación.
+Istio se ejecuta en Kubernetes, donde puede añadir aplicaciones de un clúster a la malla, extender la malla a clústeres adicionales o conectarse a máquinas virtuales u otros
+    puntos finales que se ejecutan fuera de Kubernetes.
+
+A continuación, veamos cómo funciona Istio con los microservicios. Istio tiene dos componentes principales: el plano de control y el plano de datos. La comunicación entre los
+    servicios se gestiona mediante el plano de datos. Si no hay una malla de servicios, la red no puede identificar el tipo de tráfico que fluye, el origen o el destino y no
+    puede tomar las decisiones necesarias. Todo el tráfico de la red está sujeto a, o es interceptado por, un proxy, denominado Envoy, que es utilizado por la red de servicios y
+    que incluye muchas funciones en función de la configuración.
+El plano de control toma la configuración deseada y visualiza los servicios, y programa y actualiza los servidores proxy de forma dinámica a medida que cambia el entorno.
+Una piedra angular del desarrollo nativo de la nube es la arquitectura de microservicios.
+
+Los microservicios son un enfoque arquitectónico nativo de la nube en el que una sola aplicación contiene muchos componentes o servicios más pequeños que se pueden implementar
+    de forma independiente y que se pueden acoplar de forma flexible. Los microservicios tienen API bien definidas para comunicarse entre sí. Los beneficios de los microservicios
+    son múltiples. Las actualizaciones de código son fáciles, ya que solo es necesario actualizar el servicio correspondiente y no toda la aplicación. Permiten a los equipos
+    utilizar diferentes tecnologías para cada componente. Además, los componentes se pueden escalar de forma independiente en lugar de hacerlo en toda la aplicación.
+Los desafíos de los microservicios incluyen el cifrado del tráfico para garantizar una comunicación segura. Es posible que los equipos de desarrollo deseen implementar nuevas
+    funciones para un subconjunto de usuarios o comparar dos versiones de funciones de su aplicación para ver cuál es la que más atrae a los usuarios. En estos casos, los
+    equipos necesitan despliegues rápidos y pruebas A/B. La comunicación entre los microservicios también provoca fallos en cascada si un servicio es inalcanzable o es
+    particularmente lento.
+Los desarrolladores necesitan volver a intentarlo y interrumpir los circuitos para evitar que los errores de un microservicio se propaguen en cascada a otros.
+
+Considere la arquitectura de la aplicación que se muestra en la pantalla, en la que la interfaz de usuario se comunica con un microservicio que realiza un pedido.
+
+El microservicio de pedidos interactúa con el microservicio de inventario, que luego se comunica con una base de datos. La comunicación entre servicios posibilita cualquier
+    arquitectura de microservicios, pero a medida que la comunicación se hace más compleja, una malla de servicios puede ayudar a mejorarla.
+
+Veamos algunas de las capacidades de Istio. Istio realiza el cambio de tráfico migrando gradualmente el tráfico de una versión de un microservicio a otras versiones. Supongamos
+    que un equipo que trabaja en el microservicio de pedidos tiene una nueva actualización de ese microservicio. El equipo comienza enviando el 5 por ciento del tráfico a esa
+    segunda versión. Y, con el tiempo, el equipo puede aumentar esta cifra al 50 por ciento y, finalmente, al 100 por ciento.
+Del mismo modo, el enrutamiento de solicitudes de Istio permite realizar pruebas A/B y dirigir una versión concreta de un microservicio a un subconjunto de usuarios y, al mismo
+    tiempo, enviar la versión original al resto de los usuarios. El proceso garantiza que una nueva versión aumente la participación o el rendimiento de los usuarios.
+
+Istio también proporciona una variedad de medidas de seguridad para sus microservicios, incluido el cifrado. Istio se defiende de los ataques de intermediarios cifrando el
+    tráfico entre los microservicios. Además, Istio facilita la implementación de políticas de control de acceso a los servicios, de modo que los servicios solo puedan
+    comunicarse con los demás servicios necesarios.
+
+En este ejemplo, el servicio de interfaz de usuario no podría comunicarse directamente con el servicio de inventario, aunque lo intentara. Entre otras métricas, Istio
+    proporciona métricas de comunicación del servicio. Estas métricas cubren las cuatro necesidades básicas de monitoreo del servicio: latencia, tráfico, errores y saturación.
+Por ejemplo, Istio proporciona métricas sobre el recuento de solicitudes para que pueda ver cuánto tráfico reciben sus solicitudes y la duración de las mismas, que se muestran
+    aquí en segundos para que pueda detectar los cuellos de botella y garantizar que las respuestas sean rápidas.
+
+En este vídeo, descubrió que una red de servicios proporciona administración del tráfico para controlar el flujo de tráfico entre servicios, seguridad para cifrar el tráfico
+    entre servicios y capacidad de observación del comportamiento de los servicios para solucionar problemas y optimizar las aplicaciones.
+Istio apoya los cuatro conceptos de conexión, seguridad, cumplimiento y observabilidad.
+Uno de los ejemplos en los que Istio se usa comúnmente es con las aplicaciones de microservicios.
+Además, Istio proporciona métricas de comunicación de servicios para las necesidades básicas de monitoreo de los servicios, incluidas la latencia, el tráfico, los errores y la
+    saturación."

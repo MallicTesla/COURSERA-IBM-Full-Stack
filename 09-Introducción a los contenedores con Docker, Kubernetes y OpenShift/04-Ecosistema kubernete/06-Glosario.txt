@@ -1,0 +1,145 @@
+"Pruebas A/B
+La estrategia se utiliza principalmente para probar nuevas funciones en aplicaciones de front-end. Se utiliza para evaluar dos versiones de la aplicación, a saber, A y B, para
+    evaluar cuál funciona mejor en un entorno controlado. Las dos versiones de las aplicaciones difieren en términos de características y atienden a diferentes grupos de
+    usuarios. Según la interacción y las respuestas recibidas de los usuarios, como los comentarios, puede elegir una de las versiones de la aplicación que se puede implementar
+    globalmente en producción.
+-------------------------------------------------------------------------------------------------------------------------------------
+Construir
+El proceso de transformar entradas en un objeto resultante.
+-------------------------------------------------------------------------------------------------------------------------------------
+Configuración de compilación
+Un objeto específico de OpenShift que define el proceso que debe seguir una compilación. El proceso de construcción hace uso de las fuentes de entrada y la estrategia de
+    construcción. BuildConfig es el modelo y la compilación es una instancia de ese modelo.
+-------------------------------------------------------------------------------------------------------------------------------------
+Implementaciones canarias
+Tiene como objetivo implementar la nueva versión de la aplicación aumentando gradualmente el número de usuarios. La estrategia de implementación canary utiliza usuarios reales
+    para probar la nueva versión de la aplicación. Como resultado, se pueden detectar y solucionar errores y problemas antes de que la nueva versión de la aplicación se
+    implemente globalmente para todos los usuarios.
+-------------------------------------------------------------------------------------------------------------------------------------
+Ruptura de circuito
+Un método para evitar que los errores en un microservicio se transmitan en cascada a otros microservicios.
+-------------------------------------------------------------------------------------------------------------------------------------
+Cambio de configuración
+Un desencadenador que hace que se ejecute una nueva compilación cuando se crea un nuevo recurso BuildConfig.
+-------------------------------------------------------------------------------------------------------------------------------------
+Plano de control
+El plano de control toma la configuración deseada y su vista de los servicios y programa y actualiza dinámicamente los servidores proxy a medida que cambia el entorno.
+-------------------------------------------------------------------------------------------------------------------------------------
+Estrategia de construcción personalizada
+Requiere que definas y crees tu propia imagen de constructor.
+-------------------------------------------------------------------------------------------------------------------------------------
+Imágenes de constructor personalizadas
+Son imágenes de Docker normales que contienen la lógica necesaria para transformar las entradas en la salida esperada.
+-------------------------------------------------------------------------------------------------------------------------------------
+CRD
+Código personalizado que define un recurso para agregar a su servidor API de Kubernetes sin crear un servidor personalizado completo.
+-------------------------------------------------------------------------------------------------------------------------------------
+Controladores personalizados
+Concilie el estado real de los recursos personalizados (CRD) con su estado deseado.
+-------------------------------------------------------------------------------------------------------------------------------------
+Plano de datos
+La comunicación entre servicios la maneja el plano de datos. Si no hay una malla de servicios, la red no puede identificar el tipo de tráfico que fluye, el origen y el destino,
+    ni tomar las decisiones necesarias.
+-------------------------------------------------------------------------------------------------------------------------------------
+Ejecutividad (Control)
+Istio proporciona control al hacer cumplir políticas en toda una flota y garantiza que los recursos se distribuyan de manera justa entre los consumidores.
+-------------------------------------------------------------------------------------------------------------------------------------
+Proxy enviado
+Todo el tráfico de la red está sujeto o interceptado por un proxy, llamado Envoy, utilizado por la malla de servicios y que permite muchas funciones según la configuración.
+-------------------------------------------------------------------------------------------------------------------------------------
+Operadores humanos
+Comprender los sistemas que controlan. Saben cómo implementar servicios y cómo reconocer y solucionar problemas.
+-------------------------------------------------------------------------------------------------------------------------------------
+Cambio de imagen
+Un desencadenador para reconstruir una aplicación en contenedores cuando hay disponible una versión nueva o actualizada de una imagen. Por ejemplo, si una aplicación se crea
+    utilizando una imagen base de Node.js, esa imagen se actualizará a medida que se publiquen correcciones de seguridad y se produzcan otras actualizaciones.
+-------------------------------------------------------------------------------------------------------------------------------------
+Corriente de imágenes
+Una abstracción para hacer referencia a imágenes de contenedores dentro de OpenShift. Cada imagen contiene un ID, o resumen, que la identifica. ImageStreams no contiene datos de
+    imágenes, sino que son indicadores de resúmenes de imágenes.
+-------------------------------------------------------------------------------------------------------------------------------------
+Etiqueta de transmisión de imágenes
+Una identidad para el puntero en un ImageStream que apunta a una determinada imagen en un registro.
+-------------------------------------------------------------------------------------------------------------------------------------
+Istio
+Una plataforma de malla de servicios popular e independiente de la plataforma, que se utiliza a menudo con Kubernetes. Controla de forma inteligente el flujo de tráfico y las
+    llamadas API entre servicios, realiza una variedad de pruebas y reduce la complejidad de administrar los servicios de red. Istio protege los servicios mediante autenticación,
+    autorización y cifrado. Istio proporciona control al definir políticas que se pueden aplicar en toda una flota. Con Istio, puede observar el flujo de tráfico en su malla
+    para poder rastrear los flujos de llamadas, las dependencias y ver métricas de comunicación del servicio, como latencia, tráfico, errores y saturación.
+-------------------------------------------------------------------------------------------------------------------------------------
+Ataques de intermediario
+Un ataque de hombre en el medio (MiTM) es un tipo de ciberataque en el que el atacante intercepta y transmite en secreto mensajes entre dos partes que creen que se están
+    comunicando directamente entre sí. El ataque es un tipo de escucha clandestina en la que el atacante intercepta y luego controla toda la conversación.
+-------------------------------------------------------------------------------------------------------------------------------------
+Observabilidad
+Ayuda a observar el flujo de tráfico en su malla, rastrear flujos de llamadas y dependencias, y ver métricas como latencia y errores.
+-------------------------------------------------------------------------------------------------------------------------------------
+Cambio abierto
+Una aplicación Kubernetes empresarial de nube híbrida.
+-------------------------------------------------------------------------------------------------------------------------------------
+Proceso de CI/CD de OpenShift
+Fusiona automáticamente nuevos cambios de código en el repositorio, crea, prueba, aprueba e implementa una nueva versión en diferentes entornos.
+-------------------------------------------------------------------------------------------------------------------------------------
+Operadores
+Automatice las tareas del clúster y actúe como un controlador personalizado para ampliar la API de Kubernetes.
+-------------------------------------------------------------------------------------------------------------------------------------
+Marco del operador
+Es una familia de herramientas y capacidades para brindar una experiencia de cliente eficiente. No se trata sólo de escribir código; lo que también es fundamental es probar,
+    entregar y actualizar los Operadores.
+-------------------------------------------------------------------------------------------------------------------------------------
+OperadorHub
+La consola web permite a los administradores de clústeres encontrar operadores para instalarlos en su clúster. Proporciona muchos tipos diferentes de operadores disponibles,
+    incluidos operadores de Red Hat, operadores certificados de proveedores de servicios independientes asociados con Red Hat, operadores comunitarios de la comunidad de código
+    abierto pero que no cuentan con soporte oficial de Red Hat y operadores personalizados definidos por los usuarios.
+-------------------------------------------------------------------------------------------------------------------------------------
+Gerente de ciclo de vida del operador
+(u OLM) Controla la instalación, actualización y control de acceso basado en roles (o RBAC) de los operadores en un clúster.
+-------------------------------------------------------------------------------------------------------------------------------------
+Modelo de madurez del operador
+Define las fases de madurez para las actividades generales de operaciones del segundo día y abarca desde la instalación básica hasta el piloto automático.
+-------------------------------------------------------------------------------------------------------------------------------------
+Patrón de operador
+Un diseño de sistema que vincula un controlador a uno o más recursos personalizados.
+-------------------------------------------------------------------------------------------------------------------------------------
+Registro de Operadores
+Almacena CRD, versiones de servicios de clúster (CSV) y metadatos del operador para paquetes y canales. Se ejecuta en clústeres de Kubernetes u OpenShift para proporcionar los
+    datos del catálogo del operador a OLM.
+-------------------------------------------------------------------------------------------------------------------------------------
+SDK del operador
+(que incluye Helm, Go y Ansible) Ayuda a los autores a crear, probar y empaquetar sus operadores sin necesidad de conocer las complejidades de la API de Kubernetes.
+-------------------------------------------------------------------------------------------------------------------------------------
+Postcompromiso
+La sección define un gancho de compilación opcional.
+-------------------------------------------------------------------------------------------------------------------------------------
+Reintentos
+Un método para evitar que los errores en un microservicio se transmitan en cascada a otros microservicios.
+-------------------------------------------------------------------------------------------------------------------------------------
+Ejecutar política
+El campo controla cómo deben ejecutarse las compilaciones creadas a partir de una configuración de compilación. Los valores incluyen el Serie predeterminado (secuencialmente) y
+    simultáneamente.
+-------------------------------------------------------------------------------------------------------------------------------------
+Agente de servicios
+Proporciona un proceso de corta duración que no puede realizar las operaciones del día consecutivo, como actualizaciones, conmutación por error o escalado.
+-------------------------------------------------------------------------------------------------------------------------------------
+Malla de servicio
+Una capa dedicada para hacer que la comunicación entre servicios sea segura y confiable. Proporciona gestión del tráfico para controlar el flujo de tráfico entre servicios,
+    seguridad para cifrar el tráfico entre servicios y observabilidad del comportamiento del servicio; para que pueda solucionar problemas y optimizar aplicaciones.
+-------------------------------------------------------------------------------------------------------------------------------------
+Operadores de software
+Intente capturar el conocimiento de los operadores humanos y automatice los mismos procesos.
+-------------------------------------------------------------------------------------------------------------------------------------
+Fuente a imagen
+Una herramienta para crear imágenes de contenedores reproducibles. También abreviado S2i, inyecta el código fuente de la aplicación en una imagen contenedora para producir una
+    imagen lista para ejecutar.
+-------------------------------------------------------------------------------------------------------------------------------------
+Estrategia de origen
+La sección muestra la estrategia utilizada para ejecutar la compilación, como una estrategia de Fuente, Docker o Personalizada.
+-------------------------------------------------------------------------------------------------------------------------------------
+Tipo de fuente
+Determina la entrada principal, como un repositorio Git, un Dockerfile en línea o cargas útiles binarias.
+-------------------------------------------------------------------------------------------------------------------------------------
+Gancho web
+Un desencadenador que envía una solicitud a un punto final de la API de OpenShift Container Platform. A menudo, será un webhook de GitHub, aunque también puede ser un webhook
+    genérico. Si se utiliza un webhook de GitHub, GitHub puede enviar la solicitud a OpenShift cuando hay una nueva confirmación en una rama determinada, o se fusiona una
+    solicitud de extracción, o en muchas más circunstancias. Los webhooks son una excelente manera de automatizar los flujos de desarrollo para que las compilaciones puedan
+    realizarse automáticamente a medida que se desarrolla código nuevo."
