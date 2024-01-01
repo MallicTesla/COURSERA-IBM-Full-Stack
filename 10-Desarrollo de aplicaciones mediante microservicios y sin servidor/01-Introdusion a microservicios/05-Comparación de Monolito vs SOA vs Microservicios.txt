@@ -1,0 +1,43 @@
+"Bienvenido a la «Comparación entre Monolith y SOA y microservicios». Tras ver este vídeo, podrá definir la implementación de Monolith, definir la arquitectura orientada a
+    servicios (SOA) y definir los microservicios.
+
+Una aplicación monolítica tiene todas o la mayoría de sus funciones en un solo proceso. Además, la aplicación se gestiona en capas o bibliotecas internas. Estas capas pueden ser
+    para la seguridad, los informes, el análisis, la interfaz de usuario o el acceso a los datos. Las capas están estrechamente conectadas y dependen unas de otras. Y aquí es
+    donde radican las ventajas de un diseño monolítico: en su simplicidad y en que sus características y funcionalidades son menos transversales, ya que todo está en la misma
+    base de código. Sin embargo, con el paso del tiempo, la mayoría de los productos se desarrollan y su alcance aumenta, y el diseño se hace más complejo y difícil de modificar.
+    También se convierte en un obstáculo para adaptarse a la nueva tecnología , lo que implicaría reescribir toda la aplicación.
+
+Una aplicación de Windows Forms es un ejemplo típico de un diseño monolítico. Aquí integramos la interfaz de usuario, la lógica empresarial y el acceso a los datos, todo dentro
+    de una base de código que forma toda la aplicación. Y solo la base de datos está fuera del alcance.
+
+Una arquitectura orientada a servicios (SOA) está diseñada y construida con un enfoque de proveedor de servicios y consumidor. Los servicios proporcionados funcionan como una
+    unidad discreta de funcionalidad, se integran a la perfección y se pueden reutilizar fácilmente. Cada servicio SOA consta de tres componentes. La interfaz define cómo un
+    proveedor de servicios ejecutará las solicitudes de un consumidor de servicios, el contrato define cómo deben interactuar el proveedor de servicios y el consumidor de
+    servicios y la implementación es el código de servicio.
+
+Los beneficios de tener estos tres componentes separados son que ayudan a aumentar la confiabilidad y respaldan el desarrollo paralelo gracias a un contrato fijo entre los
+    servicios. Sin embargo, debido a estas expectativas y requisitos, el diseño de una SOA puede volverse complejo y obstaculizar el desarrollo rápido de aplicaciones. Además,
+    el diseño de la SOA es una inversión costosa y, por lo tanto, normalmente solo es adecuado para los equipos empresariales, que pueden invertir los recursos y la experiencia
+    necesarios.
+
+La SOA es un concepto que abarca toda la empresa. Un ejemplo sería un sistema bancario. Permite exponer las aplicaciones existentes a través de interfaces poco acopladas, cada
+    una de las cuales corresponde a una función empresarial que permite que las aplicaciones, en una parte de una empresa ampliada, reutilicen la funcionalidad de otras
+    aplicaciones. Cada interfaz del banco proporciona servicios para cumplir con su responsabilidad.
+Al igual que la SOA, las arquitecturas de microservicios comprenden componentes especializados, reutilizables y poco acoplados que, a menudo, funcionan de forma independiente.
+Además, ni siquiera los datos de un microservicio se comparten con otros servicios, lo que le ayuda a escalar los microservicios individuales de forma independiente, y ser
+    independiente también significa que tiene la libertad de seleccionar la tecnología subyacente.
+Esta arquitectura ofrece ventajas como la facilidad de desarrollo, ya que permite definir unidades de trabajo individuales como un servicio. Y dado que cada servicio tiene una
+    responsabilidad designada, usted tiene la flexibilidad de añadir nueva tecnología. Sin embargo, si bien existen argumentos convincentes a favor del uso de microservicios,
+    también conlleva algunos desafíos.
+
+El primero es el aspecto de la seguridad. Ahora que tiene tantos servicios diferentes alojados de forma independiente, cada uno necesitará su propio paradigma de seguridad. Por
+    ejemplo, un requisito simple, como la seguridad de la capa de transporte (o TLS), para proteger las comunicaciones de red. Y la segunda es que la depuración y el aislamiento
+    de los problemas también pueden resultar más difíciles, ya que cada servicio se ejecuta de forma independiente, por lo que puede resultar difícil localizar la causa raíz.
+
+La arquitectura de microservicios es un concepto que se centra en las aplicaciones. Por ejemplo, una aplicación de comercio electrónico puede tener microservicios independientes
+    para procesar los pedidos, la seguridad y los análisis. Un diseño de microservicios permite dividir las partes internas de una sola aplicación en pequeñas partes que se
+    pueden cambiar, escalar y administrar de forma independiente. Sin embargo, no define la forma en que las aplicaciones se comunican entre sí.
+
+En este vídeo, aprendió que el diseño monolítico está interconectado y es interdependiente,
+que el diseño de SOA proporciona una integración y una reutilización perfectas,
+y que la arquitectura de microservicios ofrece una escalabilidad y flexibilidad específicas."

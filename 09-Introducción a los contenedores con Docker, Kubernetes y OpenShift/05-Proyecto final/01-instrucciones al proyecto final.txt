@@ -1,0 +1,32 @@
+"La tarea final de este curso es un proyecto que le animará a utilizar muchas de las herramientas y conceptos que ha aprendido hasta ahora en este curso. A medida que vaya
+    completando el proyecto, deberá realizar algunas capturas de pantalla para verificar lo que ha hecho y así poder calificarlo en la tarea calificada por los compañeros.
+
+Para empezar, desplegará una sencilla aplicación de libro de visitas que tendrá una entrada de texto en la que podrá introducir cualquier texto y enviarlo. Para ello, crearemos
+    Despliegues Kubernetes y Pods. A continuación, aplicaremos Escalado Horizontal de Pods a la aplicación Libro de Visitas y, por último, trabajaremos en Rolling Updates y
+    Rollbacks.
+
+Criterios de revisión
+Después de completar la práctica de laboratorio: Crear e implementar una aplicación de libro de visitas simple, completará la tarea calificada por pares y recibirá una
+    calificación en las siguientes diez tareas.
+
+Para cada una de las diez tareas, proporcione una captura de pantalla y cargue el archivo JPEG (.jpg) para que sus compañeros lo revisen cuando envíe su trabajo.
+
+Tarea 1: Actualización del Dockerfile. ( 5 puntos )
+
+Tarea 2: La guestbookimagen se envía correctamente a IBM Cloud Container Registry. ( 1 punto )
+
+Tarea 3: página de índice de la aplicación implementada Guestbook – v1. ( 2 puntos )
+
+Tarea 4: Creación del escalador automático de pods horizontal. ( 1 punto )
+
+Tarea 5: Las réplicas en el escalador automático de pod horizontal se escalan correctamente. ( 2 puntos )
+
+Tarea 6: Docker compila y envía comandos para actualizar guestbook( 2 puntos )
+
+Tarea 7: Configuración de implementación para el escalado automático. ( 1 punto )
+
+Tarea 8: Página de índice actualizada de la aplicación implementada Guestbook – v2después del lanzamiento de la implementación. ( 2 puntos )
+
+Tarea 9: El historial de revisión de la implementación después de su implementación. ( 2 puntos )
+
+Tarea 10: La implementación actualizada después de la reversión de la actualización. ( 2 puntos )"

@@ -1,0 +1,44 @@
+"Build
+Una unidad ejecutable
+
+BFF
+Backend para frontend
+
+Configuration
+Todo lo que puede diferir entre implementaciones, puede diferir entre entornos.
+
+Environment variables
+Son fáciles de cambiar entre implementaciones sin cambiar el código.
+
+Horizontal scaling
+Escalar añadiendo más instancias de recursos, también descrito como “ampliación horizontal”
+
+Microservices
+Una única aplicación se compone de muchos servicios más pequeños que se pueden implementar de forma independiente y débilmente acoplados.
+
+Monolithic application
+Tiene toda o la mayor parte de su funcionalidad dentro de un solo proceso.
+
+Release stage
+Combina la compilación con la configuración actual de la implementación para que el código esté listo para ejecutarse.
+
+Run stage
+Implementa la aplicación.
+
+SaaS
+Software como servicio
+
+SPA
+Solicitud de una sola página
+
+SOA
+Arquitectura orientada a Servicios
+
+Strangler pattern
+Ayuda a gestionar la refactorización de una aplicación monolítica por etapas.
+
+Service discovery pattern
+Ayuda a que las aplicaciones y los servicios se descubran entre sí
+
+TLS
+Transport Layer Security"

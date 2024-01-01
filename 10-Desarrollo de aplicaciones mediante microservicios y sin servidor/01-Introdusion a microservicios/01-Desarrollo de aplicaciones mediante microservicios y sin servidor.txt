@@ -1,0 +1,35 @@
+"Bienvenido a este curso introductorio sobre microservicios y serverless. Me llamo Alex Parker.
+
+Este curso está diseñado para todo tipo de profesionales de la nube, incluido cualquiera que desee diseñar, desarrollar, desplegar, gestionar o asegurar aplicaciones y
+    soluciones en plataformas de nube pública, privada o híbrida. Al final de este curso, tendrá una base sólida para los microservicios y la computación sin servidor y habrá
+    desplegado microservicios en la nube e integrado estos con la computación sin servidor.
+
+La aparición de la computación en nube ha provocado muchos cambios en el desarrollo de software moderno. En lugar de grandes lanzamientos anuales en soportes físicos como CD, el
+    software moderno se lanza cada vez más en la nube, lo que proporciona una reducción de costes, una disminución del tiempo de comercialización y una mayor agilidad. Estos
+    cambios permiten a las organizaciones seguir el ritmo de sus competidores y lanzar nuevas innovaciones al mercado de formas que antes habrían sido impensables.
+
+Además de metodologías como agile y DevOps, los microservicios han surgido como un modelo arquitectónico adecuado para el desarrollo en la nube. En lugar de construir grandes
+    aplicaciones, conocidas como monolitos, que realicen toda la funcionalidad, los microservicios descomponen las aplicaciones más grandes en piezas más pequeñas que son
+    mantenibles y escalables de forma independiente, lo que proporciona una gran cantidad de ventajas. Esta arquitectura se utiliza en las organizaciones de software más grandes
+    del mundo porque proporciona beneficios de costes, autonomía de equipo y muchas otras ventajas.
+
+Del mismo modo, la tecnología sin servidor ha surgido como una opción de computación cada vez más popular en la era de la nube. Dar a los desarrolladores y operadores la
+    capacidad de ejecutar aplicaciones sin gestionar la infraestructura subyacente ha liberado recursos en las organizaciones, que ahora pueden centrarse en desarrollar la
+    lógica empresarial y promover la misión y los objetivos de su organización, en lugar de tener que mantener servidores y una infraestructura compleja. La Cloud Native
+    Computing Foundation -conocida como CNCF- realiza encuestas anuales para discernir dónde y cómo se están adoptando las tecnologías nativas de la nube. La encuesta de 2020
+    indica que algo menos de un tercio de los encuestados ya utiliza la tecnología sin servidor en producción, mientras que el 21% la está evaluando y el 14% tiene previsto
+    utilizarla en los próximos 12 meses. Sin servidor está posicionado para convertirse en una fuerza aún mayor en la computación en nube en los próximos años debido a sus
+    innumerables ventajas, y la comprensión de su propósito es vital para cualquier desarrollador de la nube.
+
+Este curso le introducirá en las aplicaciones de 12 factores y los microservicios, conceptos que surgieron para ayudar a las organizaciones a trabajar mejor y más rápido de
+    forma nativa en la nube. A continuación, aprenderá sobre la computación sin servidor: cómo funciona, qué valor aporta y cuáles son las tecnologías específicas sin servidor.
+    Se pondrá manos a la obra con IBM Cloud Functions, una plataforma sin servidor en IBM Cloud que le permite desarrollar aplicaciones sin servidor con facilidad. Y, por último,
+    conocerá herramientas como Red Hat OpenShift y service meshes, que facilitan la adopción de microservicios y la hacen más segura.
+
+El curso contiene varios laboratorios prácticos, que le permitirán aplicar el contenido aprendido. No se preocupe si no dispone de una máquina con recursos suficientes, ya que
+    le proporcionamos un entorno basado en la nube sin coste alguno para completar los laboratorios prácticos.
+
+Los requisitos previos para este curso incluyen conocimientos básicos de informática y de la nube, así como una comprensión de los conceptos básicos de la nube. Además, la
+    comprensión de la línea de comandos y cómo utilizar comandos shell le beneficiará enormemente durante este curso.
+
+¡Empecemos!"

@@ -1,0 +1,65 @@
+"Aunque hay muchos patrones para hacer bien los microservicios, existe un número igualmente significativo de patrones que pueden meter rápidamente en problemas a cualquier
+    equipo de desarrollo. A continuación se enumeran algunas de las cosas que no se deben hacer al desarrollar microservicios:
+
+No construir microservicios
+
+    La primera regla de los microservicios es no empezar con microservicios. Cuando determine que la complejidad de la aplicación monolítica afecta negativamente al desarrollo y
+        mantenimiento de la aplicación, considere la posibilidad de refactorizar esa aplicación en servicios más pequeños.
+
+    Cuando la aplicación sea demasiado grande para actualizarla y mantenerla con facilidad, estos microservicios serán ideales para descomponer la complejidad y hacer que la
+        aplicación sea más manejable.
+
+    Sin embargo, hasta que no sienta ese dolor, ni siquiera tiene un monolito que necesite refactorización.
+
+----------------------------------------------------------------------------------------------------------
+No tomarse en serio la automatización
+
+    Si tiene una aplicación monolítica, sólo necesita desplegar una pieza de software. Una vez que pase a una arquitectura de microservicios, tendrá más de una aplicación y cada una
+        de ellas tendrá diferentes ciclos de código, prueba y despliegue.
+
+    Intentar construir microservicios sin una automatización adecuada del despliegue y la supervisión, o servicios gestionados en la nube para respaldar su infraestructura
+        heterogénea y ahora en expansión
+
+    está pidiendo un montón de problemas innecesarios.
+
+    Por lo tanto, cuando construya microservicios, utilice siempre DevOps o servicios en la nube.
+
+----------------------------------------------------------------------------------------------------------
+No construya nanoservicios
+
+    Si va demasiado lejos con lo micro en microservicios, ¡podría encontrarse fácilmente construyendo nanoservicios! Cuya complejidad superará las ventajas generales de la
+        arquitectura de microservicios.
+
+    Inclínese por crear servicios más grandes y cree servicios más pequeños cuando:
+        El despliegue de los cambios se hace difícil
+        El modelo de datos común se vuelva excesivamente complejo
+        Los requisitos de carga y escalado dejen de sincronizarse y afecten al rendimiento de la aplicación  
+
+----------------------------------------------------------------------------------------------------------
+No se convierta en SOA
+
+    Los dos conceptos; microservicios y arquitectura orientada a servicios (SOA) se confunden a menudo entre sí porque, en su nivel más básico, ambos construyen componentes
+        individuales reutilizables que pueden ser consumidos por otras aplicaciones.
+
+    Sin embargo, los microservicios son de grano fino con almacenamiento de datos independiente para cada uno, es decir, el contexto delimitado.
+
+    Un proyecto de microservicios que se transforme en un proyecto SOA probablemente se doblegará bajo su propio peso.
+
+----------------------------------------------------------------------------------------------------------
+No construya una pasarela para cada servicio
+
+    En lugar de implementar la autenticación del usuario final, el estrangulamiento, la orquestación, la transformación, la ruta y el análisis en cada servicio, debería utilizar
+        una pasarela API.
+
+    Una pasarela API es una herramienta de gestión de API que se sitúa entre un cliente y su colección de servicios backend.
+
+    Esto se convertirá en el centro de las preocupaciones no funcionales antes mencionadas y evitará la reingeniería de las mismas con cada servicio.
+
+----------------------------------------------------------------------------------------------------------
+Conclusión
+
+    El objetivo de los microservicios es resolver los tres retos más frecuentes, es decir, mejorar la experiencia del cliente, ser flexible ante nuevos requisitos y reducir
+        costes proporcionando funciones empresariales como servicios de grano fino.
+
+    Pero al hacerlo, debe evitar el escollo de los antipatrones mencionados que convierten a los microservicios en una molestia para sus requisitos de desarrollo, entrega y
+        gestión."

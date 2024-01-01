@@ -1,0 +1,30 @@
+"Bienvenido a «¿Qué son los microservicios?» Tras ver este vídeo, podrá describir qué son los microservicios, explicar las ventajas de la arquitectura de microservicios y
+    explicar cómo se pueden escalar los microservicios.
+
+La arquitectura de microservicios es un enfoque en el que una sola aplicación se compone de muchos servicios más pequeños que se pueden implementar de forma independiente y que
+    se pueden acoplar de forma flexible. Estos servicios suelen tener su propio conjunto de tecnologías, que incluye la base de datos y el modelo de administración de datos. Los
+    equipos pueden incluso elegir diferentes lenguajes de programación para diferentes componentes, ya que dependen unos de otros a través de un punto final de API. Los
+    componentes de los microservicios se comunican entre sí a través de una combinación de API REST, transmisión de eventos y intermediarios de mensajes, y están segregados y
+    organizados según la funcionalidad empresarial.
+
+Las líneas que separan los servicios se denominan contexto limitado. Como no hay interdependencia entre los servicios, puede actualizar el código más fácilmente para añadir
+    nuevas características o funcionalidades sin afectar a toda la aplicación.
+
+Cada equipo puede elegir su propio conjunto de tecnologías que se adapte a sus necesidades y experiencia para crear los componentes de los que sea responsable el equipo. Además,
+    estos componentes se pueden escalar de forma independiente unos de otros, lo que reduce el desperdicio y los costes asociados a tener que escalar aplicaciones enteras, ya
+    que una sola función puede estar sobrecargada. Siempre que se produzca un escalamiento de los microservicios, normalmente se trata de un escalado horizontal.
+
+El escalado horizontal significa escalar añadiendo más instancias de recursos, lo que también se denomina «escalado horizontal». Con los microservicios, los servicios
+    individuales se pueden implementar y escalar individualmente. Si se hacen correctamente, los microservicios requieren menos infraestructura porque permiten un escalado
+    preciso solo de los componentes que lo requieren, en lugar de toda la aplicación en el caso de las aplicaciones monolíticas.
+
+Una llamada a la API suele ser una forma eficaz de establecer inicialmente el estado de un servicio determinado. Sin embargo, no es una forma particularmente eficaz de
+    mantenerse al día sobre los avances. Aquí es donde la transmisión de eventos puede ayudar a difundir el cambio de estado, lo que ayuda a ampliar el microservicio al
+    introducir este intermediario de mensajes.
+
+En este vídeo, aprendió lo siguiente:
+los microservicios hacen que cada componente de la aplicación sea su propio servicio y cada servicio se comunica a través de una API,
+los microservicios permiten que los componentes de la aplicación utilicen diferentes conjuntos de tecnologías,
+los microservicios permiten que los componentes individuales se escalen en respuesta a la demanda,
+los microservicios reducen los riesgos asociados con el cambio porque los componentes pueden iterarse de forma independiente y los fallos en un servicio no afectan necesariamente
+    a otros servicios."

@@ -1,0 +1,19 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+El desarrollo de software moderno suele ofrecer aplicaciones como servicio (SaaS) alojadas centralmente y basadas en la web
+
+La metodología de aplicación de doce factores permite a los desarrolladores crear aplicaciones SaaS más eficientes
+
+Los doce factores se corresponden con las fases de codificación, despliegue y funcionamiento del ciclo de vida de entrega del software
+
+Los microservicios convierten cada componente de la aplicación en su propio servicio, y cada servicio se comunica a través de una API
+
+Los microservicios permiten que los componentes de la aplicación utilicen diferentes pilas tecnológicas
+
+Los microservicios permiten que los componentes individuales escalen en respuesta a la demanda
+
+Los microservicios disminuyen los riesgos asociados al cambio porque los componentes pueden iterar de forma independiente
+
+Los fallos en un servicio no afectan necesariamente a otros servicios
+
+Hay algunos anti-patrones a evitar cuando se construyen microservicios"

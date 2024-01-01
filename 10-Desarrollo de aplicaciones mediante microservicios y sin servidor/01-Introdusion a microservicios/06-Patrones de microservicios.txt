@@ -1,0 +1,53 @@
+"Bienvenido a «Microservices Patterns». Tras ver este vídeo, podrá describir los patrones que puede utilizar con los microservicios y explicar el uso de los diferentes patrones.
+
+Los microservicios tienen numerosos patrones disponibles que permiten algunos de los desafíos y oportunidades más comunes.
+Algunos ejemplos son el patrón de aplicación de una sola página (o SPA), el patrón Backend para Frontend (o BFF), el patrón Strangler y el patrón de detección de servicios.
+
+Con la convergencia de navegadores más potentes, redes más rápidas y lenguajes del lado del cliente, muchas interfaces web comenzaron a incorporar todas las funciones en
+    aplicaciones de una sola página. El usuario accede a través de una interfaz que nunca recarga la página de destino ni se aparta de esa experiencia inicial. Creadas con una
+    combinación de HTML, CSS y JavaScript, estas aplicaciones responden a las entradas de los usuarios mediante llamadas de servicio dinámicas al back-end de los servicios
+    basados en REST que actualizan partes de la pantalla en lugar de redirigirlas a una página completamente nueva. Esta arquitectura de aplicaciones a menudo simplifica la
+    experiencia de interfaz, con la contrapartida de una mayor responsabilidad en los servicios de backend.
+
+Si bien una aplicación de una sola página funciona bien para las experiencias de usuario de un solo canal, ofrece resultados deficientes en las experiencias de los usuarios a
+    través de diferentes canales, como el móvil y la web.
+
+Un patrón de backend para frontend inserta una capa entre la experiencia del usuario y los recursos a los que recurre la experiencia. Este diseño permite personalizar las
+    experiencias de usuario entre los canales. Por ejemplo, una aplicación utilizada en una computadora de escritorio tendrá un tamaño de pantalla y límites de rendimiento
+    diferentes a los de una aplicación utilizada en un dispositivo móvil. El patrón BFF permite a los desarrolladores crear y mantener un tipo de backend por interfaz de usuario
+    utilizando las mejores opciones para esa interfaz, en lugar de intentar admitir un backend genérico que funcione con cualquier interfaz, pero que pueda afectar negativamente
+    al rendimiento de la interfaz.
+
+Este diagrama ilustra un excelente caso de uso de una arquitectura de aplicaciones de backend para frontend. Supongamos que un usuario puede acceder a una aplicación a través de
+    una aplicación móvil o una aplicación web desde un escritorio. Al aplicar un patrón BFF, se desarrolla un backend específico para la experiencia móvil y otro backend para la
+    experiencia web. Cada backend sabe cómo llamar a los servicios correctos y organizar el código para optimizar la experiencia del canal solicitado.
+Es posible que la aplicación móvil muestre un subconjunto de datos más limitado y que los tamaños de pantalla difieran de los de la experiencia web. Cada backend es un
+    microservicio. En lugar de disponer de una aplicación monolítica que comprueba qué canal es necesario y contiene toda la lógica necesaria para preparar la experiencia del
+    usuario para ese canal, se aplica una arquitectura de microservicios para separar el backend monolítico en distintos servicios que realizan las tareas específicas y
+    necesarias.
+
+El patrón Strangler ayuda a gestionar la refactorización de una aplicación monolítica por etapas. El patrón recibe su nombre metafórico del fenómeno de jardín de una enredadera
+    que estrangula un árbol. Piense en una aplicación web creada con URL individuales que se asignan funcionalmente a diferentes aspectos de un dominio empresarial. Con el
+    patrón Strangler, se utiliza la estructura de una aplicación web para dividir una aplicación en varios dominios funcionales y sustituir esos dominios por una nueva
+    implementación basada en microservicios para un dominio a la vez.
+Estos dos aspectos forman aplicaciones independientes que existen una al lado de la otra en el mismo espacio URL. Con el tiempo, la aplicación recién refactorizada reemplaza a
+    la aplicación original hasta que, finalmente, se puede cerrar la aplicación monolítica.
+El patrón Strangler incluye estos pasos: Primero, transforma. Esto crea un nuevo sitio paralelo en una plataforma en la nube o dentro de su entorno existente. A continuación,
+    coexiste. Esto deja el sitio existente funcional y activo durante un tiempo específico. Redirige gradualmente desde la ubicación actual al nuevo sitio para obtener la
+    funcionalidad recién implementada. Y, por último, eliminar. Esto elimina la funcionalidad obsoleta del sitio existente o deja de mantener esa funcionalidad al redirigir el
+    tráfico desde el sitio original.
+
+Un patrón de detección de servicios ayuda a que las aplicaciones y los servicios se descubran entre sí. Este patrón es necesario porque, en una arquitectura de microservicios,
+    las instancias de servicio cambian de forma dinámica debido al escalamiento, las actualizaciones, los fallos del servicio e incluso la finalización del servicio. Un
+    balanceador de cargas también podría usar este patrón para realizar comprobaciones de estado y reequilibrar el tráfico en caso de fallas en el servicio.
+
+Otros patrones incluyen el patrón de entidad y agregado, que podría usarse en un sitio de comercio electrónico, donde un pedido sería un conjunto de productos agrupados por un
+    comprador.
+
+Otro es el patrón del adaptador. Piénselo de la misma manera que piensa en los adaptadores de enchufe cuando viaja a otro país. El propósito de los patrones de los adaptadores
+    es ayudar a traducir las relaciones entre objetos que de otro modo serían incompatibles. Por ejemplo, si se ha integrado con una API de terceros.
+
+En este vídeo, aprendió que los microservicios permiten que las aplicaciones de una sola página que dependen de los servicios de respaldo actualicen la página de forma dinámica;
+    los patrones de backend para frontend utilizan microservicios para facilitar las diferentes experiencias de usuario con mayor facilidad;
+    puede aplicar el patrón Strangler para ayudar a dividir las aplicaciones monolíticas en microservicios,
+    y un patrón de descubrimiento de servicios ayuda a que las aplicaciones y los servicios se descubran entre sí."

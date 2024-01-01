@@ -1,0 +1,27 @@
+"Bienvenido a este curso: Microservicios y sin servidor. Este curso está diseñado para todos los profesionales del desarrollo de software, incluida cualquier persona que desee
+    diseñar, desarrollar, implementar y administrar soluciones utilizando tecnologías nativas de la nube, como los microservicios y la tecnología sin servidor.
+
+¿Desea utilizar la computación en la nube para gestionar todas sus aplicaciones empresariales? ¿Qué solución preferiría? ¿ Una arquitectura monolítica en la nube que comprende
+    una sola aplicación enorme con muchas funciones complejas que es difícil de mantener? ¿O la arquitectura de microservicios que contiene pequeñas aplicaciones que simplifican
+    el mantenimiento, se gestionan fácilmente, proporcionan velocidad y escalabilidad y son más fáciles de crear? Estas aplicaciones más pequeñas trabajan juntas para realizar
+    la función de una aplicación grande. En lugar de crear aplicaciones de gran tamaño, conocidas como monolitos, que ejecutan toda la funcionalidad, los microservicios dividen
+    las aplicaciones más grandes en partes más pequeñas que se pueden mantener y escalar de forma independiente, lo que proporciona una serie de beneficios.
+
+Esta arquitectura se utiliza en las organizaciones de software más grandes del mundo porque ofrece ventajas en términos de costes, autonomía del equipo y otras ventajas. Del
+    mismo modo, la tecnología sin servidor se ha convertido en una opción de computación cada vez más popular en la era de la nube. Esto permite a los desarrolladores y
+    operadores ejecutar aplicaciones sin administrar la infraestructura subyacente.
+
+Las aplicaciones sin servidor solo requieren una arquitectura sin servidor para el código principal. Las aplicaciones sin servidor se pueden implementar rápidamente y ejecutar
+    durante un breve período de tiempo, además de liberar automáticamente los recursos subyacentes cuando no se utilizan.
+
+En este curso, aprenderá a crear microservicios e implementarlos en la nube mediante tecnologías sin servidor. Para ello, primero obtendrá una descripción general de los
+    microservicios en el Módulo 1 y comprenderá sus beneficios.
+A continuación, en el módulo 2, aprenderá a crear las API RESTful, que son los componentes básicos de las aplicaciones basadas en microservicios.
+Luego, en el módulo 3, comprenderá los beneficios del marco sin servidor y aprenderá sobre las distintas plataformas sin servidor.
+En el módulo 4, trabajará con Code Engine, un entorno sin servidores en IBM Cloud, para implementar, actualizar y escalar microservicios.
+Por último, en el módulo 5, realizará un proyecto final práctico en el que demostrará lo que ha aprendido a lo largo del curso mediante la creación de una aplicación basada en
+    microservicios y la desplegará utilizando un marco sin servidor.
+
+Por lo tanto, ¡hay mucho que tratar aquí! Para aprovechar al máximo este curso, complete la visualización de cada vídeo, complete todos los laboratorios prácticos y compruebe su
+    aprendizaje con cada cuestionario. Estamos muy contentos de que esté con nosotros al iniciar su viaje hacia los microservicios y la tecnología sin servidores. Y si tiene
+    algún problema con alguno de los materiales del curso, no dude en ponerse en contacto con nosotros en el foro de debate. ¡Empecemos!"

@@ -1,0 +1,72 @@
+"Bienvenido a la «Metodología de aplicaciones de doce factores». Tras ver este vídeo, podrá: describir las características del desarrollo de software moderno, describir el
+    objetivo de las aplicaciones basadas en doce factores e identificar los doce factores y describir cómo estos factores se relacionan con las tres fases del ciclo de vida de
+    la entrega del software.
+
+En el desarrollo de software moderno, el software suele suministrarse como un servicio. El software se aloja de forma centralizada y se accede a él a través de Internet. Este
+    software suele denominarse aplicación web o software como servicio, abreviado como SaaS. ¡Es probable que haya utilizado una variedad de aplicaciones web en el último día!
+    Cuando utilizas Internet para hacer reservas o declarar tus impuestos, estás interactuando con una aplicación web. La metodología de aplicación de doce factores es adecuada
+    para este tipo de aplicaciones.
+
+Los microservicios no son un requisito para las aplicaciones de doce factores. Sin embargo, los microservicios suelen utilizarse junto con la metodología de aplicación de doce
+    factores. Los doce factores se pueden agrupar en las fases de código, implementación y operación del ciclo de vida de la entrega del software.
+
+Empezaremos con los tres factores que se relacionan con la fase de código del ciclo de vida de la entrega del software.
+El primero es el factor 1, la base de código. Siempre debes rastrear el código base de una aplicación en un sistema de control de versiones, como Git. Existe una relación de uno
+    a uno entre una base de código y una aplicación. Una aplicación debe estar contenida en una base de código --única--. Sin embargo, habrá varias implementaciones o instancias
+    de la aplicación. Y aunque el código base es el mismo en todas esas implementaciones, es posible que haya diferentes versiones de la aplicación en cada implementación.
+    Por ejemplo, los entornos de desarrollo o prueba pueden tener cambios que aún no han llegado a la fase de producción.
+
+El siguiente es el factor 5: compilar, lanzar y ejecutar. Esta fase demuestra cómo una base de código se convierte en una implementación de producción. La etapa de compilación
+    compila el código, recopila las dependencias y, a continuación, transforma la base de código en una unidad ejecutable denominada compilación. La etapa de publicación combina
+    la compilación con la configuración actual de la implementación para que el código esté listo para ejecutarse. A continuación, la etapa de ejecución implementa la aplicación.
+    Debe separar estrictamente estas tres etapas. Por ejemplo, el código no debería modificarse en tiempo de ejecución, ya que eso impediría que esos cambios se incluyeran en la
+    fase de compilación.
+
+El factor 10 es la paridad entre desarrollo y producción. Este factor minimiza las diferencias entre los entornos de desarrollo y producción, lo cual es necesario para permitir
+    una entrega continua y promover rápidamente los cambios en la producción. Esta acción reduce la posibilidad de que el código se ejecute correctamente en un entorno, pero no
+    en otro. La paridad es particularmente esencial para los servicios de backend. Si usa una base de datos MySQL en producción, debe usar la misma versión de la base de datos
+    MySQL en sus entornos de desarrollo. La paridad ayuda a detectar los fallos en una fase temprana del proceso de desarrollo.
+
+El último factor de código que analizaremos es el factor 2, las dependencias. Una aplicación es tan confiable como su dependencia menos confiable. Como resultado, las
+    aplicaciones de doce factores no dependen de la existencia implícita de ningún paquete, dependencia o herramienta. Debes declarar de forma explícita todas las dependencias.
+    De esta forma, cuando un nuevo desarrollador utiliza el código base, no se supone que ya exista ninguna dependencia en su máquina.
+
+El primer factor de despliegue es el factor 3, la configuración. La configuración es todo lo que puede diferir de una implementación a otra. Es probable que se utilicen
+    diferentes bases de datos en la fase de preparación y en la producción, por lo que un desarrollador debe configurar las credenciales y la ubicación de esa base de datos para
+    cada implementación. Debe evitar almacenar las configuraciones como constantes, ya que las configuraciones pueden diferir de un entorno a otro. Guarde la configuración
+    dentro de las variables de entorno, que son fáciles de cambiar en todas las implementaciones sin cambiar el código.
+
+El factor 4 son los servicios de backend. Una aplicación de doce factores no debe distinguir entre servicios locales y de terceros. Se debe poder acceder a ambos mediante una
+    URL u otra información de localización, junto con cualquier credencial, de modo que el desarrollador pueda cambiar fácilmente el servicio de back-end sin cambiar el código.
+    Por ejemplo, si una base de datos tiene problemas, se puede crear una nueva base de datos y sustituirla por ella sin tener que cambiar el código.
+
+El factor 6 son los procesos. Una aplicación se ejecuta en un entorno como uno o más procesos. Los procesos deben carecer de estado y no compartir nada. Deberías almacenar los
+    datos persistentes en un servicio de back-end, como una base de datos, ya que la memoria y los sistemas de archivos no se comparten entre los procesos. Si otro proceso
+    gestiona una transacción posterior, esta no tendrá acceso a los datos del proceso anterior. Como resultado, los datos deben almacenarse de forma centralizada.
+
+La vinculación de puertos es un factor 7. Al crear un servicio orientado a la web, no se debe insertar un servidor web en una aplicación en tiempo de ejecución. En su lugar, la
+    aplicación web debe exportar HTTP vinculándose a un puerto y escuchando las solicitudes entrantes en ese puerto. Puedes usar el enlace de puertos para HTTP y otros servicios.
+    Por lo general, el enlace de un puerto se realiza en el código declarando una biblioteca de servidor web como una dependencia. Posteriormente, dado que se puede acceder a
+    estas aplicaciones a través de una URL, pueden convertirse en servicios de backend para otras aplicaciones.
+
+Los siguientes son los factores operativos.
+
+Empecemos con el factor 8, la simultaneidad. Una aplicación ejecuta procesos simultáneos para gestionar el aumento de la carga. Como los procesos no tienen estado y no comparten
+    nada, una aplicación puede iniciar procesos adicionales para escalarlos horizontalmente y gestionar más solicitudes entrantes sin crear interdependencias entre los procesos.
+
+El factor 9 es la desechabilidad y especifica que los procesos de las solicitudes requieren un tiempo de inicio mínimo y deben finalizar sin problemas una vez finalizados. El
+    inicio rápido le permite implementar rápidamente los cambios en el código o la configuración. También puedes escalar las aplicaciones con facilidad, ya que las nuevas
+    implementaciones se inician rápidamente.
+
+El factor 11 dicta cómo gestionar los registros. Los registros proporcionan visibilidad del rendimiento de la aplicación, por lo que una aplicación no debe preocuparse por
+    almacenar los registros. En su lugar, un entorno de aplicaciones debería tratar los registros como un flujo de eventos escritos en una salida estándar. El entorno de
+    ejecución puede capturar los flujos de registro de todas las aplicaciones en ejecución, agregarlos y enrutarlos a su destino. Esta acción es especialmente beneficiosa cuando
+    el destino es una herramienta de análisis de registros.
+
+Por último, el último factor es el factor 12: los procesos de administración. Los procesos de administración son procesos únicos para administrar una aplicación, como la
+    migración de una base de datos. Los procesos de administración se ejecutan en una versión con el mismo código base y la misma configuración. Además, el código de la
+    aplicación debe incluir los procesos de administración para que permanezcan sincronizados con la aplicación.
+
+En este vídeo, aprendió lo siguiente: el desarrollo de software moderno suele ofrecer aplicaciones de software como servicio alojadas centralmente y basadas en la web; la
+    metodología de aplicaciones basada en doce factores permite a los desarrolladores crear aplicaciones SaaS más eficientes
+Los doce factores se refieren a las etapas de programación, implementación y operación del ciclo de vida de la entrega del software."
