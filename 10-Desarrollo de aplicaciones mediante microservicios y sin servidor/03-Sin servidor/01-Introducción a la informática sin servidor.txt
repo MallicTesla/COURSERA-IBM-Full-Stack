@@ -1,0 +1,67 @@
+"Bienvenido a «Introducción a la informática sin servidor». Tras ver este vídeo, podrá: Definir la «informática sin servidor» y describir sus conceptos, así como identificar las
+    características clave de la informática sin servidor.
+
+La Cloud Native Computing Foundation (o CNCF) define la tecnología sin servidor como «el concepto de crear y ejecutar aplicaciones que no requieren la administración de un
+    servidor». «Describe un modelo de implementación más detallado en el que las aplicaciones, agrupadas como una o más funciones, se cargan en una plataforma y luego se
+    ejecutan, escalan y facturan en respuesta a la demanda exacta que se necesita en ese momento». En otras palabras, la informática sin servidor transfiere la responsabilidad
+    de la gestión de la infraestructura a los proveedores de la nube, lo que permite a los desarrolladores centrarse en la lógica empresarial de las aplicaciones.
+
+Piense en la informática sin servidores como una combinación de plataformas de función como servicio (o FaaS) y servicios de backend como servicio (o BaaS).
+Las plataformas FaaS se utilizan para ejecutar funciones.
+El BaaS representa los servicios de backend en la nube, como las bases de datos en la nube, los servicios de almacenamiento de objetos y las colas de mensajes. Ahora, la
+    historia de la informática de TI muestra una tendencia progresiva de la informática tradicional a la informática sin servidores, lo que se traduce en implementaciones más
+    rápidas, una vida útil más corta y un aumento de la productividad. Esta tendencia evolutiva se caracteriza por varios hitos: la informática tradicional utiliza máquinas
+    físicas, pero se ve obstaculizada por las inversiones iniciales, la planificación de la capacidad y otros factores. Las máquinas físicas tardan semanas o meses en
+    desplegarse y tienen una vida útil de varios años.
+
+La tecnología de virtualización se implementa en la computación en nube para un aprovisionamiento más rápido y una alta escalabilidad y disponibilidad. La virtualización
+    facilita la creación de múltiples máquinas virtuales (VM) o contenedores. Las máquinas virtuales tardan unos minutos en implementarse y tienen una vida útil de días o
+    semanas. Los contenedores, que se basan en la virtualización del sistema operativo, tardan unos segundos en desplegarse y permanecen activos durante minutos u horas. Además,
+    las aplicaciones sin servidor solo requieren una arquitectura sin servidor para el código principal. Las funciones sin servidor tardan milisegundos en implementarse y tienen
+    una vida útil de segundos.
+
+La computación sin servidor es un avance de la computación en nube estándar, que abstrae tanto los entornos de infraestructura como los de software. Es un estilo arquitectónico
+    en el que el código se ejecuta mediante una plataforma en la nube y el proveedor de la nube administra la configuración del hardware y el software, la seguridad, la
+    escalabilidad, etc. Al cliente se le factura solo por el uso y no por el tiempo de inactividad de la CPU. Y los desarrolladores solo tienen que centrarse en el código de su
+    aplicación en forma de funciones.
+
+La informática sin servidor presenta las siguientes características: no tiene host, lo que significa que los desarrolladores no tienen que adquirir, administrar ni mantener
+    servidores. Es elástica porque el escalado automático es inmediato e inherente a la tecnología sin servidores. Ofrece un equilibrio de carga automatizado que distribuye el
+    tráfico entrante entre varios sistemas de backend. No tiene estado, lo que se traduce en un rendimiento más rápido y una mayor escalabilidad. Se basa en eventos, lo que
+    significa que las funciones se activan solo cuando se producen eventos. Proporciona una alta disponibilidad sin esfuerzo ni coste adicionales. Además, se basa en el uso y
+    cuenta con una facturación pormenorizada.
+
+Entonces, ¿cómo funcionan las funciones en un mundo sin servidores? Considere, por ejemplo, los pasos necesarios para crear un contenedor de Docker o Kubernetes. El
+    desarrollador crea una función escribiendo código en un lenguaje compatible con el proveedor de la nube, como Python, Java, Node.js, C# o Go. A continuación, el
+    desarrollador carga la función en la nube. Luego, se definen los eventos que activan la función, como un clic del usuario. Y, una vez que se produce el evento, se invoca el
+    activador y el proveedor de la nube ejecuta la función, lo que da como resultado el objeto contenedor.
+
+Hacer que los desarrolladores dediquen más tiempo a crear aplicaciones optimizadas y de alta calidad beneficia enormemente a las organizaciones. Los desarrolladores pueden crear
+    funciones con cualquier lenguaje de programación popular, ampliar la funcionalidad de las aplicaciones añadiendo funciones adicionales, realizar mejores pruebas, ya que las
+    funciones solo realizan una tarea a la vez, optimizar las aplicaciones y funciones y mejorar la experiencia del usuario.
+
+Para lograr el objetivo de cero consideraciones operativas, los proveedores de nube asumen la responsabilidad de las tareas rutinarias de administración y mantenimiento de la
+    infraestructura, como maximizar el uso del cómputo, la memoria y la red y, al mismo tiempo, minimizar los costos, proporcionar una administración de servidores que incluye
+    actualizaciones del sistema operativo y parches de seguridad , permitir el escalado automático , mantener la alta disponibilidad, implementar la seguridad, configurar el
+    alto rendimiento (o baja latencia) y configurar la supervisión y el registro.
+
+Al comparar los diferentes modelos de servicios en la nube que se muestran en esta figura, analicemos sus responsabilidades en comparación con el proveedor de la nube y, más aún,
+    con respecto al modelo de servicio sin servidor.
+
+Empezaremos por el sector de la extrema izquierda (tradicional), que usted gestiona por completo. En el modelo de IaaS, usted administra las capas desde el sistema operativo
+    hasta la parte superior, mientras que el proveedor de la nube administra las cuatro capas inferiores. En el modelo PaaS, usted administra las dos primeras capas,
+    aplicaciones y datos, mientras que el proveedor de la nube administra las capas restantes.
+
+En el modelo sin servidor, usted administra solo la capa de aplicación, mientras que el proveedor de la nube administra las capas restantes. Y en el modelo SaaS, el proveedor de
+    la nube administra todo el conjunto.
+
+En este vídeo, aprendió que: sin servidor es el concepto de crear y ejecutar aplicaciones que no requieren administración de servidores,
+la computación sin servidor utiliza servicios BaaS y plataformas FaaS,
+la historia de la informática de TI muestra una tendencia de productividad creciente de la computación tradicional a la sin servidor,
+con la computación,
+    sin servidor los proveedores de nube se encargan de la administración de la infraestructura,
+    como la administración de servidores,
+    las actualizaciones del sistema operativo,
+    los parches de seguridad y el monitoreo,
+la computación sin servidor permite a los desarrolladores centrarse en las aplicaciones y el código,
+y finalmente, a los usuarios se les factura solo por el uso y no por el tiempo de inactividad de la CPU."

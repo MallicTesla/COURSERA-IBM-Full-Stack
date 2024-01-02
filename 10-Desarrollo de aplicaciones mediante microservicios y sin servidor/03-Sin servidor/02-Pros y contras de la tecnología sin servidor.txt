@@ -1,0 +1,93 @@
+"Bienvenido a «Ventajas y desventajas de la tecnología sin servidor». Tras ver este vídeo, podrá describir las ventajas de la informática sin servidor, sus limitaciones y
+    comparar las ventajas y desventajas de la informática sin servidor con los contenedores y la informática tradicional.
+
+Vamos a entender los desafíos de la informática tradicional y cómo los supera la llegada de la informática sin servidor. En la informática tradicional, los equipos de desarrollo
+    y operaciones configuran y mantienen su propia infraestructura. Estos procesos llevan mucho tiempo, son complejos y requieren inversiones de capital. Sin embargo, con la
+    llegada de la nube, los contenedores y la informática sin servidor, los equipos de desarrollo pueden centrarse en escribir código de alta calidad y en crear y ejecutar sus
+    aplicaciones en milisegundos sin preocuparse por la infraestructura, la escalabilidad y la tolerancia a los errores.
+
+La informática sin servidor también tiene su parte de desafíos, como la dependencia de un proveedor, las dependencias de terceros y la creación de redes. Analicemos las ventajas
+    y las limitaciones de la informática sin servidor y, a continuación, comparemos las mismas con las de los contenedores y la informática tradicional.
+
+Con la informática sin servidor, los proveedores de servicios en la nube asumen una gran parte del trabajo, lo que aporta muchos beneficios. No hay requisitos de configuración
+    ni mantenimiento de la infraestructura, ya que un proveedor de servicios en la nube gestiona la misma infraestructura, lo que reduce los costes.
+Los proveedores de servicios en la nube garantizan la fiabilidad, lo que se traduce en una alta disponibilidad y tolerancia a los fallos.
+Los desarrolladores se benefician porque se centran en las aplicaciones y hacen lo que más les gusta.
+Sin servidores, todas las partes de las aplicaciones se ejecutan constantemente, lo que supone un desperdicio de recursos.
+Las funciones sin servidor le permiten configurar su aplicación para que solo ejecute determinadas partes cuando sea necesario.
+
+Por ejemplo, la interfaz de una aplicación debe ejecutarse de forma continua para mantener a los usuarios conectados. Sin embargo, un servicio de autenticación ahorra recursos y
+    costes, ya que solo se invoca de forma ocasional. Las funciones se ejecutan en milisegundos, mientras que los tiempos de ejecución de los contenedores o las máquinas
+    virtuales (VM) son en segundos y minutos, respectivamente.
+
+Muchos proveedores de servicios en la nube incluyen un editor de código integrado denominado entorno de desarrollo integrado (IDE) para acelerar los desarrollos, las
+    implementaciones y las actualizaciones.
+Se le cobrará según la solicitud y no por los recursos inactivos. Puede utilizar cualquier lenguaje de programación popular para el desarrollo.
+Hay una gran cantidad de soporte de terceros disponible para la autenticación, la base de datos y otros servicios de back-end.
+Dado que los desarrolladores se centran exclusivamente en el desarrollo, las organizaciones pueden centrarse en sus negocios y lanzar productos más rápido que la competencia.
+El entorno sin servidores permite una mayor innovación y experimentación, incluso si está sujeto a fallos.
+Y sin una infraestructura que gestionar, la informática más ecológica también se convierte en una posibilidad definitiva.
+
+Sin embargo, la informática sin servidor no es la mejor opción para todas las situaciones, ya que presenta algunas limitaciones: muchas organizaciones obtienen importantes
+    ahorros de costos en las cargas de trabajo con picos de actividad, pero en el caso de las cargas de trabajo caracterizadas por procesos de larga duración, los beneficios
+    disminuyen debido al modelo de pago por uso.
+Para este tipo de aplicaciones, un entorno tradicional puede resultar más rentable.
+La dependencia de las tecnologías o los entornos de los proveedores de servicios en la nube conlleva riesgos de dependencia de los proveedores. Si las solicitudes se reciben
+    después de intervalos prolongados, las aplicaciones suelen tener que reiniciar todos los procesos, lo que se conoce como arranque en frío. Esto aumenta el tiempo de
+    ejecución de la función.
+La latencia sin servidor es inaceptable para las aplicaciones en las que el tiempo es crucial, como las aplicaciones bancarias, sanitarias o relacionadas con la periferia.
+Los problemas de seguridad aumentan debido a los cambios en las superficies de ataque, desde los puntos finales hasta el código fuente, y a las limitaciones de las
+    implementaciones de seguridad del proveedor.
+La supervisión y la depuración son complejas en cualquier sistema distribuido. Como no se puede imitar el entorno de backend como servicio (o BaaS) de su sistema local, es
+    difícil probar la funcionalidad completa y depurar los problemas de las aplicaciones.
+El soporte lingüístico depende del proveedor de la nube. No todos los proveedores de nube ofrecen soporte para todos los lenguajes de programación; por lo tanto, está limitado a
+    los idiomas admitidos por su proveedor de nube.
+No hay servidores que optimizar en cuanto a su utilización o rendimiento, ya que no tiene control sobre los servidores.
+No hay persistencia de estado. Por ejemplo, el estado de ejecución anterior no estará disponible en la siguiente invocación de la misma función.
+    Como la caché local solo dura unas pocas horas, es mejor incluir cachés externas de baja latencia, como Redis o Memcached.
+
+¿Pueden funcionar juntas las soluciones sin servidor y los contenedores? ¡Absolutamente! La tecnología sin servidor y los contenedores no se excluyen mutuamente. Funcionan mejor
+    juntos en una solución híbrida. Si tiene dificultades para elegir entre una solución sin servidor o contenedores, siga el consejo estándar del sector: «Cree primero una
+    solución sin servidor». Si es necesario, opte por los contenedores».
+
+Comparemos la computación sin servidor y la contenedorización, empezando por las ventajas de la informática sin servidor y las desventajas de los contenedores:
+la informática sin servidor es más rentable, ya que solo se paga por lo que se utiliza.
+En el caso de la tecnología sin servidor, la escalabilidad la gestiona en su totalidad el proveedor de la nube.
+El proveedor de la nube administra toda la infraestructura.
+El tiempo de implementación es cuestión de milisegundos y no de segundos.
+Y en términos de velocidad de comercialización, dado que el desarrollo es rápido, las organizaciones pueden centrarse en su actividad principal y no preocuparse por la
+    infraestructura.
+
+Ahora, consideremos las ventajas de los contenedores y las desventajas de la tecnología sin servidor:
+con los contenedores, es más fácil realizar pruebas en un entorno local o en la nube.
+Es más fácil portar los contenedores, ya que son independientes del sistema operativo, del idioma y del proveedor.
+La latencia de los contenedores es muy baja, por lo que es adecuada incluso para cargas de trabajo en las que el tiempo es crucial.
+Los contenedores también son ideales para aplicaciones de larga duración, ya que no hay restricciones de tiempo para completar los trabajos por lotes.
+Con los contenedores, puede configurar tanto las aplicaciones como los recursos.
+Y en cuanto al soporte lingüístico, la contenedorización es compatible con cualquier idioma.
+
+
+Ahora, comparemos la computación sin servidor con la computación tradicional, empezando por las ventajas y desventajas de la computación tradicional:
+la arquitectura sin servidor es un modelo de computación en nube en el que los desarrolladores se centran en escribir código de alta calidad.
+La informática sin servidor es más rentable, ya que solo se paga por lo que se utiliza.
+La escalabilidad la gestiona en su totalidad el proveedor de la nube.
+Además, las bibliotecas e integraciones están disponibles en la aplicación.
+
+
+Por último, consideremos las ventajas de la informática tradicional y las desventajas de la informática sin servidor:
+con la informática tradicional, los datos están bajo su control.
+En cuanto a las redes, el código de acceso se accede a través de direcciones de protocolo de Internet (o IP) normales,
+en lugar de configurar interfaces de programación de aplicaciones (o API) privadas.
+La seguridad solo debe implementarse dentro del perímetro de la red de la organización.
+Y dado que se gestiona toda la configuración, es poco frecuente que se dependa de un proveedor.
+
+
+En este vídeo, aprendió que:
+con la computación tradicional, usted configura y mantiene la infraestructura,
+con la computación sin servidor, los equipos de desarrollo pueden centrarse en escribir código de alta calidad,
+la computación sin servidor ofrece varios beneficios, como alta disponibilidad y tolerancia a fallas integradas,
+    tiempos de ejecución de funciones más rápidos y facturación de pago por solicitud,
+la computación sin servidor y los contenedores también tienen limitaciones, como una latencia inaceptable para aplicaciones en las que el tiempo es crítico, monitoreo y
+    depuración complejos y ausencia de persistencia de estado,
+sin servidor y contenedores no lo son se excluyen mutuamente y funcionan mejor juntas en una solución híbrida y,
+por último, la informática tradicional y sin servidor tienen ventajas y desventajas."
