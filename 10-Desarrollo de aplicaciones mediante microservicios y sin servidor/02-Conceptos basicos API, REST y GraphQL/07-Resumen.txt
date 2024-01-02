@@ -1,0 +1,23 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya sabe que:
+
+Las API REST proporcionan interfaces flexibles pero uniformes entre componentes
+
+Las API REST no tienen estado y son escalables
+
+Las API REST se comunican mediante los métodos HTTP POST, GET, PUT y DELETE
+
+REST es un estilo arquitectónico que define cómo se comunican las aplicaciones
+
+API Gateway es la puerta de entrada a sus servicios backend y le permite conectar servicios adicionales a la vez que proporciona un acceso unificado
+
+API Gateway facilita el escalado o la sustitución de sus servicios backend
+
+Flask es un micromarco web para alojar aplicaciones web Python
+
+cURL se utiliza para transferir datos con URL y puede utilizarse en una línea de comandos o en scripts
+
+Postman es una herramienta sencilla y popular para construir, probar y utilizar APIs
+
+Swagger le ayuda a documentar y probar su API
+
+La especificación OpenAPI es una forma estándar de representar sus API"

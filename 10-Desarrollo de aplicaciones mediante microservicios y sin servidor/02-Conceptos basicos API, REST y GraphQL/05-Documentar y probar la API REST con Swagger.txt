@@ -1,0 +1,36 @@
+"Bienvenido a «Documentar y probar las API REST con Swagger». Después de ver este vídeo, podrá documentar su API REST con Swagger y probar su API REST con Swagger.
+
+Las API especifican una interfaz y conectan diferentes sistemas, lo que les proporciona una comunicación coherente. Y la documentación de las API es como un manual de referencia
+    que contiene instrucciones sobre el uso e integración eficaces de los sistemas. Swagger ahorra tiempo al escribir la documentación de la API al revisar la especificación de
+    OpenAPI para garantizar que cumple con las pautas. Swagger le permite describir la estructura de sus API para que las máquinas puedan leerlas.
+
+Con la estructura de la API, Swagger crea automáticamente una atractiva documentación sobre la interfaz de usuario y la API interactiva. Esta estructura se define en un archivo
+    JSON o YAML que cumple con las especificaciones de OpenAPI. Inicialmente, las API no estaban pensadas para el consumo de autoservicio. Se basaban en los datos y resolvían
+    algunos casos de uso especiales de conexión y comunicación.
+
+Mientras que la especificación OpenAPI define una interfaz estándar e independiente del idioma para las API RESTful. La especificación es independiente del idioma y es legible
+    por humanos y máquinas. Además, permite a las personas y las computadoras descubrir y comprender las capacidades de un servicio sin necesidad de acceder al código fuente,
+    documentación adicional ni inspeccionar el tráfico de la red. Define todas las operaciones que admite su API, los parámetros necesarios y el rendimiento esperado, así como
+    la autenticación de API requerida. E incluso define aspectos como las condiciones de servicio, la información de contacto y la información de licencia de la API expuesta.
+
+Flask permite la exposición a las funciones de Python como API. La interfaz de usuario de Flask Swagger mejora sus capacidades al permitirle describir y visualizar las API REST.
+Para introducir la interfaz de usuario de Swagger en su aplicación, necesita el plano de flask «flask-swagger-ui».
+
+mas inforamcion en el archivo swagger-flask.py
+
+El comando «pip install flask-swagger-ui» añadirá la interfaz de usuario de Swagger a su aplicación flask mediante pip.
+En primer lugar, debe importar el 'swagger_ui_blueprint', que le ayudará a crear la interfaz de usuario de Swagger con Flask.
+
+A continuación, defina la configuración básica, que consiste en la ruta en la que Swagger estará disponible. La ha guardado en la ruta products/docs de este ejemplo. El segundo
+    argumento muestra dónde se encuentra el archivo swagger. Y el nombre que quieres darle a este Swagger. Luego debes registrar este plano en la aplicación de Flask.
+Swagger.json contiene la definición y las características de su API en forma de archivo JSON. También debe exponer este archivo con su API. Por lo tanto, necesita una ruta que
+    sirva para su archivo swagger.json estático. Swagger es un archivo json y requiere que esté presente algunas configuraciones básicas.
+
+En este ejemplo, está creando la API de microservicios del producto Swagger y proporcionando el modelo y la ruta para obtener la lista de productos. Y definiendo las propiedades
+    del objeto Product. Ahora tiene una definición de API y Swagger. Puede usar la interfaz de usuario para probar su API, esa es la principal ventaja de usar Swagger.
+Además, permite a los consumidores obtener más detalles sobre su API, las funciones compatibles, las solicitudes y las respuestas. También muestra el contenido de la sección de
+    información del producto. Muestra el único método disponible, un GET para recuperar todos los productos. A continuación, puede ejecutar ese punto final y ver el resultado,
+    que, en este caso, es la lista de productos.
+
+En este vídeo, aprendió que Swagger le ayuda a documentar sus API,
+que la especificación OpenAPI es una forma estándar de representar sus API y que Swagger proporciona un mecanismo para probar sus API."

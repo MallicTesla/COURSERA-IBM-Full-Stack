@@ -1,0 +1,28 @@
+"Bienvenido a «Conceptos básicos de GraphQL». Tras ver este vídeo, podrás: Describir GraphQL, explicar las características clave de una API de GraphQL y explicar las ventajas de
+    utilizar las API de GraphQL.
+
+GraphQL es un lenguaje de consulta para tu API. Proporciona una forma estándar de permitir a los clientes solicitar solo los datos que necesitan de la API. Y se puede
+    desarrollar utilizando cualquier lenguaje de programación, ya que es independiente del lenguaje. GraphQL te permite recuperar exactamente lo que necesitas de la API.
+
+Esto significa que no recibes los datos que no solicitaste. También significa que recibes exactamente lo que necesitas, incluso de diferentes recursos. A diferencia de la
+    API RESTful, GraphQL solo requiere un punto final para recuperar todo lo que necesitas.
+
+Como se puede ver en este ejemplo de producto, solo necesitas el nombre y eso es lo que recibes. Con REST, las API son los recursos que proporcionan puntos finales para realizar
+    una operación concreta mediante un método HTTP.
+
+En GraphQL, los tipos que se definen en el esquema son los nodos. Con REST, realizas múltiples llamadas y recibes todo lo que envía el servidor. Pero en GraphQL, solo solicitas
+    y recibes lo que necesitas. Para ampliar la API de GraphQL no se necesita una nueva versión; se añaden los nuevos campos sin interrumpir los clientes existentes, ya que solo
+    solicitaban lo que necesitaban.
+Se utiliza una consulta para consultar tus datos, algo parecido a una solicitud GET en una API RESTful. En su forma más simple, GraphQL solicita campos específicos en objetos.
+Se utiliza una mutación para manipular y modificar los datos. Cada campo del tipo de mutación puede considerarse una solicitud POST, PUT o DELETE en una API RESTful.
+
+Netflix es conocido por su arquitectura de microservicios poco acoplada y altamente escalable. Netflix produce contenido original a un ritmo acelerado. Desde el momento en que
+    se presenta un programa de televisión o una película hasta que está disponible en Netflix, suceden muchas cosas entre bastidores. Inicialmente, las relaciones entre las
+    entidades eran dispares y existían en varios microservicios. Para hacer frente a esos desafíos, el equipo comenzó a crear una API gráfica seleccionada llamada «API de
+    estudio». Su objetivo es proporcionar una abstracción unificada sobre los datos y las relaciones.
+
+En este nuevo diseño, la API de Studio se encarga de esquematizar y resolver las consultas. Por lo tanto, el equipo de ingeniería de Netflix no se quedó ahí y dio un paso
+    adelante con la arquitectura federada, en la que cada equipo es propietario de sus respectivos dominios.
+
+En este vídeo, aprendiste lo siguiente: GraphQL es un lenguaje de consulta independiente del lenguaje para tu API,
+te proporciona datos exactos, ni más ni menos, y tiene un punto final."

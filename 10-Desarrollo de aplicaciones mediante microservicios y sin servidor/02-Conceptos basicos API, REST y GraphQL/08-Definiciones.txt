@@ -1,0 +1,44 @@
+"API Gateway
+Herramienta de gestión de API que se encuentra entre un cliente y una colección de servicios backend.
+
+CRUD
+Crear, leer, actualizar y eliminar registros
+
+cURL
+Una herramienta de línea de comandos y una biblioteca para transferir datos con URL
+
+DELETE
+Solicitud para eliminar un registro
+
+Flask
+Un marco micro web que no requiere herramientas o bibliotecas particulares.
+
+GET
+Solicitud para recuperar un registro
+
+GraphQL
+Un lenguaje de consulta que le permite recuperar exactamente lo que necesita de la API
+
+OpenAPI
+especificación Define una interfaz estándar e independiente del idioma para las API RESTful
+
+pip
+Administrador de paquetes de Python
+
+POST
+Solicitud para crear un registro
+
+Postman
+Una plataforma API para crear y utilizar API
+
+PUT
+Solicitud de actualización de un registro
+
+REST
+Transferencia de estado representacional
+
+Stateless
+Significa que cada solicitud contiene toda la información necesaria para procesarla.
+
+Swagger
+Le permite describir la estructura de sus API para que las máquinas puedan leerlas."

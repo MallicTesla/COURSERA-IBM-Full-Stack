@@ -1,0 +1,39 @@
+"Bienvenido a la «Introducción a API Gateway». Tras ver este vídeo, podrá explicar una puerta de enlace de API, explicar las ventajas de utilizar una puerta de enlace de API,
+    explicar las desventajas de utilizar una puerta de enlace de API y describir los productos de API Gateway disponibles.
+
+Un API Gateway es una herramienta de administración de API que se encuentra entre un cliente y un conjunto de servicios de back-end. Agrega los diversos servicios necesarios para
+    cumplirlos y devuelve el resultado correspondiente.
+
+¿Por qué se utiliza un API Gateway? Una puerta de enlace de API puede ayudarle a proteger sus API del uso malintencionado o excesivo. Por lo tanto, puede utilizar un servicio de
+    autenticación con límite de velocidad. También ayuda a entender cómo se utilizan las API mediante un servicio de análisis y supervisión. Además, puede monetizar sus API
+    mediante un sistema de facturación.
+
+Una pasarela también ofrece un único punto de contacto con sus distintos microservicios y proporciona una respuesta única a una solicitud. Por último, puede añadir o eliminar
+    API sin problemas sin que el cliente conozca los servicios que se ejecutan en el back-end. Dado que tu tienda en línea sigue una arquitectura de microservicios, algunos de
+    esos servicios serán: un servicio de información sobre el producto que comparte información básica sobre el producto, como la identificación, el nombre y el precio, un
+    servicio de inventario que revela lo que está disponible en stock, un servicio de pedidos que permite a los clientes realizar un pedido de un producto y un servicio de
+    autenticación para validar a los usuarios en la plataforma.
+
+Entonces, ¿cómo accede un cliente a los microservicios? Esto supone un problema cuando se necesita interactuar con varias API. Una puerta de enlace de API puede eliminar esta
+    complicación y permitirle: cambiar los hosts y sus ubicaciones, aumentar o disminuir el número de instancias de servicio y reemplazar su servicio actual, por ejemplo, un
+    servicio de pedidos, por uno nuevo.
+El acceso del cliente a los servicios permanece intacto. Las ventajas de utilizar una pasarela de API son las siguientes: aísla a los clientes de la forma en que la aplicación
+    se divide en microservicios. En otras palabras, simplifica el lado del cliente al trasladar la lógica para llamar a varios servicios del cliente a la API Gateway. También
+    proporciona la API óptima para cada cliente, independientemente de quién sea el cliente. Reduce el número de solicitudes o viajes de ida y vuelta. Por ejemplo, la
+    API Gateway permite a los clientes recuperar datos de varios servicios en un solo viaje de ida y vuelta. E independientemente de la forma en que sus microservicios se
+    comuniquen internamente, una puerta de enlace API proporcionará un protocolo estándar para comunicarse con el mundo exterior.
+
+Si bien una puerta de enlace API ofrece muchas ventajas, también presenta algunos inconvenientes. Es otro componente que debe desarrollarse y mantenerse. Además, si no se diseña
+    cuidadosamente, puede convertirse en un único punto de falla en una aplicación. Además, una puerta de enlace aumentará el tiempo de respuesta debido a este paso de red
+    adicional en la ejecución de la aplicación.
+
+Hay muchos productos de API Gateway disponibles en el mercado. Puede elegir entre opciones administradas o de código abierto. De IBM, una pasarela de aplicaciones de alta
+    seguridad líder del sector llamada IBM DataPower Gateway. Google ofrece dos ofertas que se adaptan a sus necesidades: Apigee o Cloud Endpoints. Microsoft Azure y Amazon AWS
+    también ofrecen pasarelas en sus plataformas. Si bien se trata de productos gestionados, en el mundo del código abierto, algunos nombres famosos son: Kong, que ocupa el
+    primer lugar en popularidad, Apache APISIX, Tyk, que también tiene una versión gestionada, y, por último, Gloo, que también está disponible como versión empresarial.
+
+En este vídeo, aprendió que: una puerta de enlace de API es la puerta a sus servicios de backend,
+le permite conectar servicios adicionales y, al mismo tiempo, proporciona a su cliente un acceso unificado a sus servicios,
+oculta al cliente la complejidad de sus servicios de backend,
+facilita la ampliación o la sustitución de sus servicios de backend,
+hay muchos productos de API Gateway gestionados y de código abierto disponibles para elegir."

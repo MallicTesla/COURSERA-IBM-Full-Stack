@@ -1,0 +1,41 @@
+"Bienvenido a «Hacer solicitudes de API con cURL y Postman».Tras ver este vídeo, podrás explicar cómo utilizar cURL para realizar solicitudes HTTP y cómo utilizar Postman para
+    realizar solicitudes HTTP.
+
+La transferencia de datos hacia y desde un servidor requiere herramientas que admitan los protocolos de red necesarios. Linux cuenta con múltiples herramientas creadas para este
+    propósito, siendo la más popular curl. curl, abreviatura de «URL del cliente», es una herramienta de línea de comandos que permite la transferencia de datos a través de
+    varios protocolos de red.
+Desarrollada en 1998, se ha utilizado desde entonces para comunicarse con servidores web o de aplicaciones especificando una URL relevante y los datos que deben enviarse o
+    recibirse. curl se puede usar en la línea de comandos o en scripts para transferir datos. Puede ejecutar un comando curl simple, como se ve en este ejemplo, y luego ver el
+    resultado.
+
+Los casos de uso más comunes de curl son: la descarga de archivos de Internet, las pruebas de terminales, la depuración y el registro de errores. Algunos de los protocolos más
+    comunes compatibles con curl son: HTTP, HTTPS, FTP e IMAP.
+
+Si ejecuta este comando curl de ejemplo, recibirá el resultado tal y como se muestra. curl acepta una amplia gama de opciones, lo que lo convierte en un comando extremadamente
+    versátil. Las opciones comienzan con uno o dos guiones y, si no requieren valores adicionales, las opciones de un solo guión se pueden escribir juntas.
+
+Entonces, analicemos el comando y la salida. «Guión x» significa que está especificando explícitamente la función HTTP, que en este caso es GET. A continuación, especificamos la
+    URL que se va a evaluar. El «guión H» permite definir encabezados, lo que en nuestro caso indica al servidor web que queremos trabajar con JSON.
+
+Nuestro resultado es la lista de productos devueltos por el microservicio del producto representado en JSON.
+
+Ahora, Postman es una plataforma de API para crear y usar API basada en una amplia gama de potentes herramientas extremadamente fáciles de usar, que permiten a los
+    desarrolladores crear, probar, compartir y documentar las API fácilmente. Postman simplifica cada paso del ciclo de vida de las API al permitir organizar múltiples
+    solicitudes que se pueden realizar en varias repeticiones o iteraciones, y te ayuda a agilizar la colaboración para que puedas crear mejores API con mayor rapidez.
+
+Además, debido a su simplicidad, es una de las herramientas más populares y prácticas para probar una amplia variedad de API compatibles con muchos protocolos (por ejemplo,
+    solicitudes HTTP como GET, POST, PUT y PATCH) y, luego, convertir la API en código para lenguajes como JavaScript y Python.
+
+Un ejemplo popular es la API en la nube de WhatsApp Business Platform, que ha creado una experiencia simplificada y fácil de usar para los desarrolladores con Postman. Con
+    Postman, el tiempo de incorporación se reduce a minutos gracias a la automatización y a los datos rellenados previamente, lo que no ocurre con los métodos alternativos que
+    requieren una configuración manual. Los desarrolladores pueden pasar de registrarse en la plataforma empresarial de WhatsApp a probar números de teléfono y crear llamadas
+    con mensajes en cuestión de minutos. Puedes descargar Postman a tu ordenador o utilizar la versión online.
+
+Para este curso, utilizaremos la versión en línea a la que tendrá que inscribirse, y trataremos los pasos en el siguiente laboratorio. Llamemos a los productos un microservicio
+    GET endpoint con Postman. Una vez en Postman, comienza con una nueva pestaña; el tipo de solicitud es GET y la URL es la que aloja tu microservicio.
+A continuación, haga clic en el botón Enviar para analizar el resultado. A continuación, puedes guardarlo en tu espacio de trabajo para volver a llamar a tu API en el futuro.
+
+En este vídeo, aprendiste lo siguiente: cURL se usa para transferir datos con direcciones URL,
+cURL se puede usar en una línea de comandos o en scripts,
+Postman es una plataforma de API para crear y usar API,
+Postman es una herramienta sencilla y popular para probar las API."

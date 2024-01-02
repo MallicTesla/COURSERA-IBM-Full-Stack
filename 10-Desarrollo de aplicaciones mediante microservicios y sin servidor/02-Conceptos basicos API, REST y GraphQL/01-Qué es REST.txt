@@ -1,0 +1,29 @@
+"Bienvenido a «¿Qué es REST?». Tras ver este vídeo, podrá describir las API RESTful, explicar las características clave de una API REST y explicar las ventajas de utilizar las
+    API REST. REST son las siglas de Representational State Transfer.
+
+Las API REST proporcionan una forma flexible y ligera de integrar aplicaciones y se han convertido en el método más común para conectar componentes en arquitecturas de
+    microservicios. Es un estilo arquitectónico que define cómo las aplicaciones deben comunicarse entre sí dentro de una red.
+
+Una API tiene tres características que la clasifican como RESTful. Gestiona todas las solicitudes a través de HTTP, proporciona una comunicación cliente-servidor sin estado y
+    consta de una interfaz uniforme entre los componentes.
+
+Las API REST se comunican mediante solicitudes HTTP para realizar funciones estándar como crear, leer, actualizar y eliminar registros (también conocidos como CRUD) dentro de un
+    recurso. Por ejemplo, una API REST utilizaría una solicitud POST para crear un registro, una solicitud GET para recuperar un registro, una solicitud PUT para actualizar un
+    registro y una solicitud DELETE para eliminar un registro.
+
+Las API REST no tienen estado, lo que significa que cada solicitud contiene toda la información necesaria para procesarla. Roy Fielding, el creador de REST, dijo en su tesis.
+    «Cada solicitud del cliente al servidor debe contener toda la información necesaria para comprender la solicitud y no puede aprovechar ningún contexto almacenado en el
+    servidor. Por lo tanto, el estado de la sesión se mantiene completamente en el cliente».
+
+Esta naturaleza sin estado de las API REST también las hace escalables. La principal ventaja de las API RESTful es la interfaz uniforme, independientemente de dónde se origine
+    la solicitud. La API REST debe garantizar que el mismo dato, como el identificador del producto, pertenezca a un único identificador uniforme de recursos (o URI). Además,
+    los recursos deben contener toda la información que el cliente pueda necesitar. Por ejemplo, el cliente puede requerir el nombre y el precio del producto.
+
+Veamos un ejemplo de REST. El CEX.IO es un intercambio de criptomonedas. Proporciona a los desarrolladores bitcoins, precios de otras criptomonedas y datos de mercado a través
+    de la API REST. CEX ha documentado todas las llamadas a la API en su sección de desarrolladores con información detallada sobre los parámetros de solicitud y respuesta, todo
+    en un formato JSON sencillo, así como ejemplos de solicitudes y fragmentos de código en JavaScript, Python, C# y Java. Por ejemplo, puede solicitar el último precio de un
+    par de divisas a través de su API pública.
+
+En este vídeo, aprendió que las API REST proporcionan interfaces flexibles pero uniformes entre los componentes,
+las API REST no tienen estado y son escalables,
+las API REST se comunican mediante los métodos HTTP POST, GET, PUT y DELETE, y REST es un estilo arquitectónico que define la forma en que se comunican las aplicaciones."

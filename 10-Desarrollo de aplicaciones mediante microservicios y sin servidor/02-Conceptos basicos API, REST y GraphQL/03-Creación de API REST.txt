@@ -1,0 +1,22 @@
+"Bienvenido a «Creación de API REST». Tras ver este vídeo, podrá: Crear una API RESTful en Python y utilizar Flask para alojar su API REST.
+
+Python es un lenguaje de programación que le permite trabajar más rápido e integrar sus sistemas de manera más eficaz. Python se utiliza en muchos dominios de aplicación. Es
+    compatible con el desarrollo web con la ayuda de marcos como Flask. Python se usa ampliamente en la computación científica y numérica con la ayuda de bibliotecas como SciPy
+    para matemáticas, ciencias e ingeniería. Python también es una opción popular entre la comunidad de inteligencia artificial y aprendizaje automático.
+
+Flask se clasifica como un marco de microweb, ya que no requiere herramientas o bibliotecas particulares. Se creó teniendo en cuenta la escalabilidad y la simplicidad. Las
+    aplicaciones de Flask son conocidas por ser livianas en comparación con otros marcos. Dado que Flask no tiene opiniones sobre qué base de datos o motor de plantillas
+    utilizar, es una buena opción para las API RESTful.
+
+Para este módulo, necesita Python 3 y pip, que es el administrador de paquetes de Python. Una vez que compruebes que tienes Python y pip, puedes proceder a instalar Flask con el
+    comando pip install. Primero, crea el archivo hello.py con el contenido que se muestra. A continuación, ejecute el servidor Flask para alojar este archivo de Python y se
+    mostrará el resultado.
+
+Cuando abra esta aplicación web llamada «Hola mundo» en el navegador navegando hasta 127 punto 0 punto 0 punto 1 y el puerto 5000, verá la respuesta «Hola mundo».
+Ahora crearás un nuevo archivo python con el nombre 'products.py' que proporcionará todos los puntos finales del microservicio de tus productos.
+Empieza por definir las importaciones y crear tu lista de productos por defecto. No utilizas ninguna base de datos para conservar estos productos, por lo que cada vez que
+    reinicias la API, empezarás con la misma lista de productos.
+A continuación, defina el método GET para recuperar todos los productos. Este método devuelve implícitamente «200», que en HTTP significa OK.
+
+En este vídeo, aprendió lo siguiente: Flask es un marco microweb para alojar aplicaciones web de Python,
+puede crear su primera API RESTful como un microservicio con Python y puede alojar su primera API RESTful con Flask."
