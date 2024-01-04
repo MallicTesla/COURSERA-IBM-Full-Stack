@@ -1,0 +1,35 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Serverless es el concepto de construir y ejecutar aplicaciones que no requieren la gestión de servidores
+
+Serverless utiliza servicios BaaS y plataformas FaaS
+
+Los proveedores de la nube se encargan de las tareas de gestión y mantenimiento de la infraestructura
+
+La llegada de la computación sin servidor significa que los equipos de desarrollo pueden centrarse en escribir código de alta calidad
+
+La computación sin servidor ofrece varias ventajas, como alta disponibilidad y tolerancia a fallos integradas, tiempos de ejecución de funciones más rápidos y facturación de
+    pago por solicitud
+
+La informática sin servidor tiene varias limitaciones, como una latencia inaceptable para las aplicaciones en las que el tiempo es un factor crítico, una supervisión y
+    depuración complejas y la ausencia de persistencia del estado
+
+FaaS es un tipo de servicio de computación en nube que permite ejecutar código en respuesta a eventos sin una infraestructura compleja
+
+FaaS es un subconjunto de la computación sin servidor que crea aplicaciones en forma de funciones múltiples; y puede desplegarse en la nube, híbrido, o en las instalaciones
+
+Una pila sin servidor se compone de FaaS, BaaS y una API Gateway
+
+El marco sin servidor es un marco web gratuito y de código abierto escrito con Node.js
+
+Los casos de uso para las aplicaciones web sin servidor son Aplicación web, Streaming de eventos, Post-procesamiento y Sistemas políglotas
+
+AWS Lambda le proporciona una plataforma sin servidor basada en eventos y de pago por uso
+
+Google Cloud Functions le proporciona una experiencia de desarrollador simplificada, junto con Firebase para la sincronización de datos en tiempo real
+
+Microsoft Azure fomenta la computación en la nube y en los bordes
+
+IBM Cloud Functions le ofrece alta disponibilidad y computación rentable
+
+Knative promueve la alternancia agnóstica de plataformas"

@@ -1,0 +1,50 @@
+"API Gateway
+Herramienta de gestión de API que se encuentra entre un cliente y una colección de servicios backend.
+
+BaaS
+Backend como servicio
+
+CNCF
+Fundación de computación nativa en la nube
+
+cURL
+Una herramienta de línea de comandos y una biblioteca para transferir datos con URL
+
+DELETE
+Solicitud para eliminar un registro
+
+FaaS
+Función como servicio
+
+GET
+Solicitud para recuperar un registro
+
+IDE
+Entorno de desarrollo integrado
+
+OpenAPI
+Especificación Define una interfaz estándar e independiente del idioma para las API RESTful
+
+pip
+Administrador de paquetes de Python
+
+POST
+Solicitud para crear un registro
+
+Postman
+Una plataforma API para crear y utilizar API
+
+PUT
+Solicitud de actualización de un registro
+
+REST
+Transferencia de estado representacional
+
+Serverless computing
+Resume tanto los entornos de infraestructura como de software. Un estilo arquitectónico donde el código se ejecuta utilizando una plataforma en la nube.
+
+Swagger
+Le permite describir la estructura de sus API para que las máquinas puedan leerlas.
+
+VM
+Máquina virtual"

@@ -1,0 +1,33 @@
+"Bienvenido a «The Serverless Framework». Después de ver este vídeo, podrá describir el marco sin servidor, explicar cómo crear una función básica sin servidor y explicar cómo
+    probar una función sin servidor.
+
+El Serverless Framework es un marco web gratuito y de código abierto escrito con Node.js. Se diseñó originalmente para aprovisionar sus funciones, eventos y recursos de
+    infraestructura de Amazon Web Services o AWS Lambda de forma segura y rápida. Sin embargo, no se limita a AWS. Otros proveedores compatibles son: Microsoft Azure,
+    Google Cloud Platform y Apache OpenWhisk.
+
+Serverless Framework es una interfaz de línea de comandos o CLI que ofrece estructura, automatización y prácticas recomendadas listas para usar, lo que le permite centrarse en
+    crear arquitecturas sofisticadas, basadas en eventos y sin servidor, que incluyan funciones, eventos, recursos y servicios.
+
+Una función es simplemente un código, desplegado en la nube, que suele escribirse para realizar una sola tarea. Cada función es una unidad independiente de ejecución e
+    implementación, como un microservicio.
+Una tarea puede consistir en guardar a un usuario en la base de datos o realizar una tarea en un momento específico. Las funciones se activan por eventos y los eventos provienen
+    de otros recursos, por ejemplo: una solicitud HTTP en una URL de API Gateway o un archivo nuevo cargado en un bucket de S3.
+Los recursos son componentes de infraestructura que utilizan sus funciones, como una base de datos que su proveedor de nube le proporciona como servicio o un depósito de S3 para
+    almacenar archivos.
+Un servicio es la unidad organizativa del Framework. Puede considerarlo como un archivo de proyecto, aunque puede tener varios servicios para una sola aplicación. Un servicio se
+    configura mediante un archivo serverless.yml en el que se definen las funciones, los eventos y los recursos que se van a implementar. Cuando se implementa con la CLI de
+    Framework, todo el contenido del archivo de configuración se implementa a la vez.
+El archivo serverless.yml controla todo el contenido del servicio.
+
+Hay secciones específicas en serverless.yml para especificar funciones, eventos y recursos. Vamos a crear e implementar una aplicación Hello World con el Serverless Framework de
+    AWS. Para esta demostración, ya tiene configuradas las credenciales de AWS. En primer lugar, necesita la CLI sin servidor, que puede instalar con npm a nivel mundial, y
+    luego ejecutar el comando serverless para crear su primera API HTTP de AWS con Python. El comando lo guiará a través de un asistente y, una vez implementado, le
+    proporcionará una URL.
+
+Si lo abre en el navegador, verá el resultado tal como se muestra. Cambiaste el código de función para devolver Hello World a pedido. Luego, simplemente puede volver a
+    implementarlo y volver a probarlo.
+
+En este vídeo, aprendió que The Serverless Framework es un marco web gratuito y de código abierto escrito con Node.js.
+Las funciones son activadas por eventos.
+Un servicio se configura mediante un archivo serverless.yml.
+Hay secciones específicas en serverless.yml para especificar funciones, eventos y recursos."

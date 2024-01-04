@@ -1,0 +1,276 @@
+"Introducción
+Vamos a construir una sencilla aplicación sin servidor utilizando AWS Lambda.
+
+Esta aplicación tendrá un front-end html alojado en AWS Amplify, donde podrá introducir algún texto. Al enviar el formulario, le proporcionará una respuesta con mayúsculas e
+    inversa al texto introducido.
+
+Capitalize y Reverse serán dos funciones Lambda separadas para mostrarle las capacidades de encadenamiento. En lugar de acceder a estas funciones directamente, se utilizará una
+    pasarela API para aceptar las solicitudes del cliente y responder con la salida final.
+
+Los componentes que utilizamos son
+
+
+AWS CodeCommit
+AWS CodeCommit es un servicio de control de origen seguro, altamente escalable y totalmente administrado que aloja repositorios Git privados.
+
+Como servicio basado en Git, CodeCommit se adapta bien a la mayoría de las necesidades de control de versiones. No existen límites arbitrarios en cuanto al tamaño de los
+    archivos, el tipo de archivo y el tamaño del repositorio.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/kQ9aq5MXSamf1xB5J-TTSQ_4b646b4b3ad1469cac11a0ace3bc90f1_ftIFqlI1a8H8v6ZnH2lpyh5O6aUAceycr-OADnMc5GNKPBwfqfCJ9QCIzlsR9pOExkWi-On4j6rf1x26-QTFj2KveeaDsOGNUNzHC3PaxaGxZeMRiVgwpmLOnra1FpdkGDBFgBlscCi_FrQI0nBGnGQDj4KpDOYKhN5J16X0rHJg5T0vXcUcXdKi0uwqz1psVM_PjZj5en0JY0xko1SyOUV9OyroxnxG3U67q89xrbU?expiry=1704412800000&hmac=Q5QoDyHeT3IG6Tm6WCgqSYeVUSqwcev9_T89owc1y-o
+
+
+AWS Amplify
+AWS Amplify es una solución completa que permite a los desarrolladores front-end web y móviles crear, enviar y hospedar fácilmente aplicaciones full-stack en AWS, con la
+    flexibilidad de aprovechar la amplitud de los servicios de AWS a medida que evolucionan los casos de uso.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Z5LwCv01ROe5Rd78vj1Z4g_90339a27d68943bf807159ac4150cef1_sHGs6JGSv_aF7O4frcXk_vtxeobKbA0P5AnHOJ-Gdjddvkpj_CCLbKRt83INLpCTP3BYqwAy4HEeRSDYwaATpgsekmj0FmFLzVp7qhpySYFwIuqBQo0zkmwrGerNHOr2X7qwZHHECH_0Jk12bx-hgaiD037kMz-hRVd5gCrNFCPBDjozAs2G_Or-poB22PpuJjS5WClmg2lhHE5lI-lm7vmroGYvPVk-M3pfKRyrgNg?expiry=1704412800000&hmac=owlojY-kYiv-jqHuvEbp7ZwSeAh2R5UQ67depB5OiTU
+
+
+Funciones de AWS Lambda
+AWS Lambda es un servicio informático sin servidor y basado en eventos que le permite ejecutar código para prácticamente cualquier tipo de aplicación o servicio back-end sin
+    aprovisionar ni administrar servidores. Puede activar Lambda desde más de 200 servicios de AWS y aplicaciones de software como servicio (SaaS), y pagar únicamente por lo que
+    utilice.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/hy6nSh4KQnSaU0D7neQnzg_2d3ef58307014f01a334e444ca4991f1_F7UOcqfnzIE9FHBoV3Dfi3s3ZI-5DH6-zbUBI8OWTTmMoYVcqAO15iy9KUPVleOIMlzdzO1fbomnwbGyOF3fIHjCzJBQJdyJIT4Yacsw5lWEjj0WPuo4a1mqHNm4YqN-g_hZ20hBrNnwj5_-V5Q6zP32pJD6JhX4eEB0oXFwXxhSGNBb0yYAYag6ozibiUv59ZDQY1DvL_V7gG0JrpM6bNTeBmJHOIpbIiXvg9WDPts?expiry=1704412800000&hmac=ZLVeGD0Du23KUbcYA6GL0ccoMDcXmqkVrx1w1AbmsE4
+
+
+Función Step de AWS
+AWS Step Function es un servicio de flujo de trabajo visual que ayuda a los desarrolladores a utilizar los servicios de AWS para crear aplicaciones distribuidas, automatizar
+    procesos, orquestar microservicios y crear canalizaciones de datos y aprendizaje automático (ML).
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/qliG39I0TyCCbwjRFx02Mg_621d39b2f8ea4b97b63911cc2d5447f1_iTO9QlYx2qWGr90mp3-2KMjB_BBLCdRCfSPxAX5mNNq2HY2lZ0QSHa7tJigI_vSlYb48MEHXHEIFOuc617WprjmN2abXnNOcnA9aPxyx-JKV6BM4-2sxdFIdQHR89uKMyW1dXqElsYMOpU143gYlIVoZx7vapzGX5LdT2jJNm5JueacqgmJB6l_-jcpiWlkJ-9t5P8fV1nB5ZIY_i1GVzWxeTFXJt6Hg4pVwYGnApJA?expiry=1704412800000&hmac=22Ca0mmqXGZKAO1Dyr3ON6Z2MY53a3jdKz3hl6Ai1n4
+
+
+Puerta de enlace API de AWS
+Amazon API Gateway es un servicio totalmente administrado que facilita a los desarrolladores la creación, publicación, mantenimiento, monitorización y seguridad de API a
+    cualquier escala. Las API actúan como la "puerta de entrada" para que las aplicaciones accedan a los datos, la lógica empresarial o la funcionalidad de sus servicios back-end.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/--ScilqNQUKGf2vTKDHL0w_3a953da69cb74c3cad2fd7f043cef1f1_nI_k_9NOvF18RrvALZeCuhjYYZdxSIRV_i8T-GcLZSo0wBQD3i41Y1JByRa2JGtGdUNe2KOuV1jqvuxob4Y3HMQxsnLWMhJh_2zbPRwg14skaGiXUiyyYDAd7TKBVHyJ3qeNhrNqfSlwWtSJie-2CJ2KUN8DZdQ20kFKNJJ5zAvhW_TIQ7qET1wpd_t0iotY_ctAj9BGiAyBkSYLNER_ui0eCgSfqMS0H8Ogjtl8GKw?expiry=1704412800000&hmac=zo5gtMV4kaiQN3YFOgA6R2EC4sIz_WU83VuVv9gQF8w
+
+
+Proceso
+Empecemos por definir el recurso CodeCommit que puede utilizar como su repositorio de código.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/hssKtkfGSaG8_zYbvSr-8g_0580b40409574abb88914ca25fde69f1_1fAmiVdtToazX07NZ6y9yGj3pF3SKF3yOwZ3l0dHDk3Y1N5JzPoqH1e1EkNviWwwiMu8DfSqd00xKMs3DlND7GSojuw_eMR96qHf3RlG240Qsdg7pcS9OrYzXav0rH6XRtgKdmjN1GPbgeT0l6XxYLZOdTusObeHgnSGrTOpRM25oeOzIhxShWdKXlaD7tGIBf4CLyAUTycQXlP66_0gDee2Lzg1baTlvCFbXUu-HcY?expiry=1704412800000&hmac=DUC8v9EitnTHU2qNP9617EuqhdWtLWJaz0w_J9M76vI
+
+Comience con un repositorio en blanco. Haga clic en Crear repositorio.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ivGr6cRSTb2Tq9NzuwlKXg_95b7c5d64a94473f90255b5ec4d96ff1_0YNvtbBQVFKdfWv2aHFiKJhfOUZc5NWkGhTfkjlbZa72DxgE4dD-s1E1mAUpw3ChmmpacAuDvltz8KuhQ-cuEetguS90tKS9IHJMHFGiEvKPCW2osR-YwVZpl_BCnePLbSFyDoCcgweHzh8qyoCwC6BEwxqLCilUaiYVesAebeHRhX18gvci6EXlfMAmn5OG2Lf7R4B7FfzNx7OS3iHPBhPxjejmzV8ZH9_opPo8Q9o?expiry=1704412800000&hmac=sTv_IGTTgnI8HtqE3osAtA-GJxprNxRmNsP8Vdurmmo
+
+Proporcione el nombre del repositorio y una descripción opcional.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/HkcBg3SSSkOz2oiFvg7qng_7b93318e3fcd4ec99355df0ff4ec67f1_OMXA_j4lmqaXOBaNcASxJX7B1gtZOg0AWbuGFYad5zmv6FlJBOlu7liIkuEb48kDW6yLJMnHkNCigIdKSWDzjQv91YKar36Aec4IOOrKg7YtDnXGG7yixcpl0jAGwmGIh0SGxh_Ow37kIbcsdIJe9mTL3KIbVZb0xG_N9IHSulnx-S9v6otFsTx4hZlnxDWSU6X2K_NxJrzX-HABAmnCpqNKzRj8K5pgzWpVAtI70-g?expiry=1704412800000&hmac=-brNM6QOS2zsSbU7mHl6zdvjoDs5jSJBHN5oL3CzINU
+
+Ahora obtenga los detalles de este repositorio para clonarlo en su entorno local.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/PyqHppT1SJKPih2Px_bbnw_dcd26616861e40cd8607483008733bf1_vz-PKasVsl3YjZOJvGbbSFdBZU56x1u6IWvtZh5ylnZelC3_5Gp0Ti6m5lzBGI9ZeIOU19GML6b7f6llOQILqpkvsxdeuNEUusN4nUMcEACxVX-6iyWV5ZkKD1GgQzvKhxKVrJvYRVb1B5j1dGZIlG--kqdYB2FqBB_neHh_8bTYD-aQe5qXW4njuHmvJTCFkTChPf9fhyTmTmEqADUwZmVZgdmJmVfnYaXgRwvHGWc?expiry=1704412800000&hmac=M20F2pbAa6l3w25TjEEml1Fsws9mx9oST-QfY4bjJZk
+
+Clone el repositorio en su ordenador para crear los recursos html necesarios.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ZQOCGn5nQqu4o-Cvk2mujw_0d598f7f49ef4161a9cc5af9e329f6f1_hTzYA-HVPWHrvJ4WlTN0RwURLflAAYN1LHHgNygz_l9VbWRMwWWD5xp_q2AS1BgcTrQx6bBXTfn8f-Rw-OSaR-uE7XnE6sQzImrHYkeIGmHipgR_9Ev1YInwDCxQfJwAupeHhA767c5nqbEchfYadUuA8oiZkVQfmtRAZ6T8EjZHwUuBvXJ8nX-aZ2EvSsIjOgUcB79kCtGWXaW2mbHxsD10wILastqsXsiiZ_dW97o?expiry=1704412800000&hmac=qoHdKikN4NwYRnL4aRt0uwKFEu6fBj5Da483G0jvuDE
+
+A continuación, cree una página html sencilla (que contendrá las secciones JavaScript y CSS necesarias).
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/pMwpkrxhQPill33BNmk2Hg_dea71c6b96244fa881ab2a78624463f1_EdmysUmt4Yi3zdmN3VAtOnNjtQcqSAZ9k7YEIqIKtK0FrYiHRweYHCpfLHmib12RBZdg_7KKtJsXTbJQZ7ZA-gn8grGrVJjpp0PTpBku64TunBr02iNIpIARmkczYaGfR9iTElukvfZSF9NfN1G6TAMP7HVVkQJKyAsfN-NQgPJKgAgUra17cZGFPltAFo29gRI_h07TklTj8BHBbDg3LxVzgx74V3e-Jp4D1reM7kc?expiry=1704412800000&hmac=T2syfbXMLIpLmYJOhasnvaGsvUe-luQAj5Cn2WOsKSQ
+
+Confirme sus cambios y también puede empujar los cambios al repositorio remoto en AWS CodeCommit.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/I3bbXRJPSk2pJ3_slcQpIw_8b77652c035e4c42b4ed72b3e18574f1_s0obx0GJR8BDFaqbudMfZCsHPHPEgkjY-LeNCwidCfwZ8cPX_eTRP8jTcHJDv4ZHqSnXrf7wLX0b6lihyUit8nFS0Vl70ldCD14hjrVDAcaYef2KZpa0uegxAjmTJk2dUfIm1W5dr7Ma9rHRHRMDSz9kuueHwP4WJ4VVSQDNoSiUs81tJyMTYCDy9McBc4kXmDsTbL0k1B740KhViQPb47Xe_7hfiMeZPTTY17GgD6s?expiry=1704412800000&hmac=Xi2Lr9s8pMHw9as2aI_pq4UgPsoNjDda_SW2PmYT5mQ
+
+Ahora cree el recurso AWS Amplify para alojar su contenido estático (HTML).
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/n6qbYgzuQuymmyQLa8Hkng_afa8307d436c465897b96944e40f73f1_LTT1lqWMcmOEUBYaMKSuNpr1Pa_mDZdKUQSB4Uq7_5_cOIrSIqrz_vAxkxww69wdN5jd-SoOgw9p84UX5Vx85u0Hl17CW6ZgXpoOpruxpbyE-6_yQbv04PfuD5XsN7iEygeervjIQUE917s_lLzNrtNFksg3CayAcOOnbQ-HgtwY_TfM4_E0GP6RRCcQ7JdoiH4WiYTx0u6VfwJGGB7l-6lJwNxUvIUWuBDWkW4vlV4?expiry=1704412800000&hmac=W6BKbyF7TzLJSz3z4GWg71kMAVrO9WWRvavgCbS2VGw
+
+Comience por crear el recurso.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/9qHdEc3oSl6xNTMPmQoN-g_5f23362f1c73418fbde200214c153bf1_Picture1.png?expiry=1704412800000&hmac=-eQetPUiQ3gkfZWBzIah7WVZIfh_8UQvCcdPvIQb7AA
+
+Elija Alojar su aplicación web.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/lHNz5z8wShGngCukoO_iJg_24da50c9e1f44a03b42b015a081aedf1_Og4riiiJ9uBfLqao1BbAY3iI8Hldl9jREfj36QcamThE7GqEuTem3G76W7JVcGougchd2FbNtXxySaWRCmqealDsB4iYakyelvTTZ2VvxyVlzo4MH__SAX2PvXWyy27nJ5XP2VKP5j8GSE46AYXbIOkE9AkdhYrr-8FAj9bPBvqoWVBYG6eQpz42ioYfFS2EVpr4rS-pFOQceqnt0795T0DIWkfEe7Fs_27kGbV9sC4?expiry=1704412800000&hmac=cGWXlSJyc7QDBz-MAA_CdNXpf96-NRfsnvUtPlW9evc
+
+Seleccione AWS CodeCommit; aquí es donde ha empujado los cambios desde su entorno local al repositorio.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/gVJHwlfET-OmxLrlP6lSlw_a309b6ed019a47f7a1135b70dab692f1_NnLjidbxbQNdOSl1vC2yDQrVBtnblQP6FA2ywBpNipAH9HBERXbqU4rW8YMQlSuhUifxmXU5aG5Y0sc7l1jkVssmzdWeOe7FxwKDHbSAkXPA3AmUFlRClS706fc2CvqV7UUpH0fwpGP4EmQl7bkRXFYwri3otFD-6it27JuCDXqWnKntNZXKoJ7fB9YmEXL5hCfqT1QdiUX3J-lQdN8IjQqiIH8yPaEFzyX73boSR18?expiry=1704412800000&hmac=owUetEoSy7qum8tNm1-MSW2ImE6THlF2gBhE7uhO7vo
+
+Ahora vinculará la rama maestra con AWS Amplify. Esto proporcionará la entrega continua para usted cada vez que empuje los cambios a la rama maestra.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CvPm21S9TMevcYuMyueZlQ_608771e91e40447dbf1ca67ea4624df1_NjbPgW7vsGxpYDmstOka8iwt-xfp6EZp4-sGJv-Ew2kb20RSRXMhHkEKXIFtWgJxc_5ca3Jidr0lQ5drCD8xzUDtdCHxzewDLoHY78e17kXVEDSqOHkp2fiM2VdKvESpCqcl8jd8bUr3nQVYUrqmZlDyvdnslP7OsTBRsX4P0ysuJs_VnXFCQ5YBUkyul4ikdFSnjExJRpr2Xk71NCxvk4K4xVVbrE1AcK465a0xKv8?expiry=1704412800000&hmac=rQ_b9WJwOSlHOLVRl7vAkECiPr1QEur-jEw6j6yNOLc
+
+Acepte la configuración de compilación predeterminada.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/4Fl38sTXTTmT3eet9W75gw_fb241ab2fbc8417e8cc23b03053403f1_BFfqywsNWrOpJ9VnPHn8CUAqjQU8_5-IyeRhJ149l_b8crOyMowXVgbkJ9nogkbWvpKx-brMZJsag93674yp8qZNcMIWCBg9YT0H_9FhJk6I5932KSEUWiH-r85qaT7TqA7GabBX10mf8fFKzZyszw8Hf-b1gUUgvoqzuNQT8j1EDm_cVVjquE2zl2J9g-x87ne7fKoMc0ScMqFQaMdiID7XI3VKwGTeFU6pZ9L_oaQ?expiry=1704412800000&hmac=j-ifru2FNpoidhyloXj1XFHvHFNPBmjs30gpCcxBglw
+
+Revise y complete el proceso.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Uv0IdiuZQSqDCuwTpXnRuA_910d90cb8c694bfb8dcff3ea101926f1_DwVcon7XpHactx2MvsCVCJ9ieuXiJo2EHHcbesNsIczgjpugH0XJzY1F5KxgO0fuZG4LNXs3rDfRLthr3r066CELW09Swh6_I_fxKe-64bjZTUc90AxHfSHSxgGIuIcBS6d4fMz30Ef7pDM0uQXVSPP0S6gAZgU-1A6C6wM-MuBB4m3PcZCXMpojNbxKqMTf1kIfhIrEPlw_iAkYDHXweZKbw2lcrSpy92iQb20A38E?expiry=1704412800000&hmac=9H-30AH2H4Lhb8tHliQgtcuksgJR8O-aZeq_wkRdzXY
+
+El proceso tarda algún tiempo en completarse (aprovisionamiento, construcción y despliegue de sus cambios).
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/f0sCmnQVTByrcqyiKMWe_Q_ca9779f732d64eb1b170119c405b94f1_0DCozBAWpDJginHCu2CSlnEWqsdg87dHreqgWiKlJjCKClWdcGc4ZF5XzOesgqGwYtM_sUxIyVf0E0zjHTwylly0yDNh9bRO8QJYDXQklb6TiW-g8PArCKPMqyQIlrGSfqAaRQzQhc-Qp_cV-K17mg4nUGPwpBEN9Pk2tyUDaLvPp3hwhq_Uu0sJSbNgCUzcwpaBYqKi9avDyGvQGfAujnrB3ZGpZANOeyDQSj-J2s8?expiry=1704412800000&hmac=78zkzv_WSiDdTPgbMs9K6tVOt9ltHlYkHNPKAPOCoU0
+
+Una vez completado, puede visitar la URL para ver su aplicación web en acción.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/qNmxKxKqT6WyfgZ7OlXSmw_b23ae39d39d145aca902821e84ec61f1_L6S5F7Vy8vGqvcx_TP_58kPj0spsx5-ePjifLLVMX3XUfxScDIQeN7PyntZ8ojNQZvBGi5llbDJUfPMmbq65PPHcjffJPx8V8UzPAhXaslrCx9qMRGw12enbXo5gWVKt1sUdhMczrCmtQe8Whu4SEKiKFLsezDkkblC17v8YHsMu5IWCilukqoZNAJ8O6i5hrGUnTWuuoxJY7d1_JlwiQzEuUGwOXqDJT8LGtFdRPh4?expiry=1704412800000&hmac=WVQu8Xuf3gXY73w6DwQ4HkdslILwdO5X6cgCTaB_IPg
+
+Pero esta aplicación no está completa, aún debe construir el back end para realizar la capitalización e inversión de la cadena de entrada.
+
+Comience por definir la primera función AWS Lambda para Capitalizar el texto de entrada.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Uw2JITlQQq2UTAT5AEQO3Q_e3d35361ea814b50b8ce05375be262f1_xebhkTZTVKNfvlE7FHhky9qxD7GAYTQ6kcpkdTXOAlzLzPGL6HaAhfzcSDRasiRbbkxJ27hhoz_56Ay9R2MIzkfZvArbKOyjQ_EOTD6gf1Y19Cl0eRkj2VlG3gskQSbNLYZNkVUA4oiwQhHdBoa0pbCUV7YXIWjj1MlzGW-KAhzw2LU5RX2I5RwNR0Fv11saayCA8NcKEIitgfw4jfLzeiJ-rHVQBe2U7zMEnF2kbkc?expiry=1704412800000&hmac=0nLcBSVwZN0wo9gblV6OdvE0b1qmmbliEuKXMCO8QCw
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_v8_SwPKQLS6MGmcXB2uGg_f83057b39a954607a4ed75ca09bc83f1_9f4a5OyOMVhF1TEisiZcdlcqltUijCRlKWM9UW3jT_vQipR6U5pfWgxUHe79RsTczdtiR5YvcRgoNk9WiWzfuSaDuOKBpB0ltObrE8_rAZB84z4fQApPemn_NCkpgsRt1u5ul8PE8WBGGasrpTGQr0VeZ1fSF7ez8YmYnM_FNMz1RnlQEXHHJ8m4kHzrhaewm_u-hdmcJHf2ZXSxu3utxUHeiT-SfljBG3cjVmXoQsM?expiry=1704412800000&hmac=q7XrsnSnk4q_kGfOrwrR8ED2mCGjkwFHpxzXl16U-4E
+
+Proporcione el nombre de la función y el tiempo de ejecución. Elija Python 3.9 para esto.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/pVgAcaD3QxmhbSV9wiVcNQ_34b474172a2f49b19d51856627b315f1_gqu6uZw6wu-BhZzFqsbJzDAoc0AWnvuMkmtT-ZPy5poJJ6U-dCvuR6w-n10jTtn0lSnUZfjOH6T0k2OMYUlsebG-ZanY42MYZyW6aM8oM_B7GydDRexAyByK7bSCSCqi4AJZJliTLDyRrps56B-6UW0Lrjr992-RxH47805Byz0XkENJe_7PS5YIlNIdr3o_dt5LkOBdnLl26_rA8VLnpa_iLX7GqDrHvG8MYhljpNo?expiry=1704412800000&hmac=OJ07ySmborqIGu-azQDxrJtTxQx3vlFYwFJPk7i4FDs
+
+La definición de la función tendrá este aspecto:
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/DNDMRcZzSgWGezKW3QqkwA_44f19f0b6e1642a5bbf1ce04d91de7f1_UMxbsgWOFDCRDSmhsP135GAG7lUkNFh_WUVr3Xn8jQSkdobN51fwRVQnmnVbUycSwjKcFYk2FlxaWPtvC-Hnng2laESe-nYyhWCDkKsJ1ykZpBMvEiN3Ls_wbj6FQ12bZo6UJoiSyBh-W2sl8bynDzAsb2BWP7pBWgdM1KHOccpBo3nHFMY8bysREaOm4OS03_96JiKbt8mEWk4o8hdNlOivHut2vBpCLoT_mrApnrY?expiry=1704412800000&hmac=PBuabsz9eFqS5Sc5DdabpkUOoe-UVitRzIse04kiy_8
+
+El código que ha escrito es muy básico, ya que acepta texto de entrada como parte del cuerpo (es una función HTTP POST). Y devuelve el objeto de nuevo como texto de entrada con
+    el valor en mayúsculas (por lo que puede encadenar esto a la función inversa).
+
+import json
+
+def lambda_handler(evento, contexto):
+
+    texto_entrada = str(evento['texto_entrada'])
+
+    texto_entrada_con mayúsculas = texto_entrada.mayúsculas()
+
+    return {"inputText": capitalised_input_text}
+
+También puede definir un evento de prueba sencillo para validar la lógica de su función.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/b8KLG0FLQjiZEcxaORaKoA_973920eef4c74405b64167f37ff278f1_CJ5qRXxdF8Lgk6WqjzcwaPaawiwmxasD8xIu1CKOl9MT_UzAk1PghIbS9zFCKzraWtYlIvG12zoCDkRASFWeouJpr81Xxfl7r4GIntfeY7iKcby22kJfI_zja6jn0E_1bzwKKuOG5Qtn8bjQEVRUKNX0M8MaDv60VC8jIz5tvywV2-Q44WkR_5sIk2zrUFoYUxnGGKFBsKOwL4z1oBvu4OpOKm9-n1YGlnjNIFjh5I4?expiry=1704412800000&hmac=LZb3aVF0fdiRj1XEweBzm3TPtooWWX9xFIryZeV4TKM
+
+Y una vez que despliegue su función, podrá probarla y ver el siguiente resultado.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/7BByV5hER7KEDqt0iACIXg_14dbb8d8b6ee445c8094e98bee7cfdf1_tGAFbBQZ0QEMsU-DNEgqWB80J-RDcyfOKfI_Tg83osmqYwe5FafdTk62AgeFtPel4Vv-P7t91_FyojA8i6zKkflZBSzf-HFK4wnRhAVXFsMRERb1n1OHoUxB4Sfbld7bSUxzI-FNNfpYY8FIJFRZumh6K6LIMHy5KbpDYo48MH8CFPmkK3yqAIL9hjMYM3cAlxpHI9V_RrBUKeq152acP3X1v31zLMqQQv-A2V5ytuQ?expiry=1704412800000&hmac=rteFDNEh6vpmXfDsuVp9yCM08vrHiQeTpj-IA8viUEA
+
+De forma similar, cree la función inversa
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/p626k2N7TCWvhnfr3d1GdA_61d61c55a3724407b5301282c15aa0f1_S-e3szB7hxJYAQ3IgsPW1lgDuoaNye04gycOBgsfWz51pyXPDX88oDmRyjSpvr173jupxI_XR6ui2DGED4AfKPzn_D6s3bWvUatIDg_jpFIJlJO7Bcwee9mPmdDkxpSFt_9uVE6D7RlYNWinEu1eafJNUhDxO3DG3EivDprIHLjf8cYxZRm2NL4UoSC_FWgpakIQs4PEP4NdIk6hbcE8kZ0DQ6VIlSUkOi5QgAuW_9E?expiry=1704412800000&hmac=5khlIMe_QMnNOwvna00coxpfXGINFMHdZrjop9s3z_o
+
+import json
+
+def lambda_handler(evento, contexto):
+    texto_entrada = str(evento['texto_entrada'])
+    texto_entrada_invertido = texto_entrada [::-1]
+    return {"texto_entrada": texto_entrada_revertido}
+
+
+Y pruébelo
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/sWeo_n_qRP28lhDwTspZgg_f77240f0449b45e4a48c814f1d36abf1_U_X28InAjI-N5HYH6EWiSSh_o1FFuK3iHdblIxGICJep1mdkWGBgCJr7o2UB9W6LRUnKyvWyzuFi62xt8JLxNTs8SaluvqjESUMV4g9y5AWBBwIVtQSZOU23RgffSBwwYHDDyAn5cU2bHBSATzsFNRYB6TcGKUChslSenDWxDEfh3oq9mnixfsJkGCxTA16cTxXR7xikSkD2veFHJkshgsLjZN_B-qbR7wTmsMbQOzc?expiry=1704412800000&hmac=aVGyIwNNlOgmyXsrI65kiU8RxGcQ3s7wuOCIibK8aZ0
+
+Ahora que tiene dos funciones definidas y creadas, puede encadenarlas utilizando StepFunctions.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/exAG8gNSRc2KPLJSCuqWNg_b57e0167fa88405fbb73a306f45470f1_zl5H5EdZyxfex0uc4yD8n4x_4CiDhDodu3wdPFR-F2I37O0WqzUT5Qr963WZSdwGT5owAVU0BBYQOi8mqRd2tvUH-7rvoETe71OGRivCsklZAIiLmmOAb-Boi7BtSsBADZCt7L3iOzpVKYCcGMKrLSajQPi6taqh1jhM3mK9TCZ7-0wTVqUE4ywHL9mdvgrksrHRgCt0ebapXNvUll7s-N36cA7IChkVdR69V2AVsf8?expiry=1704412800000&hmac=kzS7PGa6_-KzaOGBZi03WNTiWroeccmp2O4vThqzX9A
+
+Empiece por crear una máquina de estados.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/TYET5oY2SAK-WLDOI9V3LA_860eedc6c581417c9c603ae6ff6584f1_crGgeVUThoc1peUhy-MOaoBfoCNNnHdCGQ218fh_n6adBQ9SL3UI9IDyF31qgc7a1J7d94YcYDTvP75fW3s7hWdbh2nYJu0lwIm6N4_gWpLQ-__6TmQU2ehsY4DCxp95MqZRUSdWHE4IkiG73RbaqVoALTG8Mp9NFhiNkG5mhdt1ALWbx6CFTgbTWzGPZtEQ_5_Lso4Hl1FsMI6OvjBmxFCsXgYH-IAAfXgVHnbWQ14?expiry=1704412800000&hmac=Cicg9VhxPq7lCHXITjbjf3xy9DWzRmD4zMtZohQS2vA
+
+Puede optar por diseñar el flujo de trabajo visualmente para mayor facilidad y utilizar Express para hacer que sus funciones trabajen de forma sincrónica.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/2gGcSjtDTb-_b7iI8fb_KA_6d124ffc36ef494da1079f0170583ef1_4w9OdpKiJ-CSXYCBMbRWQ2FRrwx6RDbUobwdCcS-iBTH4sqUPI_b4vjM129kIrVIlZmkMCWRzt9cs_GCeJKxZDDS57J13Hn9xXmrKKDjMp3fJgcHiq4s9PPG6m4Oy4vKNvqm0zrqphve6p0x8HAmlTmrzjKZ4IoevmQoC7vr9oqC1MF9utbMvUQzZEyI1VD386cj1ENmDtvWzXHCV4kqn0ErpQv73jU7IDa1ygYhw8A?expiry=1704412800000&hmac=rTj6jpQZAX2ELOwtW8tlCMNa1iOISuY4YhSxf-kfA8E
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/jqUC0p70SJG4TAse1kNYEA_f2039b1cd79a4d0ca88792b04ca56cf1_Ss7FdbGQ6YV8oEpK_vkH4l9yLlXBtFDleZse5czMGV3yn0XVGYAaDyVaao5I2L5DBd8q--HHyrWwpI_PkG9O0Md89FSPy2l1aZKVNzpgdElpeRqrVLrvyqZLdRdos603wE5xLhXYGyolxZBJlkIwWBrqDyK3MCBd7XhbDkCJ7KvIATkmCvu8Eu8Mib708nJWa-h0L5etCtwwWR1TDtbjywNUN6wrUYoRjPkNjJWTjNU?expiry=1704412800000&hmac=uAZxJ0nh_6x1U4nGw91bJo1xU9rHBnUFAoqwqBF6ORA
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/KryhL1EET7moLLPhDmYERw_4b802f159e29427dbfe9a29b97e165f1_niuyvoIy6xwfuxkLFkOnW40jSBQz9Gc6fEqm9fV1knIrdAgCRHNoSQN_32cZkyUvw2giRL0GVEIhbs2a2rB5OH6rmN6gGeceedWNJdbmnCocYSMmOwtpOfa_FvQN9RqaCwvmM_7plDRoBP48irEUen8Vh6nKnY4HEXHN32rYNtFQJymd0HSzR4ehog_M8I9GD4sNC10Gn32HScNrKck6M29I-B2TRH28sfHQ4MiJxjI?expiry=1704412800000&hmac=9xePqAfm7dap5IiKfTbglG240KaW7PAds2FzgBQfGtM
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/cFnxAb5AQpiaM_tdkOE7XQ_bf0cfe656c1740ba9c5ff402d0fa31f1_I_KnraLVdmRRHZl28cXkqdhrrsqiy3SCp1ITA45Z_6pRXrYGaP3r-ds6IvbMEAchuyxHYP8bI-C7WJqNAUNgOSi42vgYDu6or2Eovom1J_VCv9ynsgsYNEX-KiHYiLv4qLZNJ597UoKJJmvUCSFCjDJUtEkVRNYY-V_ibnpBmR7JrNK-iHSLhPKDKX_Mr9KfcMGzF3PAEbrqApRMYPkk55Wcby4qt_HeV_qbwak7Xvs?expiry=1704412800000&hmac=NhSzFP6dueK_O4JmkK99Ei3qOO5tZZ2YQlHq03ElNGY
+
+Haga clic en Nueva ejecución para probar su máquina de estados.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Qkz8NXyQTkOOHxUmRFC8dQ_972f90b2cd7e4028878ee91b5502adf1_OzavboHPDBTj3RkGi3RGbCpzZQwmo4d68W6N8C2iVqWAf2nn1-Ni2_7uk4swT_995SaO4-jkDPsBdbBAUIJ_L6U0bMzuccBU9C3EIt5X0GMPFlCq2O7GMhjS8ge6lYsizxZ57gYlmPHJVcYyS5KdOvHN_1CEPUeiw4FhhCe9B1zqmd56u0qb1-e3cOVDmuQBmR-TY_240DHpM5n5Gw_PK4ctQ7cyJokIVkinMNA1sxk?expiry=1704412800000&hmac=TwMRs-AJFsTM6kchA74zSIjts1C54tRLipNpAKWNIao
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/7YcZHHtZS0mxk3xlOJw9qg_316200e7b0524437b9e4bd104a13eff1_20KZfsZA8sh_iSMvsc2kFeVRItyV1-XSibSVjpLUP8qqLb2zs6SfIpZa8nYkD1-WMmy9nmGg72VSsVCvPqF-b45ql40Edh_P8eAzEj8eAGp7yzYMH5SevWR58zydVDi6iYBPFa6mh2rZzzXD-6jbQvhjtB1anKke0-z_2gVqJB1zUXDBEBHbgH3WRUDWdQomSDm_9xt7alFx2n80GlaJYAj0h-W8b1vgZJadSWr8pvQ?expiry=1704412800000&hmac=NARAFsM8BGE62K6eve-r_JIegKfgMJrZEEuaLaJ_Lrk
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dn14cO8USVexDfs9sTasmw_b1f8bdefd65c4374a00bfe6c9d8b0df1_NNFkiEjBPugfbgQ4bVzWLAFTvn_CtGL2Mz2brFvSi0nF6KYGQLFzsTQCBwdATuODhg3mcduXcSlxWMGl8ajWmvyfMEM2mJ8bQCYwrt9Oz7c62pI1dUJyxVheLVtzx1y8oZlXupPsHpT9jIxqJmvd_0nCFdOa-zuk6WMSeXIJZSX_2fzKJmuNGj4jxuo5IsH9R4hGz6uKo5ZHmhlxcCkiRylBz3DRSSecndBEQOzgDFo?expiry=1704412800000&hmac=wa-fHu7TiC6duBNJSskcP06LEI2OK4GWsjYcR_OO3Ak
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/XxAbAvWdS_eU6W91RbIvsQ_b6bd1c59ac6f4927b872dea2031843f1_I5eOY6Tn_qXRh46fkfct-Mu4_HQbvlNjb53VVoWGKqbwJszmQYazCN1XliYfyGHmUBscL6r6WoPhHJKS2mdT7y_mjVERt_0caW69WHWfU6jtH-asZY6eKgoUaxMCV-Vrkd1XQeXJXFGQgVdd5ONb0PchFkCzdHNeRIeudCkx9fyN6uVOkWM8TuAmOkH-zxyugp1JB0U3HxNqdWPtOSOCb1IuYAUVE7LbhLaS_xEM95M?expiry=1704412800000&hmac=ymgm0caQVD-BFwJotVsQEcKCHJ7zLg6nwXCohNIn4VU
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/uU61zv2uSxyHpIF4nlVgyA_2df573188e5d4fa8965621c8c43881f1_5CFYj0ge3hxetn3PmSeOcFKNSXVim3uTjoLykJmDZZadrfw73KbrBa27m3furAIccppkwMnXgiz7Hb0x4BVo5AxZLvMXogoQTButEyh9XOFfRXZDyELTElziirKQLMYjclNILGhobUCBu0yADdj7u5LQZYQxgCK4BC2A7wac_yB_aeafRbC3rGZ_aBU-mn78NhCUToiCFdM0vsattdPDDJlmLkUMi-zi8X4hnweg2N4?expiry=1704412800000&hmac=Os0QEpQDPcTwn86lBWC7E4bUAC_jBDt7XbtgkuNixbY
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vXY7T3LTRNKYtVIitdB1TA_4f2a9e8396fd413d989a294b31e483f1__woazuW9N5m4dc9cHVo1bIXeE9xqw4jAAHgxHULKsCcVYtoPoQuhE0W0Fpc7lcVJx2Xa6xqACraNWFcKsiiXwcJiMazTh_rrdbg4KWxAO7IaIzIeg1ez3jAS_QTI2dMKFa_t30jj2r4Q0FPg8FT-2Sedce9LnqlNPbE1T4G5ZCVIAnzNomYvToRrkEB0YP4dtPUbBqzKU_gUpDhk0rQsbG-8hhDTj5p_3pq8_3PuIDM?expiry=1704412800000&hmac=sONBm5YlfT0LsQQGJswxoCsquj9AtI4YtVkMffIuRq4
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/YRHNyFR6QEuyG85cInlBsg_799d288d5ea747ca82fcd932650829f1_MF43PN-Ke0M_RNJONLq0eEhvUTHd1oNjBZ2QznkiQY6xGtQlKT-Btul_9Hu0YNTFn_X5WhPaSX8JXnpt9zfVz2P8b9GVdHVKaSXuW73Iy91_xIg9RdsUs1PtfDcj6vTUZoZzUPCTQk2zvw2d-gK-VyXkns0EcPhbJS2rm4mMstq0928YO3_rUFLRo3EJTONm-dQsbr1pM8U0YXBeSIbppLhk4qFxgiT8_C0g3gzLE7I?expiry=1704412800000&hmac=XRYLDEeynkSaHjdf9rr4Z8S3RIMwMmZIj_2pH5CqwO0
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IbgGxss5TwKe2u0WQfgz_A_9a1e062054ee4b69b746227793de89f1_MbWYXf68Q6DKbzzLfJTqZKxRNXZy3GwkwSAAkSItCj5RxvWyOZDrFwu5jLj3yxfQ3RT-Fwx8iqp3IxEltOIV9YxxVDhM8_DuGb7V0wnw0WxBM2JycrmymJXn2mrdDuIL_J3OBZ79i6rmt2YZlSHDYxPZXVrZ8vTj0t-A1Wuh5jM9ArmsFU8udHiK5eRvEHCEUFxpuFzGxcAJYUziKqLMuEaDqB9BLJAgQSv06ialvH8?expiry=1704412800000&hmac=4kQ7tVpo77GNK4LDkzlacAyqWvyzFe7D3vi2wh5vuWA
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/lTSZH_utR8mYvYS6lSO4ug_176c71700f96423d94a32bbcc2aa31f1_9RtpFkChuiWvyaxQ5qvYusFDhOAL6Ev6F-bGxKnjZn6Z_W185oX9c6VXmPpce1Wpp8zF2HcPehzN2IwNI1OGfDeGfmKqrIi22pjWxts9g0JjJ3d2cSHvRrGL8ySZNHpHqhLALg_E6O1KM_kz8mcejAufUqYIdD9u6VQecod2TVtHzKU3kK9lmNNfaDGpAR5IzOiEo2gDNQVISJR0mI6lid35s6cxYJZYsCWfrsVqFwo?expiry=1704412800000&hmac=cn331RS7yeS0DlYj104UmGdrxYzPMGuK0AoYZ5Bo3pA
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/he5fsYhhT6SfErc755nMaQ_dec123b915eb4e508b12331aca9780f1_NfbZGRhOFfkGTIyx-eRBE1elckdUUF5Gg3yA5JDrfTMx_z7a_63740USkGxIurvHyc8OBVq8AHl0TEroqkME1DVmjL0euRFOnr8y_L4O49yoIRXGbGSWyZT28ukoFwxzHs2KmfJFFQM1pqfJHlWBuklP888Sy39mKwpg5kVsmWCnOybEsByrctvwmsxu1W3YQQJEUZCtc7XlzdpkeKIhHjEynfkr1HNwmocwC7of3Zw?expiry=1704412800000&hmac=WMSnogqZ3kaaZbICaORHoH0erHnKOcccx5MzmFUzpEc
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/fe9KdzKLTtOcupGwblkmOg_30c9acf5894f4eb9add80e95d0d59ef1_7Jg2uKCJQv5KUNwQpN30jupV-2nlYv6LXvyEF0CLGr1nW452m43SGBwYQxLUYzKIR_TzbyTSIh4pFJsCj3IFrt2EK_UBj-K6YoNysCQvXjeWuyVuQ0EJ9v1yEmAozw5LllRxr3FT_1PviOpwxxwS8BBs3Vo4FbEEElx5E7gQgNL7adblzUQKpbm3B3kIGwUFPHGYnVq1e7rmNX5WXYb1V-XaowiQJxCgTohK356UBXY?expiry=1704412800000&hmac=RkEhUmTTU7qNMJkkwYACeqRR5VBBVsZLHVBgHFMh3EU
+
+A continuación, defina el Stage. Un Stage es una referencia con nombre a una implementación, que es una instantánea de la API. Puede utilizar un Stage para gestionar y optimizar
+    un despliegue concreto. Por ejemplo, puede configurar los ajustes de Stage para habilitar el almacenamiento en caché, personalizar el estrangulamiento de solicitudes,
+    configurar el registro, definir variables de Stage o adjuntar una versión canaria para pruebas.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/glq867zYQUWwrYzJyJIixA_35503ccbba24428fbed5a87f36ce96f1_OFStc11qyJ1l4Ae0MizxliaJGkIqx4qCoUf2Y7OIpxDYxq84VZklT4nk3QQFuGLivZy-h-g5EVIMzBRt9zlEO-SL06Oxnd6NfqZXvKqJwn2lTJNgqU5v1l36SbwD8-cuFNNYMnqmyu9BVInYd3Inmwd3ccwM1IhPnFKJesASli_U9ZwlzBPf3aLffyJkCk9nQ_fhsZVccH2wINiZW_VCNBj4DWG9Z2WqZugFJmYIY0s?expiry=1704412800000&hmac=WH86zD8TqEgkoZPXnQ4k597UI39DoARhuH2__XGdeFk
+
+Genere el SDK, de modo que pueda utilizar el código generado en su aplicación web y llamar a esta pasarela de API.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/4HvJ3A6cQCmMzvDNR_B7lg_0d832835304947faac92c2cdb6a685f1_FWPXbiIce-OlXHYddxrFN0s4FPz1hr7wYWAdEfhug8o9ZORCkM_bSicAWXQ54dyQK48uzJNFs6LRhcIVgDYSscCHesGrh9E6pZAb0RkelT2TwugEhRnmqasBe1EXmUGoRedR6jeozDAZ10mAT7tJDOV_lbUH7uaU35HWBs7JwpByXA4z2X5j72hsaBXmyI7ly5vckvhicNmnJhEw-rmZJpL6trk_aoJn8CHL4t2XS4k?expiry=1704412800000&hmac=sPpQot62CJlWCWMpfeWK_6oHzdf1uGNfErtjQq0BqPY
+
+A continuación, extraiga el código JavaScript generado como se indica a continuación:
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/L-1MErIjSKmvQdUHdG53tA_42468a46b35140d58c67b3ced00481f1_ZKZ4_E98aMs8i51Us2WfwDPmHMmzo-kJKVPJNgBr1sp4vfoUWHrE3bTrs2E5ATdpPLDmbJ4-WqM5yy8TUK15MtXEnqxwRWMSxC_Mm1BPlVkj-BkRzmzuDIOeQtAa6KN1bUJ1gBgOG7XuppNqsgFCs5cNOl3lLYCtOfCpnlhEy6F0D6GOEzIay1RqyhQZpHnwe1i_fHj9rY3TNvmi1dvw_VLtEvqrZDCcrMM5bXMiiFU?expiry=1704412800000&hmac=FuQoy_zenPoUa5nlscrqdLEKEdyf8hI9U788yP3OpwE
+
+Y finalmente despliegue la API (de nuevo en la sección de AWS API Gateway).
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/m8zG23O4Qcm03yElTWmYDw_21f5b7bb6f604e8fab18cca44187bef1_pUTzu7ejHpRaE21C_5cpTK61Ku_iAQkglwZOtEOU25DE2E_OKGd2rIFrur6Ju9uiV2LEqDhOWuYxuHh2oe6sBb9QP3l-LZPsPhy34TUL5lM_TKz14H7wJ8_2OwcUp4YVC9TDSE5idZQ-UPpF3tgbDFkhuKUAWbCce9pVVIO-wTBFIiA0dPIk8lCAAut3ZZ6-lP-11tN4bLVEzXexucZNZ7aZJJg4PvqkJufxsCm1XXg?expiry=1704412800000&hmac=y2R7yFUkqMvX3Oa-K8i4GSjElhbO4iUq7f94s08KO9Y
+
+Su HTML final tendrá el siguiente aspecto; observe que ha introducido un campo para mostrar su salida.
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reversión y mayúsculas con AWS Lambda</title>
+    <style>
+        body {
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .form-control input {
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form" onsubmit="callLambdaFunction(); return false;">
+        <div class="control-formulario">
+            <input type="text" id="inputText" placeholder="Introduzca algún texto aquí" />
+        </div>
+        <div class="form-control">
+            <button type="submit" value="submit">Enviar</button>
+        </div>
+        <div class="form-control">
+            <input type="text" readonly id="outputText" placeholder="La salida aparecerá aquí" />
+        </div>
+    </form>
+
+    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="apigClient.js"></script>
+    <script type="text/javascript">
+        function callLambdaFunction() {
+            try {
+                var inputTextValue = document.getElementById("inputText").value;
+                var apigClient = apigClientFactory.newClient();
+                var params = {};
+                var body = {
+                    inputText: inputTextValue,
+                };
+                apigClient.capitaliseandreversePost(params, body)
+                    .then(function (result) {
+                        document.getElementById("outputText").value = JSON.parse(result.data.output).inputText;
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            } catch (error) {
+                console.log(error);
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>
+
+A continuación, confirme y empuje los cambios al repositorio de AWS CodeCommit y espere a que se despliegue.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/qKAO8kRUTDeARkisNyjdlQ_dea1590783dd4d22976db9b9413aa4f1_ltyxOL9MdznDVIjOu1a1xF1Db_Kt4QIuRLNK_iq3YnwC5mO3DEd1qhvFGa4iWQDpo-GpbSGh_QC9PIFGeUwDBkEzVjSbXuXGR66y9KVw23Y5vrV_1l3J2ZBEbgJGPpPlhR_zy9iMshuC1Gw9ANkswQWJQn-1G39se7Ciqyho9XW-CsnIR-GgMZkvfXELszpG51VkgFkivk2yz-Bykl09mOm2T-YOBL6_O3-aAJaI1iE?expiry=1704412800000&hmac=iF05hICpxnMuyakaVUipBQU5VttIGTMp5IFoOrCwaCI
+
+Y ya puede probar su aplicación web visitando la URL que le proporciona AWS Amplify.
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_i5jTbbUT1-U9TI-PPMtlA_35500f7a58b048e58aaee9ba2b370df1_CO2VvEr08ppZJ-tlSiU7SXhqiSZnwkkATfz6z0Pi19hrjlkZkgge9EDePnUvQW51aA7DOtMc4wU9zK18h6KDqItxew2uZocgoYF7Fa0f_-mafV-9Htlgyf1nKQg1j25KnmUAXJJvuq82XEhwDcCJOopk7xjYZtsooIhFAW1JyqsLoE1XmmQgiDqY5jfkVmHFCvK5YgJ8_pCBGtXHedxDuikTdPS6A9052WeCHdOnH4o?expiry=1704412800000&hmac=5bSP0LMHDv1zyfXFrO_d66ae6vDYus8rBubws5xFwkc
+
+
+Conclusión
+Los servicios proporcionados por AWS, más específicamente en torno a Lambda se pueden utilizar para crear aplicaciones sofisticadas proporcionando tanto front-end como back-end.
+Y puede construir todo el ecosistema para su aplicación desde el repositorio de código hasta el despliegue como una aplicación sin servidor."

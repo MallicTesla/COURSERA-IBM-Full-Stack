@@ -1,0 +1,76 @@
+"En esta práctica de laboratorio, se registrará para obtener una cuenta de AWS.
+!!!!!! Este laboratorio requiere el uso de tarjeta de crédito !!!!!!
+
+Requisitos previos
+    Debes tener un correo electrónico válido
+    Debe tener un número de teléfono válido en el que pueda recibir mensajes de texto.
+    Debes tener una tarjeta de crédito válida.
+
+    Tenga en cuenta que tendrá que utilizar una tarjeta de crédito para realizar esta práctica de laboratorio. Se le cobrará por cualquier uso más allá del nivel gratuito.
+
+Ejercicio: registrarse para obtener una cuenta de AWS
+    1- Vaya a https://aws.amazon.com y haga clic en Crear una cuenta de AWS .
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/create_aws_account.png
+
+
+    2- Proporcione su dirección de correo electrónico y un nombre de usuario. El nombre de usuario puede ser diferente del correo electrónico y se puede cambiar en un momento
+        posterior. Haga clic en Verificar dirección de correo electrónico . Esto enviará un correo electrónico con un código de verificación a la dirección que proporcionó.
+
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/aws_email.png
+
+
+    3- Copie el código de verificación del correo electrónico, péguelo en el cuadro proporcionado y haga clic en Verificar .
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/confirm_vercode.png
+
+
+    4- Establezca una contraseña que coincida con los criterios. La contraseña debe tener un mínimo de 8 caracteres y un máximo de 128 caracteres. Debe incluir un mínimo de tres
+        de las siguientes combinaciones de tipos de caracteres: mayúsculas, minúsculas, números y! @ # $ % ^ & * () <> [] {} | _+-= símbolos. La contraseña no debe ser idéntica
+        al nombre de su cuenta de AWS ni a su dirección de correo electrónico. Si la contraseña no cumple con las condiciones, no le permitirá continuar.
+
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/root_password.png
+
+
+    5- Elija la opción Cuenta personal . Ingrese su información personal. AWS garantiza la privacidad de los datos. Puede encontrar más información sobre esto aquí. Lea los
+        términos y condiciones y marque la casilla de acuerdo.
+
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/personal_info.png
+
+
+    6- En la siguiente pantalla, deberá proporcionar la información de su tarjeta de crédito. AWS no carga su tarjeta a menos que utilice algún servicio pago. Proporcione los
+        detalles y continúe con el siguiente paso.
+
+
+    7- AWS requiere que se verifique su identidad con un SMS o una llamada de voz a un número válido. Proporcione los detalles y complete el control de seguridad.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/identity_check.png
+
+
+    8- Se envía un SMS o se realiza una llamada de voz al número proporcionado. Si eliges la opción SMS, recibirás un código en unos segundos. Ingrese el código y continúe con
+        el paso 4.
+
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/verify_sms_code.png
+
+
+    9- Elija el plan de soporte que sea más adecuado. El soporte básico es gratuito y no se realizará ningún cargo en su tarjeta. Si eliges las otras opciones, se cargará en la
+        tarjeta. Haga clic en Completar registro
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/aws_completesignup.png
+
+
+    10- Ahora se ha registrado correctamente para obtener una cuenta de AWS. Puede proceder a iniciar sesión con su correo electrónico y contraseña.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/aws_congrats.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"

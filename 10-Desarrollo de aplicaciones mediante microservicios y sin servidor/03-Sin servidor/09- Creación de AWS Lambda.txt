@@ -1,0 +1,118 @@
+"En esta práctica de laboratorio, se familiarizará con la creación y prueba de funciones de AWS Lambda en Node js.
+Este laboratorio requiere el uso de tarjeta de crédito.
+
+Después de completar este ejercicio, debería poder realizar las siguientes tareas:
+    Crear una función AWS Lambda
+    Pruebe la salida de una función AWS Lambda
+
+Requisitos previos
+    Debe tener una cuenta de AWS.
+    Debes estar familiarizado con Node js.
+
+Tenga en cuenta que cualquier uso más allá del nivel gratuito se cargará a la tarjeta de crédito que utilizó para crear la cuenta de AWS
+
+
+Tarea 1: inicie sesión en su cuenta de AWS
+    1- Si ya ha iniciado sesión en su cuenta de AWS, puede omitir esta tarea. Vaya a https://aws.amazon.com .
+
+
+    2- Haga clic en Iniciar sesión para iniciar sesión en su cuenta de AWS.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/aws_signin.png
+
+
+    3- Ingrese la dirección de correo electrónico con la que se registró para iniciar sesión como usuario root.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/aws_root_signin.png
+
+
+    4- Ingrese la contraseña y haga clic en el botón Iniciar sesión . Esto lo llevará al inicio de la consola de AWS .
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/aws_pwd.png
+
+Tarea 2: crear la función AWS Lambda
+    1- Cuando se cargue AWS Console Home, en la barra de búsqueda superior, escriba Lambda y verá que el servicio Lamba aparece como la primera opción. Elija Lambda.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/choose_lambda.png
+
+
+    2- La acción se elige de forma predeterminada. Haga clic en Crear función para comenzar a crear su función AWS Lambda.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/choose_create_function.png
+
+
+    3- Puede elegir Crear desde cero, ya que le agregará su propio código.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/create_function.png
+
+
+    4- Proporcione información básica para su función: nombre de la función, tiempo de ejecución. Estarás creando una función de Node.js. Entonces el tiempo de ejecución será
+        Node.js 16.x. Permita que el resto sea predeterminado y haga clic en el botón Crear función .
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/basic_info.png
+
+
+    5- Después de unos segundos, verá la página de detalles de la función una vez creada.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/function_details.png
+
+
+    6- Desplácese hacia abajo en la misma página para ver el código Hello Lambda predeterminado escrito previamente en la pestaña Código.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/default_code.png
+
+
+    7- Reemplace el código con el siguiente código personalizado. Este código tomará el parámetro de nombre del evento y devolverá un Hola personalizado. Haga clic en
+        Implementar una vez que agregue el script.
+
+exports.handler = async (event) => {
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello '+event['name'] + "!")
+    };
+    return response;
+};
+
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/write_code.png
+
+
+Tarea 3: probar la función Lambda
+    1- Una vez implementado el código, debe configurar un evento y probar el resultado de la función Lambda. Haga clic en el menú desplegable junto al botón Probar y elija
+        Configurar evento .
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/configure_testevent.png
+
+
+    2- Asigne un nombre al evento y luego ingrese o copie y pegue el JSON a continuación para agregar el parámetro que desea pasar al evento. Este evento se activa cuando desea
+        probar su función Lambda. Agregue el JSON del evento y haga clic en Guardar .
+{
+    "name":"Eliot"
+}
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/create_event.png
+
+
+    3- Compruebe si el evento se ha creado haciendo clic nuevamente en el menú desplegable junto a Probar .
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/check_event.png
+
+
+    4- Haga clic en Probar para invocar la función Lambda y ver la respuesta. Debería ver la respuesta como se muestra en la imagen a continuación.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/test_lambda.png
+
+
+Tarea 4: eliminar la función Lambda
+    1- Ahora que ha creado una función Lambda y la ha probado correctamente, puede eliminarla. En la parte superior derecha, haga clic en el menú Acción y elija la opción
+        eliminar .
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/delete_action.png
+
+
+    2- Cuando solicite confirmación, puede confirmar que desea eliminar la acción.
+        https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0250EN-SkillsNetwork/labs/module%203/images/delete_lambda.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"

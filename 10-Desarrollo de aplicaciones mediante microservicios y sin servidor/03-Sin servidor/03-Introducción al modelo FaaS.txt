@@ -1,0 +1,53 @@
+"Bienvenido a «Introducción al modelo FaaS». Después de ver este vídeo, podrá: Describir qué es la FaaS, explicar las ventajas de un modelo de FaaS y describir los principios y
+    las mejores prácticas de la FaaS.
+
+La función como servicio, o FaaS, es un tipo de servicio de computación en la nube que permite ejecutar código en respuesta a eventos sin la compleja infraestructura que
+    normalmente se asocia con la creación y el lanzamiento de aplicaciones de microservicios.
+
+La FaaS incluye las siguientes características: Es un subconjunto de la informática sin servidor. Crea aplicaciones en forma de múltiples funciones, donde una función es una
+    pieza de software escrita en cualquier lenguaje de programación.
+
+El FaaS se puede implementar tanto en nubes híbridas como en entornos locales. No tiene estado, pero puede mantenerlo mediante cachés externas. Las funciones se ejecutan en
+    milisegundos y procesan las solicitudes individuales en paralelo, lo que las hace escalables de forma instantánea.
+
+Es liviano y utiliza el mecanismo de arquitectura de desacoplamiento. y FaaS se factura según el tiempo necesario para ejecutar las funciones y no según el tamaño de las
+    instancias del servidor. Con FaaS, puede dividir el servidor en funciones que se pueden escalar de forma automática e independiente para no tener que administrar la
+    infraestructura. Esto le permite centrarse en el código de la aplicación, lo que reduce el tiempo de comercialización.
+
+Una de las mayores ventajas del modelo FaaS es el coste. Solo paga cuando se produce una acción. Cuando se completa la acción, todo se detiene: no se ejecuta el código, el
+    servidor no está inactivo y no se incurre en costes. Como las funciones son fragmentos de código pequeños, independientes y sin estado, se pueden escalar de forma automática,
+    independiente e instantánea, según sea necesario. Si la demanda cae, se reducen automáticamente.
+Además, la tecnología FaaS ofrece una alta disponibilidad inherente, ya que se distribuye en distintas regiones y zonas de disponibilidad y se puede implementar sin costes
+    adicionales.
+
+Un paquete sin servidor se compone de tres componentes principales, a saber: funciones como servicio o FaaS, backend como servicio o BaaS y API Gateway.
+
+Veamos cómo funcionan los componentes de una pila sin servidor.
+Las solicitudes de eventos se reciben de diferentes canales, como una solicitud HTTP, webhooks de repositorios como Github y Docker Hub, y trabajos programados. Estas solicitudes
+    pasan por la API Gateway, que las identifica y las reenvía a las funciones correspondientes. Luego, las funciones procesan estas solicitudes y, si es necesario, se dirigen a
+    los servicios de backend (como el almacenamiento de archivos y objetos, el almacenamiento en bloques, los servicios de notificación, etc.) para su posterior procesamiento o
+    almacenamiento. Luego, el resultado o la respuesta se devuelven al cliente a través del componente FaaS y la API Gateway.
+
+Para un ejemplo del mundo real, considere el escenario en el que necesita cargar una imagen de perfil en un sitio web. Es posible que el sitio web también requiera una miniatura
+    de esa imagen para mostrarla en determinadas páginas web. Esta es una situación común en la que se utiliza la función como servicio. Un usuario selecciona una foto de perfil.
+    La imagen se carga en un depósito de almacenamiento de objetos. Este evento activa una función de IBM Cloud que procesa la foto de perfil y crea una imagen en miniatura.
+A continuación, la función almacena la imagen en miniatura en el almacenamiento de objetos para que, si es necesario, el sitio web pueda acceder a la miniatura. Las funciones de
+    FaaS deben diseñarse para realizar un único trabajo en respuesta a un evento. Por lo tanto, haga que el alcance de su código sea limitado, eficiente y liviano para que las
+    funciones se carguen y ejecuten rápidamente.
+
+El valor de la FaaS reside en el aislamiento de las funciones. Demasiadas funciones aumentarán sus costes y eliminarán el valor del aislamiento de sus funciones. El uso de
+    demasiadas bibliotecas de terceros puede ralentizar la inicialización de una función y dificultar su escalabilidad. Algunos de los proveedores de FaaS gestionados más
+    comunes son: AWS Lambda de Amazon, Google Cloud Functions, Azure Functions, de Microsoft, Cloud Functions, de IBM, OpenShift Cloud Functions, de Red Hat, y algunos otros,
+    como Netlify, Oracle y Twilio. También hay muchas opciones de FaaS autogestionadas disponibles si no quiere depender de plataformas gestionadas por terceros.
+Estas incluyen: Fission, que es un marco para funciones sin servidor en Kubernetes,
+Fn Project, una plataforma sin servidor nativa de contenedores,
+Knative, una plataforma basada en Kubernetes para crear, implementar y gestionar cargas de trabajo sin servidor,
+OpenFaaS, que permite convertir cualquier proceso de Linux o Windows en una función.
+
+En este vídeo, descubrió que:
+la FaaS es un tipo de servicio de computación en la nube que le permite ejecutar código en respuesta a eventos sin una infraestructura compleja,
+la FaaS es un subconjunto de la computación sin servidor que crea aplicaciones en forma de múltiples funciones,
+la FaaS se puede implementar en nubes híbridas y en entornos locales,
+la FaaS se factura por el tiempo necesario para ejecutar las funciones y no por el tamaño de las instancias de los servidores,
+una pila sin servidor está compuesta por FaaS, BaaS y un API Gateway,
+y hay varios tipos diferentes gestionados y autogestionados plataformas FaaS gestionadas entre las que elegir."

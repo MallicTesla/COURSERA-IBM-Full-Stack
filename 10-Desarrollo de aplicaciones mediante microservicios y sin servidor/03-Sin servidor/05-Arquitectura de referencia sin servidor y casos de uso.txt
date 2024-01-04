@@ -1,0 +1,36 @@
+"Bienvenido a «Arquitectura de referencia y casos de uso sin servidor» Después de ver este vídeo, podrá: Explicar la arquitectura de referencia de una aplicación web utilizando
+    Serverless Framework y describir otros casos de uso de Serverless Framework.
+
+Veamos una aplicación web que implementa una aplicación sencilla de tareas pendientes, en la que un usuario registrado puede crear, leer, actualizar y eliminar elementos. La
+    arquitectura de referencia de aplicaciones web es un back-end de uso general basado en eventos que utiliza AWS Lambda y Amazon API Gateway para su lógica empresarial.
+También utiliza Amazon DynamoDB como base de datos y Amazon Cognito para la administración de usuarios. Todo el contenido estático de la aplicación se aloja en la consola
+    AWS Amplify.
+
+La arquitectura de esta aplicación de tareas pendientes es la que se muestra. Puede ver varios componentes de la aplicación. Básicamente, la aplicación web consta de 3
+    componentes diferentes. La aplicación front-end contiene todo el contenido estático generado con la aplicación Create React, que funciona con la ayuda de archivos HTML, CSS
+    para diseñar JavaScript para que se ejecute en el cliente, e imágenes. Todos estos objetos están alojados en la consola AWS Amplify.
+Cuando un usuario se conecta al sitio web, los recursos necesarios se descargan en su navegador y comienzan a funcionar allí. Cuando la aplicación necesita comunicarse con el
+    back-end, lo hace mediante llamadas a la API REST al back-end.
+
+La aplicación de back-end es donde se implementa la lógica empresarial real. La lógica se aloja en las funciones de Lambda a las que se accede desde el front-end a través de
+    API Gateway mediante la API REST.
+A continuación, los datos se almacenan en DynamoDB. La aplicación To Do limita a los usuarios a sus propias tareas pendientes. Por lo tanto, los usuarios deben estar registrados
+    y autenticados para acceder a sus tareas pendientes individuales. Para ello, se utilizan los grupos de usuarios de Cognito, que permiten a los usuarios registrarse en la
+    aplicación y autenticarse.
+
+Un caso de uso común de las aplicaciones sin servidor es la transmisión de eventos. Estas aplicaciones se pueden escribir e implementar sin necesidad de configurar una
+    infraestructura inicial. Además, se pueden activar a partir de temas del publicador, de los suscriptores o de los registros de eventos, lo que proporciona una canalización de
+    eventos elástica y escalable sin necesidad de mantener clústeres complicados. Estos canales de transmisión de eventos pueden impulsar sus sistemas de análisis, actualizar los
+    almacenes de datos y las cachés secundarios o alimentar los sistemas de supervisión.
+
+Algunos ejemplos de posprocesamiento incluyen la manipulación de imágenes y vídeos, que permite cambiar el tamaño de las imágenes de forma dinámica o cambiar la
+    transcodificación de vídeo para distintos dispositivos de destino.
+El posprocesamiento también se puede utilizar para el reconocimiento de imágenes o con fines de inteligencia artificial para detectar si hay sombras en la foto del pasaporte.
+Al crear una aplicación, es necesario decidir el idioma que se va a utilizar en la aplicación. Las aplicaciones sin servidor pueden ser multilingües.
+Evitan que los equipos se queden atrapados en el idioma, por lo que tienen que usar indefinidamente el mismo idioma que su software anterior. Por lo general, el lenguaje elegido
+    para crear la aplicación no es el que mejor se adapta al proyecto, sino que depende de los recursos disponibles.
+
+En este vídeo, aprendió lo siguiente:
+la arquitectura de referencia de la aplicación web se basa en eventos y utiliza: AWS Lambda Amazon API Gateway Amazon DynamoDB Amazon Cognito Amazon Amplify Console
+La aplicación web consta de 3 componentes: front-end, back-end y registro de usuarios y autenticación.
+Los casos de uso de las aplicaciones web sin servidor son la transmisión de eventos, el posprocesamiento y el uso de varios idiomas."

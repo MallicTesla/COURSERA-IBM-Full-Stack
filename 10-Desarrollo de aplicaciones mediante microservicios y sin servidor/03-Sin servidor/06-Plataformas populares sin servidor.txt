@@ -1,0 +1,40 @@
+"Bienvenido a «Plataformas populares sin servidor». Después de ver este vídeo, podrá describir cuáles son las plataformas sin servidor más populares y explicar los principales
+    diferenciadores de cada plataforma.
+
+Amazon Web Services (AWS) Lambda es un servicio informático de Amazon sin servidor y basado en eventos. Este servicio le permite ejecutar código, sin aprovisionar ni administrar
+    servidores, para cualquier aplicación o servicio de back-end. Puede responder automáticamente a las solicitudes de ejecución a cualquier escala, desde una docena de eventos
+    diarios hasta cientos de miles por segundo. AWS ofrece más de doscientos servicios desde su plataforma. Solo se le cobrará por la ejecución de una función y por la
+    transferencia de datos entre Lambda y otros servicios de AWS. Además, se puede usar para una variedad de casos de uso, por ejemplo, procesamiento de archivos, aplicaciones
+    web, Internet de las cosas o IoT y back-ends móviles.
+
+Google Cloud Function ofrece una experiencia de desarrollador sencilla e intuitiva. Solo tienes que escribir tu código y dejar que Google Cloud se encargue de la infraestructura
+    operativa. Abstrae toda la gestión de la infraestructura al ampliarla y reducirla automáticamente a cero de forma instantánea, en función del tráfico. Google Firebase alerta
+    inmediatamente a los desarrolladores cuando sus datos se actualizan. Las cargas de trabajo asíncronas, como las funciones ligeras de extracción, transformación y carga (ETL),
+    no requieren servidores individuales. Puede implementar directamente una función que esté conectada al evento seleccionado y se ejecutará.
+
+Azure es una solución sin servidor que le permite escribir menos código, mantener menos infraestructura y ahorrar costes. Escriba funciones en C#, Java, JavaScript, PowerShell o
+    Python, o utilice un controlador personalizado para utilizar prácticamente cualquier otro lenguaje. Microsoft Azure ofrece excelentes capacidades de operaciones para
+    desarrolladores o DevOps, y proporciona una configuración sencilla para una integración y entrega continuas. Esta capacidad también se aplica a Azure Functions. Con el plan
+    Consumption, solo paga mientras sus funciones estén en ejecución, mientras que los planes Premium y App Service ofrecen funciones para necesidades específicas. Existen muchos
+    casos de uso diferentes para Azure Functions, por ejemplo: ejecute código cuando se cargue o cambie un archivo en el almacenamiento de bloques, recopile y procese datos de
+    dispositivos de IoT o ejecute código en intervalos de tiempo predefinidos.
+
+Las funciones de IBM Cloud facilitan la integración con sus otros servicios, ya que le permiten activar sus acciones a partir de eventos o directamente a través de la API REST.
+    Con IBM Cloud Functions, solo paga por el tiempo que utilice, es decir, una décima de segundo. El potente servicio cognitivo de IBM Watson forma parte de las funciones de
+    IBM Cloud. Por ejemplo, para detectar objetos o personas que aparecen en imágenes o vídeos. La función Cloud está disponible en varias regiones de IBM Cloud. Soporta una
+    alta disponibilidad para evitar un único punto de fallo. Los datos de los clientes, como los códigos de acción, se sincronizan automáticamente en diferentes zonas. Depurar
+    las aplicaciones sin servidor en producción puede resultar difícil porque no hay acceso al entorno de ejecución ni a la infraestructura en la que se ejecuta el código. Para
+    acceder al entorno, IBM proporciona Log Analysis con LogDNA e IBM Cloud Monitoring para obtener métricas.
+
+La mayoría de las plataformas tienen proveedores específicos. También tienes la opción de desarrollo de código abierto. Una de esas opciones es Knative.
+Knative se basa en contenedores que se ejecutan a través de Kubernetes, que es un marco de organización para contenedores. La ventaja de Knative sobre otras plataformas sin
+    servidor es que evita la dependencia de un proveedor al ofrecer una plataforma desarrollada sobre Kubernetes. Puede implementar esta plataforma en cualquier nube compatible
+    con Kubernetes sin realizar ningún cambio. Y eso también la hace independiente de la plataforma. Además, le permite configurar su estrategia de despliegue en función de sus
+    necesidades, lo que se consigue desplazando gradualmente el tráfico a la última revisión de su componente sin servidor.
+
+En este vídeo, aprendió lo siguiente:
+AWS Lambda le proporciona una plataforma sin servidores basada en eventos y de pago por uso.
+Google Cloud Functions le proporciona una experiencia de desarrollador simplificada junto con Firebase para la sincronización de datos en tiempo real.
+Microsoft Azure promueve la computación perimetral y en la nube.
+IBM Cloud Functions le ofrece computación rentable y de alta disponibilidad.
+Knative se basa en contenedores que se ejecutan a través de Kubernetes."
