@@ -1,0 +1,52 @@
+"Bienvenido a «Creación de imágenes de contenedores para microservicios». Tras ver este vídeo, podrá explicar qué es un contenedor, qué es un Docker y crear una imagen de
+    contenedor Docker.
+
+Un contenedor es una unidad de software independiente, integral y ejecutable. El código fuente de la aplicación está empaquetado dentro del contenedor con sus bibliotecas,
+    dependencias y tiempos de ejecución. Una vez creado, el contenedor puede ejecutarse en cualquier dispositivo, como un portátil, un PC de escritorio o servidores locales.
+
+También se puede ejecutar en la nube. Los contenedores son pequeños, rápidos y portátiles porque, a diferencia de una máquina virtual, no requieren un sistema operativo huésped
+    en cada instancia y, en cambio, pueden aprovechar las funciones y los recursos del sistema operativo anfitrión.
+
+Uno de los elementos clave de un microservicio es que, por lo general, es pequeño y está aislado en términos de recursos computacionales para cada instancia en ejecución. Esto
+    hace que el contenedor sea la combinación perfecta para servicios tan pequeños y livianos dentro de arquitecturas de microservicios.
+
+Docker es una plataforma de software para crear y ejecutar aplicaciones como contenedores. Docker lleva a un uso explosivo de la contenedorización. Además, una enorme colección
+    de herramientas, tecnologías y metodologías de desarrollo complementarias sigue creciendo y creando una gran economía de Docker y contenerización. Docker proporciona una
+    forma sencilla de crear y ejecutar contenedores a través de una plataforma de código abierto. Docker es la principal tecnología de contenedores utilizada en IBM Cloud Engine.
+
+Una imagen de contenedor es la base de una aplicación de motor en la nube. Analicemos ahora una forma típica de crear un contenedor a partir del código fuente mediante un
+    Dockerfile.
+
+Supongamos que ha completado el desarrollo de la aplicación y la ha probado localmente en un IDE con su código fuente, sus dependencias y bibliotecas. Y ahora, quiere crear un
+    contenedor Docker. El primer paso es crear un Dockerfile. Un Dockerfile actúa como un plano a partir del cual se crea una imagen. Describe todas las instrucciones para 
+    onstruir el contenedor deseado. Una imagen de contenedor se crea después de crear el Dockerfile. Tenga en cuenta que una imagen de contenedor y un contenedor son dos cosas
+    distintas. Una imagen es un archivo inmutable que contiene todos los activos de la aplicación, como el código fuente, las bibliotecas y las dependencias, necesarios para que
+    se ejecute una aplicación. Las imágenes son de solo lectura; si cambias una imagen, crearás una nueva. Al igual que en la programación orientada a objetos, considere una
+    imagen de contenedor como una clase que actúa como plantilla de un contenedor en ejecución. Por lo tanto, si instanciamos una imagen de contenedor, obtenemos una imagen en
+    ejecución llamada contenedor. Básicamente, solo necesitas escribir un Dockerfile adecuado, y el Docker se encarga del resto.
+
+A continuación, veamos un ejemplo de Dockerfile para crear un microservicio basado en Flask. La primera línea de un Dockerfile comienza con la instrucción FROM para especificar
+    la imagen base sobre la que se basarán las instrucciones posteriores. Esta imagen base suele proceder de un repositorio público, como un sistema operativo, o una imagen base
+    de un lenguaje específico, como Python, en este caso. Si lo desea, en lugar de la imagen Docker general de Python, puede añadir una imagen base más específica y avanzada
+    para ofrecer un mejor servicio a su microservicio. Por ejemplo, el uwsgi-nginx-flask le permite crear el microservicio Flask en Python que se ejecuta con uWSGI y Nginx en un
+    único contenedor.
+La siguiente instrucción de copia todos los archivos a la carpeta /app de la imagen. Puede usar la instrucción ENV para configurar la variable de entorno. Aquí configuras el
+    PUERTO DE ESCUCHA en 8080, lo que significa que el contenedor creado a partir de esta imagen escuchará en el puerto 8080. La palabra clave expose en un Dockerfile indica al
+    Docker que un contenedor escucha el tráfico en el 8080. La instrucción RUN ejecuta comandos. Por ejemplo, aquí ejecutamos pip install para instalar todas las bibliotecas de
+    Python necesarias.
+El último es el CMD. El objetivo principal de esta instrucción es proporcionar un valor predeterminado para ejecutar un contenedor. Esta instrucción suele definir el ejecutable
+    que debe ejecutarse en el contenedor. En el ejemplo, se ejecuta el microservicio flask. Pero tenga en cuenta que solo puede haber una instrucción CMD en un Dockerfile.
+Una vez creada la imagen del contenedor, puede enviarla a un repositorio de contenedores para gestionarla mejor. Este repositorio de contenedores se denomina registro de
+    contenedores. Algunos registros comunes son Docker Hub e IBM Cloud Container Registry. La imagen del contenedor del registro se puede extraer y utilizar fácilmente con un
+    nombre de imagen único.
+
+El nombre de una imagen consta de un nombre de host, un repositorio y una etiqueta. El nombre de host identifica el registro al que se debe enviar esta imagen. Por ejemplo, el
+    icr.io representa el IBM Container Registry. Un repositorio es un grupo de imágenes de contenedores relacionadas. Por lo general, se trata de versiones diferentes de la
+    misma aplicación o servicio, por lo que el nombre de la aplicación o el servicio es un buen nombre para el repositorio. Por último, la etiqueta proporciona información sobre
+    la versión o variante específica de una imagen.
+
+En este vídeo, aprendió lo siguiente:
+un contenedor es una unidad de software ejecutable independiente empaquetada con todas sus dependencias.
+Docker es una plataforma de creación y ejecución de contenedores muy popular.
+Puede crear un Dockerfile para indicar a la plataforma Docker que cree una imagen de contenedor.
+Y una vez creada la imagen del contenedor, se puede insertar en el registro del contenedor y luego extraerla por su nombre de imagen."

@@ -1,0 +1,51 @@
+"ASGI
+Interfaz de puerta de enlace del servidor asíncrono: interfaz del servidor web para llamar al microservicio de forma asíncrona
+
+Buildpack
+Contiene ejecutables para realizar tareas como inspeccionar el código fuente, crear un plan de compilación o ejecutar el plan de compilación para producir una imagen de
+    contenedor.
+
+CaaS
+Contenedores como servicio
+
+Code Engine
+Resume la carga operativa de crear, implementar y administrar cargas de trabajo para que los desarrolladores puedan centrarse en el desarrollo del código.
+
+Container
+Una unidad de software independiente, integral y ejecutable empaquetada con bibliotecas, dependencias y tiempos de ejecución.
+
+Container image	
+Un archivo inmutable que contiene todos los activos de la aplicación, como el código fuente, las bibliotecas y las dependencias necesarias para que se ejecute una aplicación.
+
+Docker	
+Una plataforma de software para crear y ejecutar aplicaciones como contenedores.
+
+Dockerfile
+Un archivo de texto que incluye todos los comandos para crear una imagen de contenedor acoplable.
+
+IBM Cloud CLI
+Interfaz de línea de comandos de IBM Cloud
+
+IBM Cloud Console
+Un portal web bien diseñado para que los usuarios finales administren cómodamente sus servicios en la nube de IBM, incluido Code Engine.
+
+Job
+Ejecuta el código ejecutable una vez y sale.
+
+PaaS
+Plataforma como servicio
+
+Repository	
+Un grupo de imágenes de contenedores relacionadas.
+
+TCP
+Protocolo de Control de Transmisión
+
+TLS
+Servicio de capa de transporte
+
+WebSocket
+Un protocolo de comunicación basado en el protocolo de control de transmisión.
+
+WSGI
+Interfaz de puerta de enlace del servidor web: estándar Python para la comunicación entre servidores web y aplicaciones web o microservicios"

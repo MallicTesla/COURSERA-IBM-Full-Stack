@@ -1,0 +1,27 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Los microservicios autoalojados pueden ser muy complejos y desafiantes
+
+IBM Cloud Code Engine es una plataforma totalmente gestionada que se encarga de todo el duro trabajo de despliegue, permitiendo a los desarrolladores centrarse en su código
+
+IBM Cloud Code Engine tiene tres casos de uso principales: 1) desplegar aplicaciones, 2) crear y desplegar aplicaciones, y 3) ejecutar trabajos
+
+Un proyecto es una agrupación de entidades de Code Engine como aplicaciones, trabajos y compilaciones
+
+Una aplicación ejecuta su código para servir peticiones HTTP o crear sesiones WebSocket
+
+Una compilación es un proceso para crear una imagen de contenedor a partir de su código fuente
+
+Un trabajo ejecuta una o más instancias de su código ejecutable
+
+Un contenedor es una unidad de software ejecutable independiente empaquetada con todas sus dependencias
+
+Docker es una popular plataforma de construcción y ejecución de contenedores
+
+Puede componer un Dockerfile para ordenar a la plataforma Docker que construya una imagen de contenedor
+
+Una vez construida la imagen del contenedor, puede empujarla al registro de contenedores y luego extraerla por su nombre de imagen
+
+Puede crear una aplicación Cloud Engine a partir de una imagen de contenedor empujada o de un repositorio de código fuente
+
+Según sus preferencias, puede optar por utilizar IBM Cloud Console o IBM Cloud CLI para realizar las tareas de despliegue de la aplicación"

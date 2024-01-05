@@ -1,0 +1,50 @@
+"Bienvenido a «Project, Application, Build and Jobs». Tras ver este vídeo, podrá explicar qué es un proyecto en IBM Cloud Code Engine, explicar qué es una aplicación en
+    IBM Cloud Code Engine, explicar qué es una compilación en IBM Cloud Code Engine y explicar qué es un trabajo en IBM Cloud Code Engine.
+
+El término proyecto en Code Engine representa un grupo que contiene y gestiona sus recursos y entidades. Una agrupación en Code Engine contiene entidades como la compilación, la
+    aplicación, el trabajo y el certificado para las conexiones HTTP del Servicio de capa de transporte (o TLS), etc.
+
+Una función importante de un proyecto es proporcionar un espacio de nombres para sus entidades. Un espacio de nombres proporciona un mecanismo para aislar grupos de entidades y
+    recursos dentro de un solo grupo. Los nombres de las entidades deben ser únicos dentro de un espacio de nombres, pero no en todos los espacios de nombres.
+
+Otra función importante es administrar los recursos y proporcionar control de acceso. Aquí puede ver una captura de pantalla de muestra del aspecto de un proyecto en
+    IBM Cloud Code Engine. El proyecto se denomina my-project y agrupa y proporciona un espacio de nombres para todas sus entidades. Puede encontrar fácilmente el resumen de
+    todas las entidades; por ejemplo, aquí puede ver que tiene 11 aplicaciones y 2 trabajos. El proyecto también proporciona control de acceso y auditoría de los recursos para
+    que pueda ver qué recursos se actualizaron. Además, puede supervisar la asignación de recursos para todo el proyecto, como el uso total de CPU o memoria.
+
+En Code Engine, tu código ejecutará la aplicación. Al igual que las aplicaciones web que se implementan habitualmente, la aplicación en ejecución puede atender solicitudes HTTP
+    o proporcionar API REST. Además de las solicitudes HTTP tradicionales, Code Engine también admite aplicaciones que utilizan WebSockets.
+
+Un WebSocket es un protocolo de comunicación basado en el Protocolo de Control de Transmisión (o TCP). Se utiliza principalmente para la comunicación de larga duración y basada
+    en sesiones entre clientes y servidores, como una aplicación de chat. Code Engine escala la aplicación creando o destruyendo las instancias en ejecución de la aplicación.
+El número de instancias en ejecución de una aplicación se amplía o reduce automáticamente (hasta cero) en función de las cargas de trabajo entrantes y de los ajustes de
+    configuración. Aquí puede ver un ejemplo de interfaz de usuario de un proyecto de Code Engine. El nombre de la aplicación es «my-application» y pertenece a un proyecto
+    llamado «my-project». También puede ver un icono de verificación verde que indica que la aplicación se ha implementado correctamente y que está lista para funcionar.
+    Puede hacer clic en el enlace URL de la aplicación para abrir la URL de la aplicación web.
+
+En la sección Configuración, puede configurar el origen de la aplicación, que puede provenir de una imagen de contenedor registrada o directamente del código fuente. En el
+    contexto de Code Engine, una compilación o compilación de imagen es un mecanismo que puedes usar para crear una imagen de contenedor a partir del código fuente. Una imagen
+    de contenedor incluye todos los activos que un contenedor necesita para ejecutarse, como el código fuente ejecutable, las dependencias, los recursos, los motores de
+    contenedores, las bibliotecas del sistema, los ajustes de configuración, etc.
+
+El motor de código admite la creación a partir de un Dockerfile, que es un archivo de texto que incluye todos los comandos para crear una imagen de contenedor Docker. Como
+    alternativa, puede usar un paquete de compilación nativo de la nube. Un paquete de compilación es otra forma popular de crear la imagen del contenedor. Contiene ejecutables
+    para realizar tareas como inspeccionar el código fuente, crear un plan de compilación o ejecutar el plan de compilación para producir una imagen. Una vez que la imagen de
+    contenedor se haya creado a partir del código fuente, puede implementarla en el Code Engine y crear una aplicación en consecuencia.
+
+Un trabajo es una ejecución única del código. Al igual que una aplicación, un trabajo ejecuta código ejecutable. Según la carga de trabajo, el Code Engine creará una o más
+    instancias de un trabajo. A diferencia de las aplicaciones, que gestionan principalmente solicitudes HTTP o sesiones de WebSocket, los trabajos están diseñados para
+    ejecutarse una vez y cerrarse. Antes de ejecutar un trabajo en el Code Engine, puede especificar las configuraciones de carga de trabajo que se utilizarán cada vez que se
+    ejecute el trabajo.
+
+Algunos trabajos típicos son:
+los trabajos de procesamiento de datos para consultar y transformar datos en lotes,
+los trabajos de entrenamiento de modelos de aprendizaje automático,
+los trabajos de elaboración de informes para generar informes basados en un cronograma preestablecido
+los trabajos de facturación para crear y enviar facturas.
+
+En este vídeo, aprendió lo siguiente:
+un proyecto es una agrupación de entidades de Code Engine, como aplicaciones,
+trabajos y compilaciones; una aplicación ejecuta el código para atender solicitudes HTTP o crear sesiones de WebSocket;
+una compilación es un proceso para crear una imagen de contenedor a partir del código fuente;
+y un trabajo ejecuta una o más instancias de su código ejecutable."

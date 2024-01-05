@@ -1,0 +1,65 @@
+"Bienvenido a «IBM Cloud Code Engine». Tras ver este vídeo, podrá describir los desafíos de los microservicios de autoalojamiento, explicar el IBM Cloud Code Engine y explicar
+    cómo IBM Cloud Code Engine ayuda a desplegar aplicaciones.
+
+Tras crear y probar correctamente sus microservicios a nivel local, debe desplegarlos. Si decide autohospedar sus microservicios, necesitará realizar ajustes detallados y
+    abordar con cuidado muchos desafíos no triviales. En primer lugar, debe configurar y desarrollar sus microservicios de forma deliberada para que estén listos para la
+    producción, incluidos los activos necesarios, como las dependencias de la biblioteca, los recursos, las credenciales, etc.
+
+A continuación, compílelos y compruébelos en un binario ejecutable para ejecutarlos en entornos de alojamiento. A continuación, debe elegir cuidadosamente la infraestructura
+    para ejecutar sus microservicios, como servidores web, sistemas operativos, redes, bases de datos, etc. Su equipo debe seleccionar cuidadosamente entre numerosas opciones.
+
+Dado que sus microservicios están sujetos a un tráfico fluctuante, tendrá que ampliarlos o reducirlos de forma dinámica. Por ejemplo, los sitios web de comercio electrónico
+    siempre tendrán picos de tráfico durante los días festivos, que pueden disminuir significativamente después de varios días o una semana. En la mayoría de los casos,
+    necesitará implementar varios microservicios relacionados que funcionen y se comuniquen. La comunicación entre los microservicios debe ser fiable y segura.
+
+Y, por último, también son necesarias actividades como el registro, la supervisión y el trabajo en los paneles de control para garantizar que todos los microservicios sean
+    estables y que cualquier problema de producción sea identificable o incluso previsto.
+
+El autohospedaje puede plantear otros desafíos que dependan y sean específicos de la implementación y la creación de los microservicios.
+A continuación, verá un ejemplo más específico de cómo se puede implementar un microservicio basado en Python.
+
+Supongamos que ha creado un microservicio basado en Python, que puede ser un Flask, Django o cualquier otra aplicación web de Python. El microservicio no puede empezar a
+    proporcionar el servicio requerido directamente. Requiere una interfaz de servidor web o un punto de entrada para llamar al microservicio. Para los microservicios basados en
+    Python, hay dos tipos principales de interfaces disponibles: la interfaz de puerta de enlace de servidor web, o WSGI, es el principal estándar de Python para la comunicación
+    entre servidores web y aplicaciones web o microservicios. Como su nombre indica, solo admite llamadas de servicio sincrónicas. Hay muchos servidores web WSGI populares, como
+    Green Unicorn y uWSGI. Debe decidir cuál se adapta mejor a sus necesidades. Una interfaz de puerta de enlace de servidor asíncrona, o ASGI, es otra interfaz de servidor web.
+
+La principal diferencia con la WSGI es que admite código asíncrono, por lo que se puede llamar a su microservicio de forma asíncrona. Algunos servidores web ASGI populares son
+    Daphne e Hypercorn.
+Los servidores web WSGI o ASGI deben ejecutarse en un determinado tipo de infraestructura. Según los requisitos de servicio o los acuerdos, la infraestructura puede ser un
+    portátil, una estación de trabajo dedicada o un clúster sofisticado con cientos de nodos informáticos y de datos.
+
+Como se puede observar, tendrá que hacer muchas concesiones y esfuerzos para implementar un microservicio en producción. Afortunadamente, ahora puede implementar microservicios
+    en plataformas en la nube con un esfuerzo mínimo. Ahora, presentemos IBM Cloud Code Engine, una plataforma completa y potente para desplegar sus microservicios con facilidad.
+    IBM Cloud Code Engine, o simplemente «Code Engine», resume la carga operativa que supone crear, desplegar y gestionar las cargas de trabajo para que los desarrolladores
+    puedan centrarse en el desarrollo del código.
+El objetivo principal de IBM Cloud Code Engine es aliviar la carga de despliegue de los desarrolladores. Con su ayuda, los desarrolladores pueden enviar su código a la
+    plataforma en la nube sin tener en cuenta la infraestructura. IBM Cloud Code Engine puede considerarse una plataforma totalmente gestionada y sin servidores. Combina todas
+    las funciones que requieren los modelos de despliegue de plataforma como servicio (PaaS), contenedores como servicio (CaaS) y sin servidor. IBM Cloud Code Engine ejecuta sus
+    cargas de trabajo, incluidos los microservicios, las aplicaciones web, las funciones basadas en eventos o los trabajos por lotes.
+
+Si ha creado un microservicio, puede ejecutarlo como una aplicación de IBM Cloud Code Engine para atender las solicitudes HTTPS entrantes con una experiencia de usuario intuitiva
+    sin gestionar su infraestructura con facilidad.
+
+IBM Cloud Code Engine tiene tres casos de uso o modos de despliegue principales.
+El primer caso de uso implica el despliegue de una aplicación creada en Code Engine. En este caso, una aplicación puede representar un microservicio, una aplicación web o una
+    aplicación de consola.
+El segundo caso de uso es insertar el código fuente directamente. El Code Engine puede crear tu aplicación a partir del código fuente, ya sea desde un repositorio remoto como el
+    repositorio de GitHub o desde tu espacio de trabajo local. Luego, la aplicación creada se puede implementar automáticamente sin preocuparse por el proceso de creación, lo que
+    resulta práctico y ahorra tiempo.
+El tercer caso de uso es la creación y ejecución de trabajos por lotes, como una tarea de procesamiento o análisis de datos. Por ejemplo, si uno de sus microservicios necesita
+    analizar los resultados, puede implementar un trabajo por lotes para realizar las tareas de análisis en la misma plataforma. De este modo, todos los microservicios y trabajos
+    implementados pueden funcionar juntos sin problemas, ya que todos están alojados en la misma infraestructura.
+
+Vamos a resumir las posibles ventajas que puede ofrecer IBM Cloud Code Engine. Se encarga de toda la gestión del clúster, incluidos el aprovisionamiento, la configuración, el
+    escalado y la gestión de los servidores. No tiene que preocuparse por la infraestructura subyacente y puede centrarse en el código. También crea e implementa tus aplicaciones
+    en cuestión de segundos. Esto puede ser importante si quieres implementar una actualización emergente. El Code Engine aumenta y reduce automáticamente la carga de trabajo.
+    Controla los permisos de acceso a la plataforma y a los servicios en función de la infraestructura y la gestión de acceso de IBM Cloud. También proporciona conexiones
+    seguras mediante Transport Layer Security y aísla las cargas de trabajo. Y, por último, se integra completamente en IBM Cloud para que pueda aprovechar todo el catálogo de
+    servicios de IBM Cloud.
+
+En este vídeo, aprendió que:
+los microservicios autohospedados pueden ser muy complejos y desafiantes,
+IBM Cloud Code Engine es una plataforma totalmente gestionada que se encarga de todo el duro trabajo de despliegue,
+lo que permite a los desarrolladores centrarse en su código,
+IBM Cloud Code Engine tiene tres casos de uso principales: desplegar aplicaciones, crear y desplegar aplicaciones y ejecutar trabajos."

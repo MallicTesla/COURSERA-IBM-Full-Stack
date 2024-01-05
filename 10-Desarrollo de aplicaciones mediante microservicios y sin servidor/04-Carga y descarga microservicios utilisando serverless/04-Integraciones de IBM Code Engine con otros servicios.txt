@@ -1,0 +1,40 @@
+"Integraciones de IBM Code Engine con otros servicios
+En el mundo de IBM Cloud Code Engine, los enlaces de servicios desempeñan un papel crucial a la hora de otorgar acceso a los servicios de IBM Cloud para aplicaciones, trabajos y
+    funciones. Este proceso implica vincular una instancia de servicio a una aplicación o trabajo de Code Engine, incorporando automáticamente credenciales en las variables de
+    entorno del contenedor.
+
+Enlace del servicio del motor de código de nube de IBM
+Los enlaces de servicios actúan como un puente, permitiendo que las aplicaciones, trabajos y funciones en Code Engine accedan a las capacidades de los servicios de IBM Cloud sin
+    problemas. Al vincular una instancia de servicio a su aplicación o trabajo de Code Engine, se agregan credenciales al entorno, lo que facilita la integración. Las
+    credenciales de servicio, presentadas como un objeto JSON en el panel de la instancia de servicio, pasan a formar parte de la aplicación o del entorno de trabajo una vez
+    vinculadas.
+
+Proceso vinculante
+Puede agilizar el proceso de vinculación siguiendo estos pasos.
+
+    Aprovisione el servicio: antes de vincularlo, debe crear una instancia del servicio que desea conectar.
+
+    Utilice la consola de Code Engine o CLI: utilice la consola de Code Engine o la interfaz de línea de comandos (CLI) para vincular su aplicación, trabajo o función a la
+        instancia del servicio IBM Cloud.
+
+    Secreto de acceso al servicio: Code Engine utiliza un secreto de acceso al servicio para almacenar de forma segura las credenciales de la instancia del servicio IBM Cloud
+        especificada. Este secreto es crucial para conectar la instancia del servicio IBM Cloud a su aplicación, trabajo o función de Code Engine. Code Engine se encarga de la
+        creación y gestión de este secreto por usted.
+
+Tipos de servicios que puedes vincular
+Cualquier servicio de IBM Cloud compatible con IBM Identity and Access Management (IAM) y que utilice credenciales de servicio puede integrarse perfectamente en su carga de
+    trabajo de Code Engine.
+
+Requisitos de acceso
+Asegúrese de configurar su proyecto de Code Engine con las políticas de acceso de IAM necesarias. Estas políticas autorizan los enlaces de servicios de Code Engine para ver
+    instancias de servicio y administrar credenciales de servicio. Las políticas de IAM están asociadas con un ID de servicio.
+
+Ciclo de vida del enlace del servicio
+Un enlace de servicio permanece activo mientras la carga de trabajo de Code Engine y la instancia de servicio asociada estén activas. Desvincular o eliminar un enlace de
+    servicio elimina la conexión, lo que hace que la aplicación, el trabajo o la función no puedan acceder al servicio IBM Cloud previamente vinculado. Se requiere la
+    eliminación manual si desea eliminar la instancia de servicio.
+
+Conclusión
+Dominar IBM Cloud Code Engine Service Binding abre oportunidades para integrar servicios robustos de IBM Cloud sin problemas en sus aplicaciones. Comprender el proceso de
+    vinculación, los tipos de servicios que puede conectar y el ciclo de vida de los enlaces de servicios le permite aprovechar al máximo esta característica esencial para una
+    experiencia de desarrollo fluida y eficiente."

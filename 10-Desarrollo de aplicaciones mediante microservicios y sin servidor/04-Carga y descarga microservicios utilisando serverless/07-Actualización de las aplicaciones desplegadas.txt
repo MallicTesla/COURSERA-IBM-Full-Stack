@@ -1,0 +1,61 @@
+"Bienvenido a «Actualización de aplicaciones implementadas». Tras ver este vídeo, podrá describir los escenarios habituales de actualización de aplicaciones, actualizar
+    aplicaciones mediante IBM Cloud Console y actualizar aplicaciones mediante la CLI de IBM Cloud.
+
+Supongamos que desarrolla una aplicación web PetShop basada en microservicios para su negocio favorito y despliega cada microservicio como una aplicación dentro de un proyecto
+    de motor de código. Tu aplicación PetShop recibe un gran volumen de tráfico web, por lo que decides migrar algunos de tus datos de una base de datos SQL a una base de datos
+    que no sea de SQL. Por lo tanto, debe desarrollar y crear otra imagen de contenedor para su nuevo servicio de base de datos y actualizar su servicio de base de datos para
+    mascotas en función de la nueva imagen. Además, necesita algunas variables de entorno nuevas para su aplicación y más recursos de cálculo para gestionar las solicitudes a su
+    base de datos NoSQL.
+
+El motor de código gestiona cada revisión de la aplicación desplegada para que no tenga que eliminarla e implementar una nueva. Solo tiene que actualizar la aplicación existente
+    y el motor de código creará y gestionará una nueva revisión por usted.
+
+Existen cuatro escenarios comunes para actualizar las aplicaciones del motor de código: actualizar las variables de entorno, como la ubicación de la base de datos o la clave
+    secreta; actualizar la visibilidad de la aplicación, como cambiar la URL de una aplicación de pública a privada o solo para un proyecto; actualizar la referencia de imagen
+    de la aplicación o el repositorio de GitHub; o actualizar los recursos de tiempo de ejecución de la aplicación.
+
+Al igual que ocurre con las implementaciones de aplicaciones, también puede actualizarlas mediante la consola o la CLI de IBM Cloud Code Engine. Si se trata de una actualización
+    sencilla, como añadir una variable de entorno, es más fácil y rápido utilizar la interfaz de usuario de la consola bien diseñada.
+
+Para actualizaciones de aplicaciones más complejas y precisas, la CLI de Code Engine puede ser más adecuada. El comando principal para realizar todas las operaciones
+    relacionadas con las actualizaciones de aplicaciones es «ibmcloud ce application update».
+
+En la página de la consola de la aplicación, si hace clic en la tabla de variables de entorno, encontrará todas las variables de entorno. Para añadir o actualizar una variable
+    de entorno, puede hacer clic en el botón «Añadir variable de entorno». Como alternativa, si prefiere la interfaz de línea de comandos (CLI de IBM Cloud), el comando
+    principal para añadir o actualizar una variable de entorno es «ibmcloud ce app update» con dos argumentos principales: el nombre de la aplicación y el nombre y el valor de
+    la variable de entorno.
+
+Veamos un ejemplo rápido: primero, añada una variable de entorno denominada `DB_HOST` con el valor `localhost` a la aplicación 'pet_db_service'. El comando update devuelve el
+    mensaje de que el «pet_db_service» está actualizado a la última versión. Para comprobar si el entorno se ha añadido correctamente, puede utilizar el comando `app get` para
+    mostrar la información detallada de la aplicación pet_db_service.
+
+Ahora puede ver que la variable de entorno DB_HOST se ha añadido tal y como se esperaba. Al implementar la aplicación, se le asignan dos tipos de URL: internas y externas. Las
+    URL internas ayudan a comunicarse con otras aplicaciones de la aplicación. Las URL externas pueden ser públicas, externas o de una red privada de IBM únicamente. La
+    selección del tipo de URL define la visibilidad de la aplicación. En la página de la consola de la aplicación, haga clic en la pestaña Asignaciones de dominios del sistema
+    para actualizar la visibilidad de la aplicación.
+Si selecciona No hay mapeo de dominios de un sistema externo, no se puede acceder a esta aplicación desde la Internet pública y el acceso a la red solo es posible desde los
+    componentes de este proyecto (cluster-local). Cuando se selecciona esta opción, se muestra la URL local del clúster. Si se selecciona la opción privada, se puede acceder a
+    esta aplicación a través de IBM Cloud Virtual Private Endpoints. Cuando se selecciona pública, puede ver la URL pública y la URL local del clúster de la aplicación.
+
+Del mismo modo, puede actualizar la visibilidad de la aplicación mediante la CLI: el comando principal sigue siendo «ibmcloud ce app update» con dos argumentos principales: el
+    nombre de la aplicación y la visibilidad de la aplicación.
+
+Veamos un ejemplo rápido: primero debe actualizar la visibilidad de la aplicación 'pet_db_service' a «privada». Luego, si obtienes la información detallada de la aplicación,
+    deberías ver dos URL. La URL externa ahora contiene un subdominio privado, lo que significa que ahora solo se puede acceder al pet_db_service a través de las redes privadas
+    virtuales de IBM. Ahora, puede actualizar la referencia de la imagen a través de la interfaz de usuario de la consola de la siguiente manera: en la página de la consola de
+    la aplicación, haga clic en la pestaña «Código».
+A continuación, especifique la nueva referencia de imagen para su aplicación. En la CLI, el comando «ibmcloud ce app update» tiene tres argumentos para actualizar las referencias
+    de imagen: el nombre de la aplicación, el nombre y el valor de la referencia de imagen y el secreto de registro para acceder al registro del contenedor no público.
+
+Veamos un ejemplo: aquí se actualiza la referencia de la imagen a `us.icr.io/petshop/no_sql_pet_db_service` con el registro del contenedor para que sea `myregistry`. Si las
+    instancias de la aplicación tienen un tiempo de respuesta muy prolongado o un uso muy elevado de CPU y memoria, puede aumentar los recursos de tiempo de ejecución de la
+    aplicación. Para ello, ve a la página de tu aplicación y haz clic en la pestaña `Tiempo de ejecución`. A continuación, puede actualizar la CPU, la memoria y el
+    almacenamiento efímero de la instancia según sus necesidades. Si quieres que tu aplicación se amplíe o reduzca, también puedes actualizar la configuración de escalado y
+    simultaneidad en la misma interfaz de usuario. Para actualizar la CPU o la GPU mediante la CLI, necesitará usar el mismo comando «ibmcloud ce app update» con tres argumentos
+    principales: el nombre de la aplicación, la cantidad de CPU configurada para la instancia y la cantidad de memoria configurada para la instancia.
+
+Veamos nuestro ejemplo. Aumenta cada instancia de los recursos de tiempo de ejecución de `pet_db_service` a 2 CPU y 16 GB de memoria.
+
+En este vídeo, aprendiste que puedes crear una aplicación de Cloud Engine a partir de una imagen de contenedor insertada o pedirle a Cloud Engine que cree la imagen a partir de
+    un repositorio de código fuente. Además, puede seleccionar la interfaz de usuario con IBM Cloud Console o la interfaz de línea de comandos con la CLI de IBM Cloud para
+    realizar las tareas de despliegue según sus preferencias"

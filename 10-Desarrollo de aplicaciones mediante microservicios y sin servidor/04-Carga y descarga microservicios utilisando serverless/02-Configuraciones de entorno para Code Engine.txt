@@ -1,0 +1,55 @@
+"Configurar el entorno para sus proyectos de Code Engine es crucial para la personalización y la seguridad. Las variables ambientales desempeñan un papel clave, permitiéndole
+    adaptar el entorno de su proyecto y salvaguardar información confidencial como contraseñas y tokens.
+
+Mejores prácticas para manejar secretos en el motor de código
+Evite colocar contraseñas, tokens o detalles confidenciales en su código, ya que cualquier persona con acceso de lectura a su proyecto puede ver fácilmente esta información.
+Un enfoque más seguro es almacenar dichos secretos en las variables de entorno de su proyecto, donde solo los colaboradores y administradores del proyecto puedan acceder a ellos.
+El nivel de acceso puede variar según el alcance definido anteriormente para la variable.
+
+Las variables de entorno (variables env) se pueden configurar como pares clave-valor, que su aplicación, trabajo o función puede utilizar. Estas variables se pueden definir como
+    valores literales o como referencias a secretos o mapas de configuración existentes. Code Engine utiliza variables de entorno para facilitar el uso de secretos o mapas de
+    configuración por parte de su trabajo, aplicación o función.
+
+Variables inyectadas automáticamente para trabajos.
+    Al ejecutar un trabajo, Code Engine inyecta automáticamente variables de entorno esenciales en la instancia de ejecución del trabajo.
+
+    Cada instancia de ejecución de trabajo obtiene un índice único de la matriz de índices especificada, comenzando desde 0, asignado por Code Engine. La variable de entorno
+        JOB_INDEX contiene este índice.
+
+    Si bien los trabajos en sí no tienen URL, los valores CE_DOMAIN y CE_SUBDOMAIN resultan útiles para hacer referencia a aplicaciones que se ejecutan en el mismo proyecto.
+
+    La URL externa completa de esta aplicación es appName.CE_SUBDOMAIN.CE_DOMAIN . Para hacer referencia a la URL privada de una aplicación, utilice appName.CE_SUBDOMAIN .
+
+La lista de variables de entorno inyectadas automáticamente se puede encontrar aquí .
+
+Trabajar con variables ambientales.
+Administrar variables de entorno en Code Engine es muy sencillo y puede hacerlo de dos maneras:
+
+1- Método de consola:
+
+    Defina variables de entorno mientras crea su aplicación, trabajo o función a través de la consola de Code Engine.
+
+    Decida si desea crear una variable de entorno literal o una que haga referencia a un secreto o mapa de configuración existente. Si desea que su variable de entorno haga
+        referencia completa a un secreto o mapa de configuración existente o haga referencia a claves individuales en un secreto o mapa de configuración existente, el secreto o
+        mapa de configuración debe existir.
+
+    Utilice la consola para crear, actualizar o eliminar variables de entorno. Para su orientación, puede encontrar instrucciones paso a paso para crear, actualizar, modificar o
+        eliminar variables de entorno .
+
+2- Método CLI:
+
+    Utilice la CLI de Code Engine para crear y administrar variables de entorno.
+
+    Defina variables al crear o actualizar su aplicación, trabajo o función mediante la CLI.
+
+    Ya sea haciendo referencia a mapas de configuración o secretos o creando una variable literal, la CLI ofrece flexibilidad.
+
+    Antes de comenzar, asegúrese de que su entorno CLI de Code Engine esté configurado.
+
+    Las variables de entorno se pueden crear, actualizar o eliminar mediante la CLI. Para obtener instrucciones detalladas para crear, actualizar/modificar o eliminar cuando ya
+        no lo necesite, consulte aquí y siga la guía paso a paso.
+
+Conclusión
+    Comprender y utilizar las configuraciones del entorno en Code Engine es importante para adaptar el entorno de su proyecto y proteger la información confidencial. Ya sea que
+        prefiera la consola fácil de usar o la línea de comandos, el proceso se simplifica para crear, actualizar o eliminar variables. Dominar estas configuraciones mejora su
+        capacidad para crear aplicaciones dinámicas y seguras sin esfuerzo."

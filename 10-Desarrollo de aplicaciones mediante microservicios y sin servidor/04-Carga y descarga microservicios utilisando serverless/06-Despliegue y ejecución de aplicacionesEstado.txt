@@ -1,0 +1,42 @@
+"Bienvenido a «Implementación y ejecución de aplicaciones». Tras ver este vídeo, podrá explicar dos modos principales de despliegue de una aplicación basada en imágenes en
+    contenedores, describir cómo utilizar IBM Cloud Console para el proceso de despliegue de aplicaciones y describir cómo utilizar IBM Cloud CLI para el proceso de despliegue
+    de aplicaciones.
+
+Puede desplegar su aplicación basada en imágenes de contenedores en IBM Cloud Code mediante cualquiera de los dos modos: en primer lugar, puede crear e insertar la imagen de
+    contenedor en un registro de contenedores público o privado. El Cloud Code Engine puede extraer la imagen con un nombre de imagen único y, a continuación, desplegarla
+    automáticamente concediendo acceso al registro. O bien, si no quieres crear la imagen manualmente, puedes especificar un dockerfile o un paquete de compilación junto con el
+    código y dar instrucciones al Cloud Engine para que compile la aplicación a partir del código fuente y, después, la implemente.
+
+Básicamente, los dos modos son los mismos. La única diferencia es quién es responsable de crear e impulsar la imagen del contenedor. IBM Cloud Console es un portal web bien
+    diseñado para que los usuarios finales gestionen cómodamente sus servicios en la nube de IBM, incluido el Code Engine.
+
+En IBM Cloud Console, puede crear e implementar fácilmente la aplicación con unos pocos clics. Si está familiarizado con la interfaz de línea de comandos (CLI) y desea realizar
+    un despliegue más preciso, puede elegir la CLI de IBM Cloud para crear e implementar la aplicación.
+
+Una vez que la aplicación se haya desplegado en el Code Engine, el motor proporcionará una URL de punto final de la aplicación que puede llevar a la página principal de la
+    aplicación o al punto final de entrada de su microservicio. Como se ha comentado, IBM Cloud Console proporciona una interfaz de usuario bien diseñada que le ayudará a crear
+    e implementar su aplicación con facilidad.
+
+Ahora veamos los pasos principales para crear una aplicación.
+En primer lugar, debe especificar el nombre de su aplicación.
+A continuación, puede seleccionar la implementación desde una imagen de contenedor o desde un código fuente. Aquí puede seleccionar la opción de imagen de contenedor
+    predeterminada.
+A continuación, debe proporcionar la referencia a su imagen y, opcionalmente, el acceso al registro para que el motor de códigos pueda extraer su imagen del registro. Pero tenga
+    en cuenta que estos son solo los pasos principales.
+Hay otros ajustes avanzados que puede configurar según lo requiera su aplicación.
+
+Una vez creada la aplicación, el motor en la nube la desplegará automáticamente. Si la aplicación se ejecuta sin errores, debería estar lista en unos minutos. Cuando la
+    aplicación esté lista, puede hacer clic en Probar aplicación para probarla mediante una URL. Como alternativa, si prefiere la interfaz de línea de comandos, puede
+    implementar su aplicación mediante la CLI de IBM Cloud. El comando principal para crear e implementar una aplicación es «ibmcloud ce app create»: tiene tres argumentos
+    principales: el nombre de la aplicación, la referencia a la imagen en el registro de un contenedor y el acceso al registro, si el registro del contenedor no es público.
+
+Veamos un ejemplo: aquí queremos crear una aplicación llamada «helloworldapp» a partir de una imagen del servidor de registro us.icr.io. Para que Code Engine extraiga la imagen,
+    debe crear y proporcionar un acceso al registro denominado «myregistry». Una vez creada e implementada la aplicación, puede ejecutarla y probarla mediante el comando
+    «ibmcloud ce app get», que tiene dos argumentos principales : el nombre de la aplicación y el formato de salida de la misma, como una URL.
+
+A continuación, veamos un ejemplo para obtener el resultado de la aplicación implementada anteriormente, «helloworldapp». Llama a ibmcloud ce app get con el nombre de la
+    aplicación y especifica el formato de salida como URL.
+A continuación, puede ver la URL de acceso público de su aplicación desde el resultado del comando.
+
+En este vídeo, aprendiste que puedes crear una aplicación de Cloud Engine a partir de una imagen de contenedor insertada o de un repositorio de código fuente.
+Según sus preferencias, puede optar por utilizar IBM Cloud Console o IBM Cloud CLI para realizar las tareas de despliegue de la aplicación."
