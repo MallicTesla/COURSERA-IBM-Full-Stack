@@ -1,0 +1,33 @@
+"Bienvenido a los microservicios con OpenShift. Tras ver este vídeo, podrá describir cómo OpenShift facilita la vida de los desarrolladores y explicar el proceso mediante el
+    cual se implementan los microservicios en OpenShift.
+
+Vea a Si Vennam, del equipo de IBM Cloud, describir cómo implementar microservicios con OpenShift. Empezaremos con los desarrolladores. Así que vamos a hacer un bosquejo de un
+    desarrollador aquí arriba. Ahora, ¿qué tiene que hacer un desarrollador? Bueno, por lo general tienen que escribir aplicaciones, crear cambios, probarlas, desplegarlas en un
+    clúster y, en realidad, se centran solo en eso y cualquier otro tipo de distracción les impedirá realizar esa tarea. Así que, en el caso de los desarrolladores, lo primero
+    que querrán hacer al empezar con OpenShift es crear un proyecto y una aplicación. Para ello, OpenShift tiene dos formas diferentes de permitir a los desarrolladores trabajar
+    con su plataforma.
+
+Por ejemplo, puedes aprovechar la CLI y, además, hay una consola web muy potente con la que también podrían trabajar. Por lo tanto, lo primero que quiere hacer el desarrollador
+    es aprovechar uno de esos dos factores de forma para crear un proyecto y una aplicación. Además, hay plantillas para todo tipo de código fuente y lenguajes de programación
+    con los que el desarrollador quiere trabajar. Por lo tanto, lo hacen y, ya sabes, una vez que empiecen a crear actualizaciones para una aplicación, el primer paso que
+    querrán hacer es enviar los cambios a un repositorio. Y en este caso, usemos GitHub como ejemplo. Supongamos que este desarrollador está realizando cambios en GitHub. Eso es
+    realmente todo lo que tienen que hacer. Entre bastidores, OpenShift se encargará del resto.
+Por lo tanto, cuando se hayan creado la aplicación y el proyecto, OpenShift, en el back-end, creará un trabajo y una canalización de tareas que ayudarán a impulsar la
+    implementación de la aplicación.
+Por lo tanto, una vez que el código se introduzca en ese GitHub, se activará un enlace web, que dará inicio a un trabajo de Jenkins. Lo cual solo va a hacer dos cosas: primero,
+    lo que va a hacer es hacer algo llamado source to image, que va a crear una imagen de Docker a partir de ese código fuente. Luego, tomará eso y lo colocará en un registro.
+    Un registro privado, que viene integrado en OpenShift y, de hecho, puedes usar registros públicos o tu propio registro si también lo tienes fuera de este contexto. Una vez
+    que se haya creado esa imagen y se haya insertado en ese registro, lo que hará OpenShift será insertarla en el clúster propiamente dicho. Y eso es lo que tenemos aquí: dos
+    hosts que están en nuestro clúster de OpenShift.
+
+Vamos a tomar esa imagen y supongamos que la hemos configurado para que se despliegue dos veces. Y llamaremos a esta versión la versión 1 de la aplicación. Entonces, repasemos
+    ese proceso una vez más. Entonces, el desarrollador hace algún cambio en un código, luego Jenkins inicia esa compilación, crea una imagen, coloca esa imagen en un registro y,
+    luego, algo un poco diferente aquí. Entonces, en este paso, OpenShift aprovecha algo llamado flujos de imágenes, que es un poco diferente a la forma en que Kubernetes hace
+    las cosas y, básicamente, lo que te permite hacer es cada vez que se detecta un cambio en esa imagen, un flujo de imágenes le permitirá transferirlas a sus aplicaciones sin
+    tiempo de inactividad. Entonces, lo que hará es, ya sabes, con esa nueva versión de ese código, derribar la versión anterior e iniciar la nueva versión hasta que lancemos la
+    versión completamente nueva de esa aplicación.
+
+Estas son solo algunas de las formas en que OpenShift facilita la vida de los desarrolladores.
+
+En este vídeo, descubrió que OpenShift crea un trabajo de Jenkins para integrar automáticamente los microservicios en contenedores,
+OpenShift coloca los contenedores creados en un registro y los despliega en el clúster"

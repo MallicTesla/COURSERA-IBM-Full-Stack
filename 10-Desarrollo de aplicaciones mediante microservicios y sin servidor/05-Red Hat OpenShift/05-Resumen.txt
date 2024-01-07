@@ -1,0 +1,15 @@
+"¡Enhorabuena! Ha completado este módulo. A estas alturas del curso, ya lo sabe:
+
+Red Hat OpenShift es una plataforma para ejecutar cargas de trabajo en contenedores como microservicios.
+
+OpenShift es como una distribución de Kubernetes en la que OpenShift con capacidades adicionales.los servicios de OpenShift ayudan a gestionar las cargas de trabajo, construir
+    aplicaciones nativas de la nube y aumentar la productividad de los desarrolladores. Por ejemplo, OpenShift crea un trabajo Jenkins para construir automáticamente
+    microservicios en contenedores. Además, OpenShift empuja los contenedores construidos a un registro y despliega esos contenedores en el clúster.
+
+Las arquitecturas de microservicios necesitan seguridad entre los servicios, así como formas de gestionar y probar los servicios.
+
+Una malla de servicios es una capa dedicada que proporciona seguridad y mucho más coordinando la comunicación. Istio es una malla de servicios que proporciona desplazamiento de
+    tráfico, seguridad de capa de transporte mutua y telemetría cuando se despliega con microservicios.
+
+El software certificado llena las lagunas de desarrollo de su aplicación, eliminando la necesidad de que su organización dedique tiempo y dinero a desarrollar nuevos
+    microservicios. Red Hat Marketplace proporciona una ubicación central para probar, comprar, implementar y gestionar software certificado para entornos OpenShift."

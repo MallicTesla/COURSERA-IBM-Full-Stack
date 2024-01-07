@@ -1,0 +1,71 @@
+"Bienvenido a «Service Mesh e Istio».Después de ver este vídeo, podrá: enumerar las ventajas de los microservicios, describir los desafíos que conllevan los microservicios,
+    explicar qué es una malla de servicios, describir por qué es útil una malla de servicios y cómo una malla de servicios puede aliviar los desafíos más comunes de los
+    microservicios.
+
+El uso de una arquitectura de microservicios para crear aplicaciones nativas de la nube ofrece numerosas ventajas. La actualización del código es más fácil de gestionar con los
+    microservicios: solo es necesario actualizar los servicios pertinentes.
+Con los microservicios, los equipos que desarrollan diferentes componentes de aplicaciones pueden utilizar libremente otras tecnologías que satisfagan sus necesidades
+    específicas. Además, cuando una aplicación está en ejecución, los componentes que soportan más carga se pueden escalar de forma independiente, lo que evita que sea necesario
+    escalar toda la aplicación cuando solo un componente requiere más recursos.
+
+El uso de microservicios también presenta algunos desafíos. Los microservicios requieren una configuración para proteger las comunicaciones y configurar el cifrado. Es posible
+    que los equipos de desarrollo deseen implementar nuevas funciones para un subconjunto de usuarios o comparar dos versiones de una nueva función para ver qué versión atrae
+    más a los usuarios.
+En estas situaciones, los equipos necesitan despliegues rápidos y pruebas A/B. La comunicación entre los microservicios también conlleva la posibilidad de que se produzcan
+    fallos en cascada si un servicio es inalcanzable o es particularmente lento. Para evitar que los fallos de comunicación se propaguen en cascada a varios microservicios, los
+    desarrolladores deben implementar reintentos y cortes de circuitos.
+
+Ahora hablemos de las mallas de servicio.
+Una malla de servicios es una capa dedicada a hacer que la comunicación entre servicios sea segura y confiable. Entre otras capacidades, las mallas de servicio proporcionan
+    administración del tráfico para controlar el flujo de tráfico entre servicios, seguridad para cifrar el tráfico entre servicios y observabilidad del comportamiento del
+    servicio para solucionar problemas y optimizar las aplicaciones. Para obtener más información sobre las capacidades de la malla de servicios y, específicamente, sobre la
+    malla de servicios de Istio, consulte a Ram Vennam, del equipo de IBM Cloud.
+
+Usemos este ejemplo de aplicación. Tengo un microservicio de interfaz de usuario que se refiere a dos versiones del catálogo, que se refieren al inventario. Todos estos son
+    servicios desplegados dentro de un clúster de Kubernetes. La razón principal por la que alguien usa una malla de servicios es porque quiere proteger su carga de trabajo.
+    Por eso, quieren tener un TLS mutuo cuando un servicio se comunica con otro.
+
+A continuación, quieren configurar dinámicamente la forma en que los servicios se conectan entre sí. Por lo tanto, en este ejemplo, están la versión uno y la versión dos. Por
+    lo tanto, me gustaría enviar el 90 por ciento del tráfico a la versión 1 y, después, el 10 por ciento del tráfico a la versión 2 mientras realizo las pruebas y las
+    implementaciones incrementales. También podría intentar añadir políticas de reintentos y disyuntores para reforzar mi sistema. 3. Quiero observar el rendimiento de mi
+    aplicación de principio a fin, no solo si un servicio está activo o inactivo, sino ver dónde se encuentran los cuellos de botella del sistema y cómo fluye el tráfico. Y en
+    cuarto lugar, quiero controlar quién tiene acceso a qué conversación.
+
+En este ejemplo, la interfaz de usuario puede comunicarse con el catálogo y el catálogo puede comunicarse con el inventario, pero la interfaz de usuario no puede comunicarse
+    directamente con el inventario y los contenedores no autorizados no pueden comunicarse con el servicio de inventario. Puede ser más detallado y decir que la interfaz de
+    usuario puede realizar una solicitud de obtención HTTP y que el catálogo puede realizar una solicitud posterior al inventario.
+
+En el pasado, nuestros desarrolladores programaban todas estas funciones directamente en el código de su aplicación. Eso ralentizaba el ciclo de desarrollo, ampliaba estos
+    microservicios y, en general, hacía que todo fuera menos flexible, pero ahora existe una forma mejor: la malla de servicios. Usted mantiene su aplicación pequeña y centrada
+    en la empresa y, en su lugar, programa dinámicamente la inteligencia en la red, y eso es exactamente lo que hace Istio.
+
+Así que, cuando tengas Istio instalado, lo primero que harás es... inyectará automáticamente proxies junto a cada uno de tus contenedores, y estos proxies son proxies de envío,
+    y el propio proxy se ejecuta en un contenedor junto al contenedor de tu aplicación, pero se ejecuta dentro del mismo pod de Kubernetes.
+
+Ahora, cuando la interfaz de usuario quiera hablar con el catálogo, el proxy interceptará esa solicitud, aplicará las políticas y, a continuación, dirigirá el tráfico al proxy
+    del otro lado, y luego el proxy del catálogo recibirá esa solicitud y, a continuación, la reenviará al catálogo. Istio configurará cada uno de estos proxies con la
+    configuración que desee. Istio amplía Kubernetes mediante CRD. Por lo tanto, para aplicar la configuración de Istio, basta con escribir el YAML y, a continuación, aplicarlo
+    a Kubernetes. El componente galera de Istio recibirá ese YAML, lo validará y, a continuación, lo entregará al piloto de Istio. Pilot convertirá esa configuración en una
+    configuración de envío y la distribuirá a cada uno de los proxies.
+
+Si quieres que los proxies agreguen políticas y reglas adicionales, hay un componente de políticas. Además, estos proxies envían constantemente información de telemetría sobre
+    lo que ocurre en su sistema al componente de telemetría de Istio. Y por último, pero no menos importante, está Citadel.
+
+Citadel es responsable de proporcionar una identidad sólida a cada uno de los servicios de su sistema. También genera certificados y los extiende a cada uno de los proxies para
+    que puedan utilizar el TLS mutuo cuando se comunican entre sí.
+
+Para empezar a utilizar Istio y configurar Istio, debes conocer tres recursos principales.
+En primer lugar, hay una puerta de enlace. Gateway es como un balanceador de carga que se encuentra en el borde de la malla y acepta conexiones HTTP y TCP entrantes y salientes.
+
+A continuación, para dirigir el tráfico de la puerta de enlace a sus servicios, debe crear un servicio virtual. Además, un servicio virtual puede estar enlazado a una puerta de
+    enlace y dirigir el tráfico a la interfaz de usuario, o puede estar enlazado a un servicio y, a continuación, dirigir el tráfico a los demás servicios, donde puede aplicar
+    políticas como reglas de reparto del tráfico del noventa por ciento y del diez por ciento.
+
+Una vez enrutado el tráfico, puede aplicar reglas además de ese tráfico, como la configuración de TLS o la interrupción de circuitos, y todo ello mediante las reglas de destino.
+Y esos son los tres recursos principales que necesita saber sobre Istio. De hecho, voy a poner la política y la telemetría entre asteriscos porque se están refactorizando estos
+    componentes. La lógica se está trasladando fuera de este plano de control a los propios proxies para evitar el salto de red adicional. Esto se traduce en un rendimiento
+    mejorado.
+
+En este vídeo, aprendió lo siguiente: las arquitecturas de microservicios necesitan seguridad entre los servicios, así como formas de gestionarlos y probarlos.
+Una malla de servicios es una capa dedicada que proporciona seguridad y, además, al coordinar la comunicación en el entorno,
+Istio proporciona cambios de tráfico, seguridad en la capa de transporte mutuo y telemetría cuando se implementa con microservicios."

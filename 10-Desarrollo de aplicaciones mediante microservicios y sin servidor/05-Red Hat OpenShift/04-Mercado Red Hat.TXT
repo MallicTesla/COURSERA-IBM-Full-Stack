@@ -1,0 +1,32 @@
+"Bienvenido a «Red Hat Marketplace». Después de ver este vídeo, podrá: explicar por qué es beneficioso utilizar software de terceros con microservicios y describir cómo Red Hat
+    Marketplace resuelve los desafíos de descubrir, adquirir y gestionar software. Desarrollar e implementar microservicios mediante OpenShift es un proceso sencillo y ágil.
+
+Además de desarrollar sus propios microservicios, OpenShift le permite complementar sus soluciones con otro software de terceros. Lo más probable es que utilices software de
+    terceros, como bases de datos, soluciones de registro y monitorización, o cualquier otra opción que pueda ayudar a que tu aplicación sea más sólida. El software de terceros
+    puede ser una forma estupenda de cubrir las carencias sin tener que desarrollar soluciones completas tú mismo. Pero cuando se trata de elegir software de terceros, surgen
+    muchas preguntas. ¿Cómo puede encontrar un software certificado para funcionar en su entorno? ¿Cómo puede comprar ese software? ¿Cómo puede implementar ese software? Y, tras
+    la implementación, ¿cómo puede gestionar las tareas continuas, como las actualizaciones? Red Mat Marketplace resuelve cada uno de estos problemas. Según su sitio web, Red Hat
+    Marketplace es «una forma más sencilla de probar, comprar y gestionar software certificado para Red Hat OpenShift». ¿Cómo funciona?
+
+Red Hat Marketplace ofrece una ventanilla única para el software certificado para ejecutarse en Red Hat OpenShift. Puede buscar los productos disponibles y filtrar los resultados
+    en función de varias categorías. Cada producto incluye información sobre las capacidades de automatización del software, por ejemplo, si el software realiza instalaciones,
+    actualizaciones sin problemas y otras tareas del ciclo de vida del software. Red Hat Marketplace le permite ajustar el software a sus necesidades, registrarse para obtener
+    pruebas gratuitas y comprar su software.
+
+El Marketplace ofrece opciones de precios, facturación y suscripción en tiempo real, además de múltiples opciones de pago. Puede implementar rápidamente el software adquirido de
+    forma automática a través de Red Hat Marketplace en determinados clústeres de OpenShift en cualquier entorno local o de nube. Por último, puede utilizar Red Hat Marketplace
+    para llevar a cabo muchas acciones durante el ciclo de vida, como actualizaciones fluidas e información detallada, como métricas, alertas, procesamiento de registros y
+    análisis de la carga de trabajo.
+Red Hat ofrece soporte continuo para todos los productos adquiridos a través del Marketplace. A continuación, vea a Rojan Jose, del equipo de IBM Cloud, demostrar cómo encontrar
+    una solución de base de datos en Red Hat Marketplace. Supongamos que, como desarrollador, estoy buscando el progreso de las bases de datos. Haga clic en la categoría de base
+    de datos para ver la lista completa de productos de bases de datos. Utilice el filtro de la izquierda para reducir los resultados. Haga clic en el título del producto para
+    ver los detalles del producto. Voy a abrir MemSQL. Como puede ver, MemSQL cumple con los estándares de certificación en 5 parámetros diferentes. También es compatible con la
+    fase 1 y la fase 2 del modelo de madurez del operador. La pestaña de descripción general proporciona información general sobre el producto y las reseñas de G2. Las reseñas
+    de una fuente externa permiten que el mercado sea neutral. La pestaña de documentación proporciona enlaces a guías de inicio e instalación. La pestaña de precios ofrece un
+    resumen de los precios de los productos por niveles.
+El derecho al producto puede basarse en la cantidad de contenedores, la cuenta de usuario, la aplicación y las instancias, etc., junto con una suscripción que puede renovarse
+    mensual o anualmente. La medición del uso óptimo y la gestión de los excedentes estarán disponibles en versiones futuras. Además, en la pestaña Ayuda encontrará más
+    información sobre el plan de asistencia.
+
+En este vídeo, descubrió lo siguiente: el software certificado cubre las carencias de su aplicación y elimina la necesidad de que su organización desarrolle nuevos microservicios,
+    y Red Hat Marketplace proporciona una ubicación central para probar, comprar, implementar y gestionar software certificado para entornos OpenShift"

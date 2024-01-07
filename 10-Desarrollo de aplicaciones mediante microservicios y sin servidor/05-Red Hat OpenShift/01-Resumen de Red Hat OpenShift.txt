@@ -1,0 +1,42 @@
+"Bienvenido al «Resumen de Red Hat OpenShift». Tras ver este vídeo, podrá: explicar qué es Red Hat OpenShift, describir la relación entre OpenShift y Kubernetes e identificar
+    los servicios que ofrece OpenShift para facilitar las tareas de operaciones y desarrollo.
+
+La definición concisa de OpenShift, que aparece en el sitio web de Red Hat, indica que OpenShift es una plataforma de aplicaciones empresariales de Kubernetes híbrida en la nube.
+
+La nube híbrida es una arquitectura de TI que incorpora la portabilidad, la organización y la administración de las cargas de trabajo en las instalaciones y en los entornos de
+    nube. Puede ejecutar OpenShift tanto en entornos locales como en la nube.
+
+OpenShift se basa en Kubernetes de código abierto para crear una plataforma de aplicaciones. Como plataforma de aplicaciones, OpenShift hace más que organizar contenedores.
+OpenShift también proporciona herramientas adicionales para todo el ciclo de vida de las aplicaciones, desde la creación y la CI/CD hasta la supervisión y el registro. Por
+    supuesto, debemos tener en cuenta que OpenShift está desarrollado y respaldado por Red Hat.
+OpenShift es una plataforma para ejecutar microservicios.
+OpenShift está hecha a medida para implementar servicios nativos de la nube de forma automatizada.
+OpenShift organiza las cargas de trabajo en contenedores y, por lo tanto, proporciona un patrón excelente para una aplicación nativa de la nube.
+
+Las arquitecturas sin servidor suelen funcionar en conjunto con otras formas de computación, como máquinas virtuales y contenedores.
+Puede integrar OpenShift con tecnologías sin servidor cuando la tecnología sin servidor pueda satisfacer mejor las necesidades de su organización.
+Kubernetes y OpenShift están estrechamente relacionados.
+
+A menudo se utiliza una analogía con el núcleo de Linux para describir la relación entre Kubernetes y OpenShift. Un núcleo es un potente programa que se encuentra en el centro
+    de un sistema operativo. Si bien el núcleo de Linus es fundamental y capaz, muchas distribuciones de Linux, como Ubuntu, Fedora y Debian, se basan en el núcleo. Estas
+    distribuciones son sistemas operativos con características y funciones adicionales que utilizan el núcleo de Linux como propio.
+
+Al igual que una distribución de Linux de Fedora, OpenShift es una distribución de Kubernetes que se basa en sus capacidades fundamentales.
+
+Veamos qué incluye OpenShift utilizando un diagrama reproducido en el sitio web de OpenShift. En primer lugar, en un entorno OpenShift, el servidor principal de Kubernetes se
+    ejecuta en Red Hat Enterprise Linux CoreOS, mientras que los nodos de trabajo son compatibles con Red Hat Enterprise Linux.
+El siguiente es Kubernetes. Como ya hemos mencionado, Kubernetes es una parte integral de OpenShift, parte de la oferta. Hasta ahora, la arquitectura OpenShift es como
+    Kubernetes.
+La infraestructura de OpenShift incluye Kubernetes desplegado en la parte superior.
+
+Los siguientes son los servicios de clúster. Los servicios de clúster incluyen la supervisión integrada, un registro privado implementado dentro del clúster , soluciones de red y
+    muchas otras funciones diseñadas para crear una experiencia de usuario útil e intuitiva. Además de los servicios de clúster, los servicios de plataforma ayudan a los
+    usuarios a gestionar sus cargas de trabajo.
+
+Los servicios de aplicaciones ayudan a los usuarios a crear aplicaciones nativas de la nube, mientras que los servicios para desarrolladores ayudan a aumentar la productividad
+    de los desarrolladores.
+
+En este vídeo, descubrió lo siguiente:
+Red Hat OpenShift es una plataforma para ejecutar cargas de trabajo en contenedores, como microservicios.
+OpenShift es como una distribución de Kubernetes, en el sentido de que OpenShift crea capacidades adicionales sobre Kubernetes.
+OpenShift ofrece una variedad de servicios para gestionar las cargas de trabajo, crear aplicaciones nativas de la nube y aumentar la productividad de los desarrolladores."
