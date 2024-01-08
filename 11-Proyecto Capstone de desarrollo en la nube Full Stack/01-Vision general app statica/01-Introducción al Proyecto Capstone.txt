@@ -1,0 +1,116 @@
+"Tiempo estimado necesario: 9-11 horas
+Un concesionario de coches nacional con sucursales locales repartidas por todo Estados Unidos realizó recientemente una encuesta de mercado. Una de las sugerencias que surgieron
+    de la encuesta fue que a los clientes les resultaría beneficioso poder acceder a una base de datos central de opiniones de concesionarios de todo el país.
+
+Usted es un recién contratado en la empresa. Se le asigna la tarea de crear un sitio web que permita a los clientes nuevos y existentes buscar diferentes sucursales por estado y
+    consultar las opiniones de los clientes sobre las distintas sucursales. Los clientes deben poder crear una cuenta y añadir su reseña para cualquiera de las sucursales. La
+    dirección espera que esto aporte transparencia al sistema y aumente también la confianza de los clientes en el concesionario.
+
+Tras una investigación exhaustiva y una lluvia de ideas, el equipo desarrolló casos de uso para usuarios anónimos, autorizados y administradores.
+
+Casos de usopara usuarios anónimos:
+
+    Ver la página "Contacte con nosotros".
+
+    Ver la página "Quiénes somos".
+
+    Ver la lista de concesionarios.
+
+    Filtrar la lista de concesionarios por estado.
+
+    Hacer clic en un concesionario para ver las reseñas de ese concesionario en la página de detalles.
+
+    Inicie sesión con sus credenciales.
+
+Casos de uso para usuarios autorizados: Además de lo anterior, los usuarios autorizados deben poder escribir una reseña para cualquier concesionario en la página del
+    concesionario. Para que los usuarios autorizados puedan escribir sus reseñas:
+
+    Se debería proporcionar un botón de Reseña para cada concesionario que aparezca en la tabla de concesionarios.
+
+    Al hacer clic en el botón de revisión, el usuario debería acceder a la página de revisión.
+
+    Rellenar el formulario de la página de revisión y enviarlo debería añadir la revisión.
+
+```{ "user_id": 1, 
+
+"name": "Berkly Shepley", => from Django "dealership": 15, => from the form "review": "Total grid-enabled service-desk", => form textbox "time": "", =>
+    current time "purchase": true, => form checkbox "purchase_date": "07/11/2020", => form calendar (bootstrap) "car_make": "Audi", => from django dropdown "car_model": "A6", =>
+    from django dropdown "car_year": 2010 => form django dropdown } 
+```
+
+Al enviarla, el usuario debería volver a la página de detalles del concesionario con la reseña enviada en la parte superior de la lista de reseñas, ordenada por tiempo.
+
+Casos de uso para usuarios administradores:
+
+    Acceder al sitio de administración con un nombre de usuario y una contraseña predefinidos.
+
+    Añada una nueva marca, modelo y otros atributos.
+
+Su organización le ha asignado como desarrollador jefe de aplicaciones en la nube en este proyecto. Su trabajo consiste en desarrollar este portal como parte de su proyecto
+    Capstone siguiendo las mejores prácticas para el desarrollo de aplicaciones en la nube.
+
+Criterios de revisión - 100 puntos en total
+El proyecto capstone se divide en cinco módulos. Cada módulo tiene un cuestionario seguido de una entrega final que es calificada por sus compañeros en este curso. La calificación
+    se divide de la siguiente manera:
+
+    Módulo 1 Lista de control (10 puntos)
+
+    Módulo 2 Lista de control (8 puntos)
+
+    Módulo 3 Lista de control (10 puntos)
+
+    Módulo 4 Lista de control (6 puntos)
+
+    Módulo 5 Lista de control (6 puntos)
+
+    Presentación final (60 puntos)
+
+Pasos siguientes
+Asegúrese de leer la descripción general de la capstone antes de comenzar con las instrucciones paso a paso.
+
+
+
+
+El proyecto final de este curso tiene varios pasos que debes completar. La lista de pasos de alto nivel que se proporciona a continuación le ayudará a proporcionarle una
+    descripción general de todo el proyecto. El proyecto se divide en laboratorios más pequeños con instrucciones detalladas para cada paso. Debe completar todos los
+    laboratorios para completar el proyecto con éxito.
+
+Desglose del proyecto
+Trabajo previo: Regístrese para obtener una cuenta IBM Cloud Lite y cree un servicio Watson Natural Language Understanding.
+
+Cree una cuenta de IBM Cloud Lite, si aún no tiene una.
+Cree una instancia del servicio Natural Language Understanding (NLU).
+Bifurca el repositorio de GitHub que contiene la plantilla del proyecto. La aplicación web principal es una aplicación Django predefinida;
+    deberá agregar algunas características nuevas y luego crear y ejecutar la implementación de su proyecto.
+
+    Bifurca el repositorio en tu cuenta.
+    Clone el repositorio en el entorno IDE de IBM Skills Network Cloud.
+    Crea páginas estáticas para finalizar las historias de usuario.
+    Ejecute la aplicación localmente.
+Agregue administración de usuarios a la aplicación Django.
+
+Implementar la gestión de usuarios utilizando el sistema de autenticación de usuarios de Django.
+Configure la integración y entrega continua.
+Implementar servicios backend.
+
+Cree funciones en la nube para gestionar distribuidores y reseñas.
+Cree modelos y vistas de Django para administrar el modelo y la marca del automóvil.
+Cree vistas y servicios proxy de Django para integrar concesionarios, reseñas y automóviles.
+Agregue páginas dinámicas con plantillas de Django.
+
+Cree una página que muestre todos los distribuidores.
+Cree una página que muestre reseñas de un distribuidor seleccionado.
+Cree una página que permita al usuario final agregar una reseña de un distribuidor seleccionado.
+Ejecute y pruebe su aplicación
+
+Ejecute su aplicación en Cloud IDE
+Pruebe la aplicación actualizada localmente
+Arquitectura de soluciones
+La solución constará de múltiples tecnologías.
+
+El usuario interactúa con la aplicación Django a través de un navegador web.
+La aplicación Django maneja la autenticación del usuario utilizando la base de datos SQLite como capa de persistencia.
+La base de datos SQLite también almacena Car Makelos Car Modeldatos.
+Los concesionarios y las reseñas se almacenan en Cloudant, una base de datos basada en documentos NoSQL.
+Las funciones de IBM Cloud se utilizan para interactuar con la base de datos de Cloudant para conseguir concesionarios, obtener reseñas y publicar reseñas.
+La aplicación Django se comunica con IBM Cloud Functions a través de un conjunto o servicios de proxy."
