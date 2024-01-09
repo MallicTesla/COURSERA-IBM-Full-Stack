@@ -1,0 +1,21 @@
+"Enhorabuena por su nuevo puesto como desarrollador jefe de software en el concesionario `Best Cars`. Como tarea de calentamiento, necesita crear y desplegar una aplicación
+    Django inicial en IBM Cloud.
+
+La app Django se utilizará principalmente para la gestión y autenticación de usuarios, la gestión de modelos y marcas de coches y el enrutamiento de otros servicios de IBM Cloud
+    para el concesionario y las revisiones. Construirá esta app Django y los servicios en la nube relacionados de forma incremental a lo largo del curso capstone.
+
+En este módulo de aprendizaje, se le pide que realice las siguientes tareas:
+
+Fork Github repo que contiene la plantilla del proyecto
+
+Cree su propio repositorio de Github almacenando los activos del proyecto
+
+Añadir una navegación a la página web utilizando bootstrap
+
+Añada una página estática "sobre nosotros
+
+Añada una página estática "contáctenos
+
+Ejecute y pruebe la aplicación Django
+
+Siga el laboratorio de instrucciones para completar las tareas anteriores paso a paso."
