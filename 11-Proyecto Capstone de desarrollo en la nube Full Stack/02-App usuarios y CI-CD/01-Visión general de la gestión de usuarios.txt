@@ -1,0 +1,19 @@
+"Ahora, ya tiene la aplicación Django inicial construida y desplegada. En el siguiente paso, los administradores del concesionario revisarán la app para identificar a los
+    usuarios y gestionar sus accesos en función de los roles (como usuarios anónimos o usuarios registrados). Por lo tanto, está planeando añadir autenticación y autorización,
+    es decir, gestión de usuarios, a la app
+
+En esta lección, deberá realizar las siguientes tareas para añadir la función de gestión de usuarios
+
+Crear un superusuario para el sitio de administración de Django
+
+Añadir un inicio de sesión/cierre de sesión de usuario y elementos de menú de registro a la barra de navegación en la plantilla Django
+
+Añadir una vista de inicio de sesión Django para gestionar la solicitud de inicio de sesión
+
+Añada una vista de cierre de sesión Django para gestionar la solicitud de cierre de sesión
+
+Añada una plantilla de registro Django
+
+Añada una vista de registro Django para gestionar las solicitudes de registro
+
+Siga el laboratorio de instrucciones para completar las tareas anteriores paso a paso."
