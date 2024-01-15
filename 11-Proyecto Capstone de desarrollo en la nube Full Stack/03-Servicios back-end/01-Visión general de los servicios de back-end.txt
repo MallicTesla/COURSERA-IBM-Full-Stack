@@ -1,0 +1,16 @@
+"La aplicación Django que creó en el último módulo necesita comunicarse con la base de datos. En este módulo, creará acciones en IBM Cloud Functions y las servirá detrás de un
+    punto final de API.
+
+Construirá varias acciones en Python y JavaScript para realizar operaciones con la base de datos, entre ellas
+
+Obtener todos los concesionarios
+
+Obtener todos los concesionarios de un estado determinado
+
+Obtener todas las reseñas de un concesionario
+
+Publicar una reseña para un concesionario
+
+Siga el laboratorio de instrucciones para completar las tareas anteriores paso a paso."
+
+180d34b177b6e14d74f00fa0fb69b072
