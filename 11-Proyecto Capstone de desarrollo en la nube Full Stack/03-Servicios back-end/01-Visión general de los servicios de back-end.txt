@@ -14,3 +14,41 @@ Publicar una reseña para un concesionario
 Siga el laboratorio de instrucciones para completar las tareas anteriores paso a paso."
 
 180d34b177b6e14d74f00fa0fb69b072
+"GbNPdmO81ivLHTbvBKXw1Qe1s51lLSCaUCb_aE56FuG3"
+"https://e053b157-3d26-4476-8fff-0b12233b01e9-bluemix.cloudantnosqldb.appdomain.cloud"
+
+export IAM_API_KEY="XkZ7tZgt05s2xmxi_75cEgL8epbMbRY7ulUQyWFnmAB2'apikey'"
+export COUCH_URL="https://7044760a-80a6-415b-8906-e52322c37fc9-bluemix.cloudantnosqldb.appdomain.cloud'url'"
+export COUCH_URL="https://7044760a-80a6-415b-8906-e52322c37fc9-bluemix.cloudantnosqldb.appdomain.cloud"
+
+
+
+
+{
+  "dealerships": [
+    {
+      "id": 1,
+      "city": "Athens",
+      "state": "Georgia",
+      "st": "GA",
+      "address": "222 Grasskamp Plaza",
+      "zip": "30605",
+      "lat": 33.9321,
+      "long": -83.3525,
+      "short_name": "Veribet",
+      "full_name": "Veribet Car Dealership"
+    },
+    {
+      "id": 2,
+      "city": "Atlanta",
+      "state": "Georgia",
+      "st": "GA",
+      "address": "76 Clove Trail",
+      "zip": "30316",
+      "lat": 33.7217,
+      "long": -84.3339,
+      "short_name": "Aerified",
+      "full_name": "Aerified Car Dealership"
+    }
+  ]
+}

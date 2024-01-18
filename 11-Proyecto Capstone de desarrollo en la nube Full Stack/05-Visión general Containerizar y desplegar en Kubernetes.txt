@@ -1,0 +1,15 @@
+"En línea con las últimas tendencias en tecnología y para evitar el bloqueo de proveedores, su equipo directivo está buscando desplegar la aplicación del concesionario en
+    múltiples nubes. La aplicación se ejecuta actualmente en Code Engine, pero le han dicho que no todos los proveedores de nubes disponen de un servicio alojado de Code Engine.
+    Se le encarga que estudie los contenedores como una posible forma de mitigar este problema, ya que todos los grandes proveedores de nubes tienen una forma de alojar y
+    gestionar contenedores. Al contenerizar una aplicación, el proceso incluye empaquetar una aplicación con sus variables de entorno relevantes, archivos de configuración,
+    bibliotecas y dependencias de software. El resultado es una imagen de contenedor que puede ejecutarse en una plataforma de contenedores. También se le pide que utilice
+    Kubernetes para gestionar el despliegue en contenedores. Kubernetes es una plataforma de orquestación de contenedores de código abierto que automatiza el despliegue, la
+    gestión y el escalado de aplicaciones.
+
+
+En este módulo usted
+- añadirá a su aplicación la capacidad de ejecutarse en un contenedor
+- añadirá artefactos de despliegue para que su aplicación pueda ser gestionada por Kubernetes
+
+
+Siga el laboratorio instructivo para completar las tareas anteriores paso a paso."

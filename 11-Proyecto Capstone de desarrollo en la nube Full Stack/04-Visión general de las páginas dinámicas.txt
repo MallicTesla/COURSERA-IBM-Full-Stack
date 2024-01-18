@@ -1,0 +1,13 @@
+"Ha creado todos los servicios backend necesarios (vistas Django y funciones en la nube) para gestionar los concesionarios, las revisiones y los coches en el último módulo. A
+    continuación, ha llegado el momento de crear algunas plantillas front-end Django estilizadas para presentar los resultados de esos servicios a los usuarios finales
+
+En este módulo de aprendizaje, deberá realizar las siguientes tareas para añadir el front-end a la aplicación:
+
+    Crear una plantilla de lista de concesionarios y actualizar la vista de lista de concesionarios
+
+    Crear una plantilla de detalles/revisiones del concesionario y actualizar la vista de detalles del concesionario
+
+    Cree una página de envío de reseñas y añada una vista de envío
+
+
+Siga el laboratorio de instrucciones para completar las tareas anteriores paso a paso."
