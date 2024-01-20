@@ -1,0 +1,15 @@
+"Bienvenido al curso sobre Evaluación de Desarrollador de Software Full Stack. Este curso le dará acceso al examen final, que le ayudará a reflexionar sobre el recorrido de los
+    cursos que ha realizado en el Certificado Profesional de Desarrollador de Software Full Stack de IBM. Este examen no sólo pondrá a prueba los conocimientos que ha adquirido
+    a lo largo de los cursos, sino que también supondrá una celebración de su dedicación y crecimiento.
+
+El curso se divide en dos módulos. El primero es un módulo introductorio, en el que la sección de requisitos previos proporciona acceso a todos los cursos de PC a través de los
+    enlaces proporcionados. Este módulo integra resúmenes de los cursos, hojas de trucos y glosarios para ayudarle a navegar por el material del curso de forma eficaz.
+Encontrará resúmenes por cursos que consolidan conceptos fundamentales, teorías y conocimientos esenciales de los respectivos cursos. Los glosarios ofrecen términos importantes,
+    vocabulario y conceptos específicos de los cursos.
+
+El segundo módulo consiste en una evaluación final cronometrada.
+
+Tras completar esta evaluación de desarrollador de software Full Stack, habrá demostrado sus conocimientos para convertirse en un desarrollador Full Stack con capacidad para
+    desarrollar aplicaciones totalmente funcionales. Como desarrollador Full Stack, será responsable de crear tanto el front end como el back end de una aplicación de un sistema
+    informático. Podrá trabajar con empresas tecnológicas establecidas o llevar a cabo sus esfuerzos emprendedores. ¡Embarquémonos juntos en esta experiencia de aprendizaje
+    transformadora!"

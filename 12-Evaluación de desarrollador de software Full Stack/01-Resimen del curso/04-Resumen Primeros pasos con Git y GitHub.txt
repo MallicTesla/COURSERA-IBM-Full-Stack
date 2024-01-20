@@ -1,0 +1,38 @@
+"1. Fundamentos de Git y GitHub
+1.1 Primeros pasos con Git y GitHub
+
+    Un sistema de control de versiones distribuido (DVCS) realiza un seguimiento de los cambios en el código, independientemente de dónde se almacene. Esto permite que varios
+        usuarios trabajen en la misma base de código o repositorio, replicando la base de código en sus propios ordenadores si es necesario, mientras que el software de control
+        de versiones distribuido ayuda a gestionar la sincronización entre las distintas réplicas de la base de código.
+
+        Los repositorios son estructuras de almacenamiento que
+
+        Almacenan el código
+
+        Realizan un seguimiento de las incidencias y los cambios
+
+        Permiten colaborar con otros
+
+    GitHub es uno de los servicios alojados en la web más populares para repositorios Git. GitLab, Bitbucket y Beanstalk son ejemplos de sistemas de control de versiones
+        alojados.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. Uso de comandos Git y gestión de proyectos GitHub
+2.1 Flujos de trabajo de GitHub con ramas y comandos Git
+
+    Las ramas se utilizan para aislar los cambios en el código. Cuando los cambios se han completado, se pueden fusionar de nuevo en la rama principal.
+
+    Los repositorios pueden clonarse para poder trabajar localmente y luego sincronizar los cambios de nuevo con el original.
+
+    Los repositorios pueden bifurcarse para utilizarlos como base de un nuevo proyecto, o para que el desarrollador pueda trabajar de forma independiente.
+
+    Se puede enviar un pull request (PR) para que sus cambios sean revisados y fusionados.
+
+    Los grandes proyectos incluyen personas que trabajan en diferentes roles:
+
+        Desarrollador: Crea código
+
+        Integrador: Gestiona los cambios realizados por los desarrolladores
+
+        Administrador del repositorio: Configura y mantiene el acceso al repositorio"

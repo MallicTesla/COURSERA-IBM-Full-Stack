@@ -1,0 +1,91 @@
+"1. Introducción al desarrollo de aplicaciones
+    Los desarrolladores front-end trabajan en las partes del sitio web o la aplicación que el usuario ve y con las que interactúa.
+
+    Los desarrolladores de back-end trabajan en la lógica y la funcionalidad que mantienen el sitio web o la aplicación en funcionamiento y responden a las entradas de los
+        usuarios.
+
+    Los desarrolladores de pila completa tienen ambos conjuntos de habilidades.
+
+    Los desarrolladores front-end y back-end trabajan en estrecha colaboración.
+
+    Los marcos y las bibliotecas amplían la funcionalidad de lenguajes de codificación como JavaScript y Python.
+
+    Los lenguajes comunes para el desarrollo front-end incluyen HTML, CSS y JavaScript.
+
+    Los lenguajes y marcos comunes para el desarrollo back-end incluyen Python, Django y Flask.
+
+    Los sistemas de control de versiones realizan un seguimiento de los cambios y resuelven los conflictos entre ellos.
+
+    La integración continua con entrega/despliegue continuos (CI/CD) es la mejor práctica que utilizan los desarrolladores para entregar cambios frecuentes de forma fiable.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. Visión general de HTML
+    HTML proporciona la estructura básica y el contenido de una página web mediante etiquetas. 
+
+    Las etiquetas representan los elementos de una página HTML. 
+
+    El árbol DOM de HTML describe cómo está estructurada una página web. 
+
+    HTML utiliza API para mejorar la experiencia del usuario, proporcionando funciones de animación avanzada, audio y vídeo. 
+
+    El scripting proporciona una experiencia de usuario más interactiva al navegar por las páginas web. Se recomienda no depender de las secuencias de comandos, ya que pueden
+        desactivarse. 
+
+    Los sandboxes HTML5 ayudan a gestionar los mashups iframe.  
+
+    Las tablas de compatibilidad con navegadores HTML5 describen qué navegadores admiten qué características HTML5. 
+
+    JavaScript se utiliza para comprobar si un elemento es compatible con un navegador.
+
+    CSS proporciona un estilo y un diseño coherentes en todo el sitio web.
+
+    Existen dos tipos de CSS utilizados para diseñar sitios web: Fluida y fija.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+3. Visión general de CSS y elementos HTML5
+    CSS crea un aspecto uniforme en todos los elementos de cada página del sitio web. 
+
+    El CSS suele codificarse en hojas de estilo externas y crea estilos base para un sitio web.
+
+    Los marcos CSS ayudan a implementar los elementos de la interfaz de usuario y a crear páginas web dinámicas.
+
+    CSS tiene dos tipos de marcos: 
+
+        Los frameworks de utilidad, que proporcionan clases de utilidad para ayudar en la construcción de estilos y diseños propios. 
+
+        Marcos de componentes, que proporcionan una amplia selección de componentes y plantillas preestilizados que pueden implementarse en una página web. 
+
+    El CSS plano (Vanilla) permite a los desarrolladores escribir los estilos y diseños de un sitio web.
+
+    Los elementos HTML5 proporcionan estructura y función a los sitios web. 
+
+    HTML5 utiliza la etiqueta <input> para permitir a los usuarios introducir información. Tiene muchos tipos diferentes, entre ellos 
+
+        Color, Fecha, Fecha-hora-local, Correo electrónico, Número, Rango, Buscar en, URL
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+4. Programación JavaScript para aplicaciones web
+    JavaScript es un lenguaje de programación que permite a los desarrolladores añadir contenido dinámico a las páginas web.
+
+    Las variables de JavaScript se declaran utilizando la palabra clave var y toman su tipo del valor asignado.
+
+    La ejecución del programa se controla mediante sentencias como If...Then...Else, Switch, bucles For y bucles While.
+
+    JavaScript utiliza bloques de código denominados funciones que pueden invocarse desde cualquier parte del script.
+
+    Se pueden añadir nuevos métodos y propiedades a un objeto modificando el prototipo de dicho objeto.
+
+    Los prototipos permiten definir propiedades y métodos para todas las instancias de un objeto específico.
+
+    Los scripts del lado del cliente son programas que acompañan a los documentos HTML y que los desarrolladores utilizan para incorporar más elementos interactivos.
+
+    La etiqueta script puede incorporar un script dentro de un documento HTML o llamar a un script desde un archivo externo.
+
+    El modelo de objetos del documento (DOM) es la interfaz de programación entre HTML o XHTML y JavaScript.
+
+    Los desarrolladores pueden acceder a los elementos DOM de HTML desde los scripts de JavaScript utilizando la notación DOM correcta.
+
+    A menudo se utilizan API para acceder a los elementos DOM de HTML en las páginas web."

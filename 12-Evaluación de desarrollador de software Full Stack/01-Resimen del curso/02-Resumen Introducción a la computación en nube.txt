@@ -1,0 +1,270 @@
+"1. Visión general de la computación en nube
+1.1 Introducción a la computación en nube
+
+    La computación en nube es la entrega de recursos informáticos a la carta a través de Internet sobre una base de pago por uso.
+
+    Los recursos se asignan y reasignan dinámicamente entre múltiples usuarios y se amplían y reducen en respuesta a las necesidades de los usuarios.
+
+    Los orígenes de la computación en nube se remontan a los mainframes de la década de 1950, con las tecnologías de virtualización y los hipervisores como catalizadores de la
+        aparición de la computación en nube actual.
+
+    Las organizaciones deben tener en cuenta sus necesidades empresariales, la viabilidad de la inversión y la capacidad de riesgo para crear una estrategia de adopción de la
+        nube que proporcione los beneficios deseados sin causar interrupciones en el negocio ni problemas de seguridad, cumplimiento o rendimiento.
+
+    La adopción de la nube está creciendo más rápido de lo previsto. Los impulsores de esta ola tecnológica son los proveedores de servicios en la nube, con una amplia gama de
+        servicios que van desde la infraestructura hasta la plataforma y los servicios de software. Algunos de los principales proveedores de nubes de nuestro tiempo son AWS,
+        Alibaba Cloud, Google, IBM y Microsoft Azure.
+
+
+1.2 Argumentos empresariales a favor de la computación en nube
+
+    La adopción de tecnologías en la nube permite a las empresas, grandes y pequeñas, ser ágiles, innovadoras y competitivas y crear experiencias de cliente diferenciadas. Las
+        preguntas que se plantean las organizaciones no son si deben pasarse a la nube, sino más bien qué estrategia deben adoptar para hacerlo.
+
+    Algunos casos prácticos que demuestran el impacto que han creado las empresas al adoptar la nube:
+
+        American Airlines adoptando tecnologías en la nube para ofrecer rápidamente valor al cliente en toda su empresa.
+
+        UBank aprovechando los servicios de la plataforma en la nube para dar más control a sus desarrolladores, eliminando así las barreras a la innovación.
+
+        Bitly aprovechando la escalabilidad que ofrece la infraestructura en la nube para la entrega de baja latencia a sus clientes empresariales dispersos geográficamente.
+
+        ActivTrades aprovechando las ofertas de infraestructura, almacenamiento, red y seguridad en la nube para acelerar la ejecución y entrega de nuevas funciones en sus
+            sistemas de negociación en línea a sus clientes.
+
+1.3 Tecnologías emergentes aceleradas por la nube
+
+    Las tecnologías emergentes impulsadas por la nube están alterando los modelos empresariales existentes y creando oportunidades sin precedentes para que las empresas crezcan,
+        innoven y creen valor para sus clientes.
+
+    Algunos casos prácticos que demuestran cómo el uso de las tecnologías emergentes en la nube está creando valor para millones de personas en todo el mundo:
+
+        El uso del Internet de las cosas en la nube para combatir la caza furtiva de rinocerontes en peligro de extinción en Sudáfrica.
+
+        La inteligencia artificial en la nube está siendo aprovechada para ofrecer experiencias digitales únicas a millones de aficionados de todo el mundo por la Asociación de
+        Tenis de Estados Unidos.
+
+        Blockchain en la nube ayuda a los agricultores a reducir los residuos mediante la creación de trazabilidad y transparencia en la cadena de suministro de alimentos.
+
+        El uso de la analítica de datos para impulsar soluciones de mantenimiento predictivo de las infraestructuras de una ciudad por parte de KONE.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. Modelos de computación en nube
+2.1 Modelos de servicio
+
+    La computación en nube nos permite utilizar la tecnología como un servicio, aprovechando los recursos remotos bajo demanda, en un modelo de pago por uso. Existen tres
+        modelos principales de servicio disponibles en la nube: Infraestructura como servicio (LaaS), plataforma como servicio (PaaS) y software como servicio (SaaS).
+
+        Con IaaS, el proveedor de la nube gestiona los recursos físicos.
+
+        Con PaaS, el proveedor gestiona la infraestructura de la plataforma.
+
+        En el modelo SaaS, el proveedor aloja y gestiona las aplicaciones y los datos.
+
+    La infraestructura como servicio es una forma de computación en nube que suministra recursos informáticos, de red y de almacenamiento fundamentales a los consumidores bajo
+        demanda, a través de la red, sobre la base del pago por uso.
+
+    Los componentes clave de la infraestructura en nube son:
+
+        Centros de datos físicos
+
+        Computación
+
+        Red
+
+        Almacenamiento
+
+    La plataforma como servicio es un modelo de computación en nube que proporciona a los clientes una plataforma completa: Hardware, software e infraestructura.
+
+    El alto nivel de abstracción, los servicios de soporte, los entornos de ejecución, los mecanismos de despliegue rápido y las capacidades de middleware distinguen a las nubes
+    PaaS.
+
+    Las ventajas de PaaS son
+
+        Escalabilidad
+
+        Mayor rapidez en la comercialización de productos y servicios
+
+        Mayor agilidad e innovación
+
+    El software como servicio es una oferta en la nube que proporciona a los usuarios acceso al software basado en la nube de un proveedor de servicios.
+
+    Las características de SaaS son:
+
+        Arquitectura multiusuario
+
+        Seguridad, cumplimiento y mantenimiento
+
+        Personalización de las aplicaciones
+
+        Modelo de suscripción
+
+        Escalado
+
+    Las ventajas de SaaS son
+
+        Adquisición directa de soluciones
+
+        Mejora de la productividad y la eficiencia del personal
+
+        Permiten distribuir los costes del software
+
+
+2.2 Modelos de despliegue
+
+    Los modelos de despliegue indican dónde reside la infraestructura, quién la posee y gestiona, y cómo están disponibles para los usuarios los recursos y servicios de la nube.
+    Existen cuatro modelos principales de despliegue disponibles en la nube: Pública, privada, híbrida y comunitaria.
+
+    En el modelo de nube pública, el proveedor de servicios posee, gestiona, aprovisiona y mantiene la infraestructura física, como los centros de datos, los servidores, los
+        equipos de red y el almacenamiento, y los usuarios acceden a los recursos informáticos, de red y de almacenamiento virtualizados como servicios.
+
+    En el modelo de nube privada, el proveedor aprovisiona la infraestructura de la nube para uso exclusivo de una sola organización. La infraestructura de nube privada puede
+        ser interna a la organización y ejecutarse en las instalaciones. O puede estar en una nube pública, como en el caso de las nubes privadas virtuales (VPC), y ser
+        propiedad del proveedor de la nube, que se encarga de gestionarla y explotarla.
+
+    En el modelo de nube híbrida, la nube privada local de una organización y una nube pública de un tercero se conectan como una infraestructura única y flexible que aprovecha
+        las características y ventajas tanto de las nubes públicas como de las privadas.
+
+    En el modelo de nube comunitaria, el proveedor aprovisiona la infraestructura de la nube para que la utilice una comunidad de organizaciones con intereses comunes. Una o
+        varias organizaciones de la comunidad, un proveedor externo o ambos son responsables de la propiedad, la gestión y el funcionamiento de esta infraestructura.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+3. Componentes de la computación en nube 
+3.1 Infraestructura de la nube
+
+    La infraestructura de la nube comprende centros de datos, almacenamiento, componentes de red y recursos informáticos.
+
+    La virtualización es el proceso de creación de una versión basada en software de los recursos físicos, posible gracias a los hipervisores.
+
+    En la nube se pueden aprovisionar diferentes tipos de máquinas virtuales. Entre ellos se incluyen:
+
+        Las máquinas virtuales compartidas o de nube pública son implantaciones multiinquilino gestionadas por el proveedor que se pueden aprovisionar bajo demanda con tamaños
+            predefinidos.
+
+        VM transitorias o puntuales que utilizan la capacidad no utilizada de un centro de datos en la nube.
+
+        VM reservadas que permiten reservar capacidad y garantizar recursos para futuros despliegues.
+
+        Hosts dedicados que ofrecen aislamiento de un único inquilino.
+
+    Los servidores bare metal son servidores físicos de inquilino único dedicados a un solo cliente. Los servidores bare metal satisfacen las exigentes necesidades de la
+        informática de alto rendimiento (HPC) y de las aplicaciones con uso intensivo de datos. Son ideales para aplicaciones que tienen un alto grado de seguridad o requisitos
+        de cumplimiento.
+
+    Las capacidades de red en la nube se suministran como un servicio y no en forma de dispositivos montados en bastidores. Los recursos de la nube, como las máquinas virtuales
+        (o VSI), el almacenamiento, la conectividad de red y los equilibradores de carga, se despliegan en subredes dentro de nubes privadas virtuales (VPC). El uso de subredes
+        privadas y públicas permite a los usuarios desplegar aplicaciones empresariales multinivel de forma segura. Los equilibradores de carga distribuyen el tráfico y permiten
+        que las aplicaciones tengan capacidad de respuesta.
+
+    Los contenedores son unidades ejecutables de software en las que el código de la aplicación, sus bibliotecas y sus dependencias se empaquetan de una forma común, de modo que
+        pueda ejecutarse en cualquier lugar, desde los ordenadores de sobremesa a la TI tradicional o la nube. Los contenedores son más ligeros y consumen menos recursos que las
+        máquinas virtuales, lo que ayuda a agilizar el desarrollo y la implantación de aplicaciones nativas de la nube. 
+
+
+3.2 Almacenamiento en la nube y redes de distribución de contenidos
+
+    El almacenamiento en la nube está disponible en cuatro tipos principales: Almacenamiento adjunto directo, de archivos, de bloques y de objetos. Estos tipos de almacenamiento
+        difieren en cómo se puede acceder a ellos, la capacidad que ofrecen, su coste, los tipos de datos para los que son más adecuados y su velocidad de lectura y escritura.
+
+    El almacenamiento conectado directamente (o local) es el que se presenta directamente a un servidor basado en la nube y se encuentra efectivamente dentro del chasis del
+        servidor anfitrión o dentro del mismo bastidor.
+
+    El almacenamiento de archivos se presenta normalmente a los nodos de cálculo como un sistema de archivos de red (NFS), lo que significa que el almacenamiento está conectado a
+        los nodos de cálculo a través de una red Ethernet estándar.
+
+    El almacenamiento en bloque se presenta a los nodos de cálculo mediante conexiones de fibra de alta velocidad, normalmente aprovisionado en volúmenes, que se montan en un
+        nodo de cálculo.
+
+    Al almacenamiento de objetos se accede a través de una API y no necesita un nodo de cálculo subyacente. 
+
+    El almacenamiento de objetos ofrece una capacidad infinita, ya que puede seguir añadiéndole archivos y sólo paga por lo que utiliza. En comparación con los otros tipos de
+        almacenamiento, el almacenamiento de objetos es el más lento en cuanto a velocidad de lectura y escritura. 
+
+    Una red de entrega de contenidos (CDN) es una red de servidores distribuidos que acelera la entrega de contenidos de Internet mediante la entrega de copias almacenadas
+        temporalmente o en caché de contenidos de sitios web o medios de comunicación a los usuarios en función de su ubicación geográfica.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+4. Tendencias y prácticas emergentes
+4.1 Nube múltiple híbrida, microservicios y sin servidor
+
+    La multi-nube híbrida es una estrategia de adopción de la nube que permite que las nubes públicas, las nubes privadas y la TI local interoperen a la perfección aprovechando
+        los mejores servicios basados en la nube de diferentes proveedores de nubes públicas.
+
+    La arquitectura de microservicios es un enfoque en el que una aplicación se construye como una colección de componentes o servicios débilmente acoplados e independientemente
+        desplegables, lo que conduce a ciclos eficientes de desarrollo, mantenimiento y actualización.
+
+    La informática sin servidor es un enfoque de la informática que descarga la responsabilidad de las tareas comunes de gestión de la infraestructura para los tiempos de
+        ejecución de las aplicaciones a los proveedores de la nube, lo que permite a los desarrolladores centrar su tiempo y esfuerzo en el desarrollo y las pruebas y no tener
+        que preocuparse por el aprovisionamiento, el mantenimiento y el escalado de los recursos informáticos.
+
+4.2 Aplicaciones nativas de la nube, DevOps y modernización de aplicaciones
+
+    Las aplicaciones nativas de la nube son aplicaciones construidas o refactorizadas para funcionar en el entorno de la nube. Estas aplicaciones, desarrolladas mediante
+        metodologías DevOps, consisten en microservicios empaquetados en contenedores que pueden ejecutarse en cualquier entorno, lo que permite crear y actualizar funciones en 
+        ciclos iterativos rápidos.
+
+    DevOps es un enfoque de colaboración que permite a los equipos de desarrollo y operaciones entregar continuamente software en ciclos iterativos rápidos, reduciendo al mismo
+        tiempo los gastos generales, la duplicación y la repetición del trabajo. Las herramientas, prácticas y procesos de DevOps ayudan a abordar las complejidades y los retos
+        que plantea la nube, permitiendo que las soluciones se entreguen y actualicen de forma rápida y fiable.
+
+    La modernización de las aplicaciones ayuda a las organizaciones a acelerar la transformación digital, aprovechar las nuevas tecnologías y servicios y responder mejor a la
+        dinámica cambiante del mercado. La computación en nube es uno de los elementos clave de la modernización de las aplicaciones.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+5. Seguridad y supervisión en la nube, Casos prácticos, Empleo
+5.1 Seguridad y supervisión de la nube
+
+    La seguridad en la nube hace referencia a las políticas, los procedimientos tecnológicos, los servicios y las soluciones diseñados para proteger las aplicaciones y los datos
+        de la empresa en la nube frente a las amenazas internas, las violaciones de datos, los problemas de cumplimiento y las amenazas de seguridad organizadas.
+
+    La seguridad en la nube es una responsabilidad compartida entre el proveedor de la nube y la organización usuaria.
+
+    La arquitectura de seguridad y los métodos para lograr una seguridad continua deben integrarse en todo el ciclo de vida de una aplicación para garantizar que ésta se ejecuta
+        en una plataforma segura, que el código está libre de vulnerabilidades y que se comprenden los riesgos operativos.
+
+    La gestión de la identidad y el acceso, también conocida como control de acceso, ayuda a autenticar y autorizar a los usuarios y proporciona acceso específico a los recursos,
+        servicios y aplicaciones de la nube.
+
+    Como parte de sus servicios de gestión de la identidad y el acceso, la mayoría de los proveedores de la nube ofrecen a los usuarios la posibilidad de definir grupos de
+        acceso y crear políticas de acceso que definen los permisos para los usuarios en los recursos de la cuenta.
+
+    El cifrado en la nube, a menudo llamado la última línea de defensa, cifra los datos y proporciona un sólido control de acceso a los datos, gestión de claves y gestión de
+        certificados.
+
+    Los datos necesitan cifrado en tres estados:
+
+        Cifrado en reposo: Protección de los datos mientras están almacenados.
+
+        Cifrado en tránsito: Protección de los datos mientras se transmiten de un lugar a otro.
+
+        Cifrado en uso: Proteger los datos cuando se utilizan en la memoria.
+
+    Es necesario que haya una supervisión activa de todos los sistemas conectados y de los servicios basados en la nube para mantener la visibilidad de todos los intercambios de
+        datos entre los entornos de nube pública, privada e híbrida. Esto garantiza que la nube proporciona una plataforma de confianza que puede integrarse de forma segura con
+        los centros de datos de su empresa.
+
+
+5.2 Casos prácticos y puestos de trabajo
+
+    Empresas de todo el mundo están obteniendo beneficios tangibles del uso de tecnologías y servicios en la nube, entre ellas:
+
+        The Weather Company migrando a la nube para ofrecer de forma fiable datos meteorológicos críticos a gran velocidad, especialmente durante grandes fenómenos meteorológicos
+            como huracanes y tornados.
+
+        American Airlines utilizando la plataforma y las tecnologías de la nube para ofrecer herramientas digitales de autoservicio y valor al cliente más rápidamente en toda su
+            empresa.
+
+        Cementos Pacasmayo alcanzando la excelencia operativa y el conocimiento para ayudar a impulsar la transformación estratégica y llegar a nuevos mercados utilizando los
+            servicios en la nube.
+
+        Welch eligiendo el almacenamiento en la nube para impulsar el valor empresarial de la nube híbrida.
+
+        LiquidPower utilizando aplicaciones SAP basadas en la nube para impulsar el crecimiento empresarial.
+
+    El tamaño del mercado del sector de los servicios en la nube casi triplica el crecimiento de los servicios informáticos en general, lo que aumenta la necesidad de
+        profesionales cualificados en este campo. Algunos puestos de trabajo habituales en este ámbito son los de ingenieros de software en la nube, especialistas en integración
+        en la nube, ingenieros de datos en la nube, ingenieros de seguridad en la nube, ingenieros de DevOps en la nube y arquitectos de soluciones en la nube."
