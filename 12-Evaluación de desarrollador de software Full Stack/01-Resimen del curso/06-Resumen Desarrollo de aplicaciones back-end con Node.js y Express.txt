@@ -1,0 +1,55 @@
+"1. Introducción a JavaScript del lado del servidor
+    Las tecnologías back-end incluyen varios tipos de servidores e infraestructuras de apoyo como lenguajes de programación, marcos de trabajo y otro hardware.
+
+    Node.js es el componente del lado del servidor de JavaScript. El uso de Node.js puede mejorar el rendimiento de las aplicaciones, y express.js es un marco de trabajo que le
+        ayuda a crear aplicaciones Node.js.
+
+    La sentencia "require" puede invocarse desde cualquier parte del código de la aplicación, se vincula dinámicamente y es síncrona, mientras que la sentencia "import" sólo
+        puede invocarse al principio de un archivo, se vincula estáticamente y es asíncrona.
+
+    El JavaScript del lado del cliente se utiliza para procesar los elementos de la interfaz de usuario del front-end, y el JavaScript del lado del servidor se utiliza para
+        permitir el acceso a diferentes tipos de servidores y aplicaciones web.
+
+    Con JavaScript del lado del servidor, las aplicaciones Node.js procesan y enrutan las peticiones de servicios web del cliente.
+
+    Para poner una función o un valor a disposición de las aplicaciones Node.js que importen su módulo, añada una propiedad al objeto exports implícito.
+
+    Los módulos básicos incluyen la funcionalidad mínima, los módulos locales son los que usted crea para su aplicación y la comunidad Node.js crea módulos de terceros.
+
+    Una instalación local significa que sólo la aplicación dentro del directorio del instalado puede acceder al paquete, mientras que una instalación global significa que
+        cualquier aplicación en la máquina puede acceder al paquete.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. E/S asíncrona con programación de devolución de llamada
+    Las operaciones de red asíncronas pueden gestionarse utilizando funciones de devolución de llamada para evitar el bloqueo del código JavaScript.
+
+    Una función callback debe invocar a otra función callback para pasar un mensaje del módulo Node.js de vuelta a la aplicación principal después de que el módulo Node.js
+        reciba un mensaje de respuesta.
+
+    Las retrollamadas anidadas pueden ser difíciles de leer y depurar. La inversión de control causa problemas de confianza cuando se trata de código de terceros.
+
+    Los objetos Promise son más útiles para operaciones que requieren mucho tiempo y pueden bloquear recursos.
+
+    JSON.parse() y JSON.stringify() son dos métodos utilizados para analizar objetos JSON.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+3. Marco de aplicaciones web exprés
+    Los desarrolladores dependen de paquetes de terceros para ampliar Node.js
+
+    Puede utilizar la aplicación npm para gestionar los paquetes de Node.js en su instalación del marco de trabajo de Node.js.
+
+    El estilo de arquitectura modelo-vista-controlador MVC divide una aplicación back-end en tres partes: el modelo, la vista y el controlador.
+
+    Los marcos de API REST utilizan métodos HTTP para comunicarse entre sí.
+
+    Express abstrae los detalles de bajo nivel
+
+    El enrutamiento puede gestionarse a nivel de la aplicación o del enrutador.
+
+    Existen cinco tipos de middleware: nivel de aplicación, nivel de enrutador, gestión de errores, middleware incorporado y de terceros.
+
+    El renderizado de plantillas es la capacidad del servidor para rellenar contenido dinámico.
+
+    El paquete npm jsonwebtoken debería ser necesario en una aplicación Express para autenticar a un usuario."

@@ -1,0 +1,238 @@
+"1. Conceptos básicos de Python
+1.1 Tipos
+
+    Un tipo es la forma en que Python representa diferentes tipos de datos. Por ejemplo, los tres tipos de datos son int, float y string.
+
+    El tipo de datos int representa un número entero, float representa float, esencialmente un número real, y el tipo de datos string es una secuencia de caracteres.
+
+    Typecasting es un proceso que se puede utilizar para cambiar el tipo de expresión en Python. El tipo int puede cambiarse a float. Una cadena que contenga un valor entero
+        también puede convertirse en int.
+
+    Boolean es otro tipo importante en Python. Un booleano puede tomar dos valores: Verdadero o Falso.
+
+
+1.2 Expresiones y variables
+
+    Las expresiones son operaciones que realiza Python. Los números se denominan operandos, mientras que los símbolos matemáticos se denominan operadores.
+
+    Para realizar la operación de suma se utiliza el símbolo de suma (+). Para realizar la operación de resta, utilice el signo de resta ( ̶ ). Para las operaciones d
+        multiplicación, utilice el símbolo de asterisco (*), y para las operaciones de división, utilice la barra oblicua (/).
+
+    Python sigue las convenciones matemáticas al realizar expresiones matemáticas.
+
+    Las variables se utilizan para almacenar valores. Para asignar un nuevo valor a cualquier variable, utilice el operador de asignación, es decir, el signo igual.
+
+
+1.3 Operaciones con cadenas
+
+    En Python, una cadena es una secuencia de caracteres. Una cadena está contenida entre dos comillas. Una cadena puede contener espacios o dígitos. Una cadena también puede
+        tener caracteres especiales.
+
+    Una cadena puede considerarse como una secuencia ordenada. Se puede acceder a cada elemento de la secuencia utilizando un índice representado por la matriz de números.
+
+    El comando len se utiliza para obtener la longitud de la cadena.
+
+    Las barras invertidas representan el comienzo de las secuencias de escape. 
+
+        La barra invertida n (es decir, \n) representa una nueva línea. La salida viene dada por una nueva línea después de encontrar la barra invertida "n".
+
+        La barra invertida t (es decir, \t) representa un tabulador. La salida viene dada por un tabulador donde se encuentra la \t.
+
+        Para colocar una barra invertida en su cadena, utilice una barra invertida doble.
+
+    El método de cadena "Mayúsculas" convierte los caracteres en minúsculas en caracteres en mayúsculas.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. Estructuras de datos de Python
+2.1 Listas y tuplas
+
+    Las listas y tuplas se denominan tipos de datos compuestos y son uno de los tipos clave de estructuras de datos en Python.
+
+    Las tuplas son una secuencia ordenada y se expresan como elementos separados por comas entre paréntesis. Se puede acceder a cada elemento de una tupla mediante un índice.
+
+    Las tuplas son inmutables, lo que significa que no pueden modificarse.
+
+    Una tupla puede contener otras tuplas, así como otros tipos de datos complejos, lo que se denomina anidamiento.
+
+    Las listas son también una secuencia ordenada y se representan con corchetes.
+
+    La única diferencia clave entre tuplas y listas es que las listas son mutables.
+
+
+2.2 Diccionarios
+
+    Los diccionarios son un tipo de colección en Python. El diccionario tiene claves y valores. 
+
+        La clave es análoga al índice. Son como direcciones, pero no tienen por qué ser enteros. Suelen ser caracteres.
+
+        Los valores son similares a los elementos de una lista y contienen información.
+
+    Para crear un diccionario, utilice llaves. Las claves son los primeros elementos. Deben ser inmutables y únicos. A cada clave le sigue un valor separado por dos puntos. Los
+        valores pueden ser inmutables, mutables y duplicados. Cada par de clave y valor va separado por una coma.
+
+
+2.3 Conjuntos
+
+    Un conjunto es un tipo de colección desordenada y formada por elementos únicos.
+
+    Para definir un conjunto, coloque los distintos elementos de un conjunto entre llaves separadas por comas. Elimine los elementos duplicados.
+
+    Una lista puede convertirse en un conjunto utilizando la función conjunto, lo que se denomina fundición de tipos. Basta con utilizar la lista como entrada de la función
+        conjunto. El resultado será una lista convertida en un conjunto.
+
+    Un diagrama de Venn es una herramienta que utiliza formas para representar conjuntos. 
+
+    Para añadir un elemento a un conjunto, utilice el método add. Ponga el nombre del conjunto seguido de un punto y, a continuación, el método add.
+
+    Para eliminar un elemento de un conjunto, utilice el método eliminar. Ponga el nombre del conjunto seguido de un punto y, a continuación, el método remove.
+
+    La intersección de dos conjuntos es un nuevo conjunto que contiene elementos que están en ambos conjuntos. La intersección se define en términos de "y" En Python, utilizamos
+        un ampersand (&) para encontrar la intersección de los dos conjuntos.
+
+    La unión de dos conjuntos es el nuevo conjunto de elementos que contienen todos los elementos de ambos conjuntos.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+3. Fundamentos de programación en Python
+3.1 Condicionamiento y bifurcación
+
+    Las operaciones de comparación comparan algunos valores u operandos y producen un booleano (Verdadero o Falso) basado en alguna condición.
+
+    El operador de igualdad denotado con dos signos de igual se puede utilizar para determinar si dos valores son iguales.
+
+    La prueba de desigualdad utiliza un signo de exclamación que precede al signo igual. Si dos operandos no son iguales, la condición se convierte en verdadera.
+
+    La ramificación nos permite ejecutar diferentes sentencias para diferentes entradas. Por ejemplo, es útil pensar en una sentencia if como en una habitación cerrada. Si esta
+        sentencia es verdadera, usted puede entrar en la habitación y su programa puede ejecutar alguna tarea predefinida. Si la sentencia es falsa, su programa se saltará la
+        tarea.
+
+    La sentencia elif, abreviatura de else if, nos permite comprobar condiciones adicionales si la condición precedente es falsa. Si la condición es verdadera, se ejecutarán las
+        expresiones alternativas.
+
+    Las operaciones lógicas toman valores booleanos y producen valores booleanos diferentes. 
+
+        La primera operación es el operador not. Si la entrada es verdadera, el resultado es falso. Del mismo modo, si la entrada es falsa, el resultado es verdadero.
+
+        El operador OR toma los dos valores y produce un nuevo valor booleano. Sólo produce un falso si todos los valores booleanos son falsos.
+
+        El operador AND toma los dos valores y produce un nuevo valor booleano. Sólo produce un verdadero si todos los valores booleanos son verdaderos.
+
+
+3.2 Bucles
+
+    La función rango produce y ordena la secuencia como una lista. Si la entrada es un número entero positivo, la salida es una secuencia. La secuencia contiene el mismo número
+        de elementos que la entrada pero empieza en cero.
+
+    Si la función rango tiene dos entradas en las que la primera entrada es menor que la segunda, la salida es una secuencia que comienza en la primera entrada. A continuación,
+        la secuencia itera hasta el segundo número, pero sin incluirlo.
+
+    Los bucles realizan una tarea una y otra vez. Los dos bucles de este tipo son el bucle for y el bucle while.
+
+
+3.3 Funciones
+
+    Las funciones toman alguna entrada y luego producen alguna salida o cambio.
+
+    La función len toma una entrada de tipo secuencia, como una cadena o una lista, o de tipo colección, como un diccionario o un conjunto, y devuelve la longitud de esa
+        secuencia o colección.
+
+    La función sum toma en un iterable como una tupla o una lista y devuelve el total de todos los elementos.
+
+    La función sorted devuelve una nueva lista o tupla ordenada.
+
+    La función mult multiplica dos números. Devuelve un nuevo entero si los dos números son enteros. Devuelve un flotante si pasamos un entero y un flotante. Si pasamos el
+        número entero dos y una cadena, la cadena se repetirá dos veces.
+
+    Las variables globales son aquellas variables que se definen fuera de cualquier función que tenga un ámbito global, lo que significa que se puede acceder a ellas en
+        cualquier lugar una vez definidas.
+
+
+3.4 Manejo de excepciones
+
+    La sentencia try...except intentará primero ejecutar el código en el bloque "try", pero si se produce un error, saldrá y comenzará a buscar la excepción que coincida con el
+        error. Una vez que encuentre la excepción correcta para manejar el error, entonces ejecutará esa línea de código.
+
+    Añadiendo una sentencia else nos proporcionará una notificación a la consola de que "El archivo se ha escrito correctamente"
+
+    Añadiendo una sentencia finally, le dirá al programa que cierre el archivo sin importar el resultado final e imprimirá "El archivo está ahora cerrado" en nuestra consola.
+
+
+3.5 Objetos y clases
+
+    Python tiene muchas clases diferentes de tipos de datos: enteros, flotantes, cadenas, listas, diccionarios y booleanos.
+
+    Cada objeto tiene lo siguiente: un tipo, una representación interna y un conjunto de funciones llamadas métodos para interactuar con los datos. Un objeto es una instancia de
+        un tipo concreto.
+
+    Construcción de la clase círculo en Python:
+
+        En primer lugar, defina la clase y, a continuación, inicialice cada instancia de la clase con los atributos de datos, radio y color utilizando el constructor de la clase.
+
+        La función init es un constructor, que es una función especial que indica a Python que está creando una nueva clase.
+
+        Existen otras funciones especiales en Python para hacer clases más complejas. Los parámetros de radio y color se utilizan para inicializar los atributos de datos de
+            radio y color de la instancia de la clase.
+
+        El autoparámetro se refiere a la instancia recién creada de la clase. Los parámetros, radio y color pueden utilizarse en el cuerpo de los constructores para acceder a
+            los valores pasados al constructor de la clase cuando ésta se construye.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+4. Trabajar con datos en Python
+4.1 Lectura y escritura de archivos con open
+
+    La función open incorporada en Python se utiliza para crear un objeto archivo y obtener los datos de un archivo "txt".
+
+        Al utilizar la función open, el primer argumento es la ruta del archivo. Éste está formado por el nombre del archivo y el directorio del mismo. 
+
+        El segundo parámetro es el modo. Los valores más comunes son "r" para leer, "w" para escribir y "a" para anexar.
+
+        Por último, tenemos el objeto archivo.
+
+    Se recomienda utilizar una sentencia "with" para abrir un archivo porque lo cierra automáticamente. El código ejecutará todo en el bloque de sangría, y luego cierra el
+        archivo.
+
+    La función open de Python puede utilizarse para obtener un objeto file y crear un archivo de texto. Podemos aplicar el método write para escribir datos en ese archivo. 
+
+        Al utilizar la función open, el primer argumento es la ruta del archivo. Éste está formado por el nombre del archivo. Si tiene ese archivo en su directorio, se
+            sobrescribirá.
+
+        El segundo parámetro es el modo. Establezca el parámetro de modo en "w" para escribir.
+
+        Finalmente, tenemos el objeto fichero.
+
+
+4.2 Pandas
+
+    Pandas es una biblioteca popular para el análisis de datos.
+
+    Esta biblioteca se puede importar utilizando el comando "import" seguido del nombre de la biblioteca, lo que le dará acceso a un gran número de clases y funciones
+        preconstruidas.
+
+    Un marco de datos se compone de filas y columnas. Un marco de datos puede crearse a partir de un diccionario, donde las claves corresponden a las etiquetas de las columnas,
+        y los valores o listas corresponden a las filas.
+
+
+4.3 Numpy en Python
+
+    Numpy es una biblioteca para la computación científica y tiene muchas funciones útiles. Sirve de base para Pandas y tiene muchas otras ventajas como la velocidad y la
+        memoria. 
+
+    Una lista en Python es un contenedor que permite almacenar y acceder a datos, donde cada elemento está asociado a un índice.
+
+    Un array Numpy o array ND es similar a una lista, normalmente de tamaño fijo, y tiene elementos del mismo tipo.
+
+    El atributo ndim representa el número de dimensiones del array o el rango del array.
+
+    El atributo shape es una tupla de enteros que indica el tamaño del array en cada dimensión.
+
+    Suma de vectores: Se puede realizar sobre dos vectores dados para obtener un nuevo vector. El primer componente de este nuevo vector es la suma del primer componente de los
+        dos vectores dados. Del mismo modo, el segundo componente del nuevo vector es la suma de los segundos componentes de los dos vectores dados. El nuevo vector es una
+        combinación lineal de los dos vectores dados.
+
+    Multiplicación de vectores con un escalar: Para multiplicar un vector con un escalar, multiplique cada componente de un vector dado por el escalar dado.
+
+    El producto de Hadamard es otra operación muy utilizada en la ciencia de datos. El producto Hadamard de u y v es un nuevo vector z. El primer componente de z es el producto
+        del primer elemento de u y v. Del mismo modo, el segundo componente es el producto del segundo elemento de u y v. El vector resultante está formado por el producto de
+        entrada de u y v."

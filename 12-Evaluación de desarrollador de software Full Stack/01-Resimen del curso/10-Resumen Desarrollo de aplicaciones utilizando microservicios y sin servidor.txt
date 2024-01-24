@@ -1,0 +1,127 @@
+"1. Introducción a los microservicios
+El desarrollo de software moderno suele entregar aplicaciones de software como servicio (SaaS) basadas en web y alojadas de forma centralizada.
+
+La metodología de las aplicaciones de doce factores se corresponde con las etapas de codificación, despliegue y funcionamiento del ciclo de vida de entrega del software, lo que
+    permite a los desarrolladores crear aplicaciones SaaS más eficientes y fáciles de mantener.
+
+Los microservicios convierten a cada componente de la aplicación en su propio servicio, y cada servicio se comunica a través de una API.
+
+Los microservicios permiten que los componentes de la aplicación utilicen diferentes pilas tecnológicas.
+
+Los microservicios permiten que los componentes individuales escalen en respuesta a la demanda.
+
+Los microservicios disminuyen los riesgos asociados al cambio porque los componentes pueden iterar de forma independiente.
+
+Los fallos en un servicio no repercuten necesariamente en los demás. Existen algunos antipatrones que deben evitarse al construir microservicios.
+
+Los patrones de microservicios proporcionan una estructura que reduce la reinvención de soluciones para los retos más comunes. El patrón Backend for the Frontend utiliza
+    microservicios para facilitar diferentes experiencias de usuario con mayor facilidad, mientras que el patrón Strangler puede ayudar a dividir las aplicaciones monolíticas en
+    microservicios.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. Fundamentos de las API web: API REST y GraphQL
+Las API REST proporcionan interfaces flexibles pero uniformes entre los componentes.
+
+Las API REST no tienen estado y son escalables.
+
+Las API REST se comunican mediante los métodos HTTP POST, GET, PUT y DELETE.
+
+REST es un estilo arquitectónico que define cómo se comunican las aplicaciones.
+
+API Gateway es la puerta de entrada a sus servicios backend y le permite conectar servicios adicionales a la vez que proporciona un acceso unificado.
+
+API Gateway facilita el escalado o la sustitución de sus servicios backend.
+
+Flask es un micromarco web para alojar aplicaciones web Python.
+
+cURL se utiliza para transferir datos con URL y puede utilizarse en una línea de comandos o en scripts.
+
+Postman es una herramienta sencilla y popular para construir, probar y utilizar API.
+
+Swagger le ayuda a documentar y probar su API.
+
+La especificación OpenAPI es una forma estándar de representar sus API.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+3. Visión general de la computación sin servidor
+La informática sin servidor elimina la necesidad de que los usuarios finales gestionen la infraestructura y permite a los desarrolladores centrarse en las necesidades
+    específicas del negocio de sus aplicaciones.
+
+La computación sin servidor utiliza servicios BaaS y plataformas FaaS.
+
+Los proveedores de la nube se encargan de las tareas de gestión y mantenimiento de la infraestructura. La llegada de la computación sin servidor significa que los equipos de
+    desarrollo pueden centrarse en escribir código de alta calidad.
+
+La computación sin servidor ofrece varias ventajas, como alta disponibilidad y tolerancia a fallos integradas, tiempos de ejecución de funciones más rápidos y facturación de
+    pago por solicitud.
+
+La informática sin servidor tiene varias limitaciones, como una latencia inaceptable para las aplicaciones en las que el tiempo es un factor crítico, una supervisión y
+    depuración complejas y la ausencia de persistencia del estado.
+
+FaaS es un tipo de servicio de computación en nube que permite ejecutar código en respuesta a eventos sin una infraestructura compleja.
+
+FaaS es un subconjunto de la computación sin servidor que crea aplicaciones en forma de funciones múltiples y puede desplegarse en la nube, en un entorno híbrido o en las
+    instalaciones.
+
+Una pila sin servidor comprende FaaS, BaaS y una API Gateway.
+
+El marco sin servidor es un marco web gratuito y de código abierto escrito con Node.js.
+
+Los casos de uso de las aplicaciones web sin servidor son la transmisión de eventos, el posprocesamiento y el multilenguaje.
+
+AWS Lambda le proporciona una plataforma sin servidor basada en eventos y de pago por uso.
+
+Google Cloud Functions le proporciona una experiencia de desarrollador simplificada, junto con Firebase para la sincronización de datos en tiempo real.
+
+Microsoft Azure fomenta la computación en la nube y en los bordes.
+
+IBM Cloud Functions le ofrece alta disponibilidad y computación rentable.
+
+Knative promueve alternativas agnósticas a las plataformas.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+4. Cree y despliegue microservicios utilizando Serverless
+Los microservicios autoalojados pueden ser muy complejos y desafiantes.
+
+IBM Cloud Code Engine es una plataforma totalmente gestionada que se encarga de todo el duro trabajo de despliegue, permitiendo a los desarrolladores centrarse en su código.
+
+IBM Cloud Code Engine tiene tres casos de uso principales: 1) desplegar aplicaciones, 2) crear y desplegar aplicaciones, y 3) ejecutar trabajos.
+
+Un proyecto en Code Engine representa una agrupación que contiene y gestiona sus recursos y entidades. Una agrupación en Code Engine contiene entidades como build, app, job, y
+    certificado para el servicio de capa de transporte (o TLS) conexiones HTTPS, etc.
+
+Una aplicación ejecuta su código para servir peticiones HTTP o crear sesiones WebSocket.
+
+Una compilación es un proceso para crear una imagen de contenedor a partir de su código fuente.
+
+Un trabajo ejecuta una o más instancias de su código ejecutable.
+
+Un contenedor es una unidad de software ejecutable independiente empaquetada con todas sus dependencias.
+
+Docker es una popular plataforma de creación y ejecución de contenedores. 
+
+Puede componer un Dockerfile para ordenar a la plataforma Docker que construya una imagen de contenedor. Una vez construida la imagen del contenedor, puede empujarla al registro
+    de contenedores y luego extraerla por su nombre de imagen.
+
+Puede crear una aplicación Cloud Engine a partir de una imagen de contenedor empujada o de un repositorio de código fuente. Según sus preferencias, puede optar por utilizar
+    IBM Cloud Console o IBM Cloud CLI para realizar las tareas de despliegue de la aplicación.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+5. Aspectos esenciales de OpenShift/Trabajo con OpenShift e Istio
+Red Hat OpenShift es una plataforma para ejecutar cargas de trabajo en contenedores como microservicios. 
+
+OpenShift es como una distribución de Kubernetes en la que OpenShift con capacidades adicionales.los servicios de OpenShift ayudan a gestionar las cargas de trabajo, crear
+    aplicaciones nativas de la nube y aumentar la productividad de los desarrolladores. Por ejemplo, OpenShift crea un trabajo Jenkins para construir microservicios en
+    contenedores de forma automática. Además, OpenShift empuja los contenedores construidos a un registro y despliega esos contenedores en el clúster OpenShift. 
+
+Las arquitecturas de microservicios necesitan seguridad entre los servicios, así como formas de gestionar y probar los servicios. 
+
+Una malla de servicios es una capa dedicada que proporciona seguridad y mucho más coordinando la comunicación. Istio es una malla de servicios que proporciona desplazamiento del
+    tráfico, seguridad de la capa de transporte mutua y telemetría cuando se despliega con microservicios.
+
+El software certificado llena las lagunas de desarrollo de su aplicación, eliminando la necesidad de que su organización dedique tiempo y dinero a desarrollar nuevos
+    microservicios. Red Hat Marketplace proporciona una ubicación central para probar, comprar, implementar y gestionar software certificado para entornos OpenShift."

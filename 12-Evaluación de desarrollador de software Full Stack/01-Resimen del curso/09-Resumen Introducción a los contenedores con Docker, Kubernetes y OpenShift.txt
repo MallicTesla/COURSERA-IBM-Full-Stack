@@ -1,0 +1,146 @@
+"1. Contenedores y contenedorización
+1.1 Comprender las ventajas de los contenedores
+
+    Un contenedor es una unidad de software que encapsula todo lo necesario para crear, enviar y ejecutar aplicaciones.
+
+    Los contenedores reducen el tiempo y los costes de despliegue, mejoran la utilización, automatizan los procesos y son compatibles con las aplicaciones de nueva generación
+        (microservicios). Entre los principales proveedores de contenedores se encuentran Docker, Podman, LXC y Vagrant.
+
+    Los contenedores son pequeños, rápidos, ligeros y portátiles. A diferencia de las máquinas virtuales, aprovechan las características y los recursos del sistema operativo
+        anfitrión.
+
+    Docker es una plataforma abierta utilizada para desarrollar, enviar y ejecutar aplicaciones como contenedores.
+
+    Los contenedores Docker no son una buena opción para aplicaciones basadas en una arquitectura monolítica o aplicaciones que requieran un alto rendimiento o seguridad.
+
+    La arquitectura Docker consta del cliente Docker, el host Docker y el registro de contenedores.
+
+    El host Docker contiene objetos como archivos Docker, imágenes, contenedores, redes, volúmenes de almacenamiento y otros objetos, como plugins y complementos.
+
+    Docker utiliza redes para aislar las comunicaciones entre contenedores.
+
+    Docker utiliza volúmenes y montajes binds para persistir los datos incluso después de que un contenedor deje de ejecutarse.
+
+    Los complementos, como los de almacenamiento, ofrecen la posibilidad de conectarse a plataformas de almacenamiento externas.
+
+    Algunos de los comandos CLI comunes de Docker incluyen:
+
+        El comando build se utiliza para crear imágenes de contenedores.
+
+        El comando tag se utiliza para dar nombre a las imágenes.
+
+        El comando images lista todas las imágenes, sus repositorios y etiquetas, y sus tamaños.
+
+        El comando run se utiliza para ejecutar un contenedor.
+
+        Los comandos push y pull se utilizan para almacenar imágenes en una ubicación remota y luego recuperar esas imágenes.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. Conceptos básicos de Kubernetes
+2.1 Comprender la arquitectura de Kubernetes
+
+    La orquestación de contenedores automatiza el ciclo de vida de los contenedores, lo que se traduce en despliegues más rápidos, menos errores, mayor disponibilidad y una
+        seguridad más sólida.
+
+    Las herramientas de orquestación de contenedores tienen una amplia variedad de características y realizan las siguientes funciones: 
+
+        Ayudan en el aprovisionamiento y despliegue de contenedores para que éste sea un proceso más automatizado, unificado y fluido
+
+        Garantiza que los contenedores sean redundantes y estén disponibles para que las aplicaciones experimenten un tiempo de inactividad mínimo
+
+        Escala los contenedores hacia arriba y hacia abajo para satisfacer la demanda y equilibrar las solicitudes de carga entre instancias para que ninguna instancia se vea
+            desbordada
+
+        Gestiona la programación de los contenedores en la infraestructura subyacente
+
+        Puede realizar comprobaciones de estado para garantizar que las aplicaciones se están ejecutando y tomar las medidas necesarias cuando las comprobaciones fallan
+
+    Kubernetes es un sistema de orquestación de contenedores de código abierto, altamente portátil y escalable horizontalmente, con un despliegue automatizado y capacidades de
+        gestión simplificadas.
+
+    La arquitectura de Kubernetes consta de un plano de control y uno o varios planos de trabajadores. 
+
+        Un plano de control incluye controladores, un servidor API, un planificador y un etcd. 
+
+        Un plano de trabajo incluye nodos, un kubelet, un tiempo de ejecución de contenedores y un kube-proxy.
+
+    Los objetos de Kubernetes incluyen Namespaces, Pods, ReplicaSets, Deployments y Services.
+
+        Los Namespaces ayudan a aislar grupos de recursos dentro de un mismo cluster. 
+
+        Los Pods representan un proceso o una instancia de una aplicación que se ejecuta en el clúster. 
+
+        Los ReplicaSets crean y gestionan Pods en ejecución escalados horizontalmente. 
+
+        Los despliegues proporcionan actualizaciones para Pods y ReplicaSets. 
+
+        Un servicio en Kubernetes es un objeto REST que proporciona políticas para acceder a los pods y al cluster.
+
+    Las capacidades de Kubernetes incluyen despliegues y retrocesos automatizados, orquestación del almacenamiento, escalado horizontal, empaquetado automatizado de contenedores,
+        gestión de secretos y configuración, soporte de doble pila Ipv4/Ipv6, ejecución por lotes, autocuración, descubrimiento de servicios, equilibrio de carga y diseño
+        extensible.
+
+    Los servicios en Kubernetes son objetos REST que proporcionan políticas de acceso a los Pods y clusters. 
+
+        ClusterIP proporciona comunicación entre servicios dentro del clúster.
+
+        El servicio NodePort, una extensión del servicio ClusterIP, crea y enruta las peticiones entrantes automáticamente al servicio ClusterIP.
+
+        El equilibrador de carga externo (ELB) crea los Servicios NodePort y ClusterIP automáticamente.
+
+        El servicio External Name representa el almacenamiento externo y permite que los Pods de diferentes espacios de nombres se comuniquen entre sí.
+
+    Ingress es un objeto API que proporciona reglas de enrutamiento para gestionar el acceso de usuarios externos a múltiples servicios en un clúster Kubernetes, mientras que el
+        uso de un DaemonSet garantiza que haya al menos una copia del Pod en todos los nodos; un StatefulSet gestiona las aplicaciones con estado, gestiona el despliegue y
+        escalado de Pods, mantiene una identidad fija para cada solicitud de Pod y proporciona volúmenes de almacenamiento persistentes para sus cargas de trabajo y, por último,
+        un Job crea pods y realiza un seguimiento del proceso de finalización del Pod; los Jobs se reintentan hasta que se completan.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+3. Gestión de aplicaciones con Kubernetes
+    Un ReplicaSet permite escalar creando o eliminando pods.
+
+    Un ReplicaSet siempre intenta hacer coincidir el estado real con el estado deseado.
+
+    El autoescalado permite escalar según sea necesario a nivel de clúster o nodo y a nivel de Pod.
+
+    Los tipos de autoescalado incluyen el Pod horizontal (HPA), el Pod vertical (VPA) y el clúster (CA).
+
+    Rolling updates despliega los cambios de la aplicación de forma controlada y automatizada.
+
+    Las rolling updates y rollback pueden realizarse utilizando estrategias all-at-once y one-at-a-time.
+
+    Los ConfigMaps se utilizan para proporcionar variables para su aplicación.
+
+    Los Secretos se utilizan para proporcionar información sensible a su aplicación.
+
+    Vincular un Servicio externo a su despliegue proporciona automáticamente las credenciales para utilizar el Servicio dentro del código.
+
+    La vinculación gestiona la configuración y las credenciales de los Servicios externos a la vez que protege los datos sensibles.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+4. El ecosistema Kubernetes: OpenShift, Istio
+4.1 El ecosistema Kubernetes
+
+    OpenShift® es una plataforma de contenedores Kubernetes preparada para la empresa y construida para la nube híbrida abierta.
+
+    OpenShift es más fácil de usar, se integra con Jenkins y cuenta con más servicios y funciones.
+
+    Las definiciones de recursos personalizadas (CRD) amplían la API de Kubernetes. 
+
+    Las CRD emparejadas con controladores personalizados crean nuevas API declarativas en Kubernetes. 
+
+    Los operadores utilizan las CRD y los controladores personalizados para automatizar las tareas del clúster. 
+
+    Un build es un proceso que transforma entradas en un objeto. 
+
+    Un ImageStream es una abstracción para referenciar imágenes de contenedores en OpenShift. 
+
+    Una malla de servicios proporciona gestión del tráfico para controlar el flujo de tráfico entre servicios, seguridad para cifrar el tráfico entre servicios y observabilidad
+        del comportamiento de los servicios para solucionar problemas y optimizar las aplicaciones. 
+
+    Istio es una malla de servicios que admite cuatro conceptos: conexión, seguridad, aplicación y observabilidad. Se utiliza habitualmente con aplicaciones de microservicios. 
+
+    Istio proporciona métricas de comunicación de servicios para estas necesidades básicas de monitorización de servicios: latencia, tráfico, errores y saturación."

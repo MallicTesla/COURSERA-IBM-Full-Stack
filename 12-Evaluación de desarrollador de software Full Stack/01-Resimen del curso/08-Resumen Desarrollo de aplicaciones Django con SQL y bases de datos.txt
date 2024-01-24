@@ -1,0 +1,161 @@
+"1. Introducción a SQL y las bases de datos relacionales
+1.1 Introducción a las bases de datos
+
+    El lenguaje de consulta estructurado, o SQL, se diseñó para gestionar datos en bases de datos relacionales y es útil para manejar datos estructurados.
+
+    Los datos son una colección de hechos en palabras, números e imágenes.
+
+    Una base de datos es un repositorio de datos que proporciona funcionalidad para añadir, modificar y consultar datos.
+
+    Las bases de datos relacionales almacenan datos tabulares como colecciones de elementos relacionados, con columnas que contienen las propiedades de los elementos.
+
+    Las sentencias SQL básicas son CREATE TABLE, INSERT, SELECT, UPDATE y DELETE.
+
+    Las bases de datos no relacionales proporcionan un enfoque flexible y escalable para almacenar y recuperar datos.
+
+    Las bases de datos relacionales son ideales para el almacenamiento, la recuperación y el procesamiento optimizados de grandes volúmenes de datos. 
+
+    El sistema de gestión de bases de datos relacionales (RDBMS) es una tecnología madura y bien documentada, que proporciona flexibilidad, redundancia reducida, facilidad de
+        copia de seguridad y recuperación en caso de desastre, y conformidad con ACID.
+
+    Un modelo entidad-relación es una herramienta para diseñar bases de datos relacionales. Las entidades se convierten en tablas y los atributos se traducen en columnas.
+
+
+1.2 Sentencias SQL básicas
+
+    SQL se utiliza para consultar y gestionar datos.
+
+    SQL es útil para manejar datos estructurados o datos que incorporan relaciones entre entidades y variables.
+
+    La sentencia SQL SELECT recupera datos de una tabla de una base de datos relacional.
+
+    La sentencia SELECT es una consulta, y la salida que obtenemos al ejecutar esta consulta es un conjunto de resultados o una tabla de resultados.
+
+    En su forma más simple, la sintaxis de una sentencia SELECT es SELECT * from NombreTabla
+
+    La sentencia SQL INSERT inserta datos en una tabla de una base de datos relacional añadiendo filas.
+
+    La sintaxis de la sentencia INSERT es INSERT INTO NombreTablaNombreColumna VALUES (valores)
+
+    Para la sentencia INSERT, los valores proporcionados en la cláusula Valores deben ser iguales al número de nombres de columna especificados en la lista NombreColumna. Esto
+        garantiza que cada columna tenga un valor.
+
+    La sentencia SQL UPDATE se utiliza para leer y modificar datos.
+
+    La sintaxis de la sentencia UPDATE es la siguiente:  UPDATE [NombreTabla] SET [[NombreColumna]=[Valor]] <WHERE [Condición]>
+
+    La sentencia DELETE de SQL se utiliza para eliminar datos de una tabla.
+
+    La sintaxis de la sentencia DELETE es: DELETE FROM [NombreTabla] <Donde[Condición]>
+
+    La cláusula WHERE especifica las filas de una tabla sobre las que actuará una sentencia SQL como SELECT, DELETE o UPDATE.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+2. ORM: Salvando las distancias entre el mundo real y el modelo relacional
+    Los paradigmas de programación orientada a objetos (POO) y SQL modelan los datos de forma diferente.
+
+    El mapeo objeto-relacional, u ORM, tiende un puente entre la POO y SQL.
+
+    Las bibliotecas o herramientas ORM pueden mapear y transferir datos almacenados en una base de datos relacional como filas a objetos o como objetos a filas.
+
+    ORM permite a los desarrolladores utilizar la POO para consultar y manipular datos porque transfiere objetos a filas y filas a objetos.
+
+    Django ORM es un componente ORM de Python que pertenece al marco de aplicaciones web Django.
+
+    Django ORM puede ayudar a acelerar el desarrollo de bases de datos porque se definen mapas a una tabla de base de datos para cada modelo Django.
+
+    Cada campo Django mapea a un tipo de columna.
+
+    Django crea automáticamente tablas una vez definidos los modelos y los campos.
+
+    Las APIs de Django pueden realizar operaciones de creación, lectura, actualización y eliminación (CRUD) sobre objetos de la base de datos.
+
+    En un modelo Django, se crea un objeto y se llama al método save del modelo para insertarlo en la base de datos como un registro.
+
+    Para leer objetos utilizando la API de modelos de Django, necesita construir un QuerySet utilizando un Gestor en su clase modelo.
+
+    Hay varias formas de actualizar los registros de la base de datos en Django mediante la actualización de objetos.
+
+    Para eliminar registros de una base de datos, llame al método Delete de Django ORM sobre un objeto modelo o conjunto de consultas.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+3. Desarrollo Django Full-stack
+    El patrón de diseño Modelo-Vista-Controlador divide la lógica de la aplicación en tres componentes:
+
+        Modelo accede y manipula los datos
+
+        Vista presenta los datos en varias formas
+
+        Controlador coordina entre Modelo y Vista
+
+    El patrón Django Modelo-Vista-Controlador es como MVC, excepto que no hay Controlador, y el servidor Django realiza la función de controlador.
+
+    En Django, Vista es una función Python que toma una petición web y aplica la lógica necesaria para generar una respuesta web.
+
+    Django utiliza una plantilla que contiene elementos HTML estáticos y código Python especial para generar páginas web dinámicas.
+
+    Cuando se crea un proyecto Django, Django crea algunos archivos centrales.
+
+        manage.py es una interfaz de línea de comandos utilizada para interactuar con el proyecto Django
+
+        settings.py contiene los ajustes y configuraciones para su proyecto Django
+
+        urls.py contiene las definiciones de URL y enrutamiento de su aplicación Django
+
+    Comience a construir un sitio de administración Django creando un usuario administrador.
+
+    A continuación, puede iniciar sesión como superusuario y registrar sus modelos en el sitio de administración para poder gestionarlos.
+
+    Puede personalizar el formulario de administración y añadir búsquedas y filtros.
+
+    Una vista Django toma una petición web como HTTP GET, POST, DELETE o UPDATE y devuelve una respuesta web. La respuesta web puede ser una cadena, un archivo JSON/XML, una
+        página HTML o un estado de error que indique errores del lado del cliente o del servidor.
+
+    Usted crea plantillas en Django para especificar cómo se presentarán sus datos. Una plantilla Django combina elementos HTML estáticos con etiquetas de plantilla Django y
+        variables para describir cómo se insertarán las partes dinámicas. Estos trabajan juntos para generar una página HTML renderizada en el navegador web de un usuario.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+4. Consolide y despliegue su aplicación Django
+    Tanto las vistas basadas en funciones como las basadas en clases son funciones de Python.
+
+    Cuando se construye una vista basada en clases, se define una clase subclase de la clase base Django View. A continuación, accede a algunos métodos estándar como Get o Post.
+    A continuación, implementa su lógica para manejar las peticiones HTTP.
+
+    Para acelerar el desarrollo y resolver tareas comunes, Django proporciona algunas clases de vistas incorporadas llamadas vistas basadas en genéricos para que los
+        desarrolladores puedan reutilizarlas.
+
+    La autenticación consiste en validar la identidad de los usuarios utilizando credenciales como el nombre de usuario y la contraseña.
+
+    Una vez autenticados los usuarios, la autorización comprobará los permisos de acceso de los usuarios a recursos como las bases de datos.
+
+    En Django, se crea un modelo de usuario para manejar la autenticación y trabajar con otros modelos, como grupos y permisos, para manejar la autorización.
+
+    Los desarrolladores pueden ampliar el modelo de usuario para definir usuarios específicos de la aplicación, como instructores o alumnos heredados del modelo de usuario.
+
+    Bootstrap, un marco front-end web gratuito, facilita el desarrollo de aplicaciones web.
+
+    Bootstrap proporciona muchas plantillas HTML y CSS para simplificar el desarrollo de plantillas Django.
+
+    Si desea utilizar las clases de estilo CSS de Bootstrap sin descargar Bootstrap, añada un enlace a la última versión de Bootstrap en el elemento head de su plantilla HTML.
+
+    Para añadir archivos estáticos a sus aplicaciones, primero debe crear carpetas para los distintos archivos estáticos, como plantillas HTML, imágenes o archivos CSS.
+
+    Debajo de cada carpeta que contenga archivos estáticos, creará una subcarpeta con el mismo nombre de la aplicación. Esto crea namespacing para referirse de forma única a los
+        archivos estáticos que utilizan el mismo nombre a través de múltiples apps en un proyecto Django. 
+
+    Django proporciona un conjunto de STACFILES_FINDERS para localizar los archivos estáticos en una app. También proporciona una aplicación staticfiles para recopilar todos los
+        archivos estáticos en un único directorio cuando se despliega una app.
+
+    Para desplegar aplicaciones Django fiables, escalables y mantenibles, es necesario desplegarlas en servidores web. 
+
+    Dado que la mayoría de los servidores web no están escritos en Python, las apps Django necesitan interfaces extra para hablar con los servidores web.
+
+    La Web Server Gateway Interface, o WSGI, es el principal estándar de Python para la comunicación entre servidores web y aplicaciones.
+
+    La Interfaz de Pasarela de Servidor Asíncrono es otra interfaz de servidor web que soporta la aplicación Django.
+
+    La oferta de infraestructura como servicio y plataforma como servicio le permite centrarse en el desarrollo de sus aplicaciones y desplegarlas sin preocuparse de la
+        infraestructura y la plataforma subyacentes."
