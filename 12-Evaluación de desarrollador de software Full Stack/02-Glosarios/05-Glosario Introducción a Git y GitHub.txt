@@ -1,0 +1,86 @@
+"Branch
+Una línea de desarrollo separada que permite trabajar en características o correcciones de forma independiente.
+---------------------------------------------------------------------------------------------------------------------------------
+Clone
+Una copia local del repositorio Git remoto en la computadora.
+---------------------------------------------------------------------------------------------------------------------------------
+Cloning
+Un proceso de creación de una copia del código del proyecto y su historial de versiones completo desde el repositorio remoto en la máquina local.
+---------------------------------------------------------------------------------------------------------------------------------
+Commit
+Una instantánea del estado actual del proyecto en un momento específico, junto con una descripción de los cambios realizados.
+---------------------------------------------------------------------------------------------------------------------------------
+Entrega continua (CD) - Continuous delivery (CD)
+El movimiento automatizado de software a lo largo del ciclo de vida de desarrollo de software.
+---------------------------------------------------------------------------------------------------------------------------------
+Integración continua (CI) - Continuous integration (CI)
+Un proceso de desarrollo de software en el que los desarrolladores integran código nuevo en la base del código al menos una vez al día.
+---------------------------------------------------------------------------------------------------------------------------------
+Desarrollador - Developer
+Un programador informático responsable de escribir código.
+---------------------------------------------------------------------------------------------------------------------------------
+Sistema de control de versiones distribuido (DVCS) - Distributed version control system (DVCS)
+Un sistema que realiza un seguimiento de los cambios en el código, independientemente de dónde esté almacenado. Permite que varios usuarios trabajen en la misma base de código o
+    repositorio, reflejando la base de código en sus computadoras si es necesario, mientras que el software de control de versiones distribuido ayuda a gestionar la
+    sincronización entre las distintas réplicas de la base de código.
+---------------------------------------------------------------------------------------------------------------------------------
+Fork
+Una copia de un repositorio. Puedes bifurcar un repositorio para usarlo como base para un nuevo proyecto o para trabajar en un proyecto de forma independiente.
+---------------------------------------------------------------------------------------------------------------------------------
+bifurcando - Forking
+La bifurcación crea una copia de un repositorio en la que se puede trabajar sin afectar el repositorio original.
+---------------------------------------------------------------------------------------------------------------------------------
+Git
+Software gratuito y de código abierto distribuido bajo la Licencia Pública General GNU. Es un sistema de control de versiones distribuido que permite a los usuarios tener una
+    copia de su propio proyecto en su computadora en cualquier parte del mundo.
+---------------------------------------------------------------------------------------------------------------------------------
+GitHub
+Un servicio alojado en web para el repositorio Git.
+---------------------------------------------------------------------------------------------------------------------------------
+GitHub branches
+Una sucursal almacena todos los archivos en GitHub. Las ramas se utilizan para aislar cambios en el código. Cuando se completen los cambios, se pueden fusionar nuevamente en la
+    rama principal.
+---------------------------------------------------------------------------------------------------------------------------------
+GitLab
+Una plataforma DevOps completa entregada como una única aplicación. Proporciona acceso a repositorios de Git, controlados por la gestión del código fuente.
+---------------------------------------------------------------------------------------------------------------------------------
+Integrador - Integrator
+Un rol que se encarga de gestionar los cambios realizados por los desarrolladores.
+---------------------------------------------------------------------------------------------------------------------------------
+rama maestra - Master branch
+Una rama que almacena la versión implementable de su código. La rama maestra se crea por defecto y es definitiva.
+---------------------------------------------------------------------------------------------------------------------------------
+Unir - Merge
+Un proceso para combinar cambios de una rama a otra, normalmente fusionando una rama de características en la rama principal.
+---------------------------------------------------------------------------------------------------------------------------------
+Origen - Origin
+Término que se refiere al repositorio desde donde se clona una copia.
+---------------------------------------------------------------------------------------------------------------------------------
+Solicitud de extracción - Pull request
+Un proceso utilizado para solicitar que alguien revise y apruebe sus cambios antes de que sean definitivos.
+---------------------------------------------------------------------------------------------------------------------------------
+Repositorios remotos - Remote repositories
+Repositorios que se almacenan en otro lugar. Pueden existir en Internet, en su red o en su computadora local.
+---------------------------------------------------------------------------------------------------------------------------------
+Repositorio - Repository
+Una estructura de datos para almacenar documentos, incluido el código fuente de la aplicación. Contiene las carpetas del proyecto que están configuradas para el control de
+    versiones.
+---------------------------------------------------------------------------------------------------------------------------------
+Administrador del repositorio - Repository administrator
+Un rol que es responsable de configurar y mantener el acceso al repositorio.
+---------------------------------------------------------------------------------------------------------------------------------
+protocolo SSH - SSH protocol
+Un método para iniciar sesión remotamente de forma segura desde una computadora a otra.
+---------------------------------------------------------------------------------------------------------------------------------
+Área de ensayo - Staging area
+Un área donde se pueden formatear y revisar las confirmaciones antes de completarlas.
+---------------------------------------------------------------------------------------------------------------------------------
+Río arriba - Upstream
+Término utilizado por los desarrolladores para referirse a la fuente original desde donde se clonó la copia local.
+---------------------------------------------------------------------------------------------------------------------------------
+Control de versiones - Version control
+Un sistema que le permite realizar un seguimiento de los cambios en sus documentos. Este proceso le permite recuperar versiones anteriores de los documentos si se comete algún
+    error.
+---------------------------------------------------------------------------------------------------------------------------------
+Directorio de trabajo - Working directory
+Un directorio en su sistema de archivos que contiene archivos y subdirectorios en su computadora que están asociados con un repositorio Git."

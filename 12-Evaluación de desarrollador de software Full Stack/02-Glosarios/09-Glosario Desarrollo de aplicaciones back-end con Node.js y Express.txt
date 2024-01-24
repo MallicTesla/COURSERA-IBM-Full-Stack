@@ -1,0 +1,206 @@
+"
+Token de acceso
+Un pequeño fragmento de código que contiene información sobre el usuario, sus permisos, grupos y vencimientos que se pasa de un servidor al cliente.
+---------------------------------------------------------------------------------------------------------------------------------
+Función anónima
+Una función que no tiene nombre. Una función anónima a menudo se pasa a otra función como parámetro.
+---------------------------------------------------------------------------------------------------------------------------------
+Punto final API - API Endpoint
+El punto de contacto donde la API se conecta a la aplicación con la que se comunica.
+---------------------------------------------------------------------------------------------------------------------------------
+Servidor de aplicaciones
+Transforma datos en contenido dinámico y ejecuta la lógica empresarial, que son las reglas de transferencia y almacenamiento de datos.
+---------------------------------------------------------------------------------------------------------------------------------
+Middleware a nivel de aplicación - Application-Level Middleware
+Actúa como guardián y está vinculado a la aplicación. Ninguna solicitud al servidor de aplicaciones puede pasarlo.
+---------------------------------------------------------------------------------------------------------------------------------
+asíncrono
+Abreviatura de "asíncrono". Un proceso que se ejecuta independientemente de otros procesos.
+---------------------------------------------------------------------------------------------------------------------------------
+Autenticación
+El proceso de confirmar la identidad de un usuario mediante credenciales validando quién dice ser. La autenticación garantiza la seguridad de una aplicación al garantizar que
+    sólo aquellos con credenciales válidas puedan acceder al sistema.
+---------------------------------------------------------------------------------------------------------------------------------
+Autorización
+En la autenticación basada en tokens, es el proceso que se ejecuta cuando una aplicación web quiere acceder a un recurso protegido. Un usuario se autentica en un servidor de
+    autorización.
+---------------------------------------------------------------------------------------------------------------------------------
+Paquete Axios - Axios Package	
+El paquete axios envuelve promesas en torno a solicitudes HTTP. Devuelve un objeto de promesa.
+---------------------------------------------------------------------------------------------------------------------------------
+Middleware integrado
+Puede vincularse a toda la aplicación o a enrutadores específicos. Útil para actividades como renderizar páginas HTML desde el servidor, analizar entradas JSON desde el
+    front-end y analizar cookies.
+---------------------------------------------------------------------------------------------------------------------------------
+Función de devolución de llamada - Callback Function
+Una función pasada a otra función como parámetro, que luego se invoca dentro de la función externa para completar una acción. En lugar de bloquear operaciones de E/S asincrónicas,
+    se utilizan funciones de devolución de llamada para manejar los resultados cuando se completan las operaciones.
+---------------------------------------------------------------------------------------------------------------------------------
+Infierno de devolución de llamada - Callback Hell
+Muchas funciones de devolución de llamada anidadas.
+---------------------------------------------------------------------------------------------------------------------------------
+Controlador
+La capa en una aplicación MVC regula el flujo de datos. Es responsable de procesar los datos que le proporciona el usuario y los envía al modelo para su manipulación o
+    almacenamiento.
+---------------------------------------------------------------------------------------------------------------------------------
+Servidor de base de datos
+Un servidor dedicado a proporcionar servicios de bases de datos.
+---------------------------------------------------------------------------------------------------------------------------------
+Dependencias
+Código, generalmente en forma de bibliotecas y paquetes, que se llaman desde otros módulos y se reutilizan en un programa.
+---------------------------------------------------------------------------------------------------------------------------------
+Middleware de manejo de errores
+Puede vincularse a toda la aplicación o a enrutadores específicos. El middleware de manejo de errores siempre toma cuatro argumentos: error, solicitud, respuesta y la siguiente
+    función a la que debe encadenarse. Incluso si no usa el siguiente parámetro, aún lo define en la firma del método.
+---------------------------------------------------------------------------------------------------------------------------------
+Evento conducido - Event-Driven
+Donde el flujo de un programa está determinado por eventos particulares, como la entrada del usuario.
+---------------------------------------------------------------------------------------------------------------------------------
+Express.js
+Un Framework web altamente configurable para crear aplicaciones en Node.js.
+---------------------------------------------------------------------------------------------------------------------------------
+Framework
+Genera código que no se puede modificar para realizar tareas comunes. Los ejemplos incluyen Django, Ruby on Rails y Express.js.
+---------------------------------------------------------------------------------------------------------------------------------
+Encabezados HTTP
+Información adicional sobre y contenida en una respuesta o solicitud HTTP.
+---------------------------------------------------------------------------------------------------------------------------------
+Solicitud HTTP
+Un método llamado por un cliente y enviado a un servidor solicitando acceso a un recurso en el servidor.
+---------------------------------------------------------------------------------------------------------------------------------
+Respuesta HTTP
+Un método llamado por un servidor y enviado a un cliente en respuesta a una solicitud HTTP.
+---------------------------------------------------------------------------------------------------------------------------------
+Servidor HTTP
+Un tipo de servidor basado en software que comprende las URL y el protocolo de transferencia de hipertexto.
+---------------------------------------------------------------------------------------------------------------------------------
+ID Token - ficha de identificación
+Un artefacto que demuestra que un usuario ha sido autenticado y contiene información sobre rutas API autorizadas.
+---------------------------------------------------------------------------------------------------------------------------------
+Inversión de control - Inversion of Control
+Cuando el flujo de control, como la ejecución de instrucciones, está controlado por un tercero.
+---------------------------------------------------------------------------------------------------------------------------------
+Carga útil JSON
+Datos que se transfieren en formato JSON entre el cliente y el servidor en el encabezado de un método HTTP.
+---------------------------------------------------------------------------------------------------------------------------------
+JWT
+Un token web JSON. Un estándar de Internet para crear datos de carga útil cifrados en formato JSON.
+---------------------------------------------------------------------------------------------------------------------------------
+Carga
+Se refiere a la cantidad de usuarios simultáneos, la cantidad de transacciones y la cantidad de datos transferidos de ida y vuelta entre los clientes y los servidores.
+---------------------------------------------------------------------------------------------------------------------------------
+Middleware - software intermedio
+Incluye funciones que tienen acceso a los objetos de solicitud y respuesta y la función next().
+---------------------------------------------------------------------------------------------------------------------------------
+Modelo
+La capa en una aplicación MVC responsable de gestionar los datos de la aplicación. Interactúa con la base de datos y maneja la lógica de los datos.
+---------------------------------------------------------------------------------------------------------------------------------
+Módulo
+Archivos que contienen código JavaScript encapsulado relacionado que tiene un propósito específico.
+---------------------------------------------------------------------------------------------------------------------------------
+Multiproceso
+Donde se ejecutan múltiples tareas simultáneamente.
+---------------------------------------------------------------------------------------------------------------------------------
+MVC
+Abreviatura de "Modelo-Vista-Controlador". Es un patrón arquitectónico que divide una aplicación en tres componentes: modelo, vista y controlador.
+---------------------------------------------------------------------------------------------------------------------------------
+Node Framework
+Un framework que funciona en conjunto con Node.js. Un framework es un esqueleto sobre el cual se construye una aplicación para un entorno específico. El framework es la
+    estructura fundamental que soporta la aplicación.
+---------------------------------------------------------------------------------------------------------------------------------
+Node.js
+Un entorno de ejecución de JavaScript que se ejecuta en el motor V8 de Google Chrome.
+---------------------------------------------------------------------------------------------------------------------------------
+Sin bloqueo
+El fallo de un subproceso determinado no provoca el fallo de otro y la ejecución de una tarea no se bloquea hasta que se completa la ejecución de otra tarea.
+---------------------------------------------------------------------------------------------------------------------------------
+Npm
+Significa administrador de paquetes de nodos. Es el administrador de paquetes predeterminado para el entorno de ejecución de Node.js.
+---------------------------------------------------------------------------------------------------------------------------------
+Paquete - Package
+Un directorio con uno o más módulos agrupados.
+---------------------------------------------------------------------------------------------------------------------------------
+Paquete.json - Package.json
+Contiene información de metadatos sobre el proyecto, incluidas dependencias y scripts.
+---------------------------------------------------------------------------------------------------------------------------------
+Autenticación sin contraseña
+Un tipo de autenticación que utiliza pares de claves pública/privada para cifrar y descifrar datos pasados ​​entre el cliente y el servidor sin necesidad de una contraseña.
+---------------------------------------------------------------------------------------------------------------------------------
+Carga útil
+Los datos transmitidos entre cliente y servidor.
+---------------------------------------------------------------------------------------------------------------------------------
+Llave privada
+En criptografía, es una clave que sólo conoce un cliente específico y que se utiliza para descifrar mensajes. Se utiliza junto con una clave pública.
+---------------------------------------------------------------------------------------------------------------------------------
+Llave pública
+En criptografía, es una clave que cualquiera puede utilizar para cifrar mensajes para un cliente específico. Se utiliza junto con una clave privada.
+---------------------------------------------------------------------------------------------------------------------------------
+Promesa
+Un objeto en JavaScript que actúa como marcador de posición para una tarea asincrónica que aún no se ha completado. Es el objeto que se devuelve desde un método asincrónico.
+    Cuando define un objeto de promesa en su secuencia de comandos, en lugar de devolver un valor inmediatamente, devuelve una promesa. La promesa tiene tres estados, los cuales
+    están pendientes, cumplidos y rechazados.
+---------------------------------------------------------------------------------------------------------------------------------
+Pirámide de la perdición - Pyramid of Doom
+Otro término para "infierno de devolución de llamada""callback hell".
+---------------------------------------------------------------------------------------------------------------------------------
+REST
+La "transferencia de estado representacional" es un conjunto de pautas para crear interfaces cliente/servidor sin estado utilizando métodos HTTP.
+---------------------------------------------------------------------------------------------------------------------------------
+REST API
+Una API utilizada para la comunicación entre clientes y servidores que se ajusta a los principios de la arquitectura REST.
+---------------------------------------------------------------------------------------------------------------------------------
+Ruta
+El código que asocia un método de solicitud HTTP y una URL.
+---------------------------------------------------------------------------------------------------------------------------------
+Middleware a nivel de enrutador
+Vinculado a un enrutador y no vinculado a una aplicación. Puede utilizar middleware específico para una ruta específica en lugar de que todas las solicitudes pasen por el mismo
+    middleware. Luego vincula las rutas de la aplicación a cada enrutador.
+---------------------------------------------------------------------------------------------------------------------------------
+Entorno de ejecución
+Se comporta de manera similar a un mini sistema operativo que proporciona los recursos necesarios para que se ejecute una aplicación. Es la infraestructura que soporta la
+    ejecución de un código base. Es el entorno de hardware y software en el que se ejecuta una aplicación. Node.js es un ejemplo de un entorno de ejecución backend.
+---------------------------------------------------------------------------------------------------------------------------------
+Escalabilidad
+La capacidad de la aplicación para manejar dinámicamente la carga tal cual o se reduce sin que afecte el rendimiento de la aplicación.
+---------------------------------------------------------------------------------------------------------------------------------
+Server.js
+Un archivo que contiene el código que maneja la creación del servidor.
+---------------------------------------------------------------------------------------------------------------------------------
+Autenticación basada en sesiones
+Un tipo de autenticación en el que un usuario proporciona credenciales de inicio de sesión que se verifican con las credenciales almacenadas en una base de datos en un servidor.
+    Se proporciona una ID de sesión al cliente y se almacena en el navegador como una cookie.
+---------------------------------------------------------------------------------------------------------------------------------
+De un solo hilo - Single-Threaded
+Donde solo se procesa un comando en un momento determinado.
+---------------------------------------------------------------------------------------------------------------------------------
+Apatridia - Statelessness
+Implica que cada solicitud HTTP ocurre de forma aislada en relación con otras solicitudes. El estado del cliente no se almacena en el servidor; el cliente pasa el estado al
+    servidor para cada solicitud.
+---------------------------------------------------------------------------------------------------------------------------------
+Representación de plantilla - Template Rendering
+La capacidad del servidor para completar contenido dinámico en una plantilla HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+Token
+Contiene tres partes, el encabezado, la carga útil y la firma. El encabezado contiene información sobre el tipo de token y el algoritmo utilizado para crearlo. La carga útil
+    contiene atributos de usuario, denominados reclamos, como permisos, grupos y vencimientos. La firma verifica la integridad del token, lo que significa que el token no ha
+    cambiado durante el tránsito.
+---------------------------------------------------------------------------------------------------------------------------------
+Autenticación basada en tokens
+Un tipo de autenticación que utiliza tokens de acceso, a menudo JWT, que se pasan entre el servidor y el cliente con los datos que se pasan entre los dos.
+---------------------------------------------------------------------------------------------------------------------------------
+TypeScript
+Un lenguaje que se basa en JavaScript y proporciona seguridad de tipos que ayuda con el desarrollo de aplicaciones a gran escala al reducir la complejidad del desarrollo de
+    componentes en JavaScript.
+---------------------------------------------------------------------------------------------------------------------------------
+View
+La capa en una aplicación MVC responsable de representar la presentación de los datos que le pasa el modelo.
+---------------------------------------------------------------------------------------------------------------------------------
+Servidor web
+Garantiza que se respondan las solicitudes de los clientes, a menudo utilizando HTTP.
+---------------------------------------------------------------------------------------------------------------------------------
+Servicio web
+Un tipo de API web que se comunica mediante solicitudes HTTP. Es el servicio web en la interfaz de programación el que envía y recibe solicitudes utilizando HTTP entre los
+    servidores web y el cliente.
+---------------------------------------------------------------------------------------------------------------------------------
+xml2js
+Paquete Node.js para analizar una cadena de elementos XML en un objeto JavaScript."

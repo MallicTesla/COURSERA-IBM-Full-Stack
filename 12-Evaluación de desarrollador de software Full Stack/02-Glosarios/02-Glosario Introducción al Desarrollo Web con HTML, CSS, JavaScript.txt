@@ -1,0 +1,214 @@
+"¡Bienvenido! Este glosario alfabético contiene muchos de los términos de este curso. Este completo glosario también incluye términos adicionales reconocidos en la industria que
+    no se utilizan en los videos del curso. Estos términos son esenciales para que los reconozca cuando trabaje en la industria, participe en grupos de usuarios y en otros
+    programas de certificación profesional.
+
+AJAX
+"JavaScript y XML asincrónicos" que abarca más que llamadas al servidor asincrónicas a través de JavaScript y XML. No es un lenguaje o tecnología de programación, sino más bien
+    un concepto de programación. Ajax representa una serie de técnicas que proporcionan aplicaciones web interactivas y más ricas a través de HTML, JavaScript, hojas de estilo
+    en cascada y modificación de la página web a través del modelo de objetos de documento. Sin embargo, el nombre es engañoso porque hoy en día se usa comúnmente JSON en lugar
+    de XML.
+---------------------------------------------------------------------------------------------------------------------------------
+angularjs
+Un marco JavaScript de código abierto para aplicaciones web dinámicas.
+---------------------------------------------------------------------------------------------------------------------------------
+Funciones anónimas
+Un tipo de función que no tiene nombre o podemos decir que no tiene ningún nombre. Se declara sin ningún identificador y, a menudo, se utiliza como parámetro de otra función. Es
+    una forma común de ejecutar una función inmediatamente después de su declaración.
+---------------------------------------------------------------------------------------------------------------------------------
+Interfaz de programación de aplicaciones (API)
+Código que permite que dos programas de software se comuniquen entre sí.
+---------------------------------------------------------------------------------------------------------------------------------
+Array
+Una estructura de datos que ayuda al programador en el almacenamiento y recuperación de datos mediante claves indexadas. Las matrices utilizan un esquema de indexación de base
+    cero, lo que significa que el primer elemento de una matriz tiene un índice de cero. Las matrices crecen o se reducen dinámicamente agregando o eliminando elementos.
+---------------------------------------------------------------------------------------------------------------------------------
+Construir servidores de automatización
+Ejecute utilidades de automatización de compilación de forma programada o activada.
+---------------------------------------------------------------------------------------------------------------------------------
+Construir utilidades de automatización
+Genere ejecutables compilando y vinculando código.
+---------------------------------------------------------------------------------------------------------------------------------
+Construir automatización
+Le permite descargar dependencias, compilar código, empaquetar código binario, ejecutar pruebas e implementar en producción.
+---------------------------------------------------------------------------------------------------------------------------------
+Clases
+Las clases actúan como modelo o plantilla para construir objetos con características y comportamientos similares. Una clase encapsula datos (en forma de propiedades) y funciones
+    (en forma de métodos) que trabajan con esos datos.
+---------------------------------------------------------------------------------------------------------------------------------
+Script del lado del cliente
+Un programa que acompaña a un documento HTML o está incrustado en HTML. Los scripts se ejecutan durante la carga de un documento o cuando se realiza una acción. Se pueden
+    utilizar para validar formularios, procesar entradas o crear dinámicamente elementos de documentos. Incruste un script en HTML, con la <script>etiqueta de cualquiera de las
+    siguientes maneras:     <script> // JS code </script>
+                            <script src="path name"></script>
+Utilice <noscript> la etiqueta para navegadores con JavaScript deshabilitado o aquellos que no admiten JavaScript.
+---------------------------------------------------------------------------------------------------------------------------------
+Marco de componentes
+Los marcos de componentes proporcionan plantillas y componentes prediseñados que son fáciles de agregar a cualquier sitio web.
+---------------------------------------------------------------------------------------------------------------------------------
+Integración continua/implementación continua (CI/CD)
+Un método para liberar código e integrarlo en código que ya se ha desarrollado para evitar que la aplicación se rompa durante todo el ciclo de vida de la aplicación.
+---------------------------------------------------------------------------------------------------------------------------------
+CSS
+"Hojas de estilo en cascada" es un lenguaje de hojas de estilo que describe cómo se muestran los elementos HTML. Es el diseño que se superpone en la parte superior de una página
+    web HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+Django
+Un marco para el desarrollo web Python.
+---------------------------------------------------------------------------------------------------------------------------------
+Objetos de documento
+Documento que representa la página web principal y que da acceso a todos los elementos HTML de la página. Cuando se carga la página, el documento HTML se convierte en un
+    documento. Se denomina "documento".
+---------------------------------------------------------------------------------------------------------------------------------
+DOM
+El "modelo de objetos de documento" es una interfaz de programación (API) entre HTML y JavaScript. Permite acceder y actualizar dinámicamente el contenido, la estructura y el
+    estilo. JavaScript utiliza el DOM para acceder y modificar elementos de la página web en el navegador.
+---------------------------------------------------------------------------------------------------------------------------------
+Contenido dinámico
+Datos que se crean cada vez que se envía una solicitud a un servidor.
+---------------------------------------------------------------------------------------------------------------------------------
+Nodos de elementos
+Todas las etiquetas HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+Objetos de elementos
+La clase base más general que heredan todos los objetos elemento de un documento. Sólo tiene métodos y propiedades comunes a todos los elementos. Todo en una página HTML es un
+    elemento. Y un elemento puede tener otros elementos anidados dentro de sí mismo.
+---------------------------------------------------------------------------------------------------------------------------------
+Punto final
+El punto en el que una API se conecta con el programa de software.
+---------------------------------------------------------------------------------------------------------------------------------
+Enlace de eventos
+Se refiere a decirle al navegador que se debe llamar a una función cada vez que ocurre algún "evento".
+---------------------------------------------------------------------------------------------------------------------------------
+Controladores de eventos
+Una función que declara qué hacer cuando se realiza una acción, como hacer clic en un botón. Ejemplo:
+    <button type="button" onclick="showAnswers()">
+Mostrar solución
+    <script> función showAnswers () { // alerta de código ( "" A "" ) } </script> </button> 
+Tenga en cuenta que showAnswers()es un controlador de eventos.
+---------------------------------------------------------------------------------------------------------------------------------
+Evento
+Un evento es algo que hace un navegador o un usuario y a lo que JavaScript puede reaccionar, como hacer clic en un botón o cuando un usuario envía una entrada en un formulario.
+---------------------------------------------------------------------------------------------------------------------------------
+Extender
+Esta palabra clave se utiliza en declaraciones de clase o expresiones de clase para crear una clase que es hija de otra clase.
+---------------------------------------------------------------------------------------------------------------------------------
+Diseño fijo
+Un diseño fijo es un diseño en el que usted especifica la altura y el ancho de los elementos, y esos valores permanecen iguales independientemente del sistema operativo o
+    navegador que utilice para acceder al sitio web.
+---------------------------------------------------------------------------------------------------------------------------------
+Diseño fluido
+Un diseño fluido es un diseño en el que la altura y el ancho de los elementos son flexibles y pueden expandirse o contraerse según la ventana del navegador, el sistema operativo
+    y otras preferencias del usuario.
+---------------------------------------------------------------------------------------------------------------------------------
+Marcos
+Proporcionar una forma estándar de crear una aplicación. Los marcos dictan la arquitectura y el flujo del programa.
+---------------------------------------------------------------------------------------------------------------------------------
+Funciones
+Las funciones son módulos de código que ejecutan una tarea particular. Pueden recibir datos, llamados argumentos o parámetros, y a veces también devolver datos, llamados valor
+    de retorno. Las funciones se definen comúnmente con esta sintaxis:
+    function functionName() {   codigo  } 
+---------------------------------------------------------------------------------------------------------------------------------
+IDE
+El "entorno de desarrollo integrado" ayuda a crear y gestionar código.
+---------------------------------------------------------------------------------------------------------------------------------
+IIFE
+La "Expresión de función invocada inmediatamente" se ejecuta inmediatamente después de su definición. Una vez ejecutada la función, no se puede volver a llamar a ninguna otra
+    parte del programa. Es un tipo de función autoejecutable.
+---------------------------------------------------------------------------------------------------------------------------------
+Inversión de control
+Un flujo de trabajo predefinido en el que el desarrollador no tiene el control total del funcionamiento de la aplicación.
+---------------------------------------------------------------------------------------------------------------------------------
+Marco de JavaScript
+Un marco de aplicación escrito en JavaScript para crear sitios responsivos.
+---------------------------------------------------------------------------------------------------------------------------------
+LESS
+Las "hojas de estilo para estudiantes" agregan más estilos y funciones a CSS.
+---------------------------------------------------------------------------------------------------------------------------------
+menos.js
+Una herramienta de JavaScript que convierte MENOS estilos a CSS.
+---------------------------------------------------------------------------------------------------------------------------------
+Bibliotecas
+Son colecciones de código reutilizables.
+---------------------------------------------------------------------------------------------------------------------------------
+Nodos
+La base de todos los elementos de la estructura del Modelo de objetos de documento (DOM).
+---------------------------------------------------------------------------------------------------------------------------------
+Objetos
+Los objetos son instancias creadas a partir de una clase. Son entidades del mundo real que representan las características definidas por la clase. Los objetos tienen un conjunto
+    especial de propiedades que almacenan datos y métodos que especifican comportamientos. Se puede acceder a estos métodos y propiedades y modificarlos para realizar tareas
+    específicas y comunicarse con otros programas.
+---------------------------------------------------------------------------------------------------------------------------------
+Dogmático
+Los marcos que tienen mucho control a veces se consideran "Opinionated".
+---------------------------------------------------------------------------------------------------------------------------------
+Administradores de paquetes
+Coordine con archivadores de archivos para extraer paquetes. Verificar sumas de cheques y certificados digitales. Localice, descargue e instale actualizaciones de software
+    existente desde un repositorio, así como administre dependencias. Los administradores de paquetes comunes incluyen los siguientes: Debian Package Management System (DPMS),
+    Red Hat Package Manager para Linux, Chocolatery para Windows, Homebrew y MacPorts para MacOS.
+---------------------------------------------------------------------------------------------------------------------------------
+Paquetes
+Archiva archivos que incluyen archivos de aplicaciones, instrucciones de instalación y metadatos.
+---------------------------------------------------------------------------------------------------------------------------------
+Prototipos
+Un prototipo de función le permite definir y agregar fácilmente propiedades o métodos a un objeto. Existen prototipos para todos los objetos que se pueden crear con la palabra
+    clave "nuevo". Todos los constructores de objetos crean objetos que heredan propiedades y métodos definidos por el prototipo. En la creación de instancias, los objetos
+    heredan el estado actual del prototipo. Sin embargo, tenga en cuenta que los scripts pueden anular las propiedades y funciones del prototipo. A continuación se muestra un
+    ejemplo del uso de un prototipo para agregar un método a la clase Car:
+function Car(make, model, year) {
+this.make = make;
+this.model = model;
+this.year = year;
+}
+Car.prototype.getName = function() {
+return this.make + ' ' + this.model + ' ' + this.year;
+}
+---------------------------------------------------------------------------------------------------------------------------------
+React.js
+Un marco de JavaScript desarrollado por Facebook que ayuda a crear y colocar elementos en una página.
+---------------------------------------------------------------------------------------------------------------------------------
+Diseño de respuesta
+Técnica de diseño que cambia automáticamente el tamaño de una pantalla para adaptarla a un tamaño de pantalla específico.
+---------------------------------------------------------------------------------------------------------------------------------
+Ruta
+Permite que el cliente de front-end se conecte al socket correcto en el backend. Son las rutas que toma el tráfico de red desde una instancia de máquina virtual (VM) hacia otros
+    destinos.
+---------------------------------------------------------------------------------------------------------------------------------
+SASS
+Las "hojas de estilo sintácticamente impresionantes" son una extensión de CSS.
+---------------------------------------------------------------------------------------------------------------------------------
+Script
+Ofrece a los desarrolladores medios para modificar y ampliar documentos HTML de forma altamente interactiva. Los scripts se pueden utilizar para validar formularios o para
+    procesar entradas a medida que se escriben. Los scripts pueden activarse mediante eventos que ocurren en una página web, como hacer clic en un botón. Los scripts se pueden
+    utilizar para crear dinámicamente elementos de documento en una página HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+Funciones autoejecutables
+A menudo se utiliza para inicializar datos o declarar elementos DOM. Estas funciones pueden ser anónimas.
+---------------------------------------------------------------------------------------------------------------------------------
+Contenido estático
+Una visualización de datos que han sido previamente almacenados en un servidor.
+---------------------------------------------------------------------------------------------------------------------------------
+Nodos de texto
+Los nodos que contienen texto real que van entre la etiqueta de inicio y la etiqueta de finalización de un elemento.
+---------------------------------------------------------------------------------------------------------------------------------
+THIS
+La palabra clave "this" se refiere a la instancia actual del objeto. El valor de "this" puede variar según cómo se llame el objeto.
+---------------------------------------------------------------------------------------------------------------------------------
+Marco de utilidad
+El marco de utilidad proporciona clases de utilidad cuyo ámbito es propiedades CSS individuales, lo que ayuda a crear diseños personalizados en archivos HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+Control de versiones
+Le permite volver a versiones anteriores de código, resuelve conflictos entre los mismos archivos y divide y fusiona diferentes ramas de código.
+---------------------------------------------------------------------------------------------------------------------------------
+Vue.js
+Un marco de JavaScript basado en la comunidad centrado en la interfaz de usuario. Incluye componentes de la interfaz de usuario, como botones y otros elementos visuales, y es
+    tanto una biblioteca como un marco.
+---------------------------------------------------------------------------------------------------------------------------------
+API de almacenamiento web
+API que permiten el almacenamiento de datos en un navegador.
+---------------------------------------------------------------------------------------------------------------------------------
+HTML
+Un "lenguaje de marcado de hipertexto extensible" similar al HTML pero con reglas de formato más estrictas.
+---------------------------------------------------------------------------------------------------------------------------------
+XML
+Un "lenguaje de marcado extensible" Diseñado para almacenar y transportar datos, permitiendo a los usuarios definir sus propios lenguajes de marcado, principalmente para mostrar
+    documentos en la web."

@@ -1,0 +1,162 @@
+"
+git add
+Se utiliza para mover cambios desde el directorio de trabajo al área de preparación
+git add sample.md
+---------------------------------------------------------------------------------------------------------------------------------
+git add .
+Permite mover los archivos modificados al área de preparación en repositorios de GitHub
+git add .
+---------------------------------------------------------------------------------------------------------------------------------
+git am
+Se utiliza para aplicar parches enviados por correo electrónico al repositorio
+git am < patchfile.patch
+---------------------------------------------------------------------------------------------------------------------------------
+git branch
+Permite crear un entorno aislado dentro del repositorio para realizar cambios
+git branch <nueva-branch>
+---------------------------------------------------------------------------------------------------------------------------------
+git checkout
+Permite ver y cambiar ramas existentes
+git checkout <rama-existente>
+---------------------------------------------------------------------------------------------------------------------------------
+git checkout main
+Permite cambiar a la rama principal
+git checkout main
+---------------------------------------------------------------------------------------------------------------------------------
+git clone
+Permite crear una copia del repositorio remoto
+git clone <URL-del-repositorio>
+---------------------------------------------------------------------------------------------------------------------------------
+git commit
+Permite tomar instantáneas de los cambios preparados y comprometerlos en el proyecto
+git commit -m "Tu mensaje de commit aquí"
+---------------------------------------------------------------------------------------------------------------------------------
+git config --global user.email
+Ejemplo 1: Configura un correo electrónico global para Git
+git config --global user.email "tu.correo@ejemplo.com"
+---------------------------------------------------------------------------------------------------------------------------------
+git config --global user.name
+Ejemplo 2: Configura un nombre de usuario global para Git
+git config --global user.name "Tu Nombre"
+---------------------------------------------------------------------------------------------------------------------------------
+git daemon
+Se utiliza para permitir descargas anónimas desde el repositorio
+git daemon --reuseaddr --verbose
+---------------------------------------------------------------------------------------------------------------------------------
+git diff
+Ayuda a que otros revisen tu código para identificar y comparar los cambios
+git diff example.txt
+---------------------------------------------------------------------------------------------------------------------------------
+git fetch
+Se utiliza para transferir los cambios desde el repositorio remoto a tu repositorio local
+git fetch <opciones> <nombre-remoto> <nombre-rama>
+---------------------------------------------------------------------------------------------------------------------------------
+git fetch upstream/master
+Se utiliza para obtener ramas de aguas arriba
+git fetch upstream master:aguas-arriba-master
+---------------------------------------------------------------------------------------------------------------------------------
+git format-patch
+Genera o prepara el envío por correo electrónico si adoptas un flujo de trabajo público al estilo del kernel de Linux
+git format-patch -n <número-de-commits>
+---------------------------------------------------------------------------------------------------------------------------------
+git http-backend
+Proporciona una implementación del lado del servidor de Git sobre HTTP, permitiendo tanto servicios de fetch como de push
+git clone --bare /ruta/a/repositorios/mirepo.git; cd myrepo.git; git update-server-info
+---------------------------------------------------------------------------------------------------------------------------------
+git init
+Se utiliza para clonar un repositorio existente
+git init <directorio>
+---------------------------------------------------------------------------------------------------------------------------------
+git instaweb
+Permite configurar una interfaz web para repositorios Git
+git instaweb -p 8080
+---------------------------------------------------------------------------------------------------------------------------------
+git log
+Permite navegar por cambios anteriores en un proyecto
+git log -p filename
+---------------------------------------------------------------------------------------------------------------------------------
+git merge
+Se utiliza para fusionar cambios en la rama activa en otra rama
+git merge feature_branch
+---------------------------------------------------------------------------------------------------------------------------------
+git merge upstream/master
+Fusiona cambios desde la rama 'upstream/master' a la rama actual
+git merge upstream/master
+---------------------------------------------------------------------------------------------------------------------------------
+git pull
+Se utiliza para transferir los cambios desde el repositorio remoto a tu repositorio local y fusionarlos en una rama
+git pull origin main
+---------------------------------------------------------------------------------------------------------------------------------
+git pull downstream
+Trae cambios de un repositorio aguas abajo, específicamente desde la rama principal de ese repositorio
+git pull downstream main
+---------------------------------------------------------------------------------------------------------------------------------
+git pull upstream
+Trae cambios del repositorio "upstream" a la rama actual
+git pull upstream main
+---------------------------------------------------------------------------------------------------------------------------------
+git push
+Se utiliza para enviar todos los cambios comprometidos al repositorio
+git push origin tu_nombre_de_rama
+---------------------------------------------------------------------------------------------------------------------------------
+git remote
+Un comando para gestionar un conjunto de repositorios rastreados
+git remote add upstream https://github.com/original/repo.git
+---------------------------------------------------------------------------------------------------------------------------------
+git remote add origin
+Añade un repositorio remoto llamado "origin" con la URL especificada
+git remote add origin https://github.com/yourusername/your-repo.git
+---------------------------------------------------------------------------------------------------------------------------------
+git remote add upstream
+Añade el repositorio original como un nuevo repositorio remoto etiquetado como upstream
+git remote add upstream https://github.com/original/repo.git
+---------------------------------------------------------------------------------------------------------------------------------
+git remote rename
+El comando git remote rename va seguido del nombre del repositorio remoto (origin) que deseas renombrar y el nuevo nombre (upstream) que deseas darle
+git remote rename origin new-origin
+---------------------------------------------------------------------------------------------------------------------------------
+git remote -v
+Permite ver los repositorios remotos asociados con el repositorio local
+git remote -v
+---------------------------------------------------------------------------------------------------------------------------------
+git request-pull
+Ejemplo 1: Crea un resumen de los cambios para que tu repositorio remoto lo extraiga
+git request-pull origin/main tu-rama
+
+Ejemplo 2: Genera un resumen de cambios pendientes para una solicitud de correo electrónico
+git request-pull <base> <head> <repositorio>
+---------------------------------------------------------------------------------------------------------------------------------
+git rerere
+Reutiliza la resolución grabada de conflictos de fusión previamente resueltos
+git rerere; git rerere diff
+---------------------------------------------------------------------------------------------------------------------------------
+git reset
+Deshace los cambios realizados a los archivos en tu directorio de trabajo
+git reset HEAD~1
+---------------------------------------------------------------------------------------------------------------------------------
+git revert
+Se utiliza para deshacer commits fallidos
+git revert HEAD
+---------------------------------------------------------------------------------------------------------------------------------
+git send-email
+Ejemplo 1: Envía tu envío por correo electrónico sin corrupción por tu MUA
+git send-email --to=recipient@example.com path/to/patchfile.patch
+
+Ejemplo 2: Envía una colección de parches como correos electrónicos	git send-email
+--to recipient@example.com patches/*.patch
+---------------------------------------------------------------------------------------------------------------------------------
+git-shell
+Se utiliza como una shell de inicio de sesión restringida para usuarios compartidos del repositorio central
+sudo usermod -s /usr/bin/git-shell gituser
+---------------------------------------------------------------------------------------------------------------------------------
+git status
+Permite ver el estado de tu directorio de trabajo y la instantánea preparada de los cambios
+git status
+---------------------------------------------------------------------------------------------------------------------------------
+git version
+Muestra la versión actual de Git instalada en tu sistema
+git --version
+---------------------------------------------------------------------------------------------------------------------------------
+git web
+Proporciona una interfaz web para repositorios Git
+git instaweb --port=8080"

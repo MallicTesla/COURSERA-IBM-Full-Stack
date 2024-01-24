@@ -1,0 +1,247 @@
+"
+Action creators
+Funciones que crean acciones.
+---------------------------------------------------------------------------------------------------------------------------------
+Actions
+Objetos JSON que contienen información sobre los cambios que deben realizarse en el estado. Por ejemplo, una acción GET obtiene información, una acción POST envía información y
+    una acción DELETE elimina información.
+---------------------------------------------------------------------------------------------------------------------------------
+Angular
+Angular es una plataforma para construir aplicaciones web móviles y de escritorio.
+---------------------------------------------------------------------------------------------------------------------------------
+App.js
+Contiene App, que es el componente raíz de React que agregarás a tu página HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+Arrow functions - Funciones de flecha
+Te permiten declarar funciones de la misma manera que declaras variables.
+---------------------------------------------------------------------------------------------------------------------------------
+Asynchronous or async code - Código asíncrono o asíncrono
+Se ejecuta en paralelo, y una operación puede ocurrir mientras otra aún se está procesando.
+---------------------------------------------------------------------------------------------------------------------------------
+Babel
+Una herramienta especial en memoria que compila JSX e interpreta JavaScript.
+---------------------------------------------------------------------------------------------------------------------------------
+Callback - Llamar de vuelta
+Un método normal llamado una vez que se cumple una condición.
+---------------------------------------------------------------------------------------------------------------------------------
+Central Store
+Almacena toda la lista de la aplicación en forma del 'árbol de estado'.
+---------------------------------------------------------------------------------------------------------------------------------
+Chai
+Un objeto que se puede utilizar como la biblioteca de afirmaciones.
+---------------------------------------------------------------------------------------------------------------------------------
+Class
+Una plantilla o plano para crear objetos.
+---------------------------------------------------------------------------------------------------------------------------------
+Class component
+Usa clases JavaScript ES6 para crear componentes basados en clases en React.
+---------------------------------------------------------------------------------------------------------------------------------
+Component
+Bloques de construcción fundamentales de React.
+---------------------------------------------------------------------------------------------------------------------------------
+Component Lifecycle
+Una serie de cuatro fases que componen el ciclo de vida de un componente. Estas fases son: Inicialización, Montaje, Actualización y Desmontaje.
+---------------------------------------------------------------------------------------------------------------------------------
+Component testing
+Cuando renderizas árboles de componentes en un entorno de prueba simple y afirmas su salida.
+---------------------------------------------------------------------------------------------------------------------------------
+Const - constante
+Te permite declarar constantes cuyos valores no pueden cambiarse.
+---------------------------------------------------------------------------------------------------------------------------------
+Controlled input
+Usa React para controlar completamente el elemento estableciendo y actualizando el valor de entrada directamente.
+---------------------------------------------------------------------------------------------------------------------------------
+Create React App
+Simplifica el proceso de creación de aplicaciones React.
+---------------------------------------------------------------------------------------------------------------------------------
+Cross-origin requests
+Peticiones que provienen de múltiples fuentes.
+---------------------------------------------------------------------------------------------------------------------------------
+CSS
+Hojas de estilo en cascada.
+---------------------------------------------------------------------------------------------------------------------------------
+Custom Hook	- Gancho personalizado
+Una nueva composición de uno o varios Hooks.
+---------------------------------------------------------------------------------------------------------------------------------
+Document Object Model (DOM)
+Define la estructura lógica de los documentos y la forma en que se accede y manipula un documento.
+---------------------------------------------------------------------------------------------------------------------------------
+ECMAScript
+Un estándar utilizado para scripting del lado del cliente.
+---------------------------------------------------------------------------------------------------------------------------------
+End-to-end testing - Pruebas de un extremo a otro
+Una prueba de múltiples pasos que combina varias unidades e integra todas las pruebas en una prueba grande. Requiere la ejecución de una aplicación completa en un entorno de
+    navegador realista.
+---------------------------------------------------------------------------------------------------------------------------------
+Enzyme
+Una biblioteca que se puede agregar a tus herramientas de prueba para renderizar componentes de React.
+---------------------------------------------------------------------------------------------------------------------------------
+ES
+ES es la abreviatura de ECMAScript, que es una organización de estándares que crea una amplia gama de estándares de tecnologías de la información y comunicación globales.
+---------------------------------------------------------------------------------------------------------------------------------
+ES6
+JavaScript se adhiere a la especificación EcmaScript6 de ECMA.
+---------------------------------------------------------------------------------------------------------------------------------
+event
+Permite que el componente maneje acciones del modelo de objeto de documento (DOM) como resultado de la interacción del usuario en el sistema.
+---------------------------------------------------------------------------------------------------------------------------------
+Front-end frameworks
+Se utilizan para crear un cliente dinámico que puede conectarse al servidor.
+---------------------------------------------------------------------------------------------------------------------------------
+Functional component
+Creado escribiendo una función JavaScript.
+---------------------------------------------------------------------------------------------------------------------------------
+High-order component -Componente de alto orden
+Se utilizan para compartir lógica con otros componentes.
+---------------------------------------------------------------------------------------------------------------------------------
+Hooks
+Permiten que los componentes funcionales adjunten un estado local y este estado será preservado por React cuando el componente se vuelva a renderizar.
+---------------------------------------------------------------------------------------------------------------------------------
+HTML
+Lenguaje de marcado de hipertexto.
+---------------------------------------------------------------------------------------------------------------------------------
+index.js
+Donde agregarás App al HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+Initialization phase - Fase de inicialización
+La primera fase del ciclo de vida del componente. Durante esta fase, el componente se construye con los Props dados y el estado predeterminado.
+---------------------------------------------------------------------------------------------------------------------------------
+Jest
+Un corredor de pruebas de JavaScript y una biblioteca de afirmaciones utilizada para probar componentes de React. Se puede combinar con Enzyme o React Testing Library.
+---------------------------------------------------------------------------------------------------------------------------------
+JSX
+JavaScript XML que se asemeja a HTML.
+---------------------------------------------------------------------------------------------------------------------------------
+let
+Te permite restringir el alcance de las variables dentro del bloque donde fueron declaradas.
+---------------------------------------------------------------------------------------------------------------------------------
+Local scope - Alcance local
+Es el alcance limitado.
+---------------------------------------------------------------------------------------------------------------------------------
+Local state	- estado local
+Uno de los dos tipos de estados de React. El estado local vive en un solo componente y no se utiliza en otros componentes. Un ejemplo de estado local es ocultar y mostrar
+    información. (Ver Estado compartido.)
+---------------------------------------------------------------------------------------------------------------------------------
+Middleware - software intermedio
+Librería que conecta aplicaciones y servicios.
+---------------------------------------------------------------------------------------------------------------------------------
+Mocha
+Objeto que se puede utilizar como corredor de pruebas.
+---------------------------------------------------------------------------------------------------------------------------------
+Mounting Phase - Fase de montaje
+La segunda fase del ciclo de vida del componente. Durante esta fase, se representa el JSX.
+---------------------------------------------------------------------------------------------------------------------------------
+NPM
+Gestor de paquetes para la plataforma JavaScript Node.
+---------------------------------------------------------------------------------------------------------------------------------
+onChange
+Atributo que controla los cambios en el formulario.
+---------------------------------------------------------------------------------------------------------------------------------
+Payload property
+Una propiedad opcional que contiene algunos datos necesarios para realizar una tarea.
+---------------------------------------------------------------------------------------------------------------------------------
+Promise - promesas
+Representa la finalización eventual de una operación asíncrona y su valor de retorno.
+---------------------------------------------------------------------------------------------------------------------------------
+Props - accecorios
+Abreviatura de 'properties - propiedades'. Objetos de solo lectura que almacenan valores de atributos de las etiquetas. Se utilizan para pasar datos de componentes padres a hijos.
+---------------------------------------------------------------------------------------------------------------------------------
+Pure component - Componente puro
+No dependen ni modifican el estado de las variables fuera de su alcance.
+---------------------------------------------------------------------------------------------------------------------------------
+Push
+Cuando un usuario o automatización de software mueve datos de una ubicación a otra.
+---------------------------------------------------------------------------------------------------------------------------------
+React elements
+Se utilizan para renderizar el componente en el DOM.
+---------------------------------------------------------------------------------------------------------------------------------
+React Hook form
+Una biblioteca de gestión y validación de estado para formularios en aplicaciones web React y aplicaciones móviles React Native.
+---------------------------------------------------------------------------------------------------------------------------------
+React package
+Contiene el código fuente de React para componentes y sus estados y propiedades.
+---------------------------------------------------------------------------------------------------------------------------------
+React Testing Library
+Un conjunto de ayudantes que te permiten probar componentes de React sin depender de los detalles de implementación. Esta biblioteca es un reemplazo de Enzyme.
+---------------------------------------------------------------------------------------------------------------------------------
+ReactDOM package
+Es el vínculo entre React y el DOM.
+---------------------------------------------------------------------------------------------------------------------------------
+Reducer
+Funciones puras que reciben el estado actual y un objeto de acción y devuelven un nuevo estado con las acciones realizadas.
+---------------------------------------------------------------------------------------------------------------------------------
+Redux
+Una biblioteca de gestión de estado que se usa a menudo con React para manejar el estado de tu aplicación.
+---------------------------------------------------------------------------------------------------------------------------------
+Redux Saga
+Middleware que utiliza una característica de ES6 llamada Generators para habilitar operaciones asíncronas.
+---------------------------------------------------------------------------------------------------------------------------------
+Redux Thunk
+Middleware que permite pasar funciones dentro de los creadores de acciones para crear Redux asíncrono.
+---------------------------------------------------------------------------------------------------------------------------------
+Ref function - Función de referencia
+Se utiliza para obtener los valores del formulario del DOM.
+---------------------------------------------------------------------------------------------------------------------------------
+setState - establecer estado
+Actualiza el estado de los elementos de entrada del formulario.
+---------------------------------------------------------------------------------------------------------------------------------
+Shared state - Estado compartido
+Uno de los dos tipos de estados de React. El estado compartido es compartido por varios componentes y es complicado. Un ejemplo de estado compartido es la lista de todas las
+    órdenes en una aplicación de pedidos. (Ver Estado local.)
+---------------------------------------------------------------------------------------------------------------------------------
+Sinon
+Un objeto que se puede utilizar para probar lógica JavaScript con objetos como espías, sustitutos y simulaciones.
+---------------------------------------------------------------------------------------------------------------------------------
+Snapshot testing - Prueba de instantáneas
+Pruebas que ayudan a verificar y verificar el resultado de la representación del componente.
+---------------------------------------------------------------------------------------------------------------------------------
+src folder
+La carpeta principal en la que realizarás cambios.
+---------------------------------------------------------------------------------------------------------------------------------
+State
+Un objeto JavaScript plano utilizado por React para representar información sobre la situación actual del componente. Los estados ayudan a rastrear cambios en un componente.
+---------------------------------------------------------------------------------------------------------------------------------
+Store
+Contiene el estado actual de la aplicación Redux, otras funciones y objetos.
+---------------------------------------------------------------------------------------------------------------------------------
+subclass
+La clase que hereda otra clase.
+---------------------------------------------------------------------------------------------------------------------------------
+Subscription
+Se activa en los componentes cada vez que se actualiza el estado en la tienda.
+---------------------------------------------------------------------------------------------------------------------------------
+superclass
+La clase que está siendo heredada por la subclase.
+---------------------------------------------------------------------------------------------------------------------------------
+Synchronous or sync code - Código sincrónico o de sincronización
+Se ejecuta en secuencia de arriba a abajo, y cada operación debe esperar a que se complete la anterior antes de ejecutarse.
+---------------------------------------------------------------------------------------------------------------------------------
+Testing
+Una revisión línea por línea de cómo se ejecuta el código. Las pruebas replican las acciones del usuario final para asegurarse de que las funciones funcionen como se espera.
+---------------------------------------------------------------------------------------------------------------------------------
+this
+Palabra clave que se refiere al objeto actual.
+---------------------------------------------------------------------------------------------------------------------------------
+Type property
+Una cadena que identifica la acción.
+---------------------------------------------------------------------------------------------------------------------------------
+Uncontrolled input - Entrada no controlada
+Permite que el navegador maneje la mayoría de los elementos del formulario y recopile datos a través de los eventos de cambio de React.
+---------------------------------------------------------------------------------------------------------------------------------
+Unmounting phase - Fase de desmontaje
+La fase final del ciclo de vida del componente. Durante esta fase, el componente se elimina de la página.
+---------------------------------------------------------------------------------------------------------------------------------
+Updating phase - Fase de actualización
+La tercera fase del ciclo de vida del componente. Durante esta fase, se actualiza el estado de un componente y se vuelve a pintar la aplicación.
+---------------------------------------------------------------------------------------------------------------------------------
+useContext - utilizarContexto
+Administra cambios de contexto y proporciona al componente acceso a un contexto.
+---------------------------------------------------------------------------------------------------------------------------------
+useEffect
+Administra efectos secundarios como cambios en el documento, HTTP, etc.
+---------------------------------------------------------------------------------------------------------------------------------
+useReducer
+Administra cambios en el estado de Redux.
+---------------------------------------------------------------------------------------------------------------------------------
+useState
+Un gancho que te permite usar el estado en tu función. Agrega estado a un componente de función."
