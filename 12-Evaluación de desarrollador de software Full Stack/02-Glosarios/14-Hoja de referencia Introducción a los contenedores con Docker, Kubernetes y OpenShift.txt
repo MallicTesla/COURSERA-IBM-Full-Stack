@@ -1,0 +1,62 @@
+"
+| Comando                                | Descripción                                                                              |
+|----------------------------------------|------------------------------------------------------------------------------------------|
+| curl localhost                         | Realiza un ping a la aplicación.                                                         |
+| docker build                           | Construye una imagen a partir de un Dockerfile.                                          |
+| docker build . -t                      | Construye la imagen y etiqueta el ID de la imagen.                                       |
+| docker CLI                             | Inicia la interfaz de línea de comandos de Docker.                                       |
+| docker container rm                    | Elimina un contenedor.                                                                   |
+| docker images                          | Lista las imágenes.                                                                      |
+| docker ps                              | Lista los contenedores.                                                                  |
+| docker ps -a                           | Lista los contenedores que se ejecutaron y salieron correctamente.                       |
+| docker pull                            | Obtiene la última imagen o repositorio de un registro.                                   |
+| docker push                            | Pushea una imagen o un repositorio a un registro.                                        |
+| docker run                             | Ejecuta un comando en un nuevo contenedor.                                               |
+| docker run -p                          | Ejecuta el contenedor publicando los puertos.                                            |
+| docker stop                            | Detiene uno o más contenedores en ejecución.                                             |
+| docker stop $(docker ps -q)            | Detiene todos los contenedores en ejecución.                                             |
+| docker tag                             | Crea una etiqueta para una imagen de destino que hace referencia a una imagen de origen. |
+| docker -version                        | Muestra la versión de la interfaz de línea de comandos de Docker.                        |
+|                                        |                                                                                          |
+| exit                                   | Cierra la sesión de la terminal.                                                         |
+| export MY_NAMESPACE                    | Exporta un espacio de nombres como una variable de entorno.                              |
+| for …do                                | Ejecuta un comando for varias veces según lo especificado.                               |
+| git clone                              | Clona el repositorio git que contiene los artefactos necesarios.                         |
+|                                        |                                                                                          |
+| ibmcloud cr images                     | Lista las imágenes en el Registro de Contenedores de IBM Cloud.                          |
+| ibmcloud cr login                      | Inicia sesión en tu demonio Docker local en el Registro de Contenedores de IBM Cloud.    |
+| ibmcloud cr namespaces                 | Muestra los espacios de nombres a los que tienes acceso.                                 |
+| ibmcloud cr region-set                 | Garantiza que estás apuntando a la región apropiada para tu cuenta en la nube.           |
+| ibmcloud target                        | Proporciona información sobre la cuenta que estás apuntando.                             |
+| ibmcloud version                       | Muestra la versión de la interfaz de línea de comandos de IBM Cloud.                     |
+|                                        |                                                                                          |
+| kubectl apply                          | Aplica una configuración a un recurso.                                                   |
+| kubectl autoscale deployment           | Escala automáticamente un despliegue de Kubernetes.                                      |
+| kubectl config get-clusters            | Muestra los clústeres definidos en la kubeconfig.                                        |
+| kubectl config get-contexts            | Muestra el contexto actual.                                                              |
+| kubectl create                         | Crea un recurso.                                                                         |
+| kubectl create configmap               | Crea un recurso ConfigMap.                                                               |
+| kubectl delete                         | Elimina recursos.                                                                        |
+| kubectl describe                       | Muestra detalles de un recurso o grupo de recursos.                                      |
+| kubectl expose                         | Expone un recurso a Internet como un servicio de Kubernetes.                             |
+| kubectl get                            | Muestra recursos.                                                                        |
+| kubectl get deployments                | Lista los despliegues creados.                                                           |
+| kubectl get deployments -o wide        | Lista despliegues con detalles.                                                          |
+| kubectl get hpa                        | Lista los Autoscalers Horizontales de Pods (hpa).                                        |
+| kubectl get pods                       | Lista todos los Pods.                                                                    |
+| kubectl get pods -o wide               | Lista todos los Pods con detalles.                                                       |
+| kubectl get services                   | Lista los servicios creados.                                                             |
+| kubectl proxy                          | Crea un servidor proxy entre un localhost y el servidor de API de Kubernetes.            |
+| kubectl rollout                        | Administra la implementación de un recurso.                                              |
+| kubectl rollout restart                | Reinicia el recurso para que los contenedores se reinicien.                              |
+| kubectl rollout undo                   | Deshace la implementación de un recurso.                                                 |
+| kubectl run                            | Crea y ejecuta una imagen específica en una vaina.                                       |
+| kubectl scale deployment               | Escala un despliegue.                                                                    |
+| kubectl set image deployment           | Actualiza el despliegue actual.                                                          |
+| kubectl version                        | Imprime información sobre la versión del cliente y del servidor.                         |
+|                                        |                                                                                          |
+| ls                                     | Lista el contenido de este directorio para ver los artefactos.                           |
+| oc get                                 | Muestra un recurso.                                                                      |
+| oc project                             | Cambia a un proyecto diferente.                                                          |
+| oc version                             | Muestra información sobre la versión.                                                    |
+"

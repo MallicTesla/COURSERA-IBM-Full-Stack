@@ -1,0 +1,156 @@
+"
+API Gateway
+Herramienta de gestión de API que se sitúa entre un cliente y una colección de servicios backend.
+---------------------------------------------------------------------------------------------------------------------------------
+ASGI
+Interfaz de pasarela de servidor asíncrono: interfaz de servidor web para llamar a microservicios de forma asíncrona.
+---------------------------------------------------------------------------------------------------------------------------------
+BaaS
+Backend como Servicio
+---------------------------------------------------------------------------------------------------------------------------------
+BFF
+Backend para Frontend
+---------------------------------------------------------------------------------------------------------------------------------
+Build
+Una unidad ejecutable
+---------------------------------------------------------------------------------------------------------------------------------
+Buildpack
+Contiene ejecutables para realizar tareas como inspeccionar código fuente, crear un plan de construcción o ejecutar el plan de construcción para producir una imagen de contenedor
+---------------------------------------------------------------------------------------------------------------------------------
+CaaS
+Contenedores como Servicio
+---------------------------------------------------------------------------------------------------------------------------------
+CNCF
+Fundación de Computación Nativa en la Nube
+---------------------------------------------------------------------------------------------------------------------------------
+Code Engine
+Abstrae la carga operativa de construir, implementar y gestionar cargas de trabajo para que los desarrolladores puedan centrarse en el desarrollo de código
+---------------------------------------------------------------------------------------------------------------------------------
+Configuración
+Todo lo que puede diferir entre implementaciones, puede variar entre entornos
+---------------------------------------------------------------------------------------------------------------------------------
+Contenedor
+Una unidad de software independiente, completa y ejecutable empaquetada con bibliotecas, dependencias y tiempos de ejecución
+---------------------------------------------------------------------------------------------------------------------------------
+Imagen de contenedor
+Un archivo inmutable que contiene todos los activos de la aplicación, como código fuente, bibliotecas y dependencias necesarias para que una aplicación se ejecute
+---------------------------------------------------------------------------------------------------------------------------------
+CRUD
+Crear, leer, actualizar y eliminar registros
+---------------------------------------------------------------------------------------------------------------------------------
+cURL
+Una herramienta de línea de comandos y una biblioteca para transferir datos con URL
+---------------------------------------------------------------------------------------------------------------------------------
+DELETE
+Solicitud para eliminar un registro
+---------------------------------------------------------------------------------------------------------------------------------
+Docker
+Una plataforma de software para construir y ejecutar aplicaciones como contenedores
+---------------------------------------------------------------------------------------------------------------------------------
+Dockerfile
+Un archivo de texto que incluye todos los comandos para construir una imagen de contenedor de Docker
+---------------------------------------------------------------------------------------------------------------------------------
+Variables de entorno
+Son fáciles de cambiar entre implementaciones sin modificar el código
+---------------------------------------------------------------------------------------------------------------------------------
+FaaS
+Función como Servicio
+---------------------------------------------------------------------------------------------------------------------------------
+Flask
+Un micro marco web que no requiere herramientas o bibliotecas particulares
+---------------------------------------------------------------------------------------------------------------------------------
+GET
+Solicitud para recuperar un registro
+---------------------------------------------------------------------------------------------------------------------------------
+GraphQL
+Un lenguaje de consulta que permite recuperar exactamente lo que necesitas de la API
+---------------------------------------------------------------------------------------------------------------------------------
+Escalado horizontal
+Escalado mediante la adición de más instancias de recursos, también descrito como "escalar hacia afuera"
+---------------------------------------------------------------------------------------------------------------------------------
+IBM Cloud CLI
+Interfaz de línea de comandos de IBM Cloud
+---------------------------------------------------------------------------------------------------------------------------------
+Consola de IBM Cloud
+Un portal web bien diseñado para que los usuarios finales gestionen convenientemente sus servicios en la nube de IBM, incluido Code Engine
+---------------------------------------------------------------------------------------------------------------------------------
+IDE
+Entorno de Desarrollo Integrado
+---------------------------------------------------------------------------------------------------------------------------------
+Trabajo
+Ejecuta código ejecutable una vez y sale
+---------------------------------------------------------------------------------------------------------------------------------
+Microservicios
+Una sola aplicación compuesta por muchos servicios más pequeños, acoplados de manera flexible e independientemente desplegables
+---------------------------------------------------------------------------------------------------------------------------------
+Aplicación monolítica
+Tiene toda o la mayor parte de su funcionalidad dentro de un solo proceso
+---------------------------------------------------------------------------------------------------------------------------------
+Especificación OpenAPI
+Define una interfaz estándar, sin depender del lenguaje, para las API RESTful
+---------------------------------------------------------------------------------------------------------------------------------
+PaaS
+Plataforma como Servicio
+---------------------------------------------------------------------------------------------------------------------------------
+pip
+Gestor de paquetes de Python
+---------------------------------------------------------------------------------------------------------------------------------
+POST
+Solicitud para crear un registro
+---------------------------------------------------------------------------------------------------------------------------------
+Postman
+Una plataforma de API para construir y usar APIs
+---------------------------------------------------------------------------------------------------------------------------------
+PUT
+Solicitud para actualizar un registro
+---------------------------------------------------------------------------------------------------------------------------------
+Etapa de liberación
+Combina la construcción con la configuración actual de implementación para que el código esté listo para ejecutarse
+---------------------------------------------------------------------------------------------------------------------------------
+Repositorio
+Un grupo de imágenes de contenedor relacionadas
+---------------------------------------------------------------------------------------------------------------------------------
+REST
+Transferencia de Estado Representacional
+---------------------------------------------------------------------------------------------------------------------------------
+Etapa de ejecución
+Implementa la aplicación
+---------------------------------------------------------------------------------------------------------------------------------
+SaaS
+Software como Servicio
+---------------------------------------------------------------------------------------------------------------------------------
+Computación sin servidor
+Abstrae tanto la infraestructura como los entornos de software. Un estilo arquitectónico donde el código se ejecuta utilizando una plataforma en la nube
+---------------------------------------------------------------------------------------------------------------------------------
+Patrón de descubrimiento de servicios
+Ayuda a las aplicaciones y servicios a descubrirse mutuamente
+---------------------------------------------------------------------------------------------------------------------------------
+SOA
+Arquitectura Orientada a Servicios
+---------------------------------------------------------------------------------------------------------------------------------
+SPA
+Aplicación de una sola página
+---------------------------------------------------------------------------------------------------------------------------------
+Sin estado
+Significa que cada solicitud contiene toda la información necesaria para procesarla
+---------------------------------------------------------------------------------------------------------------------------------
+Patrón de estrangulamiento
+Ayuda a gestionar la refactorización de una aplicación monolítica en etapas
+---------------------------------------------------------------------------------------------------------------------------------
+Swagger
+Permite describir la estructura de tus API para que las máquinas puedan leerlas
+---------------------------------------------------------------------------------------------------------------------------------
+TCP
+Protocolo de Control de Transmisión
+---------------------------------------------------------------------------------------------------------------------------------
+TLS
+Seguridad de la capa de transporte
+---------------------------------------------------------------------------------------------------------------------------------
+VM
+Máquina Virtual
+---------------------------------------------------------------------------------------------------------------------------------
+WebSocket
+Un protocolo de comunicación basado en el Protocolo de Control de Transmisión
+---------------------------------------------------------------------------------------------------------------------------------
+WSGI
+Interfaz de Pasarela de Servidor Web: estándar de Python para la comunicación entre servidores web y aplicaciones web o microservicios."
