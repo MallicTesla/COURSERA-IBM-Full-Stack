@@ -1,0 +1,65 @@
+"Bienvenido a Introducción al certificado profesional de desarrollo de software Full Stack. Después de ver este vídeo, podrá: Definir un certificado profesional. Describir los
+    cursos del certificado profesional de desarrollo de software Full Stack de IBM y Explicar otra información importante sobre los cursos.
+
+Mientras realiza el curso de Orientación profesional y preparación para entrevistas, es posible que se pregunte sobre sus habilidades y si son lo suficientemente sólidas para un
+    mercado laboral competitivo. Independientemente de que esté buscando comenzar una nueva carrera o cambiar la actual, los certificados profesionales pueden ayudarle a estar
+    preparado para el empleo. Le permiten desarrollar habilidades específicas relacionadas con la profesión elegida, haciéndole más valioso como posible empleado. Debido a que
+    están más enfocados y son menos extensos que un título universitario tradicional, pueden completarse más rápidamente y pueden ser más asequibles y accesibles para muchos
+    alumnos. Además, a menudo puede aprender a su propio ritmo, cuando y donde sea más conveniente para usted. El programa IBM Full Stack Software Development Professional
+    Certificate ofrecido en Coursera consiste en once cursos en línea que le proporcionarán las últimas herramientas y habilidades listas para el trabajo. Aprenderá habilidades y
+    técnicas de desarrollo de software utilizando herramientas de desarrollo populares. Este Professional Certificate tiene un fuerte énfasis en el aprendizaje aplicado. A
+    excepción del primer curso, todos los demás cursos incluyen ejercicios y proyectos en la Nube de IBM que le ayudarán a fortalecer sus habilidades prácticas. Una vez
+    finalizado el curso, obtendrá un certificado profesional de Coursera. Y también recibirá una insignia digital de IBM que reconoce su competencia.
+
+
+Vamos a echar un vistazo rápido a los once cursos del programa de certificación profesional Desarrollo de software de pila completa de IBM
+El programa comienza con Introducción a la computación en la nube, una visión general de los conceptos básicos de la computación en la nube Cubre los modelos de servicio en la
+    nube y los modelos de despliegue, así como los componentes clave de la infraestructura en la nube , la seguridad, la historia y las tendencias emergentes.
+
+
+Introducción al desarrollo web con HTML, CSS y JavaScript le ayuda a dar los primeros pasos para convertirse en desarrollador web. Se analizan las funciones de los
+    desarrolladores front-end, back-end y full-stack. También aprenderá los lenguajes necesarios para el desarrollo web y cómo JavaScript puede añadir interactividad a las
+    páginas web.
+
+
+En Introducción a Git y GitHub, aprenderá acerca de una de las plataformas más populares para la colaboración y el control de versiones. El curso proporciona prácticas para
+    habilidades importantes y termina con un proyecto en el que podrá crear y compartir un proyecto para construir su cartera.
+
+
+Python para la ciencia de datos, la IA y el desarrollo es una introducción a la programación para principiantes, específicamente utilizando el lenguaje Python. Python es uno de
+    los lenguajes de programación más populares y una herramienta esencial para los modernos científicos de datos. Un minicurso adicional, Proyecto Python para IA y desarrollo
+    de aplicaciones, le guiará a través de un proyecto en el que podrá demostrar y consolidar sus conocimientos de Python.
+
+
+En Desarrollo de aplicaciones con SQL, bases de datos y Django, adquirirá conocimientos fundamentales sobre bases de datos y los fundamentos de SQL, un lenguaje importante para
+    la consulta y gestión de datos. Aprenderá sobre el mapeo objeto-relacional y cómo crear una aplicación web con Django.
+
+
+Introducción a los contenedores con Docker, Kubernetes y OpenShift le mostrará cómo crear aplicaciones nativas en la nube utilizando herramientas de contenedorización. También
+    aprenderá sobre el despliegue de sus aplicaciones en la nube y aplicará su aprendizaje en laboratorios prácticos.
+
+
+Con el Desarrollo de aplicaciones utilizando microservicios y sin servidor, aprenderá lo básico sobre la programación y el despliegue sin servidor, así como sus patrones, casos
+    de uso y beneficios.
+
+
+Por último, completará el Capstone de desarrollo en la nube Full Stack, en el que utilizará los conocimientos y habilidades adquiridos en los cursos anteriores para demostrar lo
+    que puede hacer en un escenario de la vida real.
+
+
+Al final, tendrá una aplicación nativa de la nube en funcionamiento que podrá añadir a su cartera. Algunos puntos más sobre el programa: Cualquier persona con pasión por el
+    aprendizaje puede cursar este programa de certificación profesional - no se requieren conocimientos previos de informática o lenguajes de programación. Este curso es
+    completamente en línea, por lo que no hay necesidad de presentarse en un aula en persona. Puede acceder a sus clases, lecturas y tareas en cualquier momento y en cualquier
+    lugar a través de la web o de su dispositivo móvil.
+
+El certificado profesional requiere la realización de once cursos. Cada curso contiene normalmente de tres a seis módulos que tardan una media de dos a cuatro horas cada uno en
+    completarse. Si trabaja en ellos a un ritmo a tiempo parcial de aproximadamente un curso al mes, completar todo el certificado le llevará de nueve a doce meses. Si trabaja a
+    tiempo completo a un ritmo de un curso a la semana, puede completar el certificado en dos o tres meses. Si ha completado algunos de los cursos en otros programas o
+    individualmente, cualquier curso que ya haya completado contará para finalizar esta certificación profesional. No tendrá que volver a realizar esos cursos y podrá
+    finalizarlos más rápidamente.
+
+En este vídeo, ha aprendido que: El programa de certificación profesional IBM Full Stack Software Developer puede ayudarle a desarrollar habilidades relacionadas con su carrera
+    profesional de forma más accesible y asequible que un título universitario.
+
+El programa contiene once cursos que cubren una variedad de temas de programación full stack, Y los cursos pueden tomarse completamente en línea y completarse en unos pocos
+    meses, dependiendo de cuánto tiempo les dedique. Para obtener más información e inscribirse en el programa en Coursera, utilice el enlace incluido."

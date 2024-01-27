@@ -1,0 +1,65 @@
+"Bienvenido a "Construya su portafolio" Después de ver este vídeo, será capaz de: Identificar la importancia de un portafolio Explicar cómo construir un portafolio Enumerar
+    proyectos para añadir a su portafolio.
+
+Estudiar puede ayudarle a conseguir un trabajo, pero también debe trabajar. Muchos cursos le dotarán de habilidades orientadas al empleo, y sin duda puede utilizar sus
+    certificados para enriquecer su currículum. También puede mostrar sus conocimientos durante una entrevista. Sin embargo, un portafolio profesional destaca eficazmente sus
+    habilidades y demuestra su capacidad para crecer, y un empleador puede tomarse su tiempo para examinarlo. Los empleadores que contratan analistas de datos buscan varias
+    habilidades, incluyendo capacidades técnicas, habilidades de comunicación y una comprensión de las buenas prácticas empresariales y del análisis de datos. Todas ellas pueden
+    demostrarse en un portafolio. Algunos ejemplos de trabajos previos relevantes podrían ser: Si se ha matriculado en un programa de grado, puede añadir su investigación o un
+    proyecto capstone a su portafolio. Mucha gente trabaja como freelance para adquirir experiencia, y si tiene permiso, puede incluir trabajos como freelance como parte de su
+    portafolio Cualquier experiencia y proyectos en los que haya trabajado como becario puede merecer la pena incluirlos. A medida que vaya adquiriendo conocimientos adicionales
+    sobre datos, debería intentar trabajar en problemas empresariales en los que puedan aplicarse el aprendizaje automático, el aprendizaje profundo y la inteligencia artificial.
+
+Si ha trabajado o realizado prácticas en algún lugar y ha trabajado en un producto que ya se ha lanzado al mercado, señale que ha trabajado en él e incluya un enlace si es
+    posible. También puede echar un vistazo a las descripciones de los puestos de trabajo a los que se dirige, extraer las habilidades clave que requieren y construir proyectos
+    en torno a esas habilidades.
+
+Aquí tiene algunas ideas más para crear contenido de portafolio: Construir algo que le interese personalmente es siempre una buena idea cuando se quiere comprender algo más
+    profundo. Un ejemplo de creación de contenidos de este modo podría ser elegir un conjunto de datos gratuitos de fuentes en línea como BFI Film Industry Statistics o Earth
+    Data Site de la NASA, y luego basar en él un proyecto de análisis exploratorio de datos. Para ir más lejos, cree una visualización de sus hallazgos. Existen muchos retos de
+    datos organizados por Kaggle, Hacker rank, Leet code, etcétera. Estas competiciones están normalmente centradas en problemas del mundo real, por lo que son grandes fuentes
+    para que busque una aplicación práctica del análisis de datos. Participar en este tipo de concursos y documentarlos en su portafolio puede ser prometedor, sobre todo si
+    obtiene un puesto alto en el concurso. Si crea contenidos en forma de blog o vlog, debería incluir enlaces a los mismos. Esta es una forma estupenda de demostrar habilidades
+    blandas, así como de exhibir sus conocimientos técnicos y su capacidad para compartir con otros profesionales. Puede incluir proyectos de cursos o de pasatiempos en su
+    portafolio añadiendo algunos detalles y características más. Por ejemplo, incluya el registro y la gestión de errores si el proyecto no dispone de ello.
+
+Aquí tiene cuatro pasos que pueden ayudarle a construir un portafolio sólido creando algunos proyectos nuevos:
+
+    Para construir un portafolio para el trabajo que desea, empiece por comprender qué habilidades necesitará demostrar.
+
+    El estudio de las ofertas de empleo actuales le mostrará normalmente qué habilidades son las mejores para destacar en sus proyectos de cartera.
+
+    Al generar sus ideas de proyectos o tratar de utilizar problemas empresariales, piense en las metodologías que pueden utilizarse para resolver los problemas empresariales e
+        identifique los recursos que podrían utilizarse en la resolución del problema.
+
+    También puede aprender de los proyectos de otras personas visitando comunidades de ciencias de datos. Cuando haya decidido una idea para su proyecto, necesitará datos.
+
+Querrá mostrar experiencia práctica, así que utilice un conjunto de datos del mundo real, ya que los conjuntos de datos reales son desordenados y tendrá que hacer alguna
+    limpieza. Consulte los repositorios en línea que ofrecen acceso libre y gratuito a datos públicos, como Data.gov, Reddit Datasets, GitHub's Awesome Data y Google Dataset
+    Search.
+
+Después de haber elegido una pregunta de investigación y los conjuntos de datos que pueden utilizarse para abordar el problema, puede realizar un análisis exploratorio de los
+    datos para comprenderlos y el tipo de transformaciones que es necesario realizar. Cuando haya limpiado y transformado los datos, podrá empezar a aplicar modelos de
+    aprendizaje automático para resolver el problema.
+
+Es inteligente tener varios proyectos que muestren la amplitud de sus habilidades e intereses alojados en GitHub. GitHub es accesible y familiar para la mayoría de los
+    profesionales de campos técnicos, y permite que otros vean sus proyectos en tiempo real y en un entorno de alojamiento real. Aquí tiene algunos consejos que le ayudarán a
+    utilizar GitHub de la mejor manera.
+
+        Despliegue su código en páginas de GitHub y utilice plantillas HTML básicas para que el código tenga un aspecto profesional.
+        Actualice el proyecto con frecuencia: es mejor hacer pequeños cambios a menudo y publicarlos.
+        Haga contribuciones a los proyectos de otros usuarios para mantener un perfil sólido y permitir que contribuyan a sus proyectos.
+        Experimente con las últimas tecnologías y cree proyectos sencillos en torno a ellas.
+        Además, utilice los proyectos de GitHub para mostrar habilidades que se utilizan menos en su trabajo principal.
+        No olvide incluir un archivo LÉAME con una descripción de su proyecto, para demostrar que sabe cómo comunicar los resultados.
+
+En este vídeo, ha aprendido: Un portafolio es una forma excelente de mostrar directamente su trabajo y sus habilidades porque los empleadores valoran lo que pueden ver en su
+    portafolio y cómo refleja lo que sabe hacer.
+
+Hay muchos tipos de trabajo que puede incluir en su portafolio para lograr un buen efecto.
+Puede crear nuevos proyectos para que su portafolio sea más sólido.
+Y es útil utilizar GitHub con cuidado.
+Tener un currículum sólido es primordial para quienes buscan empleo, pero hay más de una forma de mostrar sus habilidades.
+Un portafolio puede mostrar lo que puede hacer de una manera práctica y práctica.
+Es importante destacar que mantener un portafolio es un proceso iterativo.
+A medida que sus conocimientos aumentan, su portafolio debe actualizarse."

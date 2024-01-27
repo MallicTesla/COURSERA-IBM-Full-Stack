@@ -1,0 +1,16 @@
+"¡Bienvenido a Orientación profesional y preparación de entrevistas! Si está aquí, probablemente se esté preparando para una carrera como desarrollador de software. Ha trabajado
+    en sus habilidades y estudiado la información, y está listo para empezar... pero ¿cómo empezará a buscar trabajo? El mercado laboral moderno puede ser desalentador, y se
+    mueve con rapidez.
+
+Este curso está diseñado para capacitarle en la búsqueda de un gran puesto. Le ayudará a comprender el trabajo real de los desarrolladores de software, así como algunas
+    oportunidades y opciones de desarrollo profesional que puede considerar. Le proporcionará técnicas prácticas para crear materiales esenciales para la búsqueda de empleo,
+    como un currículum y un portafolio, incluyendo cómo configurarlos y qué incluir en ellos. También aprenderá a crear herramientas auxiliares como una carta de presentación y
+    un discurso de ascensor.
+
+Una vez que haya desarrollado sus herramientas de búsqueda de empleo, aprenderá a entrar en la búsqueda de trabajo. Aprenderá a encontrar y evaluar posibles puestos de trabajo,
+    a solicitarlos y a sentar las bases para la entrevista. Verá diferentes tipos de entrevistas y cómo prepararse para ellas. También obtendrá consejos y pasos que puede
+    utilizar para desenvolverse con profesionalidad y eficacia en las entrevistas. Después de completar este curso, estará preparado para buscar -y conseguir- un trabajo que le
+    encante.
+
+Una nota: Este curso a veces trata específicamente de los desarrolladores full stack, pero la mayor parte del contenido se aplicará a los desarrolladores de software en general,
+    y los términos "desarrollador full stack", "desarrollador de aplicaciones" y "desarrollador de software" se utilizarán indistintamente."

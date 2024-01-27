@@ -1,0 +1,76 @@
+"Bienvenido al certificado profesional de introducción a DevOps e Ingeniería de Software. Después de ver este vídeo, podrá: Definir un certificado profesional. Describa los
+    cursos del certificado profesional de ingeniería de software y DevOps de IBM y explique otra información importante sobre los cursos.
+
+Mientras realiza el curso de orientación profesional y preparación para entrevistas, es posible que se pregunte cuáles son sus habilidades y si son lo suficientemente sólidas
+    para un mercado laboral competitivo. Ya sea que esté buscando comenzar una nueva carrera o cambiar la actual, los certificados profesionales pueden ayudarlo a prepararse
+    para el trabajo. Te permiten desarrollar habilidades específicas relacionadas con la profesión que hayas elegido, lo que te hace más valioso como posible empleado. Debido a
+    que son más específicos y menos extensos que un título universitario tradicional, se pueden completar más rápidamente y pueden ser más asequibles y accesibles para muchos
+    estudiantes. Además, a menudo puedes aprender a tu propio ritmo, cuando y donde te resulte más conveniente. El programa de certificación profesional de ingeniería de
+    software y DevOps de IBM que se ofrece en Coursera consta de trece cursos en línea que le proporcionarán conceptos clave y conocimientos técnicos sobre las prácticas,
+    herramientas y tecnologías de DevOps y lo prepararán para un puesto de nivel inicial en ingeniería de software. Aprenderá habilidades y técnicas de desarrollo de software
+    utilizando herramientas de desarrollo populares. Este certificado profesional tiene un fuerte énfasis en el aprendizaje aplicado. A excepción del primer curso, todos los
+    demás cursos incluyen ejercicios y proyectos en IBM Cloud que le ayudarán a fortalecer sus habilidades prácticas. Al terminar el curso, obtendrás un certificado profesional
+    de Coursera. Además, recibirá una insignia digital de IBM que reconoce su competencia. Echemos un vistazo rápido a los trece cursos del programa de certificación profesional
+    de ingeniería de software y DevOps de IBM.
+
+
+El programa comienza con una introducción a DevOps, que ofrecerá una breve historia y una visión general de las prácticas y la filosofía de DevOps, y de cómo DevOps puede
+    ayudarle a crear equipos más sólidos y mejores productos.
+
+
+La introducción a la computación en la nube ofrece una descripción general de los conceptos básicos de la computación en la nube. Abarca los modelos de servicios en la nube y
+    los modelos de implementación , así como los componentes clave de la infraestructura de la nube, la seguridad, la historia y las tendencias emergentes.
+
+
+Con Introduction to Agile Development y Scrum, aprenderá a aplicar prácticas de trabajo ágiles a proyectos colaborativos. Descubrirás cómo funciona un equipo de scrum, cómo
+    escribir historias de usuario y cómo hacer un seguimiento del progreso en un tablero kanban.
+
+
+Introducción práctica a los comandos de Linux y a las secuencias de comandos de Shell proporciona una introducción práctica a Linux y sus comandos más utilizados. Aprenderás los
+    conceptos básicos de la creación de scripts de shell en Bash para automatizar diversas tareas.
+
+
+En Cómo empezar con Git y GitHub, aprenderás sobre una de las plataformas más populares para la colaboración y el control de versiones. El curso proporciona prácticas para
+    desarrollar habilidades importantes y concluye con un proyecto en el que puedes crear y compartir un proyecto para crear tu cartera.
+
+
+Python para ciencia de datos, inteligencia artificial y desarrollo es una introducción a la programación para principiantes, que utiliza específicamente el lenguaje Python.
+    Python es uno de los lenguajes de programación más populares y una herramienta esencial para los científicos de datos modernos. Un minicurso adicional, denominado Proyecto
+    Python para inteligencia artificial y desarrollo de aplicaciones, le guiará a través de un proyecto en el que podrá demostrar y consolidar sus habilidades en Python.
+
+
+La introducción a los contenedores con Docker, Kubernetes y OpenShift le mostrará cómo crear aplicaciones nativas de la nube mediante herramientas de contenedorización. También
+    aprenderá a implementar sus aplicaciones en la nube y a aplicar su aprendizaje en laboratorios prácticos.
+
+
+Con el desarrollo de aplicaciones mediante microservicios y sin servidores, aprenderá los conceptos básicos sobre la programación y la implementación sin servidores, así como
+    sus patrones, casos de uso y beneficios.
+
+
+La introducción al desarrollo basado en pruebas proporciona una descripción detallada de este proceso y su complemento, el desarrollo basado en el comportamiento. Aprenderá los
+    conceptos básicos del proceso de pruebas automatizadas y cómo ayuda a crear aplicaciones sólidas, y luego utilizará ese conocimiento en los laboratorios de práctica.
+
+
+En Integración continua y entrega continua, explorará otro enfoque automatizado para el desarrollo de software y sus objetivos, beneficios y mejores prácticas. La seguridad y el
+    monitoreo de aplicaciones proporcionan amplios conocimientos sobre las prácticas y los procesos para mantener un entorno de desarrollo seguro. Aprenderá cómo identificar las
+    vulnerabilidades y cómo la supervisión, la observabilidad y la evaluación pueden garantizar la seguridad de sus aplicaciones y sistemas.
+
+
+Por último, completará el proyecto final de DevOps, en el que utilizará los conocimientos y habilidades adquiridos en los cursos anteriores para demostrar su competencia en las
+    prácticas de DevOps. Desarrollará, probará, implementará, supervisará y mejorará una aplicación basada en microservicios a lo largo de varios sprints.
+
+
+Algunos puntos más sobre el programa: cualquier persona apasionada por el aprendizaje puede realizar este programa de certificación profesional ; no se requieren conocimientos
+    previos de informática o lenguajes de programación. Este curso se imparte completamente en línea, por lo que no es necesario presentarse en persona al aula. Puede acceder a
+    sus clases, lecturas y tareas en cualquier momento y en cualquier lugar a través de la web o su dispositivo móvil. El certificado profesional requiere la realización de
+    trece cursos. Por lo general, cada curso contiene de tres a seis módulos que tardan un promedio de dos a cuatro horas cada uno en completarse. Si trabaja en ellos a un ritmo
+    a tiempo parcial de aproximadamente un curso por mes, completar el certificado completo llevará aproximadamente un año. Si trabaja a tiempo completo a un ritmo de un curso
+    por semana, puede completar el certificado en tres o cuatro meses. Si ha completado algunos de los cursos de otros programas o de forma individual, cualquier curso que ya
+    haya completado se tendrá en cuenta para obtener esta certificación profesional. No tiene que volver a tomar esos cursos y podrá terminarlos más rápidamente.
+
+
+En este vídeo, descubrirá que: el programa de certificación profesional de ingeniería de software y DevOps de IBM puede ayudarlo a desarrollar habilidades relacionadas con su
+    carrera de manera más accesible y asequible que un título.
+El programa contiene trece cursos que cubren una variedad de temas de programación y DevOps.
+Los cursos pueden realizarse completamente en línea y completarse en unos pocos meses, según el tiempo que dedique a ellos.
+Para obtener más información e inscribirte en el programa en Coursera, usa el enlace incluido."

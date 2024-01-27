@@ -1,0 +1,143 @@
+"
+Objetivos de aprendizaje
+Después de completar esta práctica de laboratorio, podrá:
+
+    Crear un currículum básico
+    Describir cómo editar el currículum para adaptarlo a diferentes solicitudes de empleo.
+
+
+Requisitos previos
+Necesitará lo siguiente para completar los ejercicios de esta práctica de laboratorio:
+
+    Software de procesamiento de textos
+    Una fuente de información sobre su experiencia laboral y habilidades pasadas.
+    Un ejemplo de lista de trabajos para practicar cómo adaptar el currículum a un puesto específico
+
+
+Tenga en cuenta
+Probablemente querrás conservar una copia de tu currículum en formato Microsoft Word (.doc), ya que es el formato que las empresas solicitarán más que otros. También es útil
+    guardar el currículum en texto sin formato, porque así será más fácil cortarlo y pegarlo en el campo de un sitio web.
+
+Trate de mantener su currículum breve y conciso. Muy raramente debería tener más de dos páginas.
+
+Puede utilizar su lista de trabajos de ejemplo para editar la información de su currículum y practicar cómo adaptarla. Probablemente hará esto la mayoría de las veces que
+    solicite un nuevo trabajo.
+
+Mientras trabaja, resalte las partes de su currículum que probablemente cambien. Esto hará que sea más fácil encontrarlos y cambiarlos en el futuro.
+
+
+¿Deberías utilizar una plantilla?
+Hay muchas plantillas de currículum disponibles en línea y en otros lugares, que pueden simplificar la redacción de un currículum y darle un diseño interesante. Sin embargo,
+    debe tener cuidado porque muchos de ellos no son legibles por el software de seguimiento de candidatos. Si un empleador potencial está utilizando ese software para examinar
+    los currículums entrantes, es posible que pierda su currículum si no se puede escanear. Es mejor redactar tu currículum en un formato más sencillo y tenerlo a mano; siempre
+    puedes pegarlo en una plantilla más adelante.
+
+
+Ejercicio 1: información de contacto
+En este ejercicio, abrirá e iniciará su currículum.
+
+    Abra un nuevo documento en su procesador de textos.
+
+    Escribe tu nombre en la parte superior. Suele estar centrado en la página, aunque podría estar alineado hacia la izquierda. Utilice su nombre legal o un apodo si así es como
+        suele llamarle en situaciones profesionales.
+
+    Debajo de su nombre, escriba su información de contacto. Incluya al menos un número de teléfono y una dirección de correo electrónico. No es necesaria una dirección postal,
+        pero su ciudad y estado pueden resultar útiles. Verifique cuidadosamente que su número de teléfono y dirección de correo electrónico sean correctos. Además, asegúrese de
+        que su dirección de correo electrónico parezca profesional.
+
+    Incluya enlaces a redes sociales, un portafolio u otros sitios web si los utiliza para establecer contactos profesionales. Asegúrese de que todo lo que aparece en estas
+        cuentas sea algo que desee que vean los empleadores potenciales.
+
+
+Ejercicio 2: escribe un resumen
+En este ejercicio, escribirá un resumen de su currículum.
+
+La parte superior de la primera página de su currículum es la parte más importante. Un gerente solo mirará cada currículum durante unos segundos antes de decidir si continúa o no, por lo que captar su atención rápidamente en la sección superior es crucial.
+
+    Puedes comenzar con una descripción de una frase de quién eres y qué estás buscando. Por ejemplo:
+        Profesional de análisis de datos con tres años de experiencia que busca un puesto inicial en el campo de la medicina y la atención médica.
+
+    Añade una sección donde resumas tu experiencia y habilidades. Querrá personalizar esta sección para que se ajuste a diferentes ofertas de trabajo, pero por ahora, incluya
+        sus habilidades más pertinentes. Esto puede incluir habilidades específicas de su campo (como experiencia en aprendizaje automático) y otras habilidades específicas
+        (como lenguajes y herramientas que sabe utilizar).
+            Analista de datos calificado con experiencia en adquirir datos, integrarlos, organizarlos, limpiarlos y validarlos, y darles sentido mediante la aplicación de
+                técnicas estadísticas. Experiencia en identificar patrones en datos para resolver problemas del mundo real. Emplea herramientas y software de inteligencia
+                empresarial, incluidos Tableau y PowerBI, para modelar y visualizar datos, a fin de crear una historia coherente para comunicar conocimientos organizacionales a
+                las partes interesadas. Destaca en la redacción y edición de materiales técnicos diseñados para audiencias variadas. Competente con R y amplio conocimiento de
+                Python.
+
+
+Ejercicio 3: Listar experiencia profesional
+En este ejercicio compondrás la mayor parte de tu currículum, tu experiencia profesional.
+
+    Comience con su puesto actual o más reciente. Indique su título, la empresa y la fecha en que comenzó y terminó el trabajo. Incluya información cuantificable si es posible.
+
+    Al brindar información sobre su experiencia laboral, siga este patrón con sus declaraciones: use una palabra de acción, luego la tarea en la que trabajó y luego el resultado
+        en términos cuantificables, si es posible. Algunas palabras de acción incluyen: Iniciado , construido , convertido , implementado , dirigido y diseñado . Por ejemplo:
+            "Se implementó un diseño de base de datos mejorado, que aumentó la eficiencia en un 25 % y ahorró un 15 % en almacenamiento".
+
+    Incluya las principales tareas y deberes que realizó en ese puesto, pero tenga en cuenta la extensión. No querrás abrumarte y debes mantener tu currículum completo en menos
+        de dos páginas, así que concéntrate en la información más importante o relevante.
+
+    Volviendo atrás, enumere todos sus roles anteriores en orden cronológico inverso. Escríbalos de la misma manera que escribió el trabajo más reciente. Si tiene más de 8 a 10
+        años de experiencia, indique únicamente los años más recientes.
+
+
+Ejercicio 4: enumera tu educación
+En este ejercicio, incluirá sus credenciales educativas.
+
+    Escribe tus logros educativos. Por supuesto, querrás enumerar los títulos que hayas obtenido. Enumere la escuela, el título y la especialización. Es posible que también
+        quieras agregar enfoques importantes o trabajo de clase que hayas completado. Las fechas pueden ser útiles, pero también pueden indicar su edad y provocar discriminación,
+        por lo que es posible que desee omitirlas.
+
+    Agregue cualquier otro contenido educativo que pueda tener, incluidas certificaciones, cursos independientes, etc., si los tiene.
+
+
+Ejercicio 5: Secciones opcionales
+Hay algunas secciones que puede agregar a su currículum si es nuevo en el mercado laboral y no tiene mucha experiencia laboral para enumerar.
+
+    Si tiene proyectos independientes, puede incluirlos en una sección de Proyectos. Esto puede resaltar sus habilidades y algunas formas en que las ha utilizado fuera de un
+        entorno profesional. Incluye enlaces a este trabajo si es posible, especialmente si es parte de tu portafolio.
+
+    Si son relevantes, puede agregar conferencias a las que ha asistido, publicaciones profesionales y premios.
+
+    Puede agregar secciones para pasatiempos, intereses o trabajo voluntario, pero inclúyalas solo si son directamente relevantes de alguna manera para el puesto que está
+        solicitando.
+
+
+Consejos
+    Hay algunas características que debes omitir en tu currículum. Una es una fotografía que, lamentablemente, puede dar lugar a discriminación. Otra son tus referencias; puede
+        cambiarlos o seleccionar diferentes referencias para diferentes trabajos, así que proporciónelos por separado cuando se le solicite.
+
+    Asegúrese de que un colega de confianza u otro profesional revise su currículum antes de usarlo. Quieres dar la mejor impresión. Algunos empleadores pueden eliminarlo de su
+        consideración si su currículum contiene errores.
+
+    Si tienes un espacio de almacenamiento en la nube como Google Docs o Dropbox, guarda tu currículum allí para que siempre puedas encontrarlo fácilmente usando cualquier
+        dispositivo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"

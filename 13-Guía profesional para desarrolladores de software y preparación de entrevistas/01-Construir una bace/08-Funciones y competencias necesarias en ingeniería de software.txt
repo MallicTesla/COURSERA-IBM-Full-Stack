@@ -1,0 +1,34 @@
+"Bienvenido a Expert Viewpoints: funciones de ingeniería de software y habilidades requeridas. En este vídeo, conocerás las distintas funciones disponibles para los ingenieros
+    de software.
+
+Yo diría que, en realidad, hay muchos tipos diferentes de trabajos disponibles para alguien que quiera ser desarrollador, y pueden ser trabajos muy técnicos, en los que se
+    trabaja todo el día trabajando en el desarrollo, y en tareas de front-end o backend en una tecnología específica. O puede centrarse más en el aspecto de la gestión, en el
+    que, ya sabes, diseñas y gestionas un proyecto completo. Puedes dedicarte a la consultoría, que sabes que se centra mucho en las ventas y otras cosas por el estilo, por lo
+    que hay muchos tipos de trabajo diferentes. Otra cosa a tener en cuenta es cuando trabajas en una empresa. Por lo general, trabajarás en equipo y elegirás uno o dos de esos
+    puestos de trabajo específicos como propios. Pero según mi experiencia, al menos en las empresas emergentes, por lo general vas a estar haciendo de todo, lo cual es
+    emocionante. Es divertido, te da mucho poder, pero también es una experiencia diferente. Así que definitivamente es algo interesante, pero algo en lo que pensar. Pero los
+    desarrolladores en este momento, todo necesita código, por lo que hay muchas opciones.
+
+Me especialicé. No era solo alguien que conocía algunas habilidades genéricas de programación. Realmente me aseguré de ser lo más valorado posible en un paquete tecnológico
+    específico. Y eso era muy importante porque mi gerente en ese momento buscaba a alguien que tuviera esas habilidades. Había un nuevo marco web que estaba surgiendo y
+    haciéndose muy popular. Pero no mucha gente lo había usado y experimentado con él, y así sucesivamente. Pero lo hice, y valió la pena. Lo segundo fue manifestarlo un poco.
+    Dándome a conocer, asegurándome de que mi deseo de mudarme a Canadá y conseguir un trabajo en una empresa más grande, etc., estuviera al alcance de la gente, ¿verdad? Así
+    pues, tener un blog en el que proponía y discutía estos temas me permitió, eh, llegar a un público más amplio y, como resultado , la gente podría ofrecerme una gran
+    oportunidad al principio de mi carrera. Así que mis dos primeras sugerencias basadas en mi trayectoria profesional son: especializarme en algo y no ser tímido. Date a
+    conocer. Comparta sus conocimientos. Haz saber a la gente que te apasiona una determinada tecnología Hazles saber que estás buscando oportunidades y que vendrán cosas buenas.
+
+Como desarrollador integral, lo que notarás es que, cuando buscas trabajo, puede que no estés buscando específicamente puestos con el título de desarrollador integral. Hay
+    muchos puestos, y esto dependerá de la empresa, y cada puesto en sí puede incluir términos como ingeniero de software o desarrollador de software, además de desarrollador
+    web. En realidad, todo depende de la empresa y de cómo elaboren sus descripciones y títulos de trabajo.
+
+Lo que me encanta del desarrollo y la ingeniería es que puedes empezar con una sola profesión y tomar muchas trayectorias profesionales diferentes. Existe la sensación más
+    tradicional de ser ingeniero de software y luego ascender a ingeniero de software sénior o ingeniero de software principal o ingeniero de software en plantilla y, básicamente,
+    pasar por todo el camino de mejorar tus habilidades como desarrollador y seguir teniendo el desarrollo como el objetivo principal de tu trabajo.
+
+También puedes asumir un puesto directivo si la gestión de personas y equipos es algo que te gusta o te interesa. Umm, puedes empezar como ingeniero de software y luego pasar a
+    ser líder de equipo y, luego, a medida que dirijas a más personas y dirijas más proyectos, puedes crecer como gerente. Además, es posible que este puesto no implique tanta
+    programación específica, ya que gestionarás un equipo y ayudarás a tu equipo a alcanzar sus objetivos. Pero eso, por supuesto, seguirá siendo parte del desarrollo. Puede que
+    no esté centrado al 100% en su función. Y también me encanta que ahora haya más puestos para desarrolladores polifacéticos e interesados en muchas cosas diferentes. Si te
+    gusta crear blogs o tal vez la creación de contenido sea algo que te interese mucho, el papel de defensor de los desarrolladores o evangelista de los desarrolladores es algo
+    que también podría resultar interesante porque combina en gran medida el desarrollo con la creación de contenido para empresas específicas o para tecnologías específicas y
+    combina las habilidades que tienes con la programación con los otros placeres de escribir esas entradas de blog, interactuar con la comunidad y publicar contenido."

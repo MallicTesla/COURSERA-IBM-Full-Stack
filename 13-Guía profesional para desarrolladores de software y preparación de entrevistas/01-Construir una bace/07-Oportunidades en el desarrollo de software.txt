@@ -1,0 +1,50 @@
+"Bienvenido a Oportunidades en el desarrollo de software. Después de ver este vídeo, podrá: Describir lo que hacen los desarrolladores de software y la amplitud del campo.
+    Compare diferentes estilos de trabajo en empresas pequeñas, medianas y grandes. E identifique las oportunidades laborales actuales y previstas en el desarrollo de software.
+
+En primer lugar, un recordatorio de que, en este curso, utilizaremos los términos «desarrollador de software» e «ingeniero de software» indistintamente, aunque puedan desempeñar
+    funciones algo diferentes en una organización en particular.
+
+Ahora, repasemos lo que hace un desarrollador de software. Los desarrolladores de software diseñan y crean aplicaciones informáticas que permiten a los usuarios realizar tareas
+    específicas y satisfacer sus necesidades. También crean los sistemas que ejecutan los dispositivos para que las aplicaciones puedan funcionar, así como el software que
+    ejecuta las redes, incluidas las redes locales y las redes muy grandes, como los servicios en la nube.
+
+El desarrollo de software es crucial en muchos sectores para muchos fines, por lo que las oportunidades son amplias. La fabricación, el transporte marítimo, la investigación
+    médica, el entretenimiento, los viajes, el derecho, las finanzas y la administración pública son solo algunos de los campos en los que los desarrolladores de software
+    utilizan a los desarrolladores de software para dirigir sus negocios y alcanzar sus objetivos.
+
+Como era de esperar, un gran porcentaje de los puestos de desarrollo de software los ofrecen empresas del sector de la tecnología y la información. Es comprensible que el tamaño
+    de una empresa afecte a la naturaleza de sus puestos y a la composición de sus equipos. Muchos puestos de desarrollador implican trabajar en las grandes empresas
+    multinacionales conocidas como «Big Tech». Estas son algunas de las «grandes empresas tecnológicas» conocidas en todo el mundo. Es posible que reconozca a IBM, Microsoft,
+    Amazon y Facebook, también conocidas como Meta, y a otros nombres importantes de la industria. Muchos de ellos forman parte de nuestra vida cotidiana en el mundo moderno.
+
+Cada uno de estos y otros gigantes de los datos es diferente en cuanto al software que produce y utiliza, su cultura empresarial, su estructura y, por supuesto, su producto u
+    objetivo. Las grandes empresas tecnológicas no son las únicas que contratan desarrolladores de software. Las empresas más pequeñas también contratan para muchos puestos de
+    desarrolladores, y puede ser muy interesante trabajar para nuevas empresas. Pueden ofrecer diferentes oportunidades para desarrollar habilidades y crear algo nuevo, pero
+    también pueden ser menos estables, demandar muchas horas de trabajo y ofrecer una vía de progreso menos predecible. Cada uno tiene ventajas e inconvenientes que puedes
+    sopesar en función de tus objetivos. También hay empresas medianas que se encuentran entre los extremos de las nuevas empresas y las grandes tecnologías. Pueden ofrecer más
+    estabilidad que una startup, pero más agilidad que una gran empresa.
+
+Las empresas medianas vienen en muchos estilos, por lo que puede evaluar los puestos en ellas caso por caso. Es imposible establecer distinciones precisas entre las oportunidades
+    de las empresas grandes y las pequeñas. Sin embargo, hay algunos patrones generales. Es posible que las grandes empresas ofrezcan un salario y beneficios más altos para los
+    principiantes, pero las políticas pueden limitar la forma en que aumentará su salario. Las pequeñas empresas pueden ofrecer una variedad más amplia de desafíos, ya que es
+    posible que tengas que ocupar varios puestos, pero es posible que tengan menos estabilidad y una trayectoria de avance menos predecible.
+
+Las grandes empresas pueden requerir horarios de trabajo regulares, y las empresas más pequeñas pueden requerir horarios más largos o irregulares. Las empresas más pequeñas
+    suelen tener una organización «más plana», mientras que las grandes empresas tienen canales jerárquicos más estrictos. Cada uno de estos factores es un factor a tener en
+    cuenta a la hora de buscar el puesto ideal.
+
+El desarrollo de software ha sido una de las ocupaciones de más rápido crecimiento en el mundo durante años y no muestra signos de desaceleración. Los puestos de desarrollo de
+    software suelen asociarse a las industrias de la tecnología y la información, pero la demanda empresarial de nuevo software también ha crecido exponencialmente entre muchos
+    tipos de empresas privadas y agencias públicas. Cada avance tecnológico, como la llegada de los servicios basados en la nube, requiere software nuevo y actualizaciones del
+    software más antiguo. Debido a esto, la cantidad de puestos de trabajo para desarrolladores sigue creciendo rápidamente. La Oficina de Estadísticas Laborales de los Estados
+    Unidos estima un crecimiento del 22% en los puestos de desarrollo de software en los próximos 10 años, lo que es «mucho más rápido que el promedio».
+
+El salario medio en los Estados Unidos para los desarrolladores de software es de unos 110 000 dólares, con un salario inicial de unos 62 000 dólares. Los salarios de los
+    desarrolladores de software varían mucho según la zona geográfica y el sector. Los desarrolladores de software también tienen una gran demanda en todo el mundo. Se prevé que
+    el número mundial de desarrolladores de software crezca un 75% en la próxima década, un ritmo notable para una sola profesión. En Europa, la demanda es particularmente alta
+    en el Reino Unido, Suiza y los Países Bajos. También hay una fuerte demanda en Asia, particularmente en China, Japón, Rusia , India y Corea del Sur. Canadá y Australia
+    también son mercados laborales sólidos para los desarrolladores.
+
+En este video, aprendió que: Los desarrolladores de software diseñan y crean aplicaciones y sistemas informáticos.
+La función y el estilo de trabajo de un desarrollador de software pueden variar según el tamaño de la empresa.
+Además, la demanda de desarrolladores de software en EE. UU. y en todo el mundo está aumentando en casi todos los sectores."

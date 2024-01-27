@@ -1,0 +1,81 @@
+"Bienvenido a Redacte su currículum. Después de ver este vídeo, será capaz de: Componer un currículum básico Determinar qué debe incluir en su currículum, Enumerar sus
+    habilidades y experiencia adecuadamente y con una buena organización, e identificar cómo optimizar su currículum para el seguimiento automatizado y los motores de búsqueda.
+
+En una búsqueda de empleo competitiva, necesitará promocionarse para encontrar el puesto que desea. Su currículum, junto con su portafolio, creará la primera impresión que los
+    posibles empleadores tendrán de usted. Al igual que su portafolio, su currículum debe estar cuidadosamente diseñado para mostrar sus puntos fuertes y su competencia en el
+    análisis de datos. Contrariamente a lo que mucha gente piensa, su currículum no debe ser una versión en papel de su portafolio. Su portafolio y su currículum deben estar
+    alineados para que se complementen mutuamente. Su currículum también debe estar estrechamente alineado con su perfil de LinkedIn, que debe contener la misma información.
+    Antes de hablar de los pormenores de la redacción de un currículum, le damos algunos consejos que debe recordar: Intente que su currículum sea breve. Si tiene mucha
+    experiencia relevante, dos páginas son aceptables, pero intente evitar llenar más de dos páginas. Si utiliza una lista con viñetas, éstas deben ser informativas pero
+    concisas. Utilice sistemáticamente el tiempo presente para su puesto actual y el pasado para todos los proyectos anteriores. Compruebe cuidadosamente su ortografía y
+    gramática. Si es posible, pídale a un amigo que revise su currículum. Revise dos veces su información de contacto y proporcione una dirección de correo electrónico de
+    aspecto profesional.
+
+Comience su currículum con su nombre en la parte superior y, a continuación, incluya la información básica de contacto. En los currículum modernos, no es necesario poner una
+    dirección postal, pero puede ser útil incluir una ciudad y un estado. Incluya siempre una dirección de correo electrónico. Compruebe dos veces que su dirección de correo
+    electrónico es exacta y tiene un aspecto profesional. También debe incluir un número de teléfono que funcione. Otros datos de contacto también pueden ser útiles, como la URL
+    de su sitio web o de su perfil de LinkedIn. Sin embargo, no sature el espacio con demasiada información. La mayoría de los responsables de contratación deciden en pocos
+    segundos si continúan leyendo un currículum, por lo que debe captar su atención rápidamente. Incluir una sección en la parte superior que enumere sus habilidades ayuda a
+    destacarlas.
+
+Cuando redacte un currículum básico, enumere tantas de sus habilidades como se le ocurran. Incluya cualquier software y herramienta que sepa utilizar. Luego, cuando quiera
+    presentarse a un trabajo específico, revise la descripción del puesto y elimine las habilidades que no se requieran para ese papel. Dependiendo del formato de su plantilla,
+    la sección de habilidades puede aparecer como una lista, o puede incluir una representación gráfica del nivel de dominio en cada habilidad. En este resumen superior,
+    también puede incluir una descripción de una frase sobre usted mismo y lo que busca, pero de nuevo, no abarrote demasiado la sección. La sección de experiencia laboral será
+    normalmente la parte más extensa de su currículum. Puede preceder o seguir a la sección de proyectos, dependiendo de cuál le gustaría destacar más.
+
+Los solicitantes recién salidos de la escuela también pueden destacar la sección de Educación si contiene mucha información relevante. El orden o la colocación de la información
+    también puede variar según los diseños de las plantillas. Al proporcionar información sobre su experiencia laboral, siga este patrón con sus afirmaciones:
+
+    utilice una palabra de acción, después la tarea en la que trabajó y, a continuación, el resultado en términos cuantificables si es posible.
+    Por ejemplo, "Desplegué un diseño de base de datos mejorado, que incrementó la eficiencia en un 25% y ahorró un 15% en almacenamiento." Algunas palabras de acción incluyen
+    iniciado, construido, convertido, desplegado, dirigido y diseñado. Por supuesto, se le pueden ocurrir otras. Si es nuevo en el mercado laboral, puede tener sentido incluir
+    una sección de Proyectos.
+
+
+En ella, puede enumerar proyectos que haya realizado y que podrían no encajar claramente en un puesto de trabajo. Con el tiempo, cuando tenga más experiencia laboral, esta
+    sección no será necesaria.
+
+
+Una sección de Educación destacará su historial de estudios formales. Puede incluir títulos universitarios, pero también otros logros educativos como certificados profesionales,
+    especializaciones, seminarios, etc. Introduzca su historial educativo en el siguiente formato: Tipo de logro y enfoque (como licenciatura, certificado o curso completado)
+    Nombre de la organización (como universidad, escuela o plataforma en línea) Año completado GPA, si procede, y cualquier honor que haya obtenido, si lo prefiere Si tiene
+    aficiones o intereses que sean relevantes para un trabajo en particular, estos pueden ayudar a impulsar su currículum.
+
+
+Sin embargo, si está solicitando un trabajo en el que tiene una experiencia y habilidades profesionales considerables, no son necesarios. De hecho, pueden distraer y resultar
+    excesivamente personales. Debería considerar la posibilidad de incluir aficiones e intereses en su currículum sólo cuando: Tiene una experiencia laboral y educativa limitada.
+    Tiene habilidades limitadas relacionadas con el puesto al que opta.
+
+
+Una oferta de empleo enumera responsabilidades o deberes que se alinean con sus aficiones e intereses. Otras secciones adicionales que pueden ser útiles incluyen conferencias,
+    publicaciones, premios, formación técnica y certificaciones. Inclúyalos si son relevantes para un puesto, pero no los incluya si son mero relleno.
+
+A medida que ha aumentado el número de plantillas llamativas y el software editor se hace más robusto, crear un currículum visualmente atractivo es más fácil. Sin embargo, en un
+    mundo impulsado por los datos, hay otros puntos a tener en cuenta. Además de tener un contenido relevante y un atractivo visual, su currículum debe ser fácil de encontrar
+    para el software del sistema de seguimiento de candidatos (ATS).
+
+El software ATS se utiliza mucho en los campos técnicos. Simplifica el proceso de selección de candidatos cualificados automatizando el trabajo de clasificación entre miles de
+    solicitudes de empleo. El software encuentra palabras clave y hace avanzar a los candidatos cualificados en el proceso de solicitud de empleo. Desgraciadamente, la mayoría
+    de los currículos formateados con múltiples columnas, imágenes y composiciones creativas o diseños no se leerán correctamente.
+En pocas palabras, es menos probable que el software ATS lea con precisión el ejemplo de la derecha, lo que puede llevar a que un candidato cualificado pierda la oportunidad de
+    ser tenido en cuenta. La optimización para motores de búsqueda, o SEO, es el proceso de escribir contenido web para que posicione mejor en las búsquedas web. Puede intentar
+    incorporar a su currículum elementos que favorezcan la SEO y el ATS para potenciar su capacidad de búsqueda en línea.
+
+He aquí algunos principios para que su currículum sea fácilmente leído por el software ATS y los motores de búsqueda: Asegúrese de que su información de contacto se encuentra en
+    la parte superior de la página. Utilice las palabras clave a propósito. Inclúyalas en el texto normal y no se limite a enumerarlas en algún lugar de su página. Si su
+    currículum carece de términos que los algoritmos de búsqueda están preparados para encontrar, su contenido no aparecerá en los resultados de búsqueda, pero el software ATS
+    puede detectar palabras clave colocadas fuera de contexto. Alinee sus términos con los de las ofertas de empleo. Manténgase al día con la terminología y los acrónimos
+    emergentes, y asegúrese de referirse a las habilidades o la tecnología utilizando terminología común.
+
+Proporcione enlaces relevantes y verifique periódicamente que funcionan. Evite utilizar archivos de imagen de gran tamaño en su portafolio o currículum, y añada texto
+    alternativo a cada imagen que utilice. Los usuarios y visitantes de sitios web con deficiencias visuales confían en el alt-text para entender el contenido gráfico, y esto
+    también añade palabras clave. Casi todos los programas de ATS funcionan mejor con Microsoft Word, y muchas empresas sólo aceptan currículos en este formato, por lo que
+    debería tener una versión de Microsoft Word de su currículo. Puede disponer de versiones alternativas de su currículum en muchos otros formatos, entre ellos: Gráfico Texto
+    legible Braille PDF o PDF accesible En cualquier idioma que no sea el inglés
+
+En este vídeo, ha aprendido: Su currículum es la primera impresión que causa en un empleador, por lo que es importante que sea excelente.
+Los currículos eficaces siguen las mejores prácticas en cuanto a cómo se organizan y redactan las secciones.
+El uso de software ATS y SEO es común, y su currículo debe ser fácil de escanear y encontrar para estos sistemas
+Un currículo es su herramienta de primera línea para encontrar trabajo. Dedicar algo de tiempo y esfuerzo a crear un buen currículum básico que pueda adaptar a cualquier
+    trabajo merece la pena."

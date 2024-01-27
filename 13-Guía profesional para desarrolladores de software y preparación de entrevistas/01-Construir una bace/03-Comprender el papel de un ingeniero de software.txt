@@ -1,0 +1,72 @@
+"Bienvenido a Comprender el papel de un desarrollador de software. Después de ver este vídeo, podrá: Resumir el rol y las tareas de los desarrolladores de software. Identificar
+    algunas de las principales habilidades que necesita un desarrollador de software. Y describa algunas posibles trayectorias profesionales para los desarrolladores de software.
+
+En primer lugar, un recordatorio de que, en este curso, utilizaremos los términos «desarrollador de software» e «ingeniero de software» indistintamente, aunque puedan desempeñar
+    funciones algo diferentes en una organización en particular.
+
+Ahora veamos lo que hace un desarrollador de software. Los desarrolladores de software diseñan y crean aplicaciones informáticas que permiten a los usuarios realizar tareas
+    específicas y satisfacer sus necesidades. También crean los sistemas que ejecutan los dispositivos para que las aplicaciones puedan funcionar, y el software que ejecuta las
+    redes, incluidas las redes locales y las redes muy grandes, como los servicios en la nube.
+
+Más detalladamente, las tareas y deberes de los desarrolladores de software incluyen las siguientes: analizar las necesidades de los usuarios y, a continuación, planificar y
+    crear software que satisfaga esas necesidades. Diseñar cada parte de una aplicación o sistema y planificar cómo funcionarán juntas. Crear modelos y diagramas que muestren
+    cómo funcionará el código de la aplicación. Modificar y mejorar el código durante todo el proceso de revisión y prueba del software.
+Recomendar actualizaciones de software para los programas y sistemas existentes de los clientes. Y documentar todos los aspectos de una aplicación o sistema como referencia para
+    futuras actualizaciones y mantenimientos.
+
+Los desarrolladores de software trabajan en estrecha colaboración con otros profesionales de un equipo de desarrollo. Los roles pueden superponerse y combinarse para brindar
+    diferentes oportunidades, por lo que es útil echar un vistazo rápido a todo el equipo. Como has visto, los desarrolladores de software planifican y crean software, tanto
+    para aplicaciones como para sistemas. Resuelven problemas técnicos y calculan el tiempo que llevará crear el código.
+
+Los diseñadores de experiencia de usuario (o UX) y de interfaz de usuario (o UI) planifican y crean la apariencia del software y la forma en que el usuario interactuará con él.
+Son responsables de hacer que el software sea intuitivo y fácil de usar, lo que incluye abordar importantes problemas de accesibilidad.
+
+Los ingenieros de control de calidad (o QA) y de pruebas prueban un nuevo software para asegurarse de que funciona según lo esperado. Trabajan para encontrar todos los puntos
+    débiles o errores para poder eliminarlos antes de que se publique el software.
+
+El director del proyecto coordina al equipo y hace un seguimiento del cronograma, asegurándose de que el equipo cumpla sus objetivos e hitos. También se aseguran de que todos
+    dispongan de los recursos necesarios y tratan de resolver los obstáculos que surjan. Por lo general, el equipo también incluye a otras personas.
+
+Otros miembros importantes del equipo son los analistas empresariales, que traducen las necesidades empresariales en requisitos de software, el propietario del producto, que
+    tiene en cuenta la visión general del software, y el equipo de documentación, que redacta los archivos de ayuda y demás documentación del software.
+
+Una buena base para una carrera en el campo del desarrollo de software es, naturalmente , una licenciatura en informática y tecnología de la información. Centrarse en el
+    desarrollo es una buena opción, aunque algunos estudiantes deciden cursar especializaciones como la ingeniería o el aprendizaje automático o un campo relacionado, como las
+    matemáticas.
+
+Muchos empleadores prefieren candidatos que cuenten con certificaciones en habilidades o herramientas de software específicas. Esto demuestra que tiene un conocimiento centrado
+    en esas áreas. Muchas grandes organizaciones, como Microsoft, Oracle, Cloudera e IBM, ofrecen clases que pueden ayudarle a obtener certificaciones. Considerar la posibilidad
+    de obtener un título avanzado puede ser un buen cambio profesional. Muchos empleadores prefieren desarrolladores con más formación, lo que sienta las bases para el progreso.
+
+También son útiles los conocimientos y habilidades específicos del dominio en el campo en el que desea ingresar. Por ejemplo, si te interesan los campos de la medicina, algunos
+    conocimientos sobre los métodos de investigación, la biología, etc., te convertirán en un candidato más fuerte. Mientras estudies, considera la posibilidad de trabajar en
+    una pasantía. La experiencia que adquieras será valiosa en tu búsqueda de empleo más adelante.
+
+¿Qué herramientas tienen una gran demanda entre los desarrolladores de software? En gran medida, esto depende de la empresa o el campo en el que quieras trabajar. Sin embargo,
+    una persona que se esté iniciando en este campo podría querer desarrollar estas habilidades, que son muy solicitadas: lenguajes, en particular JavaScript, Java, Python, C# y
+    C++. Conocimientos de informática en la nube, como Amazon Web Services (o AWS), Google Cloud Platform (o GCP) y Microsoft Azure. Uso de contenedores con herramientas como
+    Docker y Kubernetes. Y un entorno de desarrollo integrado como Eclipse o Jupyter Notebook. Además, considera la posibilidad de aprender a usar Git. Git es una herramienta
+    popular para el control de versiones y el almacenamiento de archivos. Se usa en muchas organizaciones para coordinar el trabajo entre los equipos de desarrollo de software.
+
+Git también es un lugar excelente para almacenar tus propios proyectos y desarrollar tu cartera.
+
+Además de las habilidades técnicas, los desarrolladores de software necesitan una serie de habilidades interpersonales importantes: habilidades de comunicación y presentación
+    para poder transmitir de manera efectiva los planes de software. Habilidades de pensamiento crítico para poder analizar y resolver los problemas que surjan. Habilidades de
+    pensamiento creativo para desarrollar formas innovadoras de abordar la satisfacción de las necesidades empresariales y de los usuarios. La capacidad de explicar ideas
+    mediante el uso de una historia que la empresa pueda entender y aplicar a sus objetivos. Un enfoque colaborativo porque siempre trabajarán con profesionales de datos para
+    crear y lanzar software. Y diligencia y tenacidad para ceñirse a los proyectos y llevarlos a cabo cuando se vuelven complejos o ocurre algo inesperado.
+
+Desde el principio o a medida que adquiera experiencia, puede avanzar en su carrera en varias direcciones diferentes. Dependiendo de tus objetivos e intereses, puedes
+    convertirte en especialista en algún aspecto del desarrollo de software, como la inteligencia artificial o los juegos.
+
+Para convertirte en un arquitecto de software de alto nivel, podrías mejorar tus habilidades de arquitectura y diseño. Si te interesan los negocios, podrías convertirte en
+    gerente de un equipo de desarrollo o departamento de TI. Si le interesan los conocimientos de un sector o dominio específicos y desea flexibilidad, también podría considerar
+    la posibilidad de dedicarse a la actividad empresarial como consultor.
+
+Estas son solo algunas de las opciones que tiene a su disposición en un sector muy amplio.
+
+En este vídeo aprendiste que: Los desarrolladores de software trabajan en equipo para diseñar y crear software y sistemas para ordenadores.
+Una carrera en el campo del desarrollo de software requiere conocimientos especializados y habilidades técnicas.
+Además, los desarrolladores de software pueden seguir varias posibles trayectorias profesionales a medida que avanzan.
+El desarrollo de software es una de las profesiones de más rápido crecimiento en el mundo actual, por lo que si te propones entrar en este campo, el cielo es el límite de lo que
+    puedes llegar."

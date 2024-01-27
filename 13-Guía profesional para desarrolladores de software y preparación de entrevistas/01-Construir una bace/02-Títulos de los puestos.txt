@@ -1,0 +1,22 @@
+"El puesto de ingeniero de software puede tener muchos títulos aplicados. Esto puede variar de una empresa a otra y, aunque las funciones pueden definirse de forma ligeramente
+    diferente, suelen conllevar un conjunto similar de tareas y responsabilidades. 
+
+Algunos de estos títulos incluyen: 
+
+    Ingeniero de software 
+
+    Desarrollador de software 
+
+    Desarrollador Full-Stack 
+
+    Desarrollador 
+
+    Programador 
+
+    Programador 
+
+Algunas empresas utilizan términos más extravagantes, como "Jardinero del software" o "Artesano del software" En general, es aconsejable leer las descripciones de los puestos
+    para entenderlos, en lugar de fiarse del título. 
+
+En este curso, utilizaremos los títulos "Ingeniero de Software", "Desarrollador de Software" y "Desarrollador Full-Stack" indistintamente para simplificar, aunque entendemos
+    que pueden ser ligeramente diferentes en la práctica o en una empresa concreta. "

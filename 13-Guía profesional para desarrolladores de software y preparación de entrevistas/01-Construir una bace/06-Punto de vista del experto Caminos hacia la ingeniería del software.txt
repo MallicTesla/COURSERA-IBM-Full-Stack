@@ -1,0 +1,26 @@
+"Bienvenido a Expert Viewpoints: Caminos hacia la ingeniería de software En este vídeo, conocerás a varios profesionales de la ingeniería de software que comparten cómo
+    comenzaron sus carreras.
+
+Me convertí en ingeniero de software en 2020 durante la pandemia. Umm, incluso antes de pensar que se produciría una pandemia, ya había pensado en dedicarme a la ingeniería de
+    software. Y la forma en que decidí hacerlo fue inscribirme en campamentos de entrenamiento de programación, así que en 2020, me inscribí en el programa de programación
+    Grace Hopper. Me gradué en diciembre y abril de 2020, y a finales de abril de 2021 firmé mi oferta oficial de trabajo en Thought works, donde me encuentro actualmente.
+
+Empecé a aprender a programar cuando estaba en décimo grado y el primer lenguaje de programación que usé fue Java. Al crecer, siempre supe que quería hacer algo con las
+    computadoras, pero aprender a programar realmente me abrió nuevas puertas. Para mí, después del instituto, (3) fui a la universidad para especializarme en ingeniería de
+    software, y algo que me pareció un poco interesante del plan de estudios de la escuela a la que elegí ir fue que enseñaba muchos lenguajes de programación diferentes, y me
+    gustó porque me permitió experimentar con diferentes lenguajes y ver allí, pero una cosa en la que no era tan fuerte era en usar esos lenguajes para crear proyectos
+    cohesivos que me prepararan para después de graduarse y conseguir un trabajo. Y creo que ahí es donde entra en juego la parte no tradicional de mi carrera. Hasta ahora,
+    mucha gente va a la universidad e inmediatamente se dedica a la ingeniería de software. Pero ese no fue exactamente mi caso. Así que después de la universidad, como en
+    realidad no tenía muchos proyectos tangibles, me resultó un poco difícil conseguir un trabajo en ingeniería de software, y lo que acabé haciendo fue asistir a un campamento
+    de entrenamiento de programación. Y este campamento de entrenamiento de programación fue realmente una gran experiencia para mí, ya que me permitió perfeccionar un conjunto
+    de habilidades muy específicas, y en este campamento de entrenamiento de programación, aprendí desarrollo web integral. Además, este campamento de programación resultó un
+    poco interesante y más único que otros porque, al final, colaboraron con diferentes empresas para ayudar a sus graduados a conseguir su primer puesto. Y eso es exactamente
+    lo que me pasó a mí, y así conseguí mi primer puesto como desarrollador web integral.
+
+Empecé mi carrera en la escuela haciendo cooperativas y tuve algunas de ellas. El último funcionó muy bien en una empresa, y me esforcé mucho y lo convertí en un trabajo a
+    tiempo completo como desarrollador de software junior. El primer avance en mi carrera se produjo alrededor de 2005. Estaba en Irlanda en ese momento y quería mudarme a
+    Canadá porque mi esposa es de Canadá. Y también quería trabajar para una gran empresa como IBM para desarrollar realmente mis habilidades como desarrollador. Y, como
+    resultado, adopté un par de enfoques. El primero fue especializarme en algo nuevo, emergente y que no mucha gente tenía grandes habilidades en ello, que es una tecnología
+    llamada Ruby on Rails. Y, um, a finales de 2004 y principios de 2005, muy pocas personas tenían conocimientos sobre esa tecnología en particular. Así que me sumergí
+    profundamente e intenté ser lo más competente posible, especializándome. También creé un blog, un blog técnico, en el que comentaba mi deseo de mudarme a Canadá y trabajar
+    para una gran empresa como desarrollador, idealmente usando Ruby on Rails. Así es como me encontró mi actual gerente, y el resto es historia."
