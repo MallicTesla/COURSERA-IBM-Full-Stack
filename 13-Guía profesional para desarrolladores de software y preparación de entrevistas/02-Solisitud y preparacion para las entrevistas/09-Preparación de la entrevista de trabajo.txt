@@ -1,0 +1,29 @@
+"Bienvenido a Expert Viewpoints: Job Interview Prep. En este vídeo, sus expertos compartirán sus ideas y recomendaciones, que describen las medidas más importantes que puede
+    tomar para prepararse para las entrevistas de trabajo de ingeniería de software.
+
+La preparación para una entrevista es clave. Como entrevistador, es muy obvio que alguien no esté preparado. No me refiero a leer «Guerra y paz» e investigar absolutamente todo
+    lo relacionado con la empresa y la persona, sino al menos echar un vistazo al perfil de LinkedIn de la persona que te está entrevistando. Echa un vistazo a algunas de las
+    últimas notas de prensa. Tal vez un informe de la empresa y venga con algunas preguntas y criterios relevantes para hacerle también a la empresa. En cuanto a la preparación
+    de estas entrevistas, dado que sabemos que puede ser un proceso largo, el mejor consejo que puedo dar a cualquier persona que vaya a ir a una entrevista es que estudie,
+    estudie, estudie.
+
+Ahora bien, esto no es solo algo que le diría a un nuevo desarrollador o ingeniero. Esto es algo que tenemos que hacer muchos de los que llevamos trabajando un tiempo. El
+    proceso de entrevista es muy riguroso y, a veces, puede ser diferente de lo que realmente hacemos en nuestro trabajo diario. No puedo sentarme aquí y decirles que uso todo
+    tipo de algoritmos todos los días en el trabajo. Así que cuando llega el momento de postularme para un puesto, es algo que tengo que estudiar intencionadamente. Así como
+    estarías estudiando haciendo esas preguntas de HackerRank o LeetCode, o esas preguntas de resolución de problemas en las que usas código para resolver un problema específico,
+    yo estaría haciendo exactamente lo mismo. Algo que me gusta hacer es crear un plan de estudios para mí. Y una vez que sepa qué tipo de puesto voy a ocupar y cómo podría ser
+    el proceso de entrevista, me aseguro de estar al día con todas mis estructuras de datos y algoritmos y de poder resolver esos diferentes tipos de problemas.
+
+Pero no solo poder resolver esos problemas, porque puede haber algún caso en el que me quede un poco atascado. También es una habilidad importante poder hablar de tu problema en
+    voz alta. Esto es algo que puedes practicar en casa cuando tengas problemas con tan solo hablar sobre el problema. De esa forma, si en una entrevista llegas a un punto en el
+    que podrías quedarte atascado o necesitar un poco de ayuda, al menos el entrevistador sabrá dónde estás pensando. No querrás permanecer en silencio en una entrevista
+    mientras trabajas. Debes explicarte cómo ir del punto A al punto B. Muchas veces, las personas son amables, por lo que pueden ofrecerte un poco de ayuda y, si pueden
+    escuchar tu proceso de pensamiento, te ofrecerán ayuda. Al menos pueden escuchar cómo lo estás procesando y tus pasos para seguir adelante, incluso si no obtienes una
+    respuesta al 100% a esa pregunta. Creo que trabajar en ello todos los días, o al menos de forma constante, es mucho mejor que resolver cinco desafíos en un día y luego un
+    desafío la semana siguiente y no tener nada en cuenta.
+
+Gran parte de la preparación de esta entrevista de programación para el estudio tiene que ver con la coherencia. Y de tenerlo delante de ti todo el tiempo para que te
+    acostumbres a ver este tipo de preguntas, ansiedad durante las entrevistas y algo que no sea broma y a lo que se enfrente mucha gente, pero al menos te acostumbras al estilo
+    de preguntas que te pueden hacer o incluso a que alguien te haga preguntas en voz alta , aunque no sean técnicas, y simplemente practicar cómo vas a transmitir cosas que
+    sabes. ¿Cómo vas a hablar de los proyectos que has creado? ¿Cómo vas a hablar del impacto que has tenido en los equipos en los que has trabajado? ¿Cómo vas a poder hablar de
+    estas tecnologías? Se trata de estudiar y practicar, y la práctica hace progresar."

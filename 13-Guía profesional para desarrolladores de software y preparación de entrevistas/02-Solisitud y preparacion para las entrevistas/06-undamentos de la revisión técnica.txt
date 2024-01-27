@@ -1,0 +1,149 @@
+"Bienvenido a Technical Review Fundamentals. Después de ver este vídeo, podrá: resumir los conceptos técnicos básicos, definir términos técnicos fundamentales y prepararse para
+    las entrevistas de trabajo y los exámenes técnicos.
+
+Antes de ingresar al mercado laboral, es una buena idea consolidar sus habilidades tanto como sea posible. También es importante que entiendas tus limitaciones. Esta es una
+    breve descripción de algunas habilidades y conceptos fundamentales que sería útil que conocieras cuando busques un puesto de desarrollo de software. Utilízalo para revisar
+    los conceptos técnicos básicos. Si algunos de ellos no te son familiares o no estás seguro de cuáles son tus conocimientos, tal vez quieras estudiarlos más a fondo para
+    consolidar tus habilidades y convertirte en un candidato más fuerte. También puedes determinar dónde te gustaría ampliar tus conocimientos. La ingeniería de software se
+    ocupa de todos los aspectos de la producción de software, desde las primeras etapas de la especificación del sistema hasta el mantenimiento del sistema cuando está en uso.
+
+Más allá del proceso de desarrollo y producción, incluye la gestión de proyectos y el desarrollo de herramientas, métodos, etc., para apoyar la producción de software. Como
+    disciplina de ingeniería, utiliza teorías y métodos apropiados para resolver problemas dentro de las limitaciones organizativas y financieras. Cualquier proceso de software
+    incluye tres tipos de actividades: la especificación del software, en la que los clientes e ingenieros definen el software que se va a producir y las limitaciones para su
+    funcionamiento.
+
+
+Desarrollo de software, en el que el software es diseñado y programado por desarrolladores e ingenieros. Pruebas de software, en las que se comprueba el software para garantizar
+    que es lo que el cliente necesita. Los ingenieros pueden participar si es necesario un rediseño.
+
+
+La codificación es el proceso de escribir programas de computadora. Esencialmente, la codificación traduce las ideas de un algoritmo al lenguaje informático. Estos son algunos
+    conceptos básicos de codificación.
+
+
+Una matriz es una estructura de datos que consiste en una colección de valores o variables, cada uno identificado por al menos una clave o índice de matriz. Según el idioma, los
+    tipos de matrices pueden superponerse a otros tipos de datos que describen agregados de valores, como listas y cadenas.
+
+
+En un bucle, que también se denomina iteración, se ejecuta una sentencia o un bloque hasta que el programa alcanza un estado determinado o hasta que las operaciones se aplican a
+    todos los elementos de una colección. Por lo general, esto se expresa con palabras clave como while, repeat, for o do-until.
+
+
+Un tipo de datos es una clasificación de datos que indica cómo el programador pretende utilizar los datos. La mayoría de los lenguajes de programación admiten varios tipos de
+    datos, incluidos enteros, reales, de caracteres o cadenas y booleanos.
+
+
+Las operaciones aritméticas básicas son la suma, la resta, la multiplicación y la división. La aritmética se realiza de acuerdo con un orden de operaciones.
+
+
+El ámbito de la vinculación de un nombre de identificador es la asociación de un nombre a una entidad, como una variable. Es la región de un programa informático en la que el
+    enlace es válido, es decir, en la que el nombre se puede utilizar para hacer referencia a la entidad. Dicha región se denomina bloque de ámbito.
+
+
+Los lenguajes de programación simplifican la entrega de instrucciones a la CPU. La CPU solo entiende las instrucciones en lenguaje de máquina, que son muy difíciles de escribir
+    para las personas. Los lenguajes de alto nivel son más fáciles de usar para las personas, por lo que los programas que están escritos en un lenguaje de alto nivel se
+    traducen al lenguaje de máquina mediante un compilador o un intérprete. De este modo, la programación es más fácil para los desarrolladores y los programas de aprendizaje
+    automático pueden ejecutarse en cualquier momento que sea necesario.
+
+
+La historia de los lenguajes de programación se remonta a la década de 1950.
+    FORTRAN, el primer lenguaje de programación de alto nivel, se diseñó para realizar cálculos matemáticos complejos.
+
+    COBOL se diseñó casi al mismo tiempo para aplicaciones empresariales.
+
+    BASIC es un lenguaje de uso general de principios de la década de 1960 que se diseñó para que fuera lo suficientemente simple como para que los principiantes lo aprendieran.
+
+    C y C++ son potentes lenguajes de uso general desarrollados en los Laboratorios Bell en la década de 1970.
+
+    Microsoft creó C# alrededor del año 2000 para desarrollar aplicaciones basadas en la plataforma Microsoft .NET.
+
+    Java fue creado por Sun Microsystems a principios de la década de 1990. Se puede usar para desarrollar programas que se ejecuten en una sola computadora o a través de
+        Internet desde un servidor web.
+
+    JavaScript es un lenguaje de programación relacionado un poco más tarde que solo se puede ejecutar en navegadores.
+
+    Python es un popular lenguaje de uso general creado a principios de la década de 1990 que se usa en una amplia variedad de aplicaciones.
+
+    Ruby, otro lenguaje de uso general de la década de 1990, es popular para los programas que se ejecutan en servidores web.
+
+
+El conocimiento sobre redes y redes es fundamental para el desarrollo de software moderno. Estos son algunos conceptos importantes de redes. Los tipos de redes más comunes se
+    definen en términos de área geográfica. Desde las más pequeñas hasta las más grandes, son las siguientes: redes de área personal (PAN), redes de área local (LAN), redes de
+    área metropolitana (MAN) y redes de área extensa (WAN).
+
+Un protocolo de red es un conjunto establecido de reglas que determinan cómo se transmiten los datos entre los diferentes dispositivos de la misma red. Estas reglas ayudan a
+    indicar a los equipos de la red cómo gestionar la información que reciben. Algunas de las más comunes son:
+    
+    SMTP y POP3, que se utilizan para proporcionar servicios de correo electrónico,
+    HTTP, un protocolo que se utiliza para entregar contenido web en los navegadores
+    DNS, que se utiliza en la traducción de nombres de dominio
+    (SNMP), un protocolo de administración de redes,
+    DHCP, que se utiliza para asignar direcciones IP a los dispositivos de red de forma automática. Las direcciones IP permiten que los dispositivos se encuentren fácilmente
+        entre sí sin importar en qué parte del mundo se encuentren.
+
+Su formato ha evolucionado a medida que Internet ha crecido. IPv4 es un formato de dirección de cuatro bytes que se ha utilizado durante décadas y que sigue siendo utilizado por
+    la mayoría de las organizaciones conectadas a Internet. El esquema de direccionamiento IP más reciente, IPv6, usa una dirección de seis bytes para poder direccionar muchos
+    más dispositivos en Internet.
+
+
+La programación orientada a objetos, o POO, es un estilo de programación basado en el concepto de «objetos «, estructuras de datos que se pueden utilizar dentro del programa.
+Los objetos pueden contener datos en forma de campos y código en forma de procedimientos. Los procedimientos se adjuntan a los objetos y pueden acceder a los campos de datos del
+    objeto y modificarlos. La programación orientada a objetos puede modelar sistemas complicados del mundo real para convertirlos en soluciones de software manejables. Las
+    ideas básicas de la programación orientada a objetos se pueden entender en términos de cuatro fundamentos.
+    En abstracto, el programador trata de asegurarse de que la entidad incluya todos los aspectos relevantes y no los superfluos.
+    Su objetivo principal es gestionar la complejidad ocultando al usuario detalles innecesarios.
+    Esto permite al usuario implementar una lógica más compleja además de la abstracción sin entender ni siquiera pensar en toda la complejidad oculta.
+
+La encapsulación se refiere a agrupar datos con los métodos que operan en esos datos. La encapsulación se usa para ocultar los valores o el estado de un objeto de datos
+    estructurados dentro de una clase, lo que evita que personas no autorizadas accedan directamente a ellos.
+
+Al igual que la abstracción, proporciona una apariencia de simplicidad que promueve una programación eficiente y eficaz.
+
+La herencia consiste en basar un objeto o una clase en otro objeto o clase, conservando una implementación similar.
+
+En la mayoría de los lenguajes orientados a objetos basados en clases, un objeto creado mediante herencia, conocido como «objeto secundario», adquiere todas las propiedades y
+    comportamientos del elemento principal, con algunas excepciones bien definidas.
+
+El polimorfismo proporciona una interfaz única para entidades de diferentes tipos que pueden compartir algunas características. Por ejemplo, si un profesor y un alumno son a la
+    vez un mismo tipo de persona, podemos escribir una función que acepte un parámetro del tipo «Persona» y hacer que funcione tanto en los objetos del profesor como del alumno,
+    ya que ambos heredan del objeto principal Person.
+
+
+El lenguaje de consultas estructurado (SQL) es uno de los componentes fundamentales de la arquitectura de bases de datos moderna. SQL define los métodos utilizados para crear y
+    manipular bases de datos relacionales en las principales plataformas.
+
+
+La normalización es una técnica de diseño de bases de datos que reduce la redundancia de los datos y elimina las características no deseadas, como las anomalías de inserción,
+    actualización y eliminación.
+
+Las reglas de normalización dividen las tablas más grandes en tablas más pequeñas y las vinculan mediante relaciones. El propósito de la normalización en SQL es eliminar los
+    datos redundantes y garantizar que los datos se almacenen de forma lógica. Los comandos SQL se pueden dividir en dos sublenguajes principales. El lenguaje de definición de
+    datos contiene los comandos que se utilizan para crear y destruir bases de datos y objetos de bases de datos. Una vez definida la estructura de la base de datos con el DDL,
+    los administradores y usuarios de la base de datos pueden utilizar el lenguaje de manipulación de datos para insertar, recuperar y modificar los datos que contiene. Una
+    instrucción de combinación combina datos en varias tablas para procesar de manera eficiente grandes cantidades de datos. Hay cinco tipos de unión: uniones internas, juntas
+    externas, uniones derechas, uniones izquierdas y uniones cruzadas.
+
+
+El término «computación en la nube» se refiere a varias formas de infraestructura de TI virtualizada. En otras palabras, la nube proporciona recursos informáticos ampliados y
+    virtualizados que están disponibles en cualquier lugar, aunque se ejecuten en componentes físicos que se almacenan en las instalaciones o en el centro de datos de un
+    proveedor. De esta forma, los servidores, el software del sistema operativo, las redes y otras infraestructuras se pueden agrupar y dividir sin tener en cuenta los límites
+    del hardware físico.
+
+Hay tres tipos de modelos de servicios en la nube. Cada tipo de computación en la nube proporciona diferentes niveles de control, flexibilidad y administración para que pueda
+    seleccionar el conjunto de servicios adecuado para sus necesidades.
+    La infraestructura como servicio, o IaaS, es el tipo de servicio en la nube más flexible y le brinda un control total sobre el hardware que ejecuta la aplicación.
+    La plataforma como servicio, o PaaS, proporciona un entorno de desarrollo listo para usar en el que los desarrolladores pueden centrarse en escribir y ejecutar código para
+        crear aplicaciones personalizadas.
+    Además, el software como servicio, o SaaS, le proporciona un producto completo que el proveedor de servicios ejecuta y administra en su totalidad.
+
+También hay tres tipos de modelos de implementación en la nube. Cada uno se define en función de la ubicación de la infraestructura del entorno.
+    En un modelo de nube pública, los clientes almacenan y alojan sus aplicaciones, archivos, datos y otros recursos en un servidor virtual. Estos servicios están disponibles
+        para el público en general y se comparten entre varios clientes a través de un proveedor de servicios.
+    Los servicios de nube pública son gratuitos o se ofrecen con un modelo de precios de pago por uso.
+    Una nube privada ofrece un entorno propietario dedicado a una sola empresa u organización.
+    El modelo de nube híbrida combina soluciones en la nube para que el suscriptor pueda usar la que sea mejor para cualquier situación.
+
+
+En este vídeo, aprendió: información básica sobre temas técnicos como la codificación, los idiomas, las redes, la programación orientada a objetos, SQL y la computación en la
+    nube.
+Y que es importante revisar y fortalecer estos conocimientos para ser un candidato más fuerte en el mercado laboral técnico."

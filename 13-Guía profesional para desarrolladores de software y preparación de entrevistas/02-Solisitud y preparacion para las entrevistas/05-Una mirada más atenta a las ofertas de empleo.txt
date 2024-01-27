@@ -1,0 +1,36 @@
+"Bienvenido a Puntos de vista de expertos: Una mirada más de cerca a las listas de empleo. En este vídeo, aprenderá cómo los responsables de contratación crean las listas de
+    empleo y obtendrá consejos útiles para evaluarlas.
+
+Escribo ofertas de empleo para mi equipo y puedo decirle que, en términos generales, intento evitar hacer una lista de lavandería de las habilidades que quiero de un candidato,
+    porque eso sólo ahuyentará a la mayoría de los candidatos, por lo que acabará con un grupo muy restringido de candidatos demasiado confiados, y en cambio no es una buena
+    forma de seleccionar a la mejor persona para el puesto.
+
+Creo que, en general, es mejor intentar captar el espíritu de el tipo de candidato que quiere. El tipo de desarrolladores que quiere, haga una lista muy corta de las habilidades
+    que realmente necesitan tener, en lugar de una gran lista de deseos. Y mi consejo para los candidatos es que no tengan miedo de presentar su candidatura aunque el puesto de
+    trabajo tenga muchas tecnologías con las que no estén familiarizados. Si tienes tres o cuatro habilidades de las 10 que exigen que te presentes porque la mayoría de los
+    candidatos que se presenten tampoco tendrán todas las habilidades.
+
+Creo que es muy importante para mí, en términos de diversidad e inclusión, no asustar a los candidatos con una lista enorme de habilidades técnicas porque me parece que para la
+    gente que lleva toda su vida reforzando la idea de que sí puedes ser desarrollador, lo vas a hacer genial. Los primeros pueden tener un poco más de confianza en algunos
+    candidatos son excelentes que serán perfectos para el trabajo, que en cierto modo dudaron de sí mismos todo el tiempo porque no tenían mucha representación en la industria y
+    entonces les muestras esta enorme lista de habilidades y nadie las tiene y pueden sentirse desanimados a la hora de presentar su candidatura. Así que quiero evitar eso y por
+    eso he intentado centrarme en que la sección de habilidades requeridas sea muy corta.
+
+Y también quiero asegurarme de que en la publicación de empleo no sólo digo lo que quiero del candidato, sino que también les digo lo que ofrecemos. ¿Qué podemos hacer para
+    conseguir ese tipo de experiencia? ¿Les damos cómo? ¿Crecerán como desarrolladores si consiguen este puesto para que se entusiasmen con el trabajo? Si la oferta de trabajo a
+    la que se presenta enumera demasiadas tecnologías eso es un poco una señal de alarma para usted. Entonces, puede que no sea el jo ideal, para usted. Creo que podría
+    convertirse en un tipo de entorno que espera demasiado de usted y que no es realista en cuanto a lo que realmente quieren.
+
+Obviamente, si lo típico es enumerar una tecnología que es totalmente nueva y pedir cinco años por ella, eso le dirá que la persona que escribió esa oferta de empleo
+    probablemente no es la persona que le contratará, o si lo es, no es muy competente. Así que yo probablemente no solicitaría el puesto o lo solicitaría con mucha cautela,
+    porque no va a ser una gran experiencia durante la entrevista y luego sospecharía que no va a ser una gran experiencia una vez que consiga el trabajo.
+
+Es una habilidad y un arte excelente. Es tan difícil para nosotros escribirlo como para usted leerlo, porque se puede perder mucho en la traducción. Tanto puede perderse en las
+    secciones y los módulos de anuncios que escribimos. Lo más importante es fijarse en las competencias del anuncio. Digamos que se trata del puesto de desarrollador Java. Si
+    no tiene experiencia en Java, le resultará difícil.
+
+Si va para un puesto de consultor de ventas y ha vendido nube, pero quizá no AWS Azure, o un tipo concreto de nube, eso es algo que podría aprenderse, así que piense si las
+    habilidades son transferibles . Y piense en cuántas de las habilidades esenciales reúne. Las habilidades deseables, las habilidades preferidas, las habilidades
+    complementarias, así es como a menudo los reclutadores ayudan a acotar a sus candidatos perfectos, así que no lo considere como una lista grande y larga. ¿Correcto? Piense
+    en si tiene las habilidades? ¿Tiene los atributos pero también, le parece interesante? ¿Es algo que quiere hacer? No sólo puede hacerlo, porque "el querer" será cuestionado y
+    desafiado, y trataremos de averiguarlo durante el proceso de entrevista."

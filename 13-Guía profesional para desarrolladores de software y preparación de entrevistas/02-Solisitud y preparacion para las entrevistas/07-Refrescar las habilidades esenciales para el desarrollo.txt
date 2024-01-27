@@ -1,0 +1,89 @@
+"Bienvenido a Refrescar las habilidades esenciales de desarrollo. Después de ver este vídeo, usted será capaz de: Resumir los conceptos básicos en el desarrollo de software,
+    Definir algunos términos fundamentales de desarrollo de software, Y determinar si se necesita más estudio o revisión.
+
+Los cursos de IBM en Coursera relacionados con el desarrollo de software cubren muchos temas que usted debe aprender si quiere ser un candidato más fuerte para puestos de
+    desarrollador. Estas habilidades también serán útiles en su carrera después de conseguir un trabajo. Este será un breve repaso de este contenido para comprobar su
+    comprensión. Si necesita una comprensión más sólida de estos temas, por favor considere tomar o repasar estos cursos.
+
+Los desarrolladores front-end trabajan en las partes del sitio web o aplicación que el usuario ve y con las que interactúa. Los desarrolladores back-end trabajan en la lógica y
+    funcionalidad que mantiene el sitio web o aplicación ejecutándose y respondiendo a las entradas de los usuarios. Los desarrolladores de pila completa tienen ambos conjuntos
+    de habilidades.
+
+Los lenguajes comunes para el desarrollo front-end incluyen HTML, CSS, JavaScript y React. Los lenguajes y marcos comunes para el desarrollo back-end incluyen Python, Django y
+    Flask. Los marcos y bibliotecas amplían la funcionalidad de ambos tipos de lenguaje de codificación, incluyendo JavaScript y Python.
+
+HTML proporciona la estructura básica y el contenido para un sitio web utilizando etiquetas.
+CSS proporciona un estilo y un diseño coherentes en todo el sitio web que puede editarse desde un solo lugar sin cambiar cada página.
+Scripting proporciona una experiencia más interactiva cuando un usuario navega por un sitio web.
+
+HTML utiliza API para mejorar la experiencia del usuario, proporcionando funciones avanzadas de animación, audio y vídeo. El árbol DOM de HTML describe cómo se estructura un
+    sitio web.
+
+JavaScript es un lenguaje de scripting que permite a los desarrolladores añadir contenido dinámico a las páginas web. JavaScript crea scripts del lado del cliente, que son
+    programas que acompañan a los documentos HTML y que los desarrolladores utilizan para incorporar más elementos interactivos. Se ejecutan en los navegadores, por lo que
+    JavaScript no depende de los recursos del servidor. Los desarrolladores pueden acceder a los elementos HTML DOM desde los scripts JavaScript utilizando la notación DOM
+    correcta. Las variables de JavaScript se declaran utilizando la palabra clave var y toman su tipo del valor asignado. La ejecución del programa se controla mediante
+    sentencias como If...Then...Else, Switch, bucles For, y bucles While. JavaScript se adhiere a ECMAScript 6 (ES6), un moderno estándar de lenguaje destinado a garantizar la
+    interoperabilidad de los sitios web.
+
+
+El control de versiones distribuido realiza un seguimiento de los cambios en el código y otros documentos, independientemente de dónde se almacenen. Los repositorios son
+    estructuras de almacenamiento que guardan código, realizan un seguimiento de las incidencias y permiten colaborar con otras personas en un proyecto. Los repositorios pueden
+    clonarse para que sea posible trabajar localmente, y luego sincronizar los cambios de nuevo con el original una vez que el código ha sido terminado y refinado. Los
+    repositorios pueden bifurcarse para ser utilizados como base de un nuevo proyecto o para que el desarrollador pueda trabajar de forma independiente.
+    Las ramas se utilizan para aislar los cambios en el código y también pueden fusionarse de nuevo en la rama maestra. Una rama es una parte nueva de un árbol de proyecto
+    existente, mientras que un fork es una copia completa del repositorio. Una copia clonada mantiene la conexión con el repositorio original, mientras que una bifurcación es
+    una copia independiente completamente nueva.
+
+
+Los proyectos grandes pueden hacer uso de roles que se asignan a los participantes. Algunos roles pueden incluir desarrolladores, que crean código; integradores' que gestionan
+    los cambios realizados por los desarrolladores; y un administrador del repositorio, que configura y mantiene el acceso al repositorio. Los administradores pueden utilizar
+    roles para controlar los derechos y el acceso que tiene cada colaborador, lo que mantiene la seguridad del proyecto.
+
+
+Los marcos de trabajo de front-end como React están disponibles a través de bibliotecas de código abierto que puede utilizar para crear aplicaciones que se ejecutan en el
+    navegador. React utiliza un lenguaje de marcado especial llamado JSX. React gestiona el estado interno de la aplicación mediante estados y props. Los dos tipos de
+    componentes de React son funcionales y de clase. Otros marcos de trabajo de front-end son Angular y Vue.
+
+
+Node.js es un marco de programación del lado del servidor para desarrolladores que desean construir aplicaciones de servidor escalables, concurrentes rápidamente con un conjunto
+    mínimo de herramientas. Con JavaScript del lado del servidor, las aplicaciones Node.js procesan y enrutan las solicitudes de servicios web desde el cliente. Con Node.js,
+    usted escribe funciones de devolución de llamada asíncronas para manejar los resultados cuando están completos. El tiempo de ejecución de Node.js está empaquetado con muchos
+    módulos de utilidad que puede utilizar para crear y ampliar sus aplicaciones. Un paquete Node.js se compone de uno o más módulos. Los desarrolladores confían en paquetes de
+    terceros para ampliar Node.js. Puede utilizar la aplicación npm para gestionar paquetes Node.js en su instalación del framework Node.js. Express es un framework back-end que
+    funciona con Node.js para abstraer detalles de bajo nivel.
+
+
+El middleware se presenta en varios tipos. Algunos de ellos son a nivel de aplicación, a nivel de enrutador, de gestión de errores, middleware integrado y de terceros. La
+    informática en la nube es la entrega de recursos informáticos a la carta a través de Internet sobre una base de pago por uso; los recursos se asignan y reasignan
+    dinámicamente entre múltiples usuarios y se amplían y reducen en respuesta a las necesidades de los usuarios. Los proveedores de servicios en la nube ofrecen a los usuarios
+    opciones con una serie de servicios, entre los que se incluyen servicios de infraestructura, plataforma y software. Las capacidades de red en la nube se entregan como un
+    servicio en lugar de en forma de dispositivos físicos montados en bastidores.
+
+
+La virtualización es el proceso de creación de una versión basada en software de los recursos físicos , posible gracias al uso de hipervisores. Los recursos de la nube, como las
+    máquinas virtuales, el almacenamiento, la conectividad de red y los equilibradores de carga, se despliegan en subredes dentro de nubes privadas virtuales. La infraestructura
+    de la nube consta de centros de datos, almacenamiento, componentes de red y recursos informáticos.
+
+
+Los contenedores son una unidad ejecutable de software en la que se empaqueta el código de la aplicación, junto con sus bibliotecas y dependencias, de forma común para que pueda
+    ejecutarse en cualquier lugar: ordenadores de sobremesa, informática tradicional o la nube. Los contenedores son más ligeros y consumen menos recursos que las máquinas
+    virtuales, lo que ayuda a agilizar el desarrollo y la implantación de aplicaciones nativas de la nube.
+
+
+DevOps es un enfoque colaborativo que permite a los equipos de desarrollo y operaciones entregar software de forma continua en ciclos rápidos e iterativos, al tiempo que se
+    reducen los gastos generales y la duplicación. Las herramientas, prácticas y procesos de DevOps ayudan a abordar las complejidades y retos que plantea la nube, permitiendo
+    entregar y actualizar soluciones de forma rápida y fiable.
+
+
+Las aplicaciones nativas de la nube son aplicaciones que se crean o refactorizan para funcionar en el entorno de la nube. Estas aplicaciones, desarrolladas mediante metodologías
+    DevOps, constan de microservicios empaquetados en contenedores que pueden ejecutarse en cualquier entorno, lo que permite crear y actualizar funciones de forma rápida y
+    eficaz.
+
+
+La modernización de las aplicaciones ayuda a las organizaciones a acelerar su transformación digital, aprovechar las nuevas tecnologías y servicios, y ser más receptivas a las
+    cambiantes dinámicas del mercado. La computación en la nube es uno de los habilitadores clave de la modernización de las aplicaciones.
+
+
+En este vídeo, ha aprendido: Los cursos de IBM Coursera han cubierto habilidades y conocimientos esenciales,
+Y si este contenido no le resulta familiar, merece la pena repasarlo."
