@@ -1,0 +1,47 @@
+"Bienvenido a Expert Viewpoints: Tech Screen Expectations. En este vídeo, aprenderás sobre las evaluaciones técnicas y qué esperar durante esta parte del proceso de entrevista.
+
+Muchas empresas tendrán diferentes formas de seleccionar a los candidatos. Así que te harán algunas pruebas técnicas, como desafíos de código. Te asignarán algunas tareas de
+    programación y deberes que podrás hacer en casa.
+
+Personalmente, en lo que respecta a mi equipo, intento evitar las asignaciones de códigos porque, aunque pueden ser eficaces, creo que no son muy justas para el candidato.
+Sirven de modelo mental al candidato que podría postularse a muchas empresas. Y, a menos que les pagues por su tiempo, no creo que sea muy justo. Sin embargo, como candidato a
+    un puesto de trabajo, puede que tengas que estar preparado para ello en la medida de lo posible, ya que algunas empresas te exigirán algún tipo de tarea y tú decidirás si
+    vale la pena hacerlo porque realmente quieres trabajar para la empresa o no.
+
+En términos de, um, cuestionarios y, ya sabes, preguntas técnicas, se enviarán para que puedan responderlos en línea antes de un proceso de entrevista y evaluar usted, incluso
+    IBM, tiene algunos de esos para ciertos puestos, por lo que sería bueno que los repasara. Por lo tanto, sería bueno que te conectaras a Internet. Hay muchos sitios en los
+    que puedes aceptar desafíos de código , etc. Y bueno, te vendría bien que te preparases un poco ante la posibilidad de que te enfrentes a una evaluación de este tipo, de
+    forma que puedas llegar al punto en el que estés en la fase de entrevista y ellos puedan brillar de verdad y demostrar lo que eres personalmente. Incluso para los puestos
+    que requieren esa serie de cuestionarios, ya sean cuestionarios técnicos, no le doy mucha importancia a eso. Para mí, se trata más bien del candidato, de su forma de
+    comunicarse, del tipo de experiencia, de si le apasiona o no, de si tiene potencial, de todas esas cosas que no he podido determinar con más detalle a partir de su cartera,
+    su código en GitHub o su entrevista.
+
+Eh, no le doy mucha importancia a ese tipo de evaluaciones. Pero como desarrollador que solicita empleo, se enfrentará a algunos de estos desafíos, por lo que, lamentablemente,
+    tendrá que aguantarlos. Espero que la industria crezca un poco en el futuro y que eliminemos algunos de ellos. Al pensar en una pantalla técnica, estas pueden variar de una
+    empresa a otra, pero es posible que encuentre algunos tipos diferentes de pantallas técnicas. El primero, que es muy común, son los problemas técnicos o de desafío. Serán
+    problemas breves o podrían ser un poco más largos en los que tengas que resolver un problema específico con una combinación de algoritmos o estructuras de datos mediante
+    código. Pueden ser desafíos que vemos en LeetCode o en HackerRank, o preguntas breves como esas.
+
+También es posible que te encuentres con una sesión de pizarra en la que tú y tu entrevistador no estéis escribiendo código específicamente, sino que simplemente estéis
+    repasando el código en una pizarra blanca o hablando virtualmente sobre cómo resolver ese problema en pseudocódigo.
+
+También es posible que te encuentres con un desafío para llevar a casa. Podría ser algo en el que estés creando una aplicación como una aplicación de pintura, por ejemplo, en el
+    navegador y te den una serie de requisitos que debe cumplir, pero al final te piden que crees una función específica para tu aplicación en la que puedan ver qué tipo de
+    creatividad tienes o algo realmente genial que puedas implementar.
+
+La mejor manera de estudiarlos, digo yo, es practicar especialmente para los problemas desafiantes que utilizan estructuras de datos y algoritmos. Por ejemplo, los vídeos de
+    YouTube, los sitios web de código Leet y HankerRank, cualquier sitio en el que puedas estudiar qué son esas estructuras de datos y algoritmos, pero también qué hacen y cómo
+    puedes implementarlos en múltiples escenarios, son muy útiles.
+
+Me gusta decir que uno al día, aunque sea lo mínimo que puedas hacer, o uno cada dos días. Em, ser coherente a la hora de hacer llegar esa información sobre estructuras de datos
+    y algoritmos de forma constante es mejor que hacer cinco veces, un día y no hacer ninguna durante toda una semana. Um, creo que todo es cuestión de coherencia. Lo que creo
+    que los candidatos deben tener en cuenta cuando están en pantallas técnicas es que las entrevistas no tienen que ver con la perfección. Y creo que la gran mayoría de los
+    entrevistadores diría lo siguiente: puede que sientas ansiedad, o que te asuste un poco por la entrevista, o que incluso te hayas preparado con tanto ahínco para la
+    entrevista y, tan pronto como participes, puedes simplemente dibujar. Las cosas pasan, en realidad este proceso de entrevista consiste en ver más sobre tu forma de pensar,
+    sobre cómo resuelves los problemas, sobre cómo es tu proceso de pensamiento. Puedo decir con total certeza que no hay un día en el que no busque algo en Google, así que no
+    espero que alguien entre a una entrevista y se lo sepa todo a la perfección, especialmente porque yo mismo todavía tengo que investigar cosas, incluso cosas que ya he
+    investigado antes o que ya he practicado.
+
+Así que tener esa gracia y solo saber , oye, no buscamos la perfección, pero si puedes explicarme cómo podrías pensar en resolver este problema, o tal vez incluso si pudiera
+    darte una pista y podríamos seguir adelante. De esa forma, aunque no tengamos el 100% del código y puedas decirme cómo se desarrollarían las cosas, creo que eso es más
+    importante que tener todas las líneas de código correctas."

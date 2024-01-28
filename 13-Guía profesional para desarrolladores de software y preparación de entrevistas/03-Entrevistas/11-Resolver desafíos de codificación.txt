@@ -1,0 +1,35 @@
+"Aquí hay un marco de 4 pasos que puede utilizar para resolver desafíos de codificación durante las entrevistas e incluso en el trabajo.
+Comprender y apreciar el planteamiento del problema.
+    ¿Entendiste completamente el problema?
+    ¿Sabes qué insumos se requieren?
+    ¿Sabes cuál es el resultado deseable?
+    ¿Te da suficiente información?
+
+Divida el problema en funciones.
+    Defina el planteamiento del problema en varias funciones o módulos.
+    ¿Cada módulo resuelve un subconjunto específico del problema?
+    ¿Se pueden reutilizar las funciones/módulos?
+
+Aplique patrones comunes o construcciones de lenguaje que ya conozca para el problema.
+    ¿Ves un patrón común que puedas usar?
+    ¿Ves un bucle para usar o una función de lenguaje que pueda facilitar las cosas?
+    Pseudocodifica tu solución propuesta.
+
+Empiece a codificar.
+    Este es el mejor lugar para empezar a codificar realmente.
+    Ignore las partes difíciles por ahora; comience resolviendo una subparte más simple.
+    Ejecute el código mientras trabaja y deje que los errores le muestren dónde puede corregir el código.
+    Comience con la recopilación de entradas, luego procese la lógica y luego la salida.
+    Compare su solución por su precisión e integridad en relación con el planteamiento del problema.
+    Si el tiempo lo permite, optimice la solución buscando varias alternativas para acortar el código o aumentar su eficiencia.
+
+
+Práctica 1 del desafío de codificación: problema simple
+Para el sencillo problema a continuación, puede elegir entre el lenguaje JavaScript o Python para codificar. Puede utilizar cualquier IDE de su elección en su máquina local.
+    Utilice el marco de 4 pasos para evaluar y codificar el problema.
+
+Tarea
+Escriba una función que tome dos números enteros, a saber, horas y minutos, los convierta a segundos y los sume para mostrar el total de segundos.
+
+Tendrá la oportunidad de comparar su código con una solución propuesta en la siguiente práctica de laboratorio.
+"

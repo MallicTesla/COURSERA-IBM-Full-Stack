@@ -1,0 +1,33 @@
+"En esta entrevista, Cindy ha solicitado el puesto de ingeniera de software. El entrevistador es Antonio Cangiano, un director de ingeniería de redes de competencias y
+    especialista en IA en IBM. Tenga en cuenta que, como en cualquier entrevista, puede que no todas las respuestas sean correctas, pero céntrese en cómo responde el
+    entrevistado a las preguntas.
+
+Entonces, he visto en su currículum que menciona React. Por cierto, es un currículum muy impresionante. ¿Cuáles son las diferencias entre React? Y digamos JavaScript plano? Por
+    ejemplo, ¿por qué nos molestaríamos con React? Bueno, JavaScript plano es un lenguaje. Por lo tanto, es similar a Python o Java. Y es más versátil, mientras que Python,
+    perdón, React es una librería. Por lo tanto, con JavaScript podrías hacer mucho más. Por ejemplo, podrías hacer back end con JavaScript, React está pensado para front end.
+    Y así, para el front end, las diferencias son que JavaScript es mucho más versátil. Y así, no hay como una estructura que tengas que usar, puedes estructurarlo de la manera
+    que queramos. Mientras que con React, tienes que estructurar la interfaz de usuario como sea necesario. Y algo más que mencionar es, con JavaScript, todos los datos se
+    almacenan en el DOM. Y así, esto hace que sea fácil perderse. Para recuperar los datos, tienes que ir, tienes que encontrar el DOM correcto. Y así, hace que sea más fácil
+    perderse. Y hace que sea más difícil mantener JavaScript. Mientras que con React, simplemente se almacena en variables JavaScript normales, porque es una biblioteca de
+    JavaScript. Y así, hace que sea más fácil de mantener y más fácil de usar. Aunque tienes que seguir esta cierta estructura. Lo hace más fácil en ese sentido.
+
+¿Sabes lo que es el DOM virtual? No estoy muy familiarizada con el DOM virtual. Eso está bien. No te preocupes. Entonces Michelle, ¿podrías contarme un proyecto del que estés
+    particularmente orgullosa. En realidad trabajé en un proyecto recientemente. Y fue, creo que estoy en el mes cinco del mismo. Pero esencialmente es que toma música y un
+    archivo XML de música. Y lo convierte en partituras, que se pueden mostrar como partituras. Se pueden personalizar, y también se pueden tocar con un instrumento virtual. Y
+    así fue, me llevó un tiempo trabajar en ello pero estamos llegando a algún sitio y es realmente divertido trabajar en ello. Entonces, ¿toca algún instrumento? Yo
+    personalmente, toco la guitarra y el piano, De acuerdo. ¿Y fue este un proyecto de grupo o algo que hiciste por tu cuenta, Este fue un proyecto de grupo. Así que fui yo y
+    otros cuatro miembros.
+
+Entonces, ¿cuál fue específicamente tu contribución al proyecto? En mi caso, como he mencionado, estoy analizando un archivo XML FIRE de música. Así que la forma en que creamos
+    el proyecto es, yo fui el que tomó el archivo y yo fui el que lo compró. Y luego después de eso, tuvimos que crearlo en el instrumento virtual para tener la salida de sonido
+    que añadir en el para que se muestre correctamente como partituras. Así que trabajé en todo el analizador sintáctico. Y luego también ayudé cuando terminé con eso con la
+    visualización de las partituras. Así que utilicé job EQ FX como una biblioteca para poder visualizar y renderizar la música correctamente. Así que el proyecto se construyó
+    en Java? Sí Ok .¿Y cuáles fueron algunos de los retos? Um, uno de los principales retos, yo no estaba trabajando en la salida de sonido, pero los compañeros de equipo que lo
+    estaban haciendo, el problema era que cuando pulsabas play, todo se congelaba. Y así, no podías ser capaz de hacer nada más. Y esto es un problema muy grande, especialmente
+    si estás tocando, por ejemplo, una canción de dos minutos en la que tendrías que esperar para ver algo. Y así, de hecho, es como aprendí sobre el multihilo. Así que, a
+    través de esto, fue divertido aprender sobre cosas nuevas. Pero la forma en que resolvimos esto es que pusimos esto en una función asíncrona. Así que la reproducción
+    seguiría en segundo plano o en un hilo, mientras que todo lo demás que hicieras iría en otro. Así que eres capaz de interactuar con el programa.
+    Si por casualidad te mueves a un determinado compás musical en el programa mientras tocas y eso fue todo un reto averiguar cómo porque tienes que investigar, pero es
+    realmente divertido y luego fue emocionante conseguir que funcionara.
+
+Impresionante Con esto concluye la serie de entrevistas simuladas a ingenieros de software."

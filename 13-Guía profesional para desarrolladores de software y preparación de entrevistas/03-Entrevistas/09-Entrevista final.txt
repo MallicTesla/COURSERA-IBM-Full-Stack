@@ -1,0 +1,72 @@
+"Bienvenido a la entrevista final. Después de ver este vídeo, será capaz de: Prepararse para una entrevista final, Reconocer las preguntas típicas de una entrevista, Explicar el
+    método STAR para responder a las preguntas, Y formular preguntas para hacer en una entrevista.
+
+Si le ha ido bien en el proceso de entrevistas hasta ahora, es posible que le vuelvan a convocar para una entrevista final. Esta se realiza tradicionalmente en directo in situ,
+    aunque actualmente muchas empresas están optando por una entrevista virtual en vídeo. Aquí es donde debe diferenciarse y argumentar cómo será el mejor adaptado para el puesto.
+
+Un poco de preparación le ayudará a mostrarse lo mejor posible. La noche anterior a la entrevista, lea detenidamente su currículum y su carta de presentación, revise la
+    descripción del puesto, la empresa y cualquier otra nota que haya tomado. Asegúrese de que está familiarizado con todo lo que ha mencionado en su currículum. Ensaye su
+    discurso de ascensor y las respuestas a las preguntas. Planifique su aspecto con antelación para que su aseo personal y su ropa estén en las mejores condiciones. En general,
+    debe llevar un atuendo profesional para una entrevista de trabajo. Para los hombres, esto puede significar un traje de chaqueta, pantalones de vestir y corbata en algunos
+    entornos. A menudo, las empresas tecnológicas tienen una oficina informal, así que no se vista demasiado formal. Para las mujeres, una blusa, pantalones de vestir o un
+    vestido de negocios son apropiados. Debe evitar llevar nada brillante o llamativo que pueda distraer. Su pelo debe estar arreglado; el maquillaje ligero es opcional. Si su
+    entrevista es virtual, seguirá necesitando vestirse de forma profesional para la cámara. Pruebe su equipo con antelación para asegurarse de que su cámara y su micrófono
+    funcionan y de que su conexión a Internet es estable. Intente dormir bien por la noche. Cuando se despierte, desayune, tómese un café, y haga ejercicio si forma parte de su
+    rutina. Asegúrese de estar cómodo y alerta. Vístase y acicálese para que su aspecto sea profesional y esté en su mejor momento. Si su entrevista tiene lugar in situ,
+    planifique la ruta que seguirá hasta el lugar y su transporte. Calcule cuánto tiempo de viaje necesitará, incluidos los patrones de tráfico, encontrar aparcamiento y
+    registrarse en el edificio. Deje tiempo suficiente para asegurarse de no llegar tarde.
+
+Una entrevista técnica suele ser muy diferente de cualquier otra entrevista de trabajo. Las entrevistas técnicas suelen incluir preguntas técnicas relacionadas con el puesto,
+    preguntas de comportamiento y preguntas situacionales. También puede haber preguntas prácticas de resolución de problemas o incluso preguntas capciosas. Los entrevistadores
+    suelen empezar con preguntas sobre sus conocimientos técnicos, habilidades, y experiencia. Demuestre su capacidad para comunicar conceptos técnicos de forma fácil de
+    entender y describa sus procesos de trabajo.
+
+Algunas preguntas de las entrevistas técnicas tienen varias respuestas posibles. Para éstas, explique su proceso de resolución de problemas y deje claro que conoce múltiples
+    métodos para llegar a una solución.
+
+Los entrevistadores pueden hacerle preguntas situacionales y de comportamiento para saber más sobre cómo encajará en el equipo del proyecto y en la cultura de la empresa.
+También quieren saber cómo abordará las situaciones de trabajo o cómo resolverá los problemas. Para responder eficazmente a estas preguntas, utilice el método STAR.
+
+El método STAR le ayuda a explicar cómo afronta retos laborales concretos de una forma sencilla pero contundente. El formato STAR significa situación, tarea, acción y resultado:
+    Situación: El proyecto o reto al que se enfrentó
+    Tarea: Su responsabilidad en la situación y lo que necesitaba resolver específicamente
+    Acción: Los pasos o el procedimiento que siguió para resolver el problema y las decisiones que tomó
+    Resultado: Lo que ocurrió después de que usted actuara, preferiblemente en términos cuantificables.
+
+Aquí tiene una pregunta situacional común que puede esperar durante una entrevista técnica con un ejemplo de cómo responderla con el método STAR. ¿Puede hablarnos del proyecto
+    más reciente en el que trabajó?
+    Estaba en un equipo al que se le encargó trasladar una base de datos a un nuevo servidor (situación).
+    Estaba a cargo de aumentar la velocidad de consulta del nuevo despliegue (tarea).
+    Empleé un optimizador de datos, me aseguré de que se mejoraran los índices y actualicé el software (acción).
+    Y esto supuso un aumento del 40% en el tiempo de respuesta de las consultas (resultado).
+
+Los entrevistadores también pueden hacer preguntas de tipo conductual en las entrevistas. Con estas preguntas, el entrevistador quiere averiguar cómo respondería usted a ciertos
+    desafíos que pueden surgir en el lugar de trabajo. He aquí algunas preguntas habituales en las entrevistas conductuales:
+    ¿Qué haría si le pidieran que realizara una tarea y no estuviera seguro de cómo completarla? Cuénteme alguna ocasión en la que haya ido más allá de las tareas esperadas
+        mientras trabajaba en un proyecto.
+    ¿Y cómo superaría el reto de trabajar con un compañero difícil en un proyecto de equipo?
+
+Si el entrevistador le hace una pregunta y usted necesita información adicional para responderla adecuadamente, pida más información. Esto demostrará al entrevistador que no
+    tiene miedo de pedir aclaraciones cuando las necesite.
+
+Al final de su entrevista, se le dará la oportunidad de hacer algunas preguntas al entrevistador. Esta es su oportunidad de demostrar lo serio que se toma el puesto, y que ha
+    hecho algunos deberes. También es una oportunidad para ver si realmente querrá dar el paso hacia este papel en esta empresa. He aquí algunas preguntas que puede hacer al
+    entrevistador: ¿Cuál es el siguiente paso en el proceso de entrevista/contratación?
+    ¿Cuánto suele durar su proceso de contratación?
+    ¿Cuáles son las principales responsabilidades del puesto?
+    ¿Cómo sería mi rutina diaria si consiguiera el trabajo?
+    ¿Y qué puede decirme sobre el puesto aparte de lo que figuraba en la descripción?
+
+También hay algunas preguntas que debe evitar. He aquí algunos ejemplos:
+    ¿Cuántas vacaciones ofrecen?
+    ¿Tienen horarios de trabajo largos?
+    ¿Tienen otro puesto vacante?
+    ¿Y a qué se dedica la empresa?
+En general, es mejor evitar preguntas que hagan parecer que usted no está interesado, es descuidado o está mal informado. También es mejor no hacer preguntas muy específicas
+    sobre la remuneración, aunque suele estar bien preguntar sobre un rango o escala salarial y preguntas generales sobre los beneficios. Se toman en serio considerarle si llega
+    a este punto, así que deberían estar dispuestos a darle esta información. Sin embargo, no es el momento de negociarla; ya tendrá ocasión de considerarlo si recibe una oferta.
+
+En este vídeo ha aprendido que: Asegurarse de llegar a una entrevista preparado y en su mejor momento es una buena idea Hay varios tipos de preguntas que puede esperar en una
+    entrevista final Usar el método STAR le ayuda a dar respuestas sustanciales a preguntas situacionales Y puede obtener información importante haciendo preguntas en una
+    entrevista, pero hay preguntas que debe evitar Las entrevistas finales pueden ser estresantes, pero con la preparación adecuada puede dar lo mejor de sí mismo y demostrar
+    que será un gran candidato para el puesto y una incorporación positiva al equipo."

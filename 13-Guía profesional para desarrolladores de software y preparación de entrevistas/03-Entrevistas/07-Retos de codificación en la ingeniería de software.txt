@@ -1,0 +1,32 @@
+"Bienvenido a Coding Challenges in Software Engineering. Después de ver este vídeo, podrás: describir qué es un desafío de programación, resumir el proceso necesario para
+    superar un desafío de programación y analizar qué habilidades podrían ponerse a prueba.
+
+Si un proceso de entrevista incluye un desafío de programación o preguntas para llevar a casa, es probable que sea uno de los pasos más importantes del proceso. Suele ocurrir
+    después de la fase de selección inicial, aunque a veces es el primer paso. En un desafío de programación, trabajarás en un problema en casa en tu tiempo libre y luego lo
+    entregarás a los entrevistadores para que lo revisen. Es posible que te envíen archivos con los que trabajar o una URL en la que puedas resolver un problema en línea. Este
+    paso tiene como objetivo mostrar tus habilidades de codificación y resolución de problemas. Para muchas funciones de ingeniería de software, puede haber uno o más desafíos de
+    codificación. El objetivo de las evaluaciones completas es evaluar las capacidades de desarrollo de un desarrollador tanto en el front-end como en el back-end.
+
+Con frecuencia, los desarrolladores reciben un enunciado del problema que incluye código parcialmente completado y se les pide que creen una solución sintetizada. Estas
+    evaluaciones simulan entornos laborales reales y problemas cotidianos. Cada organización tendrá su propio conjunto de tecnologías y las evaluaciones para los puestos de esa
+    empresa se basarán en las habilidades necesarias para ello. Por ejemplo, la función de un desarrollador integral de Python puede, en ocasiones, requerir conocer la
+    combinación de Django y MySQL, o la combinación de Flask y PostgreSQL, según el marco específico y la base de datos que utilice la empresa.
+
+Una evaluación exhaustiva suele abarcar diferentes combinaciones de tecnologías. Los objetivos del desafío de codificación pueden diferir de una empresa a otra. Por ejemplo, a
+    veces el desafío de programación es dirigido y los requisitos establecen claramente el objetivo y cómo lograrlo. En este tipo de prueba, tenga cuidado de seguir todas las
+    instrucciones correctamente. Por otro lado, algunos desafíos son indefinidos, con un objetivo pero sin expectativas sobre cómo se lograrán. Es posible que sienta la
+    tentación de probar una solución ambiciosa para mostrar tantas habilidades como sea posible. Sin embargo, por lo general, es más impresionante mantener un alcance limitado
+    pero cumplir todos los requisitos minuciosamente. En esta situación, es mejor hacer una cosa bien que hacer muchas cosas mal. A veces, las empresas hacen que sus requisitos
+    sean vagos a propósito para ver cómo abordan el problema. En todos estos casos, siempre es mejor hacer preguntas porque muestran que estás pensando en el problema y no solo
+    haciendo suposiciones.
+
+Cuando una empresa comienza a contratar para un puesto, diseña o plantea un desafío en función de la descripción del puesto. Las empresas esperan que, una vez que el candidato
+    resuelva el desafío, no compartan el problema y sus resultados con otros solicitantes de empleo. Además, es posible que tengan políticas sobre quién es el propietario legal
+    del trabajo que realices para impugnar el código. Todos estos detalles pueden figurar en un acuerdo de confidencialidad (NDA) que se te pedirá que firmes.
+
+
+En este vídeo aprendiste que: Los desafíos de programación pueden ser una parte importante del proceso de entrevista.
+Es probable que las habilidades que se evalúen para un puesto se basen en la tecnología utilizada en esa empresa.
+Además, las preguntas del desafío de codificación pueden variar según el nivel y la naturaleza del puesto.
+El desafío de programación es una excelente oportunidad para que demuestres tu capacidad para trabajar en un proyecto.
+Si te tomas tu tiempo, sigues las instrucciones y te esfuerzas al máximo, puede ser una verdadera ventaja para tu búsqueda de empleo."

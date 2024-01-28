@@ -1,0 +1,44 @@
+"Bienvenido a Entrevistas: Hablar de un proyecto. Después de ver este vídeo, podrá: Explicar la importancia de hablar de sus proyectos anteriores en las entrevistas de trabajo
+    técnico, Describir algunas técnicas eficaces para hablar de proyectos en una entrevista, y Detallar algunas partes y aspectos específicos de los proyectos que es importante
+    mencionar.
+
+En una entrevista para un puesto técnico como el de ingeniero de software, un entrevistador quiere que usted demuestre que posee las habilidades y los conocimientos necesarios
+    para manejar un proyecto complejo. Una buena forma de convencerles es hablar de los proyectos en los que ha trabajado en el pasado, por lo que es una buena idea aprender a
+    hablar de un proyecto con eficacia. Querrá hacer hincapié en que: tiene una buena comprensión de la estructura del proyecto y de cómo encaja, ha manejado bien una variedad
+    de habilidades y conceptos técnicos, y puede comunicarse con eficacia. Como es probable que no tenga tiempo para hablar de todos los aspectos del proyecto, empiece por
+    destacar el mayor desafío técnico que encontró durante el proyecto. Esto puede ayudar a captar la atención del entrevistador y proporcionar un contexto para el resto de su
+    historia.
+
+Describa también el ámbito de aplicación de su proyecto y la necesidad básica que el proyecto satisfacía. También puede ayudar comentar por qué eligió hablar de este proyecto. A
+    continuación, esboce la estructura del proyecto. Si el proyecto tenía varios módulos, menciónelos. También puede describir el flujo o proceso general por el que pasó el
+    proyecto. Esto dará al entrevistador más contexto y claridad sobre su proyecto. Por último, explique las ventajas de su proyecto y su funcionalidad principal.
+
+Hable brevemente de lo que pretendía hacer el proyecto, el problema que pretendía resolver, y por qué era una buena solución. Esté preparado para hablar de si el proyecto tuvo
+    éxito o no, y por qué. A veces las representaciones gráficas proporcionarán una comprensión más clara, así que si dispone de gráficos, diagramas de flujo o materiales
+    similares, pueden ser de ayuda. A continuación, describa las herramientas, tecnologías y plataformas que se utilizaron en su proyecto. Esto permitirá al entrevistador
+    comprender el proceso de trabajo del proyecto, y las habilidades profesionales que desarrolló. Además, los entrevistadores pueden hacerle preguntas más profundas sobre las
+    herramientas, dándole la oportunidad de destacar su confianza en esas áreas. Responda a las preguntas técnicas empezando por la estructura del proyecto. También puede
+    organizar su información en categorías funcionales, como interfaz de usuario, lógica de aplicación y servicios empresariales, servicios externos, base de datos y procesos
+    DevOps. Asegúrese de que se prepara para esta parte de la entrevista repasando las herramientas y tecnologías de su proyecto con antelación y asegurándose de que las
+    comprende en detalle. Si ha utilizado servicios de terceros, consulte la base de conocimientos o su documentación. Resuma la descripción de su proyecto explicando qué ha
+    logrado el proyecto. Si desarrolló un nuevo software, explique cómo abordó necesidades específicas o resolvió un problema. Detalle sus tareas dentro del proyecto que
+    abordaron problemas y superaron obstáculos, o amplíe a qué recursos acudió en busca de ayuda. Asegúrese de que su entrevistador entiende el código que escribió y su función.
+
+Siempre que pueda, alinee la experiencia con las habilidades requeridas por el puesto para el que se entrevista. El centro de su discusión debe ser su capacidad para abordar
+    problemas por su cuenta, trabajar duro en sus errores y desarrollar soluciones creativas. Debería detallar cómo su experiencia le ayudó a crecer como desarrollador,
+    particularmente en su capacidad para manejar la retroalimentación negativa y afrontar los retos a medida que surgen, y cómo le posicionará para el futuro.
+
+A continuación, explique cómo abordó las pruebas y el seguimiento del proyecto. Describa la funcionalidad que quería construir y cómo supo que se cumplían esas necesidades,
+    incluyendo cómo probó sus propias especificaciones de características. Una forma de responder sería relatar los detalles específicos sobre sus pruebas automatizadas y
+    manuales, y cómo las realizó o verificó que la validación fue satisfactoria. Hable sobre cualquier procedimiento o herramienta que haya utilizado para probar y supervisar su
+    código, para registrar fallos, para analizar el código en busca de errores comunes, o cualquier otra cosa que pueda demostrar su capacidad para detectar fallos en las
+    pruebas de producción. Esto le ayuda a demostrar su comprensión de cómo mantener la fiabilidad del software.
+
+Por último, haga un resumen rápido de lo que aprendió personalmente trabajando en el proyecto. Incluya las nuevas habilidades y la tecnología que aprendió y desarrolló. También
+    comente cualquier cosa que haya aprendido sobre habilidades blandas como la resolución de problemas o el diseño de soluciones y el trabajo en equipo. No olvide analizar lo
+    que aprendió de los errores o del trabajo infructuoso, así como hablar de sus éxitos. Intente ser sucinto, pero minucioso.
+
+En este vídeo, ha aprendido: Ser capaz de hablar de proyectos con eficacia es una habilidad crucial a la hora de realizar entrevistas para puestos técnicos, Y una buena
+    descripción de un proyecto explica el proyecto en general, detalla las tecnologías utilizadas, describe sus logros y habla de las pruebas y el seguimiento, y resume el
+    aprendizaje personal. Ser capaz de hablar de proyectos con detenimiento es una habilidad que le pondrá por delante de muchos otros candidatos, por lo que merece la pena
+    dedicar tiempo a desarrollarla."

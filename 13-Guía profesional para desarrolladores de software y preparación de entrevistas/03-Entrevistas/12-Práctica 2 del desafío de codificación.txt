@@ -1,0 +1,8 @@
+"Para el problema de nivel intermedio siguiente, puede elegir entre el lenguaje JavaScript o Python para codificar. Puede utilizar cualquier IDE de su elección en su máquina
+    local. Utilice el marco de 4 pasos para evaluar y codificar el problema.
+
+Tarea
+Cree una función que tome una matriz de cualquier elemento, elimine todos los elementos duplicados (elementos con el mismo nombre o que distingan entre mayúsculas y minúsculas)
+    y devuelva una nueva matriz en la misma secuencia que la matriz anterior sin duplicados.
+
+Tendrá la oportunidad de comparar su código con una solución propuesta en la siguiente práctica de laboratorio."

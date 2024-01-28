@@ -1,0 +1,51 @@
+"En esta entrevista, Cindy ha solicitado el puesto de ingeniera de software.
+
+El entrevistador es Antonio Cangiano, gerente de ingeniería de redes de habilidades y especialista en inteligencia artificial en IBM. Tenga en cuenta que, como en cualquier
+    entrevista, puede que no todas las respuestas sean correctas, pero concéntrese en la forma en que el entrevistado responde a las preguntas.
+
+Hola Michelle. Me llamo Antonio Cangiano. Y si te contrataran para este puesto en IBM, yo seré tu gerente. ¿Por qué no empezamos contándonos un poco sobre ti? ¿Y cómo te
+    iniciaste en la tecnología? Vale, encantado de conocerte. Soy Michele Saltoun. Acabo de terminar mi segundo año en la Universidad de York. Empecé con la tecnología, de hecho,
+    en el décimo grado, donde jugaba muchos juegos y quería intentar crear mi propio juego. Así que me uní a la clase de informática y me gustó mucho crear mi propio juego. Así
+    que seguí con las ciencias de la computación en el instituto. Y desde ese primer juego que creé, empecé a involucrarme mucho más en la comunidad técnica. Así que me uní a
+    muchos hackatones y creé muchos proyectos en los que me involucré más con diferentes aspectos de la tecnología. Por ejemplo, hace poco creé una extensión para Chrome, que
+    fue muy divertida. Impresionante. Y, en general, me encanta experimentar con nuevas tecnologías, porque existe una gama muy amplia de lo que puedes hacer. ¿Qué hacía esta
+    extensión de Chrome? Entonces, esta es en realidad una extensión que cambió el idioma de cada página web. Por eso, fue concebida como una forma de ayudarte a aprender nuevos
+    idiomas. Interesante.
+
+Excelente , así que sí. Bien, Michelle, voy a hacerte algunas preguntas técnicas. No te preocupes, son bastante fáciles. ¿Cuáles son tus dos lenguajes de programación favoritos?
+    Mis dos lenguajes de programación favoritos son Java y Python. ¿Por qué? Bueno, está bien, Java fue el primer idioma que aprendí. Pero, en general, es muy fácil de aprender.
+    Y es muy fácil de usar, lo que, dado que es tan fácil de aprender y usar, también hace que sea mucho más fácil depurar y mantener cualquier programa que tengas. Me gusta que
+    esté orientado a objetos. Por lo tanto, hace que sea mucho más fácil crear programas más modulares. Y Python. Personalmente, me gusta por la variedad de cosas que puedes
+    hacer, porque es muy popular. Así que tiene muchas bibliotecas. Por lo tanto, hay una gran variedad de cosas que se pueden hacer, por ejemplo, con el análisis web, con la
+    ciencia de datos o con el aprendizaje automático. Y dado que hay tanta variedad, es más fácil hacer estas cosas sin tener que aprender un nuevo idioma. Vale, ¿y cuáles son
+    algunas de las diferencias técnicas entre ambos? Bueno, Java y Python son, son dos programas diferentes. Por lo tanto, Java está compilado. Y así, se ejecuta en la máquina
+    virtual de Java donde se compila. Y esto lo hace más rápido que Python porque Python es un lenguaje que se interpreta. Por lo tanto, esto hace que Java sea más rápido. Pero
+    también, como he mencionado, Java está más orientado a objetos. Mientras que Python no lo es necesariamente, podrías tener un diseño orientado a objetos con Python, pero no
+    lo es necesariamente. Así también. Esto es más profundo y más específico. Pero con subprocesos múltiples, funciona muy bien en Python, porque lo siento, es mejor en Java,
+    porque Java es más rápido. Por eso, es muy bueno para ejecutar programas simultáneos. Mientras que Python se interpreta, en realidad no es tan bueno como hacer programas
+    simultáneos. Por lo tanto, este no sería el lenguaje de elección para esto. Lo último que creo que debo destacar es que Python se escribe de forma dinámica. Por lo tanto, no
+    tienes que decir qué es la variable, porque eso se hace en tiempo de ejecución, mientras que con Java tienes que especificar, por lo que esas son diferencias técnicas
+    importantes. Pero, por supuesto, también hay una sintaxis similar y otras diferencias similares entre ambas. ¿Qué pasa con la indentación espacial? Bien, entonces, con
+    Python, en lugar de tener que usar corchetes, eres tú y se basa en el espacio. Por lo tanto, si tiene un espaciado incorrecto, se creará un error. Mientras que con Java, no
+    es el caso. ¿Qué crees que es una ventaja y una desventaja de ese enfoque? Bueno, creo que con Java es más fácil. Por lo tanto, si quieres combinar, como el texto, con
+    Python es más fácil. Es un poco más difícil, pero facilita su lectura. Por lo tanto, es más difícil detectar algunos errores, pero hace que sea más fácil de alguna manera.
+
+¿ Más legible? ¿Sí?. Vale. Muy bien. Entonces, Michelle, si abriera mi navegador, digamos Google Chrome, escribiera ibm.com y, a continuación, presionara enter, después de un
+    par de segundos, vería la página de inicio de IBM. ¿Qué ocurre entre pulsar Enter y ver la página de inicio?
+
+Bueno, ibm.com, lo que tiene que ver es con llegar al servidor que aloja ibm.com. Así que esto sucede es que ibm.com está mapeado en realidad a una dirección IP. Y esta
+    dirección IP es la dirección del servidor que aloja ibm.com. Y la forma en que lo hace es mediante la búsqueda de DNS. Lo que ocurre es que, inicialmente, la búsqueda de DNS
+    solo busca un mapa de ibm.com que dirija a una dirección IP, o de cualquier nombre de dominio a una dirección IP. Lo que ocurre es que, mediante la búsqueda de DNS, primero
+    busca en tu caché, y creo que busca en tres o cuatro cachés. Así que busca en la caché del navegador, en la caché del sistema operativo y en una o dos más con las que no
+    estoy muy familiarizado. Pero lo que hace es esto: si lo encuentra, continúa, pero si no lo hace, realizará una búsqueda recursiva en varios servidores DNS para encontrar el
+    mapeo correcto. Si no encuentra ninguno, simplemente dirá que no puede encontrar la dirección IP. De lo contrario, si la encuentra, lo que sucede es que tiene que conectarse
+    y establecer una conexión con el servidor. Y la forma en que lo hace depende del tipo de ID de dominio, por ejemplo, HTTP o HTTPS. Basándose en esto, utiliza un protocolo
+    determinado para establecer la conexión entre su dispositivo y el servidor de ibm.com. Una vez hecho esto, puede enviar una solicitud GET para acceder a la página web y
+    luego cargarla en tu ordenador. Quizás una de las mejores respuestas que he recibido a esta pregunta. Gracias. Ahora, ¿cuál es la diferencia entre HTTP y HTTPS? ¿En concreto?
+    ¿Cuál es el punto? ¿Por qué nos molestamos con HTTPS?
+
+Bueno, HTTPS, esa S significa seguro. Por lo tanto, cifra los datos entre lo que envías al servidor. Y esto evitará que sufra un ataque de intermediarios. Por ejemplo, si estoy
+    de compras e introduzco los datos de mi tarjeta de crédito, no quiero que nadie más tome esos datos. Así que quiero que estén cifrados. Quiero que sea seguro. Perfecto.
+    Gracias.
+
+Esta entrevista continúa en la segunda parte de una entrevista simulada con un ingeniero de software."

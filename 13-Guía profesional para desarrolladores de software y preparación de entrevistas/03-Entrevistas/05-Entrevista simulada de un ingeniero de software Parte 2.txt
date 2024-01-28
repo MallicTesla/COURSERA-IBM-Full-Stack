@@ -1,0 +1,33 @@
+"En esta entrevista, Cindy se postuló para el puesto de ingeniera de software. El entrevistador es Antonio Cangiano, gerente de ingeniería de redes de habilidades y especialista
+    en inteligencia artificial en IBM. Tenga en cuenta que, como en cualquier entrevista, puede que no todas las respuestas sean correctas, pero concéntrese en la forma en que
+    el entrevistado responde a las preguntas.
+
+Por lo tanto, mencionaste que estamos enviando una solicitud GET al servidor. ¿Cuál es la diferencia entre una solicitud GET y una POST? Bueno, una solicitud GET se usa para
+    leer datos. Entonces, lo que hace es que haya un par de valores clave. Por lo tanto, esto se envía a través de la URL de la solicitud. Mientras que POST se usa
+    para crear o actualizar datos. Por lo tanto, toma este par de valores clave de lo que estés creando o actualizando y nos envía el cuerpo de la solicitud. Por lo tanto, hay
+    dos funcionalidades diferentes y funcionan de manera diferente. Entonces, ¿por qué sería una mala idea utilizar una solicitud GET, por ejemplo, para un formulario de inicio
+    de sesión? Por formulario de inicio de sesión, supongo que te refieres a nombre de usuario, contraseña, sí. ¿Cierto?. Entonces, con esto, como mencioné, la solicitud GET
+    coloca los datos en la URL. Por lo tanto, esto se almacena en su caché, podría marcarse como favorito. Es como si estuviera almacenado en la URL. Por eso, dado que tu
+    contraseña y tu información de inicio de sesión son información confidencial, no querrás que se almacenen , no querrás poder marcar esa página como favorita ni volver a ella.
+    Con solicitudes POST. Ya que se envía en el cuerpo de los datos. Esto no se almacena de la misma manera. Por lo tanto, no está en caché. No puedes marcar la página como
+    favorita. Por lo tanto, es mucho más seguro, porque no podrás iniciar sesión con las credenciales de otra persona si inicias sesión la primera vez. De acuerdo, GET y POST
+    son solo otros dos verbos HTTP posibles. Otros dos populares son PUT y POST, ¡lo siento! CONSIGA y PUBLIQUE con seguridad. Y luego están PUT y DELETE. ¿Conoces la diferencia
+    entre POST y PUT? Creo que PUT crea los datos y POST crea o actualiza los datos. Al revés, de acuerdo. Sí, así que me equivoco. No lo he usado tanto. Por lo tanto, POST, por
+    lo general, si está utilizando un RESTful, es más una convención que una regla. Sin embargo, si utilizas un servicio web RESTful, por ejemplo, o un enfoque RESTful, tendrías
+    POST para crear un nuevo recurso y PUT para actualizar el recurso. Ok.
+
+Entonces, hablamos un poco sobre la seguridad web. Y una de las principales preocupaciones de los formularios web es la inyección de SQL o la inyección de SQL. ¿Sabes qué es? ¿Y
+    cómo podemos prevenirlo? Sinceramente, no he usado mucho SQL. Por lo tanto, no estoy muy familiarizado con las inyecciones de SQL. Bien, eso no es problema, podemos pasar a
+    la siguiente pregunta. Nadie sabe la respuesta a todas las preguntas. Eso es seguro. Bueno, decíamos que enviaste la solicitud al servidor, el servidor responde y ves la
+    página web. Oh, bien. Ahora, cuando el servidor web responde, normalmente también te dará un código de estado HTTP, por ejemplo, 200. Y estos códigos de respuesta van desde
+    100 hasta quinientos. Entonces, ¿sabe lo que hace cada familia de 100, 200, 300, 400 y 500 personas? ¡Sí! Y así, empezaré con doscientos, porque tú lo mencionaste.
+
+Doscientos son códigos de éxito. Así que obviamente son los favoritos de todos. Obviamente. ¡Sí!. Por lo tanto, son un mensaje de éxito. Por ejemplo, si envías una solicitud GET
+    o una solicitud POST, dirá que se ha realizado correctamente.
+Cien son solicitudes informativas. Así que, por ejemplo, continúe simplemente diciendo lo que está sucediendo actualmente con el servidor.
+Cuatrocientos 500 son errores. Así que, cuatrocientos son errores de clientes. Así que, por ejemplo, si escribiste una URL incorrecta o la URL decía «sí», es incorrecta.
+Mientras que quinientos son errores del servidor. Entonces, si la URL se movió, por ejemplo, o si se produjo un problema en el servidor.
+Trescientos. =No lo he conseguido, así que no estoy muy familiarizado con él. ¿Redirecciones? Redireccionamientos, sí. Así que te redirigirá, por ejemplo, si una URL se movió de
+    forma permanente, te redirigirá a una de esas, ¿de acuerdo? ¿Sabes qué es 404? No se encuentra el 404.
+
+Muy bien Esta entrevista continúa en la tercera parte de una entrevista simulada a un ingeniero de software."

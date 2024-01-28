@@ -1,0 +1,52 @@
+"Bienvenido a Expert Viewpoints: un ciclo típico de entrevistas. En este vídeo, conocerás el ciclo de entrevistas típico que suelen experimentar los desarrolladores de software
+    y recibirás recomendaciones para causar una buena impresión.
+
+Cuando se trata de evaluar a los candidatos para puestos de desarrollador en mi equipo, me gusta estructurarlo en dos entrevistas. La primera entrevista es una conversación
+    técnica, de media hora de duración, en la que participarán el candidato, yo como director de contratación y uno de mis desarrolladores sénior, y alternativamente le haremos
+    preguntas al candidato. En términos generales, en esta primera entrevista nos centraremos básicamente en los aspectos técnicos, por lo que les haremos preguntas sobre sus
+    experiencias anteriores. Por ejemplo, los proyectos que han trabajado en un código que escribían si lo publicaban en, digamos, GitHub, son de naturaleza más técnica. Rehuyo
+    las preguntas que son demasiado algorítmicas o demasiado «acertijos», como cuántas pelotas de golf existen en la ciudad de Nueva York o algo así. No hacemos ese tipo de cosas.
+    Solo cosas que son relevantes para el puesto y relevantes para el candidato, la experiencia existente.
+
+Y luego, en el caso de los mejores candidatos, los candidatos más prometedores para el puesto, los promoveremos a una segunda entrevista, que durará una hora. Y depende de mí y
+    de mi gerente, que será el gerente de segunda línea para los candidatos. Y en la segunda entrevista nos centramos en las habilidades sociales. Nos centramos en la
+    comunicación, las ambiciones y, en realidad, es una forma de que el candidato aprenda más sobre lo que hacemos, el tipo de cosas que somos, cuál es nuestra misión, etc.
+
+Así pues, es una forma estupenda de convencer al candidato de la idea del equipo más que de aprender mucho más sobre los candidatos. Normalmente para entonces ya tenemos una
+    idea bastante buena de los candidatos. Ahora hay que tener en cuenta que las diferentes empresas tienen enfoques diferentes. A muchas grandes empresas les gusta tener estas
+    horribles entrevistas de 5 o 5 horas o varias rondas de entrevistas y eso... no creo que sea muy justo para los candidatos. No creo que sea una buena experiencia para los
+    candidatos. Por lo tanto, tratamos de alejarnos de eso. Intentamos mantenernos alejados. Pero sí sé que es posible que te encuentres con eso, y si realmente quieres un
+    trabajo en una de esas empresas, lamentablemente tendrás que pasar por ese proceso.
+
+En lo que respecta a mi equipo, el proceso no cambia para el puesto. La mayoría de mis trabajos son desarrolladores y científicos de datos contratados, pero de vez en cuando
+    también entrevistamos y contratamos a personas con experiencia en marketing o diseño de UX, etc. Así que esas personas no tienen básicamente experiencias diferentes, no
+    tienen ninguna experiencia diferente en el proceso, solo que las preguntas son diferentes. Evidentemente, en la entrevista con el candidato a experiencia de usuario en
+    experiencia de usuario se le harán preguntas sobre experiencia de usuario en lugar de preguntas sobre desarrollo, pero aparte de eso, el proceso dura media hora.
+
+Una entrevista sencilla y, a continuación, pasamos a la siguiente entrevista, que se basa en habilidades interpersonales si es muy probable que consigas un trabajo. ¿Cómo es un
+    proceso de entrevista típico? No existe un proceso de entrevista típico para cada empresa, cada país, cada puesto. Varía y varía por una razón. Varía porque buscamos
+    habilidades diferentes. Buscamos personas diferentes y no podemos evaluar a todos de la misma manera. Así que tienes que pensar qué es lo que estamos buscando, y esto puede
+    ser cualquier cosa, desde pruebas lingüísticas, verificaciones de codificación del idioma, evaluaciones de habilidades, verificaciones, entrevistas, evaluaciones basadas en
+    competencias, evaluaciones basadas en el comportamiento, etc. Aquí hay muchísimas áreas diferentes.
+
+Ahora bien, la buena noticia es que la entrevista y el proceso de selección son buenos. Está aquí para encontrar lo mejor de ti, pero también para encontrar tus áreas de
+    desarrollo. No se trata de poner varios obstáculos para atraparte, sino de encontrar una visión completa y una visión completa de ti. Cuando estoy contratando, quiero
+    entender lo bueno y lo que tal vez no sea perfecto de una persona, de modo que pueda entender cómo podrían ser un plan y un programa de desarrollo para que esa persona sea
+    perfecta y sobresaliente. Así que considéralos como más oportunidades para demostrar lo bueno que eres, no como oportunidades para que la empresa diga lo malo que eres.
+
+Mi consejo número uno para preparar una entrevista es investigar a fondo la empresa. Comience con una publicación de trabajo e intente obtener la mayor cantidad de información
+    posible de esa publicación de trabajo. Luego, si ya sabes quiénes son las personas a las que vas a entrevistar, investiga sobre ellas para averiguar si sabes de qué se
+    tratan. ¿Qué es lo que les apasiona? Si alguien está obsesionado con Python y el entrevistador puede que esté repasando un poco Python, ¿verdad? Pero, en general, investigue
+    sobre la empresa para averiguar de qué se trata el equipo. ¿Cuál es la declaración de misión de la empresa? ¿Quién es el director ejecutivo? Estoy intentando entender un
+    poco el tipo de entorno en el que te podrías encontrar, y creo que esto será un buen augurio para ti durante la entrevista, porque demuestra que estás preparado y es más
+    probable que te surjan algunas preguntas para la parte inevitable cuando te pregunten: «¿Tienes alguna pregunta para nosotros?» Es un buen momento para demostrar que has
+    hecho tu investigación. Para mí, una señal de alerta es si el candidato no sabe nada sobre la empresa. El trabajo apenas hojearon la oferta de trabajo, y no lo es. Un factor
+    decisivo en sí mismo. Creo que todavía es posible que alguien que no haya realizado gran parte de la investigación consiga el trabajo, pero en general, yo no lo recomendaría.
+
+En mi opinión, ese enfoque no es una buena primera impresión. Las entrevistas son sobre una primera impresión y debes asegurarte de dar tu mejor primera impresión. Así que,
+    durante la entrevista, piensa en lo molesto que es cuando doy golpecitos con el pie mientras hablamos. Eso es con lo que tiene que lidiar mi entrevistador, y puede ser muy
+    molesto. Así que, si necesitas sentarte de brazos cruzados, coger una copa, coger un papel o hacer algo que te ayude a calmar los nervios, un buen entrevistador reconocerá
+    que estás nervioso y te ayudará. Así que no dejes que los nervios se apoderen de ti. También es importante que pienses en cómo dices las cosas y en lo que haces, así que
+    piensa en el tono de voz. Piensa en lo que haces con las manos. Hablo mucho con las manos, así que actualmente las tengo cruzadas delante de mí y hago todo lo que puedo para
+    no arrojarlas delante de la cámara, pero piensa en cómo hablas en una entrevista y en cómo te expresas en cosas como el lenguaje corporal es muy importante. Te quedaste
+    recostado, sin mucho interés, o te quedaste sentado de frente, reflejando el lenguaje corporal y los comportamientos de la persona que te estaba entrevistando."

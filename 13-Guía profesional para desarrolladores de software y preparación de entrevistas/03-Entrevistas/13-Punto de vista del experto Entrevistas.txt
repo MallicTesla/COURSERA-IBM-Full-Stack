@@ -1,0 +1,45 @@
+"Bienvenido a Puntos de vista de expertos: Entrevistas. En este vídeo, le hablaremos de los tipos de preguntas que debe hacer un candidato y de las preguntas de comportamiento
+    con las que puede encontrarse un candidato.
+
+En lo que respecta a las preguntas que hará durante la entrevista, en primer lugar, aclaremos que es importante que haga algunas preguntas. No queda muy bien que yo diga:
+    "¿Tiene alguna pregunta para nosotros?" y usted contesta "No, estoy bien", no da la impresión de que esté muy interesado en el trabajo, o muy implicado, así que tener
+    algunas preguntas preparadas que le guste hacer es un buen enfoque en mi opinión y le sugeriría que mantuviera las preguntas orientadas hacia el trabajo, quizás la
+    experiencia del entrevistador, así que a menudo me preguntarán cosas como "¿Qué le parece trabajar en IBM?" o "¿Trabajó en IBM durante 15 años? ¿Qué le mantuvo allí?" son
+    preguntas que básicamente muestran que se quiere tener una mejor idea de cómo es la experiencia de trabajar allí, cómo es trabajar para esa empresa, o para ese equipo en
+    particular. Así que, hacer preguntas sobre el equipo o sobre otros miembros del equipo. Y otra pregunta habitual es pedir un desglose de cómo es el día a día como
+    desarrollador en el equipo. Como, ¿cómo funciona, qué aspecto tiene? Así que ese tipo de preguntas son todas apropiadas.
+
+Uhm, quiero decir que hay un montón de preguntas inapropiadas. No sé qué tipo de ejemplos puedo poner en vídeo pero use su mejor criterio. Obviamente no haga preguntas demasiado
+    personales o no. Algunos ya saben, no haga preguntas que puedan irritar claramente a alguien como no haga preguntas que sean intencionadamente conflictivas.
+
+Pero exprese su curiosidad. Sí haga preguntas relacionadas con el trabajo, con el entrevistador, con el equipo, con la experiencia de trabajar allí, con la experiencia en
+    general. Obviamente, puede preguntar sobre cosas como la ubicación, el tiempo y ese tipo de cosas, pero en general no se centre demasiado en preguntas que claramente dejan
+    claro que está más interesado en recibir que en dar, ¿verdad? Así que quiere encontrar un equilibrio. Así que puede hacer algunas de esas preguntas, pero no haga todas las
+    preguntas sobre ¿Qué tipo de prestaciones tengo? ¿Cómo son las vacaciones? ¿Cómo funciona la baja por enfermedad? Ya sabe, todas esas cosas no se centre demasiado en ellas
+    porque podrían enviar un mensaje equivocado. Son preguntas legítimas, pero quizá no la primera pregunta que debería hacer.
+
+Es realmente importante que haga preguntas también durante una entrevista. No sólo demuestra al entrevistador que tiene ganas y que está interesado, sino que las entrevistas son
+    un proceso bidireccional. No se trata sólo de que la empresa te elija a ti, sino de que tú también elijas a la empresa. Así que tiene que salir de esa entrevista o de esa
+    serie de entrevistas sabiendo si esa es la empresa o si no es la empresa para usted, algunas preguntas realmente buenas para hacerle "¿Qué aspecto tiene el éxito en los seis
+    primeros meses de este puesto?" "¿Por qué la persona anterior dejó este puesto?" En el lado opuesto, por favor, no haga preguntas como "¿Cuál es la política de enfermedad de
+    su empresa?" "¿Cuántos días de vacaciones anuales puedo coger?" Estas son preguntas que me han hecho en mis años de entrevistas y uno se pregunta de dónde vienen. Pueden ser
+    importantes, pero no es la mejor primera impresión que se puede dar.
+
+La mayoría de las personas que entrevistan a desarrolladores de software también harán preguntas de comportamiento Podemos hacerlo en la segunda entrevista de habilidades
+    blandas, a diferencia de la primera. Pero las preguntas de comportamiento que puede esperar son cosas... Hay algunas preguntas clásicas que casi todos los entrevistadores
+    hacen. Le preguntarán sobre una situación en la que tuvo problemas con un determinado problema, y no pudo salir de ella. ¿Qué haría en esta situación? O, si tuviera un
+    conflicto con el colega, ¿cómo lo resolvería? Hay una serie y puede buscarlas en Google, de verdad. Puede ir literalmente y buscar preguntas de comportamiento, preguntas de
+    entrevista, y ver cuáles son algunas de las respuestas sugeridas. Pero en general, yo diría que simplemente sea usted mismo. Sea fiel a sí mismo. Diga la verdad. Di que
+    tuviste un conflicto. Di cómo resolviste ese conflicto. No es algo para lo que debas prepararte demasiado en mi opinión. Creo que si eres honesto y simplemente no les das la
+    respuesta que crees que esperan oír de ti. En su lugar, ya sabe, diga cómo es, cómo se comportó realmente. Será más genuino y creo que apreciarán la honestidad.
+
+No obstante, si quiere prepararse para ello, sí que puede buscar. Hay una serie de preguntas de comportamiento muy comunes que hacen la mayoría de los entrevistadores, y hay
+    algunas sugerencias de respuestas que suelen considerarse buenas respuestas, pero de nuevo, sé tú mismo nunca, nunca seas otra persona. Nunca finja ser otra persona sólo con
+    el propósito de intentar conseguir un trabajo. Personalmente, intento hacer preguntas de comportamiento sólo cuando trato de aclarar ciertas cosas, como si tengo la
+    corazonada de que el candidato tal vez tiene algunos problemas para trabajar en equipo. Por ejemplo, si son muy individualistas si están muy centrados en trabajar por su
+    cuenta, lo cual puede ser un buen rasgo, es bueno tener recursos y ser capaz de trabajar por tu cuenta, pero en un equipo, es importante ser capaz de trabajar con los demás.
+
+Y, así que si de alguna manera me da la impresión de que la persona no será un buen jugador de equipo, puedo preguntarle un poco, sondearle con preguntas sobre su comportamiento
+    en ciertas circunstancias en las que tener habilidades para trabajar en equipo sería beneficioso sólo para ver que no me estoy llevando una impresión equivocada sobre el
+    candidato. Así que, en general, no hago simplemente un montón de preguntas sobre comportamiento. Tiendo a adaptarlas para afinar y entender mejor de qué tratan los
+    candidatos como si supiera que si noto algo en el candidato, algo me preocupa un poco, le haré preguntas o específicas sobre esa cuestión."
